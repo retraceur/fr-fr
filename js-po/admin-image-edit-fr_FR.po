@@ -1,0 +1,35 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-27T10:19:23+00:00\n"
+"PO-Revision-Date: 2024-12-29 17:09+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: wp-admin/js/image-edit.js:628
+msgid "Image updated."
+msgstr "Image mise à jour."
+
+#: wp-admin/js/image-edit.js:634
+msgid "Could not load the preview image. Please reload the page and try again."
+msgstr ""
+"L’aperçu de l’image n’a pas été possible. Merci de rafraîchir la page et "
+"d’essayer à nouveau."
+
+#: wp-admin/js/image-edit.js:843
+msgid "Could not load the preview image."
+msgstr "L’aperçu de l’image n’a pas été possible."
+
+#: wp-admin/js/image-edit.js:1475
+msgid ""
+"Selected crop ratio exceeds the boundaries of the image. Try a different "
+"ratio."
+msgstr ""
+"Le ratio de recadrage dépasse les bords de l’image. Merci d’essayer avec un "
+"autre ratio."

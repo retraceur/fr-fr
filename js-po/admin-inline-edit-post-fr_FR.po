@@ -1,0 +1,47 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-27T10:19:24+00:00\n"
+"PO-Revision-Date: 2024-12-29 17:13+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: wp-admin/js/inline-edit-post.js:218
+msgid "(no title)"
+msgstr "(sans titre) "
+
+#. translators: %s: Post title.
+#: wp-admin/js/inline-edit-post.js:221
+msgid "Remove &#8220;%s&#8221; from Bulk Edit"
+msgstr "Retirer « %s » des modifications de masse"
+
+#: wp-admin/js/inline-edit-post.js:261
+msgid "Some selected posts have this category"
+msgstr "Certains articles sélectionnés ont cette catégorie"
+
+#: wp-admin/js/inline-edit-post.js:289
+msgid "Item removed."
+msgstr "Elément retiré."
+
+#: wp-admin/js/inline-edit-post.js:299
+msgid "All selected items have been removed. Select new items to use Bulk Actions."
+msgstr "Tous les éléments sélectionnés ont été retirés. Sélectionner de nouveaux éléments pour utiliser ces actions de masse."
+
+#: wp-admin/js/inline-edit-post.js:408
+msgctxt "tag delimiter"
+msgid ","
+msgstr ","
+
+#: wp-admin/js/inline-edit-post.js:521
+msgid "Changes saved."
+msgstr "Changements sauvegardés."
+
+#: wp-admin/js/inline-edit-post.js:531 wp-admin/js/inline-edit-post.js:532
+msgid "Error while saving the changes."
+msgstr "Une erreur est apparue lors de la sauvegarde des modifications."
