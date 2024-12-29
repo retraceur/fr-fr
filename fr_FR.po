@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Retraceur - 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29T11:55:49+00:00\n"
-"PO-Revision-Date: 2024-12-29 15:31+0100\n"
+"POT-Creation-Date: 2024-12-29T15:44:26+00:00\n"
+"PO-Revision-Date: 2024-12-29 16:45+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -15,7 +15,26 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Poedit 3.4.4\n"
 
+#: wp-activate.php:26 wp-includes/deprecated.php:15851
+#: wp-includes/deprecated.php:15885 wp-includes/deprecated.php:15925
+#: wp-includes/deprecated.php:15970 wp-includes/deprecated.php:16021
+#: wp-includes/deprecated.php:16038 wp-includes/deprecated.php:16090
+#: wp-includes/deprecated.php:16125 wp-includes/deprecated.php:16164
+#: wp-includes/deprecated.php:16230 wp-includes/deprecated.php:16297
+msgid "WP Multisite feature is not supported in Retraceur."
+msgstr "La fonctionnalité Multisite n’est pas supportée par Retraceur."
+
 #: wp-activate.php:30
+msgid "Retraceur does not provide the Multisite feature by default."
+msgstr "Retraceur ne fournit pas la fonctionnalité Multisite par défaut."
+
+#: wp-activate.php:31
+msgid "Please download and install the « Retraceur Réseau » add-on."
+msgstr ""
+"Merci de télécharger et d’activer le module complémentaire « Retraceur "
+"Réseau »."
+
+#: wp-content/plugins/reseau/wp-activate.php:30
 msgid ""
 "A key value mismatch has been detected. Please follow the link provided in "
 "your activation email."
@@ -23,28 +42,30 @@ msgstr ""
 "Une incohérence de valeur de clé a été détectée. Merci de suivre le lien "
 "fourni dans le courriel d’activation."
 
-#: wp-activate.php:30 wp-activate.php:171
+#: wp-content/plugins/reseau/wp-activate.php:30
+#: wp-content/plugins/reseau/wp-activate.php:171
 msgid "An error occurred during the activation"
 msgstr "Une erreur s’est produite lors de l’activation."
 
-#: wp-activate.php:130
+#: wp-content/plugins/reseau/wp-activate.php:130
 msgid "Activation Key Required"
 msgstr "Clé d’activation requise"
 
-#: wp-activate.php:133
+#: wp-content/plugins/reseau/wp-activate.php:133
 msgid "Activation Key:"
 msgstr "Clé d’activation :"
 
-#: wp-activate.php:137
+#: wp-content/plugins/reseau/wp-activate.php:137
 msgid "Activate"
 msgstr "Activer"
 
-#: wp-activate.php:146 wp-activate.php:180
+#: wp-content/plugins/reseau/wp-activate.php:146
+#: wp-content/plugins/reseau/wp-activate.php:180
 msgid "Your account is now active!"
 msgstr "Votre compte est maintenant activé !"
 
 #. translators: 1: Login URL, 2: Username, 3: User email address, 4: Lost password URL.
-#: wp-activate.php:152
+#: wp-content/plugins/reseau/wp-activate.php:152
 msgid ""
 "Your account has been activated. You may now <a href=\"%1$s\">log in</a> to "
 "the site using your chosen username of &#8220;%2$s&#8221;. Please check your "
@@ -63,7 +84,7 @@ msgstr ""
 "votre mot de passe</a>."
 
 #. translators: 1: Site URL, 2: Username, 3: User email address, 4: Lost password URL.
-#: wp-activate.php:161
+#: wp-content/plugins/reseau/wp-activate.php:161
 msgid ""
 "Your site at %1$s is active. You may now log in to your site using your "
 "chosen username of &#8220;%2$s&#8221;. Please check your email inbox at %3$s "
@@ -79,16 +100,17 @@ msgstr ""
 "messagerie. Si vous ne recevez pas votre mot de passe dans moins d’une "
 "heure, vous pouvez <a href=\"%4$s\">réinitialiser votre mot de passe</a>."
 
-#: wp-activate.php:183
+#: wp-content/plugins/reseau/wp-activate.php:183
 msgid "Username:"
 msgstr "Nom d’utilisateur·ice :"
 
-#: wp-activate.php:184 wp-includes/post-template.php:1769
+#: wp-content/plugins/reseau/wp-activate.php:184
+#: wp-includes/post-template.php:1769
 msgid "Password:"
 msgstr "Mot de passe :"
 
 #. translators: 1: Site URL, 2: Login URL.
-#: wp-activate.php:196
+#: wp-content/plugins/reseau/wp-activate.php:196
 msgid ""
 "Your account is now activated. <a href=\"%1$s\">View your site</a> or <a "
 "href=\"%2$s\">Log in</a>"
@@ -97,7 +119,7 @@ msgstr ""
 "a> ou <a href=\"%2$s\">connectez-vous</a>"
 
 #. translators: 1: Login URL, 2: Network home URL.
-#: wp-activate.php:204
+#: wp-content/plugins/reseau/wp-activate.php:204
 msgid ""
 "Your account is now activated. <a href=\"%1$s\">Log in</a> or go back to the "
 "<a href=\"%2$s\">homepage</a>."
