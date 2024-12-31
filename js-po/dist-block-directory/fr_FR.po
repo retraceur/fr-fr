@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-27T10:19:45+00:00\n"
+"PO-Revision-Date: 2024-12-31 17:00+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: wp-includes/js/dist/block-directory.js:568
+msgid "Error registering block. Try reloading the page."
+msgstr ""
+"Erreur lors de la mise en registre du bloc. Merci d’essayer un "
+"rechargement de la page."
+
+#. translators: %s is the block title.
+#: wp-includes/js/dist/block-directory.js:572
+msgid "Block %s installed and added."
+msgstr "Le bloc %s a été installé et ajouté."
+
+#: wp-includes/js/dist/block-directory.js:578
+#: wp-includes/js/dist/block-directory.js:626
+msgid "An error occurred."
+msgstr "Une erreur est apparue."
+
+#: wp-includes/js/dist/block-directory.js:585
+msgid "This block is already installed. Try reloading the page."
+msgstr ""
+"Ce bloc est déjà installé. Merci d’essayer un rechargement de la page."
+
+#: wp-includes/js/dist/block-directory.js:586
+msgid "Error installing block. You can reload the page and try again."
+msgstr ""
+"Erreur lors de l’installation du bloc. Vous pouvez recharger la page et "
+"essayer à nouveau."
+
+#. translators: %s: number of stars.
+#: wp-includes/js/dist/block-directory.js:1426
+msgid "%s out of 5 stars"
+msgstr "%s sur 5 étoiles"
+
+#: wp-includes/js/dist/block-directory.js:1512
+msgid "Try reloading the page."
+msgstr "Merci d’essayer un rechargement de la page."
+
+#. translators: 1: block title, 2: average rating, 3: total ratings count.
+#: wp-includes/js/dist/block-directory.js:1575
+msgid "Install %1$s. %2$s stars with %3$s review."
+msgid_plural "Install %1$s. %2$s stars with %3$s reviews."
+msgstr[0] "Installer %1$s. %2$s étoiles with %3$s revue"
+msgstr[1] "Installer %1$s. %2$s étoiles with %3$s revues"
+
+#: wp-includes/js/dist/block-directory.js:1609
+msgid "Installed!"
+msgstr "Installé !"
+
+#: wp-includes/js/dist/block-directory.js:1611
+msgid "Installing…"
+msgstr "Installation en cours…"
+
+#. translators: 1: block title. 2: author name.
+#: wp-includes/js/dist/block-directory.js:1648
+msgid "%1$s <span>by %2$s</span>"
+msgstr "%1$s <span>par %2$s</span>"
+
+#: wp-includes/js/dist/block-directory.js:1660
+msgid "Install block"
+msgstr "Installer le bloc"
+
+#: wp-includes/js/dist/block-directory.js:1699
+msgid "Blocks available for install"
+msgstr "Blocs disponibles pour installation"
+
+#. translators: %d: number of available blocks.
+#: wp-includes/js/dist/block-directory.js:1745
+msgid "%d additional block is available to install."
+msgid_plural "%d additional blocks are available to install."
+msgstr[0] "%d bloc additionnel est disponible à l’installation."
+msgstr[1] "%d blocs additionnels sont disponibles à l’installation."
+
+#: wp-includes/js/dist/block-directory.js:1750
+#: wp-includes/js/dist/block-directory.js:1889
+msgid "No results available from your installed blocks."
+msgstr "Aucun résultat n’est disponible dans vos blocs installés."
+
+#: wp-includes/js/dist/block-directory.js:1759
+msgid "Available to install"
+msgstr "Disponible à l’installation"
+
+#: wp-includes/js/dist/block-directory.js:1762
+msgid "Select a block to install and add it to your post."
+msgstr "Sélectionner un bloc à installer et l’ajouter à votre contenu."
+
+#: wp-includes/js/dist/block-directory.js:1803
+msgid "No results found."
+msgstr "Aucun résultat n’a été trouvé."
+
+#. translators: %s: Name of the block author.
+#: wp-includes/js/dist/block-directory.js:1998
+msgid "By %s"
+msgstr "Par %s"
+
+#. translators: %d: number of blocks (number).
+#: wp-includes/js/dist/block-directory.js:2030
+msgid "Added: %d block"
+msgid_plural "Added: %d blocks"
+msgstr[0] "Ajouté : %d bloc"
+msgstr[1] "Ajoutés : %d blocs"
+
+#: wp-includes/js/dist/block-directory.js:2034
+msgid "The following block has been added to your site."
+msgid_plural "The following blocks have been added to your site."
+msgstr[0] "Le bloc suivant a été ajouté à votre site."
+msgstr[1] "Les blocs suivants ont été ajoutés à votre site."
+
+#. translators: %s: block name
+#: wp-includes/js/dist/block-directory.js:2084
+msgid "Install %s"
+msgstr "Installer %s"
+
+#. translators: %s: block name
+#: wp-includes/js/dist/block-directory.js:2166
+msgid ""
+"Your site doesn’t include support for the %s block. You can try installing "
+"the block or remove it entirely."
+msgstr ""
+"Votre site n’intègre pas le support du bloc %s. Vous pouvez essayer de "
+"l’installer ou le retirer complètement."
+
+#. translators: %s: block name
+#: wp-includes/js/dist/block-directory.js:2174
+msgid ""
+"Your site doesn’t include support for the %s block. You can try installing "
+"the block, convert it to a Custom HTML block, or remove it entirely."
+msgstr ""
+"Votre site n’intègre pas le support du bloc %s. Vous pouvez essayer de "
+"l’installer, de le convertir en bloc HTML personnalisé, ou le retirer "
+"complètement."
+
+#: wp-includes/js/dist/block-directory.js:2179
+msgid "Keep as HTML"
+msgstr "Garder comme HTML"
