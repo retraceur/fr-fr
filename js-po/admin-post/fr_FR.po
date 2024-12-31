@@ -1,0 +1,107 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-27T10:19:27+00:00\n"
+"PO-Revision-Date: 2024-12-31 14:41+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: wp-admin/js/post.js:112
+msgid "Could not set that as the thumbnail image. Try a different attachment."
+msgstr "Impossible d’utiliser cet élément comme miniature. Essayez un autre fichier attaché."
+
+#: wp-admin/js/post.js:425
+msgid "Saving Draft…"
+msgstr "Sauvegarde du brouillon.."
+
+#: wp-admin/js/post.js:452
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr "Les changements effectués seront perdus si vous quittez cette page."
+
+#: wp-admin/js/post.js:735
+msgid "Schedule for:"
+msgstr "Planifier pour :"
+
+#: wp-admin/js/post.js:736
+msgctxt "post action/button label"
+msgid "Schedule"
+msgstr "Planifier"
+
+#: wp-admin/js/post.js:738
+msgid "Publish on:"
+msgstr "Publier le :"
+
+#: wp-admin/js/post.js:739
+msgid "Publish"
+msgstr "Publier"
+
+#: wp-admin/js/post.js:741
+msgid "Published on:"
+msgstr "Publié le :"
+
+#: wp-admin/js/post.js:742 wp-admin/js/post.js:765
+msgid "Update"
+msgstr "Mettre à jour"
+
+#. translators: 1: Month, 2: Day, 3: Year, 4: Hour, 5: Minute.
+#: wp-admin/js/post.js:753
+msgid "%1$s %2$s, %3$s at %4$s:%5$s"
+msgstr "%1$s %2$s, %3$s à %4$s:%5$s"
+
+#: wp-admin/js/post.js:767 wp-admin/js/post.js:769
+msgid "Privately Published"
+msgstr "Publié en privé"
+
+#: wp-admin/js/post.js:780
+msgid "Published"
+msgstr "Publié"
+
+#: wp-admin/js/post.js:801
+msgid "Save as Pending"
+msgstr "Mettre à relire"
+
+#: wp-admin/js/post.js:803
+msgid "Save Draft"
+msgstr "Enregistrer en brouillon"
+
+#: wp-admin/js/post.js:847
+msgid "Public, Sticky"
+msgstr "Public, épinglé"
+
+#: wp-admin/js/post.js:847
+msgid "Public"
+msgstr "Public"
+
+#: wp-admin/js/post.js:850
+msgid "Private"
+msgstr "Privé"
+
+#: wp-admin/js/post.js:853
+msgid "Password Protected"
+msgstr "Protéger avec un mot de passe"
+
+#: wp-admin/js/post.js:971
+msgid "OK"
+msgstr "OK"
+
+#: wp-admin/js/post.js:972
+msgid "Cancel"
+msgstr "Annuler"
+
+#: wp-admin/js/post.js:1006
+msgid "Permalink saved"
+msgstr "Lien permanent enregistré"
+
+#: wp-admin/js/post.js:1027
+msgid "URL Slug"
+msgstr "Portion d’URL"
+
+#: wp-admin/js/post.js:1259
+msgid "The file URL has been copied to your clipboard"
+msgstr "L’URL du fichier a été copiée dans votre presse papier"
