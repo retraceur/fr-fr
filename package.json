@@ -1,0 +1,23 @@
+{
+  "name": "fr-fr",
+  "version": "1.0.0",
+  "description": "French translation files for Retraceur",
+  "main": "index.js",
+  "scripts": {
+    "makejson": "./tools/makejson.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/retraceur/fr-fr.git"
+  },
+  "keywords": [
+    "retraceur-language",
+    "french"
+  ],
+  "author": "imath",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/retraceur/fr-fr/issues"
+  },
+  "homepage": "https://github.com/retraceur/fr-fr#readme"
+}
