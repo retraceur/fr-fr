@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Retraceur - 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-29T15:44:26+00:00\n"
-"PO-Revision-Date: 2024-12-29 16:45+0100\n"
+"PO-Revision-Date: 2024-12-31 20:42+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -644,7 +644,7 @@ msgid ""
 "General templates often perform a specific role like displaying post "
 "content, and are not tied to any particular area."
 msgstr ""
-"Les modèles généraux répondent souvent à des rôles spécifiques, tels que "
+"Les gabarits généraux répondent souvent à des rôles spécifiques, tels que "
 "l’affichage du contenu de la publication, et ne sont pas forcément liés à "
 "une zone particulière."
 
@@ -658,7 +658,7 @@ msgid ""
 "The Header template defines a page area that typically contains a title, "
 "logo, and main navigation."
 msgstr ""
-"Le modèle d’entête définit une zone de page qui contient typiquement un "
+"Le gabarit d’entête définit une zone de page qui contient typiquement un "
 "titre, un logo, ainsi que la navigation principale."
 
 #: wp-includes/block-template-utils.php:95
@@ -671,7 +671,7 @@ msgid ""
 "The Footer template defines a page area that typically contains site "
 "credits, social links, or any other combination of blocks."
 msgstr ""
-"Le modèle de pied de page définit une zone de page qui contient typiquement "
+"Le gabarit de pied de page définit une zone de page qui contient typiquement "
 "les crédits du site, des liens de réseaux sociaux, et tout autre combinaison "
 "de blocs."
 
@@ -685,7 +685,7 @@ msgid ""
 "Used as a fallback template for all pages when a more specific template is "
 "not defined."
 msgstr ""
-"Utilisé comme modèle par défaut pour toutes les pages lorsque aucun modèle "
+"Utilisé comme gabarit par défaut pour toutes les pages lorsque aucun gabarit "
 "plus précis n’a été défini."
 
 #: wp-includes/block-template-utils.php:151
@@ -700,9 +700,9 @@ msgid ""
 "template overrides this template when posts are shown on the homepage."
 msgstr ""
 "Affiche les derniers articles sur la page définie comme étant votre page "
-"d’accueil du blog dans les réglages de lecture. S’il existe, le modèle de "
-"page d’accueil prend le pas sur ce modèle lorsque les articles sont affichés "
-"sur la page d’accueil."
+"d’accueil du blog dans les réglages de lecture. S’il existe, le gabarit de "
+"page d’accueil prend le pas sur ce gabarit lorsque les articles sont "
+"affichés sur la page d’accueil."
 
 #: wp-includes/block-template-utils.php:155
 msgctxt "Template name"
@@ -715,8 +715,8 @@ msgid ""
 "a static page. The Front Page template takes precedence over all templates."
 msgstr ""
 "Affiche la page d’accueil de votre site, que celle-ci soit paramétrée pour "
-"afficher les derniers articles ou une page statique. Le modèle de page "
-"d’accueil prend le pas sur tous les autres modèles."
+"afficher les derniers articles ou une page statique. Le gabarit de page "
+"d’accueil prend le pas sur tous les autres gabarits."
 
 #: wp-includes/block-template-utils.php:159
 msgctxt "Template name"
@@ -730,8 +730,8 @@ msgid ""
 "or Attachment) cannot be found."
 msgstr ""
 "Affiche n’importe quelle publication, comme un article ou une page. Ce "
-"modèle servira de solution de repli si aucun modèle plus spécifique (comme "
-"le modèle des publications, des pages ou des fichiers média) n’a été trouvé."
+"gabarit servira de solution de repli si aucun gabarit plus spécifique (comme "
+"le gabarit des publications, des pages ou des fichiers média) n’a été trouvé."
 
 #: wp-includes/block-template-utils.php:163
 msgctxt "Template name"
@@ -743,8 +743,8 @@ msgid ""
 "Displays a single post on your website unless a custom template has been "
 "applied to that post or a dedicated template exists."
 msgstr ""
-"Affiche une publication unique sur votre site à moins qu’un modèle "
-"personnalisé ait été appliqué à cette publication ou qu’un modèle dédié "
+"Affiche une publication unique sur votre site à moins qu’un gabarit "
+"personnalisé ait été appliqué à cette publication ou qu’un gabarit dédié "
 "n’existe."
 
 #: wp-includes/block-template-utils.php:167
@@ -757,8 +757,8 @@ msgid ""
 "Displays a static page unless a custom template has been applied to that "
 "page or a dedicated template exists."
 msgstr ""
-"Affiche une page statique à moins qu’un modèle personnalisé ait été appliqué "
-"à cette page ou qu’un modèle dédié n’existe."
+"Affiche une page statique à moins qu’un gabarit personnalisé ait été "
+"appliqué à cette page ou qu’un gabarit dédié n’existe."
 
 #: wp-includes/block-template-utils.php:171
 msgctxt "Template name"
@@ -772,24 +772,24 @@ msgid ""
 "when more specific templates (e.g. Category or Tag) cannot be found."
 msgstr ""
 "Affiche n’importe quel type d’archive, incluant les archives de publications "
-"d’un auteur ou d’une autrice, d’une catégorie, d’une étiquette, d’une "
-"taxonomie, d’un type de publications personnalisé ou encore d’une date. Ce "
-"modèle servira de solution de repli si aucun modèle plus spécifique (comme "
-"l’archive des catégories ou des étiquettes) ne peut être trouvé."
+"d’un auteur·ice, d’une catégorie, d’une étiquette, d’une taxonomie, d’un "
+"type de publications personnalisé ou encore d’une date. Ce gabarit servira "
+"de solution de repli si aucun gabarit plus spécifique (comme l’archive des "
+"catégories ou des étiquettes) ne peut être trouvé."
 
 #: wp-includes/block-template-utils.php:175
 msgctxt "Template name"
 msgid "Author Archives"
-msgstr "Archives des auteurs/autrices"
+msgstr "Archives des auteur·ice·s"
 
 #: wp-includes/block-template-utils.php:176
 msgid ""
 "Displays a single author's post archive. This template will serve as a "
 "fallback when a more specific template (e.g. Author: Admin) cannot be found."
 msgstr ""
-"Affiche l’archive des publications liées à un auteur ou une autrice. Ce "
-"modèle servira de solution de repli si aucun modèle plus spécifique "
-"(par ex. : « Auteur/autrice : Françoise ») ne peut être trouvé."
+"Affiche l’archive des publications liées à un·e auteur·ice. Ce gabarit "
+"servira de solution de repli si aucun gabarit plus spécifique (par ex. : "
+"« Auteur·rice : Françoise ») ne peut être trouvé."
 
 #: wp-includes/block-template-utils.php:179
 msgctxt "Template name"
@@ -801,8 +801,8 @@ msgid ""
 "Displays a post category archive. This template will serve as a fallback "
 "when a more specific template (e.g. Category: Recipes) cannot be found."
 msgstr ""
-"Affiche l’archive des publications liées à une catégorie. Ce modèle servira "
-"de solution de repli si aucun modèle plus spécifique (par ex. : "
+"Affiche l’archive des publications liées à une catégorie. Ce gabarit servira "
+"de solution de repli si aucun gabarit plus spécifique (par ex. : "
 "« Catégorie : Recettes ») ne peut être trouvé."
 
 #: wp-includes/block-template-utils.php:183
@@ -820,8 +820,8 @@ msgid ""
 msgstr ""
 "Affiche l’archive des publications d’une taxonomie personnalisée. Tout comme "
 "les catégories et les étiquettes, les taxonomies personnalisées disposent de "
-"termes que vous pouvez utiliser pour classifier vos publications. Ce modèle "
-"servira de solution de repli si aucun modèle plus spécifique (par ex. "
+"termes que vous pouvez utiliser pour classifier vos publications. Ce gabarit "
+"servira de solution de repli si aucun gabarit plus spécifique (par ex. "
 "« Taxonomie : Art ») ne peut être trouvé."
 
 #: wp-includes/block-template-utils.php:187
@@ -847,8 +847,8 @@ msgid ""
 "Displays a post tag archive. This template will serve as a fallback when a "
 "more specific template (e.g. Tag: Pizza) cannot be found."
 msgstr ""
-"Affiche l’archive des publications liées à une étiquette. Ce modèle servira "
-"de solution de repli si aucun modèle plus spécifique (par ex. : "
+"Affiche l’archive des publications liées à une étiquette. Ce gabarit servira "
+"de solution de repli si aucun gabarit plus spécifique (par ex. : "
 "« Étiquette : Pizza ») ne peut être trouvé."
 
 #: wp-includes/block-template-utils.php:195
@@ -918,7 +918,7 @@ msgstr "%1$s : %2$s"
 #: wp-includes/block-template-utils.php:779
 #: wp-includes/block-template-utils.php:953
 msgid "Template for %s"
-msgstr "Modèle pour %s"
+msgstr "Gabarit pour %s"
 
 #. translators: 1: Template title, 2: Template slug.
 #: wp-includes/block-template-utils.php:717
@@ -930,17 +930,17 @@ msgstr "%1$s (%2$s)"
 #: wp-includes/block-template-utils.php:822
 #: wp-includes/block-template-utils.php:890
 msgid "No theme is defined for this template."
-msgstr "Aucun thème n’est défini pour ce modèle."
+msgstr "Aucun thème n’est défini pour ce gabarit."
 
 #. translators: Custom template title in the Site Editor, referencing a deleted author. %s: Author nicename.
 #: wp-includes/block-template-utils.php:939
 msgid "Deleted author: %s"
-msgstr "Auteur/autrice supprimé·e : %s"
+msgstr "Auteur·ice supprimé·e : %s"
 
 #. translators: Custom template title in the Site Editor. %s: Author name.
 #: wp-includes/block-template-utils.php:947
 msgid "Author: %s"
-msgstr "Auteur/autrice : %s"
+msgstr "Auteur·ice : %s"
 
 #: wp-includes/block-template-utils.php:1416
 msgid "Zip Export not supported."
@@ -953,15 +953,15 @@ msgstr "Impossible d’ouvrir le fichier (archive) d’exportation en écriture.
 #. translators: %s: Template title
 #: wp-includes/block-template.php:79
 msgid "Empty template: %s"
-msgstr "Modèle vide : %s"
+msgstr "Gabarit vide : %s"
 
 #: wp-includes/block-template.php:95
 msgid "No matching template found."
-msgstr "Aucun modèle correspondant trouvé."
+msgstr "Aucun gabarit correspondant trouvé."
 
 #: wp-includes/block-template.php:227
 msgid "No matching template found"
-msgstr "Aucun modèle correspondant trouvé"
+msgstr "Aucun gabarit correspondant trouvé"
 
 #: wp-includes/blocks.php:686
 msgid "Cannot hook block to itself."
@@ -1013,7 +1013,7 @@ msgstr "Image de profil de %s"
 #. translators: %s is the Author name.
 #: wp-includes/blocks/avatar.php:66
 msgid "(%s author archive, opens in a new tab)"
-msgstr "(Archive de l’auteur/autrice %s, s’ouvre dans un nouvel onglet)"
+msgstr "(Archive de l’auteur·ice %s, s’ouvre dans un nouvel onglet)"
 
 #. translators: Visible only in the front end, this warning takes the place of a faulty block.
 #: wp-includes/blocks/block.php:40 wp-includes/blocks/post-content.php:36
@@ -1255,7 +1255,7 @@ msgstr "Il n’y a aucun contenu à afficher ici pour l’instant."
 #. translators: %s: Template part slug.
 #: wp-includes/blocks/template-part.php:122
 msgid "Template part has been deleted or is unavailable: %s"
-msgstr "L’élément de modèle a été supprimé ou n’est pas disponible : %s"
+msgstr "La portion de gabarit a été supprimée ou n’est pas disponible : %s"
 
 #: wp-includes/cache-compat.php:144
 msgid ""
@@ -1557,30 +1557,30 @@ msgstr "Le bloc « %1$s » ne contient pas de style nommé « %2$s »."
 
 #: wp-includes/class-wp-block-templates-registry.php:50
 msgid "Template names must be strings."
-msgstr "Les noms de modèles doivent être des chaînes."
+msgstr "Les noms de gabarits doivent être des chaînes."
 
 #: wp-includes/class-wp-block-templates-registry.php:53
 msgid "Template names must not contain uppercase characters."
-msgstr "Les noms de modèles ne peuvent pas contenir de caractère majuscule."
+msgstr "Les noms de gabarits ne peuvent pas contenir de caractère majuscule."
 
 #: wp-includes/class-wp-block-templates-registry.php:56
 msgid ""
 "Template names must contain a namespace prefix. Example: my-plugin//my-"
 "custom-template"
 msgstr ""
-"Les noms de modèles doivent contenir un préfixe constitué d’un espace de "
-"nom. Exemple : mon-extension//mon-modele-personnalise"
+"Les noms de gabarits doivent contenir un préfixe constitué d’un espace de "
+"nom. Exemple : mon-extension//mon-gabarit-personnalise"
 
 #. translators: %s: Template name.
 #: wp-includes/class-wp-block-templates-registry.php:60
 msgid "Template \"%s\" is already registered."
-msgstr "Le modèle « %s » est déjà enregistré."
+msgstr "Le gabarit « %s » est déjà enregistré."
 
 #. translators: %s: Template name.
 #: wp-includes/class-wp-block-templates-registry.php:229
 #: wp-includes/class-wp-block-templates-registry.php:233
 msgid "Template \"%s\" is not registered."
-msgstr "Le modèle « %s » n’est pas enregistré."
+msgstr "Le gabarit « %s » n’est pas enregistré."
 
 #: wp-includes/class-wp-block-type-registry.php:60
 msgid "Block type names must be strings."
@@ -2298,7 +2298,7 @@ msgstr ""
 #: wp-includes/class-wp-plugin-dependencies.php:433
 msgid "Please contact the plugin authors for more information."
 msgstr ""
-"Veuillez contacter l’auteur/autrice de l’extension pour plus d’informations."
+"Veuillez contacter l’auteur·ice de l’extension pour plus d’informations."
 
 #: wp-includes/class-wp-plugin-dependencies.php:457
 msgid "No plugin specified."
@@ -4185,7 +4185,7 @@ msgstr "o"
 
 #: wp-includes/functions.php:1436
 msgid "<strong>Error:</strong> This is not a valid feed template."
-msgstr "<strong>Erreur :</strong> ce n’est pas un modèle de flux valide."
+msgstr "<strong>Erreur :</strong> ce n’est pas un gabarit de flux valide."
 
 #. translators: %s: Database repair URL.
 #: wp-includes/functions.php:1646
@@ -4635,7 +4635,7 @@ msgstr "Étiquette :"
 #: wp-includes/general-template.php:1719
 msgctxt "author archive title prefix"
 msgid "Author:"
-msgstr "Auteur/autrice :"
+msgstr "Auteur·ice :"
 
 #: wp-includes/general-template.php:1723
 msgctxt "date archive title prefix"
@@ -5753,7 +5753,7 @@ msgstr "Aucun éditeur n’a pas pu être sélectionné."
 
 #: wp-includes/media.php:4519
 msgid "(no author)"
-msgstr "(aucun auteur ou autrice)"
+msgstr "(aucun auteur·ice)"
 
 #: wp-includes/media.php:4919 wp-includes/media.php:5605
 msgid "Media"
@@ -6545,7 +6545,7 @@ msgstr "Retour oEmbed"
 
 #: wp-includes/post.php:230
 msgid "User Requests"
-msgstr "Demandes utilisateur/utilisatrice"
+msgstr "Demandes utilisateur·ice"
 
 #: wp-includes/post.php:231
 msgid "User Request"
@@ -6632,158 +6632,158 @@ msgstr "Composition mise à jour."
 #: wp-includes/post.php:314
 msgctxt "post type general name"
 msgid "Templates"
-msgstr "Modèles"
+msgstr "Gabarits"
 
 #: wp-includes/post.php:315
 msgctxt "post type singular name"
 msgid "Template"
-msgstr "Modèle"
+msgstr "Gabarit"
 
 #: wp-includes/post.php:316 wp-includes/post.php:317
 msgid "Add New Template"
-msgstr "Ajouter un modèle"
+msgstr "Ajouter un gabarit"
 
 #: wp-includes/post.php:318
 msgid "New Template"
-msgstr "Nouveau modèle"
+msgstr "Nouveau gabarit"
 
 #: wp-includes/post.php:319
 msgid "Edit Template"
-msgstr "Modifier le modèle"
+msgstr "Modifier le gabarit"
 
 #: wp-includes/post.php:320
 msgid "View Template"
-msgstr "Voir le modèle"
+msgstr "Voir le gabarit"
 
 #: wp-includes/post.php:321
 msgid "Templates"
-msgstr "Modèles"
+msgstr "Gabarits"
 
 #: wp-includes/post.php:322
 msgid "Search Templates"
-msgstr "Rechercher des modèles"
+msgstr "Rechercher des gabarits"
 
 #: wp-includes/post.php:323
 msgid "Parent Template:"
-msgstr "Modèle parent :"
+msgstr "Gabarit parent :"
 
 #: wp-includes/post.php:324
 msgid "No templates found."
-msgstr "Aucun modèle trouvé."
+msgstr "Aucun gabarit trouvé."
 
 #: wp-includes/post.php:325
 msgid "No templates found in Trash."
-msgstr "Aucun modèle trouvé dans la corbeille."
+msgstr "Aucun gabarit trouvé dans la corbeille."
 
 #: wp-includes/post.php:326
 msgid "Template archives"
-msgstr "Archives des modèles"
+msgstr "Archives des gabarits"
 
 #: wp-includes/post.php:327
 msgid "Insert into template"
-msgstr "Insérer dans le modèle"
+msgstr "Insérer dans le gabarit"
 
 #: wp-includes/post.php:328
 msgid "Uploaded to this template"
-msgstr "Téléversé sur ce modèle"
+msgstr "Chargé sur ce gabarit"
 
 #: wp-includes/post.php:329
 msgid "Filter templates list"
-msgstr "Filtrer la liste des modèles"
+msgstr "Filtrer la liste des gabarits"
 
 #: wp-includes/post.php:330
 msgid "Templates list navigation"
-msgstr "Navigation de liste des modèles"
+msgstr "Navigation de liste des gabarits"
 
 #: wp-includes/post.php:331
 msgid "Templates list"
-msgstr "Liste des modèles"
+msgstr "Liste des gabarits"
 
 #: wp-includes/post.php:332
 msgid "Template updated."
-msgstr "Modèle mis à jour."
+msgstr "Gabarit mis à jour."
 
 #: wp-includes/post.php:334
 msgid "Templates to include in your theme."
-msgstr "Modèles à inclure dans votre thème."
+msgstr "Gabarits à inclure dans votre thème."
 
 #: wp-includes/post.php:379
 msgctxt "post type general name"
 msgid "Template Parts"
-msgstr "Éléments de modèles"
+msgstr "Portions de gabarit"
 
 #: wp-includes/post.php:380
 msgctxt "post type singular name"
 msgid "Template Part"
-msgstr "Élément de modèle"
+msgstr "Portion de gabarit"
 
 #: wp-includes/post.php:381 wp-includes/post.php:382
 msgid "Add New Template Part"
-msgstr "Ajouter un élément de modèle"
+msgstr "Ajouter une portion de gabarit"
 
 #: wp-includes/post.php:383
 msgid "New Template Part"
-msgstr "Nouvel élément de modèle"
+msgstr "Nouvel portion de gabarit"
 
 #: wp-includes/post.php:384
 msgid "Edit Template Part"
-msgstr "Modifier l’élément de modèle"
+msgstr "Modifier la portion de gabarit"
 
 #: wp-includes/post.php:385
 msgid "View Template Part"
-msgstr "Voir l’élément de modèle"
+msgstr "Voir la portion de gabarit"
 
 #: wp-includes/post.php:386
 msgid "Template Parts"
-msgstr "Éléments de modèles"
+msgstr "Portions de gabarit"
 
 #: wp-includes/post.php:387
 msgid "Search Template Parts"
-msgstr "Rechercher un élément de modèle"
+msgstr "Rechercher une portion de gabarit"
 
 #: wp-includes/post.php:388
 msgid "Parent Template Part:"
-msgstr "Élément de modèle parent :"
+msgstr "Portion de gabarit parente :"
 
 #: wp-includes/post.php:389
 msgid "No template parts found."
-msgstr "Aucun élément de modèle trouvé."
+msgstr "Aucune portion de gabarit trouvée."
 
 #: wp-includes/post.php:390
 msgid "No template parts found in Trash."
-msgstr "Aucun élément de modèle trouvé dans la corbeille."
+msgstr "Aucune portion de gabarit trouvée dans la corbeille."
 
 #: wp-includes/post.php:391
 msgid "Template part archives"
-msgstr "Archives d’éléments de modèles"
+msgstr "Archives de portions de gabarit"
 
 #: wp-includes/post.php:392
 msgid "Insert into template part"
-msgstr "Insérer dans l’élément de modèle"
+msgstr "Insérer dans la portion de gabarit"
 
 #: wp-includes/post.php:393
 msgid "Uploaded to this template part"
-msgstr "Téléversé dans cet élément de modèle"
+msgstr "Chargé dans cette portion de gabarit"
 
 #: wp-includes/post.php:394
 msgid "Filter template parts list"
-msgstr "Filtrer la liste d’éléments de modèles"
+msgstr "Filtrer la liste de portion de gabarit"
 
 #: wp-includes/post.php:395
 msgid "Template parts list navigation"
-msgstr "Navigation dans la liste des éléments de modèles"
+msgstr "Navigation dans la liste des portions de gabarit"
 
 #: wp-includes/post.php:396
 msgid "Template parts list"
-msgstr "Liste des éléments de modèles"
+msgstr "Liste des portions de gabarit"
 
 #: wp-includes/post.php:397
 msgid "Template part updated."
-msgstr "Élément de modèle mis à jour."
+msgstr "Portion de gabarit mise à jour."
 
 #: wp-includes/post.php:399
 msgid "Template parts to include in your templates."
-msgstr "Éléments de modèles à inclure dans vos modèles."
+msgstr "Portions de gabarit à inclure dans vos gabarits."
 
 #: wp-includes/post.php:442
 msgctxt "post type general name"
@@ -7171,7 +7171,7 @@ msgstr "Taxonomie non valide : %s"
 
 #: wp-includes/post.php:4696
 msgid "Invalid page template."
-msgstr "Modèle de page non valide."
+msgstr "Gabarit de page non valide."
 
 #: wp-includes/post.php:5345
 msgctxt "tag delimiter"
@@ -8038,7 +8038,7 @@ msgstr "Le nombre de sites qui ont activé ce bloc."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-directory-controller.php:263
 msgid "The average rating of blocks published by the same author."
-msgstr "La note moyenne des blocs publiés par le même auteur ou autrice."
+msgstr "La note moyenne des blocs publiés par le même auteur·ice."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-directory-controller.php:268
 msgid "The number of blocks published by the same author."
@@ -8139,7 +8139,7 @@ msgstr ""
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-patterns-controller.php:273
 msgid "An array of template types where the pattern fits."
-msgstr "Un tableau de types de modèles auxquels la composition correspond."
+msgstr "Un tableau de types de gabarits auxquels la composition correspond."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-patterns-controller.php:279
 msgid "Where the pattern comes from e.g. core"
@@ -8462,8 +8462,8 @@ msgstr ""
 #: wp-includes/rest-api/endpoints/class-wp-rest-edit-site-export-controller.php:64
 msgid "Sorry, you are not allowed to export templates and template parts."
 msgstr ""
-"Désolé, vous n’avez pas l‘autorisation pour exporter des modèles et des "
-"éléments de modèle."
+"Désolé, vous n’avez pas l‘autorisation d’exporter des gabarits et des "
+"portions de gabarit."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-font-collections-controller.php:87
 #: wp-includes/rest-api/endpoints/class-wp-rest-global-styles-revisions-controller.php:221
@@ -8723,7 +8723,7 @@ msgstr "L‘identifiant du thème"
 #: wp-includes/rest-api/endpoints/class-wp-rest-template-revisions-controller.php:126
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:117
 msgid "The id of a template"
-msgstr "L’ID du modèle."
+msgstr "L’ID du gabarit."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-global-styles-controller.php:144
 msgid "No global styles config exist with that id."
@@ -8997,11 +8997,11 @@ msgstr "L’adresse du site web de l’extension."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:917
 msgid "The plugin author."
-msgstr "L’auteur ou l’autrice de l’extension."
+msgstr "L’auteur·ice de l’extension."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:923
 msgid "Plugin author's website address."
-msgstr "URL du site de l’auteur ou de l’autrice de l’extension."
+msgstr "URL du site de l’auteur·ice de l’extension."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:930
 msgid "The plugin description."
@@ -9186,7 +9186,7 @@ msgstr "L‘icône du type de publication."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:422
 msgid "The block template associated with the post type."
-msgstr "Le modèle de bloc associé au type de publication."
+msgstr "Le gabarit de bloc associé au type de publication."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:429
 msgid "The template_lock associated with the post type, or false if none."
@@ -9278,7 +9278,7 @@ msgstr "Cette publication ne peut pas être supprimée."
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1367
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:647
 msgid "Invalid author ID."
-msgstr "ID de l’auteur ou de l’autrice non valide."
+msgstr "ID de l’auteur·ice non valide."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1384
 msgid "A post can not be sticky and have a password."
@@ -9371,7 +9371,7 @@ msgstr "Un mot de passe pour protéger l’accès au contenu et à l’extrait."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2382
 msgid "Permalink template for the post."
-msgstr "Modèle de permalien pour la publication."
+msgstr "Gabarit de permalien pour la publication."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2389
 msgid "Slug automatically generated from the post title."
@@ -9417,7 +9417,7 @@ msgstr "Définit si le contenu est protégé par mot de passe ou non."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2528
 msgid "The ID for the author of the post."
-msgstr "L’ID pour l’auteur ou l’autrice de la publication."
+msgstr "L’ID pour l’auteur·ice de la publication."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2536
 msgid "The excerpt for the post."
@@ -9526,14 +9526,14 @@ msgstr ""
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2848
 msgid "Limit result set to posts assigned to specific authors."
 msgstr ""
-"Limiter les résultats aux publications assignées à des auteurs ou autrices "
+"Limiter les résultats aux publications assignées à des auteurs·ice·s "
 "spécifiques."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2856
 msgid "Ensure result set excludes posts assigned to specific authors."
 msgstr ""
 "S’assurer que le jeu de résultats exclut les publications assignées à des "
-"auteurs ou autrices spécifiques."
+"auteurs·ice·s spécifiques."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2866
 msgid ""
@@ -9719,7 +9719,7 @@ msgstr ""
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:713
 msgid "The ID for the author of the revision."
-msgstr "L’identifiant de l’auteur ou autrice de la révision."
+msgstr "L’identifiant de l’auteur·ice de la révision."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:718
 msgid "The date the revision was published, in the site's timezone."
@@ -9831,7 +9831,7 @@ msgid ""
 "important for the user."
 msgstr ""
 "Une explication plus descriptive de ce que le test recherche, et pourquoi il "
-"est important pour l’utilisateur et l’utilisatrice."
+"est important pour l’utilisateur·ice."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-site-health-controller.php:339
 msgid ""
@@ -9940,29 +9940,29 @@ msgstr ""
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-template-autosaves-controller.php:220
 msgid "There is no autosave revision for this template."
-msgstr "Il n’y a aucune révision auto-enregistrée pour ce modèle."
+msgstr "Il n’y a aucune révision auto-enregistrée pour ce gabarit."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-template-revisions-controller.php:174
 msgid "Invalid template parent ID."
-msgstr "ID parent du modèle invalide."
+msgstr "ID parent du gabarit non valide."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:82
 msgid "The slug of the template to get the fallback for"
-msgstr "Le slug du modèle doit récupérer l’alternative pour"
+msgstr "Le slug du gabarit doit récupérer l’alternative pour"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:87
 msgid "Indicates if a template is custom or part of the template hierarchy"
 msgstr ""
-"Indique si un modèle est personnalisé ou fait partie de la hiérarchie des "
-"modèles."
+"Indique si un gabarit est personnalisé ou fait partie de la hiérarchie des "
+"gabarits."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:91
 msgid ""
 "The template prefix for the created template. This is used to extract the "
 "main template type, e.g. in `taxonomy-books` extracts the `taxonomy`"
 msgstr ""
-"Le préfixe de modèle pour le modèle créé. Ceci est utilisé pour extraire le "
-"type de modèle principal, p. ex. dans « taxonomy-books », cela extrait "
+"Le préfixe de gabarit pour le gabarit créé. Ceci est utilisé pour extraire "
+"le type de gabarit principal, p. ex. dans « taxonomy-books », cela extrait "
 "« taxonomy »"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:192
@@ -9970,30 +9970,31 @@ msgstr ""
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:314
 msgid "Sorry, you are not allowed to access the templates on this site."
 msgstr ""
-"Désolé, vous n’avez pas l’autorisation d’accéder aux modèles sur ce site."
+"Désolé, vous n’avez pas l’autorisation d’accéder aux gabarits sur ce site."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:337
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:366
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:464
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:511
 msgid "No templates exist with that id."
-msgstr "Aucun modèle n’existe pour cet ID."
+msgstr "Aucun gabarit n’existe pour cet ID."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:514
 msgid "Templates based on theme files can't be removed."
-msgstr "Les modèles basés sur des fichiers de thème ne peuvent être supprimés."
+msgstr ""
+"Les gabarits basés sur des fichiers de thème ne peuvent être supprimés."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:538
 msgid "The template has already been deleted."
-msgstr "Le modèle a déjà été supprimé."
+msgstr "Le gabarit a déjà été supprimé."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:555
 msgid "The template cannot be deleted."
-msgstr "Le modèle ne peut pas être supprimé."
+msgstr "Le gabarit ne peut pas être supprimé."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:916
 msgid "Unknown author"
-msgstr "Auteur/autrice inconnu·e"
+msgstr "Auteur·ice inconnu·e"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1006
 msgid "Limit to the specified post id."
@@ -10001,67 +10002,67 @@ msgstr "Limiter à l’ID de publication spécifié."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1010
 msgid "Limit to the specified template part area."
-msgstr "Limite à la zone de l’élément de modèle spécifié."
+msgstr "Limite à la zone de le portion de gabarit spécifiée."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1014
 msgid "Post type to get the templates for."
-msgstr "Type de publication pour lequel obtenir les modèles."
+msgstr "Type de publication pour lequel obtenir les gabarits."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1039
 msgid "ID of template."
-msgstr "ID du modèle."
+msgstr "ID du gabarit."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1045
 msgid "Unique slug identifying the template."
-msgstr "Slug unique identifiant le modèle."
+msgstr "Slug unique identifiant le gabarit."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1053
 msgid "Theme identifier for the template."
-msgstr "Identifiant de thème pour le modèle."
+msgstr "Identifiant de thème pour le gabarit."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1058
 msgid "Type of template."
-msgstr "Type de modèle."
+msgstr "Type de gabarit."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1063
 msgid "Source of template"
-msgstr "Source du modèle"
+msgstr "Source du gabarit"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1069
 msgid "Source of a customized template"
-msgstr "Source d’un modèle personnalisé"
+msgstr "Source d’un gabarit personnalisé"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1075
 msgid "Content of template."
-msgstr "Contenu du modèle."
+msgstr "Contenu du gabarit."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1081
 msgid "Content for the template, as it exists in the database."
-msgstr "Contenu pour le modèle, tel qu’il existe dans la base de données."
+msgstr "Contenu pour le gabarit, tel qu’il existe dans la base de données."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1086
 msgid "Version of the content block format used by the template."
-msgstr "Version du format de bloc de contenu utilisé par le modèle."
+msgstr "Version du format de bloc de contenu utilisé par le gabarit."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1094
 msgid "Title of template."
-msgstr "Titre du modèle."
+msgstr "Titre du gabarit."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1100
 msgid "Title for the template, as it exists in the database."
-msgstr "Titre pour le modèle, tel qu’il existe dans la base de données."
+msgstr "Titre pour le gabarit, tel qu’il existe dans la base de données."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1105
 msgid "HTML title for the template, transformed for display."
-msgstr "Titre HTML du modèle, mis en forme pour l’affichage."
+msgstr "Titre HTML du gabarit, mis en forme pour l’affichage."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1113
 msgid "Description of template."
-msgstr "Description du modèle."
+msgstr "Description du gabarit."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1119
 msgid "Status of template."
-msgstr "État du modèle."
+msgstr "Statut du gabarit."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1126
 msgid "Post ID."
@@ -10073,34 +10074,34 @@ msgstr "Le fichier du thème existe."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1138
 msgid "The ID for the author of the template."
-msgstr "L’ID de l’auteur/autrice du modèle."
+msgstr "L’ID de l’auteur·ice du gabarit."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1143
 msgid "The date the template was last modified, in the site's timezone."
 msgstr ""
-"La date de la dernière modification du modèle, dans le fuseau horaire du "
+"La date de la dernière modification du gabarit, dans le fuseau horaire du "
 "site."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1151
 msgid "Human readable text for the author."
-msgstr "Texte lisible par un humain pour l’auteur ou l’autrice."
+msgstr "Texte lisible par un humain pour l’auteur·ice."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1156
 msgid "Where the template originally comes from e.g. 'theme'"
-msgstr "D’où vient initialement le modèle, par exemple « thème »"
+msgstr "D’où vient initialement le gabarit, par exemple « thème »"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1172
 msgid "Whether a template is a custom template."
-msgstr "Si un modèle est un modèle personnalisé."
+msgstr "Si un gabarit est un gabarit personnalisé."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1179
 msgid "Plugin that registered the template."
-msgstr "Extension qui a enregistré le modèle."
+msgstr "Extension qui a enregistré le gabarit."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1187
 msgid "Where the template part is intended for use (header, footer, etc.)"
 msgstr ""
-"L’emplacement où l’élément de modèle devrait être utilisé (entête, pied de "
+"L’emplacement où la portion de gabarit devrait être utilisé (entête, pied de "
 "page, etc.)"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:113
@@ -10246,7 +10247,7 @@ msgid ""
 "The theme's template. If this is a child theme, this refers to the parent "
 "theme, otherwise this is the same as the theme's stylesheet."
 msgstr ""
-"Le modèle du thème. Si c’est un thème enfant, cela fait référence au thème "
+"Le gabarit du thème. Si c’est un thème enfant, cela fait référence au thème "
 "parent, sinon il est identique à la feuille de style du thème."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:481
@@ -10255,41 +10256,35 @@ msgid ""
 "refers to the parent theme, otherwise this is the same as the theme's "
 "stylesheet directory."
 msgstr ""
-"L’URI pour le répertoire de modèle du thème. Si c’est un thème enfant, cela "
+"L’URI pour le répertoire de gabarit du thème. Si c’est un thème enfant, cela "
 "fait référence au thème parent, sinon il est identique au répertoire de la "
 "feuille de styles du thème."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:487
 msgid "The theme author."
-msgstr "L’auteur ou l’autrice du thème."
+msgstr "L’auteur·ice du thème."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:492
 msgid "The theme author's name, as found in the theme header."
 msgstr ""
-"Le nom de l’auteur ou de l’autrice du thème, tel qu’indiqué dans l’entête du "
-"thème."
+"Le nom de l’auteur·ice du thème, tel qu’indiqué dans l’entête du thème."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:496
 msgid "HTML for the theme author, transformed for display."
-msgstr ""
-"Contenu HTML pour l’auteur ou l’autrice du thème, transformé pour "
-"l’affichage."
+msgstr "Contenu HTML pour l’auteur·ice du thème, transformé pour l’affichage."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:502
 msgid "The website of the theme author."
-msgstr "Le site de l’auteur ou de l’autrice du thème."
+msgstr "Le site de l’auteur·ice du thème."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:507
 msgid "The website of the theme author, as found in the theme header."
 msgstr ""
-"Le site de l’auteur ou de l’autrice du thème, tel qu’indiqué dans l’entête "
-"du thème."
+"Le site de l’auteur·ice du thème, tel qu’indiqué dans l’entête du thème."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:512
 msgid "The website of the theme author, transformed for display."
-msgstr ""
-"Le site internet de l’auteur ou de l’autrice du thème, adapté pour "
-"l’affichage."
+msgstr "Le site internet de l’auteur·ice du thème, adapté pour l’affichage."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:519
 msgid "A description of the theme."
@@ -10662,8 +10657,8 @@ msgstr ""
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1595
 msgid "Limit result set to users who are considered authors."
 msgstr ""
-"Limiter le jeu de résultats aux utilisateur·ice·s considérés comme auteurs "
-"ou autrices."
+"Limiter le jeu de résultats aux utilisateur·ice·s considérés comme "
+"auteur·ice·s."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1603
 msgid "Limit result set to users who have published posts."
@@ -11560,11 +11555,11 @@ msgstr "Thème"
 
 #: wp-includes/taxonomy.php:155
 msgid "Template Part Areas"
-msgstr "Zones d’élément de modèle"
+msgstr "Zones de portion de gabarit"
 
 #: wp-includes/taxonomy.php:156
 msgid "Template Part Area"
-msgstr "Zone d’élément de modèle"
+msgstr "Zone de portion de gabarit"
 
 #: wp-includes/taxonomy.php:175
 msgctxt "taxonomy general name"
@@ -11741,7 +11736,7 @@ msgstr "Thème sans %s"
 #: wp-includes/theme-compat/header.php:15
 #: wp-includes/theme-compat/sidebar.php:15
 msgid "Please include a %s template in your theme."
-msgstr "Veuillez inclure un modèle de %s à votre thème."
+msgstr "Veuillez inclure un gabarit de %s à votre thème."
 
 #. translators: 1: Site name, 2: Retraceur
 #: wp-includes/theme-compat/footer.php:26
@@ -11750,7 +11745,7 @@ msgstr "%1$s est fièrement propulsé par %2$s"
 
 #: wp-includes/theme-compat/sidebar.php:29
 msgid "Author"
-msgstr "Auteur/autrice"
+msgstr "Auteur·ice"
 
 #. translators: %s: Category name.
 #: wp-includes/theme-compat/sidebar.php:46
@@ -11986,11 +11981,11 @@ msgstr "Si les liens vers les flux RSS des articles sont ajoutés à l’entête
 
 #: wp-includes/theme.php:3305
 msgid "Whether a theme uses block-based templates."
-msgstr "Si un thème utilise des modèles basés sur des blocs."
+msgstr "Si un thème utilise des gabarits basés sur des blocs."
 
 #: wp-includes/theme.php:3312
 msgid "Whether a theme uses block-based template parts."
-msgstr "Si un thème utilise des éléments de modèle basées sur des blocs."
+msgstr "Si un thème utilise des portions de gabarit basées sur des blocs."
 
 #: wp-includes/theme.php:3319
 msgid "Custom background if defined by the theme."
@@ -13382,7 +13377,7 @@ msgstr ""
 #: wp-includes/blocks/comment-author-name/block.json
 msgctxt "block title"
 msgid "Comment Author Name"
-msgstr "Nom de l’auteur/autrice du commentaire"
+msgstr "Nom de l’auteur·ice du commentaire"
 
 #: wp-includes/blocks/comment-author-name/block.json
 #: wp-includes/blocks/comment-content/block.json
@@ -13426,7 +13421,7 @@ msgstr "Lien de réponse à un commentaire"
 #: wp-includes/blocks/comment-template/block.json
 msgctxt "block title"
 msgid "Comment Template"
-msgstr "Modèle de commentaire"
+msgstr "Gabarit de commentaire"
 
 #: wp-includes/blocks/comments-pagination-next/block.json
 msgctxt "block title"
@@ -13970,33 +13965,33 @@ msgstr "Afficher une composition."
 #: wp-includes/blocks/post-author-biography/block.json
 msgctxt "block title"
 msgid "Author Biography"
-msgstr "Biographie de l’auteur/autrice"
+msgstr "Biographie de l’auteur·ice"
 
 #: wp-includes/blocks/post-author-biography/block.json
 msgctxt "block description"
 msgid "The author biography."
-msgstr "Biographie de l’auteur ou de l’autrice."
+msgstr "Biographie de l’auteur·ice."
 
 #: wp-includes/blocks/post-author-name/block.json
 msgctxt "block title"
 msgid "Author Name"
-msgstr "Nom de l’auteur/autrice"
+msgstr "Nom de l’auteur·ice"
 
 #: wp-includes/blocks/post-author-name/block.json
 msgctxt "block description"
 msgid "The author name."
-msgstr "Le nom de l’auteur ou de l’autrice."
+msgstr "Le nom de l’auteur·ice."
 
 #: wp-includes/blocks/post-author/block.json
 msgctxt "block title"
 msgid "Author"
-msgstr "Auteur/autrice"
+msgstr "Auteur·ice"
 
 #: wp-includes/blocks/post-author/block.json
 msgctxt "block description"
 msgid "Display post author details such as name, avatar, and bio."
 msgstr ""
-"Affichez les détails de l‘auteur/autrice de la publication tels que le nom, "
+"Affichez les détails de l‘auteur·ice de la publication tels que le nom, "
 "l‘image de profil et la biographie."
 
 #: wp-includes/blocks/post-comments-form/block.json
@@ -14060,7 +14055,7 @@ msgstr ""
 #: wp-includes/blocks/post-template/block.json
 msgctxt "block title"
 msgid "Post Template"
-msgstr "Modèle de publication"
+msgstr "Gabarit de publication"
 
 #: wp-includes/blocks/post-template/block.json
 msgctxt "block description"
@@ -14448,7 +14443,7 @@ msgstr ""
 #: wp-includes/blocks/template-part/block.json
 msgctxt "block title"
 msgid "Template Part"
-msgstr "Élément de modèle"
+msgstr "Portion de gabarit"
 
 #: wp-includes/blocks/template-part/block.json
 msgctxt "block description"

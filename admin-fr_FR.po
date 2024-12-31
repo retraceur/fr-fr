@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Retraceur -1.0.0 - Administration\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-29T15:41:48+00:00\n"
-"PO-Revision-Date: 2024-12-29 16:44+0100\n"
+"PO-Revision-Date: 2024-12-31 20:19+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -9442,7 +9442,7 @@ msgstr "Désolé, ce fichier ne peut être modifié."
 #: wp-admin/includes/file.php:435 wp-admin/theme-editor.php:20
 msgid "Sorry, you are not allowed to edit templates for this site."
 msgstr ""
-"Désolé, vous n’avez pas l’autorisation de modifier les modèles de ce site."
+"Désolé, vous n’avez pas l’autorisation de modifier les gabarits de ce site."
 
 #: wp-admin/includes/file.php:488 wp-admin/plugin-editor.php:120
 #: wp-admin/theme-editor.php:264
@@ -12165,7 +12165,7 @@ msgstr "Variations de style"
 
 #: wp-admin/includes/theme.php:348
 msgid "Template Editing"
-msgstr "Modification de modèles"
+msgstr "Modification de gabarits"
 
 #: wp-admin/includes/theme.php:349
 msgid "Theme Options"
@@ -16153,7 +16153,7 @@ msgid ""
 msgstr ""
 "Commencez par choisir un thème à modifier via le menu déroulant, et cliquez "
 "sur « Sélectionner ». Une liste apparaîtra ensuite avec tous les fichiers "
-"modèles. En cliquant sur n’importe lequel de ces fichiers, vous verrez son "
+"gabarits. En cliquant sur n’importe lequel de ces fichiers, vous verrez son "
 "contenu apparaître dans l’éditeur."
 
 #: wp-admin/theme-editor.php:34
@@ -16205,7 +16205,7 @@ msgstr "Fichiers du thème"
 #. translators: %s: Link to edit parent theme.
 #: wp-admin/theme-editor.php:243
 msgid "This child theme inherits templates from a parent theme, %s."
-msgstr "Ce thème enfant hérite de certains modèles de son thème parent, %s."
+msgstr "Ce thème enfant hérite de certains gabarits de son thème parent, %s."
 
 #: wp-admin/theme-editor.php:286
 msgid "This is a file in your current parent theme."
@@ -16337,7 +16337,7 @@ msgid ""
 msgstr ""
 "Avec un thème basé sur des blocs, vous pouvez disposer et modifier les blocs "
 "sans affecter votre contenu en personnalisant ou en créant de nouveaux "
-"modèles."
+"gabarits."
 
 #: wp-admin/theme-install.php:129
 msgid "Block themes"
