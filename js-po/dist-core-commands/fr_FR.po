@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-27T10:19:44+00:00\n"
+"PO-Revision-Date: 2024-12-31 18:00+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: wp-includes/js/dist/core-commands.js:142
+msgid "An error occurred while creating the item."
+msgstr "Une erreur est apparue lors de la création de l’élément."
+
+#: wp-includes/js/dist/core-commands.js:154
+msgid "Add new page"
+msgstr "Ajouter une page"
+
+#: wp-includes/js/dist/core-commands.js:167
+msgid "Add new post"
+msgstr "Ajouter un article"
+
+#: wp-includes/js/dist/core-commands.js:394
+#: wp-includes/js/dist/core-commands.js:490
+msgid "(no title)"
+msgstr "(sans titre) "
+
+#: wp-includes/js/dist/core-commands.js:513
+msgid "Template parts"
+msgstr "Portions de gabarit"
+
+#: wp-includes/js/dist/core-commands.js:563
+msgid "Navigation"
+msgstr "Navigation"
+
+#: wp-includes/js/dist/core-commands.js:582
+msgid "Styles"
+msgstr "Styles"
+
+#: wp-includes/js/dist/core-commands.js:601
+msgid "Pages"
+msgstr "Pages"
+
+#: wp-includes/js/dist/core-commands.js:620
+msgid "Templates"
+msgstr "Gabarits"
+
+#: wp-includes/js/dist/core-commands.js:640
+msgid "Patterns"
+msgstr "Compositions"
