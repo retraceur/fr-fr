@@ -1,0 +1,82 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-27T10:20:04+00:00\n"
+"PO-Revision-Date: 2024-12-31 18:03+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: wp-includes/js/dist/core-data.js:2782
+msgid "Base"
+msgstr "Base"
+
+#: wp-includes/js/dist/core-data.js:2813
+msgid "Post Type"
+msgstr "Type de publication"
+
+#: wp-includes/js/dist/core-data.js:2850
+msgid "Media"
+msgstr "Média"
+
+#: wp-includes/js/dist/core-data.js:2862
+msgid "Taxonomy"
+msgstr "Taxonomie"
+
+#: wp-includes/js/dist/core-data.js:2874
+msgid "Widget areas"
+msgstr "Zones de widgets"
+
+#: wp-includes/js/dist/core-data.js:2886
+msgid "Widgets"
+msgstr "Widgets"
+
+#: wp-includes/js/dist/core-data.js:2895
+msgid "Widget types"
+msgstr "Type de widget"
+
+#: wp-includes/js/dist/core-data.js:2897
+msgid "User"
+msgstr "Utilisateur·ice"
+
+#: wp-includes/js/dist/core-data.js:2913
+msgid "Comment"
+msgstr "Commentaire"
+
+#: wp-includes/js/dist/core-data.js:2922
+msgid "Menu Item"
+msgstr "Élément de menu"
+
+#: wp-includes/js/dist/core-data.js:2932
+msgid "Menu Location"
+msgstr "Emplacement de menu"
+
+#: wp-includes/js/dist/core-data.js:2935
+msgid "Global Styles"
+msgstr "Styles globaux"
+
+#: wp-includes/js/dist/core-data.js:2948
+msgid "Themes"
+msgstr "Thèmes"
+
+#: wp-includes/js/dist/core-data.js:2958
+msgid "Plugins"
+msgstr "Extensions"
+
+#: wp-includes/js/dist/core-data.js:2968
+msgid "Status"
+msgstr "Statuts"
+
+#: wp-includes/js/dist/core-data.js:3142
+msgid "Site"
+msgstr "Site"
+
+#: wp-includes/js/dist/core-data.js:5699 wp-includes/js/dist/core-data.js:5721
+#: wp-includes/js/dist/core-data.js:5743 wp-includes/js/dist/core-data.js:5763
+msgid "(no title)"
+msgstr "(sans titre) "
