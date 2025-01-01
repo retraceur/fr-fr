@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-27T10:19:43+00:00\n"
+"PO-Revision-Date: 2025-01-01 08:57+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+#: wp-includes/js/dist/reusable-blocks.js:108
+msgid "Untitled pattern block"
+msgstr "Composition de bloc sans titre"
+
+#. translators: %s: the name the user has given to the pattern.
+#: wp-includes/js/dist/reusable-blocks.js:334
+msgid "Synced pattern created: %s"
+msgstr "Composition synchronisée créée : %s"
+
+#. translators: %s: the name the user has given to the pattern.
+#: wp-includes/js/dist/reusable-blocks.js:336
+msgid "Unsynced pattern created: %s"
+msgstr "Composition non synchronisée créée : %s"
+
+#: wp-includes/js/dist/reusable-blocks.js:354
+#: wp-includes/js/dist/reusable-blocks.js:356
+msgid "Create pattern"
+msgstr "Créer une composition"
+
+#: wp-includes/js/dist/reusable-blocks.js:375
+msgid "Name"
+msgstr "Nom"
+
+#: wp-includes/js/dist/reusable-blocks.js:378
+msgid "My pattern"
+msgstr "Ma composition"
+
+#: wp-includes/js/dist/reusable-blocks.js:381
+msgctxt "pattern (singular)"
+msgid "Synced"
+msgstr "Synchronisée"
+
+#: wp-includes/js/dist/reusable-blocks.js:382
+msgid "Sync this pattern across multiple locations."
+msgstr "Synchroniser cette composition à travers de multiples emplacements."
+
+#: wp-includes/js/dist/reusable-blocks.js:396
+msgid "Cancel"
+msgstr "Annuler"
+
+#: wp-includes/js/dist/reusable-blocks.js:401
+msgid "Create"
+msgstr "Créer"
+
+#: wp-includes/js/dist/reusable-blocks.js:478
+msgid "Manage patterns"
+msgstr "Gérer les compositions"
+
+#: wp-includes/js/dist/reusable-blocks.js:481
+msgid "Detach"
+msgstr "Détacher"

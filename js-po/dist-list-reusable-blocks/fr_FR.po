@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-27T10:19:43+00:00\n"
-"PO-Revision-Date: 2025-01-01 08:57+0100\n"
+"POT-Creation-Date: 2024-12-27T10:19:47+00:00\n"
+"PO-Revision-Date: 2025-01-01 09:14+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -12,54 +12,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.5\n"
 
-#: wp-includes/js/dist/reusable-blocks.js:108
-msgid "Untitled pattern block"
-msgstr "Composition de bloc sans titre"
+#: wp-includes/js/dist/list-reusable-blocks.js:699
+msgid "Invalid JSON file"
+msgstr "Fichier JSON non valider"
 
-#. translators: %s: the name the user has given to the pattern.
-#: wp-includes/js/dist/reusable-blocks.js:334
-msgid "Synced pattern created: %s"
-msgstr "Composition synchronisée créée : %s"
+#: wp-includes/js/dist/list-reusable-blocks.js:702
+msgid "Invalid pattern JSON file"
+msgstr "Fichier de composition JSON non valide"
 
-#. translators: %s: the name the user has given to the pattern.
-#: wp-includes/js/dist/reusable-blocks.js:336
-msgid "Unsynced pattern created: %s"
-msgstr "Composition non synchronisée créée : %s"
+#: wp-includes/js/dist/list-reusable-blocks.js:705
+msgid "Unknown error"
+msgstr "Erreur inconnue"
 
-#: wp-includes/js/dist/reusable-blocks.js:354
-#: wp-includes/js/dist/reusable-blocks.js:356
-msgid "Create pattern"
-msgstr "Créer une composition"
+#: wp-includes/js/dist/list-reusable-blocks.js:725
+msgid "File"
+msgstr "Fichier"
 
-#: wp-includes/js/dist/reusable-blocks.js:375
-msgid "Name"
-msgstr "Nom"
+#: wp-includes/js/dist/list-reusable-blocks.js:738
+msgctxt "button label"
+msgid "Import"
+msgstr "Importer"
 
-#: wp-includes/js/dist/reusable-blocks.js:378
-msgid "My pattern"
-msgstr "Ma composition"
+#: wp-includes/js/dist/list-reusable-blocks.js:774
+msgid "Import from JSON"
+msgstr "Importer à partir d’un JSON"
 
-#: wp-includes/js/dist/reusable-blocks.js:381
-msgctxt "pattern (singular)"
-msgid "Synced"
-msgstr "Synchronisée"
-
-#: wp-includes/js/dist/reusable-blocks.js:382
-msgid "Sync this pattern across multiple locations."
-msgstr "Synchroniser cette composition à travers de multiples emplacements."
-
-#: wp-includes/js/dist/reusable-blocks.js:396
-msgid "Cancel"
-msgstr "Annuler"
-
-#: wp-includes/js/dist/reusable-blocks.js:401
-msgid "Create"
-msgstr "Créer"
-
-#: wp-includes/js/dist/reusable-blocks.js:478
-msgid "Manage patterns"
-msgstr "Gérer les compositions"
-
-#: wp-includes/js/dist/reusable-blocks.js:481
-msgid "Detach"
-msgstr "Détacher"
+#: wp-includes/js/dist/list-reusable-blocks.js:817
+msgid "Pattern imported successfully!"
+msgstr "Composition importée avec succès !"
