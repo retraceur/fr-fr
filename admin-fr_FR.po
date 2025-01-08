@@ -1,8 +1,8 @@
-# Translation of WordPress - 6.7.x - Development - Administration in French (France)
-# This file is distributed under the same license as the WordPress - 6.7.x - Development - Administration package.
+# Translation of Retraceur - 1.0.x - Administration in French (France)
+# This file is distributed under the CC0 1.0 Universal license.
 msgid ""
 msgstr ""
-"Project-Id-Version: Retraceur -1.0.0 - Administration\n"
+"Project-Id-Version: Retraceur - 1.0.0 - Administration\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-04T18:51:07+00:00\n"
 "PO-Revision-Date: 2025-01-04 19:51+0100\n"
