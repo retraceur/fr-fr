@@ -1,3 +1,5 @@
+# Translation of Retraceur - 1.0.x - wp-admin/js/theme-plugin-editor.js in French (France)
+# This file is distributed under the CC0 1.0 Universal license.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
