@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Retraceur - 1.0.0 - Administration\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-10T21:37:18+00:00\n"
-"PO-Revision-Date: 2025-01-10 22:39+0100\n"
+"POT-Creation-Date: 2025-01-10T22:54:15+00:00\n"
+"PO-Revision-Date: 2025-01-10 23:57+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -288,7 +288,7 @@ msgstr "Copier l’URL du site dans le presse-papier"
 #: wp-admin/includes/class-wp-media-list-table.php:818
 #: wp-admin/includes/class-wp-privacy-policy-content.php:433
 #: wp-admin/includes/media.php:3346 wp-admin/site-health-info.php:61
-#: wp-admin/user-edit.php:962
+#: wp-admin/user-edit.php:1013
 msgid "Copied!"
 msgstr "Copié!"
 
@@ -395,17 +395,17 @@ msgstr[1] ""
 "réseau étant donné que vous avez des droits de Super Administration</a>."
 
 #. translators: %s: Application name.
-#: wp-admin/authorize-application.php:211 wp-admin/user-edit.php:955
+#: wp-admin/authorize-application.php:211 wp-admin/user-edit.php:1006
 msgid "Your new password for %s is:"
 msgstr "Votre nouveau mot de passe pour %s est :"
 
-#: wp-admin/authorize-application.php:217 wp-admin/user-edit.php:964
+#: wp-admin/authorize-application.php:217 wp-admin/user-edit.php:1015
 msgid ""
 "Be sure to save this in a safe location. You will not be able to retrieve it."
 msgstr ""
 "Assurez-vous de le conserver en lieu sûr. Vous ne pourrez pas le récupérer."
 
-#: wp-admin/authorize-application.php:249 wp-admin/user-edit.php:801
+#: wp-admin/authorize-application.php:249 wp-admin/user-edit.php:837
 msgid "New Application Password Name"
 msgstr "Nouveau nom du mot de passe d’application"
 
@@ -3588,7 +3588,7 @@ msgstr ""
 #: wp-admin/includes/class-wp-debug-data.php:1043
 #: wp-admin/includes/class-wp-debug-data.php:1163
 #: wp-admin/includes/class-wp-users-list-table.php:376
-#: wp-admin/user-edit.php:423
+#: wp-admin/user-edit.php:459
 msgid "Name"
 msgstr "Nom"
 
@@ -5844,8 +5844,8 @@ msgstr "Format"
 #: wp-admin/includes/media.php:1745 wp-admin/includes/media.php:2283
 #: wp-admin/includes/meta-boxes.php:168 wp-admin/includes/meta-boxes.php:226
 #: wp-admin/includes/template.php:543 wp-admin/includes/template.php:671
-#: wp-admin/options-general.php:266 wp-admin/user-edit.php:549
-#: wp-admin/user-edit.php:670
+#: wp-admin/options-general.php:266 wp-admin/user-edit.php:585
+#: wp-admin/user-edit.php:706
 msgid "Cancel"
 msgstr "Annuler"
 
@@ -8563,7 +8563,7 @@ msgid "Change role to&hellip;"
 msgstr "Changer de rôle pour…"
 
 #: wp-admin/includes/class-wp-users-list-table.php:317
-#: wp-admin/user-edit.php:446 wp-admin/user-edit.php:448 wp-admin/users.php:139
+#: wp-admin/user-edit.php:482 wp-admin/user-edit.php:484 wp-admin/users.php:139
 msgid "&mdash; No role for this site &mdash;"
 msgstr "&mdash; Aucun rôle sur ce site &mdash;"
 
@@ -8575,17 +8575,17 @@ msgstr "Modifier"
 #: wp-admin/includes/class-wp-users-list-table.php:398
 #: wp-admin/includes/file.php:2285 wp-admin/install.php:119
 #: wp-admin/install.php:414 wp-admin/setup-config.php:228
-#: wp-admin/user-edit.php:427 wp-admin/user-new.php:213
+#: wp-admin/user-edit.php:463 wp-admin/user-new.php:213
 msgid "Username"
 msgstr "Nom d’utilisateur·ice"
 
 #: wp-admin/includes/class-wp-users-list-table.php:377
-#: wp-admin/user-edit.php:528 wp-admin/user-new.php:217
+#: wp-admin/user-edit.php:564 wp-admin/user-new.php:217
 msgid "Email"
 msgstr "Courriel"
 
 #: wp-admin/includes/class-wp-users-list-table.php:378
-#: wp-admin/user-edit.php:433 wp-admin/user-new.php:307
+#: wp-admin/user-edit.php:469 wp-admin/user-new.php:307
 msgid "Role"
 msgstr "Rôle"
 
@@ -8602,7 +8602,7 @@ msgid "Table ordered by E-mail."
 msgstr "Tableau trié par courriel."
 
 #: wp-admin/includes/class-wp-users-list-table.php:457
-#: wp-admin/user-edit.php:458
+#: wp-admin/user-edit.php:494
 msgid "Super Admin"
 msgstr "Super-admin"
 
@@ -10008,7 +10008,7 @@ msgid "Show"
 msgstr "Afficher"
 
 #: wp-admin/includes/media.php:1623 wp-admin/includes/media.php:2577
-#: wp-admin/install.php:150 wp-admin/user-edit.php:666
+#: wp-admin/install.php:150 wp-admin/user-edit.php:702
 #: wp-admin/user-new.php:277
 msgid "Hide"
 msgstr "Masquer"
@@ -10540,7 +10540,7 @@ msgid "folder"
 msgstr "dossier"
 
 #. translators: Hidden accessibility text.
-#: wp-admin/includes/misc.php:1029 wp-admin/user-edit.php:331
+#: wp-admin/includes/misc.php:1029 wp-admin/user-edit.php:367
 msgid "Admin Color Scheme"
 msgstr "Couleurs de l’interface d’administration"
 
@@ -12922,12 +12922,12 @@ msgstr ""
 "alphanumériques, des espaces, des tirets bas (\"_\"), des traits d’union (\"-"
 "\"), des points et le symbole @."
 
-#: wp-admin/install.php:148 wp-admin/user-edit.php:664
+#: wp-admin/install.php:148 wp-admin/user-edit.php:700
 #: wp-admin/user-new.php:275
 msgid "Hide password"
 msgstr "Cacher le mot de passe"
 
-#: wp-admin/install.php:154 wp-admin/user-edit.php:202
+#: wp-admin/install.php:154 wp-admin/user-edit.php:238
 msgid "Important:"
 msgstr "Important :"
 
@@ -12944,19 +12944,19 @@ msgstr ""
 msgid "Repeat Password"
 msgstr "Répétez le mot de passe"
 
-#: wp-admin/install.php:162 wp-admin/user-edit.php:480
-#: wp-admin/user-edit.php:528 wp-admin/user-new.php:213
+#: wp-admin/install.php:162 wp-admin/user-edit.php:516
+#: wp-admin/user-edit.php:564 wp-admin/user-new.php:213
 #: wp-admin/user-new.php:217 wp-admin/user-new.php:263
 #: wp-admin/user-new.php:283
 msgid "(required)"
 msgstr "(nécessaire)"
 
-#: wp-admin/install.php:170 wp-admin/user-edit.php:687
+#: wp-admin/install.php:170 wp-admin/user-edit.php:723
 #: wp-admin/user-new.php:290
 msgid "Confirm Password"
 msgstr "Confirmer le mot de passe"
 
-#: wp-admin/install.php:174 wp-admin/user-edit.php:691
+#: wp-admin/install.php:174 wp-admin/user-edit.php:727
 #: wp-admin/user-new.php:294
 msgid "Confirm use of weak password"
 msgstr "Confirmer l’utilisation d’un mot de passe faible"
@@ -13419,7 +13419,7 @@ msgstr "Profil"
 msgid "All Users"
 msgstr "Tou·te·s les utilisateur·ice·s"
 
-#: wp-admin/menu.php:267 wp-admin/menu.php:275 wp-admin/user-edit.php:265
+#: wp-admin/menu.php:267 wp-admin/menu.php:275 wp-admin/user-edit.php:301
 #: wp-admin/user-new.php:84 wp-admin/user-new.php:134 wp-admin/user-new.php:326
 #: wp-admin/users.php:787
 msgid "Add New User"
@@ -17302,83 +17302,109 @@ msgstr ""
 "Pensez bien à cliquer sur le bouton « Mettre à jour le profil » quand vous "
 "aurez terminé."
 
-#: wp-admin/user-edit.php:100 wp-admin/user-edit.php:132
-#: wp-admin/user-edit.php:191 wp-admin/users.php:126 wp-admin/users.php:155
+#: wp-admin/user-edit.php:100 wp-admin/user-edit.php:168
+#: wp-admin/user-edit.php:227 wp-admin/users.php:126 wp-admin/users.php:155
 #: wp-admin/users.php:261
 msgid "Sorry, you are not allowed to edit this user."
 msgstr ""
 "Désolé, vous n’avez pas l’autorisation de modifier cet·te utilisateur·ice."
 
-#: wp-admin/user-edit.php:202
+#: wp-admin/user-edit.php:130 wp-admin/user-edit.php:144
+msgid "Sorry, you are not allowed to delete this account."
+msgstr "Désolé, vous n’avez pas l’autorisation de supprimer ce compte."
+
+#: wp-admin/user-edit.php:139
+msgid "Sorry, something went wrong. Please contact the administrator."
+msgstr ""
+"Désolé, quelque chose s’est mal déroulé. Merci de contacter "
+"l’administrateur·ice du site."
+
+#: wp-admin/user-edit.php:153 wp-admin/user-edit.php:956
+msgid "Account deletion"
+msgstr "Suppression du compte"
+
+#: wp-admin/user-edit.php:156
+msgid ""
+"All your data will be deleted and this action is irreversible, please "
+"confirm your wish to delete your account."
+msgstr ""
+"Toutes vos données seront supprimées et cette action est irréversible, merci "
+"de confirmer que vous souhaitez supprimer votre compte."
+
+#: wp-admin/user-edit.php:157
+msgid "I confirm!"
+msgstr "Je confirme !"
+
+#: wp-admin/user-edit.php:238
 msgid "This user has super admin privileges."
 msgstr "Cet·te utilisateur·ice possède les privilèges de super administration."
 
-#: wp-admin/user-edit.php:213
+#: wp-admin/user-edit.php:249
 msgid "Profile updated."
 msgstr "Profil mis à jour."
 
-#: wp-admin/user-edit.php:215
+#: wp-admin/user-edit.php:251
 msgid "User updated."
 msgstr "Utilisateur·ice mis·e à jour."
 
-#: wp-admin/user-edit.php:221
+#: wp-admin/user-edit.php:257
 msgid "&larr; Go to Users"
 msgstr "&larr; Aller aux utilisateur·ice·s"
 
-#: wp-admin/user-edit.php:238
+#: wp-admin/user-edit.php:274
 msgid "Error while saving the new email address. Please try again."
 msgstr ""
 "Une erreur est survenue lors de l’enregistrement de votre adresse de "
 "courriel. Veuillez réessayer."
 
-#: wp-admin/user-edit.php:267 wp-admin/user-new.php:136 wp-admin/users.php:793
+#: wp-admin/user-edit.php:303 wp-admin/user-new.php:136 wp-admin/users.php:793
 msgid "Add Existing User"
 msgstr "Ajouter un·e utilisateur·ice existant·e"
 
-#: wp-admin/user-edit.php:292
+#: wp-admin/user-edit.php:328
 msgid "Personal Options"
 msgstr "Options personnelles"
 
-#: wp-admin/user-edit.php:297
+#: wp-admin/user-edit.php:333
 msgid "Visual Editor"
 msgstr "Éditeur visuel"
 
-#: wp-admin/user-edit.php:300
+#: wp-admin/user-edit.php:336
 msgid "Disable the visual editor when writing"
 msgstr "Désactiver l’éditeur visuel pour écrire"
 
-#: wp-admin/user-edit.php:320
+#: wp-admin/user-edit.php:356
 msgid "Syntax Highlighting"
 msgstr "Édition de code"
 
-#: wp-admin/user-edit.php:323
+#: wp-admin/user-edit.php:359
 msgid "Disable syntax highlighting when editing code"
 msgstr "Désactiver le surlignage syntaxique lors de l’édition de code"
 
-#: wp-admin/user-edit.php:352
+#: wp-admin/user-edit.php:388
 msgid "Toolbar"
 msgstr "Barre d’outils"
 
-#: wp-admin/user-edit.php:356
+#: wp-admin/user-edit.php:392
 msgid "Show Toolbar when viewing site"
 msgstr "Afficher la barre d’outils lorsque vous visitez le site"
 
 #. translators: The user language selection field label.
-#: wp-admin/user-edit.php:369 wp-admin/user-new.php:240
+#: wp-admin/user-edit.php:405 wp-admin/user-new.php:240
 msgid "Language"
 msgstr "Langue"
 
-#: wp-admin/user-edit.php:428
+#: wp-admin/user-edit.php:464
 msgid "Usernames cannot be changed."
 msgstr "Les nom d’utilisateur·ice ne peuvent pas être modifiés."
 
-#: wp-admin/user-edit.php:461
+#: wp-admin/user-edit.php:497
 msgid "Grant this user super admin privileges for the Network."
 msgstr ""
 "Donner les privilèges de super administration à cet·te utilisateur·ice pour "
 "le réseau."
 
-#: wp-admin/user-edit.php:463
+#: wp-admin/user-edit.php:499
 msgid ""
 "Super admin privileges cannot be removed because this user has the network "
 "admin email."
@@ -17387,27 +17413,27 @@ msgstr ""
 "cet·te utilisateur·ice est celui·celle avec l’adresse de courriel "
 "d’administration du réseau."
 
-#: wp-admin/user-edit.php:470 wp-admin/user-new.php:221
+#: wp-admin/user-edit.php:506 wp-admin/user-new.php:221
 msgid "First Name"
 msgstr "Prénom"
 
-#: wp-admin/user-edit.php:475 wp-admin/user-new.php:225
+#: wp-admin/user-edit.php:511 wp-admin/user-new.php:225
 msgid "Last Name"
 msgstr "Nom"
 
-#: wp-admin/user-edit.php:480
+#: wp-admin/user-edit.php:516
 msgid "Nickname"
 msgstr "Pseudonyme"
 
-#: wp-admin/user-edit.php:486
+#: wp-admin/user-edit.php:522
 msgid "Display name publicly as"
 msgstr "Nom à afficher publiquement"
 
-#: wp-admin/user-edit.php:524
+#: wp-admin/user-edit.php:560
 msgid "Contact Info"
 msgstr "Informations de contact"
 
-#: wp-admin/user-edit.php:533
+#: wp-admin/user-edit.php:569
 msgid ""
 "If you change this, an email will be sent at your new address to confirm it. "
 "<strong>The new address will not become active until confirmed.</strong>"
@@ -17417,29 +17443,29 @@ msgstr ""
 "vous n’aurez pas confirmé.</strong>"
 
 #. translators: %s: New email.
-#: wp-admin/user-edit.php:543
+#: wp-admin/user-edit.php:579
 msgid "There is a pending change of your email to %s."
 msgstr ""
 "Il y a une modification de votre adresse de courriel en attente, en faveur "
 "de %s."
 
-#: wp-admin/user-edit.php:563 wp-admin/user-new.php:229
+#: wp-admin/user-edit.php:599 wp-admin/user-new.php:229
 msgid "Website"
 msgstr "Site Web"
 
-#: wp-admin/user-edit.php:593
+#: wp-admin/user-edit.php:629
 msgid "About Yourself"
 msgstr "À propos de vous"
 
-#: wp-admin/user-edit.php:593
+#: wp-admin/user-edit.php:629
 msgid "About the user"
 msgstr "À propos de l’utilisateur·ice"
 
-#: wp-admin/user-edit.php:597
+#: wp-admin/user-edit.php:633
 msgid "Biographical Info"
 msgstr "Renseignements biographiques"
 
-#: wp-admin/user-edit.php:599
+#: wp-admin/user-edit.php:635
 msgid ""
 "Share a little biographical information to fill out your profile. This may "
 "be shown publicly."
@@ -17447,59 +17473,59 @@ msgstr ""
 "Donnez quelques informations biographiques pour remplir votre profil. Ceci "
 "peut être affiché publiquement."
 
-#: wp-admin/user-edit.php:604
+#: wp-admin/user-edit.php:640
 msgid "Profile Picture"
 msgstr "Illustration du profil"
 
 #. translators: %s: Gravatar URL.
-#: wp-admin/user-edit.php:612
+#: wp-admin/user-edit.php:648
 msgid "<a href=\"%s\">You can change your profile picture on Libravatar</a>."
 msgstr ""
 "<a href=\"%s\">Vous pouvez changer votre image de profil sur Libravatar</a>."
 
 #. translators: The localized Gravatar URL.
-#: wp-admin/user-edit.php:614
+#: wp-admin/user-edit.php:650
 msgid "https://libravatar.org/"
 msgstr "https://libravatar.org/"
 
-#: wp-admin/user-edit.php:651
+#: wp-admin/user-edit.php:687
 msgid "Account Management"
 msgstr "Gestion du compte"
 
-#: wp-admin/user-edit.php:655
+#: wp-admin/user-edit.php:691
 msgid "New Password"
 msgstr "Nouveau mot de passe"
 
-#: wp-admin/user-edit.php:658
+#: wp-admin/user-edit.php:694
 msgid "Set New Password"
 msgstr "Définir le nouveau mot de passe"
 
-#: wp-admin/user-edit.php:668
+#: wp-admin/user-edit.php:704
 msgid "Cancel password change"
 msgstr "Annuler la modification du mot de passe"
 
-#: wp-admin/user-edit.php:676
+#: wp-admin/user-edit.php:712
 msgid "Repeat New Password"
 msgstr "Répétez le nouveau mot de passe"
 
-#: wp-admin/user-edit.php:680
+#: wp-admin/user-edit.php:716
 msgid "Type your new password again."
 msgstr "Veuillez saisir une deuxième fois votre mot de passe."
 
-#: wp-admin/user-edit.php:682
+#: wp-admin/user-edit.php:718
 msgid "Type the new password again."
 msgstr "Saisissez à nouveau le nouveau mot de passe."
 
-#: wp-admin/user-edit.php:700
+#: wp-admin/user-edit.php:736
 msgid "Password Reset"
 msgstr "Réinitialisation du mot de passe"
 
-#: wp-admin/user-edit.php:704
+#: wp-admin/user-edit.php:740
 msgid "Send Reset Link"
 msgstr "Envoyer le lien de réinitialisation"
 
 #. translators: %s: User's display name.
-#: wp-admin/user-edit.php:711
+#: wp-admin/user-edit.php:747
 msgid ""
 "Send %s a link to reset their password. This will not change their password, "
 "nor will it force a change."
@@ -17507,20 +17533,20 @@ msgstr ""
 "Envoyez à %s un lien pour réinitialiser son mot de passe. Cela ne changera "
 "pas son mot de passe, ni ne l’obligera à le modifier."
 
-#: wp-admin/user-edit.php:722 wp-admin/user-edit.php:732
-#: wp-admin/user-edit.php:742
+#: wp-admin/user-edit.php:758 wp-admin/user-edit.php:768
+#: wp-admin/user-edit.php:778
 msgid "Sessions"
 msgstr "Sessions"
 
-#: wp-admin/user-edit.php:724 wp-admin/user-edit.php:734
+#: wp-admin/user-edit.php:760 wp-admin/user-edit.php:770
 msgid "Log Out Everywhere Else"
 msgstr "Déconnecter partout ailleurs"
 
-#: wp-admin/user-edit.php:726
+#: wp-admin/user-edit.php:762
 msgid "You are only logged in at this location."
 msgstr "Vous n’êtes connecté·e qu’à cet emplacement."
 
-#: wp-admin/user-edit.php:736
+#: wp-admin/user-edit.php:772
 msgid ""
 "Did you lose your phone or leave your account logged in at a public "
 "computer? You can log out everywhere else, and stay logged in here."
@@ -17529,20 +17555,20 @@ msgstr ""
 "ordinateur public ? Vous pouvez garder votre compte connecté ici tout en "
 "vous déconnectant partout ailleurs."
 
-#: wp-admin/user-edit.php:744
+#: wp-admin/user-edit.php:780
 msgid "Log Out Everywhere"
 msgstr "Déconnexion globale"
 
 #. translators: %s: User's display name.
-#: wp-admin/user-edit.php:748
+#: wp-admin/user-edit.php:784
 msgid "Log %s out of all locations."
 msgstr "Déconnecter %s de tous les emplacements."
 
-#: wp-admin/user-edit.php:758
+#: wp-admin/user-edit.php:794
 msgid "Application Passwords"
 msgstr "Mots de passe d’application"
 
-#: wp-admin/user-edit.php:759
+#: wp-admin/user-edit.php:795
 msgid ""
 "Application passwords allow authentication via non-interactive systems, such "
 "as the REST API, without providing your actual password. Application "
@@ -17556,7 +17582,7 @@ msgstr ""
 "votre site."
 
 #. translators: 1: URL to my-sites.php, 2: Number of sites the user has.
-#: wp-admin/user-edit.php:771
+#: wp-admin/user-edit.php:807
 msgid ""
 "Application passwords grant access to <a href=\"%1$s\">the %2$s site in this "
 "installation that you have permissions on</a>."
@@ -17571,7 +17597,7 @@ msgstr[1] ""
 "sites sur lesquels vous avez des droits sur cette installation</a>."
 
 #. translators: 1: URL to my-sites.php, 2: Number of sites the user has.
-#: wp-admin/user-edit.php:779
+#: wp-admin/user-edit.php:815
 msgid ""
 "Application passwords grant access to <a href=\"%1$s\">the %2$s site on the "
 "network as you have Super Admin rights</a>."
@@ -17585,17 +17611,17 @@ msgstr[1] ""
 "Les mots de passe d’applications donnent accès <a href=\"%1$s\">aux %2$s "
 "sites du réseau, car vous disposez de droits Super Administration</a>."
 
-#: wp-admin/user-edit.php:803
+#: wp-admin/user-edit.php:839
 msgid "Required to create an Application Password, but not to update the user."
 msgstr ""
 "Nécessaire pour créer un mot de passe d’application, mais pas pour mettre à "
 "jour l’utilisateur·ice."
 
-#: wp-admin/user-edit.php:817
+#: wp-admin/user-edit.php:853
 msgid "Add New Application Password"
 msgstr "Ajouter un mot de passe d’application"
 
-#: wp-admin/user-edit.php:822
+#: wp-admin/user-edit.php:858
 msgid ""
 "Your website appears to use Basic Authentication, which is not currently "
 "compatible with Application Passwords."
@@ -17603,7 +17629,7 @@ msgstr ""
 "Votre site semble utiliser l’authentification basique, qui n’est pas "
 "compatible avec les mots de passe d’application."
 
-#: wp-admin/user-edit.php:839
+#: wp-admin/user-edit.php:875
 msgid ""
 "The application password feature requires HTTPS, which is not enabled on "
 "this site."
@@ -17611,7 +17637,7 @@ msgstr ""
 "La fonctionnalité de mot de passe de l’application nécessite HTTPS, qui "
 "n’est pas activé sur ce site."
 
-#: wp-admin/user-edit.php:840
+#: wp-admin/user-edit.php:876
 msgid ""
 "If this is a development website, you can set the environment type "
 "accordingly to enable application passwords."
@@ -17620,33 +17646,41 @@ msgstr ""
 "type d’environnement correspondant afin d’autoriser les mots de passe "
 "d’applications."
 
-#: wp-admin/user-edit.php:886
+#: wp-admin/user-edit.php:922
 msgid "Additional Capabilities"
 msgstr "Permissions supplémentaires"
 
-#: wp-admin/user-edit.php:890
+#: wp-admin/user-edit.php:926
 msgid "Capabilities"
 msgstr "Permissions"
 
 #. translators: %s: Capability name.
-#: wp-admin/user-edit.php:904
+#: wp-admin/user-edit.php:940
 msgid "Denied: %s"
 msgstr "Refusé : %s"
 
-#: wp-admin/user-edit.php:918
+#: wp-admin/user-edit.php:952
+msgid "Danger zone"
+msgstr "Zone de danger"
+
+#: wp-admin/user-edit.php:959
+msgid "I wish to delete my account"
+msgstr "Je souhaite supprimer mon compte"
+
+#: wp-admin/user-edit.php:969
 msgid "Update Profile"
 msgstr "Mettre à jour le profil"
 
-#: wp-admin/user-edit.php:918
+#: wp-admin/user-edit.php:969
 msgid "Update User"
 msgstr "Mettre à jour l’utilisateur·ice"
 
-#: wp-admin/user-edit.php:961
+#: wp-admin/user-edit.php:1012
 msgid "Copy"
 msgstr "Copier"
 
 #. translators: Hidden accessibility text.
-#: wp-admin/user-edit.php:969
+#: wp-admin/user-edit.php:1020
 msgid "Dismiss this notice."
 msgstr "Ignorer cette notification."
 
@@ -18114,107 +18148,3 @@ msgstr "Les widgets ne sont pas supportés dans Retraceur."
 #: wp-admin/widgets.php:14
 msgid "Retraceur does not provide Widgets."
 msgstr "Retraceur ne fournit pas de Widgets."
-
-#~ msgid "Sorry, you are not allowed to add users to this network."
-#~ msgstr ""
-#~ "Désolé, vous n’avez pas l’autorisation d’ajouter des utilisateur·ice·s "
-#~ "pour ce réseau."
-
-#~ msgid ""
-#~ "Hi,\n"
-#~ "\n"
-#~ "You've been invited to join '%1$s' at\n"
-#~ "%2$s with the role of %3$s.\n"
-#~ "\n"
-#~ "Please click the following link to confirm the invite:\n"
-#~ "%4$s"
-#~ msgstr ""
-#~ "Bonjour,\n"
-#~ "\n"
-#~ "Vous avez été invité·e à rejoindre « %1$s » sur\n"
-#~ "%2$s en tant que %3$s. \n"
-#~ "Veuillez cliquer sur le lien suivant pour confirmer l’invitation :\n"
-#~ "%4$s"
-
-#~ msgid "[%s] Joining Confirmation"
-#~ msgstr "[%s] Confirmation d’inscription"
-
-#~ msgid ""
-#~ "Because this is a multisite installation, you may add accounts that "
-#~ "already exist on the Network by specifying a username or email, and "
-#~ "defining a role. For more options, such as specifying a password, you "
-#~ "have to be a Network Administrator and use the hover link under an "
-#~ "existing user&#8217;s name to Edit the user profile under Network Admin > "
-#~ "All Users."
-#~ msgstr ""
-#~ "Parce qu’il s’agit d’une installation multisite, vous pouvez ajouter des "
-#~ "utilisateur·ice·s qui existent déjà sur le Réseau, en indiquant un nom "
-#~ "d’utilisateur·ice ou une adresse de courriel, et en assignant un rôle. "
-#~ "Pour avoir plus d’options, telle que le choix du mot de passe, vous devez "
-#~ "être Administrateur·ice du Réseau, et utiliser les liens qui apparaissent "
-#~ "au survol sous le nom de l’utilisateur·ice pour modifier son compte, "
-#~ "depuis l’écran « Tou·te·s les utilisateur·ice·s »."
-
-#~ msgid ""
-#~ "New users will receive an email letting them know they&#8217;ve been "
-#~ "added as a user for your site. This email will also contain their "
-#~ "password. Check the box if you do not want the user to receive a welcome "
-#~ "email."
-#~ msgstr ""
-#~ "Les nouvel·le·s utilisateur·ice·s reçoivent un courriel les informant "
-#~ "qu’ils ont été ajouté·e·s à votre site. Ce courriel contient également "
-#~ "leur mot de passe. Cochez la case si vous ne voulez pas envoyer ce "
-#~ "message de bienvenue."
-
-#~ msgid ""
-#~ "Invitation email sent to user. A confirmation link must be clicked for "
-#~ "them to be added to your site."
-#~ msgstr ""
-#~ "L’invitation a été envoyée à l’adresse de courriel de l’utilisateur·ice. "
-#~ "La personne concernée devra cliquer sur un lien de confirmation pour être "
-#~ "ajoutée à votre site."
-
-#~ msgid "User has been added to your site."
-#~ msgstr "L’utilisateur·ice a été ajouté·e à votre site."
-
-#~ msgid "That user is already a member of this site."
-#~ msgstr "Cet·te utilisateur·ice est déjà membre de ce site."
-
-#~ msgid "User has been created, but could not be added to this site."
-#~ msgstr ""
-#~ "L’utilisateur·ice a été créé·e, mais il·elle ne peut pas être ajouté·e à "
-#~ "ce site."
-
-#~ msgid "The requested user does not exist."
-#~ msgstr "L’utilisateur·ice demandé·e n’existe pas."
-
-#~ msgid "Please enter a valid email address."
-#~ msgstr "Veuillez saisir une adresse de courriel valide."
-
-#~ msgid ""
-#~ "Enter the email address of an existing user on this network to invite "
-#~ "them to this site. That person will be sent an email asking them to "
-#~ "confirm the invite."
-#~ msgstr ""
-#~ "Saisissez l’adresse de courriel d’un·e utilisateur·ice existant·e sur "
-#~ "votre réseau, afin de l’inviter sur ce site. Cette personne recevra un "
-#~ "message lui demandant de confirmer l’invitation."
-
-#~ msgid ""
-#~ "Enter the email address or username of an existing user on this network "
-#~ "to invite them to this site. That person will be sent an email asking "
-#~ "them to confirm the invite."
-#~ msgstr ""
-#~ "Pour inviter un·e utilisateur·ice de ce réseau sur ce site, saisissez son "
-#~ "adresse de courriel ou son nom d’utilisateur·ice. Cette personne recevra "
-#~ "alors un message lui proposant de confirmer son ajout."
-
-#~ msgid "Email or Username"
-#~ msgstr "Courriel ou nom d’utilisateur·ice"
-
-#~ msgid "Send User Notification"
-#~ msgstr "Envoyer une notification à l’utilisateur·ice"
-
-#~ msgid "Send the new user an email about their account"
-#~ msgstr ""
-#~ "Envoyer un courriel au nouvel·le utilisateur·ice à propos de son compte."
