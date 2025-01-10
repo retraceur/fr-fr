@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Retraceur - 1.0.0 - Administration\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-04T18:51:07+00:00\n"
-"PO-Revision-Date: 2025-01-04 19:51+0100\n"
+"POT-Creation-Date: 2025-01-10T21:37:18+00:00\n"
+"PO-Revision-Date: 2025-01-10 22:39+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -673,7 +673,7 @@ msgstr "Fichier média mis à jour."
 #: wp-admin/revision.php:155 wp-admin/site-health.php:82
 #: wp-admin/theme-editor.php:30 wp-admin/theme-install.php:116
 #: wp-admin/themes.php:145 wp-admin/update-core.php:923 wp-admin/upload.php:180
-#: wp-admin/upload.php:364 wp-admin/user-edit.php:73 wp-admin/user-new.php:290
+#: wp-admin/upload.php:364 wp-admin/user-edit.php:73 wp-admin/user-new.php:90
 #: wp-admin/users.php:45
 msgid "Overview"
 msgstr "Vue d’ensemble"
@@ -814,8 +814,7 @@ msgstr ""
 #: wp-admin/edit-tags.php:171 wp-admin/edit.php:48 wp-admin/media-upload.php:48
 #: wp-admin/options.php:53 wp-admin/post-new.php:62 wp-admin/press-this.php:23
 #: wp-admin/site-editor.php:18 wp-admin/term.php:44 wp-admin/themes.php:16
-#: wp-admin/themes.php:44 wp-admin/themes.php:64 wp-admin/user-new.php:17
-#: wp-admin/user-new.php:24 wp-admin/user-new.php:58 wp-admin/user-new.php:193
+#: wp-admin/themes.php:44 wp-admin/themes.php:64 wp-admin/user-new.php:16
 #: wp-admin/users.php:17
 msgid "You need a higher level of permission."
 msgstr "Vous avez besoin d’un niveau plus élevé de droits."
@@ -5785,7 +5784,7 @@ msgstr "– Aucun changement –"
 #: wp-admin/includes/class-wp-posts-list-table.php:1761
 #: wp-admin/includes/file.php:2286 wp-admin/install.php:138
 #: wp-admin/install.php:418 wp-admin/setup-config.php:233
-#: wp-admin/user-new.php:584
+#: wp-admin/user-new.php:262
 msgid "Password"
 msgstr "Mot de passe"
 
@@ -8576,19 +8575,17 @@ msgstr "Modifier"
 #: wp-admin/includes/class-wp-users-list-table.php:398
 #: wp-admin/includes/file.php:2285 wp-admin/install.php:119
 #: wp-admin/install.php:414 wp-admin/setup-config.php:228
-#: wp-admin/user-edit.php:427 wp-admin/user-new.php:534
+#: wp-admin/user-edit.php:427 wp-admin/user-new.php:213
 msgid "Username"
 msgstr "Nom d’utilisateur·ice"
 
 #: wp-admin/includes/class-wp-users-list-table.php:377
-#: wp-admin/user-edit.php:528 wp-admin/user-new.php:442
-#: wp-admin/user-new.php:538
+#: wp-admin/user-edit.php:528 wp-admin/user-new.php:217
 msgid "Email"
 msgstr "Courriel"
 
 #: wp-admin/includes/class-wp-users-list-table.php:378
-#: wp-admin/user-edit.php:433 wp-admin/user-new.php:469
-#: wp-admin/user-new.php:630
+#: wp-admin/user-edit.php:433 wp-admin/user-new.php:307
 msgid "Role"
 msgstr "Rôle"
 
@@ -10012,7 +10009,7 @@ msgstr "Afficher"
 
 #: wp-admin/includes/media.php:1623 wp-admin/includes/media.php:2577
 #: wp-admin/install.php:150 wp-admin/user-edit.php:666
-#: wp-admin/user-new.php:599
+#: wp-admin/user-new.php:277
 msgid "Hide"
 msgstr "Masquer"
 
@@ -12926,7 +12923,7 @@ msgstr ""
 "\"), des points et le symbole @."
 
 #: wp-admin/install.php:148 wp-admin/user-edit.php:664
-#: wp-admin/user-new.php:597
+#: wp-admin/user-new.php:275
 msgid "Hide password"
 msgstr "Cacher le mot de passe"
 
@@ -12943,24 +12940,24 @@ msgstr ""
 "Vous aurez besoin de ce mot de passe pour vous connecter. Pensez à le "
 "stocker dans un lieu sûr."
 
-#: wp-admin/install.php:161 wp-admin/user-new.php:605
+#: wp-admin/install.php:161 wp-admin/user-new.php:283
 msgid "Repeat Password"
 msgstr "Répétez le mot de passe"
 
 #: wp-admin/install.php:162 wp-admin/user-edit.php:480
-#: wp-admin/user-edit.php:528 wp-admin/user-new.php:534
-#: wp-admin/user-new.php:538 wp-admin/user-new.php:585
-#: wp-admin/user-new.php:605
+#: wp-admin/user-edit.php:528 wp-admin/user-new.php:213
+#: wp-admin/user-new.php:217 wp-admin/user-new.php:263
+#: wp-admin/user-new.php:283
 msgid "(required)"
 msgstr "(nécessaire)"
 
 #: wp-admin/install.php:170 wp-admin/user-edit.php:687
-#: wp-admin/user-new.php:612
+#: wp-admin/user-new.php:290
 msgid "Confirm Password"
 msgstr "Confirmer le mot de passe"
 
 #: wp-admin/install.php:174 wp-admin/user-edit.php:691
-#: wp-admin/user-new.php:616
+#: wp-admin/user-new.php:294
 msgid "Confirm use of weak password"
 msgstr "Confirmer l’utilisation d’un mot de passe faible"
 
@@ -13423,8 +13420,8 @@ msgid "All Users"
 msgstr "Tou·te·s les utilisateur·ice·s"
 
 #: wp-admin/menu.php:267 wp-admin/menu.php:275 wp-admin/user-edit.php:265
-#: wp-admin/user-new.php:266 wp-admin/user-new.php:382
-#: wp-admin/user-new.php:506 wp-admin/user-new.php:658 wp-admin/users.php:787
+#: wp-admin/user-new.php:84 wp-admin/user-new.php:134 wp-admin/user-new.php:326
+#: wp-admin/users.php:787
 msgid "Add New User"
 msgstr "Ajouter un·e utilisateur·ice"
 
@@ -17334,8 +17331,7 @@ msgstr ""
 "Une erreur est survenue lors de l’enregistrement de votre adresse de "
 "courriel. Veuillez réessayer."
 
-#: wp-admin/user-edit.php:267 wp-admin/user-new.php:384
-#: wp-admin/user-new.php:438 wp-admin/user-new.php:499 wp-admin/users.php:793
+#: wp-admin/user-edit.php:267 wp-admin/user-new.php:136 wp-admin/users.php:793
 msgid "Add Existing User"
 msgstr "Ajouter un·e utilisateur·ice existant·e"
 
@@ -17368,7 +17364,7 @@ msgid "Show Toolbar when viewing site"
 msgstr "Afficher la barre d’outils lorsque vous visitez le site"
 
 #. translators: The user language selection field label.
-#: wp-admin/user-edit.php:369 wp-admin/user-new.php:562
+#: wp-admin/user-edit.php:369 wp-admin/user-new.php:240
 msgid "Language"
 msgstr "Langue"
 
@@ -17391,11 +17387,11 @@ msgstr ""
 "cet·te utilisateur·ice est celui·celle avec l’adresse de courriel "
 "d’administration du réseau."
 
-#: wp-admin/user-edit.php:470 wp-admin/user-new.php:543
+#: wp-admin/user-edit.php:470 wp-admin/user-new.php:221
 msgid "First Name"
 msgstr "Prénom"
 
-#: wp-admin/user-edit.php:475 wp-admin/user-new.php:547
+#: wp-admin/user-edit.php:475 wp-admin/user-new.php:225
 msgid "Last Name"
 msgstr "Nom"
 
@@ -17427,7 +17423,7 @@ msgstr ""
 "Il y a une modification de votre adresse de courriel en attente, en faveur "
 "de %s."
 
-#: wp-admin/user-edit.php:563 wp-admin/user-new.php:551
+#: wp-admin/user-edit.php:563 wp-admin/user-new.php:229
 msgid "Website"
 msgstr "Site Web"
 
@@ -17654,40 +17650,11 @@ msgstr "Copier"
 msgid "Dismiss this notice."
 msgstr "Ignorer cette notification."
 
-#: wp-admin/user-new.php:18 wp-admin/user-new.php:59
-msgid "Sorry, you are not allowed to add users to this network."
-msgstr ""
-"Désolé, vous n’avez pas l’autorisation d’ajouter des utilisateur·ice·s pour "
-"ce réseau."
-
-#: wp-admin/user-new.php:25 wp-admin/user-new.php:194
+#: wp-admin/user-new.php:17
 msgid "Sorry, you are not allowed to create users."
 msgstr "Désolé, vous n’avez pas l’autorisation de créer des utilisateur·ice·s."
 
-#. translators: 1: Site title, 2: Site URL, 3: User role, 4: Activation URL.
-#: wp-admin/user-new.php:126
-msgid ""
-"Hi,\n"
-"\n"
-"You've been invited to join '%1$s' at\n"
-"%2$s with the role of %3$s.\n"
-"\n"
-"Please click the following link to confirm the invite:\n"
-"%4$s"
-msgstr ""
-"Bonjour,\n"
-"\n"
-"Vous avez été invité·e à rejoindre « %1$s » sur\n"
-"%2$s en tant que %3$s. \n"
-"Veuillez cliquer sur le lien suivant pour confirmer l’invitation :\n"
-"%4$s"
-
-#. translators: Joining confirmation notification email subject. %s: Site title.
-#: wp-admin/user-new.php:139
-msgid "[%s] Joining Confirmation"
-msgstr "[%s] Confirmation d’inscription"
-
-#: wp-admin/user-new.php:274
+#: wp-admin/user-new.php:91
 msgid ""
 "To add a new user to your site, fill in the form on this screen and click "
 "the Add New User button at the bottom."
@@ -17696,33 +17663,7 @@ msgstr ""
 "formulaire de cet écran et cliquez sur le bouton « Ajouter un·e "
 "utilisateur·ice » en bas de l’écran."
 
-#: wp-admin/user-new.php:277
-msgid ""
-"Because this is a multisite installation, you may add accounts that already "
-"exist on the Network by specifying a username or email, and defining a role. "
-"For more options, such as specifying a password, you have to be a Network "
-"Administrator and use the hover link under an existing user&#8217;s name to "
-"Edit the user profile under Network Admin > All Users."
-msgstr ""
-"Parce qu’il s’agit d’une installation multisite, vous pouvez ajouter des "
-"utilisateur·ice·s qui existent déjà sur le Réseau, en indiquant un nom "
-"d’utilisateur·ice ou une adresse de courriel, et en assignant un rôle. Pour "
-"avoir plus d’options, telle que le choix du mot de passe, vous devez être "
-"Administrateur·ice du Réseau, et utiliser les liens qui apparaissent au "
-"survol sous le nom de l’utilisateur·ice pour modifier son compte, depuis "
-"l’écran « Tou·te·s les utilisateur·ice·s »."
-
-#: wp-admin/user-new.php:278
-msgid ""
-"New users will receive an email letting them know they&#8217;ve been added "
-"as a user for your site. This email will also contain their password. Check "
-"the box if you do not want the user to receive a welcome email."
-msgstr ""
-"Les nouvel·le·s utilisateur·ice·s reçoivent un courriel les informant qu’ils "
-"ont été ajouté·e·s à votre site. Ce courriel contient également leur mot de "
-"passe. Cochez la case si vous ne voulez pas envoyer ce message de bienvenue."
-
-#: wp-admin/user-new.php:280
+#: wp-admin/user-new.php:92
 msgid ""
 "New users are automatically assigned a password, which they can change after "
 "logging in. You can view or edit the assigned password by clicking the Show "
@@ -17734,7 +17675,7 @@ msgstr ""
 "d’utilisateur·ice ne peut pas être modifié une fois que l’utilisateur·ice a "
 "été enregistré·e."
 
-#: wp-admin/user-new.php:282
+#: wp-admin/user-new.php:93
 msgid ""
 "By default, new users will receive an email letting them know they&#8217;ve "
 "been added as a user for your site. This email will also contain a password "
@@ -17746,7 +17687,7 @@ msgstr ""
 "contiendra également un lien de réinitialisation de leur mot de passe. "
 "Cochez la case si vous ne souhaitez pas envoyer de message de bienvenue."
 
-#: wp-admin/user-new.php:285
+#: wp-admin/user-new.php:94
 msgid ""
 "Remember to click the Add New User button at the bottom of this screen when "
 "you are finished."
@@ -17754,11 +17695,11 @@ msgstr ""
 "N’oubliez pas de cliquer sur le bouton « Ajouter un·e utilisateur·ice », en "
 "bas de cet écran, quand vous aurez terminé."
 
-#: wp-admin/user-new.php:298
+#: wp-admin/user-new.php:101
 msgid "User Roles"
 msgstr "Rôles des utilisateur·ice·s"
 
-#: wp-admin/user-new.php:299
+#: wp-admin/user-new.php:102
 msgid ""
 "Here is a basic overview of the different user roles and the permissions "
 "associated with each one:"
@@ -17766,13 +17707,13 @@ msgstr ""
 "Voici un rapide survol des différents rôles assignables aux "
 "utilisateur·ice·s, et des droits qui leurs sont associé·e·s :"
 
-#: wp-admin/user-new.php:301
+#: wp-admin/user-new.php:104
 msgid "Subscribers can read regular site content but cannot create it."
 msgstr ""
 "Les abonné·e·s peuvent lire les contenus de votre site mais ne peuvent pas "
 "en créer."
 
-#: wp-admin/user-new.php:302
+#: wp-admin/user-new.php:105
 msgid ""
 "Contributors can write and manage their posts but not publish posts or "
 "upload media files."
@@ -17780,14 +17721,14 @@ msgstr ""
 "Les contributeurs peuvent écrire et gérer leurs articles, mais ils ne "
 "peuvent pas publier les articles ou téléverser des fichiers média."
 
-#: wp-admin/user-new.php:303
+#: wp-admin/user-new.php:106
 msgid ""
 "Authors can publish and manage their own posts, and are able to upload files."
 msgstr ""
 "Les auteurs ou autrices peuvent publier et gérer leurs propres articles, ils "
 "peuvent également téléverser des fichiers."
 
-#: wp-admin/user-new.php:304
+#: wp-admin/user-new.php:107
 msgid ""
 "Editors can publish posts, manage posts as well as manage other people&#8217;"
 "s posts, etc."
@@ -17795,13 +17736,17 @@ msgstr ""
 "Les éditeurs ou éditrices peuvent publier et gérer leurs propres "
 "publication, ainsi que ceux des autres membres, etc."
 
-#: wp-admin/user-new.php:305
+#: wp-admin/user-new.php:108
 msgid "Administrators have access to all the administration features."
 msgstr ""
 "Les administrateurs et les administratrices peuvent accéder à toutes les "
 "fonctionnalités de l’administration."
 
-#: wp-admin/user-new.php:341
+#: wp-admin/user-new.php:122
+msgid "User added."
+msgstr "Utilisateur·ice ajouté·e."
+
+#: wp-admin/user-new.php:124
 msgid ""
 "Invitation email sent to new user. A confirmation link must be clicked "
 "before their account is created."
@@ -17809,101 +17754,29 @@ msgstr ""
 "Envoi d’un message d’invitation au nouvel·le utilisateur·ice. Un lien de "
 "confirmation devra d’abord être cliqué avant la création du compte."
 
-#: wp-admin/user-new.php:344
-msgid ""
-"Invitation email sent to user. A confirmation link must be clicked for them "
-"to be added to your site."
-msgstr ""
-"L’invitation a été envoyée à l’adresse de courriel de l’utilisateur·ice. La "
-"personne concernée devra cliquer sur un lien de confirmation pour être "
-"ajoutée à votre site."
-
-#: wp-admin/user-new.php:347
-msgid "User has been added to your site."
-msgstr "L’utilisateur·ice a été ajouté·e à votre site."
-
-#: wp-admin/user-new.php:350 wp-admin/users.php:647
-msgid "Edit user"
-msgstr "Modifier l’utilisateur·ice"
-
-#: wp-admin/user-new.php:356
-msgid "That user is already a member of this site."
-msgstr "Cet·te utilisateur·ice est déjà membre de ce site."
-
-#: wp-admin/user-new.php:359
+#: wp-admin/user-new.php:126
 msgid "That user could not be added to this site."
 msgstr "Cet·te utilisateur·ice ne peut pas être ajouté·e à ce site."
 
-#: wp-admin/user-new.php:362
-msgid "User has been created, but could not be added to this site."
-msgstr ""
-"L’utilisateur·ice a été créé·e, mais il·elle ne peut pas être ajouté·e à ce "
-"site."
-
-#: wp-admin/user-new.php:365
-msgid "The requested user does not exist."
-msgstr "L’utilisateur·ice demandé·e n’existe pas."
-
-#: wp-admin/user-new.php:368
-msgid "Please enter a valid email address."
-msgstr "Veuillez saisir une adresse de courriel valide."
-
-#: wp-admin/user-new.php:373
-msgid "User added."
-msgstr "Utilisateur·ice ajouté·e."
-
-#: wp-admin/user-new.php:441
-msgid ""
-"Enter the email address of an existing user on this network to invite them "
-"to this site. That person will be sent an email asking them to confirm the "
-"invite."
-msgstr ""
-"Saisissez l’adresse de courriel d’un·e utilisateur·ice existant·e sur votre "
-"réseau, afin de l’inviter sur ce site. Cette personne recevra un message lui "
-"demandant de confirmer l’invitation."
-
-#: wp-admin/user-new.php:445
-msgid ""
-"Enter the email address or username of an existing user on this network to "
-"invite them to this site. That person will be sent an email asking them to "
-"confirm the invite."
-msgstr ""
-"Pour inviter un·e utilisateur·ice de ce réseau sur ce site, saisissez son "
-"adresse de courriel ou son nom d’utilisateur·ice. Cette personne recevra "
-"alors un message lui proposant de confirmer son ajout."
-
-#: wp-admin/user-new.php:446
-msgid "Email or Username"
-msgstr "Courriel ou nom d’utilisateur·ice"
-
-#: wp-admin/user-new.php:477 wp-admin/user-new.php:644
-msgid "Skip Confirmation Email"
-msgstr "Passer la confirmation par courriel"
-
-#: wp-admin/user-new.php:480 wp-admin/user-new.php:647
-msgid "Add the user without sending an email that requires their confirmation"
-msgstr "Ajouter l’utilisateur·ice sans envoyer de message de confirmation."
-
-#: wp-admin/user-new.php:509
+#: wp-admin/user-new.php:189
 msgid "Create a brand new user and add them to this site."
 msgstr "Créer un nouvel·le utilisateur·ice et l’ajouter à ce site."
 
-#: wp-admin/user-new.php:590
+#: wp-admin/user-new.php:268
 msgid "Generate password"
 msgstr "Générer un mot de passe"
 
-#: wp-admin/user-new.php:608
+#: wp-admin/user-new.php:286
 msgid "Type the password again."
 msgstr "Saisissez à nouveau le nouveau mot de passe."
 
-#: wp-admin/user-new.php:621
-msgid "Send User Notification"
-msgstr "Envoyer une notification à l’utilisateur·ice"
+#: wp-admin/user-new.php:299
+msgid "Skip Confirmation Email"
+msgstr "Passer la confirmation par courriel"
 
-#: wp-admin/user-new.php:624
-msgid "Send the new user an email about their account"
-msgstr ""
-"Envoyer un courriel au nouvel·le utilisateur·ice à propos de son compte."
+#: wp-admin/user-new.php:302
+msgid "Add the user without sending an email that requires their confirmation"
+msgstr "Ajouter l’utilisateur·ice sans envoyer de message de confirmation."
 
 #: wp-admin/users.php:18
 msgid "Sorry, you are not allowed to list users."
@@ -18174,6 +18047,10 @@ msgstr[1] "%s utilisateur·ice·s supprimé·e·s."
 msgid "New user created."
 msgstr "Nouvel·le utilisateur·ice créé·e."
 
+#: wp-admin/users.php:647
+msgid "Edit user"
+msgstr "Modifier l’utilisateur·ice"
+
 #: wp-admin/users.php:663
 msgid "Password reset link sent."
 msgstr "Le lien de réinitialisation du mot de passe a été envoyé."
@@ -18237,3 +18114,107 @@ msgstr "Les widgets ne sont pas supportés dans Retraceur."
 #: wp-admin/widgets.php:14
 msgid "Retraceur does not provide Widgets."
 msgstr "Retraceur ne fournit pas de Widgets."
+
+#~ msgid "Sorry, you are not allowed to add users to this network."
+#~ msgstr ""
+#~ "Désolé, vous n’avez pas l’autorisation d’ajouter des utilisateur·ice·s "
+#~ "pour ce réseau."
+
+#~ msgid ""
+#~ "Hi,\n"
+#~ "\n"
+#~ "You've been invited to join '%1$s' at\n"
+#~ "%2$s with the role of %3$s.\n"
+#~ "\n"
+#~ "Please click the following link to confirm the invite:\n"
+#~ "%4$s"
+#~ msgstr ""
+#~ "Bonjour,\n"
+#~ "\n"
+#~ "Vous avez été invité·e à rejoindre « %1$s » sur\n"
+#~ "%2$s en tant que %3$s. \n"
+#~ "Veuillez cliquer sur le lien suivant pour confirmer l’invitation :\n"
+#~ "%4$s"
+
+#~ msgid "[%s] Joining Confirmation"
+#~ msgstr "[%s] Confirmation d’inscription"
+
+#~ msgid ""
+#~ "Because this is a multisite installation, you may add accounts that "
+#~ "already exist on the Network by specifying a username or email, and "
+#~ "defining a role. For more options, such as specifying a password, you "
+#~ "have to be a Network Administrator and use the hover link under an "
+#~ "existing user&#8217;s name to Edit the user profile under Network Admin > "
+#~ "All Users."
+#~ msgstr ""
+#~ "Parce qu’il s’agit d’une installation multisite, vous pouvez ajouter des "
+#~ "utilisateur·ice·s qui existent déjà sur le Réseau, en indiquant un nom "
+#~ "d’utilisateur·ice ou une adresse de courriel, et en assignant un rôle. "
+#~ "Pour avoir plus d’options, telle que le choix du mot de passe, vous devez "
+#~ "être Administrateur·ice du Réseau, et utiliser les liens qui apparaissent "
+#~ "au survol sous le nom de l’utilisateur·ice pour modifier son compte, "
+#~ "depuis l’écran « Tou·te·s les utilisateur·ice·s »."
+
+#~ msgid ""
+#~ "New users will receive an email letting them know they&#8217;ve been "
+#~ "added as a user for your site. This email will also contain their "
+#~ "password. Check the box if you do not want the user to receive a welcome "
+#~ "email."
+#~ msgstr ""
+#~ "Les nouvel·le·s utilisateur·ice·s reçoivent un courriel les informant "
+#~ "qu’ils ont été ajouté·e·s à votre site. Ce courriel contient également "
+#~ "leur mot de passe. Cochez la case si vous ne voulez pas envoyer ce "
+#~ "message de bienvenue."
+
+#~ msgid ""
+#~ "Invitation email sent to user. A confirmation link must be clicked for "
+#~ "them to be added to your site."
+#~ msgstr ""
+#~ "L’invitation a été envoyée à l’adresse de courriel de l’utilisateur·ice. "
+#~ "La personne concernée devra cliquer sur un lien de confirmation pour être "
+#~ "ajoutée à votre site."
+
+#~ msgid "User has been added to your site."
+#~ msgstr "L’utilisateur·ice a été ajouté·e à votre site."
+
+#~ msgid "That user is already a member of this site."
+#~ msgstr "Cet·te utilisateur·ice est déjà membre de ce site."
+
+#~ msgid "User has been created, but could not be added to this site."
+#~ msgstr ""
+#~ "L’utilisateur·ice a été créé·e, mais il·elle ne peut pas être ajouté·e à "
+#~ "ce site."
+
+#~ msgid "The requested user does not exist."
+#~ msgstr "L’utilisateur·ice demandé·e n’existe pas."
+
+#~ msgid "Please enter a valid email address."
+#~ msgstr "Veuillez saisir une adresse de courriel valide."
+
+#~ msgid ""
+#~ "Enter the email address of an existing user on this network to invite "
+#~ "them to this site. That person will be sent an email asking them to "
+#~ "confirm the invite."
+#~ msgstr ""
+#~ "Saisissez l’adresse de courriel d’un·e utilisateur·ice existant·e sur "
+#~ "votre réseau, afin de l’inviter sur ce site. Cette personne recevra un "
+#~ "message lui demandant de confirmer l’invitation."
+
+#~ msgid ""
+#~ "Enter the email address or username of an existing user on this network "
+#~ "to invite them to this site. That person will be sent an email asking "
+#~ "them to confirm the invite."
+#~ msgstr ""
+#~ "Pour inviter un·e utilisateur·ice de ce réseau sur ce site, saisissez son "
+#~ "adresse de courriel ou son nom d’utilisateur·ice. Cette personne recevra "
+#~ "alors un message lui proposant de confirmer son ajout."
+
+#~ msgid "Email or Username"
+#~ msgstr "Courriel ou nom d’utilisateur·ice"
+
+#~ msgid "Send User Notification"
+#~ msgstr "Envoyer une notification à l’utilisateur·ice"
+
+#~ msgid "Send the new user an email about their account"
+#~ msgstr ""
+#~ "Envoyer un courriel au nouvel·le utilisateur·ice à propos de son compte."
