@@ -1,9 +1,11 @@
+# Translation of Retraceur - 1.0.x - wp-includes/js/dist/editor.js in French (France)
+# This file is distributed under the GPL-2.0+ license.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-27T10:19:49+00:00\n"
-"PO-Revision-Date: 2024-12-30 15:24+0100\n"
+"POT-Creation-Date: 2025-01-11T21:16:24+00:00\n"
+"PO-Revision-Date: 2025-01-11 23:07+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -1674,7 +1676,7 @@ msgstr "« %1$s » / %2$s"
 #: wp-includes/js/dist/editor.js:22047
 msgctxt "caption"
 msgid "<a %1$s>Work</a>/ %2$s"
-msgstr ""
+msgstr "<a %1$s>Travail</a>/ %2$s"
 
 #: wp-includes/js/dist/editor.js:22069
 msgid "Images"

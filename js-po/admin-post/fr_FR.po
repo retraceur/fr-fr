@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-27T10:19:27+00:00\n"
-"PO-Revision-Date: 2024-12-31 14:41+0100\n"
+"POT-Creation-Date: 2025-01-11T21:16:01+00:00\n"
+"PO-Revision-Date: 2025-01-11 22:53+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -16,7 +16,9 @@ msgstr ""
 
 #: wp-admin/js/post.js:112
 msgid "Could not set that as the thumbnail image. Try a different attachment."
-msgstr "Impossible d’utiliser cet élément comme miniature. Essayez un autre fichier attaché."
+msgstr ""
+"Impossible d’utiliser cet élément comme miniature. Essayez un autre fichier "
+"attaché."
 
 #: wp-admin/js/post.js:425
 msgid "Saving Draft…"

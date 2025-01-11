@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-27T10:19:23+00:00\n"
-"PO-Revision-Date: 2024-12-31 16:32+0100\n"
+"POT-Creation-Date: 2025-01-11T21:15:57+00:00\n"
+"PO-Revision-Date: 2025-01-11 22:58+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -295,8 +295,8 @@ msgid "Activate"
 msgstr "Activer"
 
 #: wp-admin/js/updates.js:1828
-msgid "Live Preview"
-msgstr "Aperçu"
+msgid "Customize"
+msgstr "Personnaliser"
 
 #. translators: %s: Theme name and version.
 #: wp-admin/js/updates.js:1889
@@ -336,8 +336,7 @@ msgstr "La vérification des dépendances a échoué : %s"
 
 #: wp-admin/js/updates.js:2429
 msgid "Updates may not complete if you navigate away from this page."
-msgstr ""
-"Les mises à jour peuvent être incomplètes si vous quittez cette page."
+msgstr "Les mises à jour peuvent être incomplètes si vous quittez cette page."
 
 #. translators: %s: Plugin name and version.
 #: wp-admin/js/updates.js:2546

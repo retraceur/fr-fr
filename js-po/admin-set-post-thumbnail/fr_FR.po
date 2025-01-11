@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-27T10:19:18+00:00\n"
-"PO-Revision-Date: 2024-12-31 15:43+0100\n"
+"POT-Creation-Date: 2025-01-11T21:15:52+00:00\n"
+"PO-Revision-Date: 2025-01-11 22:55+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -24,7 +24,9 @@ msgstr "Utiliser comme image à la une"
 
 #: wp-admin/js/set-post-thumbnail.js:18
 msgid "Could not set that as the thumbnail image. Try a different attachment."
-msgstr "Il n’a pas été possible de définir ceci comme image à la une. Merci d’essayer un autre fichier attaché."
+msgstr ""
+"Il n’a pas été possible de définir ceci comme image à la une. Merci "
+"d’essayer un autre fichier attaché."
 
 #: wp-admin/js/set-post-thumbnail.js:21
 msgid "Done"
