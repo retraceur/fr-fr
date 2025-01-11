@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Retraceur - 1.0.0 - Administration\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-10T22:54:15+00:00\n"
-"PO-Revision-Date: 2025-01-10 23:57+0100\n"
+"POT-Creation-Date: 2025-01-11T10:04:48+00:00\n"
+"PO-Revision-Date: 2025-01-11 11:09+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -1896,7 +1896,7 @@ msgstr "État"
 
 #: wp-admin/includes/ajax-actions.php:1381 wp-admin/includes/media.php:3326
 #: wp-admin/includes/revision.php:63 wp-admin/includes/revision.php:66
-#: wp-admin/includes/template.php:1869
+#: wp-admin/includes/template.php:1832
 msgid "(no title)"
 msgstr "(sans titre)"
 
@@ -2453,7 +2453,7 @@ msgstr ""
 
 #: wp-admin/includes/class-core-upgrader.php:160
 #: wp-admin/includes/class-wp-upgrader.php:208
-#: wp-admin/includes/update-core.php:1088
+#: wp-admin/includes/update-core.php:335
 msgid ""
 "The update cannot be installed because some files could not be copied. This "
 "is usually due to inconsistent file permissions."
@@ -2525,7 +2525,7 @@ msgstr ""
 "voir le rendu."
 
 #: wp-admin/includes/class-custom-background.php:258
-#: wp-admin/includes/template.php:2214
+#: wp-admin/includes/template.php:2177
 msgid "Background Image"
 msgstr "Image d’arrière-plan"
 
@@ -2745,7 +2745,7 @@ msgstr ""
 
 #: wp-admin/includes/class-custom-image-header.php:120
 #: wp-admin/includes/class-custom-image-header.php:527
-#: wp-admin/includes/template.php:2186 wp-admin/includes/template.php:2193
+#: wp-admin/includes/template.php:2149 wp-admin/includes/template.php:2156
 msgid "Header Image"
 msgstr "Image d’entête"
 
@@ -3665,7 +3665,7 @@ msgid "Installation failed."
 msgstr "Échec de l’installation"
 
 #: wp-admin/includes/class-wp-automatic-updater.php:530
-#: wp-admin/includes/update-core.php:1656 wp-admin/update-core.php:846
+#: wp-admin/update-core.php:846
 msgid "Retraceur updated successfully."
 msgstr "Retraceur a bien été mis à jour."
 
@@ -4178,7 +4178,7 @@ msgstr "Nombre d’utilisateur·ice·s"
 
 #: wp-admin/includes/class-wp-debug-data.php:272
 #: wp-admin/includes/class-wp-privacy-policy-content.php:686
-#: wp-admin/includes/media.php:542 wp-admin/includes/template.php:1911
+#: wp-admin/includes/media.php:542 wp-admin/includes/template.php:1874
 #: wp-admin/install.php:78 wp-admin/maint/repair.php:26
 #: wp-admin/setup-config.php:117 wp-admin/upgrade.php:72
 msgid "Retraceur"
@@ -8280,7 +8280,7 @@ msgstr "Aucune description"
 
 #. translators: Hidden accessibility text.
 #: wp-admin/includes/class-wp-theme-install-list-table.php:61
-#: wp-admin/includes/template.php:1823 wp-admin/includes/template.php:1828
+#: wp-admin/includes/template.php:1786 wp-admin/includes/template.php:1791
 #: wp-admin/includes/theme-install.php:141
 msgid "Search"
 msgstr "Recherche"
@@ -8494,12 +8494,12 @@ msgid "A directory could not be read."
 msgstr "Un répertoire n’a pu être lu."
 
 #: wp-admin/includes/class-wp-upgrader.php:211
-#: wp-admin/includes/update-core.php:1262
+#: wp-admin/includes/update-core.php:509
 msgid "Enabling Maintenance mode&#8230;"
 msgstr "Activation du mode maintenance&#8230;"
 
 #: wp-admin/includes/class-wp-upgrader.php:212
-#: wp-admin/includes/update-core.php:1411
+#: wp-admin/includes/update-core.php:658
 msgid "Disabling Maintenance mode&#8230;"
 msgstr "Désactivation du mode maintenance&#8230;"
 
@@ -8693,7 +8693,7 @@ msgstr ""
 msgid "Configure"
 msgstr "Configurer"
 
-#: wp-admin/includes/dashboard.php:246 wp-admin/includes/template.php:2374
+#: wp-admin/includes/dashboard.php:246 wp-admin/includes/template.php:2337
 #: wp-admin/options.php:413
 msgid "Save Changes"
 msgstr "Enregistrer les modifications"
@@ -9446,7 +9446,7 @@ msgid "Could not extract file from archive."
 msgstr "Impossible d’extraire les fichiers depuis l’archive."
 
 #: wp-admin/includes/file.php:1560 wp-admin/includes/file.php:1714
-#: wp-admin/includes/file.php:1772 wp-admin/includes/update-core.php:1464
+#: wp-admin/includes/file.php:1772 wp-admin/includes/update-core.php:711
 msgid "Could not copy file."
 msgstr "Impossible de copier le fichier."
 
@@ -11589,170 +11589,145 @@ msgid "Upload file and import"
 msgstr "Téléverser et importer le fichier"
 
 #. translators: %s: The name of the plugin that generated this meta box.
-#: wp-admin/includes/template.php:964 wp-admin/includes/template.php:1216
+#: wp-admin/includes/template.php:965 wp-admin/includes/template.php:1179
 msgid ""
 "This meta box, from the %s plugin, is not compatible with the block editor."
 msgstr ""
 "Cette boîte méta de l’extension %s n’est pas compatible avec le nouvel "
 "éditeur."
 
-#: wp-admin/includes/template.php:966
+#: wp-admin/includes/template.php:967
 msgid "This meta box is not compatible with the block editor."
 msgstr "Cette boîte méta n’est pas compatible avec le nouvel éditeur."
 
-#. translators: %s: A link to install the Classic Editor plugin.
-#: wp-admin/includes/template.php:979
-msgid ""
-"Please install the <a href=\"%s\">Classic Editor plugin</a> to use this meta "
-"box."
-msgstr ""
-"Veuillez installer <a href=\"%s\">l’extension Classic Editor</a> pour "
-"utiliser cette boîte méta."
-
-#. translators: %s: A link to activate the Classic Editor plugin.
-#: wp-admin/includes/template.php:991
-msgid ""
-"Please activate the <a href=\"%s\">Classic Editor plugin</a> to use this "
-"meta box."
-msgstr ""
-"Veuillez activer <a href=\"%s\">l’extension Classic Editor</a> pour utiliser "
-"cette boîte méta."
-
-#. translators: %s: A link to use the Classic Editor plugin.
-#: wp-admin/includes/template.php:1004
-msgid "Please open the <a href=\"%s\">classic editor</a> to use this meta box."
-msgstr ""
-"Veuillez ouvrir <a href=\"%s\">l’éditeur classique</a> pour utiliser cette "
-"boîte méta."
-
 #. translators: Hidden accessibility text.
-#: wp-admin/includes/template.php:1153 wp-admin/options.php:359
+#: wp-admin/includes/template.php:1116 wp-admin/options.php:359
 msgid "Warning:"
 msgstr "Attention :"
 
 #. translators: Hidden accessibility text.
-#: wp-admin/includes/template.php:1173
+#: wp-admin/includes/template.php:1136
 msgid "Move up"
 msgstr "Remonter"
 
 #. translators: %s: Meta box title.
-#: wp-admin/includes/template.php:1179
+#: wp-admin/includes/template.php:1142
 msgid "Move %s box up"
 msgstr "Déplacer la boite %s vers le haut"
 
 #. translators: Hidden accessibility text.
-#: wp-admin/includes/template.php:1186
+#: wp-admin/includes/template.php:1149
 msgid "Move down"
 msgstr "Redescendre"
 
 #. translators: %s: Meta box title.
-#: wp-admin/includes/template.php:1192
+#: wp-admin/includes/template.php:1155
 msgid "Move %s box down"
 msgstr "Déplacer la boite %s vers le bas"
 
 #. translators: %s: Hidden accessibility text. Meta box title.
-#: wp-admin/includes/template.php:1199
+#: wp-admin/includes/template.php:1162
 msgid "Toggle panel: %s"
 msgstr "Ouvrir/fermer la section %s"
 
 #. translators: %s: Slug-name of the settings page.
-#: wp-admin/includes/template.php:1426 wp-admin/includes/template.php:1439
-#: wp-admin/includes/template.php:1493 wp-admin/includes/template.php:1506
+#: wp-admin/includes/template.php:1389 wp-admin/includes/template.php:1402
+#: wp-admin/includes/template.php:1456 wp-admin/includes/template.php:1469
 msgid "The \"%s\" options group has been removed. Use another settings group."
 msgstr ""
 "Le groupe d’options “%s” a été supprimé. Utilisez d’autres groupes de "
 "réglage."
 
-#: wp-admin/includes/template.php:1805
+#: wp-admin/includes/template.php:1768
 msgid "Attach to existing content"
 msgstr "Attacher à un contenu existant"
 
 #. translators: Hidden accessibility text.
-#: wp-admin/includes/template.php:1809
+#: wp-admin/includes/template.php:1772
 msgid "Close media attachment panel"
 msgstr "Fermer le panneau des fichiers joints."
 
-#: wp-admin/includes/template.php:1834 wp-admin/plugin-editor.php:239
+#: wp-admin/includes/template.php:1797 wp-admin/plugin-editor.php:239
 #: wp-admin/theme-editor.php:218
 msgid "Select"
 msgstr "Sélectionner"
 
-#: wp-admin/includes/template.php:2067
+#: wp-admin/includes/template.php:2030
 msgctxt "post status"
 msgid "Password protected"
 msgstr "Protégé par mot de passe"
 
-#: wp-admin/includes/template.php:2071
+#: wp-admin/includes/template.php:2034
 msgctxt "post status"
 msgid "Private"
 msgstr "Privé"
 
-#: wp-admin/includes/template.php:2076
+#: wp-admin/includes/template.php:2039
 msgid "Customization Draft"
 msgstr "Brouillon de personnalisation"
 
-#: wp-admin/includes/template.php:2078
+#: wp-admin/includes/template.php:2041
 msgctxt "post status"
 msgid "Draft"
 msgstr "Brouillon"
 
-#: wp-admin/includes/template.php:2081
+#: wp-admin/includes/template.php:2044
 msgctxt "post status"
 msgid "Customization Draft"
 msgstr "Brouillon de personnalisation"
 
-#: wp-admin/includes/template.php:2085
+#: wp-admin/includes/template.php:2048
 msgctxt "post status"
 msgid "Pending"
 msgstr "En attente"
 
-#: wp-admin/includes/template.php:2089
+#: wp-admin/includes/template.php:2052
 msgctxt "post status"
 msgid "Sticky"
 msgstr "Épinglé"
 
-#: wp-admin/includes/template.php:2093
+#: wp-admin/includes/template.php:2056
 msgctxt "post status"
 msgid "Scheduled"
 msgstr "Planifié"
 
-#: wp-admin/includes/template.php:2098
+#: wp-admin/includes/template.php:2061
 msgctxt "page label"
 msgid "Front Page"
 msgstr "Page d’accueil"
 
-#: wp-admin/includes/template.php:2102
+#: wp-admin/includes/template.php:2065
 msgctxt "page label"
 msgid "Posts Page"
 msgstr "Page des articles"
 
-#: wp-admin/includes/template.php:2107
+#: wp-admin/includes/template.php:2070
 msgctxt "page label"
 msgid "Privacy Policy Page"
 msgstr "Page de politique de confidentialité"
 
-#: wp-admin/includes/template.php:2198
+#: wp-admin/includes/template.php:2161
 msgid "Current Header Image"
 msgstr "Image d’entête actuelle"
 
-#: wp-admin/includes/template.php:2205
+#: wp-admin/includes/template.php:2168
 msgid "Current Header Video"
 msgstr "Vidéo d’entête actuelle"
 
-#: wp-admin/includes/template.php:2218
+#: wp-admin/includes/template.php:2181
 msgid "Current Background Image"
 msgstr "Image d’arrière plan actuelle"
 
-#: wp-admin/includes/template.php:2224 wp-admin/options-general.php:94
+#: wp-admin/includes/template.php:2187 wp-admin/options-general.php:94
 msgid "Site Icon"
 msgstr "Icône de site"
 
-#: wp-admin/includes/template.php:2228
+#: wp-admin/includes/template.php:2191
 msgid "Logo"
 msgstr "Logo"
 
 #. translators: 1: wp-admin/includes/template.php, 2: add_meta_box(), 3: add_meta_boxes
-#: wp-admin/includes/template.php:2453
+#: wp-admin/includes/template.php:2416
 msgid ""
 "Likely direct inclusion of %1$s in order to use %2$s. This is very wrong. "
 "Hook the %2$s call into the %3$s action instead."
@@ -11761,18 +11736,18 @@ msgstr ""
 "une mauvaise idée. Vous devriez plutôt crocheter l’appel %2$s dans l’action "
 "%3$s."
 
-#: wp-admin/includes/template.php:2477
+#: wp-admin/includes/template.php:2440
 msgid ""
 "The backup of this post in your browser is different from the version below."
 msgstr ""
 "La sauvegarde automatique de cette publication par votre navigateur et "
 "différente de la version ci-dessous."
 
-#: wp-admin/includes/template.php:2478
+#: wp-admin/includes/template.php:2441
 msgid "Restore the backup"
 msgstr "Restaurer la version sauvegardée"
 
-#: wp-admin/includes/template.php:2480
+#: wp-admin/includes/template.php:2443
 msgid ""
 "This will replace the current editor content with the last backup version. "
 "You can use undo and redo in the editor to get the old content back or to "
@@ -11783,18 +11758,18 @@ msgstr ""
 "rétablir l’ancien contenu ou revenir à la version sauvegardée."
 
 #. translators: Hidden accessibility text. 1: The rating, 2: The number of ratings.
-#: wp-admin/includes/template.php:2541
+#: wp-admin/includes/template.php:2504
 msgid "%1$s rating based on %2$s rating"
 msgid_plural "%1$s rating based on %2$s ratings"
 msgstr[0] "Une note de %1$s basée sur %2$s vote"
 msgstr[1] "Une note de %1$s basée sur %2$s votes"
 
 #. translators: Hidden accessibility text. %s: The rating.
-#: wp-admin/includes/template.php:2545
+#: wp-admin/includes/template.php:2508
 msgid "%s rating"
 msgstr "Note : %s"
 
-#: wp-admin/includes/template.php:2570 wp-admin/includes/template.php:2589
+#: wp-admin/includes/template.php:2533 wp-admin/includes/template.php:2552
 msgid "You are currently editing the page that shows your latest posts."
 msgstr ""
 "Vous êtes en train de modifier la page qui affiche vos derniers articles."
@@ -12224,16 +12199,16 @@ msgstr ""
 "(Retraceur n’a pas été en mesure d’établir une connexion sécurisée avec "
 "l’API de traduction. Merci de contacter l’administrateur de votre serveur.)"
 
-#: wp-admin/includes/update-core.php:1054
+#: wp-admin/includes/update-core.php:306
 msgid "Verifying the unpacked files&#8230;"
 msgstr "Vérification des fichiers décompressés&#8230;"
 
-#: wp-admin/includes/update-core.php:1072
+#: wp-admin/includes/update-core.php:319
 msgid "The update could not be unpacked"
 msgstr "La mise à jour ne peut pas être décompressée"
 
 #. translators: 1: Retraceur version number, 2: Minimum required PHP version number, 3: Minimum required MySQL version number, 4: Current PHP version number, 5: Current MySQL version number.
-#: wp-admin/includes/update-core.php:1132
+#: wp-admin/includes/update-core.php:379
 msgid ""
 "The update cannot be installed because Retraceur %1$s requires PHP version "
 "%2$s or higher and MySQL version %3$s or higher. You are running PHP version "
@@ -12245,7 +12220,7 @@ msgstr ""
 "version %5$s."
 
 #. translators: 1: Retraceur version number, 2: Minimum required PHP version number, 3: Current PHP version number.
-#: wp-admin/includes/update-core.php:1145
+#: wp-admin/includes/update-core.php:392
 msgid ""
 "The update cannot be installed because Retraceur %1$s requires PHP version "
 "%2$s or higher. You are running version %3$s."
@@ -12255,7 +12230,7 @@ msgstr ""
 "version %3$s."
 
 #. translators: 1: Retraceur version number, 2: Minimum required MySQL version number, 3: Current MySQL version number.
-#: wp-admin/includes/update-core.php:1156
+#: wp-admin/includes/update-core.php:403
 msgid ""
 "The update cannot be installed because Retraceur %1$s requires MySQL version "
 "%2$s or higher. You are running version %3$s."
@@ -12265,7 +12240,7 @@ msgstr ""
 "MySQL version %3$s."
 
 #. translators: 1: Retraceur version number, 2: The PHP extension name needed.
-#: wp-admin/includes/update-core.php:1170
+#: wp-admin/includes/update-core.php:417
 msgid ""
 "The update cannot be installed because Retraceur %1$s requires the %2$s PHP "
 "extension."
@@ -12273,12 +12248,11 @@ msgstr ""
 "La mise à jour ne peut pas être installée car Retraceur %1$s nécessite "
 "l’extension PHP %2$s."
 
-#: wp-admin/includes/update-core.php:1178
+#: wp-admin/includes/update-core.php:425
 msgid "Preparing to install the latest version&#8230;"
 msgstr "Préparation de l’installation de la dernière version&#8230;"
 
-#: wp-admin/includes/update-core.php:1254
-#: wp-admin/includes/update-core.php:1290
+#: wp-admin/includes/update-core.php:501 wp-admin/includes/update-core.php:537
 msgid ""
 "The update cannot be installed because your site is unable to copy some "
 "files. This is usually due to inconsistent file permissions."
@@ -12287,33 +12261,18 @@ msgstr ""
 "copier certains fichiers. Ce problème est généralement dû à des incohérences "
 "dans les permissions de fichiers."
 
-#: wp-admin/includes/update-core.php:1271
+#: wp-admin/includes/update-core.php:518
 msgid "Copying the required files&#8230;"
 msgstr "Copie des fichiers nécessaires&#8230;"
 
-#: wp-admin/includes/update-core.php:1357
+#: wp-admin/includes/update-core.php:604
 msgid "There is not enough free disk space to complete the update."
 msgstr ""
 "Il n’y a pas assez d’espace sur le disque pour terminer la mise à jour."
 
-#: wp-admin/includes/update-core.php:1526
+#: wp-admin/includes/update-core.php:764
 msgid "Upgrading database&#8230;"
 msgstr "Mise à jour de la base de données&#8230;"
-
-#. translators: 1: Retraceur version, 2: URL to About screen.
-#: wp-admin/includes/update-core.php:1662 wp-admin/update-core.php:850
-msgid ""
-"Welcome to Retraceur %1$s. You will be redirected to the About Retraceur "
-"screen. If not, click <a href=\"%2$s\">here</a>."
-msgstr ""
-"Bienvenue sur Retraceur %1$s. Vous allez être redirigé vers l’écran "
-"d’administration « À propos » de Retraceur. Si ce n’est pas le cas, cliquez "
-"<a href=\"%2$s\">ici</a>."
-
-#. translators: 1: Retraceur version, 2: URL to About screen.
-#: wp-admin/includes/update-core.php:1670 wp-admin/update-core.php:858
-msgid "Welcome to Retraceur %1$s. <a href=\"%2$s\">Learn more</a>."
-msgstr "Bienvenue sur Retraceur %1$s. <a href=\"%2$s\">En savoir plus</a>."
 
 #: wp-admin/includes/update.php:156
 msgid ""
@@ -16814,6 +16773,21 @@ msgstr "De nouvelles traductions sont disponibles."
 #: wp-admin/update-core.php:799
 msgid "Update Retraceur"
 msgstr "Mise à niveau Retraceur"
+
+#. translators: 1: Retraceur version, 2: URL to About screen.
+#: wp-admin/update-core.php:850
+msgid ""
+"Welcome to Retraceur %1$s. You will be redirected to the About Retraceur "
+"screen. If not, click <a href=\"%2$s\">here</a>."
+msgstr ""
+"Bienvenue sur Retraceur %1$s. Vous allez être redirigé vers l’écran "
+"d’administration « À propos » de Retraceur. Si ce n’est pas le cas, cliquez "
+"<a href=\"%2$s\">ici</a>."
+
+#. translators: 1: Retraceur version, 2: URL to About screen.
+#: wp-admin/update-core.php:858
+msgid "Welcome to Retraceur %1$s. <a href=\"%2$s\">Learn more</a>."
+msgstr "Bienvenue sur Retraceur %1$s. <a href=\"%2$s\">En savoir plus</a>."
 
 #: wp-admin/update-core.php:914 wp-admin/update-core.php:951
 msgid "Retraceur Updates"

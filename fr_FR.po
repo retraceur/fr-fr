@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Retraceur - 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-10T21:55:18+00:00\n"
-"PO-Revision-Date: 2025-01-10 22:56+0100\n"
+"POT-Creation-Date: 2025-01-11T10:05:01+00:00\n"
+"PO-Revision-Date: 2025-01-11 11:08+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -12164,10 +12164,10 @@ msgstr ""
 "(Retraceur n’a pas pu établir de connexion sécurisée vers l’outil de mise à "
 "jour des thèmes. Veuillez contacter l’administrateur·ice de votre serveur.)"
 
-#. translators: %d: Number of available WP updates.
+#. translators: %d: Number of available Retraceur updates.
 #: wp-includes/update.php:853
-msgid "%d WP Update"
-msgstr "%d mise à jour de WP"
+msgid "%d Retraceur Update"
+msgstr "%d mise à jour de Retraceur"
 
 #. translators: %d: Number of available plugin updates.
 #: wp-includes/update.php:858

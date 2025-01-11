@@ -1,9 +1,11 @@
+# Translation of Retraceur - 1.0.x - wp-includes/js/dist/block-editor.js in French (France)
+# This file is distributed under the GPL-2.0+ license.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-27T10:20:14+00:00\n"
-"PO-Revision-Date: 2024-12-29 23:59+0100\n"
+"POT-Creation-Date: 2025-01-11T10:06:16+00:00\n"
+"PO-Revision-Date: 2025-01-11 11:12+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -305,7 +307,7 @@ msgstr "Thème"
 #: wp-includes/js/dist/block-editor.js:17702
 #: wp-includes/js/dist/block-editor.js:25473
 #: wp-includes/js/dist/block-editor.js:25495
-msgctxt "Indicates this palette comes from WordPress."
+msgctxt "Indicates this palette comes from Retraceur."
 msgid "Default"
 msgstr "Défaut"
 
