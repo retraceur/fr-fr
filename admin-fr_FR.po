@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Retraceur - 1.0.0 - Administration\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-11T21:15:36+00:00\n"
-"PO-Revision-Date: 2025-01-11 22:47+0100\n"
+"POT-Creation-Date: 2025-01-14T23:30:03+00:00\n"
+"PO-Revision-Date: 2025-01-15 00:30+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -22,9 +22,10 @@ msgid "About"
 msgstr "À propos"
 
 #: wp-admin/about.php:27 wp-admin/contribute.php:26 wp-admin/credits.php:26
-#: wp-admin/freedoms.php:32 wp-admin/privacy.php:26
+#: wp-admin/freedoms.php:32 wp-admin/includes/upgrade.php:289
+#: wp-admin/privacy.php:26
 msgid "About"
-msgstr "À propos de"
+msgstr "À propos"
 
 #: wp-admin/about.php:33 wp-admin/contribute.php:32 wp-admin/credits.php:32
 #: wp-admin/freedoms.php:38 wp-admin/options-privacy.php:147
@@ -439,8 +440,8 @@ msgstr ""
 "modification ne sera faite."
 
 #: wp-admin/comment.php:30 wp-admin/edit-form-comment.php:32
-#: wp-admin/edit-form-comment.php:48 wp-admin/includes/deprecated.php:3243
-#: wp-admin/includes/deprecated.php:3281 wp-admin/includes/deprecated.php:3370
+#: wp-admin/edit-form-comment.php:48 wp-admin/includes/deprecated.php:3258
+#: wp-admin/includes/deprecated.php:3296 wp-admin/includes/deprecated.php:3385
 #: wp-admin/options-discussion.php:27 wp-admin/options-writing.php:119
 msgid "WP Comments feature is not supported in Retraceur."
 msgstr ""
@@ -9042,16 +9043,16 @@ msgstr ""
 "La fonctionnalité de gestion des liens/signets (« Link/bookmark manager ») "
 "n’est pas disponible dans Retraceur."
 
-#: wp-admin/includes/deprecated.php:2822 wp-admin/includes/deprecated.php:2960
+#: wp-admin/includes/deprecated.php:2837 wp-admin/includes/deprecated.php:2975
 #: wp-admin/nav-menus.php:29 wp-admin/nav-menus.php:45
 msgid "WP Nav Menus feature is not supported in Retraceur."
 msgstr ""
 "La fonctionnalité des menus de navigations (« WP Nav Menus ») n’est pas "
 "supportée par Retraceur."
 
-#: wp-admin/includes/deprecated.php:3066 wp-admin/includes/deprecated.php:3077
-#: wp-admin/includes/deprecated.php:3090 wp-admin/includes/deprecated.php:3108
-#: wp-admin/includes/deprecated.php:3119 wp-admin/includes/deprecated.php:3130
+#: wp-admin/includes/deprecated.php:3081 wp-admin/includes/deprecated.php:3092
+#: wp-admin/includes/deprecated.php:3105 wp-admin/includes/deprecated.php:3123
+#: wp-admin/includes/deprecated.php:3134 wp-admin/includes/deprecated.php:3145
 #: wp-admin/options-discussion.php:31
 msgid "Retraceur does not support WP Comments."
 msgstr "Retraceur ne supporte pas la fonctionnalité des commentaires."
@@ -12471,99 +12472,81 @@ msgctxt "Default category slug"
 msgid "Uncategorized"
 msgstr "Non classé"
 
-#. translators: First post content. %s: Site link.
+#. translators: First post content.
 #: wp-admin/includes/upgrade.php:207
 msgid ""
-"Welcome to Retraceur. This is your first post. Edit or delete it, then start "
-"writing!"
+"This a post. Posts appear chronologically in your news feed and are a great "
+"way to retrace stories about you, your interests or what you accomplished."
 msgstr ""
-"Bienvenue sur Retraceur. Ceci est votre premier article. Modifiez-le ou "
-"supprimez-le, puis lancez-vous !"
+"Ceci est un article. Les articles apparaissent chronologiquement dans votre "
+"fil d’actualité et constituent un excellent moyen de retracer des histoires "
+"sur vous, vos centres d’intérêt ou ce que vous avez accompli."
 
 #: wp-admin/includes/upgrade.php:229
-msgid "Hello world!"
-msgstr "Bonjour tout le monde !"
+msgid ""
+"Thanks for making Retraceur your very own Personal Online Publication Hub ♡"
+msgstr ""
+"Merci d’avoir fait de Retraceur votre centre personnel de publication en "
+"ligne ♡"
 
 #. translators: Default post slug.
-#: wp-admin/includes/upgrade.php:231 wp-admin/includes/upgrade.php:424
+#: wp-admin/includes/upgrade.php:231 wp-admin/includes/upgrade.php:414
 msgctxt "Default post slug"
-msgid "hello-world"
-msgstr "bonjour-tout-le-monde"
+msgid "thank-you"
+msgstr "merci"
 
 #. translators: First page content.
 #: wp-admin/includes/upgrade.php:253
 msgid ""
-"This is an example page. It's different from a blog post because it will "
-"stay in one place and will show up in your site navigation (in most themes). "
-"Most people start with an About page that introduces them to potential site "
-"visitors. It might say something like this:"
+"This is a page, unlike posts, which appear chronologically in your news "
+"feed, pages are hierarchical content that can be used to introduce yourself "
+"or share lasting information about you. As most people start with an About "
+"page, here is an example of what you might say to your visitors:"
 msgstr ""
-"Ceci est une page d’exemple. C’est différent d’un article de blog parce "
-"qu’elle restera au même endroit et apparaîtra dans la navigation de votre "
-"site (dans la plupart des thèmes). La plupart des gens commencent par une "
-"page « À propos » qui les présente aux personnes visitant le site. Cela "
-"pourrait ressembler à quelque chose comme cela :"
+"Il s’agit d’une page, contrairement aux articles qui apparaissent "
+"chronologiquement dans votre fil d’actualités, les pages sont des contenus "
+"hiérarchiques qui peuvent être utilisées pour vous présenter ou partager des "
+"informations stables sur vous. Comme la plupart des gens commencent par une "
+"page À propos, voici un exemple de ce que vous pourriez dire à vos "
+"visiteurs :"
 
 #. translators: First page content.
 #: wp-admin/includes/upgrade.php:258
 msgid ""
-"Hi there! I'm a bike messenger by day, aspiring actor by night, and this is "
-"my website. I live in Los Angeles, have a great dog named Jack, and I like "
-"pi&#241;a coladas. (And gettin' caught in the rain.)"
+"Hi there! This is my personal website. I use it to retrace great stories and "
+"share my thoughts."
 msgstr ""
-"Bonjour ! Je suis un mécanicien qui aspire à devenir acteur, et voici mon "
-"site. J’habite à Bordeaux, j’ai un super chien baptisé Russell, et j’aime la "
-"vodka (ainsi qu’être surpris par la pluie soudaine lors de longues balades "
-"sur la plage au coucher du soleil)."
-
-#. translators: First page content.
-#: wp-admin/includes/upgrade.php:263
-msgid "...or something like this:"
-msgstr "…ou quelque chose comme cela :"
-
-#. translators: First page content.
-#: wp-admin/includes/upgrade.php:268
-msgid ""
-"The XYZ Doohickey Company was founded in 1971, and has been providing "
-"quality doohickeys to the public ever since. Located in Gotham City, XYZ "
-"employs over 2,000 people and does all kinds of awesome things for the "
-"Gotham community."
-msgstr ""
-"La société 123 Machin Truc a été créée en 1971, et n’a cessé de proposer au "
-"public des machins-trucs de qualité depuis lors. Située à Saint-Remy-en-"
-"Bouzemont-Saint-Genest-et-Isson, 123 Machin Truc emploie 2 000 personnes, et "
-"fabrique toutes sortes de bidules supers pour la communauté bouzemontoise."
+"Bonjour ! Ceci est mon site personnel. Je l’utilise pour retracer de belles "
+"histoires et partager mes réflexions."
 
 #. translators: First page content. %s: Site admin URL.
-#: wp-admin/includes/upgrade.php:274
+#: wp-admin/includes/upgrade.php:264
 msgid ""
-"As a new Retraceur user, you should go to <a href=\"%s\">your dashboard</a> "
-"to delete this page and create new pages for your content. Have fun!"
+"As a new Retraceur writer, you should go to <a href=\"%s\">your dashboard</"
+"a> to edit or delete this page and create new pages for your content. Be "
+"inspired!"
 msgstr ""
-"En tant que nouvel·le utilisateur·ice de Retraceur, vous devriez vous rendre "
-"sur <a href=\"%s\">votre tableau de bord</a> pour supprimer cette page et "
-"créer de nouvelles pages pour votre contenu. Amusez-vous !"
-
-#: wp-admin/includes/upgrade.php:299
-msgid "Sample Page"
-msgstr "Page d’exemple"
+"En tant que nouvel·le rédacteur·ice de Retraceur, vous devriez vous rendre "
+"sur <a href=\"%s\">votre tableau de bord</a> pour modifier ou supprimer "
+"cette page et créer de nouvelles pages pour votre contenu. Soyez inspiré·e !"
 
 #. translators: Default page slug.
-#: wp-admin/includes/upgrade.php:301
-msgid "sample-page"
-msgstr "page-d-exemple"
+#: wp-admin/includes/upgrade.php:291
+msgctxt "Default post slug"
+msgid "about"
+msgstr "a-propos"
 
-#: wp-admin/includes/upgrade.php:341 wp-admin/options-privacy.php:76
+#: wp-admin/includes/upgrade.php:331 wp-admin/options-privacy.php:76
 msgid "Privacy Policy"
 msgstr "Politique de confidentialité"
 
 #. translators: Privacy Policy page slug.
-#: wp-admin/includes/upgrade.php:343
+#: wp-admin/includes/upgrade.php:333
 msgid "privacy-policy"
 msgstr "politique-de-confidentialite"
 
 #. translators: New site notification email. 1: New site URL, 2: User login, 3: User password or password reset link, 4: Login URL.
-#: wp-admin/includes/upgrade.php:478
+#: wp-admin/includes/upgrade.php:468
 msgid ""
 "Your new Retraceur site has been successfully set up at:\n"
 "\n"
@@ -12590,7 +12573,7 @@ msgstr ""
 "\n"
 "Nous espérons que vous aimerez votre nouveau site ! Merci à vous !\n"
 
-#: wp-admin/includes/upgrade.php:500
+#: wp-admin/includes/upgrade.php:490
 msgid "New Retraceur Site"
 msgstr "Nouveau site Retraceur"
 
@@ -18122,3 +18105,60 @@ msgstr "Les widgets ne sont pas supportés dans Retraceur."
 #: wp-admin/widgets.php:14
 msgid "Retraceur does not provide Widgets."
 msgstr "Retraceur ne fournit pas de Widgets."
+
+#~ msgid ""
+#~ "Welcome to Retraceur. This is your first post. Edit or delete it, then "
+#~ "start writing!"
+#~ msgstr ""
+#~ "Bienvenue sur Retraceur. Ceci est votre premier article. Modifiez-le ou "
+#~ "supprimez-le, puis lancez-vous !"
+
+#~ msgid "Hello world!"
+#~ msgstr "Bonjour tout le monde !"
+
+#~ msgctxt "Default post slug"
+#~ msgid "hello-world"
+#~ msgstr "bonjour-tout-le-monde"
+
+#~ msgid ""
+#~ "This is an example page. It's different from a blog post because it will "
+#~ "stay in one place and will show up in your site navigation (in most "
+#~ "themes). Most people start with an About page that introduces them to "
+#~ "potential site visitors. It might say something like this:"
+#~ msgstr ""
+#~ "Ceci est une page d’exemple. C’est différent d’un article de blog parce "
+#~ "qu’elle restera au même endroit et apparaîtra dans la navigation de votre "
+#~ "site (dans la plupart des thèmes). La plupart des gens commencent par une "
+#~ "page « À propos » qui les présente aux personnes visitant le site. Cela "
+#~ "pourrait ressembler à quelque chose comme cela :"
+
+#~ msgid ""
+#~ "Hi there! I'm a bike messenger by day, aspiring actor by night, and this "
+#~ "is my website. I live in Los Angeles, have a great dog named Jack, and I "
+#~ "like pi&#241;a coladas. (And gettin' caught in the rain.)"
+#~ msgstr ""
+#~ "Bonjour ! Je suis un mécanicien qui aspire à devenir acteur, et voici mon "
+#~ "site. J’habite à Bordeaux, j’ai un super chien baptisé Russell, et j’aime "
+#~ "la vodka (ainsi qu’être surpris par la pluie soudaine lors de longues "
+#~ "balades sur la plage au coucher du soleil)."
+
+#~ msgid "...or something like this:"
+#~ msgstr "…ou quelque chose comme cela :"
+
+#~ msgid ""
+#~ "The XYZ Doohickey Company was founded in 1971, and has been providing "
+#~ "quality doohickeys to the public ever since. Located in Gotham City, XYZ "
+#~ "employs over 2,000 people and does all kinds of awesome things for the "
+#~ "Gotham community."
+#~ msgstr ""
+#~ "La société 123 Machin Truc a été créée en 1971, et n’a cessé de proposer "
+#~ "au public des machins-trucs de qualité depuis lors. Située à Saint-Remy-"
+#~ "en-Bouzemont-Saint-Genest-et-Isson, 123 Machin Truc emploie 2 000 "
+#~ "personnes, et fabrique toutes sortes de bidules supers pour la communauté "
+#~ "bouzemontoise."
+
+#~ msgid "Sample Page"
+#~ msgstr "Page d’exemple"
+
+#~ msgid "sample-page"
+#~ msgstr "page-d-exemple"
