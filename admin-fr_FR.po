@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Retraceur - 1.0.0 - Administration\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-14T23:30:03+00:00\n"
-"PO-Revision-Date: 2025-01-15 00:30+0100\n"
+"POT-Creation-Date: 2025-01-18T11:59:58+00:00\n"
+"PO-Revision-Date: 2025-01-18 13:12+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -15413,6 +15413,168 @@ msgstr ""
 msgid "Policies"
 msgstr "Politiques"
 
+#: wp-admin/privacy.php:42
+msgid "Privacy policy"
+msgstr "Politique de confidentialité"
+
+#: wp-admin/privacy.php:44
+msgid ""
+"In short: Retraceur does not collect any of your personal data, the GitHub "
+"services are & third party plugins or themes might!"
+msgstr ""
+"En bref : Retraceur ne collecte aucune de vos données personnelles. Les "
+"services de GitHub le font et les extensions ou thèmes tiers pourraient le "
+"faire !"
+
+#: wp-admin/privacy.php:49
+msgid ""
+"If you require any more information or have any questions about Retraceur "
+"privacy policy, please feel free to contact us by email at %s."
+msgstr ""
+"Si vous souhaitez obtenir plus d'informations ou si vous avez des questions "
+"sur la politique de confidentialité de Retraceur, n'hésitez pas à nous "
+"contacter par courrier électronique à l'adresse %s."
+
+#: wp-admin/privacy.php:54
+msgid ""
+"Retraceur considers users privacy to be extremely important, so important it "
+"does not collect any personal information. This privacy policy document "
+"describes how to be informed about the personal data collected and recorded "
+"by the GitHub services Retraceur uses, as well as warns you about the fact "
+"third party Retraceur plugins or themes might collect your personal data."
+msgstr ""
+"Retraceur considère que la vie privée des utilisateurs est extrêmement "
+"importante, à tel point qu'il ne recueille aucune donnée personnelle. Ce "
+"document de politique de confidentialité décrit comment être informé·e des "
+"données personnelles collectées et enregistrées par les services de GitHub "
+"que Retraceur utilise, et vous avertit du fait que des extensions ou ou des "
+"thèmes tiers de Retraceur pourraient collecter vos données personnelles."
+
+#: wp-admin/privacy.php:58
+msgid "Scope"
+msgstr "Périmètre"
+
+#. translators: 1: Retraceur’s repositories link. 2: Retraceur’s documentation site link.
+#: wp-admin/privacy.php:63
+msgid "This privacy policy applies only to the %1$s, as well as %2$s."
+msgstr ""
+"Cette politique de confidentialité s’applique seulement aux %1$s, ainsi qu’à "
+"%2$s."
+
+#: wp-admin/privacy.php:67 wp-admin/privacy.php:133
+msgid "Retraceur’s repositories"
+msgstr "dépôts de Retraceur"
+
+#: wp-admin/privacy.php:71 wp-admin/privacy.php:88
+msgid "https://retraceur.github.io/"
+msgstr "https://retraceur.github.io/fr/"
+
+#: wp-admin/privacy.php:72
+msgid "its documentation websiste"
+msgstr "son site de documentation "
+
+#: wp-admin/privacy.php:80
+msgid "Retraceur documentation site’s Cookies"
+msgstr "Les cookies du site de documentation de Retraceur"
+
+#. translators: %s: Retraceur’s documentation site link.
+#: wp-admin/privacy.php:85
+msgid ""
+"If you visit the %s, be aware it uses cookies to store information about "
+"visitors’ preferences, to personalize or customize its web page content "
+"based upon visitors’ browser type or other information that the visitor "
+"sends via their browser."
+msgstr ""
+"Si vous visitez le %s, sachez qu’il utilise des cookies pour stocker des "
+"informations sur les préférences des visiteur·euse·s, pour personnaliser le "
+"contenu de ses pages web en fonction du type de navigateur des "
+"visiteur·euse·s ou d’autres informations que les visiteur·euse·s envoient "
+"par l’intermédiaire de leur navigateur."
+
+#: wp-admin/privacy.php:89
+msgid "Retraceur documentation site"
+msgstr "site de documentation de Retraceur"
+
+#: wp-admin/privacy.php:97
+msgid "GitHub services privacy policy"
+msgstr "Politique de confidentialité des services de GitHub"
+
+#. translators: %s: Retraceur’s GitHub organization link.
+#: wp-admin/privacy.php:102
+msgid ""
+"Retraceur’s source code and tools to manage translations, issues, "
+"documentation and contributions are hosted on %s."
+msgstr ""
+"Le code source de Retraceur et ses outils pour gérer les traductions, les "
+"anomalies, la documentation et les contributions sont hébergés sur %s."
+
+#. translators: %s: GitHub privacy policy link.
+#: wp-admin/privacy.php:111
+msgid ""
+"You should consult the %s for more detailed information on their practices "
+"as well as for instructions about how to opt-out of certain practices."
+msgstr ""
+"Vous devriez consulter la %s pour plus d’informations au sujet de leurs "
+"pratiques ainsi que pour obtenir des instructions sur la manière dont vous "
+"pouvez refuser certaines pratiques."
+
+#: wp-admin/privacy.php:115
+msgid "GitHub privacy policy"
+msgstr "politique de confidentialité de GitHub "
+
+#: wp-admin/privacy.php:123
+msgid "Third party Plugins or Themes"
+msgstr "Extensions ou Thèmes tiers"
+
+#: wp-admin/privacy.php:124
+msgid ""
+"Retraceur cannot monitor third party Plugins or Themes practices regarding "
+"your personal information. As a result it takes no responsibility nor "
+"provide any warranty about how these third parties are using your data."
+msgstr ""
+"Retraceur ne peut pas contrôler les pratiques des extensions ou des thèmes "
+"de tierces parties en ce qui concerne vos informations personnelles. Par "
+"conséquent, il ne prend aucune responsabilité et ne fournit aucune garantie "
+"sur la façon dont ces tiers utilisent vos données."
+
+#. translators: %s: Retraceur’s repositories link.
+#: wp-admin/privacy.php:129
+msgid ""
+"Before installing a plugin or theme that is not listed into the %s, please "
+"make sure to check its privacy policy matches your expectations regarding "
+"how your personal information is managed."
+msgstr ""
+"Avant d’installer une extension ou un thème qui n’est pas répertorié dans "
+"les %s, assurez-vous que sa politique de confidentialité correspond à vos "
+"attentes en ce qui concerne la gestion de vos informations personnelles."
+
+#: wp-admin/privacy.php:141
+msgid "Consent"
+msgstr "Consentement"
+
+#: wp-admin/privacy.php:142
+msgid ""
+"By using Retraceur, you hereby consent to this privacy policy and agree to "
+"its terms."
+msgstr ""
+"En utilisant Retraceur, vous consentez à cette politique de confidentialité "
+"et en acceptez les termes."
+
+#: wp-admin/privacy.php:146
+msgctxt "Retraceur privacy policy"
+msgid "Update"
+msgstr "Mise à jour"
+
+#. translators: %s: Privacy policy last updated date.
+#: wp-admin/privacy.php:151
+msgid ""
+"This Privacy Policy was last updated on: %s. Should we update, amend or make "
+"any changes to our privacy policy, those changes will be posted here."
+msgstr ""
+"La présente politique de confidentialité a été mise à jour pour la dernière "
+"fois le : %s. Si nous mettons à jour, modifions ou apportons des changements "
+"à notre politique de confidentialité, ces changements seront publiés ici."
+
 #. translators: %s: Post title.
 #: wp-admin/revision.php:113
 msgid "Compare Revisions of &#8220;%s&#8221;"
@@ -18105,60 +18267,3 @@ msgstr "Les widgets ne sont pas supportés dans Retraceur."
 #: wp-admin/widgets.php:14
 msgid "Retraceur does not provide Widgets."
 msgstr "Retraceur ne fournit pas de Widgets."
-
-#~ msgid ""
-#~ "Welcome to Retraceur. This is your first post. Edit or delete it, then "
-#~ "start writing!"
-#~ msgstr ""
-#~ "Bienvenue sur Retraceur. Ceci est votre premier article. Modifiez-le ou "
-#~ "supprimez-le, puis lancez-vous !"
-
-#~ msgid "Hello world!"
-#~ msgstr "Bonjour tout le monde !"
-
-#~ msgctxt "Default post slug"
-#~ msgid "hello-world"
-#~ msgstr "bonjour-tout-le-monde"
-
-#~ msgid ""
-#~ "This is an example page. It's different from a blog post because it will "
-#~ "stay in one place and will show up in your site navigation (in most "
-#~ "themes). Most people start with an About page that introduces them to "
-#~ "potential site visitors. It might say something like this:"
-#~ msgstr ""
-#~ "Ceci est une page d’exemple. C’est différent d’un article de blog parce "
-#~ "qu’elle restera au même endroit et apparaîtra dans la navigation de votre "
-#~ "site (dans la plupart des thèmes). La plupart des gens commencent par une "
-#~ "page « À propos » qui les présente aux personnes visitant le site. Cela "
-#~ "pourrait ressembler à quelque chose comme cela :"
-
-#~ msgid ""
-#~ "Hi there! I'm a bike messenger by day, aspiring actor by night, and this "
-#~ "is my website. I live in Los Angeles, have a great dog named Jack, and I "
-#~ "like pi&#241;a coladas. (And gettin' caught in the rain.)"
-#~ msgstr ""
-#~ "Bonjour ! Je suis un mécanicien qui aspire à devenir acteur, et voici mon "
-#~ "site. J’habite à Bordeaux, j’ai un super chien baptisé Russell, et j’aime "
-#~ "la vodka (ainsi qu’être surpris par la pluie soudaine lors de longues "
-#~ "balades sur la plage au coucher du soleil)."
-
-#~ msgid "...or something like this:"
-#~ msgstr "…ou quelque chose comme cela :"
-
-#~ msgid ""
-#~ "The XYZ Doohickey Company was founded in 1971, and has been providing "
-#~ "quality doohickeys to the public ever since. Located in Gotham City, XYZ "
-#~ "employs over 2,000 people and does all kinds of awesome things for the "
-#~ "Gotham community."
-#~ msgstr ""
-#~ "La société 123 Machin Truc a été créée en 1971, et n’a cessé de proposer "
-#~ "au public des machins-trucs de qualité depuis lors. Située à Saint-Remy-"
-#~ "en-Bouzemont-Saint-Genest-et-Isson, 123 Machin Truc emploie 2 000 "
-#~ "personnes, et fabrique toutes sortes de bidules supers pour la communauté "
-#~ "bouzemontoise."
-
-#~ msgid "Sample Page"
-#~ msgstr "Page d’exemple"
-
-#~ msgid "sample-page"
-#~ msgstr "page-d-exemple"
