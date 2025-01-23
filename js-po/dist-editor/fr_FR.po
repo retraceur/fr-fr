@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-11T21:16:24+00:00\n"
-"PO-Revision-Date: 2025-01-11 23:07+0100\n"
+"PO-Revision-Date: 2025-01-23 03:57+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -1200,7 +1200,7 @@ msgstr "dmy"
 #: wp-includes/js/dist/editor.js:17559 wp-includes/js/dist/editor.js:17599
 msgctxt "post schedule full date format"
 msgid "F j, Y g:i a"
-msgstr "j F Y G \\\\h i"
+msgstr "j F Y G:h:i"
 
 #: wp-includes/js/dist/editor.js:17567
 msgid "Immediately"
@@ -1215,7 +1215,7 @@ msgstr "Aujourd’hui à %s"
 #: wp-includes/js/dist/editor.js:17581 wp-includes/js/dist/editor.js:17590
 msgctxt "post schedule time format"
 msgid "g:i a"
-msgstr "G \\\\h i"
+msgstr "G:h:i"
 
 #. translators: %s: Time of day the post is scheduled for.
 #: wp-includes/js/dist/editor.js:17588
@@ -1226,7 +1226,7 @@ msgstr "Demain à %s"
 #: wp-includes/js/dist/editor.js:17595
 msgctxt "post schedule date format without year"
 msgid "F j g:i a"
-msgstr "j F G \\\\h i"
+msgstr "j F G:h:i"
 
 #: wp-includes/js/dist/editor.js:17900 wp-includes/js/dist/editor.js:17907
 msgid "Tag"

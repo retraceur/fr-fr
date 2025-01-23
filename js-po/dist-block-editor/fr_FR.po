@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-11T21:16:51+00:00\n"
-"PO-Revision-Date: 2025-01-11 23:01+0100\n"
+"PO-Revision-Date: 2025-01-23 03:58+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -2499,7 +2499,7 @@ msgstr "j/n/Y"
 #: wp-includes/js/dist/block-editor.js:63408
 msgctxt "short date format with time"
 msgid "n/j/Y g:i A"
-msgstr "d/n/Y G\\h i"
+msgstr "d/n/Y G:h:i"
 
 #. translators: See https://www.php.net/manual/datetime.format.php
 #: wp-includes/js/dist/block-editor.js:63409
@@ -2511,7 +2511,7 @@ msgstr "j M Y"
 #: wp-includes/js/dist/block-editor.js:63410
 msgctxt "medium date format with time"
 msgid "M j, Y g:i A"
-msgstr "d F Y G\\\\hi"
+msgstr "d F Y G:h:i"
 
 #. translators: See https://www.php.net/manual/datetime.format.php
 #: wp-includes/js/dist/block-editor.js:63411
