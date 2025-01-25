@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Retraceur - 1.0.0 - Administration\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-23T02:40:00+00:00\n"
-"PO-Revision-Date: 2025-01-23 04:08+0100\n"
+"POT-Creation-Date: 2025-01-25T11:00:19+00:00\n"
+"PO-Revision-Date: 2025-01-25 12:04+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -10649,8 +10649,12 @@ msgstr ""
 "L’encodage des caractères utilisé par votre site (l’UTF-8 est recommandé)"
 
 #: wp-admin/includes/plugin-install.php:152
-msgid "Retraceur does not provide a Plugin Installation API."
-msgstr "Retraceur ne fournit pas d’API d’installation d’extensions."
+msgid ""
+"Retraceur does not provide a Plugin Install API, yet! It will soon do so, "
+"the independant way."
+msgstr ""
+"Retraceur ne fournit pas d’API d’installation d’extensions, pour le moment ! "
+"Il en fournira une très bientôt, de manière totalement indépendante."
 
 #: wp-admin/includes/plugin-install.php:180
 #: wp-admin/includes/plugin-install.php:191
@@ -16241,8 +16245,12 @@ msgid "Back"
 msgstr "Retour"
 
 #: wp-admin/theme-install.php:63
-msgid "Retraceur does not provide a Theme Install API."
-msgstr "Retraceur ne fournit pas d’API d’installation de thèmes."
+msgid ""
+"Retraceur does not provide a Theme Install API, yet! It will soon do so, the "
+"independant way."
+msgstr ""
+"Retraceur ne fournit pas d’API d’installation de thèmes, pour le moment ! Il "
+"en fournira une très bientôt, de manière totalement indépendante."
 
 #. translators: %d: Number of themes.
 #: wp-admin/theme-install.php:66 wp-admin/themes.php:175
