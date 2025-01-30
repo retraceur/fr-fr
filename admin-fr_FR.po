@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Retraceur - 1.0.0 - Administration\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-25T11:00:19+00:00\n"
-"PO-Revision-Date: 2025-01-25 12:04+0100\n"
+"POT-Creation-Date: 2025-01-30T04:55:46+00:00\n"
+"PO-Revision-Date: 2025-01-30 06:51+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -50,7 +50,7 @@ msgid "Freedoms"
 msgstr "Libertés"
 
 #: wp-admin/about.php:37 wp-admin/contribute.php:36 wp-admin/credits.php:36
-#: wp-admin/freedoms.php:42 wp-admin/menu.php:319
+#: wp-admin/freedoms.php:42 wp-admin/menu.php:277
 #: wp-admin/options-privacy.php:24 wp-admin/options-privacy.php:143
 #: wp-admin/privacy-policy-guide.php:42 wp-admin/privacy.php:15
 #: wp-admin/privacy.php:36
@@ -63,7 +63,7 @@ msgid "Contributing"
 msgstr "Contribuer"
 
 #. translators: %s: Retraceur version.
-#: wp-admin/about.php:47 wp-admin/includes/class-wp-automatic-updater.php:410
+#: wp-admin/about.php:47 wp-admin/includes/class-wp-automatic-updater.php:411
 msgid "Retraceur %s"
 msgstr "Retraceur %s"
 
@@ -293,9 +293,7 @@ msgstr "Copier l’URL du site dans le presse-papier"
 msgid "Copied!"
 msgstr "Copié!"
 
-#. translators: Hidden accessibility text.
-#: wp-admin/async-upload.php:124 wp-admin/includes/file.php:344
-#: wp-admin/index.php:155
+#: wp-admin/async-upload.php:124 wp-admin/index.php:155
 msgid "Dismiss"
 msgstr "Ignorer"
 
@@ -703,10 +701,9 @@ msgstr "Fichier média mis à jour."
 #: wp-admin/media-new.php:51 wp-admin/options-general.php:51
 #: wp-admin/options-media.php:36 wp-admin/options-membership.php:26
 #: wp-admin/options-permalink.php:25 wp-admin/options-privacy.php:40
-#: wp-admin/options-reading.php:27 wp-admin/plugin-editor.php:135
-#: wp-admin/plugin-install.php:96 wp-admin/plugins.php:562
-#: wp-admin/revision.php:155 wp-admin/site-health.php:82
-#: wp-admin/theme-editor.php:30 wp-admin/theme-install.php:116
+#: wp-admin/options-reading.php:27 wp-admin/plugin-install.php:121
+#: wp-admin/plugins.php:681 wp-admin/revision.php:155
+#: wp-admin/site-health.php:82 wp-admin/theme-install.php:116
 #: wp-admin/themes.php:145 wp-admin/update-core.php:923 wp-admin/upload.php:180
 #: wp-admin/upload.php:364 wp-admin/user-edit.php:73 wp-admin/user-new.php:90
 #: wp-admin/users.php:45
@@ -797,7 +794,7 @@ msgstr ""
 "catégories comme Bebop et Big Band. Ceci est totalement facultatif."
 
 #: wp-admin/edit-tag-form.php:198 wp-admin/edit-tags.php:481
-#: wp-admin/includes/class-wp-plugins-list-table.php:476
+#: wp-admin/includes/class-wp-plugins-list-table.php:485
 #: wp-admin/includes/class-wp-terms-list-table.php:195
 #: wp-admin/includes/class-wp-terms-list-table.php:217
 #: wp-admin/includes/media.php:1412 wp-admin/includes/media.php:3260
@@ -806,7 +803,7 @@ msgid "Description"
 msgstr "Description"
 
 #: wp-admin/edit-tag-form.php:280
-#: wp-admin/includes/class-wp-plugins-list-table.php:622
+#: wp-admin/includes/class-wp-plugins-list-table.php:636
 #: wp-admin/includes/class-wp-posts-list-table.php:2007
 #: wp-admin/includes/class-wp-posts-list-table.php:2009
 #: wp-admin/includes/class-wp-theme-install-list-table.php:324
@@ -818,11 +815,11 @@ msgid "Update"
 msgstr "Mettre à jour"
 
 #: wp-admin/edit-tag-form.php:284
-#: wp-admin/includes/class-wp-plugins-list-table.php:626
-#: wp-admin/includes/class-wp-plugins-list-table.php:868
-#: wp-admin/includes/class-wp-plugins-list-table.php:885
-#: wp-admin/includes/class-wp-plugins-list-table.php:974
-#: wp-admin/includes/class-wp-plugins-list-table.php:991
+#: wp-admin/includes/class-wp-plugins-list-table.php:640
+#: wp-admin/includes/class-wp-plugins-list-table.php:887
+#: wp-admin/includes/class-wp-plugins-list-table.php:904
+#: wp-admin/includes/class-wp-plugins-list-table.php:993
+#: wp-admin/includes/class-wp-plugins-list-table.php:1010
 #: wp-admin/includes/class-wp-terms-list-table.php:171
 #: wp-admin/includes/class-wp-terms-list-table.php:518
 #: wp-admin/includes/class-wp-themes-list-table.php:229
@@ -999,7 +996,7 @@ msgid "Adding Tags"
 msgstr "Ajout d’étiquettes"
 
 #. translators: %s: Search query.
-#: wp-admin/edit-tags.php:312 wp-admin/edit.php:409 wp-admin/plugins.php:748
+#: wp-admin/edit-tags.php:312 wp-admin/edit.php:409 wp-admin/plugins.php:918
 #: wp-admin/upload.php:420 wp-admin/users.php:801
 msgid "Search results for: %s"
 msgstr "Résultats de recherche pour : %s"
@@ -1375,7 +1372,7 @@ msgstr ""
 "sur ce site."
 
 #: wp-admin/erase-personal-data.php:19 wp-admin/erase-personal-data.php:98
-#: wp-admin/menu.php:310 wp-admin/tools.php:77
+#: wp-admin/menu.php:268 wp-admin/tools.php:77
 msgid "Erase Personal Data"
 msgstr "Effacer les données personnelles"
 
@@ -1543,7 +1540,7 @@ msgstr ""
 "sur ce site."
 
 #: wp-admin/export-personal-data.php:19 wp-admin/export-personal-data.php:98
-#: wp-admin/menu.php:309 wp-admin/tools.php:70
+#: wp-admin/menu.php:267 wp-admin/tools.php:70
 msgid "Export Personal Data"
 msgstr "Exporter la liste de données personnelles"
 
@@ -1673,7 +1670,7 @@ msgid "Sorry, you are not allowed to export the content of this site."
 msgstr ""
 "Désolé, vous n’avez pas l’autorisation d’exporter le contenu de ce site."
 
-#: wp-admin/export.php:22 wp-admin/menu.php:308 wp-admin/tools.php:63
+#: wp-admin/export.php:22 wp-admin/menu.php:266 wp-admin/tools.php:63
 msgid "Export"
 msgstr "Exporter"
 
@@ -1800,7 +1797,7 @@ msgstr "Pages"
 #. translators: Default privacy policy heading.
 #: wp-admin/export.php:307
 #: wp-admin/includes/class-wp-privacy-policy-content.php:499
-#: wp-admin/includes/media.php:2588 wp-admin/menu.php:64 wp-admin/menu.php:317
+#: wp-admin/includes/media.php:2588 wp-admin/menu.php:64 wp-admin/menu.php:275
 msgid "Media"
 msgstr "Media"
 
@@ -2030,7 +2027,7 @@ msgid "No theme specified."
 msgstr "Aucun thème spécifié."
 
 #: wp-admin/includes/ajax-actions.php:3051 wp-admin/theme-install.php:18
-#: wp-admin/update.php:264 wp-admin/update.php:306 wp-admin/update.php:344
+#: wp-admin/update.php:285 wp-admin/update.php:327 wp-admin/update.php:365
 msgid "Sorry, you are not allowed to install themes on this site."
 msgstr ""
 "Désolé, vous n’avez pas l’autorisation d’installer des thèmes sur ce site."
@@ -2047,8 +2044,8 @@ msgstr ""
 "Connexion au système de fichiers impossible. Merci de confirmer vos "
 "informations d’identification."
 
-#: wp-admin/includes/ajax-actions.php:3169 wp-admin/update.php:213
-#: wp-admin/update.php:236
+#: wp-admin/includes/ajax-actions.php:3169 wp-admin/update.php:234
+#: wp-admin/update.php:257
 msgid "Sorry, you are not allowed to update themes for this site."
 msgstr ""
 "Désolé, vous n’avez pas l’autorisation de mettre à jour les thèmes de ce "
@@ -2065,9 +2062,8 @@ msgid "Sorry, you are not allowed to delete themes on this site."
 msgstr ""
 "Désolé, vous n’avez pas l’autorisation de supprimer les thèmes de ce site."
 
-#: wp-admin/includes/ajax-actions.php:3267 wp-admin/includes/file.php:440
-#: wp-admin/includes/file.php:450 wp-admin/theme-editor.php:62
-#: wp-admin/theme-editor.php:66 wp-admin/themes.php:30 wp-admin/themes.php:73
+#: wp-admin/includes/ajax-actions.php:3267 wp-admin/themes.php:30
+#: wp-admin/themes.php:73
 msgid "The requested theme does not exist."
 msgstr "Le thème demandé n’existe pas."
 
@@ -2082,8 +2078,8 @@ msgstr "Le thème ne peut pas être supprimé."
 msgid "No plugin specified."
 msgstr "Aucune extension spécifiée."
 
-#: wp-admin/includes/ajax-actions.php:3335 wp-admin/plugin-install.php:21
-#: wp-admin/update.php:109 wp-admin/update.php:154 wp-admin/update.php:192
+#: wp-admin/includes/ajax-actions.php:3335 wp-admin/update.php:109
+#: wp-admin/update.php:213
 msgid "Sorry, you are not allowed to install plugins on this site."
 msgstr ""
 "Désolé, vous n’êtes pas autorisé·e à installer des extensions sur ce site."
@@ -2111,7 +2107,7 @@ msgstr ""
 #: wp-admin/includes/class-wp-debug-data.php:730
 #: wp-admin/includes/class-wp-debug-data.php:906
 #: wp-admin/includes/class-wp-debug-data.php:1293
-#: wp-admin/includes/class-wp-plugins-list-table.php:1174
+#: wp-admin/includes/class-wp-plugins-list-table.php:1193
 #: wp-admin/includes/update.php:252 wp-admin/includes/update.php:292
 #: wp-admin/index.php:103
 msgid "Version %s"
@@ -2123,12 +2119,12 @@ msgstr "Version %s"
 msgid "Plugin update failed."
 msgstr "La mise à jour de l’extension a échoué."
 
-#: wp-admin/includes/ajax-actions.php:3604 wp-admin/plugins.php:270
+#: wp-admin/includes/ajax-actions.php:3604
 msgid "Sorry, you are not allowed to delete plugins for this site."
 msgstr ""
 "Désolé, vous n’êtes pas autorisé·e à supprimer des extensions de ce site."
 
-#: wp-admin/includes/ajax-actions.php:3613 wp-admin/plugins.php:637
+#: wp-admin/includes/ajax-actions.php:3613
 msgid "You cannot delete a plugin while it is active on the main site."
 msgstr ""
 "Vous ne pouvez pas effacer une extension tant qu’elle est activée sur le "
@@ -2138,158 +2134,157 @@ msgstr ""
 msgid "Plugin could not be deleted."
 msgstr "L’extension ne peut pas être supprimée."
 
-#: wp-admin/includes/ajax-actions.php:3680
-#: wp-admin/includes/ajax-actions.php:3732 wp-admin/plugins.php:15
+#: wp-admin/includes/ajax-actions.php:3684
+#: wp-admin/includes/ajax-actions.php:3740
 msgid "Sorry, you are not allowed to manage plugins for this site."
 msgstr "Désolé, vous n’êtes pas autorisé·e à gérer les extensions de ce site."
 
-#: wp-admin/includes/ajax-actions.php:3781 wp-admin/plugin-editor.php:176
-#: wp-admin/theme-editor.php:171
+#: wp-admin/includes/ajax-actions.php:3789
 msgid "File edited successfully."
 msgstr "Le fichier a bien été modifié."
 
-#: wp-admin/includes/ajax-actions.php:3795
-#: wp-admin/includes/ajax-actions.php:3985
+#: wp-admin/includes/ajax-actions.php:3803
+#: wp-admin/includes/ajax-actions.php:3993
 msgid "Missing request ID."
 msgstr "ID de demande manquante."
 
-#: wp-admin/includes/ajax-actions.php:3801
-#: wp-admin/includes/ajax-actions.php:3991
+#: wp-admin/includes/ajax-actions.php:3809
+#: wp-admin/includes/ajax-actions.php:3999
 msgid "Invalid request ID."
 msgstr "ID de demande non valide."
 
-#: wp-admin/includes/ajax-actions.php:3805
-#: wp-admin/includes/ajax-actions.php:3996
+#: wp-admin/includes/ajax-actions.php:3813
+#: wp-admin/includes/ajax-actions.php:4004
 msgid "Sorry, you are not allowed to perform this action."
 msgstr "Désolé, vous n’avez pas l’autorisation d’effectuer cette action."
 
-#: wp-admin/includes/ajax-actions.php:3814
-#: wp-admin/includes/ajax-actions.php:4005
+#: wp-admin/includes/ajax-actions.php:3822
+#: wp-admin/includes/ajax-actions.php:4013
 msgid "Invalid request type."
 msgstr "Type de requête non valide."
 
-#: wp-admin/includes/ajax-actions.php:3819
+#: wp-admin/includes/ajax-actions.php:3827
 msgid "A valid email address must be given."
 msgstr "Erreur : une adresse de courriel valide doit être fournie."
 
-#: wp-admin/includes/ajax-actions.php:3823
+#: wp-admin/includes/ajax-actions.php:3831
 msgid "Missing exporter index."
 msgstr "Index d’exportation manquant."
 
-#: wp-admin/includes/ajax-actions.php:3829
-#: wp-admin/includes/ajax-actions.php:4021
+#: wp-admin/includes/ajax-actions.php:3837
+#: wp-admin/includes/ajax-actions.php:4029
 msgid "Missing page index."
 msgstr "Index de page manquant."
 
-#: wp-admin/includes/ajax-actions.php:3858
+#: wp-admin/includes/ajax-actions.php:3866
 msgid "An exporter has improperly used the registration filter."
 msgstr ""
 "Un outil d’exportation a utilisé le filtre d’inscription de façon erronée."
 
-#: wp-admin/includes/ajax-actions.php:3864
+#: wp-admin/includes/ajax-actions.php:3872
 msgid "Exporter index cannot be negative."
 msgstr "L’index d’exportation ne peut pas être un nombre inférieur à zéro."
 
-#: wp-admin/includes/ajax-actions.php:3868
+#: wp-admin/includes/ajax-actions.php:3876
 msgid "Exporter index is out of range."
 msgstr "L’index d’exportation est hors limite."
 
-#: wp-admin/includes/ajax-actions.php:3872
-#: wp-admin/includes/ajax-actions.php:4060
+#: wp-admin/includes/ajax-actions.php:3880
+#: wp-admin/includes/ajax-actions.php:4068
 msgid "Page index cannot be less than one."
 msgstr "L’index de page ne peut pas être inférieur à 1."
 
 #. translators: %s: Exporter array index.
-#: wp-admin/includes/ajax-actions.php:3882
+#: wp-admin/includes/ajax-actions.php:3890
 msgid "Expected an array describing the exporter at index %s."
 msgstr ""
 "Réponse attendue sous forme de tableau décrivant l’outil d’exportation à "
 "l’index %s."
 
 #. translators: %s: Exporter array index.
-#: wp-admin/includes/ajax-actions.php:3889
+#: wp-admin/includes/ajax-actions.php:3897
 msgid "Exporter array at index %s does not include a friendly name."
 msgstr ""
 "Le tableau d’exportation ne contient aucun « friendly name » à l’index %s."
 
 #. translators: %s: Exporter friendly name.
-#: wp-admin/includes/ajax-actions.php:3898
+#: wp-admin/includes/ajax-actions.php:3906
 msgid "Exporter does not include a callback: %s."
 msgstr "L’outil d’exportation n’inclue aucun rappel : %s."
 
 #. translators: %s: Exporter friendly name.
-#: wp-admin/includes/ajax-actions.php:3905
+#: wp-admin/includes/ajax-actions.php:3913
 msgid "Exporter callback is not a valid callback: %s."
 msgstr "Le retour de l’outil d’exportation n’est pas un rappel valide : %s."
 
 #. translators: %s: Exporter friendly name.
-#: wp-admin/includes/ajax-actions.php:3919
+#: wp-admin/includes/ajax-actions.php:3927
 msgid "Expected response as an array from exporter: %s."
 msgstr "Réponse attendue de l’outil d’exportation en tant que tableau : %s."
 
 #. translators: %s: Exporter friendly name.
-#: wp-admin/includes/ajax-actions.php:3926
+#: wp-admin/includes/ajax-actions.php:3934
 msgid "Expected data in response array from exporter: %s."
 msgstr ""
 "Donnée attendue dans le tableau de réponse de l’outil d’exportation : %s."
 
 #. translators: %s: Exporter friendly name.
-#: wp-admin/includes/ajax-actions.php:3933
+#: wp-admin/includes/ajax-actions.php:3941
 msgid "Expected data array in response array from exporter: %s."
 msgstr ""
 "Donnée tabulaire attendue dans le tableau de réponse de l’outil "
 "d’exportation : %s."
 
 #. translators: %s: Exporter friendly name.
-#: wp-admin/includes/ajax-actions.php:3940
+#: wp-admin/includes/ajax-actions.php:3948
 msgid "Expected done (boolean) in response array from exporter: %s."
 msgstr ""
 "Résultat attendu (booléen) dans le tableau de réponse de l’outil "
 "d’exportation : %s."
 
-#: wp-admin/includes/ajax-actions.php:4011
+#: wp-admin/includes/ajax-actions.php:4019
 msgid "Invalid email address in request."
 msgstr "Adresse de courriel non valide dans la demande."
 
-#: wp-admin/includes/ajax-actions.php:4015
+#: wp-admin/includes/ajax-actions.php:4023
 msgid "Missing eraser index."
 msgstr "Index d’effacement manquant."
 
-#: wp-admin/includes/ajax-actions.php:4052
+#: wp-admin/includes/ajax-actions.php:4060
 msgid "Eraser index cannot be less than one."
 msgstr "L’index de suppression ne peut pas être inférieur à 1."
 
-#: wp-admin/includes/ajax-actions.php:4056
+#: wp-admin/includes/ajax-actions.php:4064
 msgid "Eraser index is out of range."
 msgstr "L’index d’effacement est hors de portée."
 
 #. translators: %d: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:4069
+#: wp-admin/includes/ajax-actions.php:4077
 msgid "Expected an array describing the eraser at index %d."
 msgstr "Un tableau décrivant l’effaceur à l’index %d est attendu."
 
 #. translators: %d: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:4074
+#: wp-admin/includes/ajax-actions.php:4082
 msgid "Eraser array at index %d does not include a friendly name."
 msgstr "Le tableau d’effacement à l’index %d ne contient pas de nom élégant."
 
 #. translators: %s: Eraser friendly name.
-#: wp-admin/includes/ajax-actions.php:4083
+#: wp-admin/includes/ajax-actions.php:4091
 msgid "Eraser does not include a callback: %s."
 msgstr "L’outil de suppression n’inclue aucun retour : %s."
 
 #. translators: %s: Eraser friendly name.
-#: wp-admin/includes/ajax-actions.php:4093
+#: wp-admin/includes/ajax-actions.php:4101
 msgid "Eraser callback is not valid: %s."
 msgstr "Le retour de l’outil de suppression n’est pas valide : %s."
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:4110
+#: wp-admin/includes/ajax-actions.php:4118
 msgid "Did not receive array from %1$s eraser (index %2$d)."
 msgstr "Pas de tableau reçu depuis l’effaceur %1$s (index %2$d)."
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:4121
+#: wp-admin/includes/ajax-actions.php:4129
 msgid ""
 "Expected items_removed key in response array from %1$s eraser (index %2$d)."
 msgstr ""
@@ -2297,7 +2292,7 @@ msgstr ""
 "(index %2$d)."
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:4132
+#: wp-admin/includes/ajax-actions.php:4140
 msgid ""
 "Expected items_retained key in response array from %1$s eraser (index %2$d)."
 msgstr ""
@@ -2305,14 +2300,14 @@ msgstr ""
 "(index %2$d)."
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:4143
+#: wp-admin/includes/ajax-actions.php:4151
 msgid "Expected messages key in response array from %1$s eraser (index %2$d)."
 msgstr ""
 "Clé de messages attendue dans le tableau de réponse de l’effaceur %1$s "
 "(index %2$d)."
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:4154
+#: wp-admin/includes/ajax-actions.php:4162
 msgid ""
 "Expected messages key to reference an array in response array from %1$s "
 "eraser (index %2$d)."
@@ -2321,56 +2316,168 @@ msgstr ""
 "réponse de l’effaceur %1$s (index %2$d)."
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:4165
+#: wp-admin/includes/ajax-actions.php:4173
 msgid "Expected done flag in response array from %1$s eraser (index %2$d)."
 msgstr ""
 "Marqueur de résultat attendu dans le tableau de réponse de l’effaceur %1$s "
 "(index %2$d)."
 
 #. translators: 1: The Site Health action that is no longer used by core. 2: The new function that replaces it.
-#: wp-admin/includes/ajax-actions.php:4224
-#: wp-admin/includes/ajax-actions.php:4243
-#: wp-admin/includes/ajax-actions.php:4263
-#: wp-admin/includes/ajax-actions.php:4313
+#: wp-admin/includes/ajax-actions.php:4232
+#: wp-admin/includes/ajax-actions.php:4251
+#: wp-admin/includes/ajax-actions.php:4271
+#: wp-admin/includes/ajax-actions.php:4321
 msgid "The Site Health check for %1$s has been replaced with %2$s."
 msgstr "La fonction %1$s de l’outil Santé du site a été remplacée par %2$s."
 
-#: wp-admin/includes/ajax-actions.php:4385
+#: wp-admin/includes/ajax-actions.php:4393
 msgid "Invalid data. No selected item."
 msgstr "Données non valides. Aucun élément sélectionné."
 
-#: wp-admin/includes/ajax-actions.php:4391
+#: wp-admin/includes/ajax-actions.php:4399
 msgid "Invalid data. Unknown state."
 msgstr "Données non valides. État inconnu."
 
-#: wp-admin/includes/ajax-actions.php:4396
-#: wp-admin/includes/ajax-actions.php:4421
+#: wp-admin/includes/ajax-actions.php:4404
+#: wp-admin/includes/ajax-actions.php:4429
 msgid "Invalid data. Unknown type."
 msgstr "Données non valides. Type inconnu."
 
-#: wp-admin/includes/ajax-actions.php:4403
+#: wp-admin/includes/ajax-actions.php:4411
 msgid "Sorry, you are not allowed to modify plugins."
 msgstr "Désolé, vous n’avez pas l’autorisation de modifier les extensions."
 
-#: wp-admin/includes/ajax-actions.php:4413
+#: wp-admin/includes/ajax-actions.php:4421
 msgid "Sorry, you are not allowed to modify themes."
 msgstr "Désolé, vous n’avez pas l’autorisation de modifier les thèmes."
 
-#: wp-admin/includes/ajax-actions.php:4425
+#: wp-admin/includes/ajax-actions.php:4433
 msgid "Invalid data. The item does not exist."
 msgstr "Données non valides. L’élément n’existe pas."
 
-#: wp-admin/includes/ajax-actions.php:4459
+#: wp-admin/includes/ajax-actions.php:4467
 msgid "Cannot send password reset, permission denied."
 msgstr ""
 "Impossible d’envoyer le lien de réinitialisation du mot de passe, "
 "autorisation refusée."
 
 #. translators: %s: User's display name.
-#: wp-admin/includes/ajax-actions.php:4469
+#: wp-admin/includes/ajax-actions.php:4477
 msgid "A password reset link was emailed to %s."
 msgstr ""
 "Un lien de réinitialisation du mot de passe a été envoyé par courriel à %s."
+
+#: wp-admin/includes/class-block-upgrader.php:29
+msgid "The block is at the latest version."
+msgstr "Vous avez la dernière version de ce bloc."
+
+#: wp-admin/includes/class-block-upgrader.php:30
+#: wp-admin/includes/class-core-upgrader.php:37
+#: wp-admin/includes/class-language-pack-upgrader.php:117
+#: wp-admin/includes/class-plugin-upgrader.php:60
+#: wp-admin/includes/class-theme-upgrader.php:59
+msgid "Update package not available."
+msgstr "Aucune archive de mise à jour disponible."
+
+#. translators: %s: Package URL.
+#: wp-admin/includes/class-block-upgrader.php:32
+#: wp-admin/includes/class-core-upgrader.php:39
+#: wp-admin/includes/class-plugin-upgrader.php:62
+#: wp-admin/includes/class-theme-upgrader.php:61
+msgid "Downloading update from %s&#8230;"
+msgstr "Téléchargement de la mise à jour depuis %s…"
+
+#: wp-admin/includes/class-block-upgrader.php:33
+#: wp-admin/includes/class-core-upgrader.php:40
+#: wp-admin/includes/class-language-pack-upgrader.php:120
+#: wp-admin/includes/class-plugin-upgrader.php:63
+#: wp-admin/includes/class-theme-upgrader.php:62
+msgid "Unpacking the update&#8230;"
+msgstr "Décompression de la mise à jour&#8230;"
+
+#: wp-admin/includes/class-block-upgrader.php:34
+msgid "Removing the old version of the block&#8230;"
+msgstr "Retrait de l’ancienne version du bloc&#8230;"
+
+#: wp-admin/includes/class-block-upgrader.php:35
+msgid "Could not remove the old block."
+msgstr "Impossible de supprimer l’ancien bloc."
+
+#: wp-admin/includes/class-block-upgrader.php:36
+#: wp-admin/includes/class-block-upgrader.php:63
+msgid "Block update failed."
+msgstr "La mise à jour du bloc a échoué."
+
+#: wp-admin/includes/class-block-upgrader.php:37
+#: wp-admin/includes/class-block-upgrader.php:64
+msgid "Block updated successfully."
+msgstr "Le bloc a bien été mis à jour."
+
+#: wp-admin/includes/class-block-upgrader.php:38
+msgid "Blocks updated successfully."
+msgstr "Les blocs ont bien été mis à jour."
+
+#: wp-admin/includes/class-block-upgrader.php:47
+#: wp-admin/includes/class-plugin-upgrader.php:77
+#: wp-admin/includes/class-theme-upgrader.php:75
+msgid "Installation package not available."
+msgstr "L’archive d’installation n’est pas disponible."
+
+#. translators: %s: Package URL.
+#: wp-admin/includes/class-block-upgrader.php:49
+#: wp-admin/includes/class-plugin-upgrader.php:79
+#: wp-admin/includes/class-theme-upgrader.php:77
+msgid "Downloading installation package from %s&#8230;"
+msgstr "Téléchargement du paquet d’installation depuis %s…"
+
+#: wp-admin/includes/class-block-upgrader.php:50
+msgid "Unpacking the block package&#8230;"
+msgstr "Décompression de l’archive du bloc&#8230;"
+
+#: wp-admin/includes/class-block-upgrader.php:51
+msgid "Installing the block&#8230;"
+msgstr "Installation du bloc&#8230;"
+
+#: wp-admin/includes/class-block-upgrader.php:52
+msgid "Removing the current block&#8230;"
+msgstr "Suppression du bloc actuel&#8230;"
+
+#: wp-admin/includes/class-block-upgrader.php:53
+msgid "Could not remove the current block."
+msgstr "Impossible de supprimer le bloc actuel."
+
+#: wp-admin/includes/class-block-upgrader.php:54
+msgid "The block contains no files."
+msgstr "Ce bloc ne contient aucun fichier."
+
+#: wp-admin/includes/class-block-upgrader.php:55
+msgid "Block installation failed."
+msgstr "L’installation du bloc a échoué."
+
+#: wp-admin/includes/class-block-upgrader.php:56
+msgid "Block installed successfully."
+msgstr "Le bloc a bien été installé."
+
+#. translators: 1: Block name, 2: Block version.
+#: wp-admin/includes/class-block-upgrader.php:58
+msgid "Successfully installed the block <strong>%1$s %2$s</strong>."
+msgstr "Le bloc <strong>%1$s %2$s</strong> a bien été installé."
+
+#: wp-admin/includes/class-block-upgrader.php:62
+msgid "Updating the block&#8230;"
+msgstr "Mise à jour du bloc&#8230;"
+
+#: wp-admin/includes/class-block-upgrader.php:68
+msgid "Downgrading the block&#8230;"
+msgstr "Rétrogradation du bloc&#8230;"
+
+#: wp-admin/includes/class-block-upgrader.php:69
+msgid "Block downgrade failed."
+msgstr "La rétrogradation du bloc a échoué."
+
+#: wp-admin/includes/class-block-upgrader.php:70
+msgid "Block downgraded successfully."
+msgstr "Le bloc a bien été rétrogradé."
 
 #. translators: 1: Plugin name, 2: Number of the plugin, 3: Total number of plugins being updated.
 #: wp-admin/includes/class-bulk-plugin-upgrader-skin.php:41
@@ -2378,7 +2485,7 @@ msgid "Updating Plugin %1$s (%2$d/%3$d)"
 msgstr "Mise à jour de l’extension %1$s (%2$d/%3$d)"
 
 #: wp-admin/includes/class-bulk-plugin-upgrader-skin.php:79
-#: wp-admin/includes/class-plugin-installer-skin.php:153
+#: wp-admin/includes/class-plugin-installer-skin.php:172
 #: wp-admin/includes/class-plugin-upgrader-skin.php:103
 msgid "Go to Plugins page"
 msgstr "Aller sur la page des extensions"
@@ -2439,33 +2546,12 @@ msgstr "Vous utilisez la dernière version de Retraceur."
 msgid "Another update is currently in progress."
 msgstr "Une autre mise à jour est actuellement en cours."
 
-#: wp-admin/includes/class-core-upgrader.php:37
-#: wp-admin/includes/class-language-pack-upgrader.php:117
-#: wp-admin/includes/class-plugin-upgrader.php:60
-#: wp-admin/includes/class-theme-upgrader.php:59
-msgid "Update package not available."
-msgstr "Aucune archive de mise à jour disponible."
-
-#. translators: %s: Package URL.
-#: wp-admin/includes/class-core-upgrader.php:39
-#: wp-admin/includes/class-plugin-upgrader.php:62
-#: wp-admin/includes/class-theme-upgrader.php:61
-msgid "Downloading update from %s&#8230;"
-msgstr "Téléchargement de la mise à jour depuis %s…"
-
-#: wp-admin/includes/class-core-upgrader.php:40
-#: wp-admin/includes/class-language-pack-upgrader.php:120
-#: wp-admin/includes/class-plugin-upgrader.php:63
-#: wp-admin/includes/class-theme-upgrader.php:62
-msgid "Unpacking the update&#8230;"
-msgstr "Décompression de la mise à jour&#8230;"
-
 #: wp-admin/includes/class-core-upgrader.php:41
 msgid "Could not copy files."
 msgstr "Impossible de copier les fichiers."
 
-#: wp-admin/includes/class-core-upgrader.php:42 wp-admin/includes/file.php:1470
-#: wp-admin/includes/file.php:1652
+#: wp-admin/includes/class-core-upgrader.php:42 wp-admin/includes/file.php:1004
+#: wp-admin/includes/file.php:1186
 msgid "Could not copy files. You may have run out of disk space."
 msgstr ""
 "Impossible de copier les fichiers. Il se pourrait que vous manquiez de place."
@@ -3014,8 +3100,8 @@ msgstr "Par défaut : %s"
 #: wp-admin/includes/class-custom-image-header.php:814
 #: wp-admin/includes/class-custom-image-header.php:1002
 #: wp-admin/includes/class-custom-image-header.php:1013
-#: wp-admin/includes/file.php:634 wp-admin/media-upload.php:40
-#: wp-admin/themes.php:29 wp-admin/themes.php:72 wp-admin/users.php:170
+#: wp-admin/media-upload.php:40 wp-admin/themes.php:29 wp-admin/themes.php:72
+#: wp-admin/users.php:170
 msgid "Something went wrong."
 msgstr "Un problème est apparu."
 
@@ -3085,7 +3171,7 @@ msgstr "Retourner à l’installation des extensions"
 
 #: wp-admin/includes/class-file-upload-upgrader.php:84
 #: wp-admin/includes/class-file-upload-upgrader.php:93
-#: wp-admin/includes/file.php:1420 wp-admin/includes/file.php:1618
+#: wp-admin/includes/file.php:954 wp-admin/includes/file.php:1152
 msgid "Incompatible Archive."
 msgstr "Archive incompatible."
 
@@ -3100,7 +3186,7 @@ msgstr "Mettre à jour les traductions"
 
 #. translators: 1: Project name (plugin, theme, or Retraceur), 2: Language.
 #: wp-admin/includes/class-language-pack-upgrader-skin.php:62
-#: wp-admin/includes/class-wp-automatic-updater.php:441
+#: wp-admin/includes/class-wp-automatic-updater.php:442
 msgid "Updating translations for %1$s (%2$s)&#8230;"
 msgstr "Mise à jour de la traduction de %1$s (%2$s)&#8230;"
 
@@ -3143,43 +3229,51 @@ msgstr "Impossible de retirer l’ancienne traduction."
 msgid "The language pack is missing either the %1$s, %2$s, or %3$s files."
 msgstr "Il manque les fichiers %1$s, %2$s, ou %3$s au paquet de langue."
 
-#: wp-admin/includes/class-plugin-installer-skin.php:112
+#: wp-admin/includes/class-plugin-installer-skin.php:117
 msgid "Activate Plugin &amp; Run Importer"
 msgstr "Activer l’extension &amp; lancer l’outil d’importation"
 
-#: wp-admin/includes/class-plugin-installer-skin.php:118
+#: wp-admin/includes/class-plugin-installer-skin.php:123
 msgid "Activate Plugin &amp; Go to Press This"
 msgstr "Activer l’extension et aller sur Press This"
 
-#: wp-admin/includes/class-plugin-installer-skin.php:124
+#: wp-admin/includes/class-plugin-installer-skin.php:129
+msgid "Activate Block"
+msgstr "Activer le bloc"
+
+#: wp-admin/includes/class-plugin-installer-skin.php:135
 #: wp-admin/includes/class-plugin-upgrader-skin.php:98
 msgid "Activate Plugin"
 msgstr "Activer l’extension"
 
-#: wp-admin/includes/class-plugin-installer-skin.php:132
-#: wp-admin/includes/class-wp-plugins-list-table.php:613
-#: wp-admin/includes/class-wp-plugins-list-table.php:838
-#: wp-admin/includes/class-wp-plugins-list-table.php:855
-#: wp-admin/includes/plugin-install.php:914
-#: wp-admin/includes/plugin-install.php:932
+#: wp-admin/includes/class-plugin-installer-skin.php:143
+#: wp-admin/includes/class-wp-plugins-list-table.php:627
+#: wp-admin/includes/class-wp-plugins-list-table.php:857
+#: wp-admin/includes/class-wp-plugins-list-table.php:874
+#: wp-admin/includes/plugin-install.php:953
+#: wp-admin/includes/plugin-install.php:971
 msgctxt "plugin"
 msgid "Network Activate"
 msgstr "Activer sur le réseau"
 
-#: wp-admin/includes/class-plugin-installer-skin.php:141
-#: wp-admin/includes/class-plugin-installer-skin.php:147
+#: wp-admin/includes/class-plugin-installer-skin.php:152
+#: wp-admin/includes/class-plugin-installer-skin.php:165
 msgid "Go to Plugin Installer"
 msgstr "Aller à l’installeur d’extensions"
 
-#: wp-admin/includes/class-plugin-installer-skin.php:213
+#: wp-admin/includes/class-plugin-installer-skin.php:159
+msgid "Go to Block Installer"
+msgstr "Aller à l’installeur de bloc"
+
+#: wp-admin/includes/class-plugin-installer-skin.php:232
 msgid "This plugin is already installed."
 msgstr "Cette extension est déjà installée."
 
-#: wp-admin/includes/class-plugin-installer-skin.php:218
+#: wp-admin/includes/class-plugin-installer-skin.php:237
 msgid "Plugin name"
 msgstr "Nom de l’extension"
 
-#: wp-admin/includes/class-plugin-installer-skin.php:219
+#: wp-admin/includes/class-plugin-installer-skin.php:238
 #: wp-admin/includes/class-theme-installer-skin.php:229
 #: wp-admin/includes/class-wp-debug-data.php:173
 #: wp-admin/includes/class-wp-debug-data.php:1052
@@ -3188,7 +3282,7 @@ msgid "Version"
 msgstr "Version"
 
 #. translators: Hidden accessibility text.
-#: wp-admin/includes/class-plugin-installer-skin.php:220
+#: wp-admin/includes/class-plugin-installer-skin.php:239
 #: wp-admin/includes/class-theme-installer-skin.php:230
 #: wp-admin/includes/class-wp-debug-data.php:1057
 #: wp-admin/includes/class-wp-debug-data.php:1177
@@ -3197,37 +3291,37 @@ msgstr "Version"
 #: wp-admin/includes/class-wp-posts-list-table.php:671
 #: wp-admin/includes/class-wp-posts-list-table.php:1744
 #: wp-admin/includes/meta-boxes.php:825 wp-admin/includes/meta-boxes.php:1120
-#: wp-admin/includes/plugin-install.php:323
+#: wp-admin/includes/plugin-install.php:338
 #: wp-admin/includes/theme-install.php:111
 msgid "Author"
 msgstr "Auteur•e•s :"
 
-#: wp-admin/includes/class-plugin-installer-skin.php:221
+#: wp-admin/includes/class-plugin-installer-skin.php:240
 #: wp-admin/includes/class-theme-installer-skin.php:231
 msgid "Required Retraceur version"
 msgstr "Version de Retraceur nécessaire"
 
-#: wp-admin/includes/class-plugin-installer-skin.php:222
+#: wp-admin/includes/class-plugin-installer-skin.php:241
 #: wp-admin/includes/class-theme-installer-skin.php:232
 msgid "Required PHP version"
 msgstr "Version de PHP nécessaire"
 
-#: wp-admin/includes/class-plugin-installer-skin.php:226
+#: wp-admin/includes/class-plugin-installer-skin.php:245
 msgctxt "plugin"
 msgid "Current"
 msgstr "Actuelle"
 
-#: wp-admin/includes/class-plugin-installer-skin.php:227
+#: wp-admin/includes/class-plugin-installer-skin.php:246
 msgctxt "plugin"
 msgid "Uploaded"
 msgstr "Téléversée"
 
-#: wp-admin/includes/class-plugin-installer-skin.php:261
+#: wp-admin/includes/class-plugin-installer-skin.php:280
 msgid "The plugin cannot be updated due to the following:"
 msgstr "L’extension ne peut être mise à jour pour la raison suivante :"
 
 #. translators: 1: Current PHP version, 2: Version required by the uploaded plugin.
-#: wp-admin/includes/class-plugin-installer-skin.php:270
+#: wp-admin/includes/class-plugin-installer-skin.php:289
 #: wp-admin/includes/class-plugin-upgrader.php:501
 msgid ""
 "The PHP version on your server is %1$s, however the uploaded plugin requires "
@@ -3237,7 +3331,7 @@ msgstr ""
 "nécessite la version %2$s."
 
 #. translators: 1: Current Retraceur version, 2: Version required by the uploaded plugin.
-#: wp-admin/includes/class-plugin-installer-skin.php:282
+#: wp-admin/includes/class-plugin-installer-skin.php:301
 #: wp-admin/includes/class-plugin-upgrader.php:512
 msgid ""
 "Your Retraceur version is %1$s, however the uploaded plugin requires %2$s."
@@ -3245,7 +3339,7 @@ msgstr ""
 "Vous utilisez la version %1$s de Retraceur, mais l’extension chargée "
 "nécessite la version %2$s."
 
-#: wp-admin/includes/class-plugin-installer-skin.php:295
+#: wp-admin/includes/class-plugin-installer-skin.php:314
 msgid ""
 "You are uploading an older version of a current plugin. You can continue to "
 "install the older version, but be sure to back up your database and files "
@@ -3255,24 +3349,24 @@ msgstr ""
 "poursuivre l’installation de cette ancienne version, mais assurez-vous de "
 "sauvegarder la base de donnée et les fichiers auparavant."
 
-#: wp-admin/includes/class-plugin-installer-skin.php:297
+#: wp-admin/includes/class-plugin-installer-skin.php:316
 msgid ""
 "You are updating a plugin. Be sure to back up your database and files first."
 msgstr ""
 "Vous mettez à jour une extension. Au préalable, assurez-vous de sauvegarder "
 "votre base de données et vos fichiers."
 
-#: wp-admin/includes/class-plugin-installer-skin.php:307
+#: wp-admin/includes/class-plugin-installer-skin.php:326
 msgctxt "plugin"
 msgid "Replace current with uploaded"
 msgstr "Remplacer l’extension actuelle par celle que vous avez téléversée"
 
-#: wp-admin/includes/class-plugin-installer-skin.php:318
+#: wp-admin/includes/class-plugin-installer-skin.php:337
 #: wp-admin/includes/class-theme-installer-skin.php:340
 msgid "Cancel and go back"
 msgstr "Annuler et revenir en arrière"
 
-#: wp-admin/includes/class-plugin-installer-skin.php:336
+#: wp-admin/includes/class-plugin-installer-skin.php:355
 #: wp-admin/includes/class-theme-installer-skin.php:358
 msgid "The uploaded file has expired. Please go back and upload it again."
 msgstr "Le fichier téléversé a expiré. Veuillez le téléverser à nouveau."
@@ -3307,20 +3401,8 @@ msgstr "L’extension a bien été mise à jour."
 msgid "Plugins updated successfully."
 msgstr "Les extensions ont bien été mises à jour."
 
-#: wp-admin/includes/class-plugin-upgrader.php:77
-#: wp-admin/includes/class-theme-upgrader.php:75
-msgid "Installation package not available."
-msgstr "L’archive d’installation n’est pas disponible."
-
-#. translators: %s: Package URL.
-#: wp-admin/includes/class-plugin-upgrader.php:79
-#: wp-admin/includes/class-theme-upgrader.php:77
-msgid "Downloading installation package from %s&#8230;"
-msgstr "Téléchargement du paquet d’installation depuis %s…"
-
 #: wp-admin/includes/class-plugin-upgrader.php:80
-#: wp-admin/includes/class-theme-upgrader.php:78
-msgid "Unpacking the package&#8230;"
+msgid "Unpacking the plugin package&#8230;"
 msgstr "Décompression de l’archive de l’extension&#8230;"
 
 #: wp-admin/includes/class-plugin-upgrader.php:81
@@ -3484,7 +3566,7 @@ msgctxt "theme"
 msgid "Replace active with uploaded"
 msgstr "Remplacer le thème actif par celui que vous avez téléversé"
 
-#: wp-admin/includes/class-theme-upgrader-skin.php:46 wp-admin/update.php:221
+#: wp-admin/includes/class-theme-upgrader-skin.php:46 wp-admin/update.php:242
 msgid "Update Theme"
 msgstr "Mettre à jour le thème"
 
@@ -3506,6 +3588,10 @@ msgstr "Impossible de supprimer l’ancien thème."
 #: wp-admin/includes/class-theme-upgrader.php:103
 msgid "Theme updated successfully."
 msgstr "Le thème a bien été mis à jour."
+
+#: wp-admin/includes/class-theme-upgrader.php:78
+msgid "Unpacking the package&#8230;"
+msgstr "Décompression de l’archive de l’extension&#8230;"
 
 #: wp-admin/includes/class-theme-upgrader.php:79
 msgid "Installing the theme&#8230;"
@@ -3660,48 +3746,48 @@ msgid "Show more details"
 msgstr "Afficher plus de détails"
 
 #. translators: %s: The "$dir" argument.
-#: wp-admin/includes/class-wp-automatic-updater.php:85
+#: wp-admin/includes/class-wp-automatic-updater.php:86
 msgid "The \"%s\" argument must be a non-empty string."
 msgstr "L’argument « %s » doit être une chaine non vide."
 
 #. translators: %s: Retraceur version.
-#: wp-admin/includes/class-wp-automatic-updater.php:408
+#: wp-admin/includes/class-wp-automatic-updater.php:409
 msgid "Updating to Retraceur %s"
 msgstr "Montée de version (%s) de Retraceur en cours"
 
 #. translators: %s: Theme name.
-#: wp-admin/includes/class-wp-automatic-updater.php:422
+#: wp-admin/includes/class-wp-automatic-updater.php:423
 msgid "Updating theme: %s"
 msgstr "Mise à jour du thème : %s"
 
 #. translators: %s: Plugin name.
-#: wp-admin/includes/class-wp-automatic-updater.php:434
+#: wp-admin/includes/class-wp-automatic-updater.php:435
 msgid "Updating plugin: %s"
 msgstr "Mise à jour de l’extension : %s"
 
 #. translators: %s: Project name (plugin, theme, or Retraceur).
-#: wp-admin/includes/class-wp-automatic-updater.php:439
+#: wp-admin/includes/class-wp-automatic-updater.php:440
 msgid "Translations for %s"
 msgstr "Traductions pour %s"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:507
-#: wp-admin/includes/class-wp-upgrader.php:191 wp-admin/includes/file.php:1342
-#: wp-admin/includes/plugin.php:939 wp-admin/includes/theme.php:64
+#: wp-admin/includes/class-wp-automatic-updater.php:508
+#: wp-admin/includes/class-wp-upgrader.php:191 wp-admin/includes/file.php:876
+#: wp-admin/includes/plugin.php:946 wp-admin/includes/theme.php:64
 msgid "Could not access filesystem."
 msgstr "Impossible d’accéder au système de fichiers."
 
-#: wp-admin/includes/class-wp-automatic-updater.php:527
+#: wp-admin/includes/class-wp-automatic-updater.php:528
 #: wp-admin/update-core.php:840
 msgid "Installation failed."
 msgstr "Échec de l’installation"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:530
+#: wp-admin/includes/class-wp-automatic-updater.php:531
 #: wp-admin/update-core.php:846
 msgid "Retraceur updated successfully."
 msgstr "Retraceur a bien été mis à jour."
 
 #. translators: %s: The plugin's slug.
-#: wp-admin/includes/class-wp-automatic-updater.php:583
+#: wp-admin/includes/class-wp-automatic-updater.php:584
 msgid ""
 "The update for '%s' contained a fatal error. The previously installed "
 "version could not be restored."
@@ -3710,7 +3796,7 @@ msgstr ""
 "n’a pas pu être restaurée."
 
 #. translators: %s: The plugin's slug.
-#: wp-admin/includes/class-wp-automatic-updater.php:594
+#: wp-admin/includes/class-wp-automatic-updater.php:595
 msgid ""
 "The update for '%s' contained a fatal error. The previously installed "
 "version has been restored."
@@ -3719,66 +3805,66 @@ msgstr ""
 "a été restaurée."
 
 #. translators: Site updated notification email subject. 1: Site title, 2: Retraceur version.
-#: wp-admin/includes/class-wp-automatic-updater.php:943
+#: wp-admin/includes/class-wp-automatic-updater.php:944
 msgid "[%1$s] Your site has updated to Retraceur %2$s"
 msgstr "[%1$s] Votre site a été mis à jour vers Retraceur %2$s"
 
 #. translators: Update available notification email subject. 1: Site title, 2: Retraceur version.
-#: wp-admin/includes/class-wp-automatic-updater.php:949
+#: wp-admin/includes/class-wp-automatic-updater.php:950
 msgid "[%1$s] Retraceur %2$s is available. Please update!"
 msgstr "[%1$s] Retraceur %2$s est disponible. Veuillez mettre à jour !"
 
 #. translators: Site down notification email subject. 1: Site title.
-#: wp-admin/includes/class-wp-automatic-updater.php:954
+#: wp-admin/includes/class-wp-automatic-updater.php:955
 msgid "[%1$s] URGENT: Your site may be down due to a failed update"
 msgstr ""
 "[%1$s] URGENT : suite à une mise à jour échouée, votre site est peut-être "
 "inaccessible."
 
 #. translators: 1: Home URL, 2: Retraceur version.
-#: wp-admin/includes/class-wp-automatic-updater.php:971
+#: wp-admin/includes/class-wp-automatic-updater.php:972
 msgid ""
 "Howdy! Your site at %1$s has been updated automatically to Retraceur %2$s."
 msgstr ""
 "Bonjour ! Votre site à l’adresse %1$s a été automatiquement mis à jour vers "
 "Retraceur %2$s."
 
-#: wp-admin/includes/class-wp-automatic-updater.php:977
+#: wp-admin/includes/class-wp-automatic-updater.php:978
 msgid "No further action is needed on your part."
 msgstr "Vous n’avez rien de plus à faire."
 
 #. translators: %s: Retraceur version.
-#: wp-admin/includes/class-wp-automatic-updater.php:983
+#: wp-admin/includes/class-wp-automatic-updater.php:984
 msgid "For more on version %s, see the About Retraceur screen:"
 msgstr ""
 "Pour en savoir plus sur la version %s, consulter l’écran d’administration "
 "« À Propos de Retraceur » :"
 
 #. translators: %s: Retraceur latest version.
-#: wp-admin/includes/class-wp-automatic-updater.php:988
+#: wp-admin/includes/class-wp-automatic-updater.php:989
 msgid "Retraceur %s is also now available."
 msgstr "Retraceur %s est également disponible."
 
-#: wp-admin/includes/class-wp-automatic-updater.php:989
-#: wp-admin/includes/class-wp-automatic-updater.php:1014
+#: wp-admin/includes/class-wp-automatic-updater.php:990
+#: wp-admin/includes/class-wp-automatic-updater.php:1015
 msgid "Updating is easy and only takes a few moments:"
 msgstr "La mise à jour est facile et ne nécessite que quelques secondes :"
 
 #. translators: 1: Home URL, 2: Retraceur version.
-#: wp-admin/includes/class-wp-automatic-updater.php:999
+#: wp-admin/includes/class-wp-automatic-updater.php:1000
 msgid "Please update your site at %1$s to Retraceur %2$s."
 msgstr ""
 "Veuillez mettre à jour votre site à l’adresse %1$s pour le passer à "
 "Retraceur %2$s."
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1011
+#: wp-admin/includes/class-wp-automatic-updater.php:1012
 msgid "An attempt was made, but your site could not be updated automatically."
 msgstr ""
 "Une tentative a été faite, mais votre site n’a pas pu être mis à jour "
 "automatiquement."
 
 #. translators: 1: Home URL, 2: Retraceur version.
-#: wp-admin/includes/class-wp-automatic-updater.php:1022
+#: wp-admin/includes/class-wp-automatic-updater.php:1023
 msgid ""
 "Your site at %1$s experienced a critical failure while trying to update "
 "Retraceur to version %2$s."
@@ -3787,7 +3873,7 @@ msgstr ""
 "faire une mise à jour de Retraceur vers la version %2$s."
 
 #. translators: 1: Home URL, 2: Retraceur latest version.
-#: wp-admin/includes/class-wp-automatic-updater.php:1029
+#: wp-admin/includes/class-wp-automatic-updater.php:1030
 msgid ""
 "Your site at %1$s experienced a critical failure while trying to update to "
 "the latest version of Retraceur, %2$s."
@@ -3795,7 +3881,7 @@ msgstr ""
 "Votre site à l’adresse %1$s a fait face à un échec critique en essayant de "
 "faire une mise à jour vers la dernière version de Retraceur, la %2$s."
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1035
+#: wp-admin/includes/class-wp-automatic-updater.php:1036
 msgid ""
 "This means your site may be offline or broken. Don't panic; this can be "
 "fixed."
@@ -3803,7 +3889,7 @@ msgstr ""
 "Cela signifie que votre site est peut-être hors ligne ou cassé. Ne paniquez "
 "pas, cela peut être réparé."
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1037
+#: wp-admin/includes/class-wp-automatic-updater.php:1038
 msgid ""
 "Please check out your site now. It's possible that everything is working. If "
 "it says you need to update, you should do so:"
@@ -3813,7 +3899,7 @@ msgstr ""
 "conseil :"
 
 #. translators: %s: Support email address.
-#: wp-admin/includes/class-wp-automatic-updater.php:1047
+#: wp-admin/includes/class-wp-automatic-updater.php:1048
 msgid ""
 "The Retraceur team is willing to help you. Forward this email to %s and the "
 "team will work with you to make sure your site is working."
@@ -3821,7 +3907,7 @@ msgstr ""
 "L’équipe de Retraceur est prête à vous aider. Transférez ce message à %s et "
 "l’équipe vous aidera à faire en sorte que votre site fonctionne."
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1054
+#: wp-admin/includes/class-wp-automatic-updater.php:1055
 #: wp-admin/update-core.php:918
 msgid ""
 "Keeping your site updated is important for security. It also makes the "
@@ -3831,7 +3917,7 @@ msgstr ""
 "jour. Par ailleurs, cela rend le web plus sûr pour vous et pour votre "
 "audience."
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1058
+#: wp-admin/includes/class-wp-automatic-updater.php:1059
 msgid ""
 "Reach out to Retraceur Core developers to ensure you'll never have this "
 "problem again."
@@ -3839,23 +3925,23 @@ msgstr ""
 "Contactez les développeuses et développeurs du cœur de Retraceur pour vous "
 "assurer que vous ne rencontrerez plus ce problème."
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1063
+#: wp-admin/includes/class-wp-automatic-updater.php:1064
 msgid ""
 "You also have some plugins or themes with updates available. Update them now:"
 msgstr ""
 "Certains de vos thèmes et extensions ont également des mises à jour "
 "disponibles. Veuillez les mettre à jour dès maintenant :"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1067
+#: wp-admin/includes/class-wp-automatic-updater.php:1068
 msgid "The Retraceur Team"
 msgstr "L’équipe Retraceur"
 
 #. translators: %s: Retraceur version.
-#: wp-admin/includes/class-wp-automatic-updater.php:1072
+#: wp-admin/includes/class-wp-automatic-updater.php:1073
 msgid "Your site was running version %s."
 msgstr "Votre site utilise la version %s."
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1073
+#: wp-admin/includes/class-wp-automatic-updater.php:1074
 msgid ""
 "Some data that describes the error your site encountered has been put "
 "together."
@@ -3863,7 +3949,7 @@ msgstr ""
 "Des données relatives à l’erreur rencontrée par votre site ont été "
 "recueillies."
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1074
+#: wp-admin/includes/class-wp-automatic-updater.php:1075
 msgid ""
 "Your hosting company, support forum volunteers, or a friendly developer may "
 "be able to use this information to help you:"
@@ -3872,17 +3958,17 @@ msgstr ""
 "devraient pouvoir vous aider à comprendre cette information pour vous aider :"
 
 #. translators: %s: Error code.
-#: wp-admin/includes/class-wp-automatic-updater.php:1093
+#: wp-admin/includes/class-wp-automatic-updater.php:1094
 msgid "Error code: %s"
 msgstr "Code d’erreur : %s"
 
 #. translators: %s: Site title.
-#: wp-admin/includes/class-wp-automatic-updater.php:1265
+#: wp-admin/includes/class-wp-automatic-updater.php:1266
 msgid "[%s] Some plugins and themes have automatically updated"
 msgstr "[%s] Des extensions et thèmes ont été mis à jour automatiquement"
 
 #. translators: %s: Home URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1268
+#: wp-admin/includes/class-wp-automatic-updater.php:1269
 msgid ""
 "Howdy! Some plugins and themes have automatically updated to their latest "
 "versions on your site at %s. No further action is needed on your part."
@@ -3892,12 +3978,12 @@ msgstr ""
 "rien de plus à faire."
 
 #. translators: %s: Site title.
-#: wp-admin/includes/class-wp-automatic-updater.php:1273
+#: wp-admin/includes/class-wp-automatic-updater.php:1274
 msgid "[%s] Some plugins were automatically updated"
 msgstr "[%s] Certaines extensions ont été mises à jour automatiquement"
 
 #. translators: %s: Home URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1276
+#: wp-admin/includes/class-wp-automatic-updater.php:1277
 msgid ""
 "Howdy! Some plugins have automatically updated to their latest versions on "
 "your site at %s. No further action is needed on your part."
@@ -3907,12 +3993,12 @@ msgstr ""
 "faire."
 
 #. translators: %s: Site title.
-#: wp-admin/includes/class-wp-automatic-updater.php:1281
+#: wp-admin/includes/class-wp-automatic-updater.php:1282
 msgid "[%s] Some themes were automatically updated"
 msgstr "[%s] Certains thèmes ont été mis à jour automatiquement"
 
 #. translators: %s: Home URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1284
+#: wp-admin/includes/class-wp-automatic-updater.php:1285
 msgid ""
 "Howdy! Some themes have automatically updated to their latest versions on "
 "your site at %s. No further action is needed on your part."
@@ -3921,42 +4007,42 @@ msgstr ""
 "versions sur votre site à l’adresse %s. Vous n’avez rien de plus à faire."
 
 #. translators: %s: Site title.
-#: wp-admin/includes/class-wp-automatic-updater.php:1294
+#: wp-admin/includes/class-wp-automatic-updater.php:1295
 msgid "[%s] Some plugins and themes have failed to update"
 msgstr "[%s] Certaines mises à jour d’extensions et de thèmes ont échoué"
 
 #. translators: %s: Home URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1297
+#: wp-admin/includes/class-wp-automatic-updater.php:1298
 msgid "Howdy! Plugins and themes failed to update on your site at %s."
 msgstr ""
 "Bonjour ! Certaines mises à jour d’extensions et de thèmes ont échoué sur "
 "votre site situé à l’adresse %s."
 
 #. translators: %s: Site title.
-#: wp-admin/includes/class-wp-automatic-updater.php:1302
+#: wp-admin/includes/class-wp-automatic-updater.php:1303
 msgid "[%s] Some plugins have failed to update"
 msgstr "[%s] Certaines mises à jour d’extensions ont échoué"
 
 #. translators: %s: Home URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1305
+#: wp-admin/includes/class-wp-automatic-updater.php:1306
 msgid "Howdy! Plugins failed to update on your site at %s."
 msgstr ""
 "Bonjour ! Certaines mises à jour d’extensions ont échoué sur votre site "
 "situé à l’adresse %s."
 
 #. translators: %s: Site title.
-#: wp-admin/includes/class-wp-automatic-updater.php:1310
+#: wp-admin/includes/class-wp-automatic-updater.php:1311
 msgid "[%s] Some themes have failed to update"
 msgstr "[%s] Certaines mises à jour de thèmes ont échoué"
 
 #. translators: %s: Home URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1313
+#: wp-admin/includes/class-wp-automatic-updater.php:1314
 msgid "Howdy! Themes failed to update on your site at %s."
 msgstr ""
 "Bonjour ! Des mises à jour de thèmes ont échoué sur votre site situé à "
 "l’adresse %s."
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1323
+#: wp-admin/includes/class-wp-automatic-updater.php:1324
 msgid ""
 "Please check your site now. It’s possible that everything is working. If "
 "there are updates available, you should update."
@@ -3964,7 +4050,7 @@ msgstr ""
 "Veuillez maintenant vérifier votre site. Il est possible que tout "
 "fonctionne. Si des mises à jour sont disponibles, vous devriez les faire."
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1328
+#: wp-admin/includes/class-wp-automatic-updater.php:1329
 msgid ""
 "The following plugins failed to update. If there was a fatal error in the "
 "update, the previously installed version has been restored."
@@ -3973,102 +4059,102 @@ msgstr ""
 "erreur fatale lors de la mise à jour, la version précédente a été restaurée."
 
 #. translators: 1: Plugin name, 2: Current version number, 3: New version number, 4: Plugin URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1341
-#: wp-admin/includes/class-wp-automatic-updater.php:1413
+#: wp-admin/includes/class-wp-automatic-updater.php:1342
+#: wp-admin/includes/class-wp-automatic-updater.php:1414
 msgid "- %1$s (from version %2$s to %3$s)%4$s"
 msgstr "- %1$s (de la version %2$s vers %3$s)%4$s"
 
 #. translators: 1: Plugin name, 2: Version number, 3: Plugin URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1350
-#: wp-admin/includes/class-wp-automatic-updater.php:1422
+#: wp-admin/includes/class-wp-automatic-updater.php:1351
+#: wp-admin/includes/class-wp-automatic-updater.php:1423
 msgid "- %1$s version %2$s%3$s"
 msgstr "- %1$s version %2$s%3$s"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1367
+#: wp-admin/includes/class-wp-automatic-updater.php:1368
 msgid "These themes failed to update:"
 msgstr "Ces thèmes n’ont pas été mis à jour :"
 
 #. translators: 1: Theme name, 2: Current version number, 3: New version number.
-#: wp-admin/includes/class-wp-automatic-updater.php:1373
-#: wp-admin/includes/class-wp-automatic-updater.php:1444
+#: wp-admin/includes/class-wp-automatic-updater.php:1374
+#: wp-admin/includes/class-wp-automatic-updater.php:1445
 msgid "- %1$s (from version %2$s to %3$s)"
 msgstr "- %1$s (de la version %2$s à %3$s)"
 
 #. translators: 1: Theme name, 2: Version number.
-#: wp-admin/includes/class-wp-automatic-updater.php:1381
-#: wp-admin/includes/class-wp-automatic-updater.php:1452
+#: wp-admin/includes/class-wp-automatic-updater.php:1382
+#: wp-admin/includes/class-wp-automatic-updater.php:1453
 msgid "- %1$s version %2$s"
 msgstr "- %1$s version %2$s"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1400
+#: wp-admin/includes/class-wp-automatic-updater.php:1401
 msgid "These plugins are now up to date:"
 msgstr "Ces extensions sont maintenant à jour :"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1438
+#: wp-admin/includes/class-wp-automatic-updater.php:1439
 msgid "These themes are now up to date:"
 msgstr "Ces thèmes sont maintenant à jour :"
 
 #. translators: %s: Plugins screen URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1468
+#: wp-admin/includes/class-wp-automatic-updater.php:1469
 msgid "To manage plugins on your site, visit the Plugins page: %s"
 msgstr ""
 "Pour gérer les thèmes de votre site, visitez la page des extensions : %s"
 
 #. translators: %s: Themes screen URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1477
+#: wp-admin/includes/class-wp-automatic-updater.php:1478
 msgid "To manage themes on your site, visit the Themes page: %s"
 msgstr "Pour gérer les thèmes de votre site, visitez la page des thèmes : %s"
 
 #. translators: %s: Network home URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1538
+#: wp-admin/includes/class-wp-automatic-updater.php:1539
 msgid "Retraceur site: %s"
 msgstr "Site Retraceur : %s"
 
 #. translators: %s: Retraceur version.
-#: wp-admin/includes/class-wp-automatic-updater.php:1546
+#: wp-admin/includes/class-wp-automatic-updater.php:1547
 msgid "SUCCESS: Retraceur was successfully updated to %s"
 msgstr "SUCCÈS : Retraceur a bien été mis à jour sur la version %s"
 
 #. translators: %s: Retraceur version.
-#: wp-admin/includes/class-wp-automatic-updater.php:1549
+#: wp-admin/includes/class-wp-automatic-updater.php:1550
 msgid "FAILED: Retraceur failed to update to %s"
 msgstr "ÉCHEC : Retraceur n’a pas pu être mis à jour pour sa version %s"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1566
+#: wp-admin/includes/class-wp-automatic-updater.php:1567
 msgid "The following plugins were successfully updated:"
 msgstr "Les extensions suivantes ont bien été mises à jour :"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1567
+#: wp-admin/includes/class-wp-automatic-updater.php:1568
 msgid "The following themes were successfully updated:"
 msgstr "Les thèmes suivants ont bien été mis à jour :"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1568
+#: wp-admin/includes/class-wp-automatic-updater.php:1569
 msgid "The following translations were successfully updated:"
 msgstr "Les traductions suivantes ont bien été mises à jour :"
 
 #. translators: %s: Name of plugin / theme / translation.
-#: wp-admin/includes/class-wp-automatic-updater.php:1574
+#: wp-admin/includes/class-wp-automatic-updater.php:1575
 msgid "SUCCESS: %s"
 msgstr "SUCCÈS : %s"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1581
+#: wp-admin/includes/class-wp-automatic-updater.php:1582
 msgid "The following plugins failed to update:"
 msgstr "Les extensions suivantes n’ont pas pu être mises à jour :"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1582
+#: wp-admin/includes/class-wp-automatic-updater.php:1583
 msgid "The following themes failed to update:"
 msgstr "Les thèmes suivants n’ont pas pu être mis à jour :"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1583
+#: wp-admin/includes/class-wp-automatic-updater.php:1584
 msgid "The following translations failed to update:"
 msgstr "Les traductions suivantes n’ont pas pu être mises à jour :"
 
 #. translators: %s: Name of plugin / theme / translation.
-#: wp-admin/includes/class-wp-automatic-updater.php:1591
+#: wp-admin/includes/class-wp-automatic-updater.php:1592
 msgid "FAILED: %s"
 msgstr "ÉCHEC : %s"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1608
+#: wp-admin/includes/class-wp-automatic-updater.php:1609
 msgid ""
 "BETA TESTING?\n"
 "=============\n"
@@ -4083,16 +4169,16 @@ msgstr ""
 "développement de Retraceur."
 
 #. translators: Background update failed notification email subject. %s: Site title.
-#: wp-admin/includes/class-wp-automatic-updater.php:1618
+#: wp-admin/includes/class-wp-automatic-updater.php:1619
 msgid "[%s] Background Update Failed"
 msgstr "[%s] Mise à jour en arrière-plan échouée"
 
 #. translators: Background update finished notification email subject. %s: Site title.
-#: wp-admin/includes/class-wp-automatic-updater.php:1621
+#: wp-admin/includes/class-wp-automatic-updater.php:1622
 msgid "[%s] Background Update Finished"
 msgstr "[%s] Mise à jour en arrière-plan terminée"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1625
+#: wp-admin/includes/class-wp-automatic-updater.php:1626
 msgid ""
 "UPDATE LOG\n"
 "=========="
@@ -4101,12 +4187,12 @@ msgstr ""
 "=========="
 
 #. translators: 1: Error code, 2: Error message.
-#: wp-admin/includes/class-wp-automatic-updater.php:1660
+#: wp-admin/includes/class-wp-automatic-updater.php:1661
 msgid "Rollback Error: [%1$s] %2$s"
 msgstr "Erreur de restauration : [%1$s] %2$s"
 
 #. translators: 1: Error code, 2: Error message.
-#: wp-admin/includes/class-wp-automatic-updater.php:1663
+#: wp-admin/includes/class-wp-automatic-updater.php:1664
 msgid "Error: [%1$s] %2$s"
 msgstr "Erreur : [%1$s] %2$s"
 
@@ -4221,7 +4307,7 @@ msgstr "Extensions avancées"
 
 #. translators: %s: wp-content directory name.
 #: wp-admin/includes/class-wp-debug-data.php:305
-#: wp-admin/includes/class-wp-plugins-list-table.php:680
+#: wp-admin/includes/class-wp-plugins-list-table.php:694
 msgid ""
 "Drop-ins are single files, found in the %s directory, that replace or "
 "enhance Retraceur features in ways that are not possible for traditional "
@@ -4488,8 +4574,8 @@ msgstr "Version %1$s par %2$s"
 #. translators: %s: Plugin author name.
 #: wp-admin/includes/class-wp-debug-data.php:724
 #: wp-admin/includes/class-wp-debug-data.php:900
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:522
-#: wp-admin/includes/class-wp-plugins-list-table.php:1185
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:529
+#: wp-admin/includes/class-wp-plugins-list-table.php:1204
 msgctxt "plugin"
 msgid "By %s"
 msgstr "Par %s"
@@ -4566,14 +4652,14 @@ msgstr "Extensions inactives"
 
 #: wp-admin/includes/class-wp-debug-data.php:949
 #: wp-admin/includes/class-wp-debug-data.php:1329
-#: wp-admin/includes/class-wp-plugins-list-table.php:1311
+#: wp-admin/includes/class-wp-plugins-list-table.php:1330
 #: wp-admin/themes.php:654
 msgid "Auto-updates enabled"
 msgstr "Mises à jour auto activées"
 
 #: wp-admin/includes/class-wp-debug-data.php:951
 #: wp-admin/includes/class-wp-debug-data.php:1331
-#: wp-admin/includes/class-wp-plugins-list-table.php:1313
+#: wp-admin/includes/class-wp-plugins-list-table.php:1332
 #: wp-admin/themes.php:652
 msgid "Auto-updates disabled"
 msgstr "Mises à jour auto désactivées"
@@ -5137,9 +5223,9 @@ msgstr "Non publié"
 
 #. translators: %s: Human-readable time difference.
 #: wp-admin/includes/class-wp-media-list-table.php:546
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:659
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:666
 #: wp-admin/includes/class-wp-privacy-requests-table.php:483
-#: wp-admin/includes/plugin-install.php:628 wp-admin/includes/revision.php:256
+#: wp-admin/includes/plugin-install.php:667 wp-admin/includes/revision.php:256
 #: wp-admin/includes/revision.php:299
 msgid "%s ago"
 msgstr "il y a %s"
@@ -5269,7 +5355,7 @@ msgid "Featured"
 msgstr "Mises en avant"
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:122
-#: wp-admin/plugin-install.php:141 wp-admin/update.php:166
+#: wp-admin/plugin-install.php:166 wp-admin/update.php:172
 msgid "Upload Plugin"
 msgstr "Téléverser une extension"
 
@@ -5277,47 +5363,47 @@ msgstr "Téléverser une extension"
 msgid "No plugins found. Try a different search."
 msgstr "Aucune extension trouvée. Essayez une recherche différente."
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:464
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:471
 msgctxt "Plugin installer group title"
 msgid "Performance"
 msgstr "Performances"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:465
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:472
 msgctxt "Plugin installer group title"
 msgid "Social"
 msgstr "Social"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:466
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:473
 msgctxt "Plugin installer group title"
 msgid "Tools"
 msgstr "Outils"
 
 #. translators: %s: Plugin name.
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:545
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:780
-#: wp-admin/includes/class-wp-plugins-list-table.php:1199
-#: wp-admin/includes/class-wp-plugins-list-table.php:1641
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:552
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:787
+#: wp-admin/includes/class-wp-plugins-list-table.php:1218
+#: wp-admin/includes/class-wp-plugins-list-table.php:1660
 msgid "More information about %s"
 msgstr "Plus d’informations à propos de %s"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:547
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:782
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:554
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:789
 msgid "More Details"
 msgstr "Plus de détails"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:579
-#: wp-admin/includes/class-wp-plugins-list-table.php:1422
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:586
+#: wp-admin/includes/class-wp-plugins-list-table.php:1441
 msgid "This plugin does not work with your versions of Retraceur and PHP."
 msgstr ""
 "Cette extension ne fonctionne pas avec vos versions de Retraceur et de PHP."
 
 #. translators: %s: URL to Retraceur Updates screen.
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:583
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:589
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:598
-#: wp-admin/includes/class-wp-plugins-list-table.php:1426
-#: wp-admin/includes/class-wp-plugins-list-table.php:1432
-#: wp-admin/includes/class-wp-plugins-list-table.php:1441
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:590
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:596
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:605
+#: wp-admin/includes/class-wp-plugins-list-table.php:1445
+#: wp-admin/includes/class-wp-plugins-list-table.php:1451
+#: wp-admin/includes/class-wp-plugins-list-table.php:1460
 #: wp-admin/includes/theme.php:863 wp-admin/includes/theme.php:878
 #: wp-admin/includes/theme.php:917 wp-admin/includes/theme.php:923
 #: wp-admin/includes/theme.php:934 wp-admin/includes/update.php:768
@@ -5334,85 +5420,92 @@ msgstr ""
 msgid "<a href=\"%s\">Please update Retraceur</a>."
 msgstr "<a href=\"%s\">Merci de mettre à jour Retraceur</a>."
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:594
-#: wp-admin/includes/class-wp-plugins-list-table.php:1437
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:601
+#: wp-admin/includes/class-wp-plugins-list-table.php:1456
 msgid "This plugin does not work with your version of Retraceur."
 msgstr "Cette extension ne fonctionne pas avec votre version de Retraceur."
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:603
-#: wp-admin/includes/class-wp-plugins-list-table.php:1446
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:610
+#: wp-admin/includes/class-wp-plugins-list-table.php:1465
 msgid "This plugin does not work with your version of PHP."
 msgstr "Cette extension ne fonctionne pas avec votre version de PHP."
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:656
-#: wp-admin/includes/plugin-install.php:625
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:663
+#: wp-admin/includes/plugin-install.php:664
 msgid "Last Updated:"
 msgstr "Dernière mise à jour :"
 
 #. translators: %s: Number of millions.
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:668
-#: wp-admin/includes/plugin-install.php:656
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:675
+#: wp-admin/includes/plugin-install.php:695
 msgctxt "Active plugin installations"
 msgid "%s+ Million"
 msgid_plural "%s+ Million"
 msgstr[0] "%s million et +"
 msgstr[1] "%s millions et +"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:672
-#: wp-admin/includes/plugin-install.php:660
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:679
+#: wp-admin/includes/plugin-install.php:699
 msgctxt "Active plugin installations"
 msgid "Less Than 10"
 msgstr "Inférieur à 10"
 
 #. translators: %s: Number of installations.
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:677
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:684
 msgid "%s Active Installations"
 msgstr "%s installations actives"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:683
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:690
 msgid "Untested with your version of Retraceur"
 msgstr "Non testé avec votre version de Retraceur"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:685
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:692
 msgid "<strong>Incompatible</strong> with your version of Retraceur"
 msgstr "<strong>Incompatible</strong> avec votre version de Retraceur"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:687
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:694
 msgid "<strong>Compatible</strong> with your version of Retraceur"
 msgstr "<strong>Compatible</strong> avec votre version de Retraceur"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:748
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:755
 msgid "Additional plugins are required"
 msgstr "Des extensions supplémentaires sont nécessaires."
 
-#. translators: %s: Plugin search term.
-#: wp-admin/includes/class-wp-plugins-list-table.php:422
-msgid "No plugins found for: %s."
-msgstr "Aucune extension trouvée pour : %s."
+#. translators: %1$s: Plugin type. %2$s: Plugin search term.
+#: wp-admin/includes/class-wp-plugins-list-table.php:429
+msgid "No %1$s found for: %2$s."
+msgstr "%1$s introuvable : %2$s."
 
-#: wp-admin/includes/class-wp-plugins-list-table.php:426
+#: wp-admin/includes/class-wp-plugins-list-table.php:433
 msgid "Search for plugins in the Retraceur Plugin Directory."
 msgstr "Rechercher des extensions Retraceur."
 
-#: wp-admin/includes/class-wp-plugins-list-table.php:429
-msgid "No plugins found."
-msgstr "Aucune extension trouvée."
+#. translators: %s: Plugin type.
+#: wp-admin/includes/class-wp-plugins-list-table.php:437
+msgid "No %s found."
+msgstr "%s introuvable."
 
-#: wp-admin/includes/class-wp-plugins-list-table.php:431
-#: wp-admin/plugin-editor.php:36
-msgid "No plugins are currently available."
-msgstr "Aucune extension n’est disponible pour l’instant."
+#. translators: %s: Plugin type.
+#: wp-admin/includes/class-wp-plugins-list-table.php:440
+msgid "No %s are currently available."
+msgstr "Aucun élément de type %s n’est disponible pour l’instant."
 
-#: wp-admin/includes/class-wp-plugins-list-table.php:475
+#: wp-admin/includes/class-wp-plugins-list-table.php:484
+#: wp-admin/includes/plugin-install.php:157
 msgid "Plugin"
 msgstr "Extension"
 
-#: wp-admin/includes/class-wp-plugins-list-table.php:480
+#: wp-admin/includes/class-wp-plugins-list-table.php:484
+msgctxt "plugins list table"
+msgid "Block"
+msgstr "Bloc"
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:489
 msgid "Automatic Updates"
 msgstr "Mises à jour automatiques"
 
 #. translators: %s: Number of plugins.
-#: wp-admin/includes/class-wp-plugins-list-table.php:510
+#: wp-admin/includes/class-wp-plugins-list-table.php:524
 msgctxt "plugins"
 msgid "All <span class=\"count\">(%s)</span>"
 msgid_plural "All <span class=\"count\">(%s)</span>"
@@ -5420,242 +5513,242 @@ msgstr[0] "Toutes <span class=\"count\">(%s)</span>"
 msgstr[1] "Toutes <span class=\"count\">(%s)</span>"
 
 #. translators: %s: Number of plugins.
-#: wp-admin/includes/class-wp-plugins-list-table.php:519
+#: wp-admin/includes/class-wp-plugins-list-table.php:533
 msgid "Active <span class=\"count\">(%s)</span>"
 msgid_plural "Active <span class=\"count\">(%s)</span>"
 msgstr[0] "Activée <span class=\"count\">(%s)</span>"
 msgstr[1] "Activées <span class=\"count\">(%s)</span>"
 
 #. translators: %s: Number of plugins.
-#: wp-admin/includes/class-wp-plugins-list-table.php:527
+#: wp-admin/includes/class-wp-plugins-list-table.php:541
 msgid "Recently Active <span class=\"count\">(%s)</span>"
 msgid_plural "Recently Active <span class=\"count\">(%s)</span>"
 msgstr[0] "Récemment désactivée <span class=\"count\">(%s)</span>"
 msgstr[1] "Récemment désactivées <span class=\"count\">(%s)</span>"
 
 #. translators: %s: Number of plugins.
-#: wp-admin/includes/class-wp-plugins-list-table.php:535
+#: wp-admin/includes/class-wp-plugins-list-table.php:549
 msgid "Inactive <span class=\"count\">(%s)</span>"
 msgid_plural "Inactive <span class=\"count\">(%s)</span>"
 msgstr[0] "Désactivée <span class=\"count\">(%s)</span>"
 msgstr[1] "Désactivées <span class=\"count\">(%s)</span>"
 
 #. translators: %s: Number of plugins.
-#: wp-admin/includes/class-wp-plugins-list-table.php:543
+#: wp-admin/includes/class-wp-plugins-list-table.php:557
 msgid "Must-Use <span class=\"count\">(%s)</span>"
 msgid_plural "Must-Use <span class=\"count\">(%s)</span>"
 msgstr[0] "Indispensable <span class=\"count\">(%s)</span>"
 msgstr[1] "Indispensables <span class=\"count\">(%s)</span>"
 
 #. translators: %s: Number of plugins.
-#: wp-admin/includes/class-wp-plugins-list-table.php:551
+#: wp-admin/includes/class-wp-plugins-list-table.php:565
 msgid "Drop-in <span class=\"count\">(%s)</span>"
 msgid_plural "Drop-ins <span class=\"count\">(%s)</span>"
 msgstr[0] "Avancée <span class=\"count\">(%s)</span>"
 msgstr[1] "Avancées <span class=\"count\">(%s)</span>"
 
 #. translators: %s: Number of plugins.
-#: wp-admin/includes/class-wp-plugins-list-table.php:559
+#: wp-admin/includes/class-wp-plugins-list-table.php:573
 msgid "Paused <span class=\"count\">(%s)</span>"
 msgid_plural "Paused <span class=\"count\">(%s)</span>"
 msgstr[0] "Mis en pause <span class=\"count\">(%s)</span>"
 msgstr[1] "Mis en pause <span class=\"count\">(%s)</span>"
 
 #. translators: %s: Number of plugins.
-#: wp-admin/includes/class-wp-plugins-list-table.php:567
+#: wp-admin/includes/class-wp-plugins-list-table.php:581
 msgid "Update Available <span class=\"count\">(%s)</span>"
 msgid_plural "Update Available <span class=\"count\">(%s)</span>"
 msgstr[0] "À mettre à jour <span class=\"count\">(%s)</span>"
 msgstr[1] "À mettre à jour <span class=\"count\">(%s)</span>"
 
 #. translators: %s: Number of plugins.
-#: wp-admin/includes/class-wp-plugins-list-table.php:575
+#: wp-admin/includes/class-wp-plugins-list-table.php:589
 msgid "Auto-updates Enabled <span class=\"count\">(%s)</span>"
 msgid_plural "Auto-updates Enabled <span class=\"count\">(%s)</span>"
 msgstr[0] "Mises à jour auto activées <span class=\"count\">(%s)</span>"
 msgstr[1] "Mises à jour auto activées <span class=\"count\">(%s)</span>"
 
 #. translators: %s: Number of plugins.
-#: wp-admin/includes/class-wp-plugins-list-table.php:583
+#: wp-admin/includes/class-wp-plugins-list-table.php:597
 msgid "Auto-updates Disabled <span class=\"count\">(%s)</span>"
 msgid_plural "Auto-updates Disabled <span class=\"count\">(%s)</span>"
 msgstr[0] "Mises à jour auto désactivées <span class=\"count\">(%s)</span>"
 msgstr[1] "Mises à jour auto désactivées <span class=\"count\">(%s)</span>"
 
-#: wp-admin/includes/class-wp-plugins-list-table.php:613
-#: wp-admin/includes/class-wp-plugins-list-table.php:944
-#: wp-admin/includes/class-wp-plugins-list-table.php:961
-#: wp-admin/includes/plugin-install.php:787
-#: wp-admin/includes/plugin-install.php:901
-#: wp-admin/includes/plugin-install.php:932
+#: wp-admin/includes/class-wp-plugins-list-table.php:627
+#: wp-admin/includes/class-wp-plugins-list-table.php:963
+#: wp-admin/includes/class-wp-plugins-list-table.php:980
+#: wp-admin/includes/plugin-install.php:826
+#: wp-admin/includes/plugin-install.php:940
+#: wp-admin/includes/plugin-install.php:971
 msgctxt "plugin"
 msgid "Activate"
 msgstr "Activer"
 
-#: wp-admin/includes/class-wp-plugins-list-table.php:617
-#: wp-admin/includes/class-wp-plugins-list-table.php:830
+#: wp-admin/includes/class-wp-plugins-list-table.php:631
+#: wp-admin/includes/class-wp-plugins-list-table.php:849
 msgctxt "plugin"
 msgid "Network Deactivate"
 msgstr "Désactiver sur le réseau"
 
-#: wp-admin/includes/class-wp-plugins-list-table.php:617
+#: wp-admin/includes/class-wp-plugins-list-table.php:631
 msgctxt "plugin"
 msgid "Deactivate"
 msgstr "Désactiver"
 
-#: wp-admin/includes/class-wp-plugins-list-table.php:631
+#: wp-admin/includes/class-wp-plugins-list-table.php:645
 msgid "Enable Auto-updates"
 msgstr "Activer les mises à jour auto"
 
-#: wp-admin/includes/class-wp-plugins-list-table.php:634
+#: wp-admin/includes/class-wp-plugins-list-table.php:648
 msgid "Disable Auto-updates"
 msgstr "Désactiver les mises à jour auto"
 
-#: wp-admin/includes/class-wp-plugins-list-table.php:670
+#: wp-admin/includes/class-wp-plugins-list-table.php:684
 msgid "Clear List"
 msgstr "Vider la liste"
 
 #. translators: %s: mu-plugins directory name.
-#: wp-admin/includes/class-wp-plugins-list-table.php:674
+#: wp-admin/includes/class-wp-plugins-list-table.php:688
 msgid "Files in the %s directory are executed automatically."
 msgstr "Les fichiers du répertoire %s sont exécutés automatiquement."
 
-#: wp-admin/includes/class-wp-plugins-list-table.php:787
+#: wp-admin/includes/class-wp-plugins-list-table.php:806
 msgid "Inactive:"
 msgstr "Inactif :"
 
 #. translators: 1: Drop-in constant name, 2: wp-config.php
-#: wp-admin/includes/class-wp-plugins-list-table.php:790
+#: wp-admin/includes/class-wp-plugins-list-table.php:809
 msgid "Requires %1$s in %2$s file."
 msgstr "Nécessite la constance %1$s dans le fichier %2$s."
 
-#: wp-admin/includes/class-wp-plugins-list-table.php:812
-#: wp-admin/includes/class-wp-plugins-list-table.php:902
-#: wp-admin/includes/class-wp-plugins-list-table.php:919
+#: wp-admin/includes/class-wp-plugins-list-table.php:831
+#: wp-admin/includes/class-wp-plugins-list-table.php:921
+#: wp-admin/includes/class-wp-plugins-list-table.php:938
 msgid "Deactivate"
 msgstr "Désactiver"
 
-#: wp-admin/includes/class-wp-plugins-list-table.php:814
+#: wp-admin/includes/class-wp-plugins-list-table.php:833
 msgid "You cannot deactivate this plugin as other plugins require it."
 msgstr ""
 "Vous ne pouvez pas désactiver cette extension car d‘autres extensions en "
 "dépendent."
 
 #. translators: %s: Plugin name.
-#: wp-admin/includes/class-wp-plugins-list-table.php:829
+#: wp-admin/includes/class-wp-plugins-list-table.php:848
 msgctxt "plugin"
 msgid "Network Deactivate %s"
 msgstr "Désactiver %s du réseau"
 
-#: wp-admin/includes/class-wp-plugins-list-table.php:840
-#: wp-admin/includes/class-wp-plugins-list-table.php:946
+#: wp-admin/includes/class-wp-plugins-list-table.php:859
+#: wp-admin/includes/class-wp-plugins-list-table.php:965
 msgid "You cannot activate this plugin as it has unmet requirements."
 msgstr ""
 "Vous ne pouvez pas activer cette extension car elle a des prérequis non "
 "satisfaits."
 
 #. translators: %s: Plugin name.
-#: wp-admin/includes/class-wp-plugins-list-table.php:854
-#: wp-admin/includes/plugin-install.php:916
+#: wp-admin/includes/class-wp-plugins-list-table.php:873
+#: wp-admin/includes/plugin-install.php:955
 msgctxt "plugin"
 msgid "Network Activate %s"
 msgstr "Activer %s sur le réseau"
 
-#: wp-admin/includes/class-wp-plugins-list-table.php:861
-#: wp-admin/includes/class-wp-plugins-list-table.php:967
+#: wp-admin/includes/class-wp-plugins-list-table.php:880
+#: wp-admin/includes/class-wp-plugins-list-table.php:986
 msgctxt "plugin"
 msgid "Cannot Activate"
 msgstr "Impossible à activer"
 
-#: wp-admin/includes/class-wp-plugins-list-table.php:870
-#: wp-admin/includes/class-wp-plugins-list-table.php:976
+#: wp-admin/includes/class-wp-plugins-list-table.php:889
+#: wp-admin/includes/class-wp-plugins-list-table.php:995
 msgid "You cannot delete this plugin as other plugins require it."
 msgstr ""
 "Vous ne pouvez pas supprimer cette extension car d’autres extensions la "
 "nécessitent."
 
 #. translators: %s: Plugin name.
-#: wp-admin/includes/class-wp-plugins-list-table.php:884
-#: wp-admin/includes/class-wp-plugins-list-table.php:990
+#: wp-admin/includes/class-wp-plugins-list-table.php:903
+#: wp-admin/includes/class-wp-plugins-list-table.php:1009
 msgctxt "plugin"
 msgid "Delete %s"
 msgstr "Supprimer %s"
 
-#: wp-admin/includes/class-wp-plugins-list-table.php:893
+#: wp-admin/includes/class-wp-plugins-list-table.php:912
 msgid "Network Active"
 msgstr "Activé sur le réseau"
 
-#: wp-admin/includes/class-wp-plugins-list-table.php:897
+#: wp-admin/includes/class-wp-plugins-list-table.php:916
 msgid "Network Only"
 msgstr "Réseau uniquement"
 
-#: wp-admin/includes/class-wp-plugins-list-table.php:904
+#: wp-admin/includes/class-wp-plugins-list-table.php:923
 msgid "You cannot deactivate this plugin as other plugins depend on it."
 msgstr ""
 "Vous ne pouvez pas désactiver cette extension car d‘autres extensions en "
 "dépendent."
 
 #. translators: %s: Plugin name.
-#: wp-admin/includes/class-wp-plugins-list-table.php:918
+#: wp-admin/includes/class-wp-plugins-list-table.php:937
 msgctxt "plugin"
 msgid "Deactivate %s"
 msgstr "Désactiver %s"
 
 #. translators: %s: Plugin name.
-#: wp-admin/includes/class-wp-plugins-list-table.php:936
+#: wp-admin/includes/class-wp-plugins-list-table.php:955
 msgctxt "plugin"
 msgid "Resume %s"
 msgstr "Relancer %s"
 
-#: wp-admin/includes/class-wp-plugins-list-table.php:937
+#: wp-admin/includes/class-wp-plugins-list-table.php:956
 #: wp-admin/themes.php:576
 msgid "Resume"
 msgstr "Relancer"
 
 #. translators: %s: Plugin name.
-#: wp-admin/includes/class-wp-plugins-list-table.php:960
-#: wp-admin/includes/plugin-install.php:903
+#: wp-admin/includes/class-wp-plugins-list-table.php:979
+#: wp-admin/includes/plugin-install.php:942
 msgctxt "plugin"
 msgid "Activate %s"
 msgstr "Activer %s"
 
 #. translators: %s: Plugin name.
-#: wp-admin/includes/class-wp-plugins-list-table.php:1108
+#: wp-admin/includes/class-wp-plugins-list-table.php:1127
 #: wp-admin/update-core.php:557
 msgctxt "plugin"
 msgid "Select %s"
 msgstr "Sélectionner %s"
 
-#: wp-admin/includes/class-wp-plugins-list-table.php:1201
+#: wp-admin/includes/class-wp-plugins-list-table.php:1220
 msgid "View details"
 msgstr "Afficher les détails"
 
 #. translators: %s: Plugin name.
-#: wp-admin/includes/class-wp-plugins-list-table.php:1205
+#: wp-admin/includes/class-wp-plugins-list-table.php:1224
 msgid "Visit plugin site for %s"
 msgstr "Consultez le site de l’extension %s"
 
-#: wp-admin/includes/class-wp-plugins-list-table.php:1211
+#: wp-admin/includes/class-wp-plugins-list-table.php:1230
 msgid "Visit plugin site"
 msgstr "Aller sur le site de l’extension"
 
-#: wp-admin/includes/class-wp-plugins-list-table.php:1286
+#: wp-admin/includes/class-wp-plugins-list-table.php:1305
 msgid "This plugin failed to load properly and is paused during recovery mode."
 msgstr ""
 "Cette extension n’a pas pu se charger correctement et a été mise en pause "
 "dans le cadre du mode de récupération."
 
-#: wp-admin/includes/class-wp-plugins-list-table.php:1322
+#: wp-admin/includes/class-wp-plugins-list-table.php:1341
 #: wp-admin/themes.php:657
 msgid "Disable auto-updates"
 msgstr "Désactiver les mises à jour auto"
 
-#: wp-admin/includes/class-wp-plugins-list-table.php:1326
+#: wp-admin/includes/class-wp-plugins-list-table.php:1345
 #: wp-admin/themes.php:661
 msgid "Enable auto-updates"
 msgstr "Activer les mises à jour auto"
 
-#: wp-admin/includes/class-wp-plugins-list-table.php:1525
+#: wp-admin/includes/class-wp-plugins-list-table.php:1544
 msgid ""
 "Note: This plugin cannot be deactivated or deleted until the plugins that "
 "require it are deactivated or deleted."
@@ -5664,16 +5757,16 @@ msgstr ""
 "extensions qui la nécessitent ne sont pas désactivés ou supprimés."
 
 #. translators: %s: List of dependencies.
-#: wp-admin/includes/class-wp-plugins-list-table.php:1530
+#: wp-admin/includes/class-wp-plugins-list-table.php:1549
 msgid "<strong>Required by:</strong> %s"
 msgstr "<strong>Nécessaire pour :</strong> %s"
 
 #. translators: %s: List of dependency names.
-#: wp-admin/includes/class-wp-plugins-list-table.php:1564
+#: wp-admin/includes/class-wp-plugins-list-table.php:1583
 msgid "<strong>Requires:</strong> %s"
 msgstr "<strong>Nécessite :</strong> %s"
 
-#: wp-admin/includes/class-wp-plugins-list-table.php:1572
+#: wp-admin/includes/class-wp-plugins-list-table.php:1591
 msgid ""
 "This plugin is active but may not function correctly because required "
 "plugins are missing or inactive."
@@ -5681,7 +5774,7 @@ msgstr ""
 "Cette extension est active mais pourrait ne pas fonctionner correctement car "
 "des extensions nécessaires sont manquantes ou inactives."
 
-#: wp-admin/includes/class-wp-plugins-list-table.php:1574
+#: wp-admin/includes/class-wp-plugins-list-table.php:1593
 msgid ""
 "This plugin cannot be activated because required plugins are missing or "
 "inactive."
@@ -5750,7 +5843,7 @@ msgstr "« %s » est verrouillé"
 
 #. translators: %s: User's display name.
 #: wp-admin/includes/class-wp-posts-list-table.php:1118
-#: wp-admin/includes/misc.php:1156
+#: wp-admin/includes/misc.php:956
 msgid "%s is currently editing"
 msgstr "%s modifie actuellement ce contenu"
 
@@ -5813,7 +5906,7 @@ msgid "&mdash; No Change &mdash;"
 msgstr "– Aucun changement –"
 
 #: wp-admin/includes/class-wp-posts-list-table.php:1761
-#: wp-admin/includes/file.php:2286 wp-admin/install.php:138
+#: wp-admin/includes/file.php:1820 wp-admin/install.php:138
 #: wp-admin/install.php:418 wp-admin/setup-config.php:233
 #: wp-admin/user-new.php:262
 msgid "Password"
@@ -5871,7 +5964,7 @@ msgstr "Format"
 
 #: wp-admin/includes/class-wp-posts-list-table.php:2012
 #: wp-admin/includes/class-wp-terms-list-table.php:727
-#: wp-admin/includes/dashboard.php:201 wp-admin/includes/file.php:2387
+#: wp-admin/includes/dashboard.php:201 wp-admin/includes/file.php:1921
 #: wp-admin/includes/media.php:1745 wp-admin/includes/media.php:2283
 #: wp-admin/includes/meta-boxes.php:168 wp-admin/includes/meta-boxes.php:226
 #: wp-admin/includes/template.php:543 wp-admin/includes/template.php:671
@@ -8403,7 +8496,7 @@ msgstr "Installer"
 
 #: wp-admin/includes/class-wp-theme-install-list-table.php:524
 #: wp-admin/includes/class-wp-themes-list-table.php:270
-#: wp-admin/includes/plugin-install.php:621
+#: wp-admin/includes/plugin-install.php:660
 msgid "Version:"
 msgstr "Version : "
 
@@ -8467,7 +8560,7 @@ msgstr "Ce <a href=\"%1$s\">thème enfant</a> nécessite son thème parent, %2$s
 msgid "Invalid data provided."
 msgstr "Les données fournies ne sont pas valides."
 
-#: wp-admin/includes/class-wp-upgrader.php:192 wp-admin/includes/plugin.php:943
+#: wp-admin/includes/class-wp-upgrader.php:192 wp-admin/includes/plugin.php:950
 #: wp-admin/includes/theme.php:68
 msgid "Filesystem error."
 msgstr "Erreur du système de fichier."
@@ -8481,7 +8574,7 @@ msgstr "Impossible de localiser le répertoire racine de Retraceur."
 msgid "Unable to locate Retraceur content directory (%s)."
 msgstr "Impossible de localiser le répertoire de contenu de Retraceur."
 
-#: wp-admin/includes/class-wp-upgrader.php:196 wp-admin/includes/plugin.php:949
+#: wp-admin/includes/class-wp-upgrader.php:196 wp-admin/includes/plugin.php:956
 msgid "Unable to locate Retraceur plugin directory."
 msgstr "Impossible de localiser le répertoire des extensions de Retraceur."
 
@@ -8510,9 +8603,9 @@ msgstr "Ce paquet ne contient aucun fichier."
 msgid "Destination folder already exists."
 msgstr "Le dossier de destination existe déjà."
 
-#: wp-admin/includes/class-wp-upgrader.php:206 wp-admin/includes/file.php:1506
-#: wp-admin/includes/file.php:1687 wp-admin/includes/file.php:1780
-#: wp-admin/includes/file.php:1863
+#: wp-admin/includes/class-wp-upgrader.php:206 wp-admin/includes/file.php:1040
+#: wp-admin/includes/file.php:1221 wp-admin/includes/file.php:1314
+#: wp-admin/includes/file.php:1397
 msgid "Could not create directory."
 msgstr "Impossible de créer le dossier."
 
@@ -8604,7 +8697,7 @@ msgstr "Modifier"
 
 #: wp-admin/includes/class-wp-users-list-table.php:375
 #: wp-admin/includes/class-wp-users-list-table.php:398
-#: wp-admin/includes/file.php:2285 wp-admin/install.php:119
+#: wp-admin/includes/file.php:1819 wp-admin/install.php:119
 #: wp-admin/install.php:414 wp-admin/setup-config.php:228
 #: wp-admin/user-edit.php:463 wp-admin/user-new.php:213
 msgid "Username"
@@ -9324,72 +9417,17 @@ msgstr "Fenêtre surgissante de commentaires"
 msgid "%s Page Template"
 msgstr "Modèle de page %s"
 
-#. translators: 1: Line number, 2: File path.
-#: wp-admin/includes/file.php:318
-msgid ""
-"Your PHP code changes were not applied due to an error on line %1$s of file "
-"%2$s. Please fix and try saving again."
-msgstr ""
-"Vos modifications de code PHP ont été annulées en raison d’une erreur sur la "
-"ligne %1$s du fichier %2$s. Veuillez la corriger et réessayer d’enregistrer."
-
-#: wp-admin/includes/file.php:327 wp-admin/plugin-editor.php:293
-#: wp-admin/theme-editor.php:307
-msgid "You need to make this file writable before you can save your changes."
-msgstr ""
-"Vous devez rendre ce fichier accessible en écriture avant de pouvoir "
-"enregistrer vos modifications."
-
-#: wp-admin/includes/file.php:336
-msgid "Update anyway, even though it might break your site?"
-msgstr "Mettre à jour malgré tout, même si cela peut endommager votre site ?"
-
-#: wp-admin/includes/file.php:402 wp-admin/plugin-editor.php:20
-msgid "Sorry, you are not allowed to edit plugins for this site."
-msgstr ""
-"Désolé, vous n’avez pas l’autorisation de modifier les extensions de ce site."
-
-#: wp-admin/includes/file.php:414 wp-admin/includes/file.php:475
-#: wp-admin/includes/file.php:742 wp-admin/includes/file.php:748
+#: wp-admin/includes/file.php:276 wp-admin/includes/file.php:282
 msgid "Sorry, that file cannot be edited."
 msgstr "Désolé, ce fichier ne peut être modifié."
 
-#: wp-admin/includes/file.php:435 wp-admin/theme-editor.php:20
-msgid "Sorry, you are not allowed to edit templates for this site."
-msgstr ""
-"Désolé, vous n’avez pas l’autorisation de modifier les gabarits de ce site."
-
-#: wp-admin/includes/file.php:488 wp-admin/plugin-editor.php:120
-#: wp-admin/theme-editor.php:264
-msgid "File does not exist! Please double check the name and try again."
-msgstr "Le fichier n’existe pas ! Veuillez vérifier le nom et réessayer."
-
-#: wp-admin/includes/file.php:496 wp-admin/plugin-editor.php:127
-msgid "Files of this type are not editable."
-msgstr "Les fichiers de ce type ne sont pas éditables."
-
-#: wp-admin/includes/file.php:516
-msgid "Unable to write to file."
-msgstr "Impossible d’écrire sur le fichier."
-
-#: wp-admin/includes/file.php:587
-msgid ""
-"Unable to communicate back with site to check for fatal errors, so the PHP "
-"change was reverted. You will need to upload your PHP file change by some "
-"other means, such as by using SFTP."
-msgstr ""
-"Impossible d’envoyer un message au site afin de vérifier l’absence d’erreurs "
-"fatales. Du coup, la modification PHP a été annulée. Vous allez devoir "
-"téléverser votre fichier PHP modifié par un autre moyen, par exemple en "
-"utilisant un client FTP."
-
 #. translators: 1: upload_max_filesize, 2: php.ini
-#: wp-admin/includes/file.php:888
+#: wp-admin/includes/file.php:422
 msgid "The uploaded file exceeds the %1$s directive in %2$s."
 msgstr "Le fichier téléversé dépasse la directive %1$s dans %2$s."
 
 #. translators: %s: MAX_FILE_SIZE
-#: wp-admin/includes/file.php:894
+#: wp-admin/includes/file.php:428
 msgid ""
 "The uploaded file exceeds the %s directive that was specified in the HTML "
 "form."
@@ -9397,41 +9435,41 @@ msgstr ""
 "La taille du fichier envoyé excède celle indiquée dans la directive %s du "
 "formulaire HTML."
 
-#: wp-admin/includes/file.php:897
+#: wp-admin/includes/file.php:431
 msgid "The uploaded file was only partially uploaded."
 msgstr "Le fichier n’a été que partiellement envoyé."
 
-#: wp-admin/includes/file.php:898
+#: wp-admin/includes/file.php:432
 msgid "No file was uploaded."
 msgstr "Aucun fichier n’a été envoyé."
 
-#: wp-admin/includes/file.php:900
+#: wp-admin/includes/file.php:434
 msgid "Missing a temporary folder."
 msgstr "Un dossier temporaire est manquant."
 
-#: wp-admin/includes/file.php:901
+#: wp-admin/includes/file.php:435
 msgid "Failed to write file to disk."
 msgstr "Échec de l’écriture du fichier sur le disque."
 
-#: wp-admin/includes/file.php:902
+#: wp-admin/includes/file.php:436
 msgid "File upload stopped by extension."
 msgstr "Le téléversement de fichier est arrêté par l’extension."
 
-#: wp-admin/includes/file.php:916
+#: wp-admin/includes/file.php:450
 msgid "Invalid form submission."
 msgstr "Envoi non valide du formulaire."
 
-#: wp-admin/includes/file.php:927
+#: wp-admin/includes/file.php:461
 msgid "Specified file failed upload test."
 msgstr "Le test de téléversement du fichier spécifié a échoué."
 
-#: wp-admin/includes/file.php:934
+#: wp-admin/includes/file.php:468
 msgid "File is empty. Please upload something more substantial."
 msgstr ""
 "Le fichier est vide. Veuillez téléverser quelque chose de plus substantiel."
 
 #. translators: 1: php.ini, 2: post_max_size, 3: upload_max_filesize
-#: wp-admin/includes/file.php:938 wp-admin/includes/import.php:52
+#: wp-admin/includes/file.php:472 wp-admin/includes/import.php:52
 msgid ""
 "File is empty. Please upload something more substantial. This error could "
 "also be caused by uploads being disabled in your %1$s file or by %2$s being "
@@ -9442,25 +9480,25 @@ msgstr ""
 "désactivés dans votre fichier %1$s ou que %2$s est défini comme inférieur à "
 "%3$s dans %1$s."
 
-#: wp-admin/includes/file.php:961
+#: wp-admin/includes/file.php:495
 msgid "Sorry, you are not allowed to upload this file type."
 msgstr "Désolé, vous n’êtes pas autorisé·e à charger des fichiers de ce type."
 
 #. translators: %s: Destination file path.
-#: wp-admin/includes/file.php:1029
+#: wp-admin/includes/file.php:563
 msgid "The uploaded file could not be moved to %s."
 msgstr "Le fichier n’a pas pu être déplacé vers %s."
 
-#: wp-admin/includes/file.php:1152
+#: wp-admin/includes/file.php:686
 msgid "No URL Provided."
 msgstr "L’URL n’est pas renseignée."
 
-#: wp-admin/includes/file.php:1163
+#: wp-admin/includes/file.php:697
 msgid "Could not create temporary file."
 msgstr "Impossible de créer le fichier temporaire."
 
 #. translators: 1: File checksum, 2: Expected checksum value.
-#: wp-admin/includes/file.php:1282
+#: wp-admin/includes/file.php:816
 msgid ""
 "The checksum of the file (%1$s) does not match the expected checksum value "
 "(%2$s)."
@@ -9468,44 +9506,44 @@ msgstr ""
 "L’empreinte de contrôle (ou <i>checksum</i>) de votre fichier (%1$s) ne "
 "correspond pas à la valeur de l’empreinte attendue (%2$s)."
 
-#: wp-admin/includes/file.php:1430 wp-admin/includes/file.php:1535
+#: wp-admin/includes/file.php:964 wp-admin/includes/file.php:1069
 msgid "Could not retrieve file from archive."
 msgstr "Impossible de récupérer le fichier depuis l’archive."
 
-#: wp-admin/includes/file.php:1555
+#: wp-admin/includes/file.php:1089
 msgid "Could not extract file from archive."
 msgstr "Impossible d’extraire les fichiers depuis l’archive."
 
-#: wp-admin/includes/file.php:1560 wp-admin/includes/file.php:1714
-#: wp-admin/includes/file.php:1772 wp-admin/includes/update-core.php:711
+#: wp-admin/includes/file.php:1094 wp-admin/includes/file.php:1248
+#: wp-admin/includes/file.php:1306 wp-admin/includes/update-core.php:711
 msgid "Could not copy file."
 msgstr "Impossible de copier le fichier."
 
-#: wp-admin/includes/file.php:1622
+#: wp-admin/includes/file.php:1156
 msgid "Empty archive."
 msgstr "Archive vide."
 
-#: wp-admin/includes/file.php:1747
+#: wp-admin/includes/file.php:1281
 msgid "Directory listing failed."
 msgstr "Le listage du répertoire a échoué."
 
-#: wp-admin/includes/file.php:1756
+#: wp-admin/includes/file.php:1290
 msgid "Could not create the destination directory."
 msgstr "Impossible de créer le répertoire de destination."
 
-#: wp-admin/includes/file.php:1829
+#: wp-admin/includes/file.php:1363
 msgid "The source and destination are the same."
 msgstr "La source et la destination sont identiques."
 
-#: wp-admin/includes/file.php:1834
+#: wp-admin/includes/file.php:1368
 msgid "The destination folder already exists."
 msgstr "Le dossier de destination existe déjà."
 
-#: wp-admin/includes/file.php:1837
+#: wp-admin/includes/file.php:1371
 msgid "The destination directory already exists and could not be removed."
 msgstr "Le répertoire de destination existe déjà et ne peut être supprimé."
 
-#: wp-admin/includes/file.php:2234
+#: wp-admin/includes/file.php:1768
 msgid ""
 "<strong>Error:</strong> Could not connect to the server. Please verify the "
 "settings are correct."
@@ -9513,89 +9551,89 @@ msgstr ""
 "<strong>Erreur :</strong> connexion au serveur impossible, veuillez vérifier "
 "que les réglages sont corrects."
 
-#: wp-admin/includes/file.php:2249
+#: wp-admin/includes/file.php:1783
 msgid "FTP"
 msgstr "FTP"
 
-#: wp-admin/includes/file.php:2252
+#: wp-admin/includes/file.php:1786
 msgid "FTPS (SSL)"
 msgstr "FTPS (SSL)"
 
-#: wp-admin/includes/file.php:2255
+#: wp-admin/includes/file.php:1789
 msgid "SSH2"
 msgstr "SSH2"
 
-#: wp-admin/includes/file.php:2281
+#: wp-admin/includes/file.php:1815
 msgid "Connection Information"
 msgstr "Informations de connexion"
 
-#: wp-admin/includes/file.php:2287
+#: wp-admin/includes/file.php:1821
 msgid ""
 "To perform the requested action, Retraceur needs to access your web server."
 msgstr ""
 "Pour exécuter la requête demandée, Retraceur a besoin d’accéder à votre "
 "serveur web."
 
-#: wp-admin/includes/file.php:2291
+#: wp-admin/includes/file.php:1825
 msgid "Please enter your FTP or SSH credentials to proceed."
 msgstr "Veuillez saisir votre identifiant FTP ou SSH pour continuer."
 
-#: wp-admin/includes/file.php:2292
+#: wp-admin/includes/file.php:1826
 msgid "FTP/SSH Username"
 msgstr "Identifiant FTP/SSH"
 
-#: wp-admin/includes/file.php:2293
+#: wp-admin/includes/file.php:1827
 msgid "FTP/SSH Password"
 msgstr "Mot de passe FTP/SSH"
 
-#: wp-admin/includes/file.php:2295
+#: wp-admin/includes/file.php:1829
 msgid "Please enter your FTP credentials to proceed."
 msgstr "Veuillez saisir votre identifiant FTP pour continuer."
 
-#: wp-admin/includes/file.php:2296
+#: wp-admin/includes/file.php:1830
 msgid "FTP Username"
 msgstr "Identifiant FTP"
 
-#: wp-admin/includes/file.php:2297
+#: wp-admin/includes/file.php:1831
 msgid "FTP Password"
 msgstr "Mot de passe FTP"
 
-#: wp-admin/includes/file.php:2301
+#: wp-admin/includes/file.php:1835
 msgid ""
 "If you do not remember your credentials, you should contact your web host."
 msgstr ""
 "Si vous ne vous souvenez pas de votre identifiant, vous devriez contacter "
 "votre hébergeur."
 
-#: wp-admin/includes/file.php:2315
+#: wp-admin/includes/file.php:1849
 msgid "Hostname"
 msgstr "Nom de l’hôte :"
 
-#: wp-admin/includes/file.php:2316
+#: wp-admin/includes/file.php:1850
 msgid "example: site.url"
 msgstr "exemple : site.url"
 
-#: wp-admin/includes/file.php:2330
+#: wp-admin/includes/file.php:1864
 msgid "This password will not be stored on the server."
 msgstr "Le mot de passe ne sera pas stocké sur le serveur."
 
-#: wp-admin/includes/file.php:2336
+#: wp-admin/includes/file.php:1870
 msgid "Connection Type"
 msgstr "Type de connexion"
 
-#: wp-admin/includes/file.php:2357
+#: wp-admin/includes/file.php:1891
 msgid "Authentication Keys"
 msgstr "Clés d’authentification"
 
-#: wp-admin/includes/file.php:2359
+#: wp-admin/includes/file.php:1893
 msgid "Public Key:"
 msgstr "Clé publique :"
 
-#: wp-admin/includes/file.php:2363
+#: wp-admin/includes/file.php:1897
 msgid "Private Key:"
 msgstr "Clé privée :"
 
-#: wp-admin/includes/file.php:2366
+#: wp-admin/includes/file.php:1900
 msgid ""
 "Enter the location on the server where the public and private keys are "
 "located. If a passphrase is needed, enter that in the password field above."
@@ -9604,12 +9642,12 @@ msgstr ""
 "privées. S’il vous faut une passphrase, saisissez-la dans le champ de mot de "
 "passe ci-dessus."
 
-#: wp-admin/includes/file.php:2388
+#: wp-admin/includes/file.php:1922
 msgid "Proceed"
 msgstr "Continuer"
 
 #. translators: %s: The function name.
-#: wp-admin/includes/file.php:2515
+#: wp-admin/includes/file.php:2049
 msgid "%s expects a non-empty string."
 msgstr "%s attend une chaine non vide."
 
@@ -10566,36 +10604,31 @@ msgstr ""
 "Toute modification des directives situées entre ces marqueurs sera écrasée."
 
 #. translators: Hidden accessibility text.
-#: wp-admin/includes/misc.php:423 wp-admin/includes/misc.php:525
-msgid "folder"
-msgstr "dossier"
-
-#. translators: Hidden accessibility text.
-#: wp-admin/includes/misc.php:1029 wp-admin/user-edit.php:367
+#: wp-admin/includes/misc.php:829 wp-admin/user-edit.php:367
 msgid "Admin Color Scheme"
 msgstr "Couleurs de l’interface d’administration"
 
 #. translators: %s: User's display name.
-#: wp-admin/includes/misc.php:1209
+#: wp-admin/includes/misc.php:1009
 msgid "%s has taken over and is currently editing."
 msgstr "%s a pris la main et modifie actuellement ce contenu."
 
-#: wp-admin/includes/misc.php:1366 wp-admin/includes/post.php:2121
+#: wp-admin/includes/misc.php:1166 wp-admin/includes/post.php:2121
 msgid "Error while saving."
 msgstr "Erreur lors de la sauvegarde."
 
 #. translators: Draft saved date format, see https://www.php.net/manual/datetime.format.php
-#: wp-admin/includes/misc.php:1370
+#: wp-admin/includes/misc.php:1170
 msgid "g:i:s a"
 msgstr "G\\h i\\m s\\s"
 
 #. translators: %s: Date and time.
-#: wp-admin/includes/misc.php:1374
+#: wp-admin/includes/misc.php:1174
 msgid "Draft saved at %s."
 msgstr "Brouillon enregistré à %s."
 
 #. translators: Do not translate USERNAME, ADMIN_URL, EMAIL, SITENAME, SITEURL: those are placeholders.
-#: wp-admin/includes/misc.php:1486
+#: wp-admin/includes/misc.php:1286
 msgid ""
 "Howdy ###USERNAME###,\n"
 "\n"
@@ -10634,12 +10667,12 @@ msgstr ""
 "###SITEURL###"
 
 #. translators: New admin email address notification email subject. %s: Site title.
-#: wp-admin/includes/misc.php:1544
+#: wp-admin/includes/misc.php:1344
 msgid "[%s] New Admin Email Address"
 msgstr "[%s] Nouvelle adresse de courriel d’administration"
 
 #. translators: %s: Page title.
-#: wp-admin/includes/misc.php:1578
+#: wp-admin/includes/misc.php:1378
 msgid "%s (Draft)"
 msgstr "%s (Brouillon)"
 
@@ -10648,17 +10681,22 @@ msgid "The character encoding of your site (UTF-8 is recommended)"
 msgstr ""
 "L’encodage des caractères utilisé par votre site (l’UTF-8 est recommandé)"
 
-#: wp-admin/includes/plugin-install.php:152
+#. Translators: %s: Plugin type.
+#: wp-admin/includes/plugin-install.php:156
 msgid ""
-"Retraceur does not provide a Plugin Install API, yet! It will soon do so, "
-"the independant way."
+"Retraceur does not provide a %s Install API, yet! It will soon do so, the "
+"independant way."
 msgstr ""
-"Retraceur ne fournit pas d’API d’installation d’extensions, pour le moment ! "
-"Il en fournira une très bientôt, de manière totalement indépendante."
+"Retraceur ne fournit pas d’API d’installation d’éléments de type %s, pour le "
+"moment ! Il en fournira une très bientôt, de manière totalement indépendante."
 
-#: wp-admin/includes/plugin-install.php:180
-#: wp-admin/includes/plugin-install.php:191
-#: wp-admin/includes/plugin-install.php:202 wp-admin/includes/theme.php:529
+#: wp-admin/includes/plugin-install.php:157
+msgid "Block"
+msgstr "Bloc"
+
+#: wp-admin/includes/plugin-install.php:187
+#: wp-admin/includes/plugin-install.php:198
+#: wp-admin/includes/plugin-install.php:209 wp-admin/includes/theme.php:529
 #: wp-admin/includes/theme.php:539 wp-admin/includes/theme.php:550
 #: wp-admin/includes/translation-install.php:83
 #: wp-admin/includes/translation-install.php:93
@@ -10671,7 +10709,7 @@ msgstr ""
 "Une erreur imprévue est apparue. Quelque chose semble erroné dans la "
 "configuration de ce serveur."
 
-#: wp-admin/includes/plugin-install.php:180
+#: wp-admin/includes/plugin-install.php:187
 msgid ""
 "(Retraceur could not establish a secure connection to Plugin Installation "
 "API. Please contact your server administrator.)"
@@ -10680,11 +10718,11 @@ msgstr ""
 "d’installation d’extensions. Merci de contacter l’administrateur de votre "
 "serveur.)"
 
-#: wp-admin/includes/plugin-install.php:263
+#: wp-admin/includes/plugin-install.php:270
 msgid "Popular tags"
 msgstr "Étiquettes populaires"
 
-#: wp-admin/includes/plugin-install.php:264
+#: wp-admin/includes/plugin-install.php:271
 msgid ""
 "You may also browse based on the most popular tags in the Plugin Directory:"
 msgstr ""
@@ -10692,36 +10730,44 @@ msgstr ""
 "populaires sur WordPress.org :"
 
 #. translators: %s: Number of plugins.
-#: wp-admin/includes/plugin-install.php:290
+#: wp-admin/includes/plugin-install.php:297
 msgid "%s plugin"
 msgstr "%s extension"
 
 #. translators: %s: Number of plugins.
-#: wp-admin/includes/plugin-install.php:292
+#: wp-admin/includes/plugin-install.php:299
 msgid "%s plugins"
 msgstr "%s extensions"
 
-#: wp-admin/includes/plugin-install.php:313
-#: wp-admin/includes/plugin-install.php:326
+#: wp-admin/includes/plugin-install.php:319
 msgid "Search Plugins"
 msgstr "Rechercher des extensions"
 
 #. translators: Hidden accessibility text.
-#: wp-admin/includes/plugin-install.php:318
+#: wp-admin/includes/plugin-install.php:322
 msgid "Search plugins by:"
 msgstr "Rechercher des extensions par :"
 
-#: wp-admin/includes/plugin-install.php:322
+#: wp-admin/includes/plugin-install.php:325
+msgid "Search Blocks"
+msgstr "Rechercher des blocs"
+
+#. translators: Hidden accessibility text.
+#: wp-admin/includes/plugin-install.php:328
+msgid "Search blocks by:"
+msgstr "Rechercher des blocs par :"
+
+#: wp-admin/includes/plugin-install.php:337
 #: wp-admin/includes/theme-install.php:110
 msgid "Keyword"
 msgstr "Mot clé"
 
-#: wp-admin/includes/plugin-install.php:324
+#: wp-admin/includes/plugin-install.php:339
 msgctxt "Plugin Installer"
 msgid "Tag"
 msgstr "Étiquette"
 
-#: wp-admin/includes/plugin-install.php:339
+#: wp-admin/includes/plugin-install.php:354
 msgid ""
 "If you have a plugin in a .zip format, you may install or update it by "
 "uploading it here."
@@ -10730,18 +10776,32 @@ msgstr ""
 "mettre à jour en la téléversant ici."
 
 #. translators: Hidden accessibility text.
-#: wp-admin/includes/plugin-install.php:345
+#: wp-admin/includes/plugin-install.php:360
 msgid "Plugin zip file"
 msgstr "Archive Zip de l’extension"
 
-#: wp-admin/includes/plugin-install.php:349
-#: wp-admin/includes/plugin-install.php:859
-#: wp-admin/includes/plugin-install.php:864 wp-admin/press-this.php:65
+#: wp-admin/includes/plugin-install.php:364
+#: wp-admin/includes/plugin-install.php:388
+#: wp-admin/includes/plugin-install.php:898
+#: wp-admin/includes/plugin-install.php:903 wp-admin/press-this.php:65
 msgctxt "plugin"
 msgid "Install Now"
 msgstr "Installer maintenant"
 
-#: wp-admin/includes/plugin-install.php:368
+#: wp-admin/includes/plugin-install.php:378
+msgid ""
+"If you have a block in a .zip format, you may install or update it by "
+"uploading it here."
+msgstr ""
+"Si vous avez un bloc au format .zip, vous pouvez l’installer ou le mettre à "
+"jour en le chargeant ici."
+
+#. translators: Hidden accessibility text.
+#: wp-admin/includes/plugin-install.php:384
+msgid "Block zip file"
+msgstr "Archive Zip du bloc"
+
+#: wp-admin/includes/plugin-install.php:407
 msgid ""
 "You are using a development version of Retraceur. These feature plugins are "
 "also under development."
@@ -10749,7 +10809,7 @@ msgstr ""
 "Vous utilisez une version en développement de Retraceur, tout comme ces "
 "extensions. "
 
-#: wp-admin/includes/plugin-install.php:371
+#: wp-admin/includes/plugin-install.php:410
 msgid ""
 "Plugins extend and expand the functionality of Retraceur. You may upload a "
 "plugin in .zip format by clicking the button at the top of this page."
@@ -10758,7 +10818,7 @@ msgstr ""
 "nouvelles. Vous pouvez installer des extensions en les chargeant une par une "
 "au format .zip grâce au bouton situé en haut de cette page."
 
-#: wp-admin/includes/plugin-install.php:374
+#: wp-admin/includes/plugin-install.php:413
 msgid ""
 "These suggestions are based on the plugins you and other users have "
 "installed."
@@ -10766,96 +10826,96 @@ msgstr ""
 "Ces suggestions sont basées sur les extensions que vous et d’autres "
 "utilisateur·ice·s ont installées."
 
-#: wp-admin/includes/plugin-install.php:536
+#: wp-admin/includes/plugin-install.php:575
 msgctxt "Plugin installer section title"
 msgid "Description"
 msgstr "Description"
 
-#: wp-admin/includes/plugin-install.php:537
+#: wp-admin/includes/plugin-install.php:576
 msgctxt "Plugin installer section title"
 msgid "Installation"
 msgstr "Installation"
 
-#: wp-admin/includes/plugin-install.php:538
+#: wp-admin/includes/plugin-install.php:577
 msgctxt "Plugin installer section title"
 msgid "FAQ"
 msgstr "FAQ"
 
-#: wp-admin/includes/plugin-install.php:539
+#: wp-admin/includes/plugin-install.php:578
 msgctxt "Plugin installer section title"
 msgid "Screenshots"
 msgstr "Captures d’écrans"
 
-#: wp-admin/includes/plugin-install.php:540
+#: wp-admin/includes/plugin-install.php:579
 msgctxt "Plugin installer section title"
 msgid "Changelog"
 msgstr "Journal des modifications"
 
-#: wp-admin/includes/plugin-install.php:541
+#: wp-admin/includes/plugin-install.php:580
 msgctxt "Plugin installer section title"
 msgid "Reviews"
 msgstr "Avis"
 
-#: wp-admin/includes/plugin-install.php:542
+#: wp-admin/includes/plugin-install.php:581
 msgctxt "Plugin installer section title"
 msgid "Other Notes"
 msgstr "Autres notes"
 
-#: wp-admin/includes/plugin-install.php:565 wp-admin/update.php:130
+#: wp-admin/includes/plugin-install.php:604 wp-admin/update.php:130
 msgid "Plugin Installation"
 msgstr "Installation de l’extension"
 
-#: wp-admin/includes/plugin-install.php:623
+#: wp-admin/includes/plugin-install.php:662
 msgid "Author:"
 msgstr "Auteur·es :"
 
-#: wp-admin/includes/plugin-install.php:633
+#: wp-admin/includes/plugin-install.php:672
 msgid "Requires Retraceur Version:"
 msgstr "Version de Retraceur requise :"
 
 #. translators: %s: Version number.
-#: wp-admin/includes/plugin-install.php:636
-#: wp-admin/includes/plugin-install.php:646
+#: wp-admin/includes/plugin-install.php:675
+#: wp-admin/includes/plugin-install.php:685
 msgid "%s or higher"
 msgstr "%s ou plus"
 
-#: wp-admin/includes/plugin-install.php:640
+#: wp-admin/includes/plugin-install.php:679
 msgid "Compatible up to:"
 msgstr "Compatible jusqu’à la version : "
 
-#: wp-admin/includes/plugin-install.php:643
+#: wp-admin/includes/plugin-install.php:682
 msgid "Requires PHP Version:"
 msgstr "Nécessite PHP en version :"
 
-#: wp-admin/includes/plugin-install.php:650
+#: wp-admin/includes/plugin-install.php:689
 msgid "Active Installations:"
 msgstr "Installations actives :"
 
-#: wp-admin/includes/plugin-install.php:667
+#: wp-admin/includes/plugin-install.php:706
 msgid "Plugin Homepage &#187;"
 msgstr "Site de l’extension &#187;"
 
-#: wp-admin/includes/plugin-install.php:669
-#: wp-admin/includes/plugin-install.php:715
+#: wp-admin/includes/plugin-install.php:708
+#: wp-admin/includes/plugin-install.php:754
 msgid "Donate to this plugin &#187;"
 msgstr "Faire un don à cette extension &#187;"
 
-#: wp-admin/includes/plugin-install.php:673
+#: wp-admin/includes/plugin-install.php:712
 msgid "Average Rating"
 msgstr "Moyenne des notes"
 
 #. translators: %s: Number of ratings.
-#: wp-admin/includes/plugin-install.php:687
+#: wp-admin/includes/plugin-install.php:726
 msgid "(based on %s rating)"
 msgid_plural "(based on %s ratings)"
 msgstr[0] "(basée sur %s vote)"
 msgstr[1] "(basée sur %s votes)"
 
-#: wp-admin/includes/plugin-install.php:697
+#: wp-admin/includes/plugin-install.php:736
 msgid "Contributors"
 msgstr "Crédits"
 
-#: wp-admin/includes/plugin-install.php:730
+#: wp-admin/includes/plugin-install.php:769
 msgid ""
 "<strong>Error:</strong> This plugin <strong>requires a newer version of PHP</"
 "strong>."
@@ -10863,7 +10923,7 @@ msgstr ""
 "<strong>Erreur :</strong> Cette extension <strong>nécessite une version plus "
 "récente de PHP</strong>."
 
-#: wp-admin/includes/plugin-install.php:745
+#: wp-admin/includes/plugin-install.php:784
 msgid ""
 "<strong>Warning:</strong> This plugin <strong>has not been tested</strong> "
 "with your current version of Retraceur."
@@ -10871,7 +10931,7 @@ msgstr ""
 "<strong>Avertissement :</strong> cette extension <strong>n’a pas été testée</"
 "strong> avec votre version actuelle de Retraceur."
 
-#: wp-admin/includes/plugin-install.php:752
+#: wp-admin/includes/plugin-install.php:791
 msgid ""
 "<strong>Error:</strong> This plugin <strong>requires a newer version of "
 "Retraceur</strong>."
@@ -10880,130 +10940,130 @@ msgstr ""
 "récente de Retraceur</strong>."
 
 #. translators: %s: URL to Retraceur Updates screen.
-#: wp-admin/includes/plugin-install.php:756
+#: wp-admin/includes/plugin-install.php:795
 msgid "<a href=\"%s\" target=\"_parent\">Click here to update Retraceur</a>."
 msgstr ""
 "<a href=\"%s\" target=\"_parent\">Cliquer ici pour mettre Retraceur à jour</"
 "a>."
 
 #. translators: %s: Plugin name.
-#: wp-admin/includes/plugin-install.php:857
+#: wp-admin/includes/plugin-install.php:896
 msgctxt "plugin"
 msgid "Install %s now"
 msgstr "Installer %s maintenant"
 
 #. translators: %s: Plugin name.
-#: wp-admin/includes/plugin-install.php:879 wp-admin/includes/update.php:564
+#: wp-admin/includes/plugin-install.php:918 wp-admin/includes/update.php:564
 msgctxt "plugin"
 msgid "Update %s now"
 msgstr "Mettre à jour %s maintenant"
 
-#: wp-admin/includes/plugin-install.php:881
-#: wp-admin/includes/plugin-install.php:886
+#: wp-admin/includes/plugin-install.php:920
+#: wp-admin/includes/plugin-install.php:925
 msgctxt "plugin"
 msgid "Update Now"
 msgstr "Mettre à jour maintenant"
 
-#: wp-admin/includes/plugin-install.php:897
+#: wp-admin/includes/plugin-install.php:936
 msgctxt "plugin"
 msgid "Active"
 msgstr "Actif"
 
-#: wp-admin/includes/plugin-install.php:938
+#: wp-admin/includes/plugin-install.php:977
 msgctxt "plugin"
 msgid "Installed"
 msgstr "Installée"
 
 #. translators: 1: Site Wide Only: true, 2: Network: true
-#: wp-admin/includes/plugin.php:102
+#: wp-admin/includes/plugin.php:105
 msgid "The %1$s plugin header is deprecated. Use %2$s instead."
 msgstr "L’entête d’extensions %1$s est obsolète. Utilisez plutôt %2$s."
 
 #. translators: %s: Plugin author.
-#: wp-admin/includes/plugin.php:218
+#: wp-admin/includes/plugin.php:221
 msgid "By %s."
 msgstr "par %s."
 
-#: wp-admin/includes/plugin.php:505
+#: wp-admin/includes/plugin.php:512
 msgid "Advanced caching plugin."
 msgstr "Extension de cache avancée."
 
-#: wp-admin/includes/plugin.php:506
+#: wp-admin/includes/plugin.php:513
 msgid "Custom database class."
 msgstr "Classe personnalisée de connexion à la base de données."
 
-#: wp-admin/includes/plugin.php:507
+#: wp-admin/includes/plugin.php:514
 msgid "Custom database error message."
 msgstr "Message personnalisé pour l’erreur de base de données."
 
-#: wp-admin/includes/plugin.php:508
+#: wp-admin/includes/plugin.php:515
 msgid "Custom installation script."
 msgstr "Script personnalisé d’installation."
 
-#: wp-admin/includes/plugin.php:509
+#: wp-admin/includes/plugin.php:516
 msgid "Custom maintenance message."
 msgstr "Message personnalisé pour la maintenance."
 
-#: wp-admin/includes/plugin.php:510
+#: wp-admin/includes/plugin.php:517
 msgid "External object cache."
 msgstr "Cache d’objet externe."
 
-#: wp-admin/includes/plugin.php:511
+#: wp-admin/includes/plugin.php:518
 msgid "Custom PHP error message."
 msgstr "Message d’erreur PHP personnalisé."
 
-#: wp-admin/includes/plugin.php:512
+#: wp-admin/includes/plugin.php:519
 msgid "Custom PHP fatal error handler."
 msgstr "Gestionnaire d’erreur fatale PHP personnalisée."
 
-#: wp-admin/includes/plugin.php:516
+#: wp-admin/includes/plugin.php:523
 msgid "Executed before Multisite is loaded."
 msgstr "Exécuté avant que la fonctionnalité multisites ne soit chargée."
 
-#: wp-admin/includes/plugin.php:517
+#: wp-admin/includes/plugin.php:524
 msgid "Custom site deleted message."
 msgstr "Message personnalisé de site supprimé."
 
-#: wp-admin/includes/plugin.php:518
+#: wp-admin/includes/plugin.php:525
 msgid "Custom site inactive message."
 msgstr "Message personnalisé de site inactif."
 
-#: wp-admin/includes/plugin.php:519
+#: wp-admin/includes/plugin.php:526
 msgid "Custom site suspended message."
 msgstr "Message personnalisé de site suspendu."
 
-#: wp-admin/includes/plugin.php:726
+#: wp-admin/includes/plugin.php:733
 msgid "The plugin generated unexpected output."
 msgstr "Cette extension a produit un résultat inattendu."
 
-#: wp-admin/includes/plugin.php:877
+#: wp-admin/includes/plugin.php:884
 msgid "One of the plugins is invalid."
 msgstr "L’une des extensions n’est pas valide."
 
 #. translators: %s: Plugin filename.
-#: wp-admin/includes/plugin.php:1039
+#: wp-admin/includes/plugin.php:1046
 msgid "Could not fully remove the plugin %s."
 msgstr "Impossible de supprimer l’extension %s."
 
 #. translators: %s: Comma-separated list of plugin filenames.
-#: wp-admin/includes/plugin.php:1042
+#: wp-admin/includes/plugin.php:1049
 msgid "Could not fully remove the plugins %s."
 msgstr "Impossible de supprimer complètement la ou les extensions %s."
 
-#: wp-admin/includes/plugin.php:1102
+#: wp-admin/includes/plugin.php:1109
 msgid "Invalid plugin path."
 msgstr "Chemin d’extension non valide."
 
-#: wp-admin/includes/plugin.php:1105
+#: wp-admin/includes/plugin.php:1112
 msgid "Plugin file does not exist."
 msgstr "Le fichier de l’extension n’existe pas."
 
-#: wp-admin/includes/plugin.php:1110
+#: wp-admin/includes/plugin.php:1117
 msgid "The plugin does not have a valid header."
 msgstr "Cette extension ne dispose pas d’un entête valide."
 
 #. translators: 1: Current Retraceur version, 2: Current PHP version, 3: Plugin name, 4: Required Retraceur version, 5: Required PHP version.
-#: wp-admin/includes/plugin.php:1147
+#: wp-admin/includes/plugin.php:1154
 msgctxt "plugin"
 msgid ""
 "<strong>Error:</strong> Current versions of Retraceur (%1$s) and PHP (%2$s) "
@@ -11015,7 +11075,7 @@ msgstr ""
 "L’extension nécessite Retraceur %4$s et PHP %5$s."
 
 #. translators: 1: Current PHP version, 2: Plugin name, 3: Required PHP version.
-#: wp-admin/includes/plugin.php:1160
+#: wp-admin/includes/plugin.php:1167
 msgctxt "plugin"
 msgid ""
 "<strong>Error:</strong> Current PHP version (%1$s) does not meet minimum "
@@ -11025,7 +11085,7 @@ msgstr ""
 "pas aux prérequis minimaux pour %2$s. L’extension nécessite PHP %3$s."
 
 #. translators: 1: Current Retraceur version, 2: Plugin name, 3: Required Retraceur version.
-#: wp-admin/includes/plugin.php:1171
+#: wp-admin/includes/plugin.php:1178
 msgctxt "plugin"
 msgid ""
 "<strong>Error:</strong> Current Retraceur version (%1$s) does not meet "
@@ -11036,7 +11096,7 @@ msgstr ""
 "Retraceur %3$s."
 
 #. translators: 1: Plugin name, 2: Number of plugins, 3: A comma-separated list of plugin names.
-#: wp-admin/includes/plugin.php:1200
+#: wp-admin/includes/plugin.php:1207
 msgid ""
 "<strong>Error:</strong> %1$s requires %2$d plugin to be installed and "
 "activated: %3$s."
@@ -11051,16 +11111,16 @@ msgstr[1] ""
 "%2$d extensions : %3$s."
 
 #. translators: %s: Link to the plugins page.
-#: wp-admin/includes/plugin.php:1214 wp-admin/includes/plugin.php:1223
+#: wp-admin/includes/plugin.php:1221 wp-admin/includes/plugin.php:1230
 msgid "<a href=\"%s\">Manage plugins</a>."
 msgstr "<a href=\"%s\">Gérer les extensions</a>"
 
-#: wp-admin/includes/plugin.php:1218
+#: wp-admin/includes/plugin.php:1225
 msgid "Please contact your network administrator."
 msgstr "Veuillez contacter l’administrateur·e de votre réseau."
 
 #. translators: %s: Function name.
-#: wp-admin/includes/plugin.php:1385 wp-admin/includes/plugin.php:1489
+#: wp-admin/includes/plugin.php:1392 wp-admin/includes/plugin.php:1496
 msgid ""
 "The seventh parameter passed to %s should be numeric representing menu "
 "position."
@@ -11069,7 +11129,7 @@ msgstr ""
 "une position de menu."
 
 #. translators: %s: admin_init
-#: wp-admin/includes/plugin.php:2370
+#: wp-admin/includes/plugin.php:2377
 msgid ""
 "The suggested privacy policy content should be added only in wp-admin by "
 "using the %s (or later) action."
@@ -11078,7 +11138,7 @@ msgstr ""
 "uniquement dans wp-admin en utilisant l’action %s (ou ultérieurement)."
 
 #. translators: %s: admin_init
-#: wp-admin/includes/plugin.php:2381
+#: wp-admin/includes/plugin.php:2388
 msgid ""
 "The suggested privacy policy content should be added by using the %s (or "
 "later) action. Please see the inline documentation."
@@ -11087,26 +11147,26 @@ msgstr ""
 "utilisant l’action %s (ou ultérieurement). Veuillez vous référer à la "
 "documentation en ligne."
 
-#: wp-admin/includes/plugin.php:2490
+#: wp-admin/includes/plugin.php:2497
 msgid "Could not resume the plugin."
 msgstr "Impossible de relancer l’extension."
 
-#: wp-admin/includes/plugin.php:2520
+#: wp-admin/includes/plugin.php:2527
 msgid "One or more plugins failed to load properly."
 msgstr "Le chargement d’une ou plusieurs extensions a échoué."
 
-#: wp-admin/includes/plugin.php:2521
+#: wp-admin/includes/plugin.php:2528
 msgid "You can find more details and make changes on the Plugins screen."
 msgstr ""
 "Vous pouvez trouver davantage de détails et faire des modifications sur "
 "l’écran des extensions."
 
-#: wp-admin/includes/plugin.php:2523 wp-admin/includes/plugin.php:2605
+#: wp-admin/includes/plugin.php:2530 wp-admin/includes/plugin.php:2612
 msgid "Go to the Plugins screen"
 msgstr "Aller à l’écran des extensions"
 
 #. translators: 1: Name of deactivated plugin, 2: Plugin version deactivated, 3: Current WP version, 4: Compatible plugin version.
-#: wp-admin/includes/plugin.php:2579
+#: wp-admin/includes/plugin.php:2586
 msgid ""
 "%1$s %2$s was deactivated due to incompatibility with Retraceur %3$s, please "
 "upgrade to %1$s %4$s or later."
@@ -11116,14 +11176,14 @@ msgstr ""
 "version %4$s ou plus."
 
 #. translators: 1: Name of deactivated plugin, 2: Plugin version deactivated, 3: Current WP version.
-#: wp-admin/includes/plugin.php:2588
+#: wp-admin/includes/plugin.php:2595
 msgid "%1$s %2$s was deactivated due to incompatibility with Retraceur %3$s."
 msgstr ""
 "L’extension %1$s (version %2$s) a été désactivée à cause d’une "
 "incompatibilité avec Retraceur %3$s."
 
 #. translators: %s: Name of deactivated plugin.
-#: wp-admin/includes/plugin.php:2600
+#: wp-admin/includes/plugin.php:2607
 msgid "%s plugin deactivated during Retraceur upgrade."
 msgstr "Extension « %s » désactivée pendant la mise à jour de Retraceur."
 
@@ -11191,8 +11251,7 @@ msgstr "Modifier le permalien"
 msgid "Click the image to edit or update"
 msgstr "Cliquez sur l’image pour la modifier ou la mettre à jour."
 
-#: wp-admin/includes/post.php:1789 wp-admin/plugin-editor.php:326
-#: wp-admin/theme-editor.php:357
+#: wp-admin/includes/post.php:1789
 msgid "Go back"
 msgstr "Revenir en arrière"
 
@@ -11682,8 +11741,7 @@ msgstr "Attacher à un contenu existant"
 msgid "Close media attachment panel"
 msgstr "Fermer le panneau des fichiers joints."
 
-#: wp-admin/includes/template.php:1797 wp-admin/plugin-editor.php:239
-#: wp-admin/theme-editor.php:218
+#: wp-admin/includes/template.php:1797
 msgid "Select"
 msgstr "Sélectionner"
 
@@ -13365,81 +13423,85 @@ msgctxt "patterns menu item"
 msgid "Patterns"
 msgstr "Compositions"
 
-#: wp-admin/menu.php:201 wp-admin/menu.php:202
-msgid "Theme File Editor"
-msgstr "Éditeur de fichiers des thèmes"
-
-#: wp-admin/menu.php:221 wp-admin/menu.php:222 wp-admin/menu.php:251
-msgid "Plugin File Editor"
-msgstr "Éditeur de fichiers des extensions"
-
 #. translators: %s: Number of available plugin updates.
-#: wp-admin/menu.php:241
+#: wp-admin/menu.php:197
 msgid "Plugins %s"
 msgstr "Extensions %s"
 
-#: wp-admin/menu.php:243
+#: wp-admin/menu.php:199
 msgid "Installed Plugins"
 msgstr "Extensions installées"
 
-#: wp-admin/menu.php:246 wp-admin/plugins.php:740
+#: wp-admin/menu.php:202 wp-admin/plugins.php:909
 msgid "Add New Plugin"
 msgstr "Ajouter une extension"
 
-#: wp-admin/menu.php:258 wp-admin/users.php:27
+#: wp-admin/menu.php:207
+msgid "Blocks"
+msgstr "Blocs"
+
+#: wp-admin/menu.php:209
+msgid "Installed Blocks"
+msgstr "Blocs installés"
+
+#: wp-admin/menu.php:212 wp-admin/plugins.php:905
+msgid "Add New Block"
+msgstr "Ajouter un bloc"
+
+#: wp-admin/menu.php:216 wp-admin/users.php:27
 msgid "Users"
 msgstr "Utilisateur·ice·s"
 
-#: wp-admin/menu.php:260 wp-admin/menu.php:270 wp-admin/menu.php:273
+#: wp-admin/menu.php:218 wp-admin/menu.php:228 wp-admin/menu.php:231
 #: wp-admin/user-edit.php:43 wp-admin/user/menu.php:16
 msgid "Profile"
 msgstr "Profil"
 
-#: wp-admin/menu.php:265
+#: wp-admin/menu.php:223
 msgid "All Users"
 msgstr "Tou·te·s les utilisateur·ice·s"
 
-#: wp-admin/menu.php:267 wp-admin/menu.php:275 wp-admin/user-edit.php:301
+#: wp-admin/menu.php:225 wp-admin/menu.php:233 wp-admin/user-edit.php:301
 #: wp-admin/user-new.php:84 wp-admin/user-new.php:134 wp-admin/user-new.php:326
 #: wp-admin/users.php:787
 msgid "Add New User"
 msgstr "Ajouter un·e utilisateur·ice"
 
-#: wp-admin/menu.php:304 wp-admin/tools.php:45
+#: wp-admin/menu.php:262 wp-admin/tools.php:45
 msgid "Tools"
 msgstr "Outils"
 
-#: wp-admin/menu.php:305
+#: wp-admin/menu.php:263
 msgid "Available Tools"
 msgstr "Outils disponibles"
 
 #. translators: %s: Number of critical Site Health checks.
-#: wp-admin/menu.php:307
+#: wp-admin/menu.php:265
 msgid "Site Health %s"
 msgstr "Santé du site %s"
 
-#: wp-admin/menu.php:312 wp-admin/options.php:24
+#: wp-admin/menu.php:270 wp-admin/options.php:24
 msgid "Settings"
 msgstr "Réglages "
 
-#: wp-admin/menu.php:313
+#: wp-admin/menu.php:271
 msgctxt "settings screen"
 msgid "General"
 msgstr "Général"
 
-#: wp-admin/menu.php:314
+#: wp-admin/menu.php:272
 msgid "Writing"
 msgstr "Écriture"
 
-#: wp-admin/menu.php:315
+#: wp-admin/menu.php:273
 msgid "Reading"
 msgstr "Lecture"
 
-#: wp-admin/menu.php:316
+#: wp-admin/menu.php:274
 msgid "Membership"
 msgstr "Adhésions"
 
-#: wp-admin/menu.php:318
+#: wp-admin/menu.php:276
 msgid "Permalinks"
 msgstr "Permaliens"
 
@@ -14813,173 +14875,32 @@ msgstr ""
 "Cette page donne un accès direct aux réglages de votre site. Vous pouvez "
 "casser des choses ici, donc faites attention !"
 
-#: wp-admin/plugin-editor.php:24
-msgid "Edit Plugins"
-msgstr "Modifier les extensions"
+#: wp-admin/plugin-editor.php:17 wp-admin/theme-editor.php:17
+msgid "Retraceur does not support this."
+msgstr "Retraceur ne supporte pas ceci."
 
-#: wp-admin/plugin-editor.php:137
-msgid ""
-"You can use the plugin file editor to make changes to any of your "
-"plugins&#8217; individual PHP files. Be aware that if you make changes, "
-"plugins updates will overwrite your customizations."
+#: wp-admin/plugin-editor.php:18
+msgid "Editing plugin files is not supported by Retraceur."
 msgstr ""
-"Vous pouvez utiliser l’éditeur de fichiers des extensions pour personnaliser "
-"n’importe quel fichier PHP de vos extensions. Soyez cependant conscient que "
-"si vous modifiez les fichiers, les mises à jour des extensions annuleront "
-"vos changements."
+"La modification des fichiers d’extension n’est pas supportée par Retraceur."
 
-#: wp-admin/plugin-editor.php:138
-msgid ""
-"Choose a plugin to edit from the dropdown menu and click the Select button. "
-"Click once on any file name to load it in the editor, and make your changes. "
-"Do not forget to save your changes (Update File) when you are finished."
+#. Translators: %s: The plugin type's plural name.
+#: wp-admin/plugin-install.php:38 wp-admin/update.php:157
+msgid "Sorry, you are not allowed to install %s on this site."
 msgstr ""
-"Choisissez une extension à modifier dans le menu déroulant et cliquez sur le "
-"bouton « Sélectionner ». Cliquez une fois sur n’importe quel nom de fichier "
-"pour le charger dans l’éditeur, puis faites vos modifications. N’oubliez pas "
-"d’enregistrer vos modifications (bouton « Mettre à jour le fichier ») quand "
-"vous aurez terminé."
+"Désolé, vous n’avez pas l’autorisation d’installer des éléments de type %s "
+"sur ce site."
 
-#: wp-admin/plugin-editor.php:139
-msgid ""
-"The documentation menu below the editor lists the PHP functions recognized "
-"in the plugin file. Clicking Look Up takes you to a web page about that "
-"particular function."
-msgstr ""
-"Le menu « Documentation », situé sous l’éditeur, liste les fonctions PHP "
-"reconnues dans le fichier de l’extension. En cliquant sur « Consulter », "
-"vous serez envoyé sur une page web documentant cette fonction."
-
-#: wp-admin/plugin-editor.php:140 wp-admin/theme-editor.php:35
-msgid "When using a keyboard to navigate:"
-msgstr "Lorsque vous utilisez un clavier pour naviguer :"
-
-#: wp-admin/plugin-editor.php:142 wp-admin/theme-editor.php:37
-msgid "In the editing area, the Tab key enters a tab character."
-msgstr "Dans la zone de modification, la touche Tab ajoute une tabulation."
-
-#: wp-admin/plugin-editor.php:143 wp-admin/theme-editor.php:38
-msgid "To move away from this area, press the Esc key followed by the Tab key."
-msgstr "Pour sortir de cette zone, utiliser la touche Esc puis la touche Tab."
-
-#: wp-admin/plugin-editor.php:144 wp-admin/theme-editor.php:39
-msgid ""
-"Screen reader users: when in forms mode, you may need to press the Esc key "
-"twice."
-msgstr ""
-"Utilisateur·ice·s de lecteur d’écran : lorsque le mode formulaire est actif, "
-"vous pouvez avoir besoin de presser deux fois la touche Esc."
-
-#: wp-admin/plugin-editor.php:146
-msgid ""
-"If you want to make changes but do not want them to be overwritten when the "
-"plugin is updated, you may be ready to think about writing your own plugin. "
-"For information on how to edit plugins, write your own from scratch, or just "
-"better understand their anatomy, check out the links below."
-msgstr ""
-"Si vous voulez faire des modifications et ne pas les perdre à la prochaine "
-"mise à jour, cela signifie que vous êtes prêt à écrire votre propre "
-"extension. Pour obtenir des informations sur la manière de modifier une "
-"extension ou d’en créer une, ou simplement pour comprendre leur "
-"fonctionnement, suivez les liens ci-contre."
-
-#: wp-admin/plugin-editor.php:147 wp-admin/theme-editor.php:44
-msgid ""
-"Any edits to files from this screen will be reflected on all sites in the "
-"network."
-msgstr ""
-"Toute modification aux fichiers de cet écran affectera l’ensemble des sites "
-"du réseau."
-
-#: wp-admin/plugin-editor.php:184 wp-admin/theme-editor.php:180
-msgid ""
-"There was an error while trying to update the file. You may need to fix "
-"something and try updating again."
-msgstr ""
-"Une erreur s’est produite lors de la mise à jour. Vous devriez essayer de "
-"corriger quelque chose et réessayer."
-
-#. translators: %s: Plugin file name.
-#: wp-admin/plugin-editor.php:204
-msgid "Editing %s (active)"
-msgstr "Modification de %s (activée)"
-
-#. translators: %s: Plugin file name.
-#: wp-admin/plugin-editor.php:207
-msgid "Browsing %s (active)"
-msgstr "Parcours de %s (activée)"
-
-#. translators: %s: Plugin file name.
-#: wp-admin/plugin-editor.php:212
-msgid "Editing %s (inactive)"
-msgstr "Modification de %s (désactivée)"
-
-#. translators: %s: Plugin file name.
-#: wp-admin/plugin-editor.php:215
-msgid "Browsing %s (inactive)"
-msgstr "Parcours de %s (désactivée)"
-
-#: wp-admin/plugin-editor.php:223
-msgid "Select plugin to edit:"
-msgstr "Sélectionnez l’extension à modifier :"
-
-#: wp-admin/plugin-editor.php:246
-msgid "Plugin Files"
-msgstr "Fichiers de l’extension"
-
-#: wp-admin/plugin-editor.php:267 wp-admin/theme-editor.php:274
-msgid "Selected file content:"
-msgstr "Contenu du fichier sélectionné :"
-
-#: wp-admin/plugin-editor.php:279
-msgid ""
-"<strong>Warning:</strong> Making changes to active plugins is not "
-"recommended."
-msgstr ""
-"<strong>Avertissement :</strong> Effectuer des modifications dans les "
-"extensions actives n’est pas recommandé."
-
-#: wp-admin/plugin-editor.php:289 wp-admin/theme-editor.php:301
-msgid "Update File"
-msgstr "Mettre à jour le fichier"
-
-#: wp-admin/plugin-editor.php:321 wp-admin/theme-editor.php:341
-msgid "Heads up!"
-msgstr "Faites attention !"
-
-#: wp-admin/plugin-editor.php:322
-msgid ""
-"You appear to be making direct edits to your plugin in the Retraceur "
-"dashboard. Editing plugins directly is not recommended as it may introduce "
-"incompatibilities that break your site and your changes may be lost in "
-"future updates."
-msgstr ""
-"Il semble que vous soyez en train de modifier directement votre extension "
-"dans le tableau de bord de Retraceur. Ce n’est pas recommandé ! Modifier "
-"directement les extensions peut introduire des incompatibilités futures qui "
-"pourraient casser votre site et vos modifications risquent d’être perdues "
-"lors de futures mises à jour."
-
-#: wp-admin/plugin-editor.php:323
-msgid ""
-"If you absolutely have to make direct edits to this plugin, use a file "
-"manager to create a copy with a new name and hang on to the original. That "
-"way, you can re-enable a functional version if something goes wrong."
-msgstr ""
-"Si vous devez absolument modifier directement cette extension, utilisez un "
-"gestionnaire de fichiers pour en créer une copie avec un autre nom et gardez-"
-"le près du code original. Ainsi, vous pourrez réactiver une version "
-"fonctionnelle si quelque chose tourne mal."
-
-#: wp-admin/plugin-editor.php:327 wp-admin/theme-editor.php:358
-msgid "I understand"
-msgstr "Je comprends"
-
-#: wp-admin/plugin-install.php:53
+#: wp-admin/plugin-install.php:73
 msgid "Add Plugins"
 msgstr "Ajouter des extensions"
 
-#: wp-admin/plugin-install.php:98
+#: wp-admin/plugin-install.php:77
+msgctxt "block install page title"
+msgid "Add Blocks"
+msgstr "Ajouter des blocs"
+
+#: wp-admin/plugin-install.php:123
 msgid ""
 "Plugins hook into Retraceur to extend its functionality with custom "
 "features. Plugins are developed independently from the core Retraceur "
@@ -14989,7 +14910,7 @@ msgstr ""
 "personnalisées. Les extensions sont développées indépendamment du cœur de "
 "Retraceur par des milliers de développeurs partout dans le monde."
 
-#: wp-admin/plugin-install.php:99
+#: wp-admin/plugin-install.php:124
 msgid ""
 "You can find new plugins to install by searching or browsing the directory "
 "right here in your own Plugins section."
@@ -14997,18 +14918,18 @@ msgstr ""
 "Vous pouvez trouver des nouvelles extensions à installer en recherchant ou "
 "en parcourant le répertoire ici même dans votre section des extensions."
 
-#: wp-admin/plugin-install.php:99 wp-admin/plugins.php:565
+#: wp-admin/plugin-install.php:124 wp-admin/plugins.php:684
 #: wp-admin/theme-install.php:105 wp-admin/themes.php:140
 msgid "The search results will be updated as you type."
 msgstr ""
 "Les résultats de recherche se mettront à jour au fur et à mesure de votre "
 "saisie."
 
-#: wp-admin/plugin-install.php:106
+#: wp-admin/plugin-install.php:131
 msgid "Adding Plugins"
 msgstr "Ajout d’extensions"
 
-#: wp-admin/plugin-install.php:108
+#: wp-admin/plugin-install.php:133
 msgid ""
 "If you want to install a plugin that you&#8217;ve downloaded elsewhere, "
 "click the Upload Plugin button above the plugins list. You will be prompted "
@@ -15020,129 +14941,181 @@ msgstr ""
 "demandé d’indiquer le fichier .zip à téléverser, et ceci fait, vous pourrez "
 "activer l’extension."
 
-#: wp-admin/plugin-install.php:114 wp-admin/plugins.php:597
+#: wp-admin/plugin-install.php:139 wp-admin/plugins.php:716
 msgid "Filter plugins list"
 msgstr "Filtrer la liste des extensions"
 
-#: wp-admin/plugin-install.php:115 wp-admin/plugins.php:598
+#: wp-admin/plugin-install.php:140 wp-admin/plugins.php:717
 msgid "Plugins list navigation"
 msgstr "Navigation de la liste des extensions"
 
-#: wp-admin/plugin-install.php:116 wp-admin/plugins.php:599
+#: wp-admin/plugin-install.php:141 wp-admin/plugins.php:718
 msgid "Plugins list"
 msgstr "Liste des extensions"
 
-#: wp-admin/plugin-install.php:142
+#: wp-admin/plugin-install.php:166 wp-admin/update.php:177
+msgid "Upload Block"
+msgstr "Charger un bloc"
+
+#: wp-admin/plugin-install.php:167
+msgid "Browse Blocks"
+msgstr "Parcourir les blocs"
+
+#: wp-admin/plugin-install.php:167
 msgid "Browse Plugins"
 msgstr "Parcourir les extensions"
 
-#: wp-admin/plugins.php:52 wp-admin/plugins.php:177
-msgid "Sorry, you are not allowed to activate this plugin."
-msgstr "Désolé, vous n’êtes pas autorisé à activer cette extension."
+#: wp-admin/plugins.php:21 wp-admin/update-core.php:447
+#: wp-admin/update-core.php:466
+msgid "Plugins"
+msgstr "Extensions"
 
-#: wp-admin/plugins.php:93
-msgid "Sorry, you are not allowed to activate plugins for this site."
+#: wp-admin/plugins.php:31
+msgctxt "blocks admin page title"
+msgid "Blocks"
+msgstr "Blocs"
+
+#. Translators: %s: The plugin type's plural name.
+#: wp-admin/plugins.php:39
+msgid "Sorry, you are not allowed to manage %s for this site."
 msgstr ""
-"Désolé, vous n’avez pas l’autorisation d’activer les extensions de ce site."
+"Désolé, vous n’êtes pas autorisé·e à gérer les éléments de type %s de ce "
+"site."
 
-#: wp-admin/plugins.php:158 wp-admin/update-core.php:474
+#. Translators: %s: The plugin type's singular name.
+#: wp-admin/plugins.php:82 wp-admin/plugins.php:222
+msgid "Sorry, you are not allowed to activate this %s."
+msgstr "Désolé, vous n’êtes pas autorisé à activer les éléments de type %s."
+
+#. Translators: %s: The plugin type's plural name.
+#: wp-admin/plugins.php:129
+msgid "Sorry, you are not allowed to activate %s for this site."
+msgstr ""
+"Désolé, vous n’avez pas l’autorisation d’activer les éléments de type %s de "
+"ce site."
+
+#: wp-admin/plugins.php:197 wp-admin/update-core.php:474
 #: wp-admin/update-core.php:596 wp-admin/update-core.php:1093
 #: wp-admin/update-core.php:1098
 msgid "Update Plugins"
 msgstr "Mettre à jour les extensions"
 
 #: wp-admin/plugins.php:200
-msgid "Sorry, you are not allowed to deactivate this plugin."
-msgstr "Désolé, vous n’êtes pas autorisé à désactiver cette extension."
+msgid "Update Blocks"
+msgstr "Mettre à jour les blocs"
 
-#: wp-admin/plugins.php:227
-msgid "Sorry, you are not allowed to deactivate plugins for this site."
+#. Translators: %s: The plugin type's singular name.
+#: wp-admin/plugins.php:251
+msgid "Sorry, you are not allowed to deactivate this %s."
+msgstr "Désolé, vous n’êtes pas autorisé à désactiver les éléments de type %s."
+
+#. Translators: %s: The plugin type's plural name.
+#: wp-admin/plugins.php:284
+msgid "Sorry, you are not allowed to deactivate %s for this site."
 msgstr ""
-"Désolé, vous n’avez pas l’autorisation de désactiver les extensions de ce "
+"Désolé, vous n’avez pas l’autorisation de désactiver les éléments de type %s "
+"de ce site."
+
+#. Translators: %s: The plugin type's plural name.
+#: wp-admin/plugins.php:333
+msgid "Sorry, you are not allowed to delete %s for this site."
+msgstr ""
+"Désolé, vous n’êtes pas autorisé·e à supprimer des éléments de type %s de ce "
 "site."
 
-#: wp-admin/plugins.php:342
-msgid "Delete Plugin"
-msgstr "Supprimer l’extension"
+#. Translators: %s: Plugin type singular name.
+#: wp-admin/plugins.php:410
+msgctxt "Plugins Admin confirm plugin delete"
+msgid "Delete %s"
+msgstr "Supprimer cet élément de type %s"
 
-#: wp-admin/plugins.php:345 wp-admin/plugins.php:359
-#: wp-admin/theme-editor.php:285
+#: wp-admin/plugins.php:417 wp-admin/plugins.php:447
 msgid "Caution:"
 msgstr "Attention :"
 
-#: wp-admin/plugins.php:345
+#: wp-admin/plugins.php:417
 msgid "This plugin may be active on other sites in the network."
 msgstr ""
 "Cette extension peut uniquement être activée sur l’ensemble des sites du "
 "réseau."
 
-#: wp-admin/plugins.php:354
-msgid "You are about to remove the following plugin:"
-msgstr "Vous êtes sur le point de supprimer l’extension suivante :"
+#. Translators: %s: Plugin type singular name.
+#: wp-admin/plugins.php:430
+msgctxt "Plugins Admin confirm plugin delete"
+msgid "You are about to remove the following %s:"
+msgstr "Vous êtes sur le point de supprimer l’élément de type %s suivant :"
 
-#: wp-admin/plugins.php:356
-msgid "Delete Plugins"
-msgstr "Supprimer les extensions"
+#. Translators: %s: Plugin type plural name.
+#: wp-admin/plugins.php:440
+msgctxt "Plugins Admin confirm plugins delete"
+msgid "Delete %s"
+msgstr "Supprimer ces éléments de type %s"
 
-#: wp-admin/plugins.php:359
+#: wp-admin/plugins.php:447
 msgid "These plugins may be active on other sites in the network."
 msgstr "Ces extensions peuvent être actives sur d’autres sites du réseau."
 
-#: wp-admin/plugins.php:368
-msgid "You are about to remove the following plugins:"
-msgstr "Vous êtes sur le point de supprimer les extensions suivantes :"
+#. Translators: %s: Plugin type plural name.
+#: wp-admin/plugins.php:460
+msgctxt "Plugins Admin confirm plugins delete"
+msgid "You are about to remove the following %s:"
+msgstr "Vous êtes sur le point de supprimer les éléments de type %s suivants :"
 
 #. translators: 1: Plugin name, 2: Plugin author.
-#: wp-admin/plugins.php:378
+#: wp-admin/plugins.php:474
 msgid "%1$s by %2$s (will also <strong>delete its data</strong>)"
 msgstr ""
 "%1$s par %2$s (attention : <strong>supprimera également les données liées</"
 "strong>)"
 
 #. translators: 1: Plugin name, 2: Plugin author.
-#: wp-admin/plugins.php:382
+#: wp-admin/plugins.php:478
 msgctxt "plugin"
 msgid "%1$s by %2$s"
 msgstr "%1$s par %2$s"
 
-#: wp-admin/plugins.php:392
+#: wp-admin/plugins.php:488
 msgid "Are you sure you want to delete these files and data?"
 msgstr "Confirmez-vous la suppression de ces fichiers et données ?"
 
-#: wp-admin/plugins.php:394
+#: wp-admin/plugins.php:490
 msgid "Are you sure you want to delete these files?"
 msgstr "Confirmez-vous la suppression de ces fichiers ?"
 
-#: wp-admin/plugins.php:410
+#: wp-admin/plugins.php:506
 msgid "Yes, delete these files and data"
 msgstr "Oui, supprimer ces fichiers et données"
 
-#: wp-admin/plugins.php:410
+#: wp-admin/plugins.php:506
 msgid "Yes, delete these files"
 msgstr "Oui, supprimer ces fichiers"
 
-#: wp-admin/plugins.php:418
-msgid "No, return me to the plugin list"
-msgstr "Non, retourner à la liste des extensions"
+#. Translators: %s: Plugin type singular name.
+#: wp-admin/plugins.php:518
+msgid "No, return me to the %s list"
+msgstr "Non, retourner à la liste des %s"
 
-#: wp-admin/plugins.php:450
-msgid "Sorry, you are not allowed to resume this plugin."
-msgstr "Désolé, vous n’êtes pas autorisé à relancer cette extension."
+#. Translators: %s: The plugin type's singular name.
+#: wp-admin/plugins.php:560
+msgid "Sorry, you are not allowed to resume this %s."
+msgstr ""
+"Désolé, vous n’avez pas l’autorisation de reprendre l‘élément de type %s."
 
-#: wp-admin/plugins.php:468
-msgid "Sorry, you are not allowed to manage plugins automatic updates."
+#. Translators: %s: The plugin type's plural name.
+#: wp-admin/plugins.php:584
+msgid "Sorry, you are not allowed to manage %s automatic updates."
 msgstr ""
 "Désolé, vous n’êtes pas autorisé à gérer les mises à jour automatiques "
-"d’extensions."
+"d’éléments de type %s."
 
-#: wp-admin/plugins.php:472
+#: wp-admin/plugins.php:591
 msgid ""
 "Please connect to your network admin to manage plugins automatic updates."
 msgstr ""
 "Veuillez vous connecter à l’administration de votre réseau pour gérer les "
 "mises à jour automatiques des extensions."
 
-#: wp-admin/plugins.php:564
+#: wp-admin/plugins.php:683
 msgid ""
 "Plugins extend and expand the functionality of Retraceur. Once a plugin is "
 "installed, you may activate it or deactivate it here."
@@ -15150,7 +15123,7 @@ msgstr ""
 "Les extensions étendent les fonctionnalités de Retraceur. Une fois "
 "installée, vous pouvez activer l’extension ou la désactiver ici."
 
-#: wp-admin/plugins.php:565
+#: wp-admin/plugins.php:684
 msgid ""
 "The search for installed plugins will search for terms in their name, "
 "description, or author."
@@ -15158,11 +15131,11 @@ msgstr ""
 "La recherche dans les extensions installées sera faite sur les noms des "
 "extensions, leurs descriptions, leurs auteurs ou autrices."
 
-#: wp-admin/plugins.php:571
+#: wp-admin/plugins.php:690
 msgid "Troubleshooting"
 msgstr "Diagnostic"
 
-#: wp-admin/plugins.php:573
+#: wp-admin/plugins.php:692
 msgid ""
 "Most of the time, plugins play nicely with the core of Retraceur and with "
 "other plugins. Sometimes, though, a plugin&#8217;s code will get in the way "
@@ -15179,7 +15152,7 @@ msgstr ""
 "trouver celle(s) en cause."
 
 #. translators: %s: WP_PLUGIN_DIR constant value.
-#: wp-admin/plugins.php:576
+#: wp-admin/plugins.php:695
 msgid ""
 "If something goes wrong with a plugin and you cannot use Retraceur, delete "
 "or rename that file in the %s directory and it will be automatically "
@@ -15189,11 +15162,11 @@ msgstr ""
 "utiliser Retraceur, supprimez ou renommez son fichier dans le répertoire %s "
 "et elle sera automatiquement désactivée."
 
-#: wp-admin/plugins.php:586
+#: wp-admin/plugins.php:705
 msgid "Dependencies"
 msgstr "Dépendances"
 
-#: wp-admin/plugins.php:588
+#: wp-admin/plugins.php:707
 msgid ""
 "Plugin Dependencies aims to make the process of installing and activating "
 "add-ons (dependents) and the plugins they rely on (dependencies) consistent "
@@ -15204,7 +15177,7 @@ msgstr ""
 "d’une autre) et des extensions requises pour faire fonctionner le module "
 "(dépendances)."
 
-#: wp-admin/plugins.php:589
+#: wp-admin/plugins.php:708
 msgid ""
 "If a required plugin is deleted, a notice will be displayed on the Plugin "
 "administration screen informing the user that there is some missing "
@@ -15217,7 +15190,7 @@ msgstr ""
 "dont les dépendances ne sont pas présentes auront une notification d’erreur "
 "dans la ligne correspondant à l’extension."
 
-#: wp-admin/plugins.php:590
+#: wp-admin/plugins.php:709
 msgid ""
 "If a dependent plugin is missing some dependencies, its activation button "
 "will be disabled until the required dependencies are activated."
@@ -15226,18 +15199,36 @@ msgstr ""
 "d‘activation sera désactivé jusqu‘à ce que les dépendances nécessaires "
 "soient activées."
 
-#: wp-admin/plugins.php:604 wp-admin/update-core.php:447
-#: wp-admin/update-core.php:466
-msgid "Plugins"
-msgstr "Extensions"
+#. translators: 1: Plugin Type singular name, 2: Plugin file, 3: Error message.
+#: wp-admin/plugins.php:729
+msgid "The %1$s %2$s has been deactivated due to an error: %3$s"
+msgstr ""
+"L’éléments de type %1$s %2$s a été désactivée en raison d’une erreur : %3$s"
 
-#. translators: 1: Plugin file, 2: Error message.
-#: wp-admin/plugins.php:614
-msgid "The plugin %1$s has been deactivated due to an error: %2$s"
-msgstr "L’extension %1$s a été désactivée en raison d’une erreur : %2$s"
+#. translators: %s: Plugin Type singular name.
+#: wp-admin/plugins.php:755
+msgid "You cannot delete a %s while it is active on the main site."
+msgstr ""
+"Vous ne pouvez pas effacer élément de type %s tant qu’il est activé sur le "
+"site principal."
 
 #. translators: %d: Number of characters.
-#: wp-admin/plugins.php:641
+#: wp-admin/plugins.php:762
+msgid ""
+"The block generated %d character of <strong>unexpected output</strong> "
+"during activation."
+msgid_plural ""
+"The block generated %d characters of <strong>unexpected output</strong> "
+"during activation."
+msgstr[0] ""
+"Ce bloc a généré %d <strong>caractère de sortie inattendu</strong> lors de "
+"son activation."
+msgstr[1] ""
+"Ce bloc a généré %d <strong>caractères de sortie inattendus</strong> lors de "
+"son activation."
+
+#. translators: %d: Number of characters.
+#: wp-admin/plugins.php:772
 msgid ""
 "The plugin generated %d character of <strong>unexpected output</strong> "
 "during activation."
@@ -15251,88 +15242,104 @@ msgstr[1] ""
 "Cette extension a généré %d <strong>caractères de sortie inattendus</strong> "
 "lors de son activation."
 
-#: wp-admin/plugins.php:648
+#. translators: %s: Plugin Type singular name.
+#: wp-admin/plugins.php:783
 msgid ""
 "If you notice &#8220;headers already sent&#8221; messages, problems with "
-"syndication feeds or other issues, try deactivating or removing this plugin."
+"syndication feeds or other issues, try deactivating or removing this %s."
 msgstr ""
 "Si vous remarquez des messages « headers already sent », des problèmes avec "
 "vos flux de syndication ou d’autres soucis, essayez de désactiver ou de "
-"supprimer cette extension."
+"supprimer cet élément de type %s."
 
-#: wp-admin/plugins.php:650
+#. translators: %s: Plugin Type singular name.
+#: wp-admin/plugins.php:789
 msgid ""
-"Plugin could not be resumed because it triggered a <strong>fatal error</"
+"%s could not be resumed because it triggered a <strong>fatal error</strong>."
+msgstr ""
+"L’élément de type %s n’a pas pu être relancé car il a déclenché une "
+"<strong>erreur fatale</strong>."
+
+#. translators: %s: Plugin Type singular name.
+#: wp-admin/plugins.php:795
+msgid ""
+"%s could not be activated because it triggered a <strong>fatal error</"
 "strong>."
 msgstr ""
-"L’extension n’a pas pu être relancée car elle a déclenché une <strong>erreur "
-"fatale</strong>."
+"L’élément de type %s n’a pas pu être activé, car il a déclenché une "
+"<strong>erreur fatale</strong>."
 
-#: wp-admin/plugins.php:652
-msgid ""
-"Plugin could not be activated because it triggered a <strong>fatal error</"
-"strong>."
+#. translators: 1: Plugin type singular name, 2: Error message.
+#: wp-admin/plugins.php:831
+msgid "%1$s could not be deleted due to an error: %2$s"
 msgstr ""
-"L’extension n’a pas pu être activée, car elle a déclenché une <strong>erreur "
-"fatale</strong>."
+"L’élément de type %1$s n’a pu être supprimé suite à une erreur fatale : %2$s"
 
-#. translators: %s: Error message.
-#: wp-admin/plugins.php:686
-msgid "Plugin could not be deleted due to an error: %s"
-msgstr "L’extension n’a pu être supprimée suite à une erreur fatale : %s"
+#. translators: %s: Plugin Type singular name.
+#: wp-admin/plugins.php:847
+msgid "The selected %s has been deleted."
+msgstr "L’élément de type %s sélectionné a été supprimé."
 
-#: wp-admin/plugins.php:699
-msgid "The selected plugin has been deleted."
-msgstr "L’extension sélectionnée a été supprimée."
+#. translators: %s: Plugin Type plural name.
+#: wp-admin/plugins.php:853
+msgid "The selected %s have been deleted."
+msgstr "Les éléments de type %s sélectionnés ont été supprimés."
 
-#: wp-admin/plugins.php:701
-msgid "The selected plugins have been deleted."
-msgstr "Les extensions sélectionnées ont été supprimées."
+#. translators: %s: Plugin Type singular name.
+#: wp-admin/plugins.php:861
+msgid "%s activated."
+msgstr "Élément de type %s activé."
 
-#: wp-admin/plugins.php:706
-msgid "Plugin activated."
-msgstr "Extension activée."
+#. translators: %s: Plugin Type plural name.
+#: wp-admin/plugins.php:864
+msgid "Selected %s activated."
+msgstr "Les éléments de type %s sélectionnés ont été activés."
 
-#: wp-admin/plugins.php:708
-msgid "Selected plugins activated."
-msgstr "Extensions sélectionnées activées."
+#. translators: %s: Plugin Type singular name.
+#: wp-admin/plugins.php:867
+msgid "%s deactivated."
+msgstr "L’élément de type %s a été désactivé."
 
-#: wp-admin/plugins.php:710
-msgid "Plugin deactivated."
-msgstr "Extension désactivée."
+#. translators: %s: Plugin Type plural name.
+#: wp-admin/plugins.php:870
+msgid "Selected %s deactivated."
+msgstr "Les élément de type %s sélectionnés ont été désactivés."
 
-#: wp-admin/plugins.php:712
-msgid "Selected plugins deactivated."
-msgstr "Extensions sélectionnées désactivées."
+#. translators: %s: Plugin Type plural name.
+#: wp-admin/plugins.php:873
+msgid "All selected %s are up to date."
+msgstr "Tous les élément de type %s sélectionnés sont à jour."
 
-#: wp-admin/plugins.php:714
-msgid "All selected plugins are up to date."
-msgstr "Toutes les extensions sélectionnées sont à jour."
+#. translators: %s: Plugin Type singular name.
+#: wp-admin/plugins.php:876
+msgid "%s resumed."
+msgstr "L’élément de type %s a été relancé."
 
-#: wp-admin/plugins.php:716
-msgid "Plugin resumed."
-msgstr "Extension reprise."
+#. translators: %s: Plugin Type singular name.
+#: wp-admin/plugins.php:879
+msgid "%s will be auto-updated."
+msgstr "L’élément de type %s sera mis à jour automatiquement."
 
-#: wp-admin/plugins.php:718
-msgid "Plugin will be auto-updated."
-msgstr "L’extension sera mise à jour automatiquement."
+#. translators: %s: Plugin Type singular name.
+#: wp-admin/plugins.php:882
+msgid "%s will no longer be auto-updated."
+msgstr "L’élément de type %s ne sera plus mis à jour automatiquement."
 
-#: wp-admin/plugins.php:720
-msgid "Plugin will no longer be auto-updated."
-msgstr "L’extension ne sera plus mise à jour automatiquement."
-
-#: wp-admin/plugins.php:722
+#. translators: %s: Plugin Type plural name.
+#: wp-admin/plugins.php:885
 msgid "Selected plugins will be auto-updated."
 msgstr "Les extensions sélectionnées seront mises à jour automatiquement."
 
-#: wp-admin/plugins.php:724
+#. translators: %s: Plugin Type plural name.
+#: wp-admin/plugins.php:888
 msgid "Selected plugins will no longer be auto-updated."
 msgstr ""
 "Les extensions sélectionnées ne seront plus mises à jour automatiquement."
 
-#: wp-admin/plugins.php:776
-msgid "Search installed plugins"
-msgstr "Rechercher des extensions installées"
+#. Translators: %s: Plugin type plural name.
+#: wp-admin/plugins.php:950
+msgid "Search installed %s"
+msgstr "Rechercher dans les installations de %s"
 
 #: wp-admin/post.php:49
 msgid "A post type mismatch has been detected."
@@ -16113,114 +16120,10 @@ msgid_plural "%s items with no issues detected"
 msgstr[0] "%s élément sans problème détecté"
 msgstr[1] "%s éléments sans problème détectés"
 
-#: wp-admin/theme-editor.php:24
-msgid "Edit Themes"
-msgstr "Modifier les thèmes"
-
-#: wp-admin/theme-editor.php:32
-msgid ""
-"You can use the theme file editor to edit the individual CSS and PHP files "
-"which make up your theme."
+#: wp-admin/theme-editor.php:18
+msgid "Editing theme files is not supported by Retraceur."
 msgstr ""
-"Vous pouvez utiliser l’éditeur de fichiers des thèmes pour modifier les "
-"fichiers CSS et PHP qui composent votre thème."
-
-#: wp-admin/theme-editor.php:33
-msgid ""
-"Begin by choosing a theme to edit from the dropdown menu and clicking the "
-"Select button. A list then appears of the theme&#8217;s template files. "
-"Clicking once on any file name causes the file to appear in the large Editor "
-"box."
-msgstr ""
-"Commencez par choisir un thème à modifier via le menu déroulant, et cliquez "
-"sur « Sélectionner ». Une liste apparaîtra ensuite avec tous les fichiers "
-"gabarits. En cliquant sur n’importe lequel de ces fichiers, vous verrez son "
-"contenu apparaître dans l’éditeur."
-
-#: wp-admin/theme-editor.php:34
-msgid ""
-"For PHP files, you can use the documentation dropdown to select from "
-"functions recognized in that file. Look Up takes you to a web page with "
-"reference material about that particular function."
-msgstr ""
-"Pour les fichiers PHP, vous pouvez utiliser le menu déroulant "
-"« Documentation » pour en apprendre plus sur les fonctions trouvées dans le "
-"ce fichier. Le bouton « Consulter » vous enverra sur la page dédiée de cette "
-"fonction."
-
-#: wp-admin/theme-editor.php:41
-msgid "After typing in your edits, click Update File."
-msgstr ""
-"Après avoir fait vos modifications, cliquez sur « Mettre à jour le fichier »."
-
-#: wp-admin/theme-editor.php:42
-msgid ""
-"<strong>Advice:</strong> Think very carefully about your site crashing if "
-"you are live-editing the theme currently in use."
-msgstr ""
-"<strong>Conseil :</strong> gardez bien en tête que si vous modifiez le thème "
-"actuellement utilisé, vos visiteurs pourraient avoir une vision déroutante "
-"de votre site."
-
-#: wp-admin/theme-editor.php:43
-msgid ""
-"Upgrading to a newer version of the same theme will override changes made "
-"here. To avoid this, consider creating a child theme instead."
-msgstr ""
-"La mise à jour vers une nouvelle version du thème supprimera les "
-"modifications que vous aurez faites. Pour éviter cela, nous vous conseillons "
-"de passer plutôt par un thème enfant."
-
-#: wp-admin/theme-editor.php:205
-msgid "Select theme to edit:"
-msgstr "Sélectionnez le thème à modifier :"
-
-#: wp-admin/theme-editor.php:227
-msgid "This theme is broken."
-msgstr "Le thème est cassé."
-
-#: wp-admin/theme-editor.php:236
-msgid "Theme Files"
-msgstr "Fichiers du thème"
-
-#. translators: %s: Link to edit parent theme.
-#: wp-admin/theme-editor.php:243
-msgid "This child theme inherits templates from a parent theme, %s."
-msgstr "Ce thème enfant hérite de certains gabarits de son thème parent, %s."
-
-#: wp-admin/theme-editor.php:286
-msgid "This is a file in your current parent theme."
-msgstr "Ceci est un fichier de votre thème parent actuel."
-
-#: wp-admin/theme-editor.php:344
-msgid ""
-"You appear to be making direct edits to your theme in the Retraceur "
-"dashboard. It is not recommended! Editing your theme directly could break "
-"your site and your changes may be lost in future updates."
-msgstr ""
-"Vous semblez vouloir effectuer des modifications directes pour votre thème "
-"dans le tableau de bord Retraceur. Ce n’est pas recommandé ! Modifier votre "
-"thème directement pourrait casser votre site et vos modifications peuvent "
-"être perdues avec les futures mises à jour."
-
-#: wp-admin/theme-editor.php:350
-msgid ""
-"If you need to tweak more than your theme&#8217;s CSS, you might want to try "
-"making a child theme."
-msgstr ""
-"Si vous avez besoin d’ajuster plus que le CSS de votre thème, vous voudrez "
-"peut-être essayer de construire un thème enfant."
-
-#: wp-admin/theme-editor.php:354
-msgid ""
-"If you decide to go ahead with direct edits anyway, use a file manager to "
-"create a copy with a new name and hang on to the original. That way, you can "
-"re-enable a functional version if something goes wrong."
-msgstr ""
-"Si vous décidez de foncer et de tout de même modifier le code directement, "
-"utilisez un gestionnaire de fichiers pour en créer une copie avec un autre "
-"nom et gardez-le près du code original. Ainsi, vous pourrez réactiver une "
-"version fonctionnelle si quelque chose tourne mal."
+"La modification de fichiers de thème n’est pas supportée par Retraceur."
 
 #: wp-admin/theme-install.php:27
 msgid "Add Themes"
@@ -16236,7 +16139,7 @@ msgid "Search Themes"
 msgstr "Rechercher des thèmes"
 
 #: wp-admin/theme-install.php:61 wp-admin/theme-install.php:151
-#: wp-admin/theme-install.php:153 wp-admin/update.php:318
+#: wp-admin/theme-install.php:153 wp-admin/update.php:339
 msgid "Upload Theme"
 msgstr "Téléverser un thème"
 
@@ -17100,26 +17003,43 @@ msgstr "L’extension n’a pu être réactivée suite à une erreur fatale."
 msgid "Installing Plugin: %s"
 msgstr "Extension en cours d’installation : %s"
 
-#: wp-admin/update.php:160 wp-admin/update.php:312
+#: wp-admin/update.php:158
+msgid "blocks"
+msgstr "blocs"
+
+#: wp-admin/update.php:158
+msgid "plugins"
+msgstr "extensions"
+
+#: wp-admin/update.php:166 wp-admin/update.php:333
 msgid "Only .zip archives may be uploaded."
 msgstr "Uniquement les archives .zip peuvent être téléversées."
 
-#. translators: %s: File name.
-#: wp-admin/update.php:173
-msgid "Installing plugin from uploaded file: %s"
-msgstr "Installation de l’extension à partir du fichier téléversé : %s"
+#. translators: %1$s: Plugin type. %2$s: File name.
+#: wp-admin/update.php:186
+msgid "Installing %1$s from uploaded file: %2$s"
+msgstr ""
+"Installation de l’élément de type %1$s à partir du fichier chargé : %2$s"
 
-#: wp-admin/update.php:286
+#: wp-admin/update.php:187
+msgid "block"
+msgstr "bloc"
+
+#: wp-admin/update.php:187
+msgid "plugin"
+msgstr "extension"
+
+#: wp-admin/update.php:307
 msgid "Install Themes"
 msgstr "Installer des thèmes"
 
 #. translators: %s: Theme name and version.
-#: wp-admin/update.php:293
+#: wp-admin/update.php:314
 msgid "Installing Theme: %s"
 msgstr "Installation du thème : %s"
 
 #. translators: %s: File name.
-#: wp-admin/update.php:325
+#: wp-admin/update.php:346
 msgid "Installing theme from uploaded file: %s"
 msgstr "Installation du thème à partir du fichier téléversé : %s"
 

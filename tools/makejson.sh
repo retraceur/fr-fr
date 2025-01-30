@@ -28,7 +28,6 @@ wp i18n make-json js-po/admin-site-health ./ --no-purge
 wp i18n make-json js-po/admin-site-icon ./ --no-purge
 wp i18n make-json js-po/admin-tags-box ./ --no-purge
 wp i18n make-json js-po/admin-tags ./ --no-purge
-wp i18n make-json js-po/admin-theme-plugin-editor ./ --no-purge
 wp i18n make-json js-po/admin-updates ./ --no-purge
 wp i18n make-json js-po/admin-user-profile ./ --no-purge
 wp i18n make-json js-po/dist-a11y ./ --no-purge
