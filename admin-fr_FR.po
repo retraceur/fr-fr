@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Retraceur - 1.0.0 - Administration\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-01T03:31:33+00:00\n"
-"PO-Revision-Date: 2025-02-01 05:39+0100\n"
+"POT-Creation-Date: 2025-02-04T21:11:46+00:00\n"
+"PO-Revision-Date: 2025-02-04 23:54+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -464,83 +464,114 @@ msgstr ""
 msgid "Get Involved"
 msgstr "Contribuez"
 
-#: wp-admin/contribute.php:42
-msgid "No-code contribution"
-msgstr "Contributer sans coder"
-
-#: wp-admin/contribute.php:43
-msgid ""
-"Retraceur may thrive on technical contributions, but you don&#8217;t have to "
-"code to contribute. Here are some of the ways you can make an impact without "
-"writing a single line of code:"
-msgstr ""
-"Retraceur se nourrit de contributions techniques, mais il n’est pas "
-"nécessaire de savoir coder pour contribuer. Voici quelques-unes des façons "
-"qui vous permettent d’avoir un impact sans écrire une seule ligne de code :"
-
-#: wp-admin/contribute.php:45
-msgid "<strong>Write</strong> or improve documentation for Retraceur."
-msgstr "<strong>Rédigez</strong> ou améliorez la documentation de Retraceur."
-
+#. Translators: %s: Heart emoji.
 #: wp-admin/contribute.php:46
-msgid "<strong>Translate</strong> Retraceur into your local language."
-msgstr "<strong>Traduisez</strong> Retraceur dans votre langue."
+msgid "First off, thanks for taking the time to contribute %s!"
+msgstr "Tout d'abord, merci de prendre le temps de contribuer %s !"
 
-#: wp-admin/contribute.php:47
+#. Translators: 1: Retraceur Cœeur GitHub repository URL. 2: Retraceur documentation GitHub repository URL. 3: Retraceur Cœeur GitHub issues URL. 4: Retraceur Cœeur GitHub PR URL.
+#: wp-admin/contribute.php:59
 msgid ""
-"<strong>Explore</strong> ways to reduce the environmental impact of websites."
+"All types of contributions are encouraged and valued: you can contribute "
+"with %1$s, %2$s, translations, testing pre-releases, %3$s and %4$s."
 msgstr ""
-"<strong>Explorez</strong> les moyens de réduire l’impact environnemental des "
-"millions de sites."
-
-#: wp-admin/contribute.php:53
-msgid "Code-based contribution"
-msgstr "Contribution au code"
-
-#: wp-admin/contribute.php:54
-msgid ""
-"If you do code, or want to learn how, you can contribute technically in "
-"numerous ways:"
-msgstr ""
-"Si vous codez, ou souhaitez apprendre à le faire, vous pouvez contribuer "
-"techniquement de nombreuses manières :"
-
-#: wp-admin/contribute.php:56
-msgid "<strong>Find</strong> and report bugs in the Retraceur core software."
-msgstr ""
-"<strong>Trouvez</strong> et signalez des bogues dans le cœur de Retraceur."
-
-#: wp-admin/contribute.php:57
-msgid ""
-"<strong>Test</strong> new releases and proposed features for the Block "
-"Editor."
-msgstr ""
-"<strong>Testez</strong> les nouvelles versions et fonctionnalités proposées "
-"pour l’éditeur de blocs."
-
-#: wp-admin/contribute.php:58
-msgid ""
-"<strong>Write</strong> and submit patches to fix bugs or help build new "
-"features."
-msgstr ""
-"<strong>Écrivez</strong> et envoyez des corrections de bogues ou contribuez "
-"à l’élaboration de nouvelles fonctionnalités"
+"Tous les types de contributions sont encouragés et appréciés : vous pouvez "
+"contribuer au %1$s, à la %2$s, aux traductions, aux tests de pré-versions, "
+"%3$s et %4$s."
 
 #: wp-admin/contribute.php:60
-msgid ""
-"Retraceur embraces new technologies, while being committed to backward "
-"compatibility. The Retraceur project uses the following languages and "
-"libraries:"
-msgstr ""
-"Retraceur suit avec attention les évolutions technologiques, le projet "
-"Retraceur utilise les langages et outils suivants :"
+msgid "code"
+msgstr "code"
+
+#: wp-admin/contribute.php:61
+msgid "documentation"
+msgstr "documentation"
 
 #: wp-admin/contribute.php:62
+msgid "reporting issues"
+msgstr "en signalant des anomalies"
+
+#: wp-admin/contribute.php:63
+msgid "suggesting pull requests"
+msgstr "en proposant des demandes de tirage"
+
+#: wp-admin/contribute.php:67
 msgid ""
-"Retraceur Core and Block Editor: HTML, CSS, PHP, SQL, JavaScript, and React."
+"And if you like the project, but just don’t have time to contribute, that’s "
+"fine. There are other easy ways to support the project and show your "
+"appreciation, which we would also be very happy about:"
 msgstr ""
-"Cœur de Retraceur et éditeur de blocs : HTML, CSS, PHP, SQL, JavaScript et "
-"React."
+"Et si vous aimez le projet mais n’avez pas le temps de contribuer, tout va "
+"bien. Il existe d’autres moyens de soutenir le projet et de montrer que vous "
+"l’appréciez, nous serons également très heureux si vous :"
+
+#. Translators: 1: Star emoji. 2: Retraceur Cœeur GitHub repository URL.
+#: wp-admin/contribute.php:73
+msgid "Star %1$s the project on %2$s."
+msgstr "Étoilez %1$s le projet sur %2$s."
+
+#. Translators: %s: Retraceur Bluesky profile URL.
+#: wp-admin/contribute.php:83
+msgid "Follow %s on Bluesky and/or share posts about it."
+msgstr "Suivez %s sur Bluesky et/ou y partagez à son propos."
+
+#: wp-admin/contribute.php:88
+msgid "Mention the project at local meetups and tell your friends/colleagues"
+msgstr ""
+"Mentionnez le projet lors de rencontres locales et en parlez à vos ami·e·s/"
+"collègues."
+
+#: wp-admin/contribute.php:95
+msgid "Code of conduct"
+msgstr "Code de conduite"
+
+#. Translators: %s: Retraceur Code of conduct link.
+#: wp-admin/contribute.php:100
+msgid ""
+"This project and everyone participating in it is governed by the %s. By "
+"participating, you are expected to uphold this code."
+msgstr ""
+"Ce projet et tou·te·s ses contributeur·rice·s sont régis par ce %s. En "
+"participant, vous êtes tenu·e de respecter ce code."
+
+#: wp-admin/contribute.php:101
+msgid "https://retraceur.github.io/rules/code-of-conduct/"
+msgstr "https://retraceur.github.io/fr/rules/code-of-conduct/"
+
+#: wp-admin/contribute.php:101
+msgid "Retraceur Code of Conduct"
+msgstr "Code de conduite de Retraceur"
+
+#: wp-admin/contribute.php:110
+msgid "Legal Notice"
+msgstr "Mentions légales"
+
+#: wp-admin/contribute.php:111
+msgid ""
+"When contributing to this project, you must agree that you have authored "
+"100% of the content, that you have the necessary rights to the content and "
+"that the content you contribute may be provided under the GPL."
+msgstr ""
+"En contribuant à ce projet, vous devez vous engager à être l’auteur·e de "
+"100% du contenu proposé, vous assurer que vous disposez des droits "
+"nécessaires sur ce contenu et que le contenu que vous apportez peut être "
+"fourni sous la licence GPL."
+
+#: wp-admin/contribute.php:117
+msgid "Reporting security issues"
+msgstr "Signaler des vulnérabilités"
+
+#. Translators: %s: Email address to report security issues.
+#: wp-admin/contribute.php:122
+msgid ""
+"You must never report security related issues, vulnerabilities or bugs "
+"including sensitive information to the issue tracker, or elsewhere in "
+"public. Instead sensitive bugs must be sent by email to <%s>."
+msgstr ""
+"Vous ne devez jamais signaler des anomalies de sécurité, des vulnérabilités "
+"ou des informations sensibles à l’aide de l’outil de suivi des anomalies ou "
+"n’importe où ailleurs en public. À la place ces anomalies critiques doivent "
+"être transmises par courriel à <%s>."
 
 #: wp-admin/credits.php:44
 msgid "Retraceur is currently maintained by a unique contributor!"
@@ -692,7 +723,7 @@ msgstr "Erreur: objet invalide."
 msgid "Media file updated."
 msgstr "Fichier média mis à jour."
 
-#: wp-admin/edit-media-form.php:89 wp-admin/edit-tags.php:261
+#: wp-admin/edit-media-form.php:89 wp-admin/edit-tags.php:264
 #: wp-admin/edit.php:245 wp-admin/edit.php:296
 #: wp-admin/erase-personal-data.php:25 wp-admin/export-personal-data.php:25
 #: wp-admin/export.php:53 wp-admin/includes/class-custom-background.php:101
@@ -758,7 +789,7 @@ msgstr ""
 msgid "Add New Media File"
 msgstr "Ajouter fichier de media"
 
-#: wp-admin/edit-tag-form.php:142 wp-admin/edit-tags.php:423
+#: wp-admin/edit-tag-form.php:142 wp-admin/edit-tags.php:426
 #: wp-admin/includes/class-wp-terms-list-table.php:194
 #: wp-admin/includes/class-wp-terms-list-table.php:216
 #: wp-admin/includes/class-wp-terms-list-table.php:693
@@ -767,7 +798,7 @@ msgid "Name"
 msgstr "Nom"
 
 #. translators: Hidden accessibility text.
-#: wp-admin/edit-tag-form.php:147 wp-admin/edit-tags.php:428
+#: wp-admin/edit-tag-form.php:147 wp-admin/edit-tags.php:431
 #: wp-admin/includes/class-wp-posts-list-table.php:1686
 #: wp-admin/includes/class-wp-terms-list-table.php:196
 #: wp-admin/includes/class-wp-terms-list-table.php:218
@@ -776,14 +807,14 @@ msgstr "Nom"
 msgid "Slug"
 msgstr "Portion d’URL"
 
-#: wp-admin/edit-tag-form.php:181 wp-admin/edit-tags.php:443
+#: wp-admin/edit-tag-form.php:181 wp-admin/edit-tags.php:446
 #: wp-admin/includes/class-wp-debug-data.php:1037
 #: wp-admin/includes/media.php:1162 wp-admin/includes/media.php:1290
 #: wp-admin/includes/media.php:2986 wp-admin/includes/media.php:3002
 msgid "None"
 msgstr "Aucun"
 
-#: wp-admin/edit-tag-form.php:190 wp-admin/edit-tags.php:474
+#: wp-admin/edit-tag-form.php:190 wp-admin/edit-tags.php:477
 msgid ""
 "Categories, unlike tags, can have a hierarchy. You might have a Jazz "
 "category, and under that have children categories for Bebop and Big Band. "
@@ -793,7 +824,7 @@ msgstr ""
 "Vous pouvez avoir une catégorie nommée Jazz, et à l’intérieur, plusieurs "
 "catégories comme Bebop et Big Band. Ceci est totalement facultatif."
 
-#: wp-admin/edit-tag-form.php:198 wp-admin/edit-tags.php:481
+#: wp-admin/edit-tag-form.php:198 wp-admin/edit-tags.php:484
 #: wp-admin/includes/class-wp-plugins-list-table.php:500
 #: wp-admin/includes/class-wp-terms-list-table.php:195
 #: wp-admin/includes/class-wp-terms-list-table.php:217
@@ -886,7 +917,7 @@ msgid "Sorry, you are not allowed to edit this item."
 msgstr "Désolé, vous n’avez pas l’autorisation de modifier cet élément."
 
 #. translators: %s: URL to Writing Settings screen.
-#: wp-admin/edit-tags.php:249
+#: wp-admin/edit-tags.php:252
 msgid ""
 "You can use categories to define sections of your site and group related "
 "posts. The default category is &#8220;Uncategorized&#8221; until you change "
@@ -897,7 +928,7 @@ msgstr ""
 "classé » ; vous pouvez la modifier dans vos <a href=\"%s\">options "
 "d’écriture</a>."
 
-#: wp-admin/edit-tags.php:253
+#: wp-admin/edit-tags.php:256
 msgid ""
 "You can assign keywords to your posts using <strong>tags</strong>. Unlike "
 "categories, tags have no hierarchy, meaning there is no relationship from "
@@ -907,7 +938,7 @@ msgstr ""
 "section dédiée. Au contraire des catégories, les étiquettes n’ont aucune "
 "hiérarchie, ce qui signifie qu’elles ne peuvent pas être liées entre elles."
 
-#: wp-admin/edit-tags.php:256
+#: wp-admin/edit-tags.php:259
 msgid ""
 "What&#8217;s the difference between categories and tags? Normally, tags are "
 "ad-hoc keywords that identify important information in your post (names, "
@@ -923,7 +954,7 @@ msgstr ""
 "prédéterminées. Si vous voyez votre site comme un livre, alors les "
 "catégories sont la table des matières, et les étiquettes forment l’index."
 
-#: wp-admin/edit-tags.php:268
+#: wp-admin/edit-tags.php:271
 msgid ""
 "When adding a new category on this screen, you&#8217;ll fill in the "
 "following fields:"
@@ -931,7 +962,7 @@ msgstr ""
 "Quand vous ajoutez une nouvelle catégorie via cet écran, vous devez remplir "
 "les champs suivants :"
 
-#: wp-admin/edit-tags.php:270
+#: wp-admin/edit-tags.php:273
 msgid ""
 "When adding a new tag on this screen, you&#8217;ll fill in the following "
 "fields:"
@@ -939,13 +970,13 @@ msgstr ""
 "Quand vous ajoutez une nouvelle étiquette via cet écran, vous devez remplir "
 "les champs suivants :"
 
-#: wp-admin/edit-tags.php:274
+#: wp-admin/edit-tags.php:277
 msgid "<strong>Name</strong> &mdash; The name is how it appears on your site."
 msgstr ""
 "<strong>Nom</strong> &mdash; Le nom est utilisé un peu partout sur votre "
 "site."
 
-#: wp-admin/edit-tags.php:276
+#: wp-admin/edit-tags.php:279
 msgid ""
 "<strong>Slug</strong> &mdash; The &#8220;slug&#8221; is the URL-friendly "
 "version of the name. It is usually all lowercase and contains only letters, "
@@ -955,7 +986,7 @@ msgstr ""
 "ne contient généralement que des lettres minuscules non accentuées, des "
 "chiffres et des traits d’union."
 
-#: wp-admin/edit-tags.php:279
+#: wp-admin/edit-tags.php:282
 msgid ""
 "<strong>Parent</strong> &mdash; Categories, unlike tags, can have a "
 "hierarchy. You might have a Jazz category, and under that have child "
@@ -969,7 +1000,7 @@ msgstr ""
 "créer une sous-catégorie, choisissez juste une autre catégorie depuis la "
 "liste déroulante « Parente »."
 
-#: wp-admin/edit-tags.php:282
+#: wp-admin/edit-tags.php:285
 msgid ""
 "<strong>Description</strong> &mdash; The description is not prominent by "
 "default; however, some themes may display it."
@@ -977,7 +1008,7 @@ msgstr ""
 "<strong>Description</strong> &mdash; La description n’est pas très utilisée "
 "par défaut, cependant de plus en plus de thèmes l’affichent."
 
-#: wp-admin/edit-tags.php:284
+#: wp-admin/edit-tags.php:287
 msgid ""
 "You can change the display of this screen using the Screen Options tab to "
 "set how many items are displayed per screen and to display/hide columns in "
@@ -987,22 +1018,22 @@ msgstr ""
 "l’écran », afin de définir le nombre d’éléments à afficher par écran, et "
 "afficher/masquer les colonnes du tableau."
 
-#: wp-admin/edit-tags.php:289
+#: wp-admin/edit-tags.php:292
 msgid "Adding Categories"
 msgstr "Ajout de catégories"
 
-#: wp-admin/edit-tags.php:289
+#: wp-admin/edit-tags.php:292
 msgid "Adding Tags"
 msgstr "Ajout d’étiquettes"
 
 #. translators: %s: Search query.
-#: wp-admin/edit-tags.php:312 wp-admin/edit.php:409 wp-admin/plugins.php:900
+#: wp-admin/edit-tags.php:315 wp-admin/edit.php:409 wp-admin/plugins.php:900
 #: wp-admin/upload.php:420 wp-admin/users.php:801
 msgid "Search results for: %s"
 msgstr "Résultats de recherche pour : %s"
 
 #. translators: %s: Default category.
-#: wp-admin/edit-tags.php:581
+#: wp-admin/edit-tags.php:584
 msgid ""
 "Deleting a category does not delete the posts in that category. Instead, "
 "posts that were only assigned to the deleted category are set to the default "
@@ -1806,8 +1837,9 @@ msgid "Download Export File"
 msgstr "Télécharger le fichier d’exportation"
 
 #: wp-admin/freedoms.php:49
-msgid "Retraceur is Free & Open Source. Its license is the GPL."
-msgstr "Retraceur est libre et open-source. Sa licence est la GPL."
+msgid "Retraceur is **really** Free & Open Source. Its license is the GPL."
+msgstr ""
+"Retraceur est **réellement** libre et open-source. Sa licence est la GPL."
 
 #: wp-admin/import.php:19
 msgid "Retraceur does not provide Importers."
@@ -3249,8 +3281,8 @@ msgstr "Activer l’extension"
 #: wp-admin/includes/class-wp-plugins-list-table.php:642
 #: wp-admin/includes/class-wp-plugins-list-table.php:872
 #: wp-admin/includes/class-wp-plugins-list-table.php:889
-#: wp-admin/includes/plugin-install.php:953
-#: wp-admin/includes/plugin-install.php:971
+#: wp-admin/includes/plugin-install.php:952
+#: wp-admin/includes/plugin-install.php:970
 msgctxt "plugin"
 msgid "Network Activate"
 msgstr "Activer sur le réseau"
@@ -4573,7 +4605,7 @@ msgstr "Version %1$s par %2$s"
 #. translators: %s: Plugin author name.
 #: wp-admin/includes/class-wp-debug-data.php:724
 #: wp-admin/includes/class-wp-debug-data.php:900
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:529
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:525
 #: wp-admin/includes/class-wp-plugins-list-table.php:1219
 msgctxt "plugin"
 msgid "By %s"
@@ -5222,9 +5254,9 @@ msgstr "Non publié"
 
 #. translators: %s: Human-readable time difference.
 #: wp-admin/includes/class-wp-media-list-table.php:546
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:666
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:662
 #: wp-admin/includes/class-wp-privacy-requests-table.php:483
-#: wp-admin/includes/plugin-install.php:667 wp-admin/includes/revision.php:256
+#: wp-admin/includes/plugin-install.php:666 wp-admin/includes/revision.php:256
 #: wp-admin/includes/revision.php:299
 msgid "%s ago"
 msgstr "il y a %s"
@@ -5362,44 +5394,44 @@ msgstr "Charger une extension"
 msgid "No plugins found. Try a different search."
 msgstr "Aucune extension trouvée. Essayez une recherche différente."
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:471
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:467
 msgctxt "Plugin installer group title"
 msgid "Performance"
 msgstr "Performances"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:472
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:468
 msgctxt "Plugin installer group title"
 msgid "Social"
 msgstr "Social"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:473
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:469
 msgctxt "Plugin installer group title"
 msgid "Tools"
 msgstr "Outils"
 
 #. translators: %s: Plugin name.
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:552
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:787
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:548
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:783
 #: wp-admin/includes/class-wp-plugins-list-table.php:1233
 #: wp-admin/includes/class-wp-plugins-list-table.php:1675
 msgid "More information about %s"
 msgstr "Plus d’informations à propos de %s"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:554
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:789
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:550
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:785
 msgid "More Details"
 msgstr "Plus de détails"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:586
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:582
 #: wp-admin/includes/class-wp-plugins-list-table.php:1456
 msgid "This plugin does not work with your versions of Retraceur and PHP."
 msgstr ""
 "Cette extension ne fonctionne pas avec vos versions de Retraceur et de PHP."
 
 #. translators: %s: URL to Retraceur Updates screen.
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:590
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:596
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:605
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:586
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:592
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:601
 #: wp-admin/includes/class-wp-plugins-list-table.php:1460
 #: wp-admin/includes/class-wp-plugins-list-table.php:1466
 #: wp-admin/includes/class-wp-plugins-list-table.php:1475
@@ -5419,54 +5451,54 @@ msgstr ""
 msgid "<a href=\"%s\">Please update Retraceur</a>."
 msgstr "<a href=\"%s\">Merci de mettre à jour Retraceur</a>."
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:601
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:597
 #: wp-admin/includes/class-wp-plugins-list-table.php:1471
 msgid "This plugin does not work with your version of Retraceur."
 msgstr "Cette extension ne fonctionne pas avec votre version de Retraceur."
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:610
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:606
 #: wp-admin/includes/class-wp-plugins-list-table.php:1480
 msgid "This plugin does not work with your version of PHP."
 msgstr "Cette extension ne fonctionne pas avec votre version de PHP."
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:663
-#: wp-admin/includes/plugin-install.php:664
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:659
+#: wp-admin/includes/plugin-install.php:663
 msgid "Last Updated:"
 msgstr "Dernière mise à jour :"
 
 #. translators: %s: Number of millions.
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:675
-#: wp-admin/includes/plugin-install.php:695
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:671
+#: wp-admin/includes/plugin-install.php:694
 msgctxt "Active plugin installations"
 msgid "%s+ Million"
 msgid_plural "%s+ Million"
 msgstr[0] "%s million et +"
 msgstr[1] "%s millions et +"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:679
-#: wp-admin/includes/plugin-install.php:699
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:675
+#: wp-admin/includes/plugin-install.php:698
 msgctxt "Active plugin installations"
 msgid "Less Than 10"
 msgstr "Inférieur à 10"
 
 #. translators: %s: Number of installations.
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:684
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:680
 msgid "%s Active Installations"
 msgstr "%s installations actives"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:690
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:686
 msgid "Untested with your version of Retraceur"
 msgstr "Non testé avec votre version de Retraceur"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:692
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:688
 msgid "<strong>Incompatible</strong> with your version of Retraceur"
 msgstr "<strong>Incompatible</strong> avec votre version de Retraceur"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:694
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:690
 msgid "<strong>Compatible</strong> with your version of Retraceur"
 msgstr "<strong>Compatible</strong> avec votre version de Retraceur"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:755
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:751
 msgid "Additional plugins are required"
 msgstr "Des extensions supplémentaires sont nécessaires."
 
@@ -5591,9 +5623,9 @@ msgstr[1] "Mises à jour auto désactivées <span class=\"count\">(%s)</span>"
 #: wp-admin/includes/class-wp-plugins-list-table.php:642
 #: wp-admin/includes/class-wp-plugins-list-table.php:978
 #: wp-admin/includes/class-wp-plugins-list-table.php:995
-#: wp-admin/includes/plugin-install.php:826
-#: wp-admin/includes/plugin-install.php:940
-#: wp-admin/includes/plugin-install.php:971
+#: wp-admin/includes/plugin-install.php:825
+#: wp-admin/includes/plugin-install.php:939
+#: wp-admin/includes/plugin-install.php:970
 msgctxt "plugin"
 msgid "Activate"
 msgstr "Activer"
@@ -5662,7 +5694,7 @@ msgstr ""
 
 #. translators: %s: Plugin name.
 #: wp-admin/includes/class-wp-plugins-list-table.php:888
-#: wp-admin/includes/plugin-install.php:955
+#: wp-admin/includes/plugin-install.php:954
 msgctxt "plugin"
 msgid "Network Activate %s"
 msgstr "Activer %s sur le réseau"
@@ -5720,7 +5752,7 @@ msgstr "Relancer"
 
 #. translators: %s: Plugin name.
 #: wp-admin/includes/class-wp-plugins-list-table.php:994
-#: wp-admin/includes/plugin-install.php:942
+#: wp-admin/includes/plugin-install.php:941
 msgctxt "plugin"
 msgid "Activate %s"
 msgstr "Activer %s"
@@ -8509,7 +8541,7 @@ msgstr "Installer"
 
 #: wp-admin/includes/class-wp-theme-install-list-table.php:524
 #: wp-admin/includes/class-wp-themes-list-table.php:270
-#: wp-admin/includes/plugin-install.php:660
+#: wp-admin/includes/plugin-install.php:659
 msgid "Version:"
 msgstr "Version : "
 
@@ -10799,8 +10831,8 @@ msgstr "Archive Zip de l’extension"
 
 #: wp-admin/includes/plugin-install.php:364
 #: wp-admin/includes/plugin-install.php:388
-#: wp-admin/includes/plugin-install.php:898
-#: wp-admin/includes/plugin-install.php:903 wp-admin/press-this.php:65
+#: wp-admin/includes/plugin-install.php:897
+#: wp-admin/includes/plugin-install.php:902 wp-admin/press-this.php:65
 msgctxt "plugin"
 msgid "Install Now"
 msgstr "Installer maintenant"
@@ -10826,7 +10858,7 @@ msgstr ""
 "Vous utilisez une version en développement de Retraceur, tout comme ces "
 "extensions. "
 
-#: wp-admin/includes/plugin-install.php:410
+#: wp-admin/includes/plugin-install.php:412
 msgid ""
 "Plugins extend and expand the functionality of Retraceur. You may upload a "
 "plugin in .zip format by clicking the button at the top of this page."
@@ -10835,104 +10867,96 @@ msgstr ""
 "nouvelles. Vous pouvez installer des extensions en les chargeant une par une "
 "au format .zip grâce au bouton situé en haut de cette page."
 
-#: wp-admin/includes/plugin-install.php:413
-msgid ""
-"These suggestions are based on the plugins you and other users have "
-"installed."
-msgstr ""
-"Ces suggestions sont basées sur les extensions que vous et d’autres "
-"utilisateur·ice·s ont installées."
-
-#: wp-admin/includes/plugin-install.php:575
+#: wp-admin/includes/plugin-install.php:574
 msgctxt "Plugin installer section title"
 msgid "Description"
 msgstr "Description"
 
-#: wp-admin/includes/plugin-install.php:576
+#: wp-admin/includes/plugin-install.php:575
 msgctxt "Plugin installer section title"
 msgid "Installation"
 msgstr "Installation"
 
-#: wp-admin/includes/plugin-install.php:577
+#: wp-admin/includes/plugin-install.php:576
 msgctxt "Plugin installer section title"
 msgid "FAQ"
 msgstr "FAQ"
 
-#: wp-admin/includes/plugin-install.php:578
+#: wp-admin/includes/plugin-install.php:577
 msgctxt "Plugin installer section title"
 msgid "Screenshots"
 msgstr "Captures d’écrans"
 
-#: wp-admin/includes/plugin-install.php:579
+#: wp-admin/includes/plugin-install.php:578
 msgctxt "Plugin installer section title"
 msgid "Changelog"
 msgstr "Journal des modifications"
 
-#: wp-admin/includes/plugin-install.php:580
+#: wp-admin/includes/plugin-install.php:579
 msgctxt "Plugin installer section title"
 msgid "Reviews"
 msgstr "Avis"
 
-#: wp-admin/includes/plugin-install.php:581
+#: wp-admin/includes/plugin-install.php:580
 msgctxt "Plugin installer section title"
 msgid "Other Notes"
 msgstr "Autres notes"
 
-#: wp-admin/includes/plugin-install.php:604 wp-admin/update.php:130
+#: wp-admin/includes/plugin-install.php:603 wp-admin/update.php:130
 msgid "Plugin Installation"
 msgstr "Installation de l’extension"
 
-#: wp-admin/includes/plugin-install.php:662
+#: wp-admin/includes/plugin-install.php:661
 msgid "Author:"
 msgstr "Auteur·es :"
 
-#: wp-admin/includes/plugin-install.php:672
+#: wp-admin/includes/plugin-install.php:671
 msgid "Requires Retraceur Version:"
 msgstr "Version de Retraceur requise :"
 
 #. translators: %s: Version number.
-#: wp-admin/includes/plugin-install.php:675
-#: wp-admin/includes/plugin-install.php:685
+#: wp-admin/includes/plugin-install.php:674
+#: wp-admin/includes/plugin-install.php:684
 msgid "%s or higher"
 msgstr "%s ou plus"
 
-#: wp-admin/includes/plugin-install.php:679
+#: wp-admin/includes/plugin-install.php:678
 msgid "Compatible up to:"
 msgstr "Compatible jusqu’à la version : "
 
-#: wp-admin/includes/plugin-install.php:682
+#: wp-admin/includes/plugin-install.php:681
 msgid "Requires PHP Version:"
 msgstr "Nécessite PHP en version :"
 
-#: wp-admin/includes/plugin-install.php:689
+#: wp-admin/includes/plugin-install.php:688
 msgid "Active Installations:"
 msgstr "Installations actives :"
 
-#: wp-admin/includes/plugin-install.php:706
+#: wp-admin/includes/plugin-install.php:705
 msgid "Plugin Homepage &#187;"
 msgstr "Site de l’extension &#187;"
 
-#: wp-admin/includes/plugin-install.php:708
-#: wp-admin/includes/plugin-install.php:754
+#: wp-admin/includes/plugin-install.php:707
+#: wp-admin/includes/plugin-install.php:753
 msgid "Donate to this plugin &#187;"
 msgstr "Faire un don à cette extension &#187;"
 
-#: wp-admin/includes/plugin-install.php:712
+#: wp-admin/includes/plugin-install.php:711
 msgid "Average Rating"
 msgstr "Moyenne des notes"
 
 #. translators: %s: Number of ratings.
-#: wp-admin/includes/plugin-install.php:726
+#: wp-admin/includes/plugin-install.php:725
 msgid "(based on %s rating)"
 msgid_plural "(based on %s ratings)"
 msgstr[0] "(basée sur %s vote)"
 msgstr[1] "(basée sur %s votes)"
 
-#: wp-admin/includes/plugin-install.php:736
+#: wp-admin/includes/plugin-install.php:735
 msgid "Contributors"
 msgstr "Crédits"
 
-#: wp-admin/includes/plugin-install.php:769
+#: wp-admin/includes/plugin-install.php:768
 msgid ""
 "<strong>Error:</strong> This plugin <strong>requires a newer version of PHP</"
 "strong>."
@@ -10940,7 +10964,7 @@ msgstr ""
 "<strong>Erreur :</strong> Cette extension <strong>nécessite une version plus "
 "récente de PHP</strong>."
 
-#: wp-admin/includes/plugin-install.php:784
+#: wp-admin/includes/plugin-install.php:783
 msgid ""
 "<strong>Warning:</strong> This plugin <strong>has not been tested</strong> "
 "with your current version of Retraceur."
@@ -10948,7 +10972,7 @@ msgstr ""
 "<strong>Avertissement :</strong> cette extension <strong>n’a pas été testée</"
 "strong> avec votre version actuelle de Retraceur."
 
-#: wp-admin/includes/plugin-install.php:791
+#: wp-admin/includes/plugin-install.php:790
 msgid ""
 "<strong>Error:</strong> This plugin <strong>requires a newer version of "
 "Retraceur</strong>."
@@ -10957,36 +10981,36 @@ msgstr ""
 "récente de Retraceur</strong>."
 
 #. translators: %s: URL to Retraceur Updates screen.
-#: wp-admin/includes/plugin-install.php:795
+#: wp-admin/includes/plugin-install.php:794
 msgid "<a href=\"%s\" target=\"_parent\">Click here to update Retraceur</a>."
 msgstr ""
 "<a href=\"%s\" target=\"_parent\">Cliquer ici pour mettre Retraceur à jour</"
 "a>."
 
 #. translators: %s: Plugin name.
-#: wp-admin/includes/plugin-install.php:896
+#: wp-admin/includes/plugin-install.php:895
 msgctxt "plugin"
 msgid "Install %s now"
 msgstr "Installer %s maintenant"
 
 #. translators: %s: Plugin name.
-#: wp-admin/includes/plugin-install.php:918 wp-admin/includes/update.php:564
+#: wp-admin/includes/plugin-install.php:917 wp-admin/includes/update.php:564
 msgctxt "plugin"
 msgid "Update %s now"
 msgstr "Mettre à jour %s maintenant"
 
-#: wp-admin/includes/plugin-install.php:920
-#: wp-admin/includes/plugin-install.php:925
+#: wp-admin/includes/plugin-install.php:919
+#: wp-admin/includes/plugin-install.php:924
 msgctxt "plugin"
 msgid "Update Now"
 msgstr "Mettre à jour maintenant"
 
-#: wp-admin/includes/plugin-install.php:936
+#: wp-admin/includes/plugin-install.php:935
 msgctxt "plugin"
 msgid "Active"
 msgstr "Actif"
 
-#: wp-admin/includes/plugin-install.php:977
+#: wp-admin/includes/plugin-install.php:976
 msgctxt "plugin"
 msgid "Installed"
 msgstr "Installée"
