@@ -4,5 +4,8 @@
 # Node modules
 node_modules
 
+# Plugins
+plugins
+
 # Logs
 *.log
