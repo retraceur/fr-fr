@@ -3,9 +3,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-11T21:16:40+00:00\n"
-"PO-Revision-Date: 2025-01-11 23:04+0100\n"
+"Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
+"POT-Creation-Date: 2025-02-08T13:03:17+00:00\n"
+"PO-Revision-Date: 2025-02-08 14:46+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -14,71 +14,71 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.4.4\n"
 
-#: wp-includes/js/dist/core-data.js:2782
+#: wp-includes/js/dist/core-data.js:2806
 msgid "Base"
 msgstr "Base"
 
-#: wp-includes/js/dist/core-data.js:2813
+#: wp-includes/js/dist/core-data.js:2837
 msgid "Post Type"
 msgstr "Type de publication"
 
-#: wp-includes/js/dist/core-data.js:2850
+#: wp-includes/js/dist/core-data.js:2874
 msgid "Media"
 msgstr "Média"
 
-#: wp-includes/js/dist/core-data.js:2862
+#: wp-includes/js/dist/core-data.js:2886
 msgid "Taxonomy"
 msgstr "Taxonomie"
 
-#: wp-includes/js/dist/core-data.js:2874
+#: wp-includes/js/dist/core-data.js:2898
 msgid "Widget areas"
 msgstr "Zones de widgets"
 
-#: wp-includes/js/dist/core-data.js:2886
+#: wp-includes/js/dist/core-data.js:2910
 msgid "Widgets"
 msgstr "Widgets"
 
-#: wp-includes/js/dist/core-data.js:2895
+#: wp-includes/js/dist/core-data.js:2919
 msgid "Widget types"
 msgstr "Type de widget"
 
-#: wp-includes/js/dist/core-data.js:2897
+#: wp-includes/js/dist/core-data.js:2921
 msgid "User"
 msgstr "Utilisateur·ice"
 
-#: wp-includes/js/dist/core-data.js:2913
+#: wp-includes/js/dist/core-data.js:2937
 msgid "Comment"
 msgstr "Commentaire"
 
-#: wp-includes/js/dist/core-data.js:2922
+#: wp-includes/js/dist/core-data.js:2946
 msgid "Menu Item"
 msgstr "Élément de menu"
 
-#: wp-includes/js/dist/core-data.js:2932
+#: wp-includes/js/dist/core-data.js:2956
 msgid "Menu Location"
 msgstr "Emplacement de menu"
 
-#: wp-includes/js/dist/core-data.js:2935
+#: wp-includes/js/dist/core-data.js:2959
 msgid "Global Styles"
 msgstr "Styles globaux"
 
-#: wp-includes/js/dist/core-data.js:2948
+#: wp-includes/js/dist/core-data.js:2972
 msgid "Themes"
 msgstr "Thèmes"
 
-#: wp-includes/js/dist/core-data.js:2958
+#: wp-includes/js/dist/core-data.js:2982
 msgid "Plugins"
 msgstr "Extensions"
 
-#: wp-includes/js/dist/core-data.js:2968
+#: wp-includes/js/dist/core-data.js:2992
 msgid "Status"
 msgstr "Statuts"
 
-#: wp-includes/js/dist/core-data.js:3142
+#: wp-includes/js/dist/core-data.js:3166
 msgid "Site"
 msgstr "Site"
 
-#: wp-includes/js/dist/core-data.js:5699 wp-includes/js/dist/core-data.js:5721
-#: wp-includes/js/dist/core-data.js:5743 wp-includes/js/dist/core-data.js:5763
+#: wp-includes/js/dist/core-data.js:5726 wp-includes/js/dist/core-data.js:5748
+#: wp-includes/js/dist/core-data.js:5770 wp-includes/js/dist/core-data.js:5790
 msgid "(no title)"
 msgstr "(sans titre) "

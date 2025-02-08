@@ -3,9 +3,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Retraceur - 1.0.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-11T21:15:19+00:00\n"
-"PO-Revision-Date: 2025-01-11 22:47+0100\n"
+"Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
+"POT-Creation-Date: 2025-02-08T13:01:54+00:00\n"
+"PO-Revision-Date: 2025-02-08 14:24+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -1125,13 +1125,13 @@ msgid "Enlarge image: %s"
 msgstr "Agrandir l’image : %s"
 
 #: wp-includes/blocks/image.php:260 wp-includes/blocks/navigation.php:487
-#: wp-includes/script-loader.php:799 wp-includes/script-loader.php:1635
+#: wp-includes/script-loader.php:799 wp-includes/script-loader.php:1633
 msgid "Close"
 msgstr "Fermer"
 
 #: wp-includes/blocks/latest-posts.php:78 wp-includes/blocks/page-list.php:198
 #: wp-includes/blocks/rss.php:39 wp-includes/media.php:4525
-#: wp-includes/script-loader.php:1074
+#: wp-includes/script-loader.php:1072
 msgid "(no title)"
 msgstr "(pas de titre)"
 
@@ -1560,17 +1560,16 @@ msgstr "Le tableau $source_properties contient des propriétés non valides."
 msgid "Block binding \"%s\" not found."
 msgstr "Attache de bloc « %s » non trouvée."
 
-#: wp-includes/class-wp-block-metadata-registry.php:109
-#: wp-includes/class-wp-block-metadata-registry.php:118
+#. translators: %s: list of allowed collection roots
+#: wp-includes/class-wp-block-metadata-registry.php:129
 msgid ""
-"Block metadata collections can only be registered for a specific plugin. The "
-"provided path is neither a core path nor a valid plugin path."
+"Block metadata collections cannot be registered as one of the following "
+"directories or their parent directories: %s"
 msgstr ""
-"Les collections de métadonnées de bloc ne peuvent être inscrites que pour "
-"une extension spécifique. Le chemin fourni n’est ni un chemin de base ni un "
-"chemin d’extension valide."
+"Les collections de métadonnées de bloc ne peuvent être mises en registre "
+"comme un des répertoires ou parent de ces répertoires suivants : %s."
 
-#: wp-includes/class-wp-block-metadata-registry.php:127
+#: wp-includes/class-wp-block-metadata-registry.php:140
 msgid "The specified manifest file does not exist."
 msgstr "Le fichier de manifeste spécifié n’existe pas."
 
@@ -3848,6 +3847,22 @@ msgstr ""
 msgid "Please consider writing more inclusive code."
 msgstr "Veuillez envisager d’écrire un code plus inclusif."
 
+#: wp-includes/deprecated.php:16345
+msgid "Editing plugin files is not supported by Retraceur."
+msgstr ""
+"La modification des fichiers d’extension n’est pas supportée par Retraceur."
+
+#: wp-includes/deprecated.php:16377
+msgid "Editing theme files is not supported by Retraceur."
+msgstr ""
+"La modification de fichiers de thème n’est pas supportée par Retraceur."
+
+#: wp-includes/deprecated.php:16407
+msgid "Editing plugin or theme files is not supported by Retraceur."
+msgstr ""
+"Retraceur ne prend pas en charge la modification des fichiers d’extensions "
+"ou de thèmes."
+
 #: wp-includes/embed.php:341
 msgctxt "oEmbed resource link name"
 msgid "oEmbed (JSON)"
@@ -5833,7 +5848,7 @@ msgstr "Sélectionner"
 msgid "Cancel"
 msgstr "Annuler"
 
-#: wp-includes/media.php:4925 wp-includes/script-loader.php:1072
+#: wp-includes/media.php:4925 wp-includes/script-loader.php:1070
 #: wp-login.php:721
 msgid "Update"
 msgstr "Mettre à jour"
@@ -11417,93 +11432,93 @@ msgstr "Gaélique"
 msgid "Yiddish"
 msgstr "Yiddish"
 
-#: wp-includes/script-loader.php:1028
+#: wp-includes/script-loader.php:1026
 msgctxt "password strength"
 msgid "Password strength unknown"
 msgstr "Force du mot de passe inconnue."
 
-#: wp-includes/script-loader.php:1029
+#: wp-includes/script-loader.php:1027
 msgctxt "password strength"
 msgid "Very weak"
 msgstr "Très faible"
 
-#: wp-includes/script-loader.php:1030
+#: wp-includes/script-loader.php:1028
 msgctxt "password strength"
 msgid "Weak"
 msgstr "Faible"
 
-#: wp-includes/script-loader.php:1031
+#: wp-includes/script-loader.php:1029
 msgctxt "password strength"
 msgid "Medium"
 msgstr "Moyenne"
 
-#: wp-includes/script-loader.php:1032
+#: wp-includes/script-loader.php:1030
 msgctxt "password strength"
 msgid "Strong"
 msgstr "Forte"
 
-#: wp-includes/script-loader.php:1033
+#: wp-includes/script-loader.php:1031
 msgctxt "password mismatch"
 msgid "Mismatch"
 msgstr "Non concordance"
 
-#: wp-includes/script-loader.php:1071
+#: wp-includes/script-loader.php:1069
 msgid "Insert/edit link"
 msgstr "Insérer/modifier un lien"
 
-#: wp-includes/script-loader.php:1073
+#: wp-includes/script-loader.php:1071
 msgid "Add Link"
 msgstr "Ajouter un lien"
 
-#: wp-includes/script-loader.php:1075
+#: wp-includes/script-loader.php:1073
 msgid "No results found."
 msgstr "Aucun résultat."
 
-#: wp-includes/script-loader.php:1076
+#: wp-includes/script-loader.php:1074
 msgid "Link selected."
 msgstr "Lien sélectionné."
 
-#: wp-includes/script-loader.php:1077
+#: wp-includes/script-loader.php:1075
 msgid "Link inserted."
 msgstr "Lien inséré."
 
 #. translators: Minimum input length in characters to start searching posts in the "Insert/edit link" modal.
-#: wp-includes/script-loader.php:1079
+#: wp-includes/script-loader.php:1077
 msgctxt "minimum input length for searching post links"
 msgid "3"
 msgstr "3"
 
 #. translators: If there are characters in your language that are not supported by Open Sans, translate this to 'off'. Do not translate into your own language.
-#: wp-includes/script-loader.php:1260
+#: wp-includes/script-loader.php:1258
 msgctxt "Open Sans font: on or off"
 msgid "on"
 msgstr "on"
 
 #. translators: To add an additional Open Sans character subset specific to your language, translate this to 'greek', 'cyrillic' or 'vietnamese'. Do not translate into your own language.
-#: wp-includes/script-loader.php:1267
+#: wp-includes/script-loader.php:1265
 msgctxt "Open Sans font: add new subset (greek, cyrillic, vietnamese)"
 msgid "no-subset"
 msgstr "no-subset"
 
 #. translators: Use this to specify the proper Google Font name and variants to load that is supported by your language. Do not translate. Set to 'off' to disable loading.
-#: wp-includes/script-loader.php:1344
+#: wp-includes/script-loader.php:1342
 msgctxt "Google Font Name and Variants"
 msgid "Noto Serif:400,400i,700,700i"
 msgstr "Noto Serif : 400,400i,700,700i"
 
-#: wp-includes/script-loader.php:1636
+#: wp-includes/script-loader.php:1634
 msgid "Today"
 msgstr "Aujourd’hui"
 
-#: wp-includes/script-loader.php:1639
+#: wp-includes/script-loader.php:1637
 msgid "Next"
 msgstr "Suivant"
 
-#: wp-includes/script-loader.php:1640
+#: wp-includes/script-loader.php:1638
 msgid "Previous"
 msgstr "Précédent"
 
-#: wp-includes/script-loader.php:2999
+#: wp-includes/script-loader.php:2997
 msgid ""
 "Expected string to start with script tag (without attributes) and end with "
 "script tag, with optional whitespace."
@@ -11512,7 +11527,7 @@ msgstr ""
 "et se terminer par une balise de script, avec des espaces facultatifs."
 
 #. translators: %s: wp_remove_surrounding_empty_script_tags()
-#: wp-includes/script-loader.php:3006
+#: wp-includes/script-loader.php:3004
 msgid "Function %s used incorrectly in PHP."
 msgstr "Fonction %s utilisée de manière incorrecte dans PHP."
 
@@ -12165,34 +12180,34 @@ msgstr ""
 "jour des thèmes. Veuillez contacter l’administrateur·ice de votre serveur.)"
 
 #. translators: %d: Number of available Retraceur updates.
-#: wp-includes/update.php:853
+#: wp-includes/update.php:869
 msgid "%d Retraceur Update"
 msgstr "%d mise à jour de Retraceur"
 
 #. translators: %d: Number of available plugin updates.
-#: wp-includes/update.php:858
+#: wp-includes/update.php:874
 msgid "%d Plugin Update"
 msgid_plural "%d Plugin Updates"
 msgstr[0] "%d mise à jour d’extension"
 msgstr[1] "%d mises à jour d’extensions"
 
 #. translators: %d: Number of available theme updates.
-#: wp-includes/update.php:863
+#: wp-includes/update.php:879
 msgid "%d Theme Update"
 msgid_plural "%d Theme Updates"
 msgstr[0] "%d mise à jour de thème"
 msgstr[1] "%d mises à jour de thèmes"
 
-#: wp-includes/update.php:867
+#: wp-includes/update.php:883
 msgid "Translation Updates"
 msgstr "Mettre à jour les traductions"
 
-#: wp-includes/update.php:1031
+#: wp-includes/update.php:1047
 msgid "Could not access filesystem."
 msgstr "Impossible d’accéder au système de fichiers."
 
 #. translators: %s: Directory name.
-#: wp-includes/update.php:1039
+#: wp-includes/update.php:1055
 msgid "Unable to locate Retraceur content directory (%s)."
 msgstr "Impossible de localiser le répertoire de contenu de Retraceur (%s)."
 

@@ -3,9 +3,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-11T21:16:38+00:00\n"
-"PO-Revision-Date: 2025-01-11 23:03+0100\n"
+"Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
+"POT-Creation-Date: 2025-02-08T13:03:15+00:00\n"
+"PO-Revision-Date: 2025-02-08 14:44+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -15,59 +15,59 @@ msgstr ""
 "X-Generator: Poedit 3.4.4\n"
 
 #. translators: accessibility text. 1: The block title. 2: The block row number. 3: The block label..
-#: wp-includes/js/dist/blocks.js:7893
+#: wp-includes/js/dist/blocks.js:7916
 msgid "%1$s Block. Row %2$d. %3$s"
 msgstr "%1$s Bloc. Rang %2$d. %3$s"
 
 #. translators: accessibility text. 1: The block title. 2: The block row number.
-#: wp-includes/js/dist/blocks.js:7896
+#: wp-includes/js/dist/blocks.js:7919
 msgid "%1$s Block. Row %2$d"
 msgstr "%1$s Bloc. Rang %2$d"
 
 #. translators: accessibility text. 1: The block title. 2: The block column number. 3: The block label..
-#: wp-includes/js/dist/blocks.js:7900
+#: wp-includes/js/dist/blocks.js:7923
 msgid "%1$s Block. Column %2$d. %3$s"
 msgstr "%1$s Bloc. Colonne %2$d. %3$s"
 
 #. translators: accessibility text. 1: The block title. 2: The block column number.
-#: wp-includes/js/dist/blocks.js:7903
+#: wp-includes/js/dist/blocks.js:7926
 msgid "%1$s Block. Column %2$d"
 msgstr "%1$s Bloc. Colonne %2$d"
 
 #. translators: accessibility text. %1: The block title. %2: The block label.
-#: wp-includes/js/dist/blocks.js:7907
+#: wp-includes/js/dist/blocks.js:7930
 msgid "%1$s Block. %2$s"
 msgstr "%1$s Bloc. %2$s"
 
 #. translators: accessibility text. %s: The block title.
-#: wp-includes/js/dist/blocks.js:7910
+#: wp-includes/js/dist/blocks.js:7933
 msgid "%s Block"
 msgstr "%s Bloc"
 
-#: wp-includes/js/dist/blocks.js:8054
+#: wp-includes/js/dist/blocks.js:8078
 msgid "Text"
 msgstr "Texte"
 
-#: wp-includes/js/dist/blocks.js:8057
+#: wp-includes/js/dist/blocks.js:8081
 msgid "Media"
 msgstr "Média"
 
-#: wp-includes/js/dist/blocks.js:8060
+#: wp-includes/js/dist/blocks.js:8084
 msgid "Design"
 msgstr "Conception"
 
-#: wp-includes/js/dist/blocks.js:8063
+#: wp-includes/js/dist/blocks.js:8087
 msgid "Widgets"
 msgstr "Widgets"
 
-#: wp-includes/js/dist/blocks.js:8066
+#: wp-includes/js/dist/blocks.js:8090
 msgid "Theme"
 msgstr "Thème"
 
-#: wp-includes/js/dist/blocks.js:8069
+#: wp-includes/js/dist/blocks.js:8093
 msgid "Embeds"
 msgstr "Codes d’imbrication"
 
-#: wp-includes/js/dist/blocks.js:8072
+#: wp-includes/js/dist/blocks.js:8096
 msgid "Reusable blocks"
 msgstr "Blocs réutilisables"

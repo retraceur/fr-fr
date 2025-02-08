@@ -3,9 +3,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-11T21:16:22+00:00\n"
-"PO-Revision-Date: 2025-01-11 23:10+0100\n"
+"Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
+"POT-Creation-Date: 2025-02-08T13:03:00+00:00\n"
+"PO-Revision-Date: 2025-02-08 14:50+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -14,31 +14,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.4.4\n"
 
-#: wp-includes/js/dist/list-reusable-blocks.js:699
+#: wp-includes/js/dist/list-reusable-blocks.js:722
 msgid "Invalid JSON file"
 msgstr "Fichier JSON non valider"
 
-#: wp-includes/js/dist/list-reusable-blocks.js:702
+#: wp-includes/js/dist/list-reusable-blocks.js:725
 msgid "Invalid pattern JSON file"
 msgstr "Fichier de composition JSON non valide"
 
-#: wp-includes/js/dist/list-reusable-blocks.js:705
+#: wp-includes/js/dist/list-reusable-blocks.js:728
 msgid "Unknown error"
 msgstr "Erreur inconnue"
 
-#: wp-includes/js/dist/list-reusable-blocks.js:725
+#: wp-includes/js/dist/list-reusable-blocks.js:748
 msgid "File"
 msgstr "Fichier"
 
-#: wp-includes/js/dist/list-reusable-blocks.js:738
+#: wp-includes/js/dist/list-reusable-blocks.js:761
 msgctxt "button label"
 msgid "Import"
 msgstr "Importer"
 
-#: wp-includes/js/dist/list-reusable-blocks.js:774
+#: wp-includes/js/dist/list-reusable-blocks.js:797
 msgid "Import from JSON"
 msgstr "Importer à partir d’un JSON"
 
-#: wp-includes/js/dist/list-reusable-blocks.js:817
+#: wp-includes/js/dist/list-reusable-blocks.js:840
 msgid "Pattern imported successfully!"
 msgstr "Composition importée avec succès !"

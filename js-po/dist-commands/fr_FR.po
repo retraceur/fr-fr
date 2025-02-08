@@ -3,9 +3,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-11T21:17:02+00:00\n"
-"PO-Revision-Date: 2025-01-11 23:03+0100\n"
+"Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
+"POT-Creation-Date: 2025-02-08T13:03:38+00:00\n"
+"PO-Revision-Date: 2025-02-08 14:45+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -14,22 +14,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.4.4\n"
 
-#: wp-includes/js/dist/commands.js:3535
+#: wp-includes/js/dist/commands.js:3558
 msgid "Search commands and settings"
 msgstr "Rechercher des commandes et des réglages"
 
-#: wp-includes/js/dist/commands.js:3708
+#: wp-includes/js/dist/commands.js:3731
 msgid "Open the command palette."
 msgstr "Ouvrir la palette de commandes"
 
-#: wp-includes/js/dist/commands.js:3758
+#: wp-includes/js/dist/commands.js:3781
 msgid "Command palette"
 msgstr "Palette de commandes"
 
-#: wp-includes/js/dist/commands.js:3774
+#: wp-includes/js/dist/commands.js:3797
 msgid "Command suggestions"
 msgstr "Suggestions de commande"
 
-#: wp-includes/js/dist/commands.js:3776
+#: wp-includes/js/dist/commands.js:3799
 msgid "No results found."
 msgstr "Aucun résultat n’a été trouvé."

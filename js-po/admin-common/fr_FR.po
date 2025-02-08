@@ -3,9 +3,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-11T21:16:04+00:00\n"
-"PO-Revision-Date: 2025-01-11 22:49+0100\n"
+"Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
+"POT-Creation-Date: 2025-02-08T13:02:43+00:00\n"
+"PO-Revision-Date: 2025-02-08 14:26+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -39,14 +39,14 @@ msgstr ""
 msgid "Dismiss this notice."
 msgstr "Ignorer cette notification."
 
-#: wp-admin/js/common.js:1314
+#: wp-admin/js/common.js:1319
 msgid "Please select at least one item to perform this action on."
 msgstr "Merci de sélectionner au moins un élément sur lequel opérer l’action."
 
-#: wp-admin/js/common.js:2077
+#: wp-admin/js/common.js:2082
 msgid "Expand Main menu"
 msgstr "Déplier le menu principal"
 
-#: wp-admin/js/common.js:2080
+#: wp-admin/js/common.js:2085
 msgid "Collapse Main menu"
 msgstr "Replier le menu principal"
