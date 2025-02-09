@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Retraceur - 1.0.0 - Administration\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
 "POT-Creation-Date: 2025-02-08T12:54:31+00:00\n"
-"PO-Revision-Date: 2025-02-08 14:19+0100\n"
+"PO-Revision-Date: 2025-02-09 06:19+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -12556,7 +12556,7 @@ msgid ""
 "href=\"%2$s\"%3$s>stay updated</a>."
 msgstr ""
 "Vous utilisez une version de développement (%1$s). C’est super ! Veillez à "
-"<a href=\"%2$s”%3$s>rester à jour</a>."
+"<a href=\"%2$s\"%3$s>rester à jour</a>."
 
 #. translators: %s: Retraceur version.
 #: wp-admin/includes/update.php:289
