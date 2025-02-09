@@ -8,7 +8,7 @@
 /composer.json export-ignore
 /composer.lock export-ignore
 /CONTRIBUTING.md export-ignore
-/LICENSE export-ignore
+/LICENSE.md export-ignore
 /package-lock.json export-ignore
 /package.json export-ignore
 /PULL_REQUEST_TEMPLATE.md export-ignore
