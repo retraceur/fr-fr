@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Retraceur - 1.0.0 - Administration\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
-"POT-Creation-Date: 2025-02-18T18:19:44+00:00\n"
-"PO-Revision-Date: 2025-03-16 18:05+0100\n"
+"POT-Creation-Date: 2025-03-29T13:07:11+00:00\n"
+"PO-Revision-Date: 2025-03-29 14:07+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -181,11 +181,11 @@ msgstr "écran d’administration dédié"
 
 #: wp-admin/about.php:131
 msgid ""
-"Registration workflow now only creates users once they activated their "
-"account."
+"Registration workflow now only creates contributors once they activated "
+"their account."
 msgstr ""
-"Le processus d’inscription ne crée les utilisateurs qu’une fois que leur "
-"compte a été activé."
+"Le processus d’inscription ne crée les contributeur·rice·s qu’une fois que "
+"leur compte a été activé."
 
 #: wp-admin/about.php:134
 msgid ""
@@ -323,8 +323,8 @@ msgstr "Administration du réseau : %s"
 
 #. translators: User dashboard screen title. %s: Network title.
 #: wp-admin/admin-header.php:45
-msgid "User Dashboard: %s"
-msgstr "Administration de l’utilisateur·ice : %s"
+msgid "Contributor Dashboard: %s"
+msgstr "Administration du·de la contributeur·rice : %s"
 
 #. translators: Admin screen title. %s: Admin screen name.
 #: wp-admin/admin-header.php:52
@@ -1574,18 +1574,18 @@ msgstr "Données par défaut"
 #: wp-admin/erase-personal-data.php:39
 msgid ""
 "Retraceur collects (but <em>never</em> publishes) a limited amount of data "
-"from logged-in users but then deletes it or anonymizes it. That data can "
-"include:"
+"from logged-in contributors but then deletes it or anonymizes it. That data "
+"can include:"
 msgstr ""
 "Retraceur collecte (mais ne publie <em>jamais</em>) une quantité limitée de "
-"données des utilisateur·ice·s connecté·e·s mais ces données sont ensuite "
+"données des contributeur·rice·s connecté·e·s mais ces données sont ensuite "
 "supprimées ou anonymisées. Ces données peuvent inclure :"
 
 #: wp-admin/erase-personal-data.php:40 wp-admin/export-personal-data.php:40
 msgid ""
-"<strong>Profile Information</strong> &mdash; user email address, username, "
-"display name, nickname, first name, last name, description/bio, and "
-"registration date."
+"<strong>Profile Information</strong> &mdash; contributor email address, "
+"username, display name, nickname, first name, last name, description/bio, "
+"and registration date."
 msgstr ""
 "<strong>Informations de profil</strong> &mdash; adresse de courriel, nom "
 "d’utilisateur·ice, nom affiché, pseudonyme, prénom, nom, description/bio, et "
@@ -1593,20 +1593,20 @@ msgstr ""
 
 #: wp-admin/erase-personal-data.php:41 wp-admin/export-personal-data.php:41
 msgid ""
-"<strong>Session Tokens</strong> &mdash; User login information, IP "
+"<strong>Session Tokens</strong> &mdash; Contributor login information, IP "
 "Addresses, Expiration Date, User Agent (Browser/OS), and Last Login."
 msgstr ""
-"<strong>Jetons de session</strong> – informations de connexion de "
-"l’utilisateur·ice, adresses IP, date d’expiration, agent utilisateur·ice "
+"<strong>Jetons de session</strong> – informations de connexion du·de la "
+"contributeur·rice, adresses IP, date d’expiration, agent utilisateur·ice "
 "(navigateur/OS) et dernière connexion."
 
 #: wp-admin/erase-personal-data.php:42
 msgid ""
 "<strong>Media</strong> &mdash; A list of URLs for all media file uploads "
-"made by the user."
+"made by the contributor."
 msgstr ""
 "<strong> Fichiers multimédias</strong> – une liste d’URL pour tous les "
-"chargements de fichiers multimédias effectués par l’utilisateur·ice."
+"chargements de fichiers multimédias effectués par le·la contributeur·rice."
 
 #. translators: %s: URL to Privacy Policy Guide screen.
 #: wp-admin/erase-personal-data.php:48
@@ -1652,11 +1652,11 @@ msgstr "Supprimer la liste de données personnelles"
 #: wp-admin/erase-personal-data.php:99
 msgid ""
 "This tool helps site owners comply with local laws and regulations by "
-"deleting or anonymizing known data for a given user."
+"deleting or anonymizing known data for a given contributor."
 msgstr ""
 "Cet outil aide les propriétaires de sites à se conformer aux lois et "
 "réglementations locales en supprimant ou en anonymisant les données connues "
-"d’un·e utilisateur·ice donné·e."
+"d’un·e contributeur·rice donné·e."
 
 #: wp-admin/erase-personal-data.php:105
 msgid "Add Data Erasure Request"
@@ -1739,27 +1739,28 @@ msgstr ""
 #: wp-admin/export-personal-data.php:39
 msgid ""
 "Retraceur collects (but <em>never</em> publishes) a limited amount of data "
-"from registered users who have logged in to the site. Generally, these users "
-"are people who contribute to the site in some way -- content, store "
-"management, and so on. With rare exceptions, these users do not include "
-"occasional visitors. The data Retraceur retains can include:"
+"from registered contributors who have logged in to the site. Generally, "
+"these contributors are people who contribute to the site in some way -- "
+"content, store management, and so on. With rare exceptions, these "
+"contributors do not include occasional visitors. The data Retraceur retains "
+"can include:"
 msgstr ""
 "Retraceur collecte (mais ne publie <em>jamais</em>) une quantité limitée de "
 "données des personnes inscrites qui se sont connectées sur le site. En "
 "général, ce sont des personnes qui contribuent au site d’une certaine "
 "façon : contenu, gestion de boutique, et ainsi de suite. Hormis de rares "
-"exceptions, ces utilisateur·ice·s n’incluent pas les visiteur·e·s "
+"exceptions, ces contributeur·rice·s n’incluent pas les visiteur·e·s "
 "occasionnel·le·s qui pourraient s’être inscrit·e·s pour commenter des "
 "articles ou acheter des produits. Les données que Retraceur conserve peuvent "
 "inclure :"
 
 #: wp-admin/export-personal-data.php:42
 msgid ""
-"<strong>Media</strong> &mdash; A list of URLs for media files the user "
-"uploads."
+"<strong>Media</strong> &mdash; A list of URLs for media files the "
+"contributor uploads."
 msgstr ""
 "<strong>Media</strong> &mdash; Une liste d’URL pour les chargements de "
-"fichier de media effectués par les utilisateur·ice·s."
+"fichier de media effectués par les contributeur·rice·s."
 
 #. translators: %s: URL to Privacy Policy Guide screen.
 #: wp-admin/export-personal-data.php:48
@@ -1801,11 +1802,11 @@ msgstr "Exporter la liste de données personnelles"
 #: wp-admin/export-personal-data.php:99
 msgid ""
 "This tool helps site owners comply with local laws and regulations by "
-"exporting known data for a given user in a .zip file."
+"exporting known data for a given contributor in a .zip file."
 msgstr ""
 "Cet outil aide les propriétaires de sites à se conformer aux lois et "
 "réglementations locales en exportant les données connues d’un·e "
-"utilisateur·ice donné·e dans un fichier ZIP."
+"contributeur·rice donné·e dans un fichier ZIP."
 
 #: wp-admin/export-personal-data.php:105
 msgid "Add Data Export Request"
@@ -2003,8 +2004,8 @@ msgstr "Veuillez saisir un nom pour le champ personnalisé."
 
 #. translators: %s: The new user.
 #: wp-admin/includes/ajax-actions.php:996
-msgid "User %s added"
-msgstr "L’utilisateur·ice %s a été ajouté·e"
+msgid "Contributor %s added"
+msgstr "Contributeur·rice %s ajouté·e"
 
 #: wp-admin/includes/ajax-actions.php:1196 wp-admin/includes/post.php:276
 msgid "Sorry, you are not allowed to edit this page."
@@ -2154,9 +2155,9 @@ msgid "This preview is unavailable in the editor."
 msgstr "Cette prévisualisation n’est pas disponible dans l’éditeur."
 
 #: wp-admin/includes/ajax-actions.php:2882
-msgid "Could not log out user sessions. Please try again."
+msgid "Could not log out contributor sessions. Please try again."
 msgstr ""
-"Impossible de déconnecter les sessions des utilisateur·ice·s. Merci de "
+"Impossible de déconnecter les sessions des contributeur·rice·s. Merci de "
 "réessayer."
 
 #: wp-admin/includes/ajax-actions.php:2891
@@ -4423,8 +4424,8 @@ msgid "Site Language"
 msgstr "Langue du site"
 
 #: wp-admin/includes/class-wp-debug-data.php:182
-msgid "User Language"
-msgstr "Langue choisie par l’utilisateur·ice"
+msgid "Contributor Language"
+msgstr "Langue du·de la contributeur·rice"
 
 #: wp-admin/includes/class-wp-debug-data.php:186
 #: wp-admin/options-general.php:346
@@ -4502,8 +4503,8 @@ msgid "Network count"
 msgstr "Nombre de réseaux"
 
 #: wp-admin/includes/class-wp-debug-data.php:267
-msgid "User count"
-msgstr "Nombre d’utilisateur·ice·s"
+msgid "Contributor count"
+msgstr "Nombre de contributeur·rice·s"
 
 #: wp-admin/includes/class-wp-debug-data.php:272
 #: wp-admin/includes/class-wp-privacy-policy-content.php:686
@@ -6393,13 +6394,14 @@ msgstr "Utilisation des données personnelles collectées"
 #. translators: Privacy policy tutorial.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:487
 msgid ""
-"In this section you should note what personal data you collect from users "
-"and site visitors. This may include personal data, such as name, email "
-"address, personal account preferences; transactional data, such as purchase "
-"information; and technical data, such as information about cookies."
+"In this section you should note what personal data you collect from "
+"contributors and site visitors. This may include personal data, such as "
+"name, email address, personal account preferences; transactional data, such "
+"as purchase information; and technical data, such as information about "
+"cookies."
 msgstr ""
 "Dans cette section, indiquez les données personnelles que vous collectez sur "
-"les utilisateur·ice·s et personnes visitant votre site. Cela pourrait "
+"les contributeur·rice·s et personnes visitant votre site. Cela pourrait "
 "comprendre les données personnelles comme le nom, l’adresse de courriel, les "
 "préférences de compte personnel ; les données transactionnelles comme les "
 "informations de commande ; et les données techniques comme les informations "
@@ -6419,18 +6421,19 @@ msgstr ""
 msgid ""
 "In addition to listing what personal data you collect, you need to note why "
 "you collect it. These explanations must note either the legal basis for your "
-"data collection and retention or the active consent the user has given."
+"data collection and retention or the active consent the contributor has "
+"given."
 msgstr ""
 "En plus de lister les données personnelles que vous collectez, vous devez "
 "indiquer pourquoi vous le faites. Ces explications doivent contenir soit les "
 "bases légales de la collecte et la conservation de données, soit le "
-"consentement actif donné par l’utilisateur·ice."
+"consentement actif donné par le·la contributeur·rice."
 
 #. translators: Privacy policy tutorial.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:493
 msgid ""
-"Personal data is not just created by a user&#8217;s interactions with your "
-"site. Personal data is also generated from technical processes such as "
+"Personal data is not just created by a contributor&#8217;s interactions with "
+"your site. Personal data is also generated from technical processes such as "
 "contact forms, cookies, analytics, and third party embeds."
 msgstr ""
 "Les données personnelles ne sont pas seulement créées par l’interaction "
@@ -6442,13 +6445,13 @@ msgstr ""
 #: wp-admin/includes/class-wp-privacy-policy-content.php:495
 msgid ""
 "By default Retraceur does not collect any personal data about visitors, and "
-"only collects the data shown on the User Profile screen from registered "
-"users. However some of your plugins may collect personal data. You should "
-"add the relevant information below."
+"only collects the data shown on the Contributor Profile screen from "
+"registered contributors. However some of your plugins may collect personal "
+"data. You should add the relevant information below."
 msgstr ""
 "Par défaut, Retraceur ne collecte aucune donnée personnelle sur les "
 "visiteurs, et ne collecte que les données présentes dans l’écran « Votre "
-"Profil » des utilisateur·ice·s inscrit·e·s. Cependant certaines de vos "
+"Profil » des contributeur·rice·s inscrit·e·s. Cependant certaines de vos "
 "extensions peuvent collecter des données personnelles. Dans ce cas, indiquez "
 "les informations adéquates ci-dessous."
 
@@ -6456,12 +6459,13 @@ msgstr ""
 #: wp-admin/includes/class-wp-privacy-policy-content.php:503
 msgid ""
 "In this subsection you should note what information may be disclosed by "
-"users who can upload media files. All uploaded files are usually publicly "
-"accessible."
+"contributors who can upload media files. All uploaded files are usually "
+"publicly accessible."
 msgstr ""
 "Dans cette sous-section, indiquez les informations qui pourraient être "
-"dévoilées par les utilisateur·ice·s pouvant charger des fichiers dans votre "
-"médiathèque. Les fichiers chargés sont généralement accessibles publiquement."
+"dévoilées par les contributeur·rice·s pouvant charger des fichiers dans "
+"votre médiathèque. Les fichiers chargés sont généralement accessibles "
+"publiquement."
 
 #. translators: Default privacy policy text.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:506
@@ -6592,8 +6596,8 @@ msgstr "Statistiques et mesures d’audience"
 #. translators: Privacy policy tutorial.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:544
 msgid ""
-"In this subsection you should note what analytics package you use, how users "
-"can opt out of analytics tracking, and a link to your analytics "
+"In this subsection you should note what analytics package you use, how "
+"contributors can opt out of analytics tracking, and a link to your analytics "
 "provider&#8217;s privacy policy, if any."
 msgstr ""
 "Dans cette sous-section, indiquez les outils de statistiques que vous "
@@ -6675,18 +6679,18 @@ msgstr ""
 #. translators: Default privacy policy text.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:570
 msgid ""
-"For users that register on our website (if any), we also store the personal "
-"information they provide in their user profile. All users can see, edit, or "
-"delete their personal information at any time (except they cannot change "
-"their username). Website administrators can also see and edit that "
-"information."
+"For contributors that register on our website (if any), we also store the "
+"personal information they provide in their contributor profile. All "
+"contributors can see, edit, or delete their personal information at any time "
+"(except they cannot change their username). Website administrators can also "
+"see and edit that information."
 msgstr ""
-"Pour les utilisateur·ice·s qui s’inscrivent sur notre site (le cas échéant), "
-"nous stockons également les données personnelles indiquées dans leur profil. "
-"Tou·te·s les utilisateur·ice·s peuvent voir, modifier ou supprimer leurs "
-"informations personnelles à tout moment (à l’exception de leur nom "
-"d’utilisateur·ice). Les gestionnaires du site peuvent aussi voir et modifier "
-"ces informations."
+"Pour les contributeur·rice·s qui s’inscrivent sur notre site (le cas "
+"échéant), nous stockons également les données personnelles indiquées dans "
+"leur profil. Tou·te·s les contributeur·rice·s peuvent voir, modifier ou "
+"supprimer leurs informations personnelles à tout moment (à l’exception de "
+"leur nom d’utilisateur·ice). Les gestionnaires du site peuvent aussi voir et "
+"modifier ces informations."
 
 #. translators: Default privacy policy heading.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:574
@@ -6696,10 +6700,10 @@ msgstr "Les droits que vous avez sur vos données"
 #. translators: Privacy policy tutorial.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:578
 msgid ""
-"In this section you should explain what rights your users have over their "
-"data and how they can invoke those rights."
+"In this section you should explain what rights your contributors have over "
+"their data and how they can invoke those rights."
 msgstr ""
-"Dans cette section, indiquez les droits des utilisateur·ice·s concernant "
+"Dans cette section, indiquez les droits des contributeur·rice·s concernant "
 "leurs données et comment ils peuvent exercer ces droits."
 
 #. translators: Default privacy policy text.
@@ -6802,13 +6806,13 @@ msgstr "Comment nous protégeons vos données"
 #: wp-admin/includes/class-wp-privacy-policy-content.php:612
 msgid ""
 "In this section you should explain what measures you have taken to protect "
-"your users&#8217; data. This could include technical measures such as "
+"your contributors&#8217; data. This could include technical measures such as "
 "encryption; security measures such as two factor authentication; and "
 "measures such as staff training in data protection. If you have carried out "
 "a Privacy Impact Assessment, you can mention it here too."
 msgstr ""
 "Dans cette section, indiquez les mesures que vous avez prises pour protéger "
-"les données de vos utilisateur·ice·s. Cela peut inclure des mesures "
+"les données de vos contributeur·rice·s. Cela peut inclure des mesures "
 "techniques comme le chiffrement, des mesures de sécurité comme "
 "l’authentification à deux facteurs ou des mesures humaines comme la mise en "
 "place d’une équipe formée à la protection des données. Si vous avez mené une "
@@ -6840,9 +6844,9 @@ msgstr "Les services tiers qui nous transmettent des données"
 #. translators: Privacy policy tutorial.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:626
 msgid ""
-"If your website receives data about users from third parties, including "
-"advertisers, this information must be included within the section of your "
-"privacy policy dealing with third party data."
+"If your website receives data about contributors from third parties, "
+"including advertisers, this information must be included within the section "
+"of your privacy policy dealing with third party data."
 msgstr ""
 "Si votre site reçoit des données personnelles depuis des sources tierces –"
 " ce qui inclut les sources publicitaires – ces informations doivent être "
@@ -6851,7 +6855,8 @@ msgstr ""
 
 #. translators: Default privacy policy heading.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:631
-msgid "What automated decision making and/or profiling we do with user data"
+msgid ""
+"What automated decision making and/or profiling we do with contributor data"
 msgstr ""
 "Opérations de marketing automatisé et/ou de profilage réalisées à l’aide des "
 "données personnelles"
@@ -6860,19 +6865,19 @@ msgstr ""
 #: wp-admin/includes/class-wp-privacy-policy-content.php:633
 msgid ""
 "If your website provides a service which includes automated decision making "
-"- for example, allowing customers to apply for credit, or aggregating their "
+"- for example, allowing people to apply for credit, or aggregating their "
 "data into an advertising profile - you must note that this is taking place, "
 "and include information about how that information is used, what decisions "
-"are made with that aggregated data, and what rights users have over "
+"are made with that aggregated data, and what rights contributors have over "
 "decisions made without human intervention."
 msgstr ""
 "Si votre site fournit un service qui inclut la prise de décision automatisée "
-"– par exemple, autoriser vos clients à souscrire à un crédit ou agréger "
-"leurs données dans un profil publicitaire – vous devez expliciter ce qui est "
-"mis en place et inclure des informations sur la façon dont les informations "
-"sont utilisées, quelles décisions sont prises avec ces données agrégées et "
-"quels sont les droits dont disposent les internautes sur les décisions "
-"prises sans intervention humaine."
+"– par exemple, autoriser les gens à souscrire à un crédit ou agréger leurs "
+"données dans un profil publicitaire – vous devez expliciter ce qui est mis "
+"en place et inclure des informations sur la façon dont les informations sont "
+"utilisées, quelles décisions sont prises avec ces données agrégées et quels "
+"sont les droits dont disposent les internautes sur les décisions prises sans "
+"intervention humaine."
 
 #. translators: Default privacy policy heading.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:638
@@ -7727,11 +7732,11 @@ msgstr ""
 msgid ""
 "The value, %s, has been added to this website&#8217;s configuration file. "
 "This means any errors on the site will be written to a file which is "
-"potentially available to all users."
+"potentially available to everyone."
 msgstr ""
 "La valeur %s a été ajoutée au fichier de configuration de votre site. Cela "
 "signifie que toute erreur sur le site sera enregistrée dans un fichier qui "
-"est potentiellement visible par tou·te·s les utilisateur·ice·s."
+"est potentiellement visible par tout le monde."
 
 #: wp-admin/includes/class-wp-site-health.php:1336
 msgid "Your site is set to display errors to site visitors"
@@ -8281,11 +8286,11 @@ msgstr "Regénérer les permaliens"
 #: wp-admin/includes/class-wp-site-health.php:2163
 msgid ""
 "Page cache enhances the speed and performance of your site by saving and "
-"serving static pages instead of calling for a page every time a user visits."
+"serving static pages instead of calling for a page every time someone visits."
 msgstr ""
 "L’utilisation de la mise en cache des pages améliore la vitesse et les "
 "performances de votre site en servant des pages statiques au lieu de générer "
-"entièrement chaque page à chaque visite d’un internaute."
+"entièrement chaque page à chaque visite d’un·e internaute."
 
 #: wp-admin/includes/class-wp-site-health.php:2164
 msgid ""
@@ -8886,9 +8891,8 @@ msgid "Could not delete the temporary backup directory for %s."
 msgstr "Impossible de supprimer le répertoire de sauvegarde temporaire de %s."
 
 #: wp-admin/includes/class-wp-users-list-table.php:160
-#: wp-admin/includes/deprecated.php:581
-msgid "No users found."
-msgstr "Aucun·e utilisateur·ice trouvé·e."
+msgid "No contributors found."
+msgstr "Aucun·e contributeur·rice trouvé·e."
 
 #. translators: %s: Number of users.
 #: wp-admin/includes/class-wp-users-list-table.php:208
@@ -9083,15 +9087,15 @@ msgid "Create a New Site"
 msgstr "Créer un nouveau site"
 
 #: wp-admin/includes/dashboard.php:428
-msgid "Create a New User"
-msgstr "Créer un·e nouvel·le utilisateur·ice"
+msgid "Create a New Contributor"
+msgstr "Créer un·e contributeur·rice"
 
 #. translators: %s: Number of users on the network.
 #: wp-admin/includes/dashboard.php:435
-msgid "%s user"
-msgid_plural "%s users"
-msgstr[0] "%s utilisateur·ice"
-msgstr[1] "%s utilisateur·ice·s"
+msgid "%s contributor"
+msgid_plural "%s contributors"
+msgstr[0] "Contributeur·rice"
+msgstr[1] "Contributeur·rice·s"
 
 #. translators: %s: Number of sites on the network.
 #: wp-admin/includes/dashboard.php:437
@@ -9108,8 +9112,8 @@ msgstr "Vous avez %1$s et %2$s."
 #. translators: Hidden accessibility text.
 #: wp-admin/includes/dashboard.php:471 wp-admin/includes/dashboard.php:475
 #: wp-admin/users.php:814
-msgid "Search Users"
-msgstr "Rechercher des utilisateur·ice·s"
+msgid "Search Contributors"
+msgstr "Rechercher des contributeur·rice·s"
 
 #. translators: Hidden accessibility text.
 #: wp-admin/includes/dashboard.php:484 wp-admin/includes/dashboard.php:488
@@ -9381,6 +9385,10 @@ msgstr ""
 "sur des blocs. Ils vous donnent la possibilité de construire le site que "
 "vous avez toujours voulu, en agençant des blocs et en leur donnant des "
 "styles graphiques."
+
+#: wp-admin/includes/deprecated.php:581
+msgid "No users found."
+msgstr "Aucun·e utilisateur·ice trouvé·e."
 
 #. translators: 1: Starting number of users on the current page, 2: Ending number of users, 3: Total number of users.
 #: wp-admin/includes/deprecated.php:616
@@ -11146,6 +11154,7 @@ msgstr[0] "(basée sur %s vote)"
 msgstr[1] "(basée sur %s votes)"
 
 #: wp-admin/includes/plugin-install.php:735
+msgctxt "plugin credits"
 msgid "Contributors"
 msgstr "Crédits"
 
@@ -11422,24 +11431,24 @@ msgid "%s plugin deactivated during Retraceur upgrade."
 msgstr "Extension « %s » désactivée pendant la mise à jour de Retraceur."
 
 #: wp-admin/includes/post.php:37 wp-admin/includes/post.php:78
-msgid "Sorry, you are not allowed to edit pages as this user."
+msgid "Sorry, you are not allowed to edit pages as this contributor."
 msgstr ""
 "Désolé, vous n’avez pas l’autorisation de modifier des pages avec ce compte."
 
 #: wp-admin/includes/post.php:39 wp-admin/includes/post.php:80
-msgid "Sorry, you are not allowed to edit posts as this user."
+msgid "Sorry, you are not allowed to edit posts as this contributor."
 msgstr ""
 "Désolé, vous n’avez pas l’autorisation de modifier des articles avec ce "
 "compte."
 
 #: wp-admin/includes/post.php:43 wp-admin/includes/post.php:84
-msgid "Sorry, you are not allowed to create pages as this user."
+msgid "Sorry, you are not allowed to create pages as this contributor."
 msgstr ""
 "Désolé, vous n’avez pas l’autorisation de créer des pages avec ce compte."
 
 #: wp-admin/includes/post.php:45 wp-admin/includes/post.php:86
 #: wp-admin/post-new.php:63 wp-admin/press-this.php:22
-msgid "Sorry, you are not allowed to create posts as this user."
+msgid "Sorry, you are not allowed to create posts as this contributor."
 msgstr ""
 "Désolé, vous n’avez pas l’autorisation de créer des articles avec ce compte."
 
@@ -12781,8 +12790,8 @@ msgid "Your chosen password."
 msgstr "Le mot de passe que vous avez choisi."
 
 #: wp-admin/includes/upgrade.php:117
-msgid "User already exists. Password inherited."
-msgstr "L’utilisateur·ice existe déjà et a hérité du mot de passe."
+msgid "Contributor already exists. Password inherited."
+msgstr "Le·la contributeur·rice existe déjà et a hérité du mot de passe."
 
 #: wp-admin/includes/upgrade.php:134
 msgid "The password you chose during installation."
@@ -12908,10 +12917,10 @@ msgid "New Retraceur Site"
 msgstr "Nouveau site Retraceur"
 
 #: wp-admin/includes/user.php:64 wp-admin/users.php:143
-msgid "Sorry, you are not allowed to give users that role."
+msgid "Sorry, you are not allowed to give contributors that role."
 msgstr ""
 "Désolé, vous n’avez pas l’autorisation d’assigner ce rôle à ces "
-"utilisateur·ice·s."
+"contributeur·rice·s."
 
 #: wp-admin/includes/user.php:152
 msgid "<strong>Error:</strong> Please enter a username."
@@ -13182,8 +13191,8 @@ msgid "Site Title"
 msgstr "Titre du site"
 
 #: wp-admin/install.php:123
-msgid "User(s) already exists."
-msgstr "L(es) utilisateur·ice(·s) existe(nt) déjà."
+msgid "Contributor(s) already exists."
+msgstr "Contributeur·rice·s existant·e·s."
 
 #: wp-admin/install.php:128
 msgid ""
@@ -13506,11 +13515,11 @@ msgstr "Certaines difficultés de votre base de données n’ont pu être résol
 #: wp-admin/maint/repair.php:164
 msgid ""
 "Repairs complete. Please remove the following line from wp-config.php to "
-"prevent this page from being used by unauthorized users."
+"prevent this page from being used by unauthorized contributors."
 msgstr ""
 "Réparations effectuées. Veuillez retirer la ligne suivante de votre fichier "
 "wp-config.php, pour empêcher que cette page soit utilisée par des "
-"utilisateur·ice·s non autorisé·e·s."
+"contributeur·rice·s non autorisé·e·s."
 
 #. translators: Hidden accessibility text.
 #: wp-admin/maint/repair.php:170
@@ -13682,9 +13691,10 @@ msgstr "Blocs installés"
 msgid "Add New Block"
 msgstr "Ajouter un bloc"
 
-#: wp-admin/menu.php:216 wp-admin/users.php:27
-msgid "Users"
-msgstr "Utilisateur·ice·s"
+#: wp-admin/menu.php:216
+msgctxt "main admin menu"
+msgid "Contributors"
+msgstr "Contributeurs ·rices"
 
 #: wp-admin/menu.php:218 wp-admin/menu.php:228 wp-admin/menu.php:231
 #: wp-admin/user-edit.php:43 wp-admin/user/menu.php:16
@@ -13692,14 +13702,14 @@ msgid "Profile"
 msgstr "Profil"
 
 #: wp-admin/menu.php:223
-msgid "All Users"
-msgstr "Tou·te·s les utilisateur·ice·s"
+msgid "All Contributors"
+msgstr "Tou·te·s les contributeur·rice·s"
 
 #: wp-admin/menu.php:225 wp-admin/menu.php:233 wp-admin/user-edit.php:301
 #: wp-admin/user-new.php:84 wp-admin/user-new.php:134 wp-admin/user-new.php:326
 #: wp-admin/users.php:787
-msgid "Add New User"
-msgstr "Ajouter un·e utilisateur·ice"
+msgid "Add New Contributor"
+msgstr "Ajouter un·e contributeur·rice"
 
 #: wp-admin/menu.php:262 wp-admin/tools.php:45
 msgid "Tools"
@@ -13887,14 +13897,14 @@ msgstr ""
 msgid ""
 "If you want site visitors to be able to register themselves, check the "
 "membership box. If you want the site administrator to register every new "
-"user, leave the box unchecked. In either case, you can set a default user "
-"role for all new users."
+"contributor, leave the box unchecked. In either case, you can set a default "
+"contributor role for all new contributors."
 msgstr ""
 "Si vous voulez que les internautes puissent créer eux-mêmes un compte sur le "
-"site, cochez la case d’adhésion. Si vous voulez que l’administrateur·e du "
+"site, cochez la case d’adhésion. Si vous voulez que l’administrateur·rice du "
 "site soit responsable de l’inscription de chaque compte, laissez la case non-"
-"cochée. Dans tous les cas, vous pouvez définir un rôle par défaut pour tout "
-"nouvel·le utilisateur·ice."
+"cochée. Dans tous les cas, vous pouvez définir un rôle par défaut pour "
+"tout·e nouveau·elle contributeur·rice"
 
 #: wp-admin/options-general.php:44
 msgid ""
@@ -14245,8 +14255,8 @@ msgid "Anyone can register"
 msgstr "Tout le monde peut s’inscrire"
 
 #: wp-admin/options-membership.php:57
-msgid "New User Default Role"
-msgstr "Rôle par défaut de tout nouvel·le utilisateur·ice"
+msgid "New Contributor Default Role"
+msgstr "Rôle par défaut de tout·e nouveau·elle contributeur·rice"
 
 #: wp-admin/options-membership.php:66
 msgid "Avatars"
@@ -14254,14 +14264,14 @@ msgstr "Images de profil"
 
 #: wp-admin/options-membership.php:68
 msgid ""
-"An avatar is an image that can be associated with a user across multiple "
-"websites. In this area, you can choose to display avatars of users who "
-"interact with the site."
+"An avatar is an image that can be associated with a contributor across "
+"multiple websites. In this area, you can choose to display avatars of "
+"contributors who interact with the site."
 msgstr ""
 "Une image de profil est une image qui peut être associée à un·e "
-"utilisateur·ice sur plusieurs sites. Dans cette zone, vous pouvez choisir "
-"d’afficher les image de profils des utilisateur·ice·s qui interagissent avec "
-"le site."
+"contributeur·rice sur plusieurs sites. Dans cette zone, vous pouvez choisir "
+"d’afficher les image de profils des contributeur·rice·s qui interagissent "
+"avec le site."
 
 #: wp-admin/options-membership.php:82
 msgid "Avatar Display"
@@ -14305,10 +14315,10 @@ msgstr "Image de profil par défaut"
 
 #: wp-admin/options-membership.php:128
 msgid ""
-"For users without a custom avatar of their own, you can either display a "
-"generic logo or a generated one based on their email address."
+"For contributors without a custom avatar of their own, you can either "
+"display a generic logo or a generated one based on their email address."
 msgstr ""
-"Les utilisateur·ice·s n’ayant pas d’image de profil peuvent s’en voir "
+"Les contributeur·rice·s n’ayant pas d’image de profil peuvent s’en voir "
 "attribuer une générique, ou une image de profil générée à partir de leur "
 "adresse de courriel."
 
@@ -15437,7 +15447,7 @@ msgstr ""
 #: wp-admin/plugins.php:685
 msgid ""
 "If a required plugin is deleted, a notice will be displayed on the Plugin "
-"administration screen informing the user that there is some missing "
+"administration screen informing the contributor that there is some missing "
 "dependencies to install and/or activate. Additionally, each plugin whose "
 "dependencies are not met will have an error notice on their plugin row."
 msgstr ""
@@ -15795,18 +15805,20 @@ msgstr ""
 
 #: wp-admin/privacy.php:60
 msgid ""
-"Retraceur considers users privacy to be extremely important, so important it "
-"does not collect any personal information. This privacy policy document "
-"describes how to be informed about the personal data collected and recorded "
-"by the GitHub services Retraceur uses, as well as warns you about the fact "
-"third party Retraceur plugins or themes might collect your personal data."
+"Retraceur considers contributors privacy to be extremely important, so "
+"important it does not collect any personal information. This privacy policy "
+"document describes how to be informed about the personal data collected and "
+"recorded by the GitHub services Retraceur uses, as well as warns you about "
+"the fact third party Retraceur plugins or themes might collect your personal "
+"data."
 msgstr ""
-"Retraceur considère que la vie privée des utilisateurs est extrêmement "
-"importante, à tel point qu'il ne recueille aucune donnée personnelle. Ce "
-"document de politique de confidentialité décrit comment être informé·e des "
-"données personnelles collectées et enregistrées par les services de GitHub "
-"que Retraceur utilise, et vous avertit du fait que des extensions ou ou des "
-"thèmes tiers de Retraceur pourraient collecter vos données personnelles."
+"Retraceur considère que la vie privée des contributeur·rice·s est "
+"extrêmement importante, à tel point qu'il ne recueille aucune donnée "
+"personnelle. Ce document de politique de confidentialité décrit comment être "
+"informé·e des données personnelles collectées et enregistrées par les "
+"services de GitHub que Retraceur utilise, et vous avertit du fait que des "
+"extensions ou ou des thèmes tiers de Retraceur pourraient collecter vos "
+"données personnelles."
 
 #: wp-admin/privacy.php:66
 msgid "Scope"
@@ -16414,7 +16426,7 @@ msgstr[1] "%s améliorations recommandées"
 msgid ""
 "Recommended items are considered beneficial to your site, although not as "
 "important to prioritize as a critical issue, they may include improvements "
-"to things such as; Performance, user experience, and more."
+"to things such as; Performance, contributor experience, and more."
 msgstr ""
 "Les éléments recommandés sont considérés comme bénéfiques pour votre site. "
 "Bien qu’ils ne soient pas aussi prioritaires que les anomalies critiques, "
@@ -16847,12 +16859,13 @@ msgstr ""
 #: wp-admin/tools.php:65
 msgid ""
 "Exporting your site’s data (posts, pages, custom post types, comments, "
-"custom fields, categories, tags, custom taxonomies, and users) is sometimes "
-"necessary and useful."
+"custom fields, categories, tags, custom taxonomies, and contributor "
+"accounts) is sometimes necessary and useful."
 msgstr ""
 "L’exportation de vos données de site (articles, pages, types de publication "
 "personnalisés, commentaires, champs personnalisés, catégories, balises, "
-"taxonomies personnalisées et utilisateurs) est parfois nécessaire et utile."
+"taxonomies personnalisées et comptes de contributeur·rice) est parfois "
+"nécessaire et utile."
 
 #: wp-admin/tools.php:66
 msgid ""
@@ -16874,11 +16887,11 @@ msgstr ""
 #: wp-admin/tools.php:73
 msgid ""
 "The Export Personal Data tool can generate a (.zip format) file containing "
-"the personal data which exists about a user within your site."
+"the personal data which exists about a contributor within your site."
 msgstr ""
 "L’outil Exporter les données personnelles peut générer un fichier (au "
-"format .zip) contenant les données personnelles qui existent sur un "
-"utilisateur·ice de votre site."
+"format .zip) contenant les données personnelles qui existent sur un·e "
+"contributeur·rice de votre site."
 
 #: wp-admin/tools.php:79
 msgid ""
@@ -17545,13 +17558,13 @@ msgid "Media items list"
 msgstr "Liste des éléments média"
 
 #: wp-admin/user-edit.php:30 wp-admin/user-edit.php:32
-msgid "Invalid user ID."
-msgstr "ID d’utilisateur·ice non valide."
+msgid "Invalid contributor ID."
+msgstr "ID de contributeur·rice non valide."
 
 #. translators: %s: User's display name.
 #: wp-admin/user-edit.php:47
-msgid "Edit User %s"
-msgstr "Modifier l’utilisateur·ice %s"
+msgid "Edit Contributor %s"
+msgstr "Modifier le·la contributeur·rice %s"
 
 #: wp-admin/user-edit.php:62
 msgid ""
@@ -17621,9 +17634,9 @@ msgstr ""
 #: wp-admin/user-edit.php:100 wp-admin/user-edit.php:168
 #: wp-admin/user-edit.php:227 wp-admin/users.php:126 wp-admin/users.php:155
 #: wp-admin/users.php:261
-msgid "Sorry, you are not allowed to edit this user."
+msgid "Sorry, you are not allowed to edit this contributor."
 msgstr ""
-"Désolé, vous n’avez pas l’autorisation de modifier cet·te utilisateur·ice."
+"Désolé, vous n’avez pas l’autorisation de modifier ce·tte contributeur·rice."
 
 #: wp-admin/user-edit.php:130 wp-admin/user-edit.php:144
 msgid "Sorry, you are not allowed to delete this account."
@@ -17652,20 +17665,21 @@ msgid "I confirm!"
 msgstr "Je confirme !"
 
 #: wp-admin/user-edit.php:238
-msgid "This user has super admin privileges."
-msgstr "Cet·te utilisateur·ice possède les privilèges de super administration."
+msgid "This contributor has super admin privileges."
+msgstr ""
+"Ce·tte contributeur·rice possède les privilèges de super administration."
 
 #: wp-admin/user-edit.php:249
 msgid "Profile updated."
 msgstr "Profil mis à jour."
 
 #: wp-admin/user-edit.php:251
-msgid "User updated."
-msgstr "Utilisateur·ice mis·e à jour."
+msgid "Contributor updated."
+msgstr "Contributeur·rice actualisé·e"
 
 #: wp-admin/user-edit.php:257
-msgid "&larr; Go to Users"
-msgstr "&larr; Aller aux utilisateur·ice·s"
+msgid "&larr; Go to Contributors"
+msgstr "&larr; Aller aux contributeur·rice·s"
 
 #: wp-admin/user-edit.php:274
 msgid "Error while saving the new email address. Please try again."
@@ -17674,8 +17688,8 @@ msgstr ""
 "courriel. Veuillez réessayer."
 
 #: wp-admin/user-edit.php:303 wp-admin/user-new.php:136 wp-admin/users.php:793
-msgid "Add Existing User"
-msgstr "Ajouter un·e utilisateur·ice existant·e"
+msgid "Add Existing Contributor"
+msgstr "Ajouter un·e contributeur·rice existant·e"
 
 #: wp-admin/user-edit.php:328
 msgid "Personal Options"
@@ -17715,18 +17729,18 @@ msgid "Usernames cannot be changed."
 msgstr "Les nom d’utilisateur·ice ne peuvent pas être modifiés."
 
 #: wp-admin/user-edit.php:497
-msgid "Grant this user super admin privileges for the Network."
+msgid "Grant this contributor super admin privileges for the Network."
 msgstr ""
-"Donner les privilèges de super administration à cet·te utilisateur·ice pour "
-"le réseau."
+"Donner les privilèges de super administration à ce·tte contributeur·rice "
+"pour le réseau."
 
 #: wp-admin/user-edit.php:499
 msgid ""
-"Super admin privileges cannot be removed because this user has the network "
-"admin email."
+"Super admin privileges cannot be removed because this contributor has the "
+"network admin email."
 msgstr ""
 "Les privilèges de super administration ne peuvent pas être retirés, car "
-"cet·te utilisateur·ice est celui·celle avec l’adresse de courriel "
+"ce·tte contributeur·rice est celui·celle avec l’adresse de courriel "
 "d’administration du réseau."
 
 #: wp-admin/user-edit.php:506 wp-admin/user-new.php:221
@@ -17774,8 +17788,8 @@ msgid "About Yourself"
 msgstr "À propos de vous"
 
 #: wp-admin/user-edit.php:629
-msgid "About the user"
-msgstr "À propos de l’utilisateur·ice"
+msgid "About the contributor"
+msgstr "À propos du·de la contributeur·rice"
 
 #: wp-admin/user-edit.php:633
 msgid "Biographical Info"
@@ -17928,10 +17942,12 @@ msgstr[1] ""
 "sites du réseau, car vous disposez de droits Super Administration</a>."
 
 #: wp-admin/user-edit.php:839
-msgid "Required to create an Application Password, but not to update the user."
+msgid ""
+"Required to create an Application Password, but not to update the "
+"contributor."
 msgstr ""
 "Nécessaire pour créer un mot de passe d’application, mais pas pour mettre à "
-"jour l’utilisateur·ice."
+"jour le·la contributeur·rice."
 
 #: wp-admin/user-edit.php:853
 msgid "Add New Application Password"
@@ -17988,8 +18004,8 @@ msgid "Update Profile"
 msgstr "Mettre à jour le profil"
 
 #: wp-admin/user-edit.php:969
-msgid "Update User"
-msgstr "Mettre à jour l’utilisateur·ice"
+msgid "Update Contributor"
+msgstr "Actualiser le·la contributeur·rice"
 
 #: wp-admin/user-edit.php:1012
 msgid "Copy"
@@ -18001,61 +18017,63 @@ msgid "Dismiss this notice."
 msgstr "Ignorer cette notification."
 
 #: wp-admin/user-new.php:17
-msgid "Sorry, you are not allowed to create users."
-msgstr "Désolé, vous n’avez pas l’autorisation de créer des utilisateur·ice·s."
+msgid "Sorry, you are not allowed to create contributors."
+msgstr ""
+"Désolé, vous n’avez pas l’autorisation de créer des contributeur·rice·s."
 
 #: wp-admin/user-new.php:91
 msgid ""
-"To add a new user to your site, fill in the form on this screen and click "
-"the Add New User button at the bottom."
+"To add a new contributor to your site, fill in the form on this screen and "
+"click the Add New Contributor button at the bottom."
 msgstr ""
-"Pour ajouter un·e nouvel·le utilisateur·ice à votre site, remplissez le "
+"Pour ajouter un·e nouveau·lle contributeur·rice à votre site, remplissez le "
 "formulaire de cet écran et cliquez sur le bouton « Ajouter un·e "
-"utilisateur·ice » en bas de l’écran."
+"contributeur·rice » en bas de l’écran."
 
 #: wp-admin/user-new.php:92
 msgid ""
-"New users are automatically assigned a password, which they can change after "
-"logging in. You can view or edit the assigned password by clicking the Show "
-"Password button. The username cannot be changed once the user has been added."
+"New contributors are automatically assigned a password, which they can "
+"change after logging in. You can view or edit the assigned password by "
+"clicking the Show Password button. The username cannot be changed once the "
+"contributor has been added."
 msgstr ""
-"Les nouveaux utilisateur·ice·s reçoivent automatiquement un mot de passe, "
-"qui peut être changé après connexion. Vous pouvez afficher le mot de passe "
-"ou le modifier en cliquant sur le bouton « Afficher ». Le nom "
-"d’utilisateur·ice ne peut pas être modifié une fois que l’utilisateur·ice a "
-"été enregistré·e."
+"Les nouveaux·elles contributeur·rice·s reçoivent automatiquement un mot de "
+"passe, qui peut être changé après connexion. Vous pouvez afficher le mot de "
+"passe ou le modifier en cliquant sur le bouton « Afficher ». Le nom "
+"d’utilisateur·ice ne peut pas être modifié une fois que le·la "
+"contributeur·rice a été enregistré·e."
 
 #: wp-admin/user-new.php:93
 msgid ""
-"By default, new users will receive an email letting them know they&#8217;ve "
-"been added as a user for your site. This email will also contain a password "
-"reset link. Uncheck the box if you do not want to send the new user a "
-"welcome email."
+"By default, new contributors will receive an email letting them know "
+"they&#8217;ve been added as a contributor for your site. This email will "
+"also contain a password reset link. Uncheck the box if you do not want to "
+"send the new contributor a welcome email."
 msgstr ""
-"Par défaut, les nouvel·le·s utilisateur·ice·s recevront un courriel leur "
-"indiquant leur ajout en tant que membre de votre site. Ce courriel "
+"Par défaut, les nouveaux·elles contributeur·rice·s recevront un courriel "
+"leur indiquant leur ajout en tant que membre de votre site. Ce courriel "
 "contiendra également un lien de réinitialisation de leur mot de passe. "
 "Cochez la case si vous ne souhaitez pas envoyer de message de bienvenue."
 
 #: wp-admin/user-new.php:94
 msgid ""
-"Remember to click the Add New User button at the bottom of this screen when "
-"you are finished."
+"Remember to click the Add New Contributor button at the bottom of this "
+"screen when you are finished."
 msgstr ""
-"N’oubliez pas de cliquer sur le bouton « Ajouter un·e utilisateur·ice », en "
-"bas de cet écran, quand vous aurez terminé."
+"N’oubliez pas de cliquer sur le bouton « Ajouter un·e contributeur·rice », "
+"en bas de cet écran, quand vous aurez terminé."
 
 #: wp-admin/user-new.php:101
-msgid "User Roles"
-msgstr "Rôles des utilisateur·ice·s"
+msgid "Contributor Roles"
+msgstr "Rôles de contribution"
 
 #: wp-admin/user-new.php:102
 msgid ""
-"Here is a basic overview of the different user roles and the permissions "
-"associated with each one:"
+"Here is a basic overview of the different contributor roles and the "
+"permissions associated with each one:"
 msgstr ""
 "Voici un rapide survol des différents rôles assignables aux "
-"utilisateur·ice·s, et des droits qui leurs sont associé·e·s :"
+"contributeur·rice·s, et des droits qui leurs sont associé·e·s :"
 
 #: wp-admin/user-new.php:104
 msgid "Subscribers can read regular site content but cannot create it."
@@ -18093,24 +18111,24 @@ msgstr ""
 "fonctionnalités de l’administration."
 
 #: wp-admin/user-new.php:122
-msgid "User added."
-msgstr "Utilisateur·ice ajouté·e."
+msgid "Contributor added."
+msgstr "Contributeur·rice ajouté·e"
 
 #: wp-admin/user-new.php:124
 msgid ""
-"Invitation email sent to new user. A confirmation link must be clicked "
-"before their account is created."
+"Invitation email sent to new contributor. A confirmation link must be "
+"clicked before their account is created."
 msgstr ""
-"Envoi d’un message d’invitation au nouvel·le utilisateur·ice. Un lien de "
-"confirmation devra d’abord être cliqué avant la création du compte."
+"Envoi d’un message d’invitation au·à la nouveau·elle contributeur·rice. Un "
+"lien de confirmation devra d’abord être cliqué avant la création du compte."
 
 #: wp-admin/user-new.php:126
-msgid "That user could not be added to this site."
-msgstr "Cet·te utilisateur·ice ne peut pas être ajouté·e à ce site."
+msgid "That contributor could not be added to this site."
+msgstr "Ce·tte contributeur·rice ne peut pas être ajouté·e à ce site."
 
 #: wp-admin/user-new.php:189
-msgid "Create a brand new user and add them to this site."
-msgstr "Créer un nouvel·le utilisateur·ice et l’ajouter à ce site."
+msgid "Create a brand new contributor and add them to this site."
+msgstr "Créer un·e nouveau·elle contributeur·rice et l’ajouter à ce site."
 
 #: wp-admin/user-new.php:268
 msgid "Generate password"
@@ -18125,13 +18143,20 @@ msgid "Skip Confirmation Email"
 msgstr "Passer la confirmation par courriel"
 
 #: wp-admin/user-new.php:302
-msgid "Add the user without sending an email that requires their confirmation"
-msgstr "Ajouter l’utilisateur·ice sans envoyer de message de confirmation."
+msgid ""
+"Add the contributor without sending an email that requires their confirmation"
+msgstr ""
+"Ajouter le·la contributeur·rice sans envoyer de message de confirmation."
 
 #: wp-admin/users.php:18
-msgid "Sorry, you are not allowed to list users."
+msgid "Sorry, you are not allowed to list contributors."
 msgstr ""
-"Désolé, vous n’avez pas l’autorisation de lister les utilisateur·ice·s."
+"Désolé, vous n’avez pas l’autorisation de lister les contributeur·rice·s."
+
+#: wp-admin/users.php:27
+msgctxt "users admin screen title"
+msgid "Contributors"
+msgstr "Contributeur·rice·s"
 
 #. Translators: 1: a comma separated list of first role names. 2: the last role names.
 #: wp-admin/users.php:37
@@ -18141,25 +18166,26 @@ msgstr "%1$s ou %2$s"
 #. Translators: %s: a comma separated list of role names.
 #: wp-admin/users.php:48
 msgid ""
-"This screen lists all the existing users for your site. Each user has one of "
-"the defined roles as set by the site admin: %s. Users with roles other than "
-"Administrator will see fewer options in the dashboard navigation when they "
-"are logged in, based on their role."
+"This screen lists all the existing contributors for your site. Each "
+"contributor has one of the defined roles as set by the site admin: %s. "
+"Contributors with roles other than Administrator will see fewer options in "
+"the dashboard navigation when they are logged in, based on their role."
 msgstr ""
-"Cet écran liste tous les utilisateur·ice·s actuel·le·s de votre site. Chaque "
-"utilisateur·ice·e a l’un des rôles prédéfinis, tel qu’assigné par "
-"l’administrateur·ice du site : %s. Les utilisateur·ice·s avec un rôle autre "
-"qu’administrateur·ice verront moins d’options quand ils·elles seront "
+"Cet écran liste tou·te·s les contributeur·rice·s actuel·le·s de votre site. "
+"Chaque contributeur·rice a l’un des rôles prédéfinis, tel qu’assigné par "
+"l’administrateur·ice du site : %s. Les contributeur·rice·s avec un rôle "
+"autre qu’administrateur·ice verront moins d’options quand ils·elles seront "
 "connecté·e·s, en fonction de leur rôle."
 
 #: wp-admin/users.php:51
 msgid ""
-"To add a new user for your site, click the Add New User button at the top of "
-"the screen or Add New User in the Users menu section."
+"To add a new contributor for your site, click the Add New Contributor button "
+"at the top of the screen or Add New Contributor in the Contributors menu "
+"section."
 msgstr ""
-"Pour ajouter un nouveau utilisateur·ice à votre site, cliquez sur le bouton "
-"« Ajouter » en haut de l’écran, ou l’option « Ajouter » du menu "
-"« Utilisateur·ice·s »."
+"Pour ajouter un·e nouveau·elle contributeur·rice à votre site, cliquez sur "
+"le bouton « Ajouter » en haut de l’écran, ou l’option « Ajouter » du menu "
+"« Contributeur·rice·s »."
 
 #: wp-admin/users.php:59
 msgid "You can customize the display of this screen in a number of ways:"
@@ -18168,150 +18194,151 @@ msgstr ""
 
 #: wp-admin/users.php:61
 msgid ""
-"You can hide/display columns based on your needs and decide how many users "
-"to list per screen using the Screen Options tab."
+"You can hide/display columns based on your needs and decide how many "
+"contributors to list per screen using the Screen Options tab."
 msgstr ""
 "Vous pouvez masquer/afficher les colonnes en fonction de vos besoins, et "
-"décider du nombre d’utilisateur·ice·s à afficher par écran à l’aide de "
+"décider du nombre de contributeur·rice·s à afficher par écran à l’aide de "
 "l’onglet « Options de l’écran »."
 
 #. Translators: %s: a comma separated list of role names.
 #: wp-admin/users.php:64
 msgid ""
-"You can filter the list of users by User Role using the text links above the "
-"users list to show All, %s. The default view is to show all users. Unused "
-"User Roles are not listed."
+"You can filter the list of contributors by Contributor Role using the text "
+"links above the contributors list to show All, %s. The default view is to "
+"show all contributors. Unused Contributor Roles are not listed."
 msgstr ""
-"Vous pouvez filtrer la liste des utilisateur·ice·s par rôle, à l’aide des "
+"Vous pouvez filtrer la liste des contributeur·rice·s par rôle, à l’aide des "
 "liens textuels au-dessus de cette liste, afin de tou·te·s les afficher, ou "
-"seulement ceux·celles ayant l’un des rôles suivants %s. Par défaut, tous les "
-"utilisateur·ice·s sont affiché·e·s. Les rôles non assignés ne sont pas "
+"seulement ceux·celles ayant l’un des rôles suivants %s. Par défaut, tou·te·s "
+"les contributeur·rice·s sont affiché·e·s. Les rôles non assignés ne sont pas "
 "listés."
 
 #: wp-admin/users.php:67
 msgid ""
-"You can view all posts made by a user by clicking on the number under the "
-"Posts column."
+"You can view all posts made by a contributor by clicking on the number under "
+"the Posts column."
 msgstr ""
-"Vous pouvez voir tous les articles écrits par un·e même utilisateur·ice en "
+"Vous pouvez voir tous les articles écrits par un·e même contributeur·rice en "
 "cliquant sur le nombre sous la colonne « Articles »."
 
 #: wp-admin/users.php:72
 msgid ""
-"Hovering over a row in the users list will display action links that allow "
-"you to manage users. You can perform the following actions:"
+"Hovering over a row in the contributors list will display action links that "
+"allow you to manage contributors. You can perform the following actions:"
 msgstr ""
-"Passer la souris au-dessus d’une ligne de la liste des utilisateur·ice·s "
+"Passer la souris au-dessus d’une ligne de la liste des contributeur·rice·s "
 "affichera des liens vous permettant de gérer leurs informations. Vous pouvez "
 "lancer les actions suivantes :"
 
 #: wp-admin/users.php:74
 msgid ""
 "<strong>Edit</strong> takes you to the editable profile screen for that "
-"user. You can also reach that screen by clicking on the username."
+"contributor. You can also reach that screen by clicking on the username."
 msgstr ""
 "« <strong>Modifier</strong> » vous envoie sur l’écran de modification de ce "
 "compte. Vous pouvez également vous rendre sur cet écran en cliquant sur le "
-"nom de l’utilisateur·ice."
+"nom du·de la contributeur·rice."
 
 #: wp-admin/users.php:77
 msgid ""
-"<strong>Remove</strong> allows you to remove a user from your site. It does "
-"not delete their content. You can also remove multiple users at once by "
-"using bulk actions."
+"<strong>Remove</strong> allows you to remove a contributor from your site. "
+"It does not delete their content. You can also remove multiple contributors "
+"at once by using bulk actions."
 msgstr ""
 "<strong>Supprimer</strong> vous permet de supprimer un·e utilisateur·ice de "
 "votre site. Cela ne supprimera pas son contenu. Vous pouvez également "
-"supprimer plusieurs utilisateur·ice·s à la fois avec les actions groupées."
+"supprimer plusieurs contributeur·rice·s à la fois avec les actions groupées."
 
 #: wp-admin/users.php:79
 msgid ""
-"<strong>Delete</strong> brings you to the Delete Users screen for "
-"confirmation, where you can permanently remove a user from your site and "
-"delete their content. You can also delete multiple users at once by using "
-"bulk actions."
+"<strong>Delete</strong> brings you to the Delete Contributors screen for "
+"confirmation, where you can permanently remove a contributor from your site "
+"and delete their content. You can also delete multiple contributors at once "
+"by using bulk actions."
 msgstr ""
 "<strong>« Supprimer »</strong> vous amène à l’écran de suppression des "
 "utilisateur·ice·s pour confirmer votre action, d’où vous pouvez supprimer "
-"un·e utilisateur·ice de manière permanente et supprimer son contenu. Vous "
-"pouvez également supprimer plusieurs utilisateur·ice·s à la fois avec les "
+"un·e contributeur·rice de manière permanente et supprimer son contenu. Vous "
+"pouvez également supprimer plusieurs contributeur·rice·s à la fois avec les "
 "actions groupées."
 
 #: wp-admin/users.php:82
 msgid ""
 "<strong>View</strong> takes you to a public author archive which lists all "
-"the posts published by the user."
+"the posts published by the contributor."
 msgstr ""
-"<strong>Voir</strong> vous emmène sur l’archive publique de l’auteur ou de "
-"l’autrice, qui liste toutes ses publications mises en ligne."
+"<strong>Voir</strong> vous emmène sur l’archive publique de l’auteur·rice, "
+"qui liste toutes ses publications mises en ligne."
 
 #: wp-admin/users.php:85
 msgid ""
-"<strong>Send password reset</strong> sends the user an email with a link to "
-"set a new password."
+"<strong>Send password reset</strong> sends the contributor an email with a "
+"link to set a new password."
 msgstr ""
-"<strong>Envoyer une réinitialisation de mot de passe</strong> envoie à "
-"l’utilisateur·ice un courriel contenant un lien pour définir un nouveau mot "
+"<strong>Envoyer une réinitialisation de mot de passe</strong> envoie au·à la "
+"contributeur·rice un courriel contenant un lien pour définir un nouveau mot "
 "de passe."
 
 #: wp-admin/users.php:101
-msgid "Filter users list"
-msgstr "Liste des filtres utilisateur·ice·s"
+msgid "Filter contributors list"
+msgstr "Liste des filtres contributeur·rice·s"
 
 #: wp-admin/users.php:102
-msgid "Users list navigation"
-msgstr "Navigation de la liste des utilisateur·ice·s"
+msgid "Contributors list navigation"
+msgstr "Navigation de la liste des contributeur·rice·s"
 
 #: wp-admin/users.php:103
-msgid "Users list"
-msgstr "Liste des utilisateur·ice·s"
+msgid "Contributors list"
+msgstr "Liste des contributeur·rice·s"
 
 #: wp-admin/users.php:171
-msgid "One of the selected users is not a member of this site."
-msgstr "Un des utilisateur·ice·s sélectionné·e·s n’est pas membre de ce site."
+msgid "One of the selected contributors is not a member of this site."
+msgstr ""
+"Un des contributeur·rice·s sélectionné·e·s n’est pas membre de ce site."
 
 #: wp-admin/users.php:185 wp-admin/users.php:288
-msgid "User deletion is not allowed from this screen."
+msgid "Contributor deletion is not allowed from this screen."
 msgstr ""
-"La suppression d’un utilisateur·ice n’est pas autorisée depuis cet écran."
+"La suppression d’un·e contributeur·rice n’est pas autorisée depuis cet écran."
 
 #: wp-admin/users.php:205 wp-admin/users.php:299
-msgid "Sorry, you are not allowed to delete users."
+msgid "Sorry, you are not allowed to delete contributors."
 msgstr ""
-"Désolé, vous n’avez pas l’autorisation de supprimer des utilisateur·ice·s."
+"Désolé, vous n’avez pas l’autorisation de supprimer des contributeur·rice·s."
 
 #: wp-admin/users.php:213
-msgid "Sorry, you are not allowed to delete that user."
+msgid "Sorry, you are not allowed to delete that contributor."
 msgstr ""
-"Désolé, vous n’avez pas l’autorisation de supprimer cet·te utilisateur·ice."
+"Désolé, vous n’avez pas l’autorisation de supprimer ce·tte contributeur·rice."
 
 #: wp-admin/users.php:247
-msgid "Sorry, you are not allowed to edit users."
-msgstr ""
-"Désolé, vous n’avez pas l’autorisation de modifier les utilisateur·ice·s."
+msgid "Sorry, you are not allowed to edit contributors."
+msgstr "Désolé, vous n’avez pas l’autorisation de modifier les publications."
 
 #: wp-admin/users.php:346
-msgid "Delete Users"
-msgstr "Supprimer des utilisateur·ice·s"
+msgid "Delete Contributors"
+msgstr "Supprimer des contributeur·rice·s"
 
 #: wp-admin/users.php:351
 msgid "Please select an option."
 msgstr "Veuillez sélectionner une option."
 
 #: wp-admin/users.php:360
-msgid "You have specified this user for deletion:"
-msgstr "Vous avez choisi de supprimer cet·te utilisateur·ice :"
+msgid "You have specified this contributor for deletion:"
+msgstr "Vous avez choisi de supprimer ce·tte contributeur·rice·s :"
 
 #: wp-admin/users.php:362
-msgid "You have specified these users for deletion:"
-msgstr "Vous avez indiqué que vous voulez supprimer ces utilisateur·ice·s :"
+msgid "You have specified these contributors for deletion:"
+msgstr "Vous avez indiqué que vous voulez supprimer ces contributeur·rice·s :"
 
 #. translators: 1: User ID, 2: User login.
 #: wp-admin/users.php:376
-msgid "ID #%1$s: %2$s <strong>The current user will not be deleted.</strong>"
+msgid ""
+"ID #%1$s: %2$s <strong>The current contributor will not be deleted.</strong>"
 msgstr ""
-"ID n°%1$s : %2$s <strong>L’utilisateur·ice actuel·le ne sera pas supprimé·e."
-"</strong>"
+"ID n°%1$s : %2$s <strong>le·la contributeur·rice actuel·le ne sera pas "
+"supprimé·e.</strong>"
 
 #. translators: 1: User ID, 2: User login.
 #: wp-admin/users.php:389 wp-admin/users.php:556
@@ -18319,12 +18346,13 @@ msgid "ID #%1$s: %2$s"
 msgstr "ID n°%1$s : %2$s"
 
 #: wp-admin/users.php:410
-msgid "What should be done with content owned by this user?"
-msgstr "Que faire du contenu appartenant à cet·te utilisateur·ice ?"
+msgid "What should be done with content owned by this contributor?"
+msgstr "Que faire du contenu appartenant à ce·tte contributeur·rice·s ?"
 
 #: wp-admin/users.php:412
-msgid "What should be done with content owned by these users?"
-msgstr "Que doit-il arriver aux contenus appartenant à ces utilisateur·ice·s ?"
+msgid "What should be done with content owned by these contributors?"
+msgstr ""
+"Que doit-il arriver aux contenus appartenant à ces contributeur·rice·s ?"
 
 #: wp-admin/users.php:418
 msgid "Delete all content."
@@ -18339,67 +18367,68 @@ msgid "Confirm Deletion"
 msgstr "Confirmer cette action"
 
 #: wp-admin/users.php:454
-msgid "There are no valid users selected for deletion."
+msgid "There are no valid contributors selected for deletion."
 msgstr ""
-"Aucun·e utilisateur·ice valide n’est sélectionné·e pour la suppression."
+"Aucun·e contributeur·rice valide n’est sélectionné·e pour la suppression."
 
 #: wp-admin/users.php:467 wp-admin/users.php:499
-msgid "You cannot remove users."
-msgstr "Vous ne pouvez pas supprimer ces utilisateur·ice·s."
+msgid "You cannot remove contributors."
+msgstr "Vous ne pouvez pas supprimer ces contributeur·rice·s."
 
 #: wp-admin/users.php:476 wp-admin/users.php:508
-msgid "Sorry, you are not allowed to remove users."
+msgid "Sorry, you are not allowed to remove contributors."
 msgstr ""
-"Désolé, vous n’avez pas l’autorisation de supprimer des utilisateur·ice·s."
+"Désolé, vous n’avez pas l’autorisation de supprimer des contributeur·rice·s."
 
 #: wp-admin/users.php:524
-msgid "Remove Users from Site"
-msgstr "Supprimer des utilisateur·ice·s de ce site"
+msgid "Remove Contributors from Site"
+msgstr "Supprimer des contributeur·rice·s de ce site"
 
 #: wp-admin/users.php:527
-msgid "You have specified this user for removal:"
-msgstr "Vous avez indiqué que cet·te utilisateur·ice devait être supprimé·e :"
+msgid "You have specified this contributor for removal:"
+msgstr ""
+"Vous avez indiqué que ce·tte contributeur·rice devait être supprimé·e :"
 
 #: wp-admin/users.php:529
-msgid "You have specified these users for removal:"
-msgstr "Vous avez choisi de supprimer ces utilisateur·ice·s :"
+msgid "You have specified these contributors for removal:"
+msgstr "Vous avez choisi de supprimer ces contributeur·rice·s :"
 
 #. translators: 1: User ID, 2: User login.
 #: wp-admin/users.php:543
 msgid ""
-"ID #%1$s: %2$s <strong>Sorry, you are not allowed to remove this user.</"
-"strong>"
+"ID #%1$s: %2$s <strong>Sorry, you are not allowed to remove this contributor."
+"</strong>"
 msgstr ""
 "ID #%1$s : %2$s <strong>Désolé, vous n’avez pas l’autorisation pour "
-"supprimer cet·te utilisateur·ice.</strong>"
+"supprimer ce·tte contributeur·rice·s.</strong>"
 
 #: wp-admin/users.php:571
 msgid "Confirm Removal"
 msgstr "Confirmer cette action"
 
 #: wp-admin/users.php:575
-msgid "There are no valid users selected for removal."
+msgid "There are no valid contributors selected for removal."
 msgstr ""
-"Aucun·e utilisateur·ice valide n’est sélectionné·e pour la suppression."
+"Aucun·e contributeur·rice valide n’est sélectionné·e pour la suppression."
 
 #: wp-admin/users.php:619
-msgid "User deleted."
-msgstr "Utilisateur·ice supprimé·e."
+msgid "Contributor deleted."
+msgstr "Contributeur·rice·supprimée"
 
 #. translators: %s: Number of users.
 #: wp-admin/users.php:622
-msgid "%s user deleted."
-msgid_plural "%s users deleted."
-msgstr[0] "%s utilisateur·ice supprimé·e."
-msgstr[1] "%s utilisateur·ice·s supprimé·e·s."
+msgid "%s contributor deleted."
+msgid_plural "%s contributors deleted."
+msgstr[0] "%s contributeur·rice supprimé·e."
+msgstr[1] "%s contributeur·rice·s supprimé·e·s."
 
 #: wp-admin/users.php:635
-msgid "New user created."
-msgstr "Nouvel·le utilisateur·ice créé·e."
+msgid "New contributor created."
+msgstr "Nouveau·lle contributeur·rice·scréé·e."
 
 #: wp-admin/users.php:647
-msgid "Edit user"
-msgstr "Modifier l’utilisateur·ice"
+msgid "Edit contributor"
+msgstr "Modifier le contributeur·rice"
 
 #: wp-admin/users.php:663
 msgid "Password reset link sent."
@@ -18407,11 +18436,11 @@ msgstr "Le lien de réinitialisation du mot de passe a été envoyé."
 
 #. translators: %s: Number of users.
 #: wp-admin/users.php:666
-msgid "Password reset links sent to %s user."
-msgid_plural "Password reset links sent to %s users."
+msgid "Password reset links sent to %s contributor."
+msgid_plural "Password reset links sent to %s contributors."
 msgstr[0] ""
 "Le lien de réinitialisation du mot de passe a été envoyé à %s "
-"utilisateur·ice."
+"contributeur·rice."
 msgstr[1] ""
 "Le lien de réinitialisation du mot de passe a été envoyé à %s "
 "utilisateur·ice·s."
@@ -18421,34 +18450,37 @@ msgid "Changed roles."
 msgstr "Rôles modifiés."
 
 #: wp-admin/users.php:690
-msgid "The current user&#8217;s role must have user editing capabilities."
+msgid ""
+"The current contributor&#8217;s role must have contributor editing "
+"capabilities."
 msgstr ""
-"L’utilisateur·ice actuel·le doit avoir un rôle lui permettant de modifier "
-"les permissions des utilisateur·ice·s."
+"Le•la contributeur·rice·s actuel·le doit avoir un rôle lui permettant de "
+"modifier les permissions des utilisateur·ice·s."
 
 #: wp-admin/users.php:698
-msgid "Other user roles have been changed."
-msgstr "Les rôles des autres utilisateur·ice·s ont été modifiés."
+msgid "Other contributor roles have been changed."
+msgstr "Les rôles des autres contributeur·rice·s ont été modifiés."
 
 #: wp-admin/users.php:708
-msgid "You cannot delete the current user."
-msgstr "Vous ne pouvez pas supprimer l’utilisateur·ice en cours d’utilisation."
+msgid "You cannot delete the current contributor."
+msgstr ""
+"Vous ne pouvez pas supprimer la·la contributeur·rice en cours d’utilisation."
 
 #: wp-admin/users.php:716
-msgid "Other users have been deleted."
-msgstr "Les autres utilisateur·ice·s ont été supprimé·e·s."
+msgid "Other contributors have been deleted."
+msgstr "Les autres contributeur·rice·s ont été supprimé·e·s."
 
 #: wp-admin/users.php:726
-msgid "User removed from this site."
-msgstr "Utilisateur·ice supprimé·e de ce site."
+msgid "Contributor removed from this site."
+msgstr "Contributeur·rice supprimé·e de ce site."
 
 #: wp-admin/users.php:736
-msgid "You cannot remove the current user."
-msgstr "Vous ne pouvez pas supprimer l’utilisateur·ice courant."
+msgid "You cannot remove the current contributor."
+msgstr "Vous ne pouvez pas supprimer |e·la contributeur·rice courant."
 
 #: wp-admin/users.php:744
-msgid "Other users have been removed."
-msgstr "Les autres utilisateur·ice·s ont été supprimé·e·s."
+msgid "Other contributors have been removed."
+msgstr "Les autres contributeur·rice·s ont été supprimé·e·s."
 
 #: wp-admin/widgets-form-blocks.php:24 wp-admin/widgets-form-blocks.php:33
 #: wp-admin/widgets-form-blocks.php:60 wp-admin/widgets-form.php:30
@@ -18464,3 +18496,70 @@ msgstr "Les widgets ne sont pas supportés dans Retraceur."
 #: wp-admin/widgets.php:14
 msgid "Retraceur does not provide Widgets."
 msgstr "Retraceur ne fournit pas de Widgets."
+
+#~ msgid "User %s added"
+#~ msgstr "L’utilisateur·ice %s a été ajouté·e"
+
+#~ msgid "User Language"
+#~ msgstr "Langue choisie par l’utilisateur·ice"
+
+#~ msgid "User count"
+#~ msgstr "Nombre d’utilisateur·ice·s"
+
+#~ msgid "Create a New User"
+#~ msgstr "Créer un·e nouvel·le utilisateur·ice"
+
+#~ msgid "%s user"
+#~ msgid_plural "%s users"
+#~ msgstr[0] "%s utilisateur·ice"
+#~ msgstr[1] "%s utilisateur·ice·s"
+
+#~ msgid "Search Users"
+#~ msgstr "Rechercher des utilisateur·ice·s"
+
+#~ msgid "Users"
+#~ msgstr "Utilisateur·ice·s"
+
+#~ msgid "All Users"
+#~ msgstr "Tou·te·s les utilisateur·ice·s"
+
+#~ msgid "Add New User"
+#~ msgstr "Ajouter un·e utilisateur·ice"
+
+#~ msgid "Edit User %s"
+#~ msgstr "Modifier l’utilisateur·ice %s"
+
+#~ msgid "Sorry, you are not allowed to edit this user."
+#~ msgstr ""
+#~ "Désolé, vous n’avez pas l’autorisation de modifier cet·te utilisateur·ice."
+
+#~ msgid "User updated."
+#~ msgstr "Utilisateur·ice mis·e à jour."
+
+#~ msgid "&larr; Go to Users"
+#~ msgstr "&larr; Aller aux utilisateur·ice·s"
+
+#~ msgid "Update User"
+#~ msgstr "Mettre à jour l’utilisateur·ice"
+
+#~ msgid "User Roles"
+#~ msgstr "Rôles des utilisateur·ice·s"
+
+#~ msgid "User added."
+#~ msgstr "Utilisateur·ice ajouté·e."
+
+#~ msgid "Users list"
+#~ msgstr "Liste des utilisateur·ice·s"
+
+#~ msgid "Sorry, you are not allowed to edit users."
+#~ msgstr ""
+#~ "Désolé, vous n’avez pas l’autorisation de modifier les utilisateur·ice·s."
+
+#~ msgid "Delete Users"
+#~ msgstr "Supprimer des utilisateur·ice·s"
+
+#~ msgid "User deleted."
+#~ msgstr "Utilisateur·ice supprimé·e."
+
+#~ msgid "Edit user"
+#~ msgstr "Modifier l’utilisateur·ice"
