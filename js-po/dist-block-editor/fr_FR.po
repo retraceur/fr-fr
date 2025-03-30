@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
-"POT-Creation-Date: 2025-02-08T13:03:28+00:00\n"
-"PO-Revision-Date: 2025-02-08 14:43+0100\n"
+"POT-Creation-Date: 2025-03-29T11:44:52+00:00\n"
+"PO-Revision-Date: 2025-03-30 14:48+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -314,9 +314,9 @@ msgstr "Défaut"
 #: wp-includes/js/dist/block-editor.js:17683
 #: wp-includes/js/dist/block-editor.js:17711
 #: wp-includes/js/dist/block-editor.js:25506
-msgctxt "Indicates this palette is created by the user."
+msgctxt "Indicates this palette is created by the contributor."
 msgid "Custom"
-msgstr "Personnalisée"
+msgstr "Personnalisé"
 
 #. translators: %s: container size (i.e. 600px etc)
 #: wp-includes/js/dist/block-editor.js:18672
@@ -1741,8 +1741,8 @@ msgid "Theme & Plugins"
 msgstr "Thèmes et extensions"
 
 #: wp-includes/js/dist/block-editor.js:47542
-msgid "User"
-msgstr "Utilisateur·ice"
+msgid "Contributor"
+msgstr "Contibuteur·rice"
 
 #: wp-includes/js/dist/block-editor.js:47570
 msgctxt "patterns"
