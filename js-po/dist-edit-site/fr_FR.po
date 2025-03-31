@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
-"POT-Creation-Date: 2025-02-08T13:03:21+00:00\n"
-"PO-Revision-Date: 2025-02-08 14:47+0100\n"
+"POT-Creation-Date: 2025-03-29T11:44:45+00:00\n"
+"PO-Revision-Date: 2025-03-30 14:54+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -1288,8 +1288,8 @@ msgid "Global styles revisions list"
 msgstr "Liste des révisions des styles globaux"
 
 #: wp-includes/js/dist/edit-site.js:23000
-msgid "User"
-msgstr "Utilisateur·ice"
+msgid "Contributor"
+msgstr "Contibuteur·rice"
 
 #: wp-includes/js/dist/edit-site.js:23027
 msgid "Default styles"

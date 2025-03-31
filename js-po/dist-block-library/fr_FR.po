@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
-"POT-Creation-Date: 2025-02-08T13:02:49+00:00\n"
-"PO-Revision-Date: 2025-02-08 14:44+0100\n"
+"POT-Creation-Date: 2025-03-29T11:44:13+00:00\n"
+"PO-Revision-Date: 2025-03-30 15:18+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -108,15 +108,15 @@ msgid "Default Avatar"
 msgstr "Image de profil par défaut"
 
 #: wp-includes/js/dist/block-library.js:1862
-msgid "User"
-msgstr "Utilisateur·ice"
+msgid "Contributor"
+msgstr ""
 
 #: wp-includes/js/dist/block-library.js:1863
 msgid ""
-"Select the avatar user to display, if it is blank it will use the post/page "
-"author."
+"Select the contributor avatar to display, if it is blank it will use the "
+"post/page author."
 msgstr ""
-"Sélectionner l’image de profil de l’utilisateur·ice à afficher, si non "
+"Sélectionner l’image de profil du·de la contributeur·rice à afficher, si non "
 "spécifié, celui de l’auteur·ice de la publication sera utilisé."
 
 #: wp-includes/js/dist/block-library.js:1905
@@ -124,8 +124,8 @@ msgid "Image size"
 msgstr "Taille de l’image"
 
 #: wp-includes/js/dist/block-library.js:1915
-msgid "Link to user profile"
-msgstr "Lier au profil de l’utilisateur·ice"
+msgid "Link to contributor profile"
+msgstr "Lier au profil du·de la contributeur·rice"
 
 #: wp-includes/js/dist/block-library.js:1922
 #: wp-includes/js/dist/block-library.js:14078
@@ -154,10 +154,10 @@ msgstr "Retirer la légende"
 
 #: wp-includes/js/dist/block-library.js:3128
 #: wp-includes/js/dist/block-library.js:58228
-msgid "Autoplay may cause usability issues for some users."
+msgid "Autoplay may cause usability issues for some contributors."
 msgstr ""
 "La lecture automatique peut être à l’origine de problèmes d’utilisation pour "
-"certain·e·s utilisateur·ice·s."
+"certain·e·s contributeur·rice·s."
 
 #: wp-includes/js/dist/block-library.js:3198
 #: wp-includes/js/dist/block-library.js:58259
@@ -2218,16 +2218,16 @@ msgstr "Vous n’avez pas la permission de créer des menus de navigation."
 
 #: wp-includes/js/dist/block-library.js:31864
 msgid ""
-"The current menu options offer reduced accessibility for users and are not "
-"recommended. Enabling either \"Open on Click\" or \"Show arrow\" offers "
-"enhanced accessibility by allowing keyboard users to browse submenus "
-"selectively."
+"The current menu options offer reduced accessibility for contributors and "
+"are not recommended. Enabling either \"Open on Click\" or \"Show arrow\" "
+"offers enhanced accessibility by allowing keyboard contributors to browse "
+"submenus selectively."
 msgstr ""
 "Les options du menu actuel offre une accessibilité réduite aux "
-"utilisateur·ice·s et ne sont pas recommandés. Activer soit l’ouverture suite "
-"à clic soit l’affichage de flèches offre une meilleure accessibilité car "
-"cela permet aux utilisateur·ice·s de clavier de parcourir les sous-menus de "
-"manière sélective."
+"contributeur·rice·s et ne sont pas recommandés. Activer soit l’ouverture "
+"suite à clic soit l’affichage de flèches offre une meilleure accessibilité "
+"car cela permet aux contributeur·rice·s de clavier de parcourir les sous-"
+"menus de manière sélective."
 
 #: wp-includes/js/dist/block-library.js:31876
 #: wp-includes/js/dist/block-library.js:43155
@@ -3924,11 +3924,11 @@ msgstr "Chapitres"
 #: wp-includes/js/dist/block-library.js:58338
 msgid ""
 "Tracks can be subtitles, captions, chapters, or descriptions. They help make "
-"your content more accessible to a wider range of users."
+"your content more accessible to a wider range of contributors."
 msgstr ""
 "Les pistes peuvent être des sous-titres, des légendes, des chapitres ou des "
 "descriptions. Elles contribuent à rendre votre contenu plus accessible à un "
-"plus large éventail d’utilisateurs."
+"plus large éventail de contributeur·rice·s."
 
 #. translators: %s: Label of the video text track e.g: "French subtitles"
 #: wp-includes/js/dist/block-library.js:58351

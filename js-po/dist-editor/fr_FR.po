@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
-"POT-Creation-Date: 2025-02-08T13:03:01+00:00\n"
-"PO-Revision-Date: 2025-02-08 14:47+0100\n"
+"POT-Creation-Date: 2025-03-29T11:44:26+00:00\n"
+"PO-Revision-Date: 2025-03-30 15:22+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -1065,10 +1065,10 @@ msgstr ""
 
 #: wp-includes/js/dist/editor.js:15965
 msgid ""
-"Another user now has editing control of this post (<PreviewLink />). Don’t "
-"worry, your changes up to this moment have been saved."
+"Another contributor now has editing control of this post (<PreviewLink />). "
+"Don’t worry, your changes up to this moment have been saved."
 msgstr ""
-"Un·e autre utilisateur·ice a repris la main sur cette publication "
+"Un·e autre contributeur·rice a repris la main sur cette publication "
 "(<PreviewLink />). Ne vous inquiétez pas, vos modifications jusqu’à cet "
 "instant ont été sauvegardées."
 
@@ -1088,19 +1088,19 @@ msgstr ""
 
 #: wp-includes/js/dist/editor.js:15975
 msgid ""
-"Another user is currently working on this post (<PreviewLink />), which "
-"means you cannot make changes, unless you take over."
+"Another contributor is currently working on this post (<PreviewLink />), "
+"which means you cannot make changes, unless you take over."
 msgstr ""
-"Un·e autre utilisateur·ice travaille actuellement sur cette publication "
+"Un·e autre contributeur·rice travaille actuellement sur cette publication "
 "(<PreviewLink />), vous ne pouvez pas effectuer de modifications sauf si "
 "vous reprenez la main."
 
 #: wp-includes/js/dist/editor.js:15983
 msgid ""
-"If you take over, the other user will lose editing control to the post, but "
-"their changes will be saved."
+"If you take over, the other contributor will lose editing control to the "
+"post, but their changes will be saved."
 msgstr ""
-"Si vous prenez la main, l’autre utilisateur•ice perdra le contrôle de la "
+"Si vous prenez la main, l’autre contributeur·rice perdra le contrôle de la "
 "modification de la publication mais leurs modifications seront sauvegardées."
 
 #: wp-includes/js/dist/editor.js:15992
@@ -1275,10 +1275,10 @@ msgstr "Ajouter des étiquettes"
 
 #: wp-includes/js/dist/editor.js:17992
 msgid ""
-"Tags help users and search engines navigate your site and find your content. "
-"Add a few keywords to describe your post."
+"Tags help contributors and search engines navigate your site and find your "
+"content. Add a few keywords to describe your post."
 msgstr ""
-"Les étiquettes aident les utilisateur•ice·s et les moteur de recherche à "
+"Les étiquettes aident les contributeur·rice·s et les moteur de recherche à "
 "naviguer dans votre site et trouver votre contenu. Ajoutez quelques mots "
 "clés pour décrire votre publication."
 
@@ -1944,10 +1944,10 @@ msgstr ""
 
 #: wp-includes/js/dist/editor.js:23980
 msgid ""
-"Only users with permissions to edit the template can move or delete this "
-"block"
+"Only contributors with permissions to edit the template can move or delete "
+"this block"
 msgstr ""
-"Seul·e·s les utilisateur·ice·s disposant de la permission de modifier le "
+"Seul·e·s les contributeur·rice·s disposant de la permission de modifier le "
 "gabarit peuvent déplacer ou supprimer ce bloc"
 
 #: wp-includes/js/dist/editor.js:23992
@@ -2387,7 +2387,7 @@ msgstr "Toujours ouvrir la vue liste"
 
 #: wp-includes/js/dist/editor.js:29609
 msgid "Display the block hierarchy trail at the bottom of the editor."
-msgstr "Afficher le suivi de la hiérarchie des blocs au bas de l’éditor."
+msgstr "Afficher le suivi de la hiérarchie des blocs au bas de l’éditeur."
 
 #: wp-includes/js/dist/editor.js:29614
 msgid ""
@@ -2470,11 +2470,11 @@ msgstr "Optimiser l’expérience d’édition pour un contrôle amélioré."
 
 #: wp-includes/js/dist/editor.js:29699
 msgid ""
-"Keeps the text cursor within the block boundaries, aiding users with screen "
-"readers by preventing unintentional cursor movement outside the block."
+"Keeps the text cursor within the block boundaries, aiding contributors with "
+"screen readers by preventing unintentional cursor movement outside the block."
 msgstr ""
 "Garde le curseur du texte à l’intérieur des frontières des blocs, aide les "
-"utilisateur·ice·s avec des lecteurs d’écran en empêchant le mouvement "
+"contributeur·rice·s avec des lecteurs d’écran en empêchant le mouvement "
 "involontaire du curseur en dehors du bloc."
 
 #: wp-includes/js/dist/editor.js:29700
