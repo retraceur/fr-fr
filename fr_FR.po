@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Retraceur - 1.0.0\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
-"POT-Creation-Date: 2025-03-30T11:04:00+00:00\n"
-"PO-Revision-Date: 2025-03-30 13:22+0200\n"
+"POT-Creation-Date: 2025-04-03T04:00:25+00:00\n"
+"PO-Revision-Date: 2025-04-03 06:46+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -76,7 +76,7 @@ msgid ""
 msgstr ""
 "Votre compte vient d’être activé. Vous pouvez dès maintenant vous <a "
 "href=\"%1$s\">connecter</a> à votre site en utilisant votre nom "
-"d’utilisateur·ice « %2$s ». Vous trouverez dans votre messagerie (sur %3$s) "
+"d’utilisateur·rice « %2$s ». Vous trouverez dans votre messagerie (sur %3$s) "
 "un message vous donnant votre mot de passe et les instructions pour vous "
 "connecter. Si vous ne recevez pas de courriel, pensez à consulter le dossier "
 "« spam » de votre client de messagerie. Si vous ne recevez pas votre mot de "
@@ -93,7 +93,7 @@ msgid ""
 "within an hour, you can <a href=\"%4$s\">reset your password</a>."
 msgstr ""
 "Votre site est activé à %1$s. Vous pouvez dès maintenant vous connecter à ce "
-"site en utilisant le nom d’utilisateur·ice choisi « %2$s ». Vous trouverez "
+"site en utilisant le nom d’utilisateur·rice choisi « %2$s ». Vous trouverez "
 "dans votre messagerie (sur %3$s) un message vous donnant votre mot de passe "
 "et les instructions pour vous connecter. Si vous ne recevez pas de courriel, "
 "pensez à consulter le dossier « indésirables » de votre client de "
@@ -102,7 +102,7 @@ msgstr ""
 
 #: wp-content/plugins/reseau/wp-activate.php:183
 msgid "Username:"
-msgstr "Nom d’utilisateur·ice :"
+msgstr "Nom d’utilisateur·rice :"
 
 #: wp-content/plugins/reseau/wp-activate.php:184
 #: wp-includes/post-template.php:1769
@@ -239,7 +239,7 @@ msgstr "Se déconnecter"
 #. translators: %s: Site title.
 #: wp-includes/admin-bar.php:337
 msgid "Network Admin: %s"
-msgstr "Administrateur·ice du réseau : %s"
+msgstr "Administrateur·rice du réseau : %s"
 
 #. translators: %s: Site title.
 #: wp-includes/admin-bar.php:340
@@ -355,7 +355,7 @@ msgid ""
 "PHP's XML extension is not available. Please contact your hosting provider "
 "to enable PHP's XML extension."
 msgstr ""
-"L’extension XML de PHP n’est pas disponible. Veuillez contacter votre "
+"L’extension XML de PHP n’est pas disponible. Merci de contacter votre "
 "hébergeur pour lui demander de l’activer."
 
 #. translators: 1: Error message, 2: Line number.
@@ -834,7 +834,7 @@ msgid ""
 "when more specific templates (e.g. Category or Tag) cannot be found."
 msgstr ""
 "Affiche n’importe quel type d’archive, incluant les archives de publications "
-"d’un auteur·ice, d’une catégorie, d’une étiquette, d’une taxonomie, d’un "
+"d’un auteur·rice, d’une catégorie, d’une étiquette, d’une taxonomie, d’un "
 "type de publications personnalisé ou encore d’une date. Ce gabarit servira "
 "de solution de repli si aucun gabarit plus spécifique (comme l’archive des "
 "catégories ou des étiquettes) ne peut être trouvé."
@@ -842,14 +842,14 @@ msgstr ""
 #: wp-includes/block-template-utils.php:175
 msgctxt "Template name"
 msgid "Author Archives"
-msgstr "Archives des auteur·ice·s"
+msgstr "Archives des auteur·rice·s"
 
 #: wp-includes/block-template-utils.php:176
 msgid ""
 "Displays a single author's post archive. This template will serve as a "
 "fallback when a more specific template (e.g. Author: Admin) cannot be found."
 msgstr ""
-"Affiche l’archive des publications liées à un·e auteur·ice. Ce gabarit "
+"Affiche l’archive des publications liées à un·e auteur·rice. Ce gabarit "
 "servira de solution de repli si aucun gabarit plus spécifique (par ex. : "
 "« Auteur·rice : Françoise ») ne peut être trouvé."
 
@@ -997,12 +997,12 @@ msgstr "Aucun thème n’est défini pour ce gabarit."
 #. translators: Custom template title in the Site Editor, referencing a deleted author. %s: Author nicename.
 #: wp-includes/block-template-utils.php:939
 msgid "Deleted author: %s"
-msgstr "Auteur·ice supprimé·e : %s"
+msgstr "Auteur·rice supprimé·e : %s"
 
 #. translators: Custom template title in the Site Editor. %s: Author name.
 #: wp-includes/block-template-utils.php:947
 msgid "Author: %s"
-msgstr "Auteur·ice : %s"
+msgstr "Auteur·rice : %s"
 
 #: wp-includes/block-template-utils.php:1417
 msgid "Zip Export not supported."
@@ -1075,7 +1075,7 @@ msgstr "Image de profil de %s"
 #. translators: %s is the Author name.
 #: wp-includes/blocks/avatar.php:66
 msgid "(%s author archive, opens in a new tab)"
-msgstr "(Archive de l’auteur·ice %s, s’ouvre dans un nouvel onglet)"
+msgstr "(Archive de l’auteur·rice %s, s’ouvre dans un nouvel onglet)"
 
 #. translators: Visible only in the front end, this warning takes the place of a faulty block.
 #: wp-includes/blocks/block.php:40 wp-includes/blocks/post-content.php:36
@@ -1279,7 +1279,7 @@ msgid ""
 "An error has occurred, which probably means the feed is down. Try again "
 "later."
 msgstr ""
-"Une erreur est survenue, le flux est probablement indisponible. Veuillez "
+"Une erreur est survenue, le flux est probablement indisponible. Merci de "
 "réessayer plus tard."
 
 #: wp-includes/blocks/search.php:147 wp-includes/blocks/search.php:172
@@ -1395,31 +1395,31 @@ msgstr ""
 "avec un·e contributeur·rice spécifique."
 
 #. translators: User role for administrators.
-#: wp-includes/capabilities.php:1302
+#: wp-includes/capabilities.php:1330
 msgctxt "User role"
 msgid "Administrator"
-msgstr "Administrateur·ice"
+msgstr "Administrateur·rice"
 
 #. translators: User role for editors.
-#: wp-includes/capabilities.php:1304
+#: wp-includes/capabilities.php:1332
 msgctxt "User role"
 msgid "Editor"
-msgstr "Éditeur·ice"
+msgstr "Éditeur·rice"
 
 #. translators: User role for authors.
-#: wp-includes/capabilities.php:1306
+#: wp-includes/capabilities.php:1334
 msgctxt "User role"
 msgid "Author"
-msgstr "Auteur·ice"
+msgstr "Auteur·rice"
 
 #. translators: User role for contributors.
-#: wp-includes/capabilities.php:1308
+#: wp-includes/capabilities.php:1336
 msgctxt "User role"
 msgid "Contributor"
-msgstr "Contributeur·ice"
+msgstr "Contributeur·rice"
 
 #. translators: User role for subscribers.
-#: wp-includes/capabilities.php:1310
+#: wp-includes/capabilities.php:1338
 msgctxt "User role"
 msgid "Subscriber"
 msgstr "Abonné·e"
@@ -1718,7 +1718,7 @@ msgid ""
 "that first."
 msgstr ""
 "Il y a eu une erreur critique sur ce site, activant ainsi le mode de "
-"récupération. Veuillez vérifier les pages des thèmes et des extensions pour "
+"récupération. Merci de vérifier les pages des thèmes et des extensions pour "
 "plus de détails. Si vous veniez d’installer ou de mettre à jour un thème ou "
 "une extension, vérifiez la page correspondante en premier."
 
@@ -1727,8 +1727,9 @@ msgid ""
 "There has been a critical error on this website. Please reach out to your "
 "site administrator, and inform them of this error for further assistance."
 msgstr ""
-"Une erreur critique s’est produite sur ce site. Veuillez contacter l’admin "
-"de votre site et l’informer de cette erreur pour obtenir de l’aide."
+"Une erreur critique s’est produite sur ce site. Merci de contacter "
+"l’administrateur·rice de votre site et l’informer de cette erreur pour "
+"obtenir de l’aide."
 
 #: wp-includes/class-wp-fatal-error-handler.php:195
 msgid ""
@@ -1748,7 +1749,7 @@ msgid ""
 "Please consider switching to a recent SimplePie version."
 msgstr ""
 "Ce fichier est uniquement chargé pour la rétro-compatibilité avec SimplePie "
-"1.2.x. Veuillez envisager de passer à une version récente de SimplePie."
+"1.2.x. Merci d’envisager de passer à une version récente de SimplePie."
 
 #. translators: 1: fopen(), 2: File name.
 #: wp-includes/class-wp-http-curl.php:201
@@ -2341,7 +2342,7 @@ msgstr "<a href=\"%s\">Gérer les extensions</a>."
 
 #: wp-includes/class-wp-plugin-dependencies.php:384
 msgid "Please contact your network administrator."
-msgstr "Veuillez contacter votre administrateur·ice réseau."
+msgstr "Merci de contacter votre administrateur·rice réseau."
 
 #. translators: 1: First plugin name, 2: Second plugin name.
 #: wp-includes/class-wp-plugin-dependencies.php:422
@@ -2359,7 +2360,7 @@ msgstr ""
 #: wp-includes/class-wp-plugin-dependencies.php:433
 msgid "Please contact the plugin authors for more information."
 msgstr ""
-"Veuillez contacter l’auteur·ice de l’extension pour plus d’informations."
+"Merci de contacter l’auteur·rice de l’extension pour plus d’informations."
 
 #: wp-includes/class-wp-plugin-dependencies.php:457
 msgid "No plugin specified."
@@ -2508,11 +2509,11 @@ msgstr "Insérer dans la page"
 
 #: wp-includes/class-wp-post-type.php:988
 msgid "Uploaded to this post"
-msgstr "Téléversés sur cette publication"
+msgstr "Chargés sur cette publication"
 
 #: wp-includes/class-wp-post-type.php:988
 msgid "Uploaded to this page"
-msgstr "Téléversés sur cette page"
+msgstr "Chargés sur cette page"
 
 #: wp-includes/class-wp-post-type.php:989
 msgctxt "post"
@@ -2812,7 +2813,7 @@ msgid ""
 "Please contact your host for assistance with investigating this issue "
 "further."
 msgstr ""
-"Veuillez contacter votre hébergeur pour une assistance concernant la "
+"Merci de contacter votre hébergeur pour une assistance concernant la "
 "résolution de ce problème."
 
 #. translators: Do not translate LINK, EXPIRES, CAUSE, DETAILS, SITEURL, PAGEURL, SUPPORT. DEBUG: those are placeholders.
@@ -2946,7 +2947,7 @@ msgstr "Lien de sortie du mode de récupération expiré."
 #: wp-includes/class-wp-recovery-mode.php:249
 msgid "Failed to exit recovery mode. Please try again later."
 msgstr ""
-"Erreur de sortie du mode de récupération. Veuillez réessayer plus tard."
+"Erreur de sortie du mode de récupération. Merci de réessayer plus tard."
 
 #: wp-includes/class-wp-script-modules.php:83
 msgid "Missing required id key in entry among dependencies array."
@@ -3235,7 +3236,7 @@ msgstr ""
 "Votre fichier %1$s utilise une valeur dynamique (%2$s) pour le chemin vers "
 "%3$s. Cependant, la valeur de %3$s est également une valeur dynamique "
 "(pointant vers %4$s) et pointant vers une autre valeur dynamique ce qui "
-"n’est pas pris en charge. Veuillez mettre à jour %3$s pour pointer "
+"n’est pas pris en charge. Merci de mettre à jour %3$s pour pointer "
 "directement vers %4$s."
 
 #. translators: 1: theme.json, 2: settings.spacing.spacingScale
@@ -3273,7 +3274,7 @@ msgid ""
 "exist. Please check your installation."
 msgstr ""
 "<strong>Erreur :</strong> le répertoire des thèmes est soit vide, ou "
-"n’existe pas. Veuillez vérifier votre installation."
+"n’existe pas. Merci de vérifier votre installation."
 
 #: wp-includes/class-wp-theme.php:321
 msgid "Stylesheet is not readable."
@@ -3284,7 +3285,7 @@ msgstr "Impossible de lire la feuille de style."
 msgid ""
 "The theme defines itself as its parent theme. Please check the %s header."
 msgstr ""
-"Le thème se définit lui-même comme son propre thème parent. Veuillez "
+"Le thème se définit lui-même comme son propre thème parent. Merci de "
 "vérifier l’entête %s."
 
 #. translators: 1: templates/index.html, 2: index.php, 3: Template, 4: style.css
@@ -3301,7 +3302,7 @@ msgstr ""
 #: wp-includes/class-wp-theme.php:436
 msgid "The parent theme is missing. Please install the \"%s\" parent theme."
 msgstr ""
-"Le thème parent est manquant. Veuillez installer le thème parent « %s »."
+"Le thème parent est manquant. Merci d’installer le thème parent « %s »."
 
 #. translators: %s: Theme directory name.
 #: wp-includes/class-wp-theme.php:465 wp-includes/class-wp-theme.php:486
@@ -3845,7 +3846,7 @@ msgstr ""
 
 #: wp-includes/deprecated.php:12037
 msgid "Please consider writing more inclusive code."
-msgstr "Veuillez envisager d’écrire un code plus inclusif."
+msgstr "Merci d’envisager d’écrire un code plus inclusif."
 
 #: wp-includes/deprecated.php:16345
 msgid "Editing plugin files is not supported by Retraceur."
@@ -4150,7 +4151,7 @@ msgid ""
 "The website address you entered did not appear to be a valid URL. Please "
 "enter a valid URL."
 msgstr ""
-"L’URL de site que vous avez saisie ne semble pas être valide. Veuillez "
+"L’URL de site que vous avez saisie ne semble pas être valide. Merci de "
 "saisir une URL valide."
 
 #: wp-includes/formatting.php:4944
@@ -4158,14 +4159,14 @@ msgid ""
 "The Site address you entered did not appear to be a valid URL. Please enter "
 "a valid URL."
 msgstr ""
-"L’URL de site que vous avez saisie ne semble pas être valide. Veuillez "
+"L’URL de site que vous avez saisie ne semble pas être valide. Merci de "
 "saisir une URL valide."
 
 #: wp-includes/formatting.php:4979
 msgid ""
 "The timezone you have entered is not valid. Please select a valid timezone."
 msgstr ""
-"Le fuseau horaire ne semble pas être valide. Veuillez en choisir un valide."
+"Le fuseau horaire ne semble pas être valide. Merci d’en choisir un valide."
 
 #: wp-includes/formatting.php:4997
 msgid "A structure tag is required when using custom permalinks."
@@ -4174,27 +4175,27 @@ msgstr ""
 "sont utilisés."
 
 #. translators: 1: Option name, 2: Error code.
-#: wp-includes/formatting.php:5011
+#: wp-includes/formatting.php:5012
 msgid "Could not sanitize the %1$s option. Error code: %2$s"
 msgstr "Impossible de sanitiser l’option %1$s. Code d’erreur : %2$s"
 
 #. translators: Used to join items in a list with more than 2 items.
-#: wp-includes/formatting.php:5254
+#: wp-includes/formatting.php:5255
 msgid "%1$s, %2$s"
 msgstr "%1$s, %2$s"
 
 #. translators: Used to join last two items in a list with more than 2 times.
-#: wp-includes/formatting.php:5256
+#: wp-includes/formatting.php:5257
 msgid "%1$s, and %2$s"
 msgstr "%1$s, et %2$s"
 
 #. translators: Used to join items in a list with only 2 items.
-#: wp-includes/formatting.php:5258
+#: wp-includes/formatting.php:5259
 msgid "%1$s and %2$s"
 msgstr "%1$s et %2$s"
 
 #. translators: 1: The function name, 2: The argument number, 3: The argument name, 4: The expected type, 5: The provided type.
-#: wp-includes/formatting.php:5444
+#: wp-includes/formatting.php:5445
 msgid "Warning: %1$s expects parameter %2$s (%3$s) to be a %4$s, %5$s given."
 msgstr ""
 "Avertissement : %1$s attend que le paramètre %2$s (%3$s) soit %4$s plutôt "
@@ -4281,8 +4282,7 @@ msgstr "Pas de nom de fichier"
 #: wp-includes/rest-api/endpoints/class-wp-rest-font-faces-controller.php:898
 #: wp-includes/script-loader.php:816
 msgid "Sorry, you are not allowed to upload this file type."
-msgstr ""
-"Désolé, vous n’avez pas l’autorisation de téléverser ce type de fichier."
+msgstr "Désolé, vous n’avez pas l’autorisation de charger ce type de fichier."
 
 #. translators: %s: File name.
 #: wp-includes/functions.php:2757
@@ -4309,7 +4309,7 @@ msgstr "Le lien suivi est expiré."
 
 #: wp-includes/functions.php:3504
 msgid "Please try again."
-msgstr "Veuillez réessayer."
+msgstr "Merci de réessayer."
 
 #: wp-includes/functions.php:3663
 msgid "&laquo; Back"
@@ -4376,7 +4376,7 @@ msgid ""
 "since version %2$s! Use %3$s instead."
 msgstr ""
 "La méthode de construction appelée pour la classe %1$s est <strong>obsolète</"
-"strong> depuis la version %2$s ! Veuillez utiliser %3$s à la place."
+"strong> depuis la version %2$s ! Merci d’utiliser %3$s à la place."
 
 #. translators: 1: PHP class name, 2: Project name, 3: Version number, 4: Alternative class or function name.
 #: wp-includes/functions.php:5427
@@ -4490,7 +4490,7 @@ msgstr "La session a expiré"
 
 #: wp-includes/functions.php:7157 wp-includes/user.php:326
 msgid "Please log in again."
-msgstr "Veuillez vous reconnecter."
+msgstr "Merci de vous reconnecter."
 
 #: wp-includes/functions.php:7158
 msgid ""
@@ -4546,7 +4546,7 @@ msgstr "[supprimé]"
 #. translators: Deleted long text.
 #: wp-includes/functions.php:7949
 msgid "This content was deleted by the author."
-msgstr "Ce contenu a été supprimé par son auteur·ice."
+msgstr "Ce contenu a été supprimé par son auteur·rice."
 
 #. translators: 1: Function name, 2: A variable type, like "boolean" or "integer".
 #: wp-includes/functions.php:8242
@@ -4616,7 +4616,7 @@ msgstr "Déconnexion"
 
 #: wp-includes/general-template.php:527 wp-login.php:881 wp-login.php:1556
 msgid "Username or Email Address"
-msgstr "Nom d’utilisateur·ice ou adresse de courriel"
+msgstr "Nom d’utilisateur·rice ou adresse de courriel"
 
 #: wp-includes/general-template.php:528 wp-login.php:1561
 msgid "Password"
@@ -4712,7 +4712,7 @@ msgstr "Étiquette :"
 #: wp-includes/general-template.php:1719
 msgctxt "author archive title prefix"
 msgid "Author:"
-msgstr "Auteur·ice :"
+msgstr "Auteur·rice :"
 
 #: wp-includes/general-template.php:1723
 msgctxt "date archive title prefix"
@@ -4937,7 +4937,7 @@ msgstr ""
 
 #: wp-includes/html-api/class-wp-html-processor.php:556
 msgid "Please pass a query array to this function."
-msgstr "Veuillez transmettre un tableau de requêtes à cette fonction."
+msgstr "Merci de transmettre un tableau de requêtes à cette fonction."
 
 #: wp-includes/html-api/class-wp-html-tag-processor.php:1344
 msgid "Too many bookmarks: cannot create any more."
@@ -5000,7 +5000,7 @@ msgstr ""
 
 #: wp-includes/interactivity-api/class-wp-interactivity-api.php:229
 msgid "Loading page, please wait."
-msgstr "Chargement de la page en cours, veuillez patienter."
+msgstr "Chargement de la page en cours, merci de patienter."
 
 #: wp-includes/interactivity-api/class-wp-interactivity-api.php:230
 msgid "Page Loaded."
@@ -5167,7 +5167,7 @@ msgstr ""
 #. translators: %s: mysqli.
 #: wp-includes/load.php:187
 msgid "Please check that the %s PHP extension is installed and enabled."
-msgstr "Veuillez vérifier que l’extension PHP %s est installée et activée."
+msgstr "Merci de vérifier que l’extension PHP %s est installée et activée."
 
 #: wp-includes/load.php:197
 msgid "Requirements Not Met"
@@ -5181,7 +5181,7 @@ msgstr "La constante %s n’est plus prise en charge."
 #: wp-includes/load.php:386
 msgid "Briefly unavailable for scheduled maintenance. Check back in a minute."
 msgstr ""
-"Indisponibilité temporaire pour cause de maintenance. Veuillez revenir dans "
+"Indisponibilité temporaire pour cause de maintenance. Merci de revenir dans "
 "un instant."
 
 #: wp-includes/load.php:387
@@ -5202,12 +5202,12 @@ msgid ""
 "The site you have requested is not installed properly. Please contact the "
 "system administrator."
 msgstr ""
-"Le site que vous avez demandé n’est pas installé correctement. Veuillez "
-"contacter l’administrateur·ice de votre serveur."
+"Le site que vous avez demandé n’est pas installé correctement. Merci de "
+"contacter l’administrateur·rice de votre serveur."
 
 #: wp-includes/load.php:1828
 msgid "Scrape key check failed. Please try again."
-msgstr "La vérification de la clé a échouée. Veuillez réessayer."
+msgstr "La vérification de la clé a échouée. Merci de réessayer."
 
 #. translators: 1: Link to tutorial, 2: Additional link attributes, 3: Accessibility text.
 #: wp-includes/media-template.php:163
@@ -5246,16 +5246,16 @@ msgstr "Actions des médias sélectionnés."
 #: wp-includes/media-template.php:217 wp-includes/media-template.php:224
 #: wp-includes/media-template.php:258
 msgid "Drop files to upload"
-msgstr "Déposez vos fichiers pour les téléverser"
+msgstr "Déposez vos fichiers pour les charger"
 
 #. translators: Hidden accessibility text.
 #: wp-includes/media-template.php:235
 msgid "Close uploader"
-msgstr "Fermer le panneau de téléversement"
+msgstr "Fermer le panneau de chargement"
 
 #: wp-includes/media-template.php:245
 msgid "Your browser cannot upload files"
-msgstr "Votre navigateur ne peut pas téléverser de fichiers"
+msgstr "Votre navigateur ne peut pas charger de fichiers"
 
 #: wp-includes/media-template.php:246
 msgid ""
@@ -5268,7 +5268,7 @@ msgstr ""
 
 #: wp-includes/media-template.php:250
 msgid "Upload Limit Exceeded"
-msgstr "Limite de téléversement dépassée"
+msgstr "Limite de chargement dépassée"
 
 #: wp-includes/media-template.php:259
 msgctxt "Uploader: Drop files here - or - Select Files"
@@ -5282,7 +5282,7 @@ msgstr "Sélectionnez des fichiers"
 #. translators: %s: Maximum allowed file size.
 #: wp-includes/media-template.php:291
 msgid "Maximum upload file size: %s."
-msgstr "Taille de fichier maximale pour le téléversement : %s."
+msgstr "Taille de fichier maximale pour le chargement : %s."
 
 #. translators: 1: Suggested width number, 2: Suggested height number.
 #: wp-includes/media-template.php:301 wp-includes/media.php:5009
@@ -5301,7 +5301,7 @@ msgstr "Vue grille"
 
 #: wp-includes/media-template.php:337
 msgid "Uploading"
-msgstr "Téléversement"
+msgstr "Chargement"
 
 #: wp-includes/media-template.php:348
 msgid "Dismiss errors"
@@ -5349,15 +5349,15 @@ msgstr "Détails"
 
 #: wp-includes/media-template.php:439
 msgid "Uploaded on:"
-msgstr "Téléversé le :"
+msgstr "Chargé le :"
 
 #: wp-includes/media-template.php:441
 msgid "Uploaded by:"
-msgstr "Téléversé par :"
+msgstr "Chargé par :"
 
 #: wp-includes/media-template.php:450
 msgid "Uploaded to:"
-msgstr "Téléversé vers :"
+msgstr "Chargé vers :"
 
 #: wp-includes/media-template.php:458
 msgid "File name:"
@@ -5830,7 +5830,7 @@ msgstr "Aucun éditeur n’a pas pu être sélectionné."
 
 #: wp-includes/media.php:4519
 msgid "(no author)"
-msgstr "(aucun auteur·ice)"
+msgstr "(aucun auteur·rice)"
 
 #: wp-includes/media.php:4919 wp-includes/media.php:5605
 msgid "Media"
@@ -5868,11 +5868,11 @@ msgstr "Glissez-déposez les médias pour les réorganiser."
 
 #: wp-includes/media.php:4938
 msgid "Upload files"
-msgstr "Téléverser des fichiers"
+msgstr "Charger des fichiers"
 
 #: wp-includes/media.php:4939
 msgid "Upload images"
-msgstr "Téléverser des images"
+msgstr "Charger des images"
 
 #: wp-includes/media.php:4942
 msgid "Media Library"
@@ -6311,7 +6311,7 @@ msgstr ""
 #: wp-includes/option.php:2967 wp-includes/option.php:2980
 msgid "The \"%s\" options group has been removed. Use another settings group."
 msgstr ""
-"Le groupe d’options « %s » a été supprimé. Veuillez utiliser un autre groupe "
+"Le groupe d’options « %s » a été supprimé. Merci d’utiliser un autre groupe "
 "de réglages."
 
 #. translators: 1: $sanitize_callback, 2: register_setting()
@@ -6324,7 +6324,7 @@ msgid ""
 "<strong>Error:</strong> Invalid username, email address or incorrect "
 "password."
 msgstr ""
-"<strong>Erreur :</strong> nom d’utilisateur·ice non valide, adresse de "
+"<strong>Erreur :</strong> nom d’utilisateur·rice non valide, adresse de "
 "courriel ou mot de passe incorrects."
 
 #: wp-includes/pluggable.php:1271 wp-includes/pluggable.php:1316
@@ -6486,7 +6486,7 @@ msgid ""
 "This content is password protected. To view it please enter your password "
 "below:"
 msgstr ""
-"Cette publication est protégée par un mot de passe. Pour la voir, veuillez "
+"Cette publication est protégée par un mot de passe. Pour la voir, merci de "
 "saisir votre mot de passe ci-dessous :"
 
 #: wp-includes/post-template.php:1769
@@ -6928,7 +6928,7 @@ msgstr "Insérer dans le menu de navigation"
 
 #: wp-includes/post.php:500
 msgid "Uploaded to this Navigation Menu"
-msgstr "Téléversé vers ce menu de navigation"
+msgstr "Chargé vers ce menu de navigation"
 
 #: wp-includes/post.php:501
 msgid "Filter Navigation Menu list"
@@ -7740,8 +7740,8 @@ msgid ""
 "Application passwords are not available for your account. Please contact the "
 "site administrator for assistance."
 msgstr ""
-"Les mots de passe d’application ne sont pas activés pour votre compte. "
-"Veuillez contacter l’administrateur·ice du site pour obtenir de l’aide."
+"Les mots de passe d’application ne sont pas activés pour votre compte. Merci "
+"de contacter l’administrateur·rice du site pour obtenir de l’aide."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php:798
 msgid "The unique identifier for the application password."
@@ -7789,12 +7789,12 @@ msgstr "Identifiant unique du fichier joint."
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:498
 msgid "Sorry, you are not allowed to upload media on this site."
 msgstr ""
-"Désolé, vous n’avez pas l’autorisation de téléverser des médias sur ce site."
+"Désolé, vous n’avez pas l’autorisation de charger des médias sur ce site."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:135
 msgid "Sorry, you are not allowed to upload media to this post."
 msgstr ""
-"Désolé, vous n’avez pas l’autorisation de téléverser des médias pour cette "
+"Désolé, vous n’avez pas l’autorisation de charger des médias pour cette "
 "publication."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:155
@@ -7932,7 +7932,7 @@ msgstr "Limiter le groupe de résultats à un type MIME particulier."
 #. translators: %s: Required disk space in kilobytes.
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1388
 msgid "Not enough space to upload. %s KB needed."
-msgstr "Pas assez d’espace pour téléverser. Il y a besoin de %s KB."
+msgstr "Pas assez d’espace pour charger. Il y a besoin de %s KB."
 
 #. translators: %s: Maximum allowed file size in kilobytes.
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1397
@@ -7944,8 +7944,8 @@ msgstr ""
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1408
 msgid "You have used your space quota. Please delete files before uploading."
 msgstr ""
-"Vous avez utilisé votre quota d’espace. Veuillez supprimer des fichiers "
-"avant le téléversement."
+"Vous avez utilisé votre quota d’espace. Merci de supprimer des fichiers "
+"avant le chargement."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1426
 msgid "URL to the edited image file."
@@ -8121,7 +8121,7 @@ msgstr "Le nombre de sites qui ont activé ce bloc."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-directory-controller.php:263
 msgid "The average rating of blocks published by the same author."
-msgstr "La note moyenne des blocs publiés par le même auteur·ice."
+msgstr "La note moyenne des blocs publiés par le même auteur·rice."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-directory-controller.php:268
 msgid "The number of blocks published by the same author."
@@ -8129,7 +8129,7 @@ msgstr "Le nombre de blocs publiés par le même auteur."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-directory-controller.php:273
 msgid "The username of the block author."
-msgstr "Le nom d’utilisateur·ice de l’auteur·ice du bloc."
+msgstr "Le nom d’utilisateur·rice de l’auteur·rice du bloc."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-directory-controller.php:278
 msgid "The block icon."
@@ -9027,7 +9027,7 @@ msgstr "Désolé, vous n’avez pas l’autorisation d’activer les extensions.
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:351
 msgid "Unable to connect to the filesystem. Please confirm your credentials."
 msgstr ""
-"Impossible de se connecter au système de fichier. Veuillez confirmer vos "
+"Impossible de se connecter au système de fichier. Merci de confirmer vos "
 "identifiants de connexion."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:361
@@ -9043,7 +9043,7 @@ msgstr ""
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:544
 msgid "Cannot delete an active plugin. Please deactivate it first."
 msgstr ""
-"Impossible de supprimer une extension active. Veuillez d’abord la désactiver."
+"Impossible de supprimer une extension active. Merci de d’abord la désactiver."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:702
 msgid "Sorry, you are not allowed to manage network plugins."
@@ -9083,11 +9083,11 @@ msgstr "L’adresse du site web de l’extension."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:917
 msgid "The plugin author."
-msgstr "L’auteur·ice de l’extension."
+msgstr "L’auteur·rice de l’extension."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:923
 msgid "Plugin author's website address."
-msgstr "URL du site de l’auteur·ice de l’extension."
+msgstr "URL du site de l’auteur·rice de l’extension."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:930
 msgid "The plugin description."
@@ -9364,7 +9364,7 @@ msgstr "Cette publication ne peut pas être supprimée."
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1367
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:647
 msgid "Invalid author ID."
-msgstr "ID de l’auteur·ice non valide."
+msgstr "ID de l’auteur·rice non valide."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1384
 msgid "A post can not be sticky and have a password."
@@ -9503,7 +9503,7 @@ msgstr "Définit si le contenu est protégé par mot de passe ou non."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2528
 msgid "The ID for the author of the post."
-msgstr "L’ID pour l’auteur·ice de la publication."
+msgstr "L’ID pour l’auteur·rice de la publication."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2536
 msgid "The excerpt for the post."
@@ -9564,7 +9564,7 @@ msgstr "Les termes assignés à la publication dans la taxonomie %s."
 #. translators: %s: register_rest_field
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2682
 msgid "Please use %s to add new schema properties."
-msgstr "Veuillez utiliser %s pour ajouter de nouvelles propriétés de schéma."
+msgstr "Merci d’utiliser %s pour ajouter de nouvelles propriétés de schéma."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2710
 msgid "The current contributor can publish this post."
@@ -9583,7 +9583,7 @@ msgstr "Le·la contributeur·rice actuel·le peut épingler cette publication."
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2759
 msgid "The current contributor can change the author on this post."
 msgstr ""
-"Le·la contributeur·rice actuel·le peut changer l’auteur·ice de cette "
+"Le·la contributeur·rice actuel·le peut changer l’auteur·rice de cette "
 "publication."
 
 #. translators: %s: Taxonomy name.
@@ -9614,14 +9614,14 @@ msgstr ""
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2848
 msgid "Limit result set to posts assigned to specific authors."
 msgstr ""
-"Limiter les résultats aux publications assignées à des auteurs·ice·s "
+"Limiter les résultats aux publications assignées à des auteur·rice·s "
 "spécifiques."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2856
 msgid "Ensure result set excludes posts assigned to specific authors."
 msgstr ""
 "S’assurer que le jeu de résultats exclut les publications assignées à des "
-"auteurs·ice·s spécifiques."
+"auteur·rice·s spécifiques."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2866
 msgid ""
@@ -9807,7 +9807,7 @@ msgstr ""
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:713
 msgid "The ID for the author of the revision."
-msgstr "L’identifiant de l’auteur·ice de la révision."
+msgstr "L’identifiant de l’auteur·rice de la révision."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:718
 msgid "The date the revision was published, in the site's timezone."
@@ -10082,7 +10082,7 @@ msgstr "Le gabarit ne peut pas être supprimé."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:916
 msgid "Unknown author"
-msgstr "Auteur·ice inconnu·e"
+msgstr "Auteur·rice inconnu·e"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1006
 msgid "Limit to the specified post id."
@@ -10162,7 +10162,7 @@ msgstr "Le fichier du thème existe."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1138
 msgid "The ID for the author of the template."
-msgstr "L’ID de l’auteur·ice du gabarit."
+msgstr "L’ID de l’auteur·rice du gabarit."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1143
 msgid "The date the template was last modified, in the site's timezone."
@@ -10172,7 +10172,7 @@ msgstr ""
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1151
 msgid "Human readable text for the author."
-msgstr "Texte lisible par un humain pour l’auteur·ice."
+msgstr "Texte lisible par un humain pour l’auteur·rice."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1156
 msgid "Where the template originally comes from e.g. 'theme'"
@@ -10350,29 +10350,29 @@ msgstr ""
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:487
 msgid "The theme author."
-msgstr "L’auteur·ice du thème."
+msgstr "L’auteur·rice du thème."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:492
 msgid "The theme author's name, as found in the theme header."
 msgstr ""
-"Le nom de l’auteur·ice du thème, tel qu’indiqué dans l’entête du thème."
+"Le nom de l’auteur·rice du thème, tel qu’indiqué dans l’entête du thème."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:496
 msgid "HTML for the theme author, transformed for display."
-msgstr "Contenu HTML pour l’auteur·ice du thème, transformé pour l’affichage."
+msgstr "Contenu HTML pour l’auteur·rice du thème, transformé pour l’affichage."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:502
 msgid "The website of the theme author."
-msgstr "Le site de l’auteur·ice du thème."
+msgstr "Le site de l’auteur·rice du thème."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:507
 msgid "The website of the theme author, as found in the theme header."
 msgstr ""
-"Le site de l’auteur·ice du thème, tel qu’indiqué dans l’entête du thème."
+"Le site de l’auteur·rice du thème, tel qu’indiqué dans l’entête du thème."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:512
 msgid "The website of the theme author, transformed for display."
-msgstr "Le site internet de l’auteur·ice du thème, adapté pour l’affichage."
+msgstr "Le site internet de l’auteur·rice du thème, adapté pour l’affichage."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:519
 msgid "A description of the theme."
@@ -10518,24 +10518,24 @@ msgstr ""
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:156
 msgid "Reassign the deleted contributor's posts to this contributor ID."
 msgstr ""
-"Transférer les publications du·de la contibuteur·rice supprimé·e à cet ID de "
-"contibuteur·rice."
+"Transférer les publications du·de la contributeur·rice supprimé·e à cet ID "
+"de contributeur·rice."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:190
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:571
 msgid "Invalid contributor parameter(s)."
-msgstr "Paramètre(s) de contibuteur·rice non valide(s)."
+msgstr "Paramètre(s) de contributeur·rice non valide(s)."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:208
 msgid "Sorry, you are not allowed to filter contributors by role."
 msgstr ""
-"Désolé, vous n’avez pas l’autorisation de filtrer les contibuteur·rice·s "
+"Désolé, vous n’avez pas l’autorisation de filtrer les contributeur·rice·s "
 "selon leur rôle."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:217
 msgid "Sorry, you are not allowed to filter contributors by capability."
 msgstr ""
-"Désolé, vous n’avez pas l‘autorisation de filtrer les contibuteur·rice·s "
+"Désolé, vous n’avez pas l‘autorisation de filtrer les contributeur·rice·s "
 "selon leurs permissions."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:225
@@ -10543,43 +10543,43 @@ msgstr ""
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:461
 msgid "Sorry, you are not allowed to list contributors."
 msgstr ""
-"Désolé, vous n’avez pas l’autorisation de lister les contibuteur·rice·s."
+"Désolé, vous n’avez pas l’autorisation de lister les contributeur·rice·s."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:233
 msgid "Sorry, you are not allowed to order contributors by this parameter."
 msgstr ""
-"Désolé, vous n’avez pas l’autorisation de trier les contibuteur·rice·s avec "
+"Désolé, vous n’avez pas l’autorisation de trier les contributeur·rice·s avec "
 "ce paramètre."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:250
 msgid "Sorry, you are not allowed to query contributors by this parameter."
 msgstr ""
 "Désolé vous n’avez pas l’autorisation d’utiliser ce paramètre de requête de "
-"contibuteur·rice·s."
+"contributeur·rice·s."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:528
 msgid "Sorry, you are not allowed to create new contributors."
 msgstr ""
-"Désolé, vous n’avez pas l’autorisation de créer des contibuteur·rice·s."
+"Désolé, vous n’avez pas l’autorisation de créer des contributeur·rice·s."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:548
 msgid "Cannot create existing contributor."
-msgstr "Impossible de créer un·e contibuteur·rice déjà existant·e."
+msgstr "Impossible de créer un·e contributeur·rice déjà existant·e."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:596
 msgid "Error creating new contributor."
-msgstr "Erreur de création du·de la contibuteur·rice."
+msgstr "Erreur de création du·de la contributeur·rice."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:692
 msgid "Sorry, you are not allowed to edit roles of this contributor."
 msgstr ""
 "Désolé, vous n’avez pas l’autorisation de modifier le rôle de ce·tte "
-"contibuteur·rice."
+"contributeur·rice."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:711
 msgid "Sorry, you are not allowed to edit this contributor."
 msgstr ""
-"Désolé, vous n’avez pas l’autorisation de modifier ce·tte contibuteur·rice."
+"Désolé, vous n’avez pas l’autorisation de modifier ce·tte contributeur·rice."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:751
 msgid "Username is not editable."
@@ -10592,23 +10592,23 @@ msgstr "Slug invalide."
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:865
 msgid "Sorry, you are not allowed to delete this contributor."
 msgstr ""
-"Désolé, vous n’avez pas l’autorisation de supprimer ce·tte contibuteur·rice."
+"Désolé, vous n’avez pas l’autorisation de supprimer ce·tte contributeur·rice."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:886
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:933
 msgid "The contributor cannot be deleted."
-msgstr "Le·la contibuteur·rice ne peut pas être supprimé·e."
+msgstr "Le·la contributeur·rice ne peut pas être supprimé·e."
 
 #. translators: %s: force=true
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:906
 msgid "Contributors do not support trashing. Set '%s' to delete."
 msgstr ""
-"Les contibuteur·rice·s ne peuvent pas être mis à la corbeille. Utilisez le "
+"Les contributeur·rice·s ne peuvent pas être mis à la corbeille. Utilisez le "
 "paramètre « %s » pour les supprimer."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:915
 msgid "Invalid contributor ID for reassignment."
-msgstr "ID de contibuteur·rice non valide pour le transfert."
+msgstr "ID de contributeur·rice non valide pour le transfert."
 
 #. translators: %s: Role key.
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1223
@@ -10620,7 +10620,7 @@ msgstr "Le rôle %s n’existe pas."
 msgid "Sorry, you are not allowed to give contributors that role."
 msgstr ""
 "Désolé, vous n’avez pas l’autorisation de donner ce rôle aux "
-"contibuteur·rice·s."
+"contributeur·rice·s."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1282
 msgid ""
@@ -10628,7 +10628,7 @@ msgid ""
 "valid username."
 msgstr ""
 "L’identifiant n’est pas valide car il utilise des caractères non autorisés. "
-"Veuillez saisir un identifiant valide."
+"Merci de saisir un identifiant valide."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1293
 #: wp-includes/user.php:2179 wp-includes/user.php:3534
@@ -10647,59 +10647,59 @@ msgstr "Les mots de passe ne peuvent pas contenir le caractère « %s »."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1363
 msgid "Login name for the contributor."
-msgstr "Identifiant de connexion pour le·la contibuteur·rice."
+msgstr "Identifiant de connexion pour le·la contributeur·rice."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1372
 msgid "Display name for the contributor."
-msgstr "Nom à afficher pour le·la contibuteur·rice."
+msgstr "Nom à afficher pour le·la contributeur·rice."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1380
 msgid "First name for the contributor."
-msgstr "Prénom associé à le·la contibuteur·rice."
+msgstr "Prénom associé à le·la contributeur·rice."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1388
 msgid "Last name for the contributor."
-msgstr "Nom (patronyme) du·de la contibuteur·rice."
+msgstr "Nom (patronyme) du·de la contributeur·rice."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1396
 msgid "The email address for the contributor."
-msgstr "L’adresse de courriel du·de la contibuteur·rice."
+msgstr "L’adresse de courriel du·de la contributeur·rice."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1403
 msgid "URL of the contributor."
-msgstr "URL du·de la contibuteur·rice."
+msgstr "URL du·de la contributeur·rice."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1409
 msgid "Description of the contributor."
-msgstr "Description du·de la contibuteur·rice."
+msgstr "Description du·de la contributeur·rice."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1414
 msgid "Author URL of the contributor."
-msgstr "URL d’auteur·ice du·de la contibuteur·rice."
+msgstr "URL d’auteur·rice du·de la contributeur·rice."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1421
 msgid "Locale for the contributor."
-msgstr "Langue choisie par le·la contibuteur·rice."
+msgstr "Langue choisie par le·la contributeur·rice."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1427
 msgid "The nickname for the contributor."
-msgstr "Le surnom du·de la contibuteur·rice."
+msgstr "Le surnom du·de la contributeur·rice."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1435
 msgid "An alphanumeric identifier for the contributor."
-msgstr "Un identifiant alphanumérique pour le·la contibuteur·rice."
+msgstr "Un identifiant alphanumérique pour le·la contributeur·rice."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1443
 msgid "Registration date for the contributor."
-msgstr "Date d’inscription du·de la contibuteur·rice."
+msgstr "Date d’inscription du·de la contributeur·rice."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1450
 msgid "Roles assigned to the contributor."
-msgstr "Rôles assignés au·à la contibuteur·rice."
+msgstr "Rôles assignés au·à la contributeur·rice."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1458
 msgid "Password for the contributor (never included)."
-msgstr "Mot de passe pour le·la contibuteur·rice (jamais inclus)."
+msgstr "Mot de passe pour le·la contributeur·rice (jamais inclus)."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1467
 msgid "All capabilities assigned to the contributor."
@@ -10707,7 +10707,7 @@ msgstr "Toutes les permissions affectées au compte."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1473
 msgid "Any extra capabilities assigned to the contributor."
-msgstr "Les permissions supplémentaires affectées au·à la contibuteur·rice."
+msgstr "Les permissions supplémentaires affectées au·à la contributeur·rice."
 
 #. translators: %d: Avatar image size in pixels.
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1489
@@ -10716,16 +10716,16 @@ msgstr "URL d’image de profil avec une taille d’image de %d pixels."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1497
 msgid "Avatar URLs for the contributor."
-msgstr "URL d’image de profil du·de la contibuteur·rice."
+msgstr "URL d’image de profil du·de la contributeur·rice."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1556
 msgid "Sort collection by contributor attribute."
-msgstr "Trier la collection par attribut de contibuteur·rice."
+msgstr "Trier la collection par attribut de contributeur·rice."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1571
 msgid "Limit result set to contributors with one or more specific slugs."
 msgstr ""
-"Limiter le jeu de résultats aux contibuteur·rice·s ayant un ou plusieurs "
+"Limiter le jeu de résultats aux contributeur·rice·s ayant un ou plusieurs "
 "identifiants spécifiques."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1579
@@ -10733,28 +10733,28 @@ msgid ""
 "Limit result set to contributors matching at least one specific role "
 "provided. Accepts csv list or single role."
 msgstr ""
-"Limiter le résultat aux contibuteur·rice·s correspondants à au moins un rôle "
-"spécifique fourni. Accepte les listes de type CSV ou les rôles uniques."
+"Limiter le résultat aux contributeur·rice·s correspondants à au moins un "
+"rôle spécifique fourni. Accepte les listes de type CSV ou les rôles uniques."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1587
 msgid ""
 "Limit result set to contributors matching at least one specific capability "
 "provided. Accepts csv list or single capability."
 msgstr ""
-"Limiter le jeu de résultats aux contibuteur·rice·s correspondant à au moins "
+"Limiter le jeu de résultats aux contributeur·rice·s correspondant à au moins "
 "une capacité spécifique fournie. Accepte une liste CSV ou une capacité "
 "unique."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1595
 msgid "Limit result set to contributors who are considered authors."
 msgstr ""
-"Limiter le jeu de résultats aux contibuteur·rice·s considérés comme "
-"auteur·ice·s."
+"Limiter le jeu de résultats aux contributeur·rice·s considéré·e·s comme "
+"auteur·rice·s."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1603
 msgid "Limit result set to contributors who have published posts."
 msgstr ""
-"Limiter les résultats aux contibuteur·rice·s qui ont mis en ligne des "
+"Limiter les résultats aux contributeur·rice·s qui ont mis en ligne des "
 "publications."
 
 #. translators: %s: Custom field key.
@@ -11012,47 +11012,47 @@ msgstr ""
 
 #: wp-includes/script-loader.php:812
 msgid "You have attempted to queue too many files."
-msgstr "Vous avez tenté de téléverser trop de fichiers à la fois."
+msgstr "Vous avez tenté de charger trop de fichiers à la fois."
 
 #. translators: %s: File name.
 #: wp-includes/script-loader.php:814
 msgid "%s exceeds the maximum upload size for this site."
-msgstr "%s dépasse la limite de téléversement de ce site."
+msgstr "%s dépasse la limite de chargement de ce site."
 
 #: wp-includes/script-loader.php:815
 msgid "This file is empty. Please try another."
-msgstr "Le fichier est vide. Veuillez en essayer un autre."
+msgstr "Le fichier est vide. Merci d’en essayer un autre."
 
 #: wp-includes/script-loader.php:817
 msgid "This file is not an image. Please try another."
-msgstr "Ce fichier n’est pas une image. Veuillez en téléverser un autre."
+msgstr "Ce fichier n’est pas une image. Merci d’en charger un autre."
 
 #: wp-includes/script-loader.php:818
 msgid "Memory exceeded. Please try another smaller file."
-msgstr "Mémoire dépassée. Veuillez réessayer avec un fichier plus petit."
+msgstr "Mémoire dépassée. Merci de réessayer avec un fichier plus petit."
 
 #: wp-includes/script-loader.php:819
 msgid "This is larger than the maximum size. Please try another."
 msgstr ""
-"Ce fichier est plus grand que la taille maximale. Veuillez en téléverser un "
+"Ce fichier est plus grand que la taille maximale. Merci d’en charger un "
 "autre."
 
 #: wp-includes/script-loader.php:820
 msgid "An error occurred in the upload. Please try again later."
 msgstr ""
-"Une erreur s’est produite lors du téléversement. Veuillez réessayer "
+"Une erreur s’est produite lors du chargement. Merci de réessayer "
 "ultérieurement."
 
 #: wp-includes/script-loader.php:821
 msgid ""
 "There was a configuration error. Please contact the server administrator."
 msgstr ""
-"Il y a une erreur de configuration. Veuillez contacter l’administrateur·ice "
+"Il y a une erreur de configuration. Merci de contacter l’administrateur·rice "
 "de votre serveur."
 
 #: wp-includes/script-loader.php:822
 msgid "You may only upload 1 file."
-msgstr "Vous ne pouvez téléverser qu’un fichier."
+msgstr "Vous ne pouvez charger qu’un fichier."
 
 #: wp-includes/script-loader.php:823
 msgid ""
@@ -11060,7 +11060,7 @@ msgid ""
 "successfully. Check in the Media Library or reload the page."
 msgstr ""
 "Le serveur a renvoyé une réponse inattendue. Cependant, le fichier a peut-"
-"être été bien téléversé. Veuillez vérifier dans la médiathèque ou actualiser "
+"être été bien chargé. Merci de vérifier dans la médiathèque ou d’actualiser "
 "la page."
 
 #: wp-includes/script-loader.php:824
@@ -11071,19 +11071,19 @@ msgid ""
 msgstr ""
 "Le serveur ne peut pas traiter l’image. Cela peut se produire si le serveur "
 "est occupé ou ne dispose pas de suffisamment de ressources pour terminer la "
-"tâche. Téléverser une image plus petite peut aider. La taille maximale "
-"suggérée est de 2560 pixels."
+"tâche. Charger une image plus petite peut aider. La taille maximale suggérée "
+"est de 2560 pixels."
 
 #: wp-includes/script-loader.php:825
 msgid "Upload failed."
-msgstr "Le téléversement a échoué."
+msgstr "Le chargement a échoué."
 
 #. translators: 1: Opening link tag, 2: Closing link tag.
 #: wp-includes/script-loader.php:827
 msgid "Please try uploading this file with the %1$sbrowser uploader%2$s."
 msgstr ""
-"Veuillez essayer de téléverser ce fichier à l’aide de l’%1$soutil de "
-"téléversement%2$s."
+"Merci d’essayer de charger ce fichier à l’aide de l’%1$soutil de "
+"chargement%2$s."
 
 #. translators: %s: File name.
 #: wp-includes/script-loader.php:829
@@ -11091,7 +11091,7 @@ msgid ""
 "%s exceeds the maximum upload size for the multi-file uploader when used in "
 "your browser."
 msgstr ""
-"%s dépasse la limite de téléversement pour l’outil de téléversement multiple "
+"%s dépasse la limite de chargement pour l’outil de chargement multiple "
 "utilisé avec votre navigateur."
 
 #: wp-includes/script-loader.php:830
@@ -11108,7 +11108,7 @@ msgstr "Fichier annulé."
 
 #: wp-includes/script-loader.php:833
 msgid "Upload stopped."
-msgstr "Téléversement stoppé."
+msgstr "Chargement stoppé."
 
 #: wp-includes/script-loader.php:834
 msgid "Dismiss"
@@ -11125,7 +11125,7 @@ msgstr "déplacé dans la corbeille."
 #. translators: %s: File name.
 #: wp-includes/script-loader.php:838
 msgid "&#8220;%s&#8221; has failed to upload."
-msgstr "« %s » n’a pas pu être téléversé."
+msgstr "« %s » n’a pas pu être chargé."
 
 #: wp-includes/script-loader.php:839
 msgid ""
@@ -11133,7 +11133,7 @@ msgid ""
 "to JPEG before uploading."
 msgstr ""
 "Cette image ne peut pas être affichée dans un navigateur. Pour un meilleur "
-"résultat, convertissez-la en JPEG avant de la téléverser."
+"résultat, convertissez-la en JPEG avant de la charger."
 
 #: wp-includes/script-loader.php:840
 msgid ""
@@ -11141,7 +11141,7 @@ msgid ""
 "before uploading."
 msgstr ""
 "Cette image ne peut pas être traitée par le serveur web. Convertissez-la en "
-"JPEG ou PNG avant de la téléverser."
+"JPEG ou PNG avant de la charger."
 
 #: wp-includes/script-loader.php:841
 msgid "The file URL has been copied to your clipboard"
@@ -11158,7 +11158,7 @@ msgid ""
 "version from https://get.adobe.com/flashplayer/"
 msgstr ""
 "Vous utilisez un navigateur qui n’a pas le lecteur Flash activé ou installé. "
-"Veuillez activer votre extension Flash ou télécharger la dernière version à "
+"Merci d’activer votre extension Flash ou télécharger la dernière version à "
 "partir de cette adresse : https://get.adobe.com/flashplayer/"
 
 #: wp-includes/script-loader.php:900
@@ -11827,11 +11827,11 @@ msgstr "Thème sans %s"
 #: wp-includes/theme-compat/header.php:15
 #: wp-includes/theme-compat/sidebar.php:15
 msgid "Please include a %s template in your theme."
-msgstr "Veuillez inclure un gabarit de %s à votre thème."
+msgstr "Merci d’inclure un gabarit de %s à votre thème."
 
 #: wp-includes/theme-compat/sidebar.php:29
 msgid "Author"
-msgstr "Auteur·ice"
+msgstr "Auteur·rice"
 
 #. translators: %s: Category name.
 #: wp-includes/theme-compat/sidebar.php:46
@@ -12173,7 +12173,7 @@ msgid ""
 "contact your server administrator.)"
 msgstr ""
 "(Retraceur n’a pas pu établir de connexion sécurisée vers l’outil de mise à "
-"jour du coeur. Veuillez contacter l’administrateur·ice de votre serveur.)"
+"jour du coeur. Merci de contacter l’administrateur·rice de votre serveur.)"
 
 #: wp-includes/update.php:359
 msgid ""
@@ -12181,7 +12181,7 @@ msgid ""
 "Please contact your server administrator.)"
 msgstr ""
 "(Retraceur n’a pas pu établir de connexion sécurisée vers l’outil de mise à "
-"jour des extensions. Veuillez contacter l’administrateur·ice de votre "
+"jour des extensions. Merci de contacter l’administrateur·rice de votre "
 "serveur.)"
 
 #: wp-includes/update.php:632
@@ -12190,7 +12190,7 @@ msgid ""
 "contact your server administrator.)"
 msgstr ""
 "(Retraceur n’a pas pu établir de connexion sécurisée vers l’outil de mise à "
-"jour des thèmes. Veuillez contacter l’administrateur·ice de votre serveur.)"
+"jour des thèmes. Merci de contacter l’administrateur·rice de votre serveur.)"
 
 #. translators: %d: Number of available Retraceur updates.
 #: wp-includes/update.php:869
@@ -12239,9 +12239,9 @@ msgid ""
 "on this site. If you are unsure of your username, try your email address "
 "instead."
 msgstr ""
-"<strong>Erreur :</strong> le nom d’utilisateur·ice <strong>%s</strong> n’est "
-"pas enregistré sur ce site. Si vous doutez de votre nom d’utilisateur·ice, "
-"essayez plutôt votre adresse de courriel."
+"<strong>Erreur :</strong> le nom d’utilisateur·rice <strong>%s</strong> "
+"n’est pas enregistré sur ce site. Si vous doutez de votre nom "
+"d’utilisateur·rice, essayez plutôt votre adresse de courriel."
 
 #. translators: %s: User name.
 #: wp-includes/user.php:210
@@ -12265,7 +12265,7 @@ msgstr "<strong>Erreur :</strong> le champ courriel est vide."
 msgid "Unknown email address. Check again or try your username."
 msgstr ""
 "Adresse de courriel inconnue. Vérifiez l’orthographe ou essayez avec votre "
-"nom d’utilisateur·ice."
+"nom d’utilisateur·rice."
 
 #. translators: %s: Email address.
 #: wp-includes/user.php:282
@@ -12282,14 +12282,14 @@ msgid ""
 "username."
 msgstr ""
 "<strong>Erreur :</strong> adresse de courriel inconnue. Vérifiez à nouveau "
-"ou essayez avec votre nom d’utilisateur·ice."
+"ou essayez avec votre nom d’utilisateur·rice."
 
 #: wp-includes/user.php:391
 msgid ""
 "<strong>Error:</strong> Unknown username. Check again or try your email "
 "address."
 msgstr ""
-"<strong>Erreur :</strong> nom d’utilisateur·ice inconnu. Vérifiez à nouveau "
+"<strong>Erreur :</strong> nom d’utilisateur·rice inconnu. Vérifiez à nouveau "
 "ou essayez avec votre adresse de courriel."
 
 #: wp-includes/user.php:474
@@ -12315,7 +12315,7 @@ msgstr "%1$s (%2$s)"
 
 #: wp-includes/user.php:2160
 msgid "Cannot create a contributor with an empty login name."
-msgstr "Impossible de créer un·e contibuteur·rice avec un identifiant vide."
+msgstr "Impossible de créer un·e contributeur·rice avec un identifiant vide."
 
 #: wp-includes/user.php:2162 wp-includes/user.php:3553
 msgid "Username may not be longer than 60 characters."
@@ -12337,17 +12337,17 @@ msgstr "Désolé, cette adresse de courriel est déjà utilisée !"
 #: wp-includes/user.php:2256
 msgid "Contributor URL may not be longer than 100 characters."
 msgstr ""
-"L’URL du·de la contibuteur·rice ne doit pas faire plus de 100 caractères."
+"L’URL du·de la contributeur·rice ne doit pas faire plus de 100 caractères."
 
 #: wp-includes/user.php:2264
 msgid "Sorry, marking a contributor as spam is only supported on Multisite."
 msgstr ""
-"Désolé, le marquage d’un·e contibuteur·rice en indésirable n’est pris en "
+"Désolé, le marquage d’un·e contributeur·rice en indésirable n’est pris en "
 "charge que sur un réseau de sites."
 
 #: wp-includes/user.php:2397
 msgid "Not enough data to create this user."
-msgstr "Pas assez de données pour créer cet·te utilisateur·ice."
+msgstr "Pas assez de données pour créer cet·te utilisateur·rice."
 
 #. translators: Do not translate USERNAME, ADMIN_EMAIL, EMAIL, SITENAME, SITEURL: those are placeholders.
 #: wp-includes/user.php:2642
@@ -12371,8 +12371,8 @@ msgstr ""
 "Ce message vous confirme que votre mot de passe a bien été modifié sur "
 "###SITENAME###.\n"
 "\n"
-"Si vous n’avez pas modifié votre mot de passe, veuillez contacter "
-"l’administrateur·ice du site à cette adresse :\n"
+"Si vous n’avez pas modifié votre mot de passe, merci de contacter "
+"l’administrateur·rice du site à cette adresse :\n"
 "###ADMIN_EMAIL###\n"
 "\n"
 "Ce message a été envoyé à ###EMAIL###\n"
@@ -12403,7 +12403,7 @@ msgstr ""
 "Ce message confirme que votre adresse de courriel sur ###SITENAME### a été "
 "changée par ###NEW_EMAIL###.\n"
 "\n"
-"Si vous n’avez pas changé votre adresse, veuillez contacter la personne "
+"Si vous n’avez pas changé votre adresse, merci de contacter la personne "
 "administrant le site à l’adresse de courriel ###ADMIN_EMAIL###\n"
 "\n"
 "Ce courriel a été envoyé à ###EMAIL###\n"
@@ -12445,14 +12445,14 @@ msgid ""
 "<strong>Error:</strong> There is no account with that username or email "
 "address."
 msgstr ""
-"<strong>Erreur :</strong> il n’y a pas d’utilisateur·ice avec ce nom "
-"d’utilisateur·ice ou cette adresse de courriel."
+"<strong>Erreur :</strong> il n’y a pas d’utilisateur·rice avec ce nom "
+"d’utilisateur·rice ou cette adresse de courriel."
 
 #: wp-includes/user.php:2950
 msgid "Password reset is not allowed for this contributor"
 msgstr ""
 "La réinitialisation du mot de passe n’est pas autorisée pour ce·tte "
-"contibuteur·rice"
+"contributeur·rice"
 
 #: wp-includes/user.php:3012 wp-includes/user.php:3016
 #: wp-includes/user.php:3022 wp-includes/user.php:3048
@@ -12464,7 +12464,7 @@ msgstr "Clé non valide."
 #: wp-includes/user.php:3106
 msgid "<strong>Error:</strong> Please enter a username or email address."
 msgstr ""
-"<strong>Erreur :</strong> veuillez saisir un nom d’utilisateur·ice ou une "
+"<strong>Erreur :</strong> merci de saisir un nom d’utilisateur·rice ou une "
 "adresse de courriel."
 
 #: wp-includes/user.php:3212
@@ -12508,7 +12508,7 @@ msgstr ""
 
 #: wp-includes/user.php:3386
 msgid "<strong>Error:</strong> Please enter a username."
-msgstr "<strong>Erreur :</strong> veuillez renseigner l’identifiant."
+msgstr "<strong>Erreur :</strong> merci de renseigner l’identifiant."
 
 #: wp-includes/user.php:3388
 msgid ""
@@ -12516,14 +12516,14 @@ msgid ""
 "characters. Please enter a valid username."
 msgstr ""
 "<strong>Erreur :</strong> cet identifiant n’est pas valide, car il utilise "
-"des caractères non autorisés. Veuillez utiliser un identifiant valide."
+"des caractères non autorisés. Merci d’ utiliser un identifiant valide."
 
 #: wp-includes/user.php:3391
 msgid ""
 "<strong>Error:</strong> This username is already registered. Please choose "
 "another one."
 msgstr ""
-"<strong>Erreur :</strong> cet identifiant est déjà utilisé. Veuillez en "
+"<strong>Erreur :</strong> cet identifiant est déjà utilisé. Merci d’en "
 "choisir un autre."
 
 #: wp-includes/user.php:3396
@@ -12532,7 +12532,7 @@ msgstr "<strong>Erreur :</strong> désolé, cet identifiant n’est pas autoris
 
 #: wp-includes/user.php:3402
 msgid "<strong>Error:</strong> Please type your email address."
-msgstr "<strong>Erreur :</strong> veuillez saisir une adresse de courriel."
+msgstr "<strong>Erreur :</strong> merci de saisir une adresse de courriel."
 
 #: wp-includes/user.php:3404 wp-includes/user.php:4156
 msgid "<strong>Error:</strong> The email address is not correct."
@@ -12553,18 +12553,18 @@ msgid ""
 "<strong>Error:</strong> Could not register you&hellip; please contact the <a "
 "href=\"mailto:%s\">site admin</a>!"
 msgstr ""
-"<strong>Erreur :</strong> inscription impossible… Veuillez prendre contact "
-"avec l’<a href=\"mailto:%s\">admin du site</a> !"
+"<strong>Erreur :</strong> inscription impossible… Merci de prendre contact "
+"avec l’<a href=\"mailto:%s\">admininistrateur·rice du site</a> !"
 
 #: wp-includes/user.php:3518
 msgid "Usernames can only contain lowercase letters (a-z) and numbers."
 msgstr ""
-"Les noms d’utilisateur·ice ne peuvent contenir que des lettres minuscules (a-"
-"z) et des chiffres."
+"Les noms d’utilisateur·rice ne peuvent contenir que des lettres minuscules "
+"(a-z) et des chiffres."
 
 #: wp-includes/user.php:3525
 msgid "Please enter a username."
-msgstr "Merci d'entrer un nom d'utilisateur·ice."
+msgstr "Merci d'entrer un nom d'utilisateur·rice."
 
 #: wp-includes/user.php:3545
 msgid "Please enter a valid email address."
@@ -12572,18 +12572,18 @@ msgstr "Merci de saisir une adresse de couriel valide."
 
 #: wp-includes/user.php:3549
 msgid "Username must be at least 4 characters."
-msgstr "Les noms d’utilisateur·ice doivent comporter a minima 4 caractères."
+msgstr "Les noms d’utilisateur·rice doivent comporter a minima 4 caractères."
 
 #: wp-includes/user.php:3558
 msgid "Sorry, usernames must have letters too!"
 msgstr ""
-"Désolé, les noms d’utilisateur·ice doivent également contenir des lettres !"
+"Désolé, les noms d’utilisateur·rice doivent également contenir des lettres !"
 
 #: wp-includes/user.php:3588
 msgid ""
 "That username is currently reserved but may be available in a couple of days."
 msgstr ""
-"Ce nom d'utilisateur·ice est actuellement réservé mais peut-être disponible "
+"Ce nom d'utilisateur·rice est actuellement réservé mais peut-être disponible "
 "dans quelques jours"
 
 #: wp-includes/user.php:3599
@@ -12592,7 +12592,7 @@ msgid ""
 "activation email. It will become available in a couple of days if you do "
 "nothing."
 msgstr ""
-"Cette adresse de courriel a déjà été utilisée. Veuillez vérifier votre boîte "
+"Cette adresse de courriel a déjà été utilisée. Merci de vérifier votre boîte "
 "de réception si elle ne contient pas un courriel d'activation. L’adresse de "
 "courriel sera à nouveau disponible dans quelques jours si vous ne faites "
 "rien."
@@ -12602,14 +12602,14 @@ msgid ""
 "Signing up failed due to missing arguments. Please contact the administrator"
 msgstr ""
 "L’inscription a échoué en raison d’arguments manquants. Merci de contacter "
-"l’administrateur·ice de votre serveur."
+"l’administrateur·rice de votre serveur."
 
 #: wp-includes/user.php:3686
 msgid ""
 "Signing up failed due to a database issue. Please contact the administrator"
 msgstr ""
 "L’inscription a échoué en raison d’une difficulté liée à la base de données. "
-"Merci de contacter l’administrateur·ice de votre serveur."
+"Merci de contacter l’administrateur·rice de votre serveur."
 
 #: wp-includes/user.php:3720
 msgid "Invalid activation key."
@@ -12625,7 +12625,7 @@ msgstr "La création du compte a échoué"
 
 #: wp-includes/user.php:3829
 msgid "That username is already activated."
-msgstr "Ce nom d’utilisateur·ice a déjà été activé."
+msgstr "Ce nom d’utilisateur·rice a déjà été activé."
 
 #. translators: New user notification email. %s: Activation URL.
 #: wp-includes/user.php:3921
@@ -12679,7 +12679,7 @@ msgstr ""
 "Vous avez récemment demandé à modifier l’adresse de courriel de gestion de "
 "votre compte.\n"
 "\n"
-"Si c’est bien le cas, veuillez cliquer sur le lien suivant pour la "
+"Si c’est bien le cas, merci de cliquer sur le lien suivant pour la "
 "changer :\n"
 "###ADMIN_URL###\n"
 "\n"
@@ -12703,56 +12703,56 @@ msgid ""
 "Your email address has not been updated yet. Please check your inbox at %s "
 "for a confirmation email."
 msgstr ""
-"Votre adresse de courriel n’a pas encore été mise à jour. Veuillez vérifier "
+"Votre adresse de courriel n’a pas encore été mise à jour. Merci de vérifier "
 "votre messagerie sur %s et le courriel de confirmation."
 
 #: wp-includes/user.php:4292
 msgid "Retraceur Contributor"
-msgstr "Contributeur·ice à Retraceur"
+msgstr "Contributeur·rice à Retraceur"
 
 #: wp-includes/user.php:4331
 msgid "Contributor ID"
-msgstr "Identifiant du·de la contibuteur·rice"
+msgstr "Identifiant du·de la contributeur·rice"
 
 #: wp-includes/user.php:4332
 msgid "Contributor Login Name"
-msgstr "Nom de connexion du·de la contibuteur·rice"
+msgstr "Nom de connexion du·de la contributeur·rice"
 
 #: wp-includes/user.php:4333
 msgid "Contributor Nice Name"
-msgstr "Nom assaini du·de la contibuteur·rice"
+msgstr "Nom assaini du·de la contributeur·rice"
 
 #: wp-includes/user.php:4334
 msgid "Contributor Email"
-msgstr "Adresse de courriel du·de la contibuteur·rice"
+msgstr "Adresse de courriel du·de la contributeur·rice"
 
 #: wp-includes/user.php:4335
 msgid "Contributor URL"
-msgstr "URL du·de la contibuteur·rice"
+msgstr "URL du·de la contributeur·rice"
 
 #: wp-includes/user.php:4336
 msgid "Contributor Registration Date"
-msgstr "Date d’adhésion du·de la contibuteur·rice"
+msgstr "Date d’adhésion du·de la contributeur·rice"
 
 #: wp-includes/user.php:4337
 msgid "Contributor Display Name"
-msgstr "Nom à afficher pour le·la contibuteur·rice"
+msgstr "Nom à afficher pour le·la contributeur·rice"
 
 #: wp-includes/user.php:4338
 msgid "Contributor Nickname"
-msgstr "Pseudonyme du·de la contibuteur·rice"
+msgstr "Pseudonyme du·de la contributeur·rice"
 
 #: wp-includes/user.php:4339
 msgid "Contributor First Name"
-msgstr "Prénom du·de la contibuteur·rice"
+msgstr "Prénom du·de la contributeur·rice"
 
 #: wp-includes/user.php:4340
 msgid "Contributor Last Name"
-msgstr "Nom de famille du·de la contibuteur·rice"
+msgstr "Nom de famille du·de la contributeur·rice"
 
 #: wp-includes/user.php:4341
 msgid "Contributor Description"
-msgstr "Description du·de la contibuteur·rice"
+msgstr "Description du·de la contributeur·rice"
 
 #. translators: %s: wp_privacy_additional_user_profile_data
 #: wp-includes/user.php:4409
@@ -12761,11 +12761,11 @@ msgstr "Le filtre %s a retourné des éléments avec des noms réservés."
 
 #: wp-includes/user.php:4423
 msgid "Contributor"
-msgstr "Contibuteur·rice"
+msgstr "Contributeur·rice"
 
 #: wp-includes/user.php:4424
 msgid "Contributor&#8217;s profile data."
-msgstr "Données de profil du·de la contibuteur·rice."
+msgstr "Données de profil du·de la contributeur·rice."
 
 #: wp-includes/user.php:4433
 msgid "City"
@@ -12805,7 +12805,7 @@ msgstr "Jetons de session"
 
 #: wp-includes/user.php:4481
 msgid "Contributor&#8217;s Session Tokens data."
-msgstr "Données des jetons de session du·de la contibuteur·rice."
+msgstr "Données des jetons de session du·de la contributeur·rice."
 
 #. translators: Privacy data request confirmed notification email subject. 1: Site title, 2: Name of the confirmed action.
 #: wp-includes/user.php:4580
@@ -12876,8 +12876,8 @@ msgstr ""
 "Votre demande d’effacement de vos données personnelles sur ###SITENAME### a "
 "bien été réalisée.\n"
 "\n"
-"Si vous avez d’autres questions ou demandes, veuillez contacter "
-"l’administrateur·ice du site.\n"
+"Si vous avez d’autres questions ou demandes, merci de contacter "
+"l’administrateur·rice du site.\n"
 "\n"
 "Cordialement,\n"
 "L’équipe de ###SITENAME###\n"
@@ -12906,8 +12906,8 @@ msgstr ""
 "Votre demande d’effacement de vos données personnelles sur ###SITENAME### a "
 "bien été réalisée.\n"
 "\n"
-"Si vous avez d’autres questions ou demandes, veuillez contacter "
-"l’administrateur·ice du site.\n"
+"Si vous avez d’autres questions ou demandes, merci de contacter "
+"l’administrateur·rice du site.\n"
 "\n"
 "Pour plus d’informations, vous pouvez aussi lire notre politique de "
 "confidentialité : ###PRIVACY_POLICY_URL###\n"
@@ -12925,7 +12925,7 @@ msgid ""
 "The site administrator has been notified and will fulfill your request as "
 "soon as possible."
 msgstr ""
-"L’administrateur·ice du site a été notifié et répondra à votre demande au "
+"L’administrateur·rice du site a été notifié et répondra à votre demande au "
 "plus vite."
 
 #: wp-includes/user.php:5023
@@ -12950,7 +12950,7 @@ msgid ""
 "The site administrator has been notified. You will receive an email "
 "confirmation when they erase your data."
 msgstr ""
-"L’administrateur·ice du site a été notifié. Vous recevrez une confirmation "
+"L’administrateur·rice du site a été notifié. Vous recevrez une confirmation "
 "par courriel lorsque vos données seront effacées."
 
 #: wp-includes/user.php:5070
@@ -13016,7 +13016,7 @@ msgstr ""
 "\n"
 "###DESCRIPTION###\n"
 "\n"
-"Pour confirmer cela, veuillez cliquer sur le lien suivant :\n"
+"Pour confirmer cela, merci de cliquer sur le lien suivant :\n"
 "###CONFIRM_URL###\n"
 "\n"
 "Si vous ne souhaitez pas effectuer cette action, vous pouvez ignorer et "
@@ -13138,7 +13138,7 @@ msgid ""
 "Please verify that the <strong>administration email</strong> for this "
 "website is still correct."
 msgstr ""
-"Veuillez vérifier que <strong>l’adresse de courriel d’administration</"
+"Merci de vérifier que <strong>l’adresse de courriel d’administration</"
 "strong> pour ce site est toujours correcte."
 
 #. translators: %s: Admin email address.
@@ -13166,7 +13166,7 @@ msgid ""
 "Please request a new link below."
 msgstr ""
 "<strong>Erreur :</strong> votre lien de réinitialisation de mot de passe "
-"semble non valide. Veuillez demander un nouveau lien ci-dessous."
+"semble non valide. Merci de demander un nouveau lien ci-dessous."
 
 #: wp-login.php:834
 msgid ""
@@ -13174,7 +13174,7 @@ msgid ""
 "a new link below."
 msgstr ""
 "<strong>Erreur :</strong> votre lien de réinitialisation de mot de passe a "
-"expiré. Veuillez demander un nouveau lien ci-dessous."
+"expiré. Merci de demander un nouveau lien ci-dessous."
 
 #: wp-login.php:860
 msgid "Lost Password"
@@ -13297,7 +13297,7 @@ msgstr "Clé de confirmation manquante."
 
 #: wp-login.php:1274
 msgid "Contributor action confirmed."
-msgstr "Action du·de la contibuteur·rice confirmée."
+msgstr "Action du·de la contributeur·rice confirmée."
 
 #: wp-login.php:1295
 msgid ""
@@ -13305,7 +13305,7 @@ msgid ""
 "the administrator."
 msgstr ""
 "Désolé, une erreur est apparue durant le processus d’inscription. Merci de "
-"contacter l’administrateur·ice de votre serveur."
+"contacter l’administrateur·rice de votre serveur."
 
 #: wp-login.php:1317
 msgid "Account activated"
@@ -13318,9 +13318,9 @@ msgid ""
 "<br><br><strong>Login:</strong> %1$s<br><strong>Password:</strong> "
 "%2$s<br><br></p>"
 msgstr ""
-"<p>Votre compte est maintenant actif. Veuillez vous connecter en utilisant "
-"les informations suivantes :<br><br><strong>Nom d’utilisateur·ice :</strong> "
-"%1$s<br><strong>Mot de passe</strong>: %2$s<br><br></p>"
+"<p>Votre compte est maintenant actif. Merci de vous connecter en utilisant "
+"les informations suivantes&nbsp;:<br><br><strong>Nom d’utilisateur·rice :</"
+"strong> %1$s<br><strong>Mot de passe</strong>: %2$s<br><br></p>"
 
 #: wp-login.php:1343
 msgid "Registration failed"
@@ -13348,7 +13348,7 @@ msgstr "Votre connexion a bien été établie."
 #: wp-login.php:1484
 msgid "Your session has expired. Please log in to continue where you left off."
 msgstr ""
-"Votre session a expiré. Veuillez vous reconnecter pour reprendre à la "
+"Votre session a expiré. Merci de vous reconnecter pour reprendre à la "
 "dernière page visitée."
 
 #: wp-login.php:1489
@@ -13372,7 +13372,7 @@ msgstr ""
 #: wp-login.php:1495
 msgid "Recovery Mode Initialized. Please log in to continue."
 msgstr ""
-"Mode de récupération initialisé. Veuillez vous connecter pour continuer."
+"Mode de récupération initialisé. Merci de vous connecter pour continuer."
 
 #: wp-login.php:1564
 msgid "Show password"
@@ -13461,7 +13461,7 @@ msgstr "Image de profil"
 #: wp-includes/blocks/avatar/block.json
 msgctxt "block description"
 msgid "Add a user’s avatar."
-msgstr "Ajouter l’image de profil d’un·e utilisateur·ice."
+msgstr "Ajouter l’image de profil d’un·e utilisateur·rice."
 
 #: wp-includes/blocks/block/block.json
 msgctxt "block title"
@@ -13587,7 +13587,7 @@ msgstr ""
 #: wp-includes/blocks/comment-author-name/block.json
 msgctxt "block title"
 msgid "Comment Author Name"
-msgstr "Nom de l’auteur·ice du commentaire"
+msgstr "Nom de l’auteur·rice du commentaire"
 
 #: wp-includes/blocks/comment-author-name/block.json
 #: wp-includes/blocks/comment-content/block.json
@@ -14175,33 +14175,33 @@ msgstr "Afficher une composition."
 #: wp-includes/blocks/post-author-biography/block.json
 msgctxt "block title"
 msgid "Author Biography"
-msgstr "Biographie de l’auteur·ice"
+msgstr "Biographie de l’auteur·rice"
 
 #: wp-includes/blocks/post-author-biography/block.json
 msgctxt "block description"
 msgid "The author biography."
-msgstr "Biographie de l’auteur·ice."
+msgstr "Biographie de l’auteur·rice."
 
 #: wp-includes/blocks/post-author-name/block.json
 msgctxt "block title"
 msgid "Author Name"
-msgstr "Nom de l’auteur·ice"
+msgstr "Nom de l’auteur·rice"
 
 #: wp-includes/blocks/post-author-name/block.json
 msgctxt "block description"
 msgid "The author name."
-msgstr "Le nom de l’auteur·ice."
+msgstr "Le nom de l’auteur·rice."
 
 #: wp-includes/blocks/post-author/block.json
 msgctxt "block title"
 msgid "Author"
-msgstr "Auteur·ice"
+msgstr "Auteur·rice"
 
 #: wp-includes/blocks/post-author/block.json
 msgctxt "block description"
 msgid "Display post author details such as name, avatar, and bio."
 msgstr ""
-"Affichez les détails de l‘auteur·ice de la publication tels que le nom, "
+"Affichez les détails de l‘auteur·rice de la publication tels que le nom, "
 "l‘image de profil et la biographie."
 
 #: wp-includes/blocks/post-comments-form/block.json
@@ -14686,7 +14686,7 @@ msgstr "Colonnes de texte (obsolète)"
 #: wp-includes/blocks/text-columns/block.json
 msgctxt "block description"
 msgid "This block is deprecated. Please use the Columns block instead."
-msgstr "Ce bloc est déprécié. Veuillez utiliser le bloc Colonnes à la place."
+msgstr "Ce bloc est déprécié. Merci d’utiliser le bloc Colonnes à la place."
 
 #: wp-includes/blocks/verse/block.json
 msgctxt "block title"
@@ -14719,7 +14719,7 @@ msgstr "Vidéo"
 msgctxt "block description"
 msgid "Embed a video from your media library or upload a new one."
 msgstr ""
-"Embarquez une vidéo depuis votre médiathèque ou téléversez-en une nouvelle."
+"Embarquez une vidéo depuis votre médiathèque ou chargez-en une nouvelle."
 
 #: wp-includes/blocks/video/block.json
 msgctxt "block keyword"

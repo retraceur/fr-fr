@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Retraceur - 1.0.0 - Administration\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
-"POT-Creation-Date: 2025-03-29T13:07:11+00:00\n"
-"PO-Revision-Date: 2025-03-29 14:07+0100\n"
+"POT-Creation-Date: 2025-04-03T04:00:11+00:00\n"
+"PO-Revision-Date: 2025-04-03 06:50+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -50,7 +50,7 @@ msgid "Freedoms"
 msgstr "Libertés"
 
 #: wp-admin/about.php:37 wp-admin/contribute.php:36 wp-admin/credits.php:36
-#: wp-admin/freedoms.php:42 wp-admin/menu.php:277
+#: wp-admin/freedoms.php:42 wp-admin/menu.php:283
 #: wp-admin/options-privacy.php:24 wp-admin/options-privacy.php:143
 #: wp-admin/privacy-policy-guide.php:42 wp-admin/privacy.php:15
 #: wp-admin/privacy.php:36
@@ -189,11 +189,11 @@ msgstr ""
 
 #: wp-admin/about.php:134
 msgid ""
-"Your subscribers are free to delete their account from their Profile "
+"Your contributors are free to delete their account from their Profile "
 "Administration page."
 msgstr ""
-"Vos abonné·es sont libres de supprimer leur compte depuis l’administration "
-"de leur profil."
+"Vos contributeur·rice·s sont libres de supprimer leur compte depuis "
+"l’administration de leur profil."
 
 #: wp-admin/about.php:146
 msgid "Go to Updates"
@@ -409,7 +409,7 @@ msgstr "Copier l’URL du site dans le presse-papier"
 #: wp-admin/includes/class-wp-media-list-table.php:818
 #: wp-admin/includes/class-wp-privacy-policy-content.php:433
 #: wp-admin/includes/media.php:3346 wp-admin/site-health-info.php:61
-#: wp-admin/user-edit.php:1013
+#: wp-admin/user-edit.php:1022
 msgid "Copied!"
 msgstr "Copié!"
 
@@ -514,17 +514,17 @@ msgstr[1] ""
 "réseau étant donné que vous avez des droits de Super Administration</a>."
 
 #. translators: %s: Application name.
-#: wp-admin/authorize-application.php:211 wp-admin/user-edit.php:1006
+#: wp-admin/authorize-application.php:211 wp-admin/user-edit.php:1015
 msgid "Your new password for %s is:"
 msgstr "Votre nouveau mot de passe pour %s est :"
 
-#: wp-admin/authorize-application.php:217 wp-admin/user-edit.php:1015
+#: wp-admin/authorize-application.php:217 wp-admin/user-edit.php:1024
 msgid ""
 "Be sure to save this in a safe location. You will not be able to retrieve it."
 msgstr ""
 "Assurez-vous de le conserver en lieu sûr. Vous ne pourrez pas le récupérer."
 
-#: wp-admin/authorize-application.php:249 wp-admin/user-edit.php:837
+#: wp-admin/authorize-application.php:249 wp-admin/user-edit.php:846
 msgid "New Application Password Name"
 msgstr "Nouveau nom du mot de passe d’application"
 
@@ -725,7 +725,7 @@ msgstr ""
 
 #: wp-admin/credits.php:71
 msgid "WP Core Contributors"
-msgstr "contributeurs du cœur de WP"
+msgstr "contributeur·rice·s du cœur de WP"
 
 #. Translators: %s is the Heart emoji.
 #: wp-admin/credits.php:83
@@ -753,11 +753,11 @@ msgstr "Chefs de projet"
 #. translators: %s: The current Retraceur version number.
 #: wp-admin/credits.php:123
 msgid "Core Contributors to Retraceur %s"
-msgstr "Contributrices & contributeurs au cœur de Retraceur %s"
+msgstr "Contributeur·rice·s au cœur de Retraceur %s"
 
 #: wp-admin/credits.php:124
 msgid "Noteworthy Contributors"
-msgstr "Contributrices & contributeurs remarquables"
+msgstr "Contributeur·rice·s remarquables"
 
 #: wp-admin/credits.php:125
 msgid "Cofounder, Project Lead"
@@ -1523,7 +1523,7 @@ msgstr ""
 "sur ce site."
 
 #: wp-admin/erase-personal-data.php:19 wp-admin/erase-personal-data.php:98
-#: wp-admin/menu.php:268 wp-admin/tools.php:77
+#: wp-admin/menu.php:274 wp-admin/tools.php:80
 msgid "Erase Personal Data"
 msgstr "Effacer les données personnelles"
 
@@ -1588,8 +1588,8 @@ msgid ""
 "and registration date."
 msgstr ""
 "<strong>Informations de profil</strong> &mdash; adresse de courriel, nom "
-"d’utilisateur·ice, nom affiché, pseudonyme, prénom, nom, description/bio, et "
-"date d’inscription."
+"d’utilisateur·rice, nom affiché, pseudonyme, prénom, nom, description/bio, "
+"et date d’inscription."
 
 #: wp-admin/erase-personal-data.php:41 wp-admin/export-personal-data.php:41
 msgid ""
@@ -1597,7 +1597,7 @@ msgid ""
 "Addresses, Expiration Date, User Agent (Browser/OS), and Last Login."
 msgstr ""
 "<strong>Jetons de session</strong> – informations de connexion du·de la "
-"contributeur·rice, adresses IP, date d’expiration, agent utilisateur·ice "
+"contributeur·rice, adresses IP, date d’expiration, agent utilisateur·rice "
 "(navigateur/OS) et dernière connexion."
 
 #: wp-admin/erase-personal-data.php:42
@@ -1691,7 +1691,7 @@ msgstr ""
 "sur ce site."
 
 #: wp-admin/export-personal-data.php:19 wp-admin/export-personal-data.php:98
-#: wp-admin/menu.php:267 wp-admin/tools.php:70
+#: wp-admin/menu.php:273 wp-admin/tools.php:72
 msgid "Export Personal Data"
 msgstr "Exporter la liste de données personnelles"
 
@@ -1822,7 +1822,7 @@ msgid "Sorry, you are not allowed to export the content of this site."
 msgstr ""
 "Désolé, vous n’avez pas l’autorisation d’exporter le contenu de ce site."
 
-#: wp-admin/export.php:22 wp-admin/menu.php:266 wp-admin/tools.php:63
+#: wp-admin/export.php:22 wp-admin/menu.php:272 wp-admin/tools.php:64
 msgid "Export"
 msgstr "Exporter"
 
@@ -1949,7 +1949,7 @@ msgstr "Pages"
 #. translators: Default privacy policy heading.
 #: wp-admin/export.php:307
 #: wp-admin/includes/class-wp-privacy-policy-content.php:499
-#: wp-admin/includes/media.php:2588 wp-admin/menu.php:64 wp-admin/menu.php:275
+#: wp-admin/includes/media.php:2588 wp-admin/menu.php:64 wp-admin/menu.php:281
 msgid "Media"
 msgstr "Media"
 
@@ -3918,7 +3918,7 @@ msgstr ""
 #: wp-admin/includes/class-wp-debug-data.php:1043
 #: wp-admin/includes/class-wp-debug-data.php:1163
 #: wp-admin/includes/class-wp-users-list-table.php:376
-#: wp-admin/user-edit.php:459
+#: wp-admin/user-edit.php:468
 msgid "Name"
 msgstr "Nom"
 
@@ -5122,7 +5122,7 @@ msgstr "Le nom de l’hôte FTP est nécessaire"
 #: wp-admin/includes/class-wp-filesystem-ftpext.php:62
 #: wp-admin/includes/class-wp-filesystem-ftpsockets.php:58
 msgid "FTP username is required"
-msgstr "Le nom d’utilisateur·ice FTP est nécessaire"
+msgstr "Le nom d’utilisateur·rice FTP est nécessaire"
 
 #: wp-admin/includes/class-wp-filesystem-ftpext.php:68
 #: wp-admin/includes/class-wp-filesystem-ftpsockets.php:64
@@ -5141,7 +5141,7 @@ msgstr "Impossible de se connecter au serveur FTP %s"
 #: wp-admin/includes/class-wp-filesystem-ftpsockets.php:115
 #: wp-admin/includes/class-wp-filesystem-ssh2.php:148
 msgid "Username/Password incorrect for %s"
-msgstr "Le couple nom d’utilisateur·ice/mot de passe est incorrect pour %s"
+msgstr "Le couple nom d’utilisateur·rice/mot de passe est incorrect pour %s"
 
 #: wp-admin/includes/class-wp-filesystem-ssh2.php:70
 msgid "The ssh2 PHP extension is not available"
@@ -5153,7 +5153,7 @@ msgstr "Le nom de l’hôte SSH2 est nécessaire"
 
 #: wp-admin/includes/class-wp-filesystem-ssh2.php:96
 msgid "SSH2 username is required"
-msgstr "Le nom d’utilisateur·ice SSH2 est nécessaire"
+msgstr "Le nom d’utilisateur·rice SSH2 est nécessaire"
 
 #: wp-admin/includes/class-wp-filesystem-ssh2.php:106
 msgid "SSH2 password is required"
@@ -6135,7 +6135,7 @@ msgstr "– Aucun changement –"
 #: wp-admin/includes/class-wp-posts-list-table.php:1761
 #: wp-admin/includes/file.php:1820 wp-admin/install.php:138
 #: wp-admin/install.php:418 wp-admin/setup-config.php:233
-#: wp-admin/user-new.php:262
+#: wp-admin/user-new.php:267
 msgid "Password"
 msgstr "Mot de passe"
 
@@ -6195,8 +6195,8 @@ msgstr "Format"
 #: wp-admin/includes/media.php:1745 wp-admin/includes/media.php:2283
 #: wp-admin/includes/meta-boxes.php:168 wp-admin/includes/meta-boxes.php:226
 #: wp-admin/includes/template.php:543 wp-admin/includes/template.php:671
-#: wp-admin/options-general.php:266 wp-admin/user-edit.php:585
-#: wp-admin/user-edit.php:706
+#: wp-admin/options-general.php:266 wp-admin/user-edit.php:594
+#: wp-admin/user-edit.php:715
 msgid "Cancel"
 msgstr "Annuler"
 
@@ -6689,8 +6689,8 @@ msgstr ""
 "échéant), nous stockons également les données personnelles indiquées dans "
 "leur profil. Tou·te·s les contributeur·rice·s peuvent voir, modifier ou "
 "supprimer leurs informations personnelles à tout moment (à l’exception de "
-"leur nom d’utilisateur·ice). Les gestionnaires du site peuvent aussi voir et "
-"modifier ces informations."
+"leur nom d’utilisateur·rice). Les gestionnaires du site peuvent aussi voir "
+"et modifier ces informations."
 
 #. translators: Default privacy policy heading.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:574
@@ -8929,7 +8929,7 @@ msgid "Change role to&hellip;"
 msgstr "Changer de rôle pour…"
 
 #: wp-admin/includes/class-wp-users-list-table.php:317
-#: wp-admin/user-edit.php:482 wp-admin/user-edit.php:484 wp-admin/users.php:139
+#: wp-admin/user-edit.php:491 wp-admin/user-edit.php:493 wp-admin/users.php:139
 msgid "&mdash; No role for this site &mdash;"
 msgstr "&mdash; Aucun rôle sur ce site &mdash;"
 
@@ -8941,23 +8941,23 @@ msgstr "Modifier"
 #: wp-admin/includes/class-wp-users-list-table.php:398
 #: wp-admin/includes/file.php:1819 wp-admin/install.php:119
 #: wp-admin/install.php:414 wp-admin/setup-config.php:228
-#: wp-admin/user-edit.php:463 wp-admin/user-new.php:213
+#: wp-admin/user-edit.php:472 wp-admin/user-new.php:218
 msgid "Username"
-msgstr "Nom d’utilisateur·ice"
+msgstr "Nom d’utilisateur·rice"
 
 #: wp-admin/includes/class-wp-users-list-table.php:377
-#: wp-admin/user-edit.php:564 wp-admin/user-new.php:217
+#: wp-admin/user-edit.php:573 wp-admin/user-new.php:222
 msgid "Email"
 msgstr "Courriel"
 
 #: wp-admin/includes/class-wp-users-list-table.php:378
-#: wp-admin/user-edit.php:469 wp-admin/user-new.php:307
+#: wp-admin/user-edit.php:478 wp-admin/user-new.php:312
 msgid "Role"
 msgstr "Rôle"
 
 #: wp-admin/includes/class-wp-users-list-table.php:398
 msgid "Table ordered by Username."
-msgstr "Tableau trié par nom d’utilisateur·ice."
+msgstr "Tableau trié par nom d’utilisateur·rice."
 
 #: wp-admin/includes/class-wp-users-list-table.php:399
 msgid "E-mail"
@@ -8968,7 +8968,7 @@ msgid "Table ordered by E-mail."
 msgstr "Tableau trié par courriel."
 
 #: wp-admin/includes/class-wp-users-list-table.php:457
-#: wp-admin/user-edit.php:494
+#: wp-admin/user-edit.php:503
 msgid "Super Admin"
 msgstr "Super-admin"
 
@@ -9388,7 +9388,7 @@ msgstr ""
 
 #: wp-admin/includes/deprecated.php:581
 msgid "No users found."
-msgstr "Aucun·e utilisateur·ice trouvé·e."
+msgstr "Aucun·e utilisateur·rice trouvé·e."
 
 #. translators: 1: Starting number of users on the current page, 2: Ending number of users, 3: Total number of users.
 #: wp-admin/includes/deprecated.php:616
@@ -10323,8 +10323,8 @@ msgid "Show"
 msgstr "Afficher"
 
 #: wp-admin/includes/media.php:1623 wp-admin/includes/media.php:2577
-#: wp-admin/install.php:150 wp-admin/user-edit.php:702
-#: wp-admin/user-new.php:277
+#: wp-admin/install.php:150 wp-admin/user-edit.php:711
+#: wp-admin/user-new.php:282
 msgid "Hide"
 msgstr "Masquer"
 
@@ -10850,7 +10850,7 @@ msgstr ""
 "Toute modification des directives situées entre ces marqueurs sera écrasée."
 
 #. translators: Hidden accessibility text.
-#: wp-admin/includes/misc.php:829 wp-admin/user-edit.php:367
+#: wp-admin/includes/misc.php:829 wp-admin/user-edit.php:376
 msgid "Admin Color Scheme"
 msgstr "Couleurs de l’interface d’administration"
 
@@ -11546,7 +11546,7 @@ msgid ""
 "supplied."
 msgstr ""
 "Impossible d’ajouter cette demande. Une adresse de courriel ou un nom "
-"d’utilisateur·ice valide doit être fourni."
+"d’utilisateur·rice valide doit être fourni."
 
 #: wp-admin/includes/privacy-tools.php:157
 msgid "Unable to initiate confirmation request."
@@ -12861,7 +12861,7 @@ msgid ""
 "a> to edit or delete this page and create new pages for your content. Be "
 "inspired!"
 msgstr ""
-"En tant que nouvel·le rédacteur·ice de Retraceur, vous devriez vous rendre "
+"En tant que nouvel·le rédacteur·rice de Retraceur, vous devriez vous rendre "
 "sur <a href=\"%s\">votre tableau de bord</a> pour modifier ou supprimer "
 "cette page et créer de nouvelles pages pour votre contenu. Soyez inspiré·e !"
 
@@ -12924,7 +12924,7 @@ msgstr ""
 
 #: wp-admin/includes/user.php:152
 msgid "<strong>Error:</strong> Please enter a username."
-msgstr "<strong>Erreur :</strong> veuillez saisir un nom d’utilisateur·ice."
+msgstr "<strong>Erreur :</strong> veuillez saisir un nom d’utilisateur·rice."
 
 #: wp-admin/includes/user.php:157
 msgid "<strong>Error:</strong> Please enter a nickname."
@@ -12953,8 +12953,8 @@ msgid ""
 "<strong>Error:</strong> This username is invalid because it uses illegal "
 "characters. Please enter a valid username."
 msgstr ""
-"<strong>Erreur :</strong> ce nom d’utilisateur·ice est invalide car il "
-"contient des caractères illégaux. Merci de saisir un nom d’utilisateur·ice "
+"<strong>Erreur :</strong> ce nom d’utilisateur·rice est invalide car il "
+"contient des caractères illégaux. Merci de saisir un nom d’utilisateur·rice "
 "valide."
 
 #: wp-admin/includes/user.php:195
@@ -12962,13 +12962,13 @@ msgid ""
 "<strong>Error:</strong> This username is already registered. Please choose "
 "another one."
 msgstr ""
-"<strong>Erreur :</strong> ce nom d’utilisateur·ice est déjà enregistré. "
+"<strong>Erreur :</strong> ce nom d’utilisateur·rice est déjà enregistré. "
 "Veuillez en choisir un autre."
 
 #: wp-admin/includes/user.php:202
 msgid "<strong>Error:</strong> Sorry, that username is not allowed."
 msgstr ""
-"<strong>Erreur :</strong> désolé, ce nom d’utilisateur·ice est proscrit."
+"<strong>Erreur :</strong> désolé, ce nom d’utilisateur·rice est proscrit."
 
 #: wp-admin/includes/user.php:207
 msgid "<strong>Error:</strong> Please enter an email address."
@@ -13199,16 +13199,16 @@ msgid ""
 "Usernames can have only alphanumeric characters, spaces, underscores, "
 "hyphens, periods, and the @ symbol."
 msgstr ""
-"Les noms d’utilisateur·ice ne peuvent utiliser que des caractères "
+"Les noms d’utilisateur·rice ne peuvent utiliser que des caractères "
 "alphanumériques, des espaces, des tirets bas (\"_\"), des traits d’union (\"-"
 "\"), des points et le symbole @."
 
-#: wp-admin/install.php:148 wp-admin/user-edit.php:700
-#: wp-admin/user-new.php:275
+#: wp-admin/install.php:148 wp-admin/user-edit.php:709
+#: wp-admin/user-new.php:280
 msgid "Hide password"
 msgstr "Cacher le mot de passe"
 
-#: wp-admin/install.php:154 wp-admin/user-edit.php:238
+#: wp-admin/install.php:154 wp-admin/user-edit.php:247
 msgid "Important:"
 msgstr "Important :"
 
@@ -13221,24 +13221,24 @@ msgstr ""
 "Vous aurez besoin de ce mot de passe pour vous connecter. Pensez à le "
 "stocker dans un lieu sûr."
 
-#: wp-admin/install.php:161 wp-admin/user-new.php:283
+#: wp-admin/install.php:161 wp-admin/user-new.php:288
 msgid "Repeat Password"
 msgstr "Répétez le mot de passe"
 
-#: wp-admin/install.php:162 wp-admin/user-edit.php:516
-#: wp-admin/user-edit.php:564 wp-admin/user-new.php:213
-#: wp-admin/user-new.php:217 wp-admin/user-new.php:263
-#: wp-admin/user-new.php:283
+#: wp-admin/install.php:162 wp-admin/user-edit.php:525
+#: wp-admin/user-edit.php:573 wp-admin/user-new.php:218
+#: wp-admin/user-new.php:222 wp-admin/user-new.php:268
+#: wp-admin/user-new.php:288
 msgid "(required)"
 msgstr "(nécessaire)"
 
-#: wp-admin/install.php:170 wp-admin/user-edit.php:723
-#: wp-admin/user-new.php:290
+#: wp-admin/install.php:170 wp-admin/user-edit.php:732
+#: wp-admin/user-new.php:295
 msgid "Confirm Password"
 msgstr "Confirmer le mot de passe"
 
-#: wp-admin/install.php:174 wp-admin/user-edit.php:727
-#: wp-admin/user-new.php:294
+#: wp-admin/install.php:174 wp-admin/user-edit.php:736
+#: wp-admin/user-new.php:299
 msgid "Confirm use of weak password"
 msgstr "Confirmer l’utilisation d’un mot de passe faible"
 
@@ -13383,12 +13383,12 @@ msgstr ""
 
 #: wp-admin/install.php:384
 msgid "Please provide a valid username."
-msgstr "Veuillez saisir un nom d’utilisateur·ice valide."
+msgstr "Veuillez saisir un nom d’utilisateur·rice valide."
 
 #: wp-admin/install.php:387
 msgid "The username you provided has invalid characters."
 msgstr ""
-"Le nom d’utilisateur·ice que vous avez fourni contient des caractères non "
+"Le nom d’utilisateur·rice que vous avez fourni contient des caractères non "
 "valides."
 
 #: wp-admin/install.php:391
@@ -13405,7 +13405,8 @@ msgid ""
 "<code>username@example.com</code>."
 msgstr ""
 "Désolé, ce n’est pas une adresse de courriel valide. Les adresses de "
-"messagerie ressemblent à cela : <code>nom-utilisateur·ice@example.com</code>."
+"messagerie ressemblent à cela : <code>nom-utilisateur·rice@example.com</"
+"code>."
 
 #: wp-admin/install.php:408
 msgid "Success!"
@@ -13694,7 +13695,7 @@ msgstr "Ajouter un bloc"
 #: wp-admin/menu.php:216
 msgctxt "main admin menu"
 msgid "Contributors"
-msgstr "Contributeurs ·rices"
+msgstr "Contributeur·rice·s"
 
 #: wp-admin/menu.php:218 wp-admin/menu.php:228 wp-admin/menu.php:231
 #: wp-admin/user-edit.php:43 wp-admin/user/menu.php:16
@@ -13705,47 +13706,47 @@ msgstr "Profil"
 msgid "All Contributors"
 msgstr "Tou·te·s les contributeur·rice·s"
 
-#: wp-admin/menu.php:225 wp-admin/menu.php:233 wp-admin/user-edit.php:301
-#: wp-admin/user-new.php:84 wp-admin/user-new.php:134 wp-admin/user-new.php:326
+#: wp-admin/menu.php:225 wp-admin/menu.php:233 wp-admin/user-edit.php:310
+#: wp-admin/user-new.php:84 wp-admin/user-new.php:139 wp-admin/user-new.php:331
 #: wp-admin/users.php:787
 msgid "Add New Contributor"
 msgstr "Ajouter un·e contributeur·rice"
 
-#: wp-admin/menu.php:262 wp-admin/tools.php:45
+#: wp-admin/menu.php:268 wp-admin/tools.php:45
 msgid "Tools"
 msgstr "Outils"
 
-#: wp-admin/menu.php:263
+#: wp-admin/menu.php:269
 msgid "Available Tools"
 msgstr "Outils disponibles"
 
 #. translators: %s: Number of critical Site Health checks.
-#: wp-admin/menu.php:265
+#: wp-admin/menu.php:271
 msgid "Site Health %s"
 msgstr "Santé du site %s"
 
-#: wp-admin/menu.php:270 wp-admin/options.php:24
+#: wp-admin/menu.php:276 wp-admin/options.php:24
 msgid "Settings"
 msgstr "Réglages "
 
-#: wp-admin/menu.php:271
+#: wp-admin/menu.php:277
 msgctxt "settings screen"
 msgid "General"
 msgstr "Général"
 
-#: wp-admin/menu.php:272
+#: wp-admin/menu.php:278
 msgid "Writing"
 msgstr "Écriture"
 
-#: wp-admin/menu.php:273
+#: wp-admin/menu.php:279
 msgid "Reading"
 msgstr "Lecture"
 
-#: wp-admin/menu.php:274
+#: wp-admin/menu.php:280
 msgid "Membership"
 msgstr "Adhésions"
 
-#: wp-admin/menu.php:276
+#: wp-admin/menu.php:282
 msgid "Permalinks"
 msgstr "Permaliens"
 
@@ -16124,7 +16125,7 @@ msgstr "Identifiant"
 
 #: wp-admin/setup-config.php:230
 msgid "Your database username."
-msgstr "Votre nom d’utilisateur·ice MySQL."
+msgstr "Votre nom d’utilisateur·rice MySQL."
 
 #: wp-admin/setup-config.php:236
 msgctxt "example password"
@@ -16856,7 +16857,7 @@ msgstr ""
 "configuration tandis que le second vous donne une vue granulaire des aspects "
 "les plus techniques de votre site Web"
 
-#: wp-admin/tools.php:65
+#: wp-admin/tools.php:66
 msgid ""
 "Exporting your site’s data (posts, pages, custom post types, comments, "
 "custom fields, categories, tags, custom taxonomies, and contributor "
@@ -16867,7 +16868,7 @@ msgstr ""
 "taxonomies personnalisées et comptes de contributeur·rice) est parfois "
 "nécessaire et utile."
 
-#: wp-admin/tools.php:66
+#: wp-admin/tools.php:67
 msgid ""
 "If you are moving to a new host or just want a backup of your site data, "
 "then Exporting your site is the answer."
@@ -16876,7 +16877,7 @@ msgstr ""
 "sauvegarde des données de votre site, l’exportation de votre site est la "
 "solution."
 
-#: wp-admin/tools.php:72
+#: wp-admin/tools.php:74
 msgid ""
 "One of your member asked about getting the personnal data they left on your "
 "site?"
@@ -16884,7 +16885,7 @@ msgstr ""
 "L’un de vos membres vous a demandé comment récupérer les données "
 "personnelles qu’il a laissées sur votre site ?"
 
-#: wp-admin/tools.php:73
+#: wp-admin/tools.php:75
 msgid ""
 "The Export Personal Data tool can generate a (.zip format) file containing "
 "the personal data which exists about a contributor within your site."
@@ -16893,7 +16894,7 @@ msgstr ""
 "format .zip) contenant les données personnelles qui existent sur un·e "
 "contributeur·rice de votre site."
 
-#: wp-admin/tools.php:79
+#: wp-admin/tools.php:82
 msgid ""
 "One of your member asked about erasing the personnal data they left on your "
 "site?"
@@ -16901,7 +16902,7 @@ msgstr ""
 "L’un de vos membres vous a demandé d’effacer les données personnelles qu’il "
 "a laissées sur votre site ?"
 
-#: wp-admin/tools.php:80
+#: wp-admin/tools.php:83
 msgid ""
 "Use the Erase Personal Data tool to delete a member’s personal data upon "
 "verified request."
@@ -17604,7 +17605,7 @@ msgid ""
 "Your username cannot be changed, but you can use other fields to enter your "
 "real name or a nickname, and change which name to display on your posts."
 msgstr ""
-"Votre nom d’utilisateur·ice ne peut être modifié, mais vous pouvez utiliser "
+"Votre nom d’utilisateur·rice ne peut être modifié, mais vous pouvez utiliser "
 "les autres champs pour saisir votre nom complet ou un pseudonyme, et changer "
 "ensuite le nom à afficher dans vos articles."
 
@@ -17631,28 +17632,28 @@ msgstr ""
 "Pensez bien à cliquer sur le bouton « Mettre à jour le profil » quand vous "
 "aurez terminé."
 
-#: wp-admin/user-edit.php:100 wp-admin/user-edit.php:168
-#: wp-admin/user-edit.php:227 wp-admin/users.php:126 wp-admin/users.php:155
+#: wp-admin/user-edit.php:100 wp-admin/user-edit.php:177
+#: wp-admin/user-edit.php:236 wp-admin/users.php:126 wp-admin/users.php:155
 #: wp-admin/users.php:261
 msgid "Sorry, you are not allowed to edit this contributor."
 msgstr ""
 "Désolé, vous n’avez pas l’autorisation de modifier ce·tte contributeur·rice."
 
-#: wp-admin/user-edit.php:130 wp-admin/user-edit.php:144
+#: wp-admin/user-edit.php:130 wp-admin/user-edit.php:153
 msgid "Sorry, you are not allowed to delete this account."
 msgstr "Désolé, vous n’avez pas l’autorisation de supprimer ce compte."
 
-#: wp-admin/user-edit.php:139
+#: wp-admin/user-edit.php:148
 msgid "Sorry, something went wrong. Please contact the administrator."
 msgstr ""
 "Désolé, quelque chose s’est mal déroulé. Merci de contacter "
-"l’administrateur·ice du site."
+"l’administrateur·rice du site."
 
-#: wp-admin/user-edit.php:153 wp-admin/user-edit.php:956
+#: wp-admin/user-edit.php:162 wp-admin/user-edit.php:965
 msgid "Account deletion"
 msgstr "Suppression du compte"
 
-#: wp-admin/user-edit.php:156
+#: wp-admin/user-edit.php:165
 msgid ""
 "All your data will be deleted and this action is irreversible, please "
 "confirm your wish to delete your account."
@@ -17660,81 +17661,81 @@ msgstr ""
 "Toutes vos données seront supprimées et cette action est irréversible, merci "
 "de confirmer que vous souhaitez supprimer votre compte."
 
-#: wp-admin/user-edit.php:157
+#: wp-admin/user-edit.php:166
 msgid "I confirm!"
 msgstr "Je confirme !"
 
-#: wp-admin/user-edit.php:238
+#: wp-admin/user-edit.php:247
 msgid "This contributor has super admin privileges."
 msgstr ""
 "Ce·tte contributeur·rice possède les privilèges de super administration."
 
-#: wp-admin/user-edit.php:249
+#: wp-admin/user-edit.php:258
 msgid "Profile updated."
 msgstr "Profil mis à jour."
 
-#: wp-admin/user-edit.php:251
+#: wp-admin/user-edit.php:260
 msgid "Contributor updated."
 msgstr "Contributeur·rice actualisé·e"
 
-#: wp-admin/user-edit.php:257
+#: wp-admin/user-edit.php:266
 msgid "&larr; Go to Contributors"
 msgstr "&larr; Aller aux contributeur·rice·s"
 
-#: wp-admin/user-edit.php:274
+#: wp-admin/user-edit.php:283
 msgid "Error while saving the new email address. Please try again."
 msgstr ""
 "Une erreur est survenue lors de l’enregistrement de votre adresse de "
 "courriel. Veuillez réessayer."
 
-#: wp-admin/user-edit.php:303 wp-admin/user-new.php:136 wp-admin/users.php:793
+#: wp-admin/user-edit.php:312 wp-admin/user-new.php:141 wp-admin/users.php:793
 msgid "Add Existing Contributor"
 msgstr "Ajouter un·e contributeur·rice existant·e"
 
-#: wp-admin/user-edit.php:328
+#: wp-admin/user-edit.php:337
 msgid "Personal Options"
 msgstr "Options personnelles"
 
-#: wp-admin/user-edit.php:333
+#: wp-admin/user-edit.php:342
 msgid "Visual Editor"
 msgstr "Éditeur visuel"
 
-#: wp-admin/user-edit.php:336
+#: wp-admin/user-edit.php:345
 msgid "Disable the visual editor when writing"
 msgstr "Désactiver l’éditeur visuel pour écrire"
 
-#: wp-admin/user-edit.php:356
+#: wp-admin/user-edit.php:365
 msgid "Syntax Highlighting"
 msgstr "Édition de code"
 
-#: wp-admin/user-edit.php:359
+#: wp-admin/user-edit.php:368
 msgid "Disable syntax highlighting when editing code"
 msgstr "Désactiver le surlignage syntaxique lors de l’édition de code"
 
-#: wp-admin/user-edit.php:388
+#: wp-admin/user-edit.php:397
 msgid "Toolbar"
 msgstr "Barre d’outils"
 
-#: wp-admin/user-edit.php:392
+#: wp-admin/user-edit.php:401
 msgid "Show Toolbar when viewing site"
 msgstr "Afficher la barre d’outils lorsque vous visitez le site"
 
 #. translators: The user language selection field label.
-#: wp-admin/user-edit.php:405 wp-admin/user-new.php:240
+#: wp-admin/user-edit.php:414 wp-admin/user-new.php:245
 msgid "Language"
 msgstr "Langue"
 
-#: wp-admin/user-edit.php:464
+#: wp-admin/user-edit.php:473
 msgid "Usernames cannot be changed."
-msgstr "Les nom d’utilisateur·ice ne peuvent pas être modifiés."
+msgstr "Les nom d’utilisateur·rice ne peuvent pas être modifiés."
 
-#: wp-admin/user-edit.php:497
+#: wp-admin/user-edit.php:506
 msgid "Grant this contributor super admin privileges for the Network."
 msgstr ""
 "Donner les privilèges de super administration à ce·tte contributeur·rice "
 "pour le réseau."
 
-#: wp-admin/user-edit.php:499
+#: wp-admin/user-edit.php:508
 msgid ""
 "Super admin privileges cannot be removed because this contributor has the "
 "network admin email."
@@ -17743,27 +17744,27 @@ msgstr ""
 "ce·tte contributeur·rice est celui·celle avec l’adresse de courriel "
 "d’administration du réseau."
 
-#: wp-admin/user-edit.php:506 wp-admin/user-new.php:221
+#: wp-admin/user-edit.php:515 wp-admin/user-new.php:226
 msgid "First Name"
 msgstr "Prénom"
 
-#: wp-admin/user-edit.php:511 wp-admin/user-new.php:225
+#: wp-admin/user-edit.php:520 wp-admin/user-new.php:230
 msgid "Last Name"
 msgstr "Nom"
 
-#: wp-admin/user-edit.php:516
+#: wp-admin/user-edit.php:525
 msgid "Nickname"
 msgstr "Pseudonyme"
 
-#: wp-admin/user-edit.php:522
+#: wp-admin/user-edit.php:531
 msgid "Display name publicly as"
 msgstr "Nom à afficher publiquement"
 
-#: wp-admin/user-edit.php:560
+#: wp-admin/user-edit.php:569
 msgid "Contact Info"
 msgstr "Informations de contact"
 
-#: wp-admin/user-edit.php:569
+#: wp-admin/user-edit.php:578
 msgid ""
 "If you change this, an email will be sent at your new address to confirm it. "
 "<strong>The new address will not become active until confirmed.</strong>"
@@ -17773,29 +17774,29 @@ msgstr ""
 "vous n’aurez pas confirmé.</strong>"
 
 #. translators: %s: New email.
-#: wp-admin/user-edit.php:579
+#: wp-admin/user-edit.php:588
 msgid "There is a pending change of your email to %s."
 msgstr ""
 "Il y a une modification de votre adresse de courriel en attente, en faveur "
 "de %s."
 
-#: wp-admin/user-edit.php:599 wp-admin/user-new.php:229
+#: wp-admin/user-edit.php:608 wp-admin/user-new.php:234
 msgid "Website"
 msgstr "Site Web"
 
-#: wp-admin/user-edit.php:629
+#: wp-admin/user-edit.php:638
 msgid "About Yourself"
 msgstr "À propos de vous"
 
-#: wp-admin/user-edit.php:629
+#: wp-admin/user-edit.php:638
 msgid "About the contributor"
 msgstr "À propos du·de la contributeur·rice"
 
-#: wp-admin/user-edit.php:633
+#: wp-admin/user-edit.php:642
 msgid "Biographical Info"
 msgstr "Renseignements biographiques"
 
-#: wp-admin/user-edit.php:635
+#: wp-admin/user-edit.php:644
 msgid ""
 "Share a little biographical information to fill out your profile. This may "
 "be shown publicly."
@@ -17803,59 +17804,59 @@ msgstr ""
 "Donnez quelques informations biographiques pour remplir votre profil. Ceci "
 "peut être affiché publiquement."
 
-#: wp-admin/user-edit.php:640
+#: wp-admin/user-edit.php:649
 msgid "Profile Picture"
 msgstr "Illustration du profil"
 
 #. translators: %s: Gravatar URL.
-#: wp-admin/user-edit.php:648
+#: wp-admin/user-edit.php:657
 msgid "<a href=\"%s\">You can change your profile picture on Libravatar</a>."
 msgstr ""
 "<a href=\"%s\">Vous pouvez changer votre image de profil sur Libravatar</a>."
 
 #. translators: The localized Gravatar URL.
-#: wp-admin/user-edit.php:650
+#: wp-admin/user-edit.php:659
 msgid "https://libravatar.org/"
 msgstr "https://libravatar.org/"
 
-#: wp-admin/user-edit.php:687
+#: wp-admin/user-edit.php:696
 msgid "Account Management"
 msgstr "Gestion du compte"
 
-#: wp-admin/user-edit.php:691
+#: wp-admin/user-edit.php:700
 msgid "New Password"
 msgstr "Nouveau mot de passe"
 
-#: wp-admin/user-edit.php:694
+#: wp-admin/user-edit.php:703
 msgid "Set New Password"
 msgstr "Définir le nouveau mot de passe"
 
-#: wp-admin/user-edit.php:704
+#: wp-admin/user-edit.php:713
 msgid "Cancel password change"
 msgstr "Annuler la modification du mot de passe"
 
-#: wp-admin/user-edit.php:712
+#: wp-admin/user-edit.php:721
 msgid "Repeat New Password"
 msgstr "Répétez le nouveau mot de passe"
 
-#: wp-admin/user-edit.php:716
+#: wp-admin/user-edit.php:725
 msgid "Type your new password again."
 msgstr "Veuillez saisir une deuxième fois votre mot de passe."
 
-#: wp-admin/user-edit.php:718
+#: wp-admin/user-edit.php:727
 msgid "Type the new password again."
 msgstr "Saisissez à nouveau le nouveau mot de passe."
 
-#: wp-admin/user-edit.php:736
+#: wp-admin/user-edit.php:745
 msgid "Password Reset"
 msgstr "Réinitialisation du mot de passe"
 
-#: wp-admin/user-edit.php:740
+#: wp-admin/user-edit.php:749
 msgid "Send Reset Link"
 msgstr "Envoyer le lien de réinitialisation"
 
 #. translators: %s: User's display name.
-#: wp-admin/user-edit.php:747
+#: wp-admin/user-edit.php:756
 msgid ""
 "Send %s a link to reset their password. This will not change their password, "
 "nor will it force a change."
@@ -17863,20 +17864,20 @@ msgstr ""
 "Envoyez à %s un lien pour réinitialiser son mot de passe. Cela ne changera "
 "pas son mot de passe, ni ne l’obligera à le modifier."
 
-#: wp-admin/user-edit.php:758 wp-admin/user-edit.php:768
-#: wp-admin/user-edit.php:778
+#: wp-admin/user-edit.php:767 wp-admin/user-edit.php:777
+#: wp-admin/user-edit.php:787
 msgid "Sessions"
 msgstr "Sessions"
 
-#: wp-admin/user-edit.php:760 wp-admin/user-edit.php:770
+#: wp-admin/user-edit.php:769 wp-admin/user-edit.php:779
 msgid "Log Out Everywhere Else"
 msgstr "Déconnecter partout ailleurs"
 
-#: wp-admin/user-edit.php:762
+#: wp-admin/user-edit.php:771
 msgid "You are only logged in at this location."
 msgstr "Vous n’êtes connecté·e qu’à cet emplacement."
 
-#: wp-admin/user-edit.php:772
+#: wp-admin/user-edit.php:781
 msgid ""
 "Did you lose your phone or leave your account logged in at a public "
 "computer? You can log out everywhere else, and stay logged in here."
@@ -17885,20 +17886,20 @@ msgstr ""
 "ordinateur public ? Vous pouvez garder votre compte connecté ici tout en "
 "vous déconnectant partout ailleurs."
 
-#: wp-admin/user-edit.php:780
+#: wp-admin/user-edit.php:789
 msgid "Log Out Everywhere"
 msgstr "Déconnexion globale"
 
 #. translators: %s: User's display name.
-#: wp-admin/user-edit.php:784
+#: wp-admin/user-edit.php:793
 msgid "Log %s out of all locations."
 msgstr "Déconnecter %s de tous les emplacements."
 
-#: wp-admin/user-edit.php:794
+#: wp-admin/user-edit.php:803
 msgid "Application Passwords"
 msgstr "Mots de passe d’application"
 
-#: wp-admin/user-edit.php:795
+#: wp-admin/user-edit.php:804
 msgid ""
 "Application passwords allow authentication via non-interactive systems, such "
 "as the REST API, without providing your actual password. Application "
@@ -17912,7 +17913,7 @@ msgstr ""
 "votre site."
 
 #. translators: 1: URL to my-sites.php, 2: Number of sites the user has.
-#: wp-admin/user-edit.php:807
+#: wp-admin/user-edit.php:816
 msgid ""
 "Application passwords grant access to <a href=\"%1$s\">the %2$s site in this "
 "installation that you have permissions on</a>."
@@ -17927,7 +17928,7 @@ msgstr[1] ""
 "sites sur lesquels vous avez des droits sur cette installation</a>."
 
 #. translators: 1: URL to my-sites.php, 2: Number of sites the user has.
-#: wp-admin/user-edit.php:815
+#: wp-admin/user-edit.php:824
 msgid ""
 "Application passwords grant access to <a href=\"%1$s\">the %2$s site on the "
 "network as you have Super Admin rights</a>."
@@ -17941,7 +17942,7 @@ msgstr[1] ""
 "Les mots de passe d’applications donnent accès <a href=\"%1$s\">aux %2$s "
 "sites du réseau, car vous disposez de droits Super Administration</a>."
 
-#: wp-admin/user-edit.php:839
+#: wp-admin/user-edit.php:848
 msgid ""
 "Required to create an Application Password, but not to update the "
 "contributor."
@@ -17949,11 +17950,11 @@ msgstr ""
 "Nécessaire pour créer un mot de passe d’application, mais pas pour mettre à "
 "jour le·la contributeur·rice."
 
-#: wp-admin/user-edit.php:853
+#: wp-admin/user-edit.php:862
 msgid "Add New Application Password"
 msgstr "Ajouter un mot de passe d’application"
 
-#: wp-admin/user-edit.php:858
+#: wp-admin/user-edit.php:867
 msgid ""
 "Your website appears to use Basic Authentication, which is not currently "
 "compatible with Application Passwords."
@@ -17961,7 +17962,7 @@ msgstr ""
 "Votre site semble utiliser l’authentification basique, qui n’est pas "
 "compatible avec les mots de passe d’application."
 
-#: wp-admin/user-edit.php:875
+#: wp-admin/user-edit.php:884
 msgid ""
 "The application password feature requires HTTPS, which is not enabled on "
 "this site."
@@ -17969,7 +17970,7 @@ msgstr ""
 "La fonctionnalité de mot de passe de l’application nécessite HTTPS, qui "
 "n’est pas activé sur ce site."
 
-#: wp-admin/user-edit.php:876
+#: wp-admin/user-edit.php:885
 msgid ""
 "If this is a development website, you can set the environment type "
 "accordingly to enable application passwords."
@@ -17978,41 +17979,41 @@ msgstr ""
 "type d’environnement correspondant afin d’autoriser les mots de passe "
 "d’applications."
 
-#: wp-admin/user-edit.php:922
+#: wp-admin/user-edit.php:931
 msgid "Additional Capabilities"
 msgstr "Permissions supplémentaires"
 
-#: wp-admin/user-edit.php:926
+#: wp-admin/user-edit.php:935
 msgid "Capabilities"
 msgstr "Permissions"
 
 #. translators: %s: Capability name.
-#: wp-admin/user-edit.php:940
+#: wp-admin/user-edit.php:949
 msgid "Denied: %s"
 msgstr "Refusé : %s"
 
-#: wp-admin/user-edit.php:952
+#: wp-admin/user-edit.php:961
 msgid "Danger zone"
 msgstr "Zone de danger"
 
-#: wp-admin/user-edit.php:959
+#: wp-admin/user-edit.php:968
 msgid "I wish to delete my account"
 msgstr "Je souhaite supprimer mon compte"
 
-#: wp-admin/user-edit.php:969
+#: wp-admin/user-edit.php:978
 msgid "Update Profile"
 msgstr "Mettre à jour le profil"
 
-#: wp-admin/user-edit.php:969
+#: wp-admin/user-edit.php:978
 msgid "Update Contributor"
 msgstr "Actualiser le·la contributeur·rice"
 
-#: wp-admin/user-edit.php:1012
+#: wp-admin/user-edit.php:1021
 msgid "Copy"
 msgstr "Copier"
 
 #. translators: Hidden accessibility text.
-#: wp-admin/user-edit.php:1020
+#: wp-admin/user-edit.php:1029
 msgid "Dismiss this notice."
 msgstr "Ignorer cette notification."
 
@@ -18040,7 +18041,7 @@ msgstr ""
 "Les nouveaux·elles contributeur·rice·s reçoivent automatiquement un mot de "
 "passe, qui peut être changé après connexion. Vous pouvez afficher le mot de "
 "passe ou le modifier en cliquant sur le bouton « Afficher ». Le nom "
-"d’utilisateur·ice ne peut pas être modifié une fois que le·la "
+"d’utilisateur·rice ne peut pas être modifié une fois que le·la "
 "contributeur·rice a été enregistré·e."
 
 #: wp-admin/user-new.php:93
@@ -18063,11 +18064,46 @@ msgstr ""
 "N’oubliez pas de cliquer sur le bouton « Ajouter un·e contributeur·rice », "
 "en bas de cet écran, quand vous aurez terminé."
 
+#: wp-admin/user-new.php:100
+msgid "Subscribers can read regular site content but cannot create it."
+msgstr ""
+"Les abonné·e·s peuvent lire les contenus de votre site mais ne peuvent pas "
+"en créer."
+
 #: wp-admin/user-new.php:101
+msgid ""
+"Contributors can write and manage their posts but not publish posts or "
+"upload media files."
+msgstr ""
+"Les contributeur·rice·s peuvent écrire et gérer leurs articles, mais ils ne "
+"peuvent pas publier les articles ou charger des fichiers média."
+
+#: wp-admin/user-new.php:102
+msgid ""
+"Authors can publish and manage their own posts, and are able to upload files."
+msgstr ""
+"Les auteur·rice·s peuvent publier et gérer leurs propres articles, ils "
+"peuvent également charger des fichiers."
+
+#: wp-admin/user-new.php:103
+msgid ""
+"Editors can publish posts, manage posts as well as manage other people&#8217;"
+"s posts, etc."
+msgstr ""
+"Les éditeur·rice·s peuvent publier et gérer leurs propres publication, ainsi "
+"que ceux des autres membres, etc."
+
+#: wp-admin/user-new.php:104
+msgid "Administrators have access to all the administration features."
+msgstr ""
+"Les administrateur·rice·s peuvent accéder à toutes les fonctionnalités de "
+"l’administration."
+
+#: wp-admin/user-new.php:112
 msgid "Contributor Roles"
 msgstr "Rôles de contribution"
 
-#: wp-admin/user-new.php:102
+#: wp-admin/user-new.php:113
 msgid ""
 "Here is a basic overview of the different contributor roles and the "
 "permissions associated with each one:"
@@ -18075,46 +18111,11 @@ msgstr ""
 "Voici un rapide survol des différents rôles assignables aux "
 "contributeur·rice·s, et des droits qui leurs sont associé·e·s :"
 
-#: wp-admin/user-new.php:104
-msgid "Subscribers can read regular site content but cannot create it."
-msgstr ""
-"Les abonné·e·s peuvent lire les contenus de votre site mais ne peuvent pas "
-"en créer."
-
-#: wp-admin/user-new.php:105
-msgid ""
-"Contributors can write and manage their posts but not publish posts or "
-"upload media files."
-msgstr ""
-"Les contributeurs peuvent écrire et gérer leurs articles, mais ils ne "
-"peuvent pas publier les articles ou charger des fichiers média."
-
-#: wp-admin/user-new.php:106
-msgid ""
-"Authors can publish and manage their own posts, and are able to upload files."
-msgstr ""
-"Les auteurs ou autrices peuvent publier et gérer leurs propres articles, ils "
-"peuvent également charger des fichiers."
-
-#: wp-admin/user-new.php:107
-msgid ""
-"Editors can publish posts, manage posts as well as manage other people&#8217;"
-"s posts, etc."
-msgstr ""
-"Les éditeurs ou éditrices peuvent publier et gérer leurs propres "
-"publication, ainsi que ceux des autres membres, etc."
-
-#: wp-admin/user-new.php:108
-msgid "Administrators have access to all the administration features."
-msgstr ""
-"Les administrateurs et les administratrices peuvent accéder à toutes les "
-"fonctionnalités de l’administration."
-
-#: wp-admin/user-new.php:122
+#: wp-admin/user-new.php:127
 msgid "Contributor added."
 msgstr "Contributeur·rice ajouté·e"
 
-#: wp-admin/user-new.php:124
+#: wp-admin/user-new.php:129
 msgid ""
 "Invitation email sent to new contributor. A confirmation link must be "
 "clicked before their account is created."
@@ -18122,27 +18123,27 @@ msgstr ""
 "Envoi d’un message d’invitation au·à la nouveau·elle contributeur·rice. Un "
 "lien de confirmation devra d’abord être cliqué avant la création du compte."
 
-#: wp-admin/user-new.php:126
+#: wp-admin/user-new.php:131
 msgid "That contributor could not be added to this site."
 msgstr "Ce·tte contributeur·rice ne peut pas être ajouté·e à ce site."
 
-#: wp-admin/user-new.php:189
+#: wp-admin/user-new.php:194
 msgid "Create a brand new contributor and add them to this site."
 msgstr "Créer un·e nouveau·elle contributeur·rice et l’ajouter à ce site."
 
-#: wp-admin/user-new.php:268
+#: wp-admin/user-new.php:273
 msgid "Generate password"
 msgstr "Générer un mot de passe"
 
-#: wp-admin/user-new.php:286
+#: wp-admin/user-new.php:291
 msgid "Type the password again."
 msgstr "Saisissez à nouveau le nouveau mot de passe."
 
-#: wp-admin/user-new.php:299
+#: wp-admin/user-new.php:304
 msgid "Skip Confirmation Email"
 msgstr "Passer la confirmation par courriel"
 
-#: wp-admin/user-new.php:302
+#: wp-admin/user-new.php:307
 msgid ""
 "Add the contributor without sending an email that requires their confirmation"
 msgstr ""
@@ -18173,8 +18174,8 @@ msgid ""
 msgstr ""
 "Cet écran liste tou·te·s les contributeur·rice·s actuel·le·s de votre site. "
 "Chaque contributeur·rice a l’un des rôles prédéfinis, tel qu’assigné par "
-"l’administrateur·ice du site : %s. Les contributeur·rice·s avec un rôle "
-"autre qu’administrateur·ice verront moins d’options quand ils·elles seront "
+"l’administrateur·rice du site : %s. Les contributeur·rice·s avec un rôle "
+"autre qu’administrateur·rice verront moins d’options quand ils·elles seront "
 "connecté·e·s, en fonction de leur rôle."
 
 #: wp-admin/users.php:51
@@ -18246,7 +18247,7 @@ msgid ""
 "It does not delete their content. You can also remove multiple contributors "
 "at once by using bulk actions."
 msgstr ""
-"<strong>Supprimer</strong> vous permet de supprimer un·e utilisateur·ice de "
+"<strong>Supprimer</strong> vous permet de supprimer un·e utilisateur·rice de "
 "votre site. Cela ne supprimera pas son contenu. Vous pouvez également "
 "supprimer plusieurs contributeur·rice·s à la fois avec les actions groupées."
 
@@ -18258,7 +18259,7 @@ msgid ""
 "by using bulk actions."
 msgstr ""
 "<strong>« Supprimer »</strong> vous amène à l’écran de suppression des "
-"utilisateur·ice·s pour confirmer votre action, d’où vous pouvez supprimer "
+"utilisateur·rice·s pour confirmer votre action, d’où vous pouvez supprimer "
 "un·e contributeur·rice de manière permanente et supprimer son contenu. Vous "
 "pouvez également supprimer plusieurs contributeur·rice·s à la fois avec les "
 "actions groupées."
@@ -18443,7 +18444,7 @@ msgstr[0] ""
 "contributeur·rice."
 msgstr[1] ""
 "Le lien de réinitialisation du mot de passe a été envoyé à %s "
-"utilisateur·ice·s."
+"contributeur·rice·s."
 
 #: wp-admin/users.php:680
 msgid "Changed roles."
@@ -18455,7 +18456,7 @@ msgid ""
 "capabilities."
 msgstr ""
 "Le•la contributeur·rice·s actuel·le doit avoir un rôle lui permettant de "
-"modifier les permissions des utilisateur·ice·s."
+"modifier les permissions des utilisateur·rice·s."
 
 #: wp-admin/users.php:698
 msgid "Other contributor roles have been changed."
@@ -18496,70 +18497,3 @@ msgstr "Les widgets ne sont pas supportés dans Retraceur."
 #: wp-admin/widgets.php:14
 msgid "Retraceur does not provide Widgets."
 msgstr "Retraceur ne fournit pas de Widgets."
-
-#~ msgid "User %s added"
-#~ msgstr "L’utilisateur·ice %s a été ajouté·e"
-
-#~ msgid "User Language"
-#~ msgstr "Langue choisie par l’utilisateur·ice"
-
-#~ msgid "User count"
-#~ msgstr "Nombre d’utilisateur·ice·s"
-
-#~ msgid "Create a New User"
-#~ msgstr "Créer un·e nouvel·le utilisateur·ice"
-
-#~ msgid "%s user"
-#~ msgid_plural "%s users"
-#~ msgstr[0] "%s utilisateur·ice"
-#~ msgstr[1] "%s utilisateur·ice·s"
-
-#~ msgid "Search Users"
-#~ msgstr "Rechercher des utilisateur·ice·s"
-
-#~ msgid "Users"
-#~ msgstr "Utilisateur·ice·s"
-
-#~ msgid "All Users"
-#~ msgstr "Tou·te·s les utilisateur·ice·s"
-
-#~ msgid "Add New User"
-#~ msgstr "Ajouter un·e utilisateur·ice"
-
-#~ msgid "Edit User %s"
-#~ msgstr "Modifier l’utilisateur·ice %s"
-
-#~ msgid "Sorry, you are not allowed to edit this user."
-#~ msgstr ""
-#~ "Désolé, vous n’avez pas l’autorisation de modifier cet·te utilisateur·ice."
-
-#~ msgid "User updated."
-#~ msgstr "Utilisateur·ice mis·e à jour."
-
-#~ msgid "&larr; Go to Users"
-#~ msgstr "&larr; Aller aux utilisateur·ice·s"
-
-#~ msgid "Update User"
-#~ msgstr "Mettre à jour l’utilisateur·ice"
-
-#~ msgid "User Roles"
-#~ msgstr "Rôles des utilisateur·ice·s"
-
-#~ msgid "User added."
-#~ msgstr "Utilisateur·ice ajouté·e."
-
-#~ msgid "Users list"
-#~ msgstr "Liste des utilisateur·ice·s"
-
-#~ msgid "Sorry, you are not allowed to edit users."
-#~ msgstr ""
-#~ "Désolé, vous n’avez pas l’autorisation de modifier les utilisateur·ice·s."
-
-#~ msgid "Delete Users"
-#~ msgstr "Supprimer des utilisateur·ice·s"
-
-#~ msgid "User deleted."
-#~ msgstr "Utilisateur·ice supprimé·e."
-
-#~ msgid "Edit user"
-#~ msgstr "Modifier l’utilisateur·ice"
