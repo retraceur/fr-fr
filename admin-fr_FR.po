@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Retraceur - 1.0.0 - Administration\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
-"POT-Creation-Date: 2025-04-03T04:00:11+00:00\n"
-"PO-Revision-Date: 2025-04-03 06:50+0200\n"
+"POT-Creation-Date: 2025-04-06T12:34:40+00:00\n"
+"PO-Revision-Date: 2025-04-06 14:38+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -590,7 +590,7 @@ msgid "First off, thanks for taking the time to contribute %s!"
 msgstr "Tout d'abord, merci de prendre le temps de contribuer %s !"
 
 #. Translators: 1: Retraceur Cœeur GitHub repository URL. 2: Retraceur documentation GitHub repository URL. 3: Retraceur Cœeur GitHub issues URL. 4: Retraceur Cœeur GitHub PR URL.
-#: wp-admin/contribute.php:59
+#: wp-admin/contribute.php:60
 msgid ""
 "All types of contributions are encouraged and valued: you can contribute "
 "with %1$s, %2$s, translations, testing pre-releases, %3$s and %4$s."
@@ -599,23 +599,42 @@ msgstr ""
 "contribuer au %1$s, à la %2$s, aux traductions, aux tests des pré-versions, "
 "%3$s et %4$s."
 
-#: wp-admin/contribute.php:60
+#: wp-admin/contribute.php:61
 msgid "code"
 msgstr "code"
 
-#: wp-admin/contribute.php:61
+#: wp-admin/contribute.php:62
 msgid "documentation"
 msgstr "documentation"
 
-#: wp-admin/contribute.php:62
+#: wp-admin/contribute.php:63
 msgid "reporting issues"
 msgstr "en signalant des anomalies"
 
-#: wp-admin/contribute.php:63
+#: wp-admin/contribute.php:64
 msgid "suggesting pull requests"
 msgstr "en proposant des demandes de tirage"
 
-#: wp-admin/contribute.php:67
+#. Translators: %s is the link to the contributing guidelines.
+#: wp-admin/contribute.php:72
+msgid ""
+"To help you get started, you can read these %s to find out more about how to "
+"ask for help and write good bug or enhancement reports."
+msgstr ""
+"Pour vous aider à démarrer, vous pouvez lire %s pour en savoir plus sur la "
+"manière de demander de l’aide et de rédiger de bons rapports de bogues ou "
+"d’améliorations."
+
+#: wp-admin/contribute.php:73
+msgctxt "contributing guidelines"
+msgid "https://retraceur.github.io/rules/contributing-guidelines/"
+msgstr "https://retraceur.github.io/fr/rules/contributing-guidelines/"
+
+#: wp-admin/contribute.php:73
+msgid "contributing guidelines"
+msgstr "ces lignes directrices sur la contribution"
+
+#: wp-admin/contribute.php:77
 msgid ""
 "And if you like the project, but just don’t have time to contribute, that’s "
 "fine. There are other easy ways to support the project and show your "
@@ -626,27 +645,27 @@ msgstr ""
 "l’appréciez, nous serons également très heureux si vous :"
 
 #. Translators: 1: Star emoji. 2: Retraceur Cœeur GitHub repository URL.
-#: wp-admin/contribute.php:73
+#: wp-admin/contribute.php:83
 msgid "Star %1$s the project on %2$s."
 msgstr "Étoilez %1$s le projet sur %2$s."
 
 #. Translators: %s: Retraceur Bluesky profile URL.
-#: wp-admin/contribute.php:83
+#: wp-admin/contribute.php:93
 msgid "Follow %s on Bluesky and/or share posts about it."
 msgstr "Suivez %s sur Bluesky et/ou y partagez à son propos."
 
-#: wp-admin/contribute.php:88
+#: wp-admin/contribute.php:98
 msgid "Mention the project at local meetups and tell your friends/colleagues"
 msgstr ""
 "Mentionnez le projet lors de rencontres locales et en parlez à vos ami·e·s/"
 "collègues."
 
-#: wp-admin/contribute.php:95
+#: wp-admin/contribute.php:105
 msgid "Code of conduct"
 msgstr "Code de conduite"
 
 #. Translators: %s: Retraceur Code of conduct link.
-#: wp-admin/contribute.php:100
+#: wp-admin/contribute.php:110
 msgid ""
 "This project and everyone participating in it is governed by the %s. By "
 "participating, you are expected to uphold this code."
@@ -654,19 +673,19 @@ msgstr ""
 "Ce projet et tou·te·s ses contributeur·rice·s sont régis par le %s. En "
 "participant, vous êtes tenu·e de respecter ce code."
 
-#: wp-admin/contribute.php:101
+#: wp-admin/contribute.php:111
 msgid "https://retraceur.github.io/rules/code-of-conduct/"
 msgstr "https://retraceur.github.io/fr/rules/code-of-conduct/"
 
-#: wp-admin/contribute.php:101
+#: wp-admin/contribute.php:111
 msgid "Retraceur Code of Conduct"
 msgstr "Code de conduite de Retraceur"
 
-#: wp-admin/contribute.php:110
+#: wp-admin/contribute.php:120
 msgid "Legal Notice"
 msgstr "Mentions légales"
 
-#: wp-admin/contribute.php:111
+#: wp-admin/contribute.php:121
 msgid ""
 "When contributing to this project, you must agree that you have authored "
 "100% of the content, that you have the necessary rights to the content and "
@@ -677,12 +696,12 @@ msgstr ""
 "nécessaires sur ce contenu et que le contenu que vous apportez peut être "
 "fourni sous la licence GPL."
 
-#: wp-admin/contribute.php:117
+#: wp-admin/contribute.php:127
 msgid "Reporting security issues"
 msgstr "Signaler des vulnérabilités"
 
 #. Translators: %s: Email address to report security issues.
-#: wp-admin/contribute.php:122
+#: wp-admin/contribute.php:132
 msgid ""
 "You must never report security related issues, vulnerabilities or bugs "
 "including sensitive information to the issue tracker, or elsewhere in "
