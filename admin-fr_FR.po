@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Retraceur - 1.0.0 - Administration\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
-"POT-Creation-Date: 2025-04-12T07:46:50+00:00\n"
-"PO-Revision-Date: 2025-04-12 09:52+0200\n"
+"POT-Creation-Date: 2025-04-21T07:15:08+00:00\n"
+"PO-Revision-Date: 2025-04-21 09:46+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -765,44 +765,44 @@ msgstr ""
 msgid "The other Retraceur best Open Source friends %s"
 msgstr "Les autres meilleurs amis open-source de Retraceur"
 
-#: wp-admin/credits.php:121
+#: wp-admin/credits.php:122
 msgid "Project Leaders"
 msgstr "Chefs de projet"
 
 #. translators: %s: The current Retraceur version number.
-#: wp-admin/credits.php:123
+#: wp-admin/credits.php:124
 msgid "Core Contributors to Retraceur %s"
 msgstr "Contributeur·rice·s au cœur de Retraceur %s"
 
-#: wp-admin/credits.php:124
+#: wp-admin/credits.php:125
 msgid "Noteworthy Contributors"
 msgstr "Contributeur·rice·s remarquables"
 
-#: wp-admin/credits.php:125
+#: wp-admin/credits.php:126
 msgid "Cofounder, Project Lead"
 msgstr "Cofondateur, chef de projet"
 
-#: wp-admin/credits.php:126
+#: wp-admin/credits.php:127
 msgid "Lead Developer"
 msgstr "Développeur principal"
 
-#: wp-admin/credits.php:127
+#: wp-admin/credits.php:128
 msgid "Release Lead"
 msgstr "Responsable de cette version"
 
-#: wp-admin/credits.php:128
+#: wp-admin/credits.php:129
 msgid "Release Design Lead"
 msgstr "Responsable du design de cette version"
 
-#: wp-admin/credits.php:129
+#: wp-admin/credits.php:130
 msgid "Release Deputy"
 msgstr "Assistant·e de la direction de cette version"
 
-#: wp-admin/credits.php:130
+#: wp-admin/credits.php:131
 msgid "Core Developer"
 msgstr "Développeur c&oelig;ur"
 
-#: wp-admin/credits.php:131
+#: wp-admin/credits.php:132
 msgid "External Libraries"
 msgstr "Bibliothèques tierces"
 
