@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Retraceur - 2.0.0\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
 "POT-Creation-Date: 2025-05-31T09:08:42+00:00\n"
-"PO-Revision-Date: 2025-06-01 14:14+0200\n"
+"PO-Revision-Date: 2025-06-03 19:22+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: wp-activate.php:26 wp-includes/deprecated.php:15849
 #: wp-includes/deprecated.php:15883 wp-includes/deprecated.php:15923
