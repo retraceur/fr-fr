@@ -1,11 +1,11 @@
-# Translation of Retraceur - 1.0.x - wp-admin/js/postbox.js in French (France)
+# Translation of Retraceur - 2.0.x - wp-admin/js/postbox.js in French (France)
 # This file is distributed under the GPL-2.0+ license.
 msgid ""
 msgstr ""
-"Project-Id-Version: Retraceur - 1.0.0\n"
+"Project-Id-Version: Retraceur - 2.0.0\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
-"POT-Creation-Date: 2025-04-21T07:16:30+00:00\n"
-"PO-Revision-Date: 2025-04-21 09:56+0200\n"
+"POT-Creation-Date: 2025-05-31T09:09:13+00:00\n"
+"PO-Revision-Date: 2025-06-05 03:59+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -22,14 +22,18 @@ msgstr "La boîte est en première position"
 msgid "The box is on the last position"
 msgstr "La boîte est en dernière position"
 
-#: wp-admin/js/postbox.js:506
+#: wp-admin/js/postbox.js:476
+msgid "Screen Options updated."
+msgstr "Options d’écran mises à jour."
+
+#: wp-admin/js/postbox.js:512
 msgid "The boxes order has been saved."
 msgstr "L’ordre des boîtes a été enregistré."
 
-#: wp-admin/js/postbox.js:558
+#: wp-admin/js/postbox.js:564
 msgid "Add boxes from the Screen Options menu"
 msgstr "Ajouter des boîtes à partir du menu des options d’écran"
 
-#: wp-admin/js/postbox.js:558
+#: wp-admin/js/postbox.js:564
 msgid "Drag boxes here"
 msgstr "Glissez les boîtes ici"
