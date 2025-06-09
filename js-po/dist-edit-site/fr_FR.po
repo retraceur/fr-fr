@@ -1,11 +1,11 @@
-# Translation of Retraceur - 1.0.x - wp-includes/js/dist/edit-site.js in French (France)
+# Translation of Retraceur - 2.0.x - wp-includes/js/dist/edit-site.js in French (France)
 # This file is distributed under the GPL-2.0+ license.
 msgid ""
 msgstr ""
-"Project-Id-Version: Retraceur - 1.0.0\n"
+"Project-Id-Version: Retraceur - 2.0.0\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
-"POT-Creation-Date: 2025-04-21T07:17:16+00:00\n"
-"PO-Revision-Date: 2025-04-21 10:07+0200\n"
+"POT-Creation-Date: 2025-05-31T09:10:01+00:00\n"
+"PO-Revision-Date: 2025-06-09 08:34+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -13,19 +13,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: Poedit 3.6\n"
 
 #. translators: %s: Title of the block e.g. 'Heading'.
-#: wp-includes/js/dist/edit-site.js:6558
+#: wp-includes/js/dist/edit-site.js:6557
 msgid "%s styles applied."
 msgstr "%s styles appliqués."
 
-#: wp-includes/js/dist/edit-site.js:6561
+#: wp-includes/js/dist/edit-site.js:6560
 msgid "Undo"
 msgstr "Défaire"
 
 #. translators: %s: Title of the block e.g. 'Heading'.
-#: wp-includes/js/dist/edit-site.js:6578
+#: wp-includes/js/dist/edit-site.js:6577
 msgid ""
 "Apply this block’s typography, spacing, dimensions, and color styles to all "
 "%s blocks."
@@ -33,74 +33,68 @@ msgstr ""
 "Appliquer la typographie de ce bloc, les espaces, les dimensions et les "
 "styles de couleur à tous les %s blocs."
 
-#: wp-includes/js/dist/edit-site.js:6580 wp-includes/js/dist/edit-site.js:23828
-#: wp-includes/js/dist/edit-site.js:23841
-#: wp-includes/js/dist/edit-site.js:38949
-#: wp-includes/js/dist/edit-site.js:39044
+#: wp-includes/js/dist/edit-site.js:6579 wp-includes/js/dist/edit-site.js:14800
+#: wp-includes/js/dist/edit-site.js:14819
+#: wp-includes/js/dist/edit-site.js:27290
+#: wp-includes/js/dist/edit-site.js:28941
+#: wp-includes/js/dist/edit-site.js:28951
+#: wp-includes/js/dist/edit-site.js:46484
 msgid "Styles"
 msgstr "Styles"
 
-#: wp-includes/js/dist/edit-site.js:6587
+#: wp-includes/js/dist/edit-site.js:6586
 msgid "Apply globally"
 msgstr "Appliquer globalement"
 
-#: wp-includes/js/dist/edit-site.js:6764 wp-includes/js/dist/edit-site.js:38169
-#: wp-includes/js/dist/edit-site.js:38273
+#: wp-includes/js/dist/edit-site.js:6756 wp-includes/js/dist/edit-site.js:46233
 msgid "Template"
 msgstr "Gabarit"
 
-#: wp-includes/js/dist/edit-site.js:6765
+#: wp-includes/js/dist/edit-site.js:6757
 msgid "Template part"
 msgstr "Portion de gabarit"
 
-#: wp-includes/js/dist/edit-site.js:6766
+#: wp-includes/js/dist/edit-site.js:6758
 msgid "Pattern"
 msgstr "Composition"
 
-#: wp-includes/js/dist/edit-site.js:6767 wp-includes/js/dist/edit-site.js:9366
-#: wp-includes/js/dist/edit-site.js:39039
-#: wp-includes/js/dist/edit-site.js:39976
+#: wp-includes/js/dist/edit-site.js:6759 wp-includes/js/dist/edit-site.js:13432
+#: wp-includes/js/dist/edit-site.js:14795
+#: wp-includes/js/dist/edit-site.js:30811
 msgid "Navigation"
 msgstr "Navigation"
 
-#: wp-includes/js/dist/edit-site.js:7735
-msgid "Copy Error"
-msgstr "Copier l’erreur"
-
-#: wp-includes/js/dist/edit-site.js:7777
-msgid "The editor has encountered an unexpected error."
-msgstr "L’éditeur a rencontré une erreur inattendue."
-
-#: wp-includes/js/dist/edit-site.js:7859
+#: wp-includes/js/dist/edit-site.js:7754
 msgid "Site Icon"
 msgstr "Icône de site"
 
-#: wp-includes/js/dist/edit-site.js:8032 wp-includes/js/dist/edit-site.js:38534
+#: wp-includes/js/dist/edit-site.js:7940 wp-includes/js/dist/edit-site.js:8040
+#: wp-includes/js/dist/edit-site.js:14318
 msgid "Go to the Dashboard"
 msgstr "Aller au tableau de bord"
 
 #. translators: accessibility text
-#: wp-includes/js/dist/edit-site.js:8054
+#: wp-includes/js/dist/edit-site.js:7962
 msgid "(opens in a new tab)"
 msgstr "(s’ouvre dans un nouvel onglet)"
 
-#: wp-includes/js/dist/edit-site.js:8066 wp-includes/js/dist/edit-site.js:8144
+#: wp-includes/js/dist/edit-site.js:7974 wp-includes/js/dist/edit-site.js:8088
 msgid "Open command palette"
 msgstr "Ouvrir la palette de commandes"
 
-#: wp-includes/js/dist/edit-site.js:8110
+#: wp-includes/js/dist/edit-site.js:8040
 msgid "Go to Site Editor"
 msgstr "Aller à l’éditeur de site"
 
-#: wp-includes/js/dist/edit-site.js:8132
+#: wp-includes/js/dist/edit-site.js:8076
 msgid "View site (opens in a new tab)"
 msgstr "Afficher le site (s’ouvre dans un nouvel onglet)"
 
-#: wp-includes/js/dist/edit-site.js:8385 wp-includes/js/dist/edit-site.js:8394
+#: wp-includes/js/dist/edit-site.js:8365 wp-includes/js/dist/edit-site.js:8374
 msgid "Drag to resize"
 msgstr "Glisser pour redimensionner"
 
-#: wp-includes/js/dist/edit-site.js:8408
+#: wp-includes/js/dist/edit-site.js:8388
 msgid ""
 "Use left and right arrow keys to resize the canvas. Hold shift to resize in "
 "larger increments."
@@ -109,139 +103,195 @@ msgstr ""
 "redimensionner le canevas. Maintenir la touche shift pressée pour "
 "redimensionner dans de plus fortes proportions."
 
-#: wp-includes/js/dist/edit-site.js:8448
+#: wp-includes/js/dist/edit-site.js:8456
 msgid "Save your changes."
 msgstr "Enregistrer vos modifications."
 
 #. translators: %s: The name of theme to be activated.
-#: wp-includes/js/dist/edit-site.js:8878
+#: wp-includes/js/dist/edit-site.js:12994
 msgid "Activating %s"
 msgstr "Activation de %s"
 
-#: wp-includes/js/dist/edit-site.js:8880 wp-includes/js/dist/edit-site.js:8892
+#: wp-includes/js/dist/edit-site.js:12996
+#: wp-includes/js/dist/edit-site.js:13008
 msgid "Saved"
-msgstr "Enregistré."
+msgstr "Enregistré"
 
 #. translators: %s: The name of theme to be activated.
-#: wp-includes/js/dist/edit-site.js:8883
+#: wp-includes/js/dist/edit-site.js:12999
 msgid "Activate %s & Save"
 msgstr "Activer %s et enregistrer"
 
 #. translators: %s: The name of theme to be activated.
-#: wp-includes/js/dist/edit-site.js:8886
+#: wp-includes/js/dist/edit-site.js:13002
 msgid "Activate %s"
 msgstr "Activer %s"
 
-#: wp-includes/js/dist/edit-site.js:8889
+#: wp-includes/js/dist/edit-site.js:13005
 msgid "Saving"
-msgstr "Enregistrement en cours…"
+msgstr "Enregistrement en cours"
 
 #. translators: %d: number of unsaved changes (number).
-#: wp-includes/js/dist/edit-site.js:8897
+#: wp-includes/js/dist/edit-site.js:13013
 msgid "Review %d change…"
 msgid_plural "Review %d changes…"
 msgstr[0] "Revoir %d modification…"
 msgstr[1] "Revoir %d modifications…"
 
-#: wp-includes/js/dist/edit-site.js:8899 wp-includes/js/dist/edit-site.js:19887
-#: wp-includes/js/dist/edit-site.js:21529
-#: wp-includes/js/dist/edit-site.js:39149
-#: wp-includes/js/dist/edit-site.js:40584
+#: wp-includes/js/dist/edit-site.js:13015
+#: wp-includes/js/dist/edit-site.js:24279
+#: wp-includes/js/dist/edit-site.js:25975
+#: wp-includes/js/dist/edit-site.js:29978
+#: wp-includes/js/dist/edit-site.js:44976
 msgid "Save"
 msgstr "Sauvegarder"
 
-#: wp-includes/js/dist/edit-site.js:9089
+#: wp-includes/js/dist/edit-site.js:13212
 msgid "Activate & Save"
 msgstr "Activer et sauvegarder"
 
-#: wp-includes/js/dist/edit-site.js:9091
+#: wp-includes/js/dist/edit-site.js:13214
 msgid "Activate"
 msgstr "Activer"
 
 #. translators: 1: The name of active theme, 2: The name of theme to be activated.
-#: wp-includes/js/dist/edit-site.js:9097
+#: wp-includes/js/dist/edit-site.js:13220
 msgid "Saving your changes will change your active theme from %1$s to %2$s."
 msgstr "Sauvegarder vos modifications changera le thème actif de %1$s à %2$s."
 
-#: wp-includes/js/dist/edit-site.js:9164
-msgid "Save site, content, and template changes"
-msgstr "Enregistrer les modifications de site, du contenu et de gabarit"
+#: wp-includes/js/dist/edit-site.js:13298
+msgid "Review changes"
+msgstr "Revoir les modifications"
 
-#: wp-includes/js/dist/edit-site.js:9176
+#: wp-includes/js/dist/edit-site.js:13312
 msgid "Save panel"
 msgstr "Panneau d’enregistrement"
 
-#: wp-includes/js/dist/edit-site.js:9189
+#: wp-includes/js/dist/edit-site.js:13325
 msgid "Open save panel"
 msgstr "Ouvrir le panneau d’enregistrement"
 
-#: wp-includes/js/dist/edit-site.js:9601
+#. translators: %s: plugin name
+#: wp-includes/js/dist/edit-site.js:13535
+msgid "The \"%s\" plugin has encountered an error and cannot be rendered."
+msgstr ""
+"L’extension « %s » a rencontré une erreur et le contenu de ce bloc ne peut "
+"être généré."
+
+#: wp-includes/js/dist/edit-site.js:13701
 msgid "Open styles"
 msgstr "Ouvrir les styles"
 
-#: wp-includes/js/dist/edit-site.js:9649
+#: wp-includes/js/dist/edit-site.js:13744
 msgid "Learn about styles"
 msgstr "En savoir plus sur les styles"
 
-#: wp-includes/js/dist/edit-site.js:9687 wp-includes/js/dist/edit-site.js:23439
+#: wp-includes/js/dist/edit-site.js:13778
+#: wp-includes/js/dist/edit-site.js:28480
 msgid "Reset styles"
 msgstr "Réinitialiser les styles"
 
-#: wp-includes/js/dist/edit-site.js:9734
+#: wp-includes/js/dist/edit-site.js:13824
 msgid "Customize CSS"
 msgstr "Personnaliser les CSS"
 
-#: wp-includes/js/dist/edit-site.js:9787
+#: wp-includes/js/dist/edit-site.js:13872
 msgid "Style revisions"
 msgstr "Révisions de style"
 
-#: wp-includes/js/dist/edit-site.js:9819
+#: wp-includes/js/dist/edit-site.js:13900
 msgid "View site"
 msgstr "Afficher le site"
 
-#. translators: %s: template title
-#: wp-includes/js/dist/edit-site.js:10069
-msgid "Edit template: %s"
-msgstr "Modifier le gabarit : %s"
+#: wp-includes/js/dist/edit-site.js:13981
+#: wp-includes/js/dist/edit-site.js:27242
+#: wp-includes/js/dist/edit-site.js:28960
+msgid "Style Book"
+msgstr "Livre de style"
 
-#: wp-includes/js/dist/edit-site.js:10081
-msgid "Back to page"
-msgstr "Retour à la page"
+#: wp-includes/js/dist/edit-site.js:13984
+msgid "Style Revisions"
+msgstr "Révisions de style"
 
-#. translators: %s: template title
-#: wp-includes/js/dist/edit-site.js:10116
-msgid "Reset template: %s"
-msgstr "Réinitialiser le gabarit : %s"
+#: wp-includes/js/dist/edit-site.js:14053
+#: wp-includes/js/dist/edit-site.js:27487
+#: wp-includes/js/dist/edit-site.js:45839
+msgid "Close"
+msgstr "Fermer"
 
-#. translators: %s: template part title
-#: wp-includes/js/dist/edit-site.js:10117
-msgid "Reset template part: %s"
-msgstr "Réinitialiser la portion de gabarit : %s"
+#: wp-includes/js/dist/edit-site.js:14314
+#: wp-includes/js/dist/edit-site.js:16474
+#: wp-includes/js/dist/edit-site.js:18865
+#: wp-includes/js/dist/edit-site.js:19438
+msgid "Back"
+msgstr "Retour"
 
-#. translators: %s: template title
-#: wp-includes/js/dist/edit-site.js:10132
-msgid "Delete template: %s"
-msgstr "Supprimer le gabarit : %s"
+#. translators: 1: theme name. 2: title
+#: wp-includes/js/dist/edit-site.js:14326
+msgid "Previewing %1$s: %2$s"
+msgstr "Aperçu de %1$s: %2$s"
 
-#. translators: %s: template part title
-#: wp-includes/js/dist/edit-site.js:10133
-msgid "Delete template part: %s"
-msgstr "Supprimer la portion de gabarit : %s"
+#. translators: %d: Number of Styles revisions.
+#: wp-includes/js/dist/edit-site.js:14669
+msgid "%d Revision"
+msgid_plural "%d Revisions"
+msgstr[0] "%d révision"
+msgstr[1] "%d révisions"
 
-#: wp-includes/js/dist/edit-site.js:10488
+#: wp-includes/js/dist/edit-site.js:14749
+#: wp-includes/js/dist/edit-site.js:14851
+#: wp-includes/js/dist/edit-site.js:26567
+msgid "Design"
+msgstr "Conception"
+
+#: wp-includes/js/dist/edit-site.js:14751
+#: wp-includes/js/dist/edit-site.js:14845
+msgid "Customize the appearance of your website using the block editor."
+msgstr ""
+"Personnaliser l’apparence de votre site Web en utilisant l’éditeur de blocs."
+
+#: wp-includes/js/dist/edit-site.js:14806
+#: wp-includes/js/dist/edit-site.js:46357
+#: wp-includes/js/dist/edit-site.js:46440
+msgid "Pages"
+msgstr "Pages"
+
+#: wp-includes/js/dist/edit-site.js:14812
+#: wp-includes/js/dist/edit-site.js:42254
+#: wp-includes/js/dist/edit-site.js:44369
+msgid "Templates"
+msgstr "Gabarits"
+
+#: wp-includes/js/dist/edit-site.js:14825
+#: wp-includes/js/dist/edit-site.js:31625
+msgid "Patterns"
+msgstr "Compositions"
+
+#: wp-includes/js/dist/edit-site.js:14847
+msgid "Explore block styles and patterns to refine your site."
+msgstr ""
+"Explorer les styles de bloc et les compositions pour affiner la présentation "
+"de votre site."
+
+#: wp-includes/js/dist/edit-site.js:14872
+msgid "The theme you are currently using does not support this screen."
+msgstr ""
+"Le thème que vous utilisez actuellement ne prend pas en charge cet écran."
+
+#: wp-includes/js/dist/edit-site.js:14946
 msgid "Welcome to the site editor"
 msgstr "Bienvenue dans l’éditeur de site"
 
-#: wp-includes/js/dist/edit-site.js:10489
-#: wp-includes/js/dist/edit-site.js:10559
+#: wp-includes/js/dist/edit-site.js:14947
+#: wp-includes/js/dist/edit-site.js:15015
 msgid "Get started"
 msgstr "Premiers pas"
 
-#: wp-includes/js/dist/edit-site.js:10499
+#: wp-includes/js/dist/edit-site.js:14957
 msgid "Edit your site"
 msgstr "Modifier votre site"
 
-#: wp-includes/js/dist/edit-site.js:10502
+#: wp-includes/js/dist/edit-site.js:14960
 msgid ""
 "Design everything on your site — from the header right down to the footer — "
 "using blocks."
@@ -249,7 +299,7 @@ msgstr ""
 "Concevez tout sur votre site — de l’entête jusqu’à son pied de page — en "
 "utilisant des blocs."
 
-#: wp-includes/js/dist/edit-site.js:10505
+#: wp-includes/js/dist/edit-site.js:14963
 msgid ""
 "Click <StylesIconImage /> to start designing your blocks, and choose your "
 "typography, layout, and colors."
@@ -257,15 +307,15 @@ msgstr ""
 "Cliquer sur <StylesIconImage /> pour commencer à concevoir vos blocs, et "
 "sélectionner votre typographie, la mise en page et les couleurs."
 
-#: wp-includes/js/dist/edit-site.js:10507
+#: wp-includes/js/dist/edit-site.js:14965
 msgid "styles"
 msgstr "styles"
 
-#: wp-includes/js/dist/edit-site.js:10555
+#: wp-includes/js/dist/edit-site.js:15011
 msgid "Welcome to Styles"
 msgstr "Bienvenue dans les Styles"
 
-#: wp-includes/js/dist/edit-site.js:10572
+#: wp-includes/js/dist/edit-site.js:15028
 msgid ""
 "Tweak your site, or give it a whole new look! Get creative — how about a new "
 "color palette for your buttons, or choosing a new font? Take a look at what "
@@ -276,11 +326,11 @@ msgstr ""
 "vos boutons, ou d’une nouvelle police de caractères ? Découvrez ce que vous "
 "pouvez accomplir ici."
 
-#: wp-includes/js/dist/edit-site.js:10583
+#: wp-includes/js/dist/edit-site.js:15039
 msgid "Set the design"
 msgstr "Définir le design"
 
-#: wp-includes/js/dist/edit-site.js:10586
+#: wp-includes/js/dist/edit-site.js:15042
 msgid ""
 "You can customize your site as much as you like with different colors, "
 "typography, and layouts. Or if you prefer, just leave it up to your theme to "
@@ -290,11 +340,11 @@ msgstr ""
 "différentes couleurs, typographies, et mise en pages. Ou si vous préférez, "
 "faites confiance à votre thème pour le gérer pour vous !"
 
-#: wp-includes/js/dist/edit-site.js:10597
+#: wp-includes/js/dist/edit-site.js:15053
 msgid "Personalize blocks"
 msgstr "Personnaliser les blocs"
 
-#: wp-includes/js/dist/edit-site.js:10600
+#: wp-includes/js/dist/edit-site.js:15056
 msgid ""
 "You can adjust your blocks to ensure a cohesive experience across your site "
 "— add your unique colors to a branded Button block, or adjust the Heading "
@@ -305,16 +355,24 @@ msgstr ""
 "bloc de bouton, ou personnaliser le bloc de titre selon la taille de votre "
 "préférence."
 
-#: wp-includes/js/dist/edit-site.js:10638
+#: wp-includes/js/dist/edit-site.js:15067
+msgid "Learn more"
+msgstr "En savoir plus"
+
+#: wp-includes/js/dist/edit-site.js:15070
+msgid "A documentation will soon be available."
+msgstr "Une documentation sera bientôt disponible."
+
+#: wp-includes/js/dist/edit-site.js:15098
 msgid "Editing a page"
 msgstr "Modification d’un page"
 
-#: wp-includes/js/dist/edit-site.js:10642
-#: wp-includes/js/dist/edit-site.js:10719
+#: wp-includes/js/dist/edit-site.js:15102
+#: wp-includes/js/dist/edit-site.js:15169
 msgid "Continue"
 msgstr "Continuer"
 
-#: wp-includes/js/dist/edit-site.js:10663
+#: wp-includes/js/dist/edit-site.js:15123
 msgid ""
 "It’s now possible to edit page content in the site editor. To customise "
 "other parts of the page like the header and footer switch to editing the "
@@ -325,11 +383,11 @@ msgstr ""
 "le pied de page, basculer sur le mode d’édition du gabarit en utilisant la "
 "barre latérale des réglages."
 
-#: wp-includes/js/dist/edit-site.js:10715
+#: wp-includes/js/dist/edit-site.js:15165
 msgid "Editing a template"
 msgstr "Modification d’un gabarit"
 
-#: wp-includes/js/dist/edit-site.js:10740
+#: wp-includes/js/dist/edit-site.js:15190
 msgid ""
 "Note that the same template can be used by multiple pages, so any changes "
 "made here may affect other pages on the site. To switch back to editing the "
@@ -340,143 +398,114 @@ msgstr ""
 "votre site. Pour basculer et revenir à l’édition du contenu de la page, "
 "cliquer sur le bouton de « Retour » dans la barre d’outils."
 
-#: wp-includes/js/dist/edit-site.js:11258
-msgid "Typography styles"
-msgstr "Styles typographiques"
-
-#: wp-includes/js/dist/edit-site.js:11259
-#: wp-includes/js/dist/edit-site.js:19540
-#: wp-includes/js/dist/edit-site.js:22044
+#: wp-includes/js/dist/edit-site.js:15661
+#: wp-includes/js/dist/edit-site.js:23935
+#: wp-includes/js/dist/edit-site.js:26455
+#: wp-includes/js/dist/edit-site.js:27036
 msgid "Typography"
 msgstr "Typographie"
 
-#: wp-includes/js/dist/edit-site.js:11263
-msgid "Colors styles"
-msgstr "Styles des couleurs"
-
-#: wp-includes/js/dist/edit-site.js:11264
-#: wp-includes/js/dist/edit-site.js:20550
+#: wp-includes/js/dist/edit-site.js:15665
+#: wp-includes/js/dist/edit-site.js:24934
+#: wp-includes/js/dist/edit-site.js:26589
+#: wp-includes/js/dist/edit-site.js:26635
+#: wp-includes/js/dist/edit-site.js:26987
 msgid "Colors"
 msgstr "Couleurs"
 
-#: wp-includes/js/dist/edit-site.js:11268
+#: wp-includes/js/dist/edit-site.js:15669
 msgid "Background styles"
 msgstr "Styles de l’arrière-plan"
 
-#: wp-includes/js/dist/edit-site.js:11269
-#: wp-includes/js/dist/edit-site.js:20965
+#: wp-includes/js/dist/edit-site.js:15670
+#: wp-includes/js/dist/edit-site.js:25342
 msgid "Background"
 msgstr "Arrière-plan"
 
-#: wp-includes/js/dist/edit-site.js:11273
-msgid "Shadow styles"
-msgstr "Styles des ombres portées"
-
-#: wp-includes/js/dist/edit-site.js:11274
-#: wp-includes/js/dist/edit-site.js:21008
-#: wp-includes/js/dist/edit-site.js:21584
+#: wp-includes/js/dist/edit-site.js:15674
+#: wp-includes/js/dist/edit-site.js:25432
+#: wp-includes/js/dist/edit-site.js:26031
 msgid "Shadows"
 msgstr "Ombres portées"
 
-#: wp-includes/js/dist/edit-site.js:11278
-msgid "Layout styles"
-msgstr "Styles de la mise en page"
-
-#: wp-includes/js/dist/edit-site.js:11279
-#: wp-includes/js/dist/edit-site.js:21878
-#: wp-includes/js/dist/edit-site.js:32832
+#: wp-includes/js/dist/edit-site.js:15678
+#: wp-includes/js/dist/edit-site.js:26319
+#: wp-includes/js/dist/edit-site.js:40347
 msgid "Layout"
 msgstr "Mise en page"
 
-#: wp-includes/js/dist/edit-site.js:11545
+#: wp-includes/js/dist/edit-site.js:15950
 msgctxt "Uppercase letter A"
 msgid "A"
 msgstr "A"
 
-#: wp-includes/js/dist/edit-site.js:11548
+#: wp-includes/js/dist/edit-site.js:15953
 msgctxt "Lowercase letter A"
 msgid "a"
 msgstr "A"
 
-#: wp-includes/js/dist/edit-site.js:11948
-#: wp-includes/js/dist/edit-site.js:11952
-#: wp-includes/js/dist/edit-site.js:22084
+#: wp-includes/js/dist/edit-site.js:16333
+#: wp-includes/js/dist/edit-site.js:26498
 msgid "Browse styles"
 msgstr "Parcourir les styles"
 
-#: wp-includes/js/dist/edit-site.js:11971
+#: wp-includes/js/dist/edit-site.js:16352
 msgid "Customize the appearance of specific blocks for the whole site."
 msgstr ""
 "Personnaliser l’apparence de blocs spécifique pour l’intégralité du site."
 
-#: wp-includes/js/dist/edit-site.js:11975
-msgid "Blocks styles"
-msgstr "Styles des blocs"
-
-#: wp-includes/js/dist/edit-site.js:11979
-#: wp-includes/js/dist/edit-site.js:12251
+#: wp-includes/js/dist/edit-site.js:16359
+#: wp-includes/js/dist/edit-site.js:16629
 msgid "Blocks"
 msgstr "Blocs"
 
-#: wp-includes/js/dist/edit-site.js:11993
-#: wp-includes/js/dist/edit-site.js:22641
+#: wp-includes/js/dist/edit-site.js:16373
+#: wp-includes/js/dist/edit-site.js:27851
 msgid "Add your own CSS to customize the appearance and layout of your site."
 msgstr ""
 "Ajouter votre propre CSS pour personnaliser l’apparence et la mise en page "
 "de votre site."
 
-#: wp-includes/js/dist/edit-site.js:11997
-#: wp-includes/js/dist/edit-site.js:12001
-#: wp-includes/js/dist/edit-site.js:23424
+#: wp-includes/js/dist/edit-site.js:16380
+#: wp-includes/js/dist/edit-site.js:28465
 msgid "Additional CSS"
 msgstr "CSS additionnel"
 
-#: wp-includes/js/dist/edit-site.js:12097
-#: wp-includes/js/dist/edit-site.js:14495
-#: wp-includes/js/dist/edit-site.js:15045
-#: wp-includes/js/dist/edit-site.js:38530
-msgid "Back"
-msgstr "Retour"
-
-#. translators: %s: is the name of a block e.g., 'Image' or 'Table'.
-#: wp-includes/js/dist/edit-site.js:12194
-msgid "%s block styles"
-msgstr "%s styles de bloc"
-
 #. translators: %d: number of results.
-#: wp-includes/js/dist/edit-site.js:12234
+#: wp-includes/js/dist/edit-site.js:16605
 msgid "%d result found."
 msgid_plural "%d results found."
 msgstr[0] "%d résultat trouvé."
 msgstr[1] "%d résultat trouvés."
 
-#: wp-includes/js/dist/edit-site.js:12252
+#: wp-includes/js/dist/edit-site.js:16617
+msgid "No blocks found."
+msgstr "Aucun bloc trouvé"
+
+#: wp-includes/js/dist/edit-site.js:16630
 msgid "Customize the appearance of specific blocks and for the whole site."
 msgstr ""
 "Personnaliser l’apparence de blocs spécifiques et pour l’intégralité de "
 "votre site."
 
-#: wp-includes/js/dist/edit-site.js:12258
-msgid "Search for blocks"
-msgstr "Rechercher des blocs"
-
-#: wp-includes/js/dist/edit-site.js:12259
-#: wp-includes/js/dist/edit-site.js:14995
-#: wp-includes/js/dist/edit-site.js:30134
-#: wp-includes/js/dist/edit-site.js:32613
+#: wp-includes/js/dist/edit-site.js:16636
+#: wp-includes/js/dist/edit-site.js:16637
+#: wp-includes/js/dist/edit-site.js:19388
+#: wp-includes/js/dist/edit-site.js:37421
+#: wp-includes/js/dist/edit-site.js:40246
 msgid "Search"
 msgstr "Rechercher"
 
-#: wp-includes/js/dist/edit-site.js:12599
+#: wp-includes/js/dist/edit-site.js:16986
 msgid "Style Variations"
 msgstr "Variations de style"
 
-#: wp-includes/js/dist/edit-site.js:12642
+#: wp-includes/js/dist/edit-site.js:17029
 msgid "Advanced"
 msgstr "Avancé"
 
 #. translators: %s: is the name of a block e.g., 'Image' or 'Table'.
-#: wp-includes/js/dist/edit-site.js:12647
+#: wp-includes/js/dist/edit-site.js:17034
 msgid ""
 "Add your own CSS to customize the appearance of the %s block. You do not "
 "need to include a CSS selector, just add the property and value."
@@ -485,175 +514,168 @@ msgstr ""
 "Vous n’avez pas besoin d’ajouter de sélecteur CSS, ajouter simplement la "
 "propriété et la valeur."
 
-#. translators: %s: is a subset of Typography, e.g., 'text' or 'links'.
-#: wp-includes/js/dist/edit-site.js:12696
-msgid "Typography %s styles"
-msgstr "Styles typographiques de %s"
-
-#: wp-includes/js/dist/edit-site.js:12712
-#: wp-includes/js/dist/edit-site.js:19796
+#: wp-includes/js/dist/edit-site.js:17095
+#: wp-includes/js/dist/edit-site.js:24189
 msgid "Aa"
 msgstr "Aa"
 
-#: wp-includes/js/dist/edit-site.js:12725
+#: wp-includes/js/dist/edit-site.js:17108
 msgid "Elements"
 msgstr "Éléments"
 
-#: wp-includes/js/dist/edit-site.js:12732
-#: wp-includes/js/dist/edit-site.js:19674
+#: wp-includes/js/dist/edit-site.js:17115
+#: wp-includes/js/dist/edit-site.js:24067
+#: wp-includes/js/dist/edit-site.js:26585
+#: wp-includes/js/dist/edit-site.js:26631
 msgid "Text"
 msgstr "Texte"
 
-#: wp-includes/js/dist/edit-site.js:12736
-#: wp-includes/js/dist/edit-site.js:19678
+#: wp-includes/js/dist/edit-site.js:17119
+#: wp-includes/js/dist/edit-site.js:24071
 msgid "Links"
 msgstr "Liens"
 
-#: wp-includes/js/dist/edit-site.js:12740
-#: wp-includes/js/dist/edit-site.js:19682
-#: wp-includes/js/dist/edit-site.js:22372
+#: wp-includes/js/dist/edit-site.js:17123
+#: wp-includes/js/dist/edit-site.js:24075
+#: wp-includes/js/dist/edit-site.js:27110
 msgid "Headings"
 msgstr "Titres"
 
-#: wp-includes/js/dist/edit-site.js:12744
-#: wp-includes/js/dist/edit-site.js:19686
+#: wp-includes/js/dist/edit-site.js:17127
+#: wp-includes/js/dist/edit-site.js:24079
 msgid "Captions"
 msgstr "Légendes"
 
-#: wp-includes/js/dist/edit-site.js:12748
-#: wp-includes/js/dist/edit-site.js:19690
+#: wp-includes/js/dist/edit-site.js:17131
+#: wp-includes/js/dist/edit-site.js:24083
 msgid "Buttons"
 msgstr "Boutons"
 
-#: wp-includes/js/dist/edit-site.js:12857
-#: wp-includes/js/dist/edit-site.js:12887
-#: wp-includes/js/dist/edit-site.js:20383
-#: wp-includes/js/dist/edit-site.js:20737
-#: wp-includes/js/dist/edit-site.js:20809
-#: wp-includes/js/dist/edit-site.js:21016
-#: wp-includes/js/dist/edit-site.js:21927
+#: wp-includes/js/dist/edit-site.js:17241
+#: wp-includes/js/dist/edit-site.js:17271
+#: wp-includes/js/dist/edit-site.js:24767
+#: wp-includes/js/dist/edit-site.js:25119
+#: wp-includes/js/dist/edit-site.js:25190
+#: wp-includes/js/dist/edit-site.js:25440
+#: wp-includes/js/dist/edit-site.js:26364
 msgid "Default"
 msgstr "Défaut"
 
 #. translators: 1: variation title. 2: variation description.
-#: wp-includes/js/dist/edit-site.js:13008
+#: wp-includes/js/dist/edit-site.js:17392
 msgctxt "variation label"
 msgid "%1$s (%2$s)"
 msgstr "%1$s (%2$s)"
 
-#: wp-includes/js/dist/edit-site.js:13109
+#: wp-includes/js/dist/edit-site.js:17491
 msgid "Font Sizes"
 msgstr "Tailles de police"
 
-#: wp-includes/js/dist/edit-site.js:13116
-msgid "Edit font size presets"
-msgstr "Modifier les tailles de police prédéfinies"
-
-#: wp-includes/js/dist/edit-site.js:13120
-#: wp-includes/js/dist/edit-site.js:20368
+#: wp-includes/js/dist/edit-site.js:17501
+#: wp-includes/js/dist/edit-site.js:24752
 msgid "Font size presets"
 msgstr "Tailles de police prédéfinies"
 
-#: wp-includes/js/dist/edit-site.js:13226
+#: wp-includes/js/dist/edit-site.js:17606
 msgctxt "font weight"
 msgid "Thin"
 msgstr "Mince"
 
-#: wp-includes/js/dist/edit-site.js:13227
+#: wp-includes/js/dist/edit-site.js:17607
 msgctxt "font weight"
 msgid "Extra-light"
 msgstr "Très léger"
 
-#: wp-includes/js/dist/edit-site.js:13228
+#: wp-includes/js/dist/edit-site.js:17608
 msgctxt "font weight"
 msgid "Light"
 msgstr "Léger"
 
-#: wp-includes/js/dist/edit-site.js:13229
+#: wp-includes/js/dist/edit-site.js:17609
 msgctxt "font weight"
 msgid "Normal"
 msgstr "Normale"
 
-#: wp-includes/js/dist/edit-site.js:13230
+#: wp-includes/js/dist/edit-site.js:17610
 msgctxt "font weight"
 msgid "Medium"
 msgstr "Moyen"
 
-#: wp-includes/js/dist/edit-site.js:13231
+#: wp-includes/js/dist/edit-site.js:17611
 msgctxt "font weight"
 msgid "Semi-bold"
 msgstr "Semi gras"
 
-#: wp-includes/js/dist/edit-site.js:13232
+#: wp-includes/js/dist/edit-site.js:17612
 msgctxt "font weight"
 msgid "Bold"
 msgstr "Gras"
 
-#: wp-includes/js/dist/edit-site.js:13233
+#: wp-includes/js/dist/edit-site.js:17613
 msgctxt "font weight"
 msgid "Extra-bold"
 msgstr "Extra gras"
 
-#: wp-includes/js/dist/edit-site.js:13234
+#: wp-includes/js/dist/edit-site.js:17614
 msgctxt "font weight"
 msgid "Black"
 msgstr "Noir"
 
-#: wp-includes/js/dist/edit-site.js:13237
+#: wp-includes/js/dist/edit-site.js:17617
 msgctxt "font style"
 msgid "Normal"
 msgstr "Normale"
 
-#: wp-includes/js/dist/edit-site.js:13238
+#: wp-includes/js/dist/edit-site.js:17618
 msgctxt "font style"
 msgid "Italic"
 msgstr "Italique"
 
-#: wp-includes/js/dist/edit-site.js:13836
+#: wp-includes/js/dist/edit-site.js:18215
 msgid "There was an error installing fonts."
 msgstr "Une erreur est survenue lors de l’installation des polices."
 
 #. translators: %d: Number of font variants.
-#: wp-includes/js/dist/edit-site.js:14160
-#: wp-includes/js/dist/edit-site.js:19407
+#: wp-includes/js/dist/edit-site.js:18538
+#: wp-includes/js/dist/edit-site.js:23806
 msgid "%d variant"
 msgid_plural "%d variants"
 msgstr[0] "%d variante"
 msgstr[1] "%d variantes"
 
-#: wp-includes/js/dist/edit-site.js:14350
+#: wp-includes/js/dist/edit-site.js:18720
 msgid "Font family updated successfully."
 msgstr "Famille de police mise à jour avec succès."
 
 #. translators: %s: error message
-#: wp-includes/js/dist/edit-site.js:14356
+#: wp-includes/js/dist/edit-site.js:18726
 msgid "There was an error updating the font family. %s"
 msgstr ""
 "Une erreur est survenue lors de la mise à jour de la famille de police. %s"
 
 #. translators: 1: Active font variants, 2: Total font variants.
-#: wp-includes/js/dist/edit-site.js:14377
+#: wp-includes/js/dist/edit-site.js:18747
 msgid "%1$s/%2$s variants active"
 msgstr "%1$s/%2$s variantes actives"
 
-#: wp-includes/js/dist/edit-site.js:14432
-#: wp-includes/js/dist/edit-site.js:19494
+#: wp-includes/js/dist/edit-site.js:18802
+#: wp-includes/js/dist/edit-site.js:23891
 msgid "No fonts installed."
 msgstr "Aucun police de caractère installée."
 
 #. translators: Heading for a list of fonts provided by the theme.
-#: wp-includes/js/dist/edit-site.js:14437
+#: wp-includes/js/dist/edit-site.js:18807
 msgctxt "font source"
 msgid "Theme"
 msgstr "Thème"
 
 #. translators: Heading for a list of fonts installed by the user.
-#: wp-includes/js/dist/edit-site.js:14458
+#: wp-includes/js/dist/edit-site.js:18828
 msgctxt "font source"
 msgid "Custom"
 msgstr "Personnalisé"
 
-#: wp-includes/js/dist/edit-site.js:14515
+#: wp-includes/js/dist/edit-site.js:18885
 msgid ""
 "Choose font variants. Keep in mind that too many variants could make your "
 "site slower."
@@ -661,66 +683,67 @@ msgstr ""
 "Sélectionner des variantes de police. Garder à l’esprit que trop de "
 "variantes pourraient ralentir votre site."
 
-#: wp-includes/js/dist/edit-site.js:14522
-#: wp-includes/js/dist/edit-site.js:15070
-#: wp-includes/js/dist/edit-site.js:31077
+#: wp-includes/js/dist/edit-site.js:18892
+#: wp-includes/js/dist/edit-site.js:19463
+#: wp-includes/js/dist/edit-site.js:38422
 msgid "Select all"
 msgstr "Tout sélectionner"
 
-#: wp-includes/js/dist/edit-site.js:14550
-#: wp-includes/js/dist/edit-site.js:14596
-#: wp-includes/js/dist/edit-site.js:19824
-#: wp-includes/js/dist/edit-site.js:20148
-#: wp-includes/js/dist/edit-site.js:21369
-#: wp-includes/js/dist/edit-site.js:21489
-#: wp-includes/js/dist/edit-site.js:35525
-#: wp-includes/js/dist/edit-site.js:35530
-#: wp-includes/js/dist/edit-site.js:39177
-#: wp-includes/js/dist/edit-site.js:39265
-#: wp-includes/js/dist/edit-site.js:40657
+#: wp-includes/js/dist/edit-site.js:18920
+#: wp-includes/js/dist/edit-site.js:18966
+#: wp-includes/js/dist/edit-site.js:24217
+#: wp-includes/js/dist/edit-site.js:24534
+#: wp-includes/js/dist/edit-site.js:25810
+#: wp-includes/js/dist/edit-site.js:25936
+#: wp-includes/js/dist/edit-site.js:30006
+#: wp-includes/js/dist/edit-site.js:30088
+#: wp-includes/js/dist/edit-site.js:41439
+#: wp-includes/js/dist/edit-site.js:41444
+#: wp-includes/js/dist/edit-site.js:45045
 msgid "Delete"
 msgstr "Supprimer"
 
-#: wp-includes/js/dist/edit-site.js:14557
+#: wp-includes/js/dist/edit-site.js:18927
 msgid "Update"
 msgstr "Mettre à jour"
 
-#: wp-includes/js/dist/edit-site.js:14581
+#: wp-includes/js/dist/edit-site.js:18951
 msgid "Font family uninstalled successfully."
 msgstr "Famille de police désinstallée avec succès."
 
-#: wp-includes/js/dist/edit-site.js:14586
+#: wp-includes/js/dist/edit-site.js:18956
 msgid "There was an error uninstalling the font family."
 msgstr ""
 "Une erreur est survenue lors de la désinstallation de la famille de police."
 
-#: wp-includes/js/dist/edit-site.js:14595
-#: wp-includes/js/dist/edit-site.js:19823
-#: wp-includes/js/dist/edit-site.js:19882
-#: wp-includes/js/dist/edit-site.js:20237
-#: wp-includes/js/dist/edit-site.js:21522
-#: wp-includes/js/dist/edit-site.js:31165
-#: wp-includes/js/dist/edit-site.js:33784
-#: wp-includes/js/dist/edit-site.js:37743
-#: wp-includes/js/dist/edit-site.js:39130
-#: wp-includes/js/dist/edit-site.js:40480
-#: wp-includes/js/dist/edit-site.js:40578
+#: wp-includes/js/dist/edit-site.js:18965
+#: wp-includes/js/dist/edit-site.js:24216
+#: wp-includes/js/dist/edit-site.js:24274
+#: wp-includes/js/dist/edit-site.js:24626
+#: wp-includes/js/dist/edit-site.js:25374
+#: wp-includes/js/dist/edit-site.js:25968
+#: wp-includes/js/dist/edit-site.js:29959
+#: wp-includes/js/dist/edit-site.js:38510
+#: wp-includes/js/dist/edit-site.js:43758
+#: wp-includes/js/dist/edit-site.js:44873
+#: wp-includes/js/dist/edit-site.js:44970
+#: wp-includes/js/dist/edit-site.js:45275
 msgid "Cancel"
 msgstr "Annuler"
 
 #. translators: %s: Name of the font.
-#: wp-includes/js/dist/edit-site.js:14601
+#: wp-includes/js/dist/edit-site.js:18971
 msgid ""
 "Are you sure you want to delete \"%s\" font and all its variants and assets?"
 msgstr ""
 "Êtes vous certain·e de vouloir supprimer la police « %s » et toutes ses "
 "variantes et compléments ?"
 
-#: wp-includes/js/dist/edit-site.js:14674
+#: wp-includes/js/dist/edit-site.js:19073
 msgid "Connect to Google Fonts"
 msgstr "Se connecter à Google Fonts"
 
-#: wp-includes/js/dist/edit-site.js:14679
+#: wp-includes/js/dist/edit-site.js:19078
 msgid ""
 "To install fonts from Google you must give permission to connect directly to "
 "Google servers. The fonts you install will be downloaded from Google and "
@@ -731,547 +754,677 @@ msgstr ""
 "de Google et stockées sur votre site. Votre site pourra alors utilisé ces "
 "polices hébergées localement."
 
-#: wp-includes/js/dist/edit-site.js:14684
+#: wp-includes/js/dist/edit-site.js:19083
 msgid "You can alternatively upload files directly on the Upload tab."
 msgstr ""
 "Alternativement, vous pouvez charge des fichiers directement depuis l’onglet "
 "Charger."
 
-#: wp-includes/js/dist/edit-site.js:14691
+#: wp-includes/js/dist/edit-site.js:19090
 msgid "Allow access to Google Fonts"
 msgstr "Autoriser l’accès à Google Fonts"
 
-#: wp-includes/js/dist/edit-site.js:14782
+#: wp-includes/js/dist/edit-site.js:19175
 msgctxt "font categories"
 msgid "All"
 msgstr "Toutes"
 
-#: wp-includes/js/dist/edit-site.js:14915
+#: wp-includes/js/dist/edit-site.js:19308
 msgid "Error installing the fonts, could not be downloaded."
 msgstr ""
 "Erreur lors de l’installation des polices, elles n’ont pu être téléchargées."
 
-#: wp-includes/js/dist/edit-site.js:14923
-#: wp-includes/js/dist/edit-site.js:19214
+#: wp-includes/js/dist/edit-site.js:19316
+#: wp-includes/js/dist/edit-site.js:23615
 msgid "Fonts were installed successfully."
 msgstr "Les polices ont été installées avec succès."
 
-#: wp-includes/js/dist/edit-site.js:14955
-#: wp-includes/js/dist/edit-site.js:31005
-#: wp-includes/js/dist/edit-site.js:31739
-#: wp-includes/js/dist/edit-site.js:32108
-#: wp-includes/js/dist/edit-site.js:35604
-#: wp-includes/js/dist/edit-site.js:39228
-#: wp-includes/js/dist/edit-site.js:40622
+#: wp-includes/js/dist/edit-site.js:19348
+#: wp-includes/js/dist/edit-site.js:30055
+#: wp-includes/js/dist/edit-site.js:38287
+#: wp-includes/js/dist/edit-site.js:39163
+#: wp-includes/js/dist/edit-site.js:39733
+#: wp-includes/js/dist/edit-site.js:41517
+#: wp-includes/js/dist/edit-site.js:45015
 msgid "Actions"
 msgstr "Actions"
 
-#: wp-includes/js/dist/edit-site.js:14960
+#: wp-includes/js/dist/edit-site.js:19353
 msgid "Revoke access to Google Fonts"
 msgstr "Révoquer l’accès à Google Fonts"
 
-#: wp-includes/js/dist/edit-site.js:14994
+#: wp-includes/js/dist/edit-site.js:19387
 msgid "Font name…"
 msgstr "Nom de police…"
 
-#: wp-includes/js/dist/edit-site.js:15004
+#: wp-includes/js/dist/edit-site.js:19397
 msgid "Category"
 msgstr "Catégorie"
 
-#: wp-includes/js/dist/edit-site.js:15016
+#: wp-includes/js/dist/edit-site.js:19409
 msgid "No fonts found. Try with a different search term"
 msgstr "Aucune police trouvée. Merci d’essayer un terme de recherche différent"
 
-#: wp-includes/js/dist/edit-site.js:15065
+#: wp-includes/js/dist/edit-site.js:19458
 msgid "Select font variants to install."
 msgstr "Sélectionner les variantes de police à installer."
 
-#: wp-includes/js/dist/edit-site.js:15106
+#: wp-includes/js/dist/edit-site.js:19499
 msgid "Install"
 msgstr "Installer"
 
-#: wp-includes/js/dist/edit-site.js:15113
-#: wp-includes/js/dist/edit-site.js:23152
-#: wp-includes/js/dist/edit-site.js:32510
-msgid "Previous page"
-msgstr "Page précédente"
-
-#. translators: %s: Total number of pages.
-#: wp-includes/js/dist/edit-site.js:15128
+#. translators: 1: Current page number, 2: Total number of pages.
+#: wp-includes/js/dist/edit-site.js:19513
+#: wp-includes/js/dist/edit-site.js:40115
 msgctxt "paging"
-msgid "Page <CurrentPageControl /> of %s"
-msgstr "Page <CurrentPageControl /> de %s"
+msgid "<div>Page</div>%1$s<div>of %2$s</div>"
+msgstr "<div>Page</div>%1$s<div>de %2$s</div>"
 
-#: wp-includes/js/dist/edit-site.js:15130
-#: wp-includes/js/dist/edit-site.js:32486
+#: wp-includes/js/dist/edit-site.js:19518
+#: wp-includes/js/dist/edit-site.js:40120
 msgid "Current page"
 msgstr "Page actuelle"
 
-#: wp-includes/js/dist/edit-site.js:15144
-#: wp-includes/js/dist/edit-site.js:23169
-#: wp-includes/js/dist/edit-site.js:32522
+#: wp-includes/js/dist/edit-site.js:19539
+#: wp-includes/js/dist/edit-site.js:28205
+#: wp-includes/js/dist/edit-site.js:40144
+msgid "Previous page"
+msgstr "Page précédente"
+
+#: wp-includes/js/dist/edit-site.js:19548
+#: wp-includes/js/dist/edit-site.js:28222
+#: wp-includes/js/dist/edit-site.js:40156
 msgid "Next page"
 msgstr "Page suivante"
 
-#: wp-includes/js/dist/edit-site.js:19126
+#: wp-includes/js/dist/edit-site.js:23527
 msgid "Sorry, you are not allowed to upload this file type."
 msgstr "Désolé, vous n’êtes pas autorisé·e à charger des fichiers de ce type."
 
-#: wp-includes/js/dist/edit-site.js:19126
+#: wp-includes/js/dist/edit-site.js:23527
 msgid "No fonts found to install."
 msgstr "Aucun police trouvée pour installation."
 
-#: wp-includes/js/dist/edit-site.js:19255
+#: wp-includes/js/dist/edit-site.js:23656
 msgid "Upload font"
 msgstr "Charger la police"
 
-#: wp-includes/js/dist/edit-site.js:19261
+#: wp-includes/js/dist/edit-site.js:23662
 msgid ""
 "Uploaded fonts appear in your library and can be used in your theme. "
 "Supported formats: .ttf, .otf, .woff, and .woff2."
 msgstr ""
 "Les polices chargées apparaîtront dans votre librairie et pourront être "
-"utilisées dans votre thème. Les formats supportés : .ttf, .otf, .woff, et ."
-"woff2."
+"utilisées dans votre thème. Les formats supportés : .ttf, .otf, .woff, "
+"et .woff2."
 
-#: wp-includes/js/dist/edit-site.js:19293
+#: wp-includes/js/dist/edit-site.js:23693
 msgctxt "Font library"
 msgid "Library"
 msgstr "Librairie"
 
-#: wp-includes/js/dist/edit-site.js:19297
+#: wp-includes/js/dist/edit-site.js:23697
+msgctxt "noun"
 msgid "Upload"
-msgstr "Charger"
+msgstr "Chargement"
 
-#: wp-includes/js/dist/edit-site.js:19304
+#: wp-includes/js/dist/edit-site.js:23704
 msgid "Install Fonts"
 msgstr "Installer des polices"
 
-#: wp-includes/js/dist/edit-site.js:19325
-#: wp-includes/js/dist/edit-site.js:19475
+#: wp-includes/js/dist/edit-site.js:23725
+#: wp-includes/js/dist/edit-site.js:23872
 msgid "Fonts"
 msgstr "Polices"
 
-#: wp-includes/js/dist/edit-site.js:19478
-#: wp-includes/js/dist/edit-site.js:19502
+#: wp-includes/js/dist/edit-site.js:23875
+#: wp-includes/js/dist/edit-site.js:23899
 msgid "Manage fonts"
 msgstr "Gérer les polices"
 
-#: wp-includes/js/dist/edit-site.js:19494
+#: wp-includes/js/dist/edit-site.js:23891
 msgid "No fonts activated."
 msgstr "Aucun police activée."
 
-#: wp-includes/js/dist/edit-site.js:19502
+#: wp-includes/js/dist/edit-site.js:23899
 msgid "Add fonts"
 msgstr "Ajouter des polices"
 
-#: wp-includes/js/dist/edit-site.js:19541
+#: wp-includes/js/dist/edit-site.js:23936
 msgid ""
 "Available fonts, typographic styles, and the application of those styles."
 msgstr ""
 "Disponibilités des polices, styles typographiques, et application de ces "
 "styles."
 
-#: wp-includes/js/dist/edit-site.js:19547
+#: wp-includes/js/dist/edit-site.js:23942
 msgid "Typesets"
 msgstr "Compositions"
 
-#: wp-includes/js/dist/edit-site.js:19673
+#: wp-includes/js/dist/edit-site.js:24066
 msgid "Manage the fonts used on the site."
 msgstr "Gérer les polices utilisées sur ce site."
 
-#: wp-includes/js/dist/edit-site.js:19677
+#: wp-includes/js/dist/edit-site.js:24070
 msgid "Manage the fonts and typography used on the links."
 msgstr "Gérer les polices et la typographie utilisées sur ce site."
 
-#: wp-includes/js/dist/edit-site.js:19681
+#: wp-includes/js/dist/edit-site.js:24074
 msgid "Manage the fonts and typography used on headings."
 msgstr "Gérer les polices et la typographie utilisées dans les titres."
 
-#: wp-includes/js/dist/edit-site.js:19685
+#: wp-includes/js/dist/edit-site.js:24078
 msgid "Manage the fonts and typography used on captions."
 msgstr "Gérer les polices et la typographie utilisées dans les légendes."
 
-#: wp-includes/js/dist/edit-site.js:19689
+#: wp-includes/js/dist/edit-site.js:24082
 msgid "Manage the fonts and typography used on buttons."
 msgstr "Gérer les polices et la typographie utilisées dans les boutons."
 
-#: wp-includes/js/dist/edit-site.js:19711
+#: wp-includes/js/dist/edit-site.js:24104
 msgid "Select heading level"
 msgstr "Sélectionner le niveau de titre"
 
-#: wp-includes/js/dist/edit-site.js:19721
+#: wp-includes/js/dist/edit-site.js:24114
 msgid "All headings"
 msgstr "Tous les niveaux de titre"
 
-#: wp-includes/js/dist/edit-site.js:19722
+#: wp-includes/js/dist/edit-site.js:24115
 msgctxt "heading levels"
 msgid "All"
 msgstr "Tous"
 
-#: wp-includes/js/dist/edit-site.js:19726
+#: wp-includes/js/dist/edit-site.js:24119
 msgid "Heading 1"
 msgstr "Titre 1"
 
-#: wp-includes/js/dist/edit-site.js:19727
+#: wp-includes/js/dist/edit-site.js:24120
 msgid "H1"
 msgstr "H1"
 
-#: wp-includes/js/dist/edit-site.js:19731
+#: wp-includes/js/dist/edit-site.js:24124
 msgid "Heading 2"
 msgstr "Titre 2"
 
-#: wp-includes/js/dist/edit-site.js:19732
+#: wp-includes/js/dist/edit-site.js:24125
 msgid "H2"
 msgstr "H2"
 
-#: wp-includes/js/dist/edit-site.js:19736
+#: wp-includes/js/dist/edit-site.js:24129
 msgid "Heading 3"
 msgstr "Titre 3"
 
-#: wp-includes/js/dist/edit-site.js:19737
+#: wp-includes/js/dist/edit-site.js:24130
 msgid "H3"
 msgstr "H3"
 
-#: wp-includes/js/dist/edit-site.js:19741
+#: wp-includes/js/dist/edit-site.js:24134
 msgid "Heading 4"
 msgstr "Titre 4"
 
-#: wp-includes/js/dist/edit-site.js:19742
+#: wp-includes/js/dist/edit-site.js:24135
 msgid "H4"
 msgstr "H4"
 
-#: wp-includes/js/dist/edit-site.js:19746
+#: wp-includes/js/dist/edit-site.js:24139
 msgid "Heading 5"
 msgstr "Titre 5"
 
-#: wp-includes/js/dist/edit-site.js:19747
+#: wp-includes/js/dist/edit-site.js:24140
 msgid "H5"
 msgstr "H5"
 
-#: wp-includes/js/dist/edit-site.js:19751
+#: wp-includes/js/dist/edit-site.js:24144
 msgid "Heading 6"
 msgstr "Titre 6"
 
-#: wp-includes/js/dist/edit-site.js:19752
+#: wp-includes/js/dist/edit-site.js:24145
 msgid "H6"
 msgstr "H6"
 
 #. translators: %s: Name of the font size preset.
-#: wp-includes/js/dist/edit-site.js:19829
+#: wp-includes/js/dist/edit-site.js:24222
 msgid "Are you sure you want to delete \"%s\" font size preset?"
 msgstr ""
 "Êtes vous certain·e de vouloir supprimer la taille de police prédéfinie "
 "« %s » ?"
 
-#: wp-includes/js/dist/edit-site.js:19859
-#: wp-includes/js/dist/edit-site.js:20143
-#: wp-includes/js/dist/edit-site.js:21366
-#: wp-includes/js/dist/edit-site.js:21495
-#: wp-includes/js/dist/edit-site.js:35416
-#: wp-includes/js/dist/edit-site.js:39109
-#: wp-includes/js/dist/edit-site.js:39241
-#: wp-includes/js/dist/edit-site.js:40638
-#: wp-includes/js/dist/edit-site.js:40662
+#: wp-includes/js/dist/edit-site.js:24251
+#: wp-includes/js/dist/edit-site.js:24529
+#: wp-includes/js/dist/edit-site.js:25807
+#: wp-includes/js/dist/edit-site.js:25941
+#: wp-includes/js/dist/edit-site.js:29938
+#: wp-includes/js/dist/edit-site.js:30068
+#: wp-includes/js/dist/edit-site.js:41335
+#: wp-includes/js/dist/edit-site.js:45031
+#: wp-includes/js/dist/edit-site.js:45050
 msgid "Rename"
 msgstr "Renommer"
 
-#: wp-includes/js/dist/edit-site.js:19874
-#: wp-includes/js/dist/edit-site.js:21507
-#: wp-includes/js/dist/edit-site.js:37728
-#: wp-includes/js/dist/edit-site.js:39123
-#: wp-includes/js/dist/edit-site.js:40467
-#: wp-includes/js/dist/edit-site.js:40565
+#: wp-includes/js/dist/edit-site.js:24266
+#: wp-includes/js/dist/edit-site.js:25953
+#: wp-includes/js/dist/edit-site.js:29952
+#: wp-includes/js/dist/edit-site.js:43741
+#: wp-includes/js/dist/edit-site.js:44860
+#: wp-includes/js/dist/edit-site.js:44957
 msgid "Name"
 msgstr "Nom"
 
-#: wp-includes/js/dist/edit-site.js:19875
+#: wp-includes/js/dist/edit-site.js:24267
 msgid "Font size preset name"
 msgstr "Nom de la taille de police prédéfinie"
 
 #. translators: %s: font size preset name.
-#: wp-includes/js/dist/edit-site.js:20127
+#: wp-includes/js/dist/edit-site.js:24512
 msgid "Manage the font size %s."
 msgstr "Gérer la taille de police %s."
 
-#: wp-includes/js/dist/edit-site.js:20138
+#: wp-includes/js/dist/edit-site.js:24523
 msgid "Font size options"
 msgstr "Options de la taille de police"
 
-#: wp-includes/js/dist/edit-site.js:20164
+#: wp-includes/js/dist/edit-site.js:24553
 msgid "Size"
 msgstr "Taille"
 
-#: wp-includes/js/dist/edit-site.js:20169
+#: wp-includes/js/dist/edit-site.js:24558
 msgid "Fluid typography"
 msgstr "Typographie fluide"
 
-#: wp-includes/js/dist/edit-site.js:20170
+#: wp-includes/js/dist/edit-site.js:24559
 msgid "Scale the font size dynamically to fit the screen or viewport."
 msgstr ""
 "Mettre à l’échelle la taille de la police dynamiquement pour qu’elle "
 "s’adapte à l’écran ou à la fenêtre d’affichage."
 
-#: wp-includes/js/dist/edit-site.js:20175
+#: wp-includes/js/dist/edit-site.js:24564
 msgid "Custom fluid values"
 msgstr "Valeurs fluides personnalisées"
 
-#: wp-includes/js/dist/edit-site.js:20176
+#: wp-includes/js/dist/edit-site.js:24565
 msgid "Set custom min and max values for the fluid font size."
 msgstr ""
 "Définir les valeurs min et max personnalisées pour la taille de la police "
 "fluide."
 
-#: wp-includes/js/dist/edit-site.js:20182
+#: wp-includes/js/dist/edit-site.js:24571
 msgid "Minimum"
 msgstr "Minimum"
 
-#: wp-includes/js/dist/edit-site.js:20186
+#: wp-includes/js/dist/edit-site.js:24575
 msgid "Maximum"
 msgstr "Minimum"
 
-#: wp-includes/js/dist/edit-site.js:20284
+#: wp-includes/js/dist/edit-site.js:24671
 msgid "Are you sure you want to remove all custom font size presets?"
 msgstr ""
 "Êtes-vous certain·e de vouloir retirer toutes les tailles de police "
 "prédéfinies ?"
 
-#: wp-includes/js/dist/edit-site.js:20284
+#: wp-includes/js/dist/edit-site.js:24671
 msgid ""
 "Are you sure you want to reset all font size presets to their default values?"
 msgstr ""
 "Êtes-vous certain·e de vouloir réinitialiser toutes les tailles de police "
 "prédéfinies pour leurs valeurs par défaut ?"
 
-#: wp-includes/js/dist/edit-site.js:20288
-#: wp-includes/js/dist/edit-site.js:30362
+#: wp-includes/js/dist/edit-site.js:24675
+#: wp-includes/js/dist/edit-site.js:25427
+#: wp-includes/js/dist/edit-site.js:37648
 msgid "Remove"
 msgstr "Retirer"
 
-#: wp-includes/js/dist/edit-site.js:20288
-#: wp-includes/js/dist/edit-site.js:21373
-#: wp-includes/js/dist/edit-site.js:30362
-#: wp-includes/js/dist/edit-site.js:30526
+#: wp-includes/js/dist/edit-site.js:24675
+#: wp-includes/js/dist/edit-site.js:25814
+#: wp-includes/js/dist/edit-site.js:37648
+#: wp-includes/js/dist/edit-site.js:37817
 msgid "Reset"
 msgstr "Réinitialiser"
 
-#: wp-includes/js/dist/edit-site.js:20302
+#: wp-includes/js/dist/edit-site.js:24689
 msgid "Add font size"
 msgstr "Ajouter une taille de police"
 
-#: wp-includes/js/dist/edit-site.js:20310
+#: wp-includes/js/dist/edit-site.js:24698
 msgid "Font size presets options"
 msgstr "Options de tailles de police prédéfinies"
 
-#: wp-includes/js/dist/edit-site.js:20315
+#: wp-includes/js/dist/edit-site.js:24704
 msgid "Remove font size presets"
 msgstr "Retirer les tailles de police prédéfinies"
 
-#: wp-includes/js/dist/edit-site.js:20315
+#: wp-includes/js/dist/edit-site.js:24704
 msgid "Reset font size presets"
 msgstr "Réinitialiser les taille de police prédéfinies"
 
 #. translators: %d: font size index
-#: wp-includes/js/dist/edit-site.js:20358
+#: wp-includes/js/dist/edit-site.js:24742
 msgid "New Font Size %d"
 msgstr "Nouvelle taille de police %d"
 
-#: wp-includes/js/dist/edit-site.js:20369
+#: wp-includes/js/dist/edit-site.js:24753
 msgid "Create and edit the presets used for font sizes across the site."
 msgstr ""
 "Créer et modifier les pré-définitions utilisées pour les tailles de police "
 "partout sur votre site."
 
-#: wp-includes/js/dist/edit-site.js:20376
-#: wp-includes/js/dist/edit-site.js:20729
-#: wp-includes/js/dist/edit-site.js:20801
-#: wp-includes/js/dist/edit-site.js:21020
+#: wp-includes/js/dist/edit-site.js:24760
+#: wp-includes/js/dist/edit-site.js:25111
+#: wp-includes/js/dist/edit-site.js:25182
+#: wp-includes/js/dist/edit-site.js:25444
+#: wp-includes/js/dist/edit-site.js:26593
 msgid "Theme"
 msgstr "Thème"
 
-#: wp-includes/js/dist/edit-site.js:20390
-#: wp-includes/js/dist/edit-site.js:20743
-#: wp-includes/js/dist/edit-site.js:20815
-#: wp-includes/js/dist/edit-site.js:21024
+#: wp-includes/js/dist/edit-site.js:24774
+#: wp-includes/js/dist/edit-site.js:25125
+#: wp-includes/js/dist/edit-site.js:25196
+#: wp-includes/js/dist/edit-site.js:25448
 msgid "Custom"
 msgstr "Personnalisé"
 
-#: wp-includes/js/dist/edit-site.js:20474
-#: wp-includes/js/dist/edit-site.js:20861
-msgid "Edit palette"
-msgstr "Modifier la palette"
-
-#: wp-includes/js/dist/edit-site.js:20474
-#: wp-includes/js/dist/edit-site.js:20489
-msgid "Add colors"
-msgstr "Ajouter des couleurs"
-
-#: wp-includes/js/dist/edit-site.js:20479
+#: wp-includes/js/dist/edit-site.js:24861
 msgid "Palette"
 msgstr "Palette"
 
-#: wp-includes/js/dist/edit-site.js:20510
+#: wp-includes/js/dist/edit-site.js:24882
+#: wp-includes/js/dist/edit-site.js:25240
+msgid "Edit palette"
+msgstr "Modifier la palette"
+
+#: wp-includes/js/dist/edit-site.js:24885
+msgid "Add colors"
+msgstr "Ajouter des couleurs"
+
+#: wp-includes/js/dist/edit-site.js:24896
 msgid "Randomize colors"
 msgstr "Couleurs aléatoires"
 
-#: wp-includes/js/dist/edit-site.js:20551
+#: wp-includes/js/dist/edit-site.js:24935
 msgid "Palette colors and the application of those colors on site elements."
 msgstr ""
 "Palette de couleurs et l’application de ces couleurs sur les éléments de "
 "votre site."
 
-#: wp-includes/js/dist/edit-site.js:20748
-#: wp-includes/js/dist/edit-site.js:22041
+#: wp-includes/js/dist/edit-site.js:25130
+#: wp-includes/js/dist/edit-site.js:26452
 msgid "Palettes"
 msgstr "Palettes"
 
-#: wp-includes/js/dist/edit-site.js:20822
+#: wp-includes/js/dist/edit-site.js:25203
 msgid "Duotone"
 msgstr "Bichromie"
 
-#: wp-includes/js/dist/edit-site.js:20862
+#: wp-includes/js/dist/edit-site.js:25241
 msgid "The combination of colors used across the site and in color pickers."
 msgstr ""
 "La combinaison des couleurs utilisées partout sur votre site et dans les "
 "sélecteurs de couleur."
 
-#: wp-includes/js/dist/edit-site.js:20867
+#: wp-includes/js/dist/edit-site.js:25246
 msgid "Color"
 msgstr "Couleur"
 
-#: wp-includes/js/dist/edit-site.js:20870
+#: wp-includes/js/dist/edit-site.js:25249
 msgid "Gradient"
 msgstr "Dégradé"
 
-#: wp-includes/js/dist/edit-site.js:20967
+#: wp-includes/js/dist/edit-site.js:25344
 msgid "Set styles for the site’s background."
-msgstr "Définir les styles pour l’arrière plan du site"
+msgstr "Définir les styles pour l’arrière plan du site."
 
-#: wp-includes/js/dist/edit-site.js:21009
+#: wp-includes/js/dist/edit-site.js:25426
+msgid "Are you sure you want to remove all custom shadows?"
+msgstr ""
+"Êtes-vous certain·e de vouloir retirer toutes les ombres personnalisées ?"
+
+#: wp-includes/js/dist/edit-site.js:25433
 msgid "Manage and create shadow styles for use across the site."
 msgstr ""
 "Gérer et créer des styles d’ombres portées pour une utilisation partout sur "
 "votre site."
 
 #. translators: %s: is an index for a preset
-#: wp-includes/js/dist/edit-site.js:21045
+#: wp-includes/js/dist/edit-site.js:25471
 msgid "Shadow %s"
 msgstr "Ombre portée %s"
 
-#: wp-includes/js/dist/edit-site.js:21066
-#: wp-includes/js/dist/edit-site.js:21591
+#: wp-includes/js/dist/edit-site.js:25492
+#: wp-includes/js/dist/edit-site.js:26038
 msgid "Add shadow"
 msgstr "Ajouter une ombre"
 
-#: wp-includes/js/dist/edit-site.js:21460
+#: wp-includes/js/dist/edit-site.js:25502
+msgid "Shadow options"
+msgstr "Options des ombre portées"
+
+#: wp-includes/js/dist/edit-site.js:25508
+msgid "Remove all custom shadows"
+msgstr "Retirer toutes les ombres personnalisées"
+
+#: wp-includes/js/dist/edit-site.js:25905
 msgid "Menu"
 msgstr "Menu"
 
-#: wp-includes/js/dist/edit-site.js:21508
+#. translators: %s: Name of the shadow preset.
+#: wp-includes/js/dist/edit-site.js:25939
+msgid "Are you sure you want to delete \"%s\" shadow preset?"
+msgstr ""
+"Êtes vous certain·e de vouloir supprimer l’ombre portée prédéfinie « %s » ?"
+
+#: wp-includes/js/dist/edit-site.js:25954
 msgid "Shadow name"
 msgstr "Nom de l’ombre"
 
-#: wp-includes/js/dist/edit-site.js:21644
+#: wp-includes/js/dist/edit-site.js:26097
 msgid "Remove shadow"
 msgstr "Retirer l’ombre"
 
-#: wp-includes/js/dist/edit-site.js:21658
+#: wp-includes/js/dist/edit-site.js:26104
 msgid "Inner shadow"
 msgstr "Ombre interne"
 
-#: wp-includes/js/dist/edit-site.js:21658
+#: wp-includes/js/dist/edit-site.js:26104
 msgid "Drop shadow"
 msgstr "Ombre portée"
 
-#: wp-includes/js/dist/edit-site.js:21710
+#: wp-includes/js/dist/edit-site.js:26153
 msgid "Outset"
 msgstr "Début"
 
-#: wp-includes/js/dist/edit-site.js:21713
+#: wp-includes/js/dist/edit-site.js:26156
 msgid "Inset"
 msgstr "Incrusté"
 
-#: wp-includes/js/dist/edit-site.js:21719
+#: wp-includes/js/dist/edit-site.js:26162
 msgid "X Position"
 msgstr "Position X"
 
-#: wp-includes/js/dist/edit-site.js:21723
+#: wp-includes/js/dist/edit-site.js:26166
 msgid "Y Position"
 msgstr "Position Y"
 
-#: wp-includes/js/dist/edit-site.js:21727
+#: wp-includes/js/dist/edit-site.js:26170
 msgid "Blur"
 msgstr "Flou"
 
-#: wp-includes/js/dist/edit-site.js:21731
+#: wp-includes/js/dist/edit-site.js:26174
 msgid "Spread"
 msgstr "Propagation"
 
-#: wp-includes/js/dist/edit-site.js:22085
+#: wp-includes/js/dist/edit-site.js:26499
 msgid "Choose a variation to change the look of the site."
 msgstr "Sélectionner une variation pour modifier l’ambiance de votre site."
 
-#: wp-includes/js/dist/edit-site.js:22149
-#: wp-includes/js/dist/edit-site.js:23846
-#: wp-includes/js/dist/edit-site.js:38960
-msgid "Style Book"
-msgstr "Livre de style"
+#: wp-includes/js/dist/edit-site.js:26526
+msgid "Theme Colors"
+msgstr "Couleurs du thème"
 
-#: wp-includes/js/dist/edit-site.js:22152
-msgid "Style Revisions"
-msgstr "Révisions de style"
+#: wp-includes/js/dist/edit-site.js:26531
+msgid "Theme Gradients"
+msgstr "Dégradés du thème"
 
-#: wp-includes/js/dist/edit-site.js:22221
-#: wp-includes/js/dist/edit-site.js:22426
-#: wp-includes/js/dist/edit-site.js:40846
-msgid "Close"
-msgstr "Fermer"
+#: wp-includes/js/dist/edit-site.js:26536
+msgid "Custom Colors"
+msgstr "Couleurs personnalisées"
+
+#: wp-includes/js/dist/edit-site.js:26541
+msgid "Custom Gradients"
+msgstr "Dégradés personnalisés"
+
+#: wp-includes/js/dist/edit-site.js:26547
+msgid "Duotones"
+msgstr "Bichromie"
+
+#: wp-includes/js/dist/edit-site.js:26552
+msgid "Default Colors"
+msgstr "Couleurs par défaut"
+
+#: wp-includes/js/dist/edit-site.js:26557
+msgid "Default Gradients"
+msgstr "Dégradés par défaut"
+
+#: wp-includes/js/dist/edit-site.js:26563
+msgid "Site Identity"
+msgstr "Identité du site"
+
+#: wp-includes/js/dist/edit-site.js:26572
+#: wp-includes/js/dist/edit-site.js:46746
+#: wp-includes/js/dist/edit-site.js:46810
+msgid "Posts"
+msgstr "Articles"
+
+#: wp-includes/js/dist/edit-site.js:26576
+msgid "Comments"
+msgstr "Commentaires"
+
+#: wp-includes/js/dist/edit-site.js:26581
+#: wp-includes/js/dist/edit-site.js:26627
+msgid "Overview"
+msgstr "Aperçu"
+
+#: wp-includes/js/dist/edit-site.js:26597
+#: wp-includes/js/dist/edit-site.js:26612
+msgid "Media"
+msgstr "Médias"
+
+#: wp-includes/js/dist/edit-site.js:26601
+#: wp-includes/js/dist/edit-site.js:26616
+msgid "Widgets"
+msgstr "Widgets"
+
+#: wp-includes/js/dist/edit-site.js:26605
+#: wp-includes/js/dist/edit-site.js:26620
+msgid "Embeds"
+msgstr "Contenus embarqués"
+
+#: wp-includes/js/dist/edit-site.js:26639
+msgid "All Blocks"
+msgstr "Tous les blocs"
+
+#: wp-includes/js/dist/edit-site.js:27003
+msgid ""
+"AaBbCcDdEeFfGgHhiiJjKkLIMmNnOoPpQakRrssTtUuVVWwXxxYyZzOl23356789X{(…)},2!*&:/"
+"A@HELFO™"
+msgstr ""
+"AaBbCcDdEeFfGgHhiiJjKkLIMmNnOoPpQakRrssTtUuVVWwXxxYyZzOl23356789X{(…)},2!*&:/"
+"A@HELFO™"
+
+#: wp-includes/js/dist/edit-site.js:27010
+msgid ""
+"A paragraph in a website refers to a distinct block of text that is used to "
+"present and organize information. It is a fundamental unit of content in web "
+"design and is typically composed of a group of related sentences or thoughts "
+"focused on a particular topic or idea. Paragraphs play a crucial role in "
+"improving the readability and user experience of a website. They break down "
+"the text into smaller, manageable chunks, allowing readers to scan the "
+"content more easily."
+msgstr ""
+"Un paragraphe dans le contexte d’un site Web fait référence à un bloc de "
+"texte autonome utilisé pour présenter et organiser de l’information. C’est "
+"une unité fondamentale de contenu dans la conception Web étant typiquement "
+"composée d’un groupe de phrases ou de pensées portant sur un même sujet ou "
+"une même idée. Les paragraphes jouent un rôle crucial dans l’amélioration de "
+"la lisibilité et l’expérience d’utilisation d’un site Web. Ils décomposent "
+"le texte en morceaux plus petits et plus faciles à gérer, permettant aux "
+"lecteurs de parcourir le contenu plus facilement."
+
+#: wp-includes/js/dist/edit-site.js:27013
+msgid ""
+"Additionally, paragraphs help structure the flow of information and provide "
+"logical breaks between different concepts or pieces of information. In terms "
+"of formatting, paragraphs in websites are commonly denoted by a vertical gap "
+"or indentation between each block of text. This visual separation helps "
+"visually distinguish one paragraph from another, creating a clear and "
+"organized layout that guides the reader through the content smoothly."
+msgstr ""
+"De plus, les paragraphes permettent de structurer le flux d'informations et "
+"d'établir des ruptures logiques entre différents concepts ou éléments "
+"d’information. En termes de mise en forme, les paragraphes des sites Web "
+"sont généralement signalés par un espace vertical ou un retrait entre chaque "
+"bloc de texte. Cette séparation visuelle permet de distinguer visuellement "
+"un paragraphe d’un autre, créant une mise en page claire et organisée qui "
+"guide le lecteur à travers le contenu de manière fluide."
 
 #. translators: %d: heading level e.g: "1", "2", "3"
-#: wp-includes/js/dist/edit-site.js:22378
+#: wp-includes/js/dist/edit-site.js:27116
 msgid "Heading %d"
 msgstr "Titre %d"
 
+#: wp-includes/js/dist/edit-site.js:27406
+msgctxt "Indicates these duotone filters come from the theme."
+msgid "Theme"
+msgstr "Thème"
+
+#: wp-includes/js/dist/edit-site.js:27413
+msgctxt "Indicates these duotone filters come from WordPress."
+msgid "Default"
+msgstr "Défaut"
+
+#: wp-includes/js/dist/edit-site.js:27420
+msgctxt "Indicates these doutone filters are created by the user."
+msgid "Custom"
+msgstr "Personnalisé"
+
 #. translators: %s: Category of blocks, e.g. Text.
-#: wp-includes/js/dist/edit-site.js:22535
+#: wp-includes/js/dist/edit-site.js:27714
 msgid "Examples of blocks in the %s category"
 msgstr "Exemples de blocs de la catégorie %s"
 
-#: wp-includes/js/dist/edit-site.js:22535
+#: wp-includes/js/dist/edit-site.js:27714
 msgid "Examples of blocks"
 msgstr "Exemples de blocs"
 
 #. translators: %s: Title of a block, e.g. Heading.
-#: wp-includes/js/dist/edit-site.js:22593
+#: wp-includes/js/dist/edit-site.js:27803
 msgid "Open %s styles in Styles panel"
 msgstr "Ouvrir les styles %s dans le panneau des styles"
 
-#: wp-includes/js/dist/edit-site.js:22650
+#: wp-includes/js/dist/edit-site.js:27863
 msgid "CSS"
 msgstr "CSS"
 
-#: wp-includes/js/dist/edit-site.js:22719
-#: wp-includes/js/dist/edit-site.js:23855
-#: wp-includes/js/dist/edit-site.js:38802
+#: wp-includes/js/dist/edit-site.js:27932
+#: wp-includes/js/dist/edit-site.js:28969
 msgid "Revisions"
 msgstr "Révisions"
 
-#: wp-includes/js/dist/edit-site.js:22720
-#: wp-includes/js/dist/edit-site.js:23307
+#: wp-includes/js/dist/edit-site.js:27933
+#: wp-includes/js/dist/edit-site.js:28352
 msgid "Close revisions"
 msgstr "Fermer les révisions"
 
-#: wp-includes/js/dist/edit-site.js:22938
+#: wp-includes/js/dist/edit-site.js:28015
 msgid "Reset the styles to the theme defaults"
 msgstr "Réinitialiser les styles pour les valeurs par défaut du thème"
 
 #. translators: %s: author display name
-#: wp-includes/js/dist/edit-site.js:22942
+#: wp-includes/js/dist/edit-site.js:28019
 msgid "Unsaved changes by %s"
 msgstr "Modifications non enregistrées par %s"
 
 #. translators: 1: author display name. 2: revision creation date.
-#: wp-includes/js/dist/edit-site.js:22946
+#: wp-includes/js/dist/edit-site.js:28023
 msgid ""
 "Changes saved by %1$s on %2$s. This revision matches current editor styles."
 msgstr ""
@@ -1279,70 +1432,74 @@ msgstr ""
 "styles actuels de l’éditeur."
 
 #. translators: 1: author display name. 2: revision creation date.
-#: wp-includes/js/dist/edit-site.js:22948
+#: wp-includes/js/dist/edit-site.js:28025
 msgid "Changes saved by %1$s on %2$s"
 msgstr "Modifications enregistrées par %1$s sur %2$s"
 
-#: wp-includes/js/dist/edit-site.js:22989
+#: wp-includes/js/dist/edit-site.js:28067
 msgid "Global styles revisions list"
 msgstr "Liste des révisions des styles globaux"
 
-#: wp-includes/js/dist/edit-site.js:23000
-msgid "Contributor"
-msgstr "Contibuteur·rice"
+#: wp-includes/js/dist/edit-site.js:28078
+msgid "User"
+msgstr "Contributeur·rice"
 
-#: wp-includes/js/dist/edit-site.js:23027
+#: wp-includes/js/dist/edit-site.js:28110
 msgid "Default styles"
 msgstr "Styles par défaut"
 
-#: wp-includes/js/dist/edit-site.js:23035
+#: wp-includes/js/dist/edit-site.js:28118
 msgid "(Unsaved)"
 msgstr "(Non enregistré)"
 
-#: wp-includes/js/dist/edit-site.js:23053
+#: wp-includes/js/dist/edit-site.js:28136
 msgid "These styles are already applied to your site."
 msgstr "Ces styles sont déjà appliqués à votre site."
 
-#: wp-includes/js/dist/edit-site.js:23059
+#: wp-includes/js/dist/edit-site.js:28142
+msgid "Apply the selected revision to your site."
+msgstr "Appliquer la révision sélectionnée à votre site."
+
+#: wp-includes/js/dist/edit-site.js:28143
 msgid "Reset to defaults"
 msgstr "Réinitialiser aux valeurs par défaut"
 
-#: wp-includes/js/dist/edit-site.js:23059
-#: wp-includes/js/dist/edit-site.js:23327
+#: wp-includes/js/dist/edit-site.js:28143
+#: wp-includes/js/dist/edit-site.js:28372
 msgid "Apply"
 msgstr "Appliquer"
 
-#: wp-includes/js/dist/edit-site.js:23119
-msgid "Pagination Navigation"
-msgstr "Pagination de la navigation"
+#: wp-includes/js/dist/edit-site.js:28172
+msgid "Pagination"
+msgstr "Pagination"
 
 #. translators: %s: Total number of patterns.
-#: wp-includes/js/dist/edit-site.js:23135
+#: wp-includes/js/dist/edit-site.js:28188
 msgid "%s item"
 msgid_plural "%s items"
 msgstr[0] "%s élément"
 msgstr[1] "%s éléments"
 
-#: wp-includes/js/dist/edit-site.js:23144
+#: wp-includes/js/dist/edit-site.js:28197
 msgid "First page"
 msgstr "Première page"
 
 #. translators: 1: Current page number. 2: Total number of pages.
-#: wp-includes/js/dist/edit-site.js:23160
+#: wp-includes/js/dist/edit-site.js:28213
 msgctxt "paging"
 msgid "%1$s of %2$s"
 msgstr "%1$s de %2$s"
 
-#: wp-includes/js/dist/edit-site.js:23177
+#: wp-includes/js/dist/edit-site.js:28230
 msgid "Last page"
 msgstr "Dernière page"
 
 #. translators: %s: number of revisions.
-#: wp-includes/js/dist/edit-site.js:23293
+#: wp-includes/js/dist/edit-site.js:28338
 msgid "Revisions (%s)"
 msgstr "Révisions (%s)"
 
-#: wp-includes/js/dist/edit-site.js:23294
+#: wp-includes/js/dist/edit-site.js:28339
 msgid ""
 "Click on previously saved styles to preview them. To restore a selected "
 "version to the editor, hit \"Apply.\" When you're ready, use the Save button "
@@ -1353,11 +1510,11 @@ msgstr ""
 "« Appliquer ». Lorsque vous êtes prêt·e, utilisez le bouton d’enregistrement "
 "pour sauvegarder vos modifications."
 
-#: wp-includes/js/dist/edit-site.js:23323
-msgid "Global Styles pagination navigation"
-msgstr "Pagination de la navigation des styles globaux"
+#: wp-includes/js/dist/edit-site.js:28368
+msgid "Global Styles pagination"
+msgstr "Styles globaux de la pagination"
 
-#: wp-includes/js/dist/edit-site.js:23331
+#: wp-includes/js/dist/edit-site.js:28376
 msgid ""
 "Are you sure you want to apply this revision? Any unsaved changes will be "
 "lost."
@@ -1365,800 +1522,114 @@ msgstr ""
 "Êtes vous certain·e de vouloir appliquer cette révision ? Tout changement "
 "non sauvegardé sera perdu."
 
-#: wp-includes/js/dist/edit-site.js:23414
+#: wp-includes/js/dist/edit-site.js:28455
 msgid "More"
 msgstr "Plus"
 
-#: wp-includes/js/dist/edit-site.js:23430
-#: wp-includes/js/dist/edit-site.js:23951
+#: wp-includes/js/dist/edit-site.js:28471
+#: wp-includes/js/dist/edit-site.js:29066
 msgid "Welcome Guide"
 msgstr "Prise en main"
 
-#: wp-includes/js/dist/edit-site.js:23830
+#: wp-includes/js/dist/edit-site.js:28943
 msgid "Close Styles"
 msgstr "Fermer les Styles"
 
-#: wp-includes/js/dist/edit-site.js:23921
+#: wp-includes/js/dist/edit-site.js:29036
 msgid "An error occurred while creating the site export."
 msgstr "Une erreur est apparue durant la création de l’export du site."
 
-#: wp-includes/js/dist/edit-site.js:23931
+#: wp-includes/js/dist/edit-site.js:29046
 msgid "Download your theme with updated templates and styles."
 msgstr "Télécharger votre thème avec les gabarits et styles mis à jour."
 
-#: wp-includes/js/dist/edit-site.js:23932
+#: wp-includes/js/dist/edit-site.js:29047
 msgctxt "site exporter menu item"
 msgid "Export"
 msgstr "Exporter"
 
-#: wp-includes/js/dist/edit-site.js:24033
-#: wp-includes/js/dist/edit-site.js:24322
-#: wp-includes/js/dist/edit-site.js:33843
-#: wp-includes/js/dist/edit-site.js:39250
+#: wp-includes/js/dist/edit-site.js:29147
+#: wp-includes/js/dist/edit-site.js:29712
+#: wp-includes/js/dist/edit-site.js:30073
+#: wp-includes/js/dist/edit-site.js:41591
 msgid "Edit"
 msgstr "Modifier"
 
 #. translators: Admin document title. 1: Admin screen name, 2: Network or site name.
-#: wp-includes/js/dist/edit-site.js:24102
+#: wp-includes/js/dist/edit-site.js:29222
 msgid "%1$s ‹ %2$s ‹ Editor — Retraceur"
 msgstr "%1$s ‹ %2$s ‹ Editeur — Retraceur"
 
 #. translators: A breadcrumb trail for the Admin document title. 1: title of template being edited, 2: type of template (Template or Template Part).
-#: wp-includes/js/dist/edit-site.js:24134
+#: wp-includes/js/dist/edit-site.js:29285
 msgctxt "breadcrumb trail"
 msgid "%1$s ‹ %2$s"
 msgstr "%1$s ‹ %2$s"
 
+#: wp-includes/js/dist/edit-site.js:29503
+msgid "Site Preview"
+msgstr "Aperçu du site"
+
 #. translators: %s: Title of the created post or template, e.g: "Hello world".
-#: wp-includes/js/dist/edit-site.js:24318
-#: wp-includes/js/dist/edit-site.js:33747
-#: wp-includes/js/dist/edit-site.js:37919
+#: wp-includes/js/dist/edit-site.js:29708
+#: wp-includes/js/dist/edit-site.js:43928
+#: wp-includes/js/dist/edit-site.js:45238
 msgid "\"%s\" successfully created."
 msgstr "« %s » créé avec succès."
 
-#: wp-includes/js/dist/edit-site.js:24376
+#: wp-includes/js/dist/edit-site.js:29764
 msgid "Open Navigation"
 msgstr "Ouvrir la navigation"
 
-#: wp-includes/js/dist/edit-site.js:24469
-msgid "Is"
-msgstr "Est"
-
-#: wp-includes/js/dist/edit-site.js:24473
-msgid "Is not"
-msgstr "N’est pas"
-
-#: wp-includes/js/dist/edit-site.js:24477
-msgid "Is any"
-msgstr "Est n’importe"
-
-#: wp-includes/js/dist/edit-site.js:24481
-msgid "Is none"
-msgstr "Est aucun"
-
-#: wp-includes/js/dist/edit-site.js:24485
-msgid "Is all"
-msgstr "Est tous"
-
-#: wp-includes/js/dist/edit-site.js:24489
-msgid "Is not all"
-msgstr "N’est pas tous"
-
-#: wp-includes/js/dist/edit-site.js:24502
-msgid "Sort ascending"
-msgstr "Trier dans l’ordre croissant"
-
-#: wp-includes/js/dist/edit-site.js:24503
-msgid "Sort descending"
-msgstr "Trier dans l’ordre décroissant"
-
-#: wp-includes/js/dist/edit-site.js:24798
-msgid "Select item"
-msgstr "Sélectionner l’élément"
-
-#. translators: List of items for a filter. 1: Filter name. e.g.: "List of: Author".
-#: wp-includes/js/dist/edit-site.js:30034
-msgid "List of: %1$s"
-msgstr "Liste de: %1$s"
-
-#: wp-includes/js/dist/edit-site.js:30129
-#: wp-includes/js/dist/edit-site.js:30131
-msgid "Search items"
-msgstr "Rechercher des éléments"
-
-#: wp-includes/js/dist/edit-site.js:30171
-msgid "No results found"
-msgstr "Pas de résultat trouvé"
-
-#. translators: 1: Filter name. 3: Filter value. e.g.: "Author is any: Admin, Editor".
-#: wp-includes/js/dist/edit-site.js:30223
-msgid "<Name>%1$s is any: </Name><Value>%2$s</Value>"
-msgstr "<Name>%1$s est n’importe : </Name><Value>%2$s</Value>"
-
-#. translators: 1: Filter name. 3: Filter value. e.g.: "Author is none: Admin, Editor".
-#: wp-includes/js/dist/edit-site.js:30227
-msgid "<Name>%1$s is none: </Name><Value>%2$s</Value>"
-msgstr "<Name>%1$s est aucun : </Name><Value>%2$s</Value>"
-
-#. translators: 1: Filter name. 3: Filter value. e.g.: "Author is all: Admin, Editor".
-#: wp-includes/js/dist/edit-site.js:30231
-msgid "<Name>%1$s is all: </Name><Value>%2$s</Value>"
-msgstr "<Name>%1$s est tous : </Name><Value>%2$s</Value>"
-
-#. translators: 1: Filter name. 3: Filter value. e.g.: "Author is not all: Admin, Editor".
-#: wp-includes/js/dist/edit-site.js:30235
-msgid "<Name>%1$s is not all: </Name><Value>%2$s</Value>"
-msgstr "<Name>%1$s n’est pas tous : </Name><Value>%2$s</Value>"
-
-#. translators: 1: Filter name. 3: Filter value. e.g.: "Author is: Admin".
-#: wp-includes/js/dist/edit-site.js:30239
-msgid "<Name>%1$s is: </Name><Value>%2$s</Value>"
-msgstr "<Name>%1$s est : </Name><Value>%2$s</Value>"
-
-#. translators: 1: Filter name. 3: Filter value. e.g.: "Author is not: Admin".
-#: wp-includes/js/dist/edit-site.js:30243
-msgid "<Name>%1$s is not: </Name><Value>%2$s</Value>"
-msgstr "<Name>%1$s n’est pas : </Name><Value>%2$s</Value>"
-
-#. translators: 1: Filter name e.g.: "Unknown status for Author".
-#: wp-includes/js/dist/edit-site.js:30246
-msgid "Unknown status for %1$s"
-msgstr "Statut inconnu pour %1$s"
-
-#: wp-includes/js/dist/edit-site.js:30267
-msgid "Conditions"
-msgstr "Conditions"
-
-#. translators: 1: Filter name.
-#: wp-includes/js/dist/edit-site.js:30336
-msgid "Filter by: %1$s"
-msgstr "Filtrer par : %1$s"
-
-#: wp-includes/js/dist/edit-site.js:30484
-#: wp-includes/js/dist/edit-site.js:30637
-#: wp-includes/js/dist/edit-site.js:31396
-msgid "Add filter"
-msgstr "Ajouter un filtre"
-
-#: wp-includes/js/dist/edit-site.js:30649
-msgid "Toggle filter display"
-msgstr "Interrupteur de l’affichage du filtre"
-
-#. translators: %s: item title.
-#: wp-includes/js/dist/edit-site.js:30797
-msgid "Deselect item: %s"
-msgstr "Désélectionner l’élément : %s"
-
-#. translators: %s: item title.
-#: wp-includes/js/dist/edit-site.js:30797
-msgid "Select item: %s"
-msgstr "Sélectionner l’élément : %s"
-
-#: wp-includes/js/dist/edit-site.js:30801
-msgid "Select a new item"
-msgstr "Sélectionner un nouvel élément"
-
-#: wp-includes/js/dist/edit-site.js:30801
-msgid "Deselect item"
-msgstr "Désélectionner l’élément"
-
-#: wp-includes/js/dist/edit-site.js:31077
-msgid "Deselect all"
-msgstr "Désélectionner tout"
-
-#. translators: %d: number of items.
-#: wp-includes/js/dist/edit-site.js:31134
-msgid "%d Item selected"
-msgid_plural "%d Items selected"
-msgstr[0] "%d élément sélectionné"
-msgstr[1] "%d éléments sélectionnés"
-
-#. translators: %d: number of items.
-#: wp-includes/js/dist/edit-site.js:31135
-msgid "%d Item"
-msgid_plural "%d Items"
-msgstr[0] "%d élément"
-msgstr[1] "%d éléments"
-
-#: wp-includes/js/dist/edit-site.js:31413
-msgid "Move left"
-msgstr "Déplacer à gauche"
-
-#: wp-includes/js/dist/edit-site.js:31428
-msgid "Move right"
-msgstr "Déplacer à droite"
-
-#: wp-includes/js/dist/edit-site.js:31442
-msgid "Hide column"
-msgstr "Masquer la colonne"
-
-#: wp-includes/js/dist/edit-site.js:31764
-#: wp-includes/js/dist/edit-site.js:31957
-#: wp-includes/js/dist/edit-site.js:32268
-msgid "No results"
-msgstr "Aucun résultat."
-
-#: wp-includes/js/dist/edit-site.js:32312
-msgid "Table"
-msgstr "Tableau"
-
-#: wp-includes/js/dist/edit-site.js:32317
-msgid "Grid"
-msgstr "Grille"
-
-#: wp-includes/js/dist/edit-site.js:32322
-msgid "List"
-msgstr "Liste"
-
-#. translators: Current page number in total number of pages
-#: wp-includes/js/dist/edit-site.js:32466
-msgid "Page %1$s of %2$s"
-msgstr "Page %1$s de %2$s"
-
-#. translators: 1: Current page number, 2: Total number of pages.
-#: wp-includes/js/dist/edit-site.js:32481
-msgctxt "paging"
-msgid "<div>Page</div>%1$s<div>of %2$s</div>"
-msgstr "<div>Page</div>%1$s<div>de %2$s</div>"
-
-#: wp-includes/js/dist/edit-site.js:32771
-msgid "Preview size"
-msgstr "Taille de l’aperçu"
-
-#: wp-includes/js/dist/edit-site.js:32882
-msgid "Sort by"
-msgstr "Trier par"
-
-#: wp-includes/js/dist/edit-site.js:32915
-msgid "Order"
-msgstr "Ordre"
-
-#: wp-includes/js/dist/edit-site.js:32951
-msgid "Items per page"
-msgstr "Éléments par page"
-
-#. translators: %s: field label
-#: wp-includes/js/dist/edit-site.js:33007
-msgid "Move %s up"
-msgstr "Déplacer %s en haut"
-
-#. translators: %s: field label
-#: wp-includes/js/dist/edit-site.js:33021
-msgid "Move %s down"
-msgstr "Déplacer %s en bas"
-
-#. translators: %s: field label
-#: wp-includes/js/dist/edit-site.js:33045
-msgctxt "field"
-msgid "Hide %s"
-msgstr "Masquer %s"
-
-#. translators: %s: field label
-#: wp-includes/js/dist/edit-site.js:33046
-msgctxt "field"
-msgid "Show %s"
-msgstr "Montrer %s"
-
-#: wp-includes/js/dist/edit-site.js:33128
-msgid "Hidden"
-msgstr "Masqué"
-
-#: wp-includes/js/dist/edit-site.js:33182
-msgid "Appearance"
-msgstr "Apparence"
-
-#: wp-includes/js/dist/edit-site.js:33192
-msgid "Properties"
-msgstr "Propriétés"
-
-#: wp-includes/js/dist/edit-site.js:33221
-msgctxt "View is used as a noun"
-msgid "View options"
-msgstr "Afficher les options"
-
-#: wp-includes/js/dist/edit-site.js:33624
-msgid "All items"
-msgstr "Tous les éléments"
-
-#: wp-includes/js/dist/edit-site.js:33629
-#: wp-includes/js/dist/edit-site.js:33959
-msgid "Published"
-msgstr "Publié"
-
-#: wp-includes/js/dist/edit-site.js:33639
-#: wp-includes/js/dist/edit-site.js:33944
-msgid "Scheduled"
-msgstr "Planifié"
-
-#: wp-includes/js/dist/edit-site.js:33649
-msgid "Drafts"
-msgstr "Brouillons"
-
-#: wp-includes/js/dist/edit-site.js:33659
-msgid "Pending"
-msgstr "En attente"
-
-#: wp-includes/js/dist/edit-site.js:33669
-#: wp-includes/js/dist/edit-site.js:33954
-msgid "Private"
-msgstr "Privé"
-
-#: wp-includes/js/dist/edit-site.js:33679
-#: wp-includes/js/dist/edit-site.js:33964
-msgid "Trash"
-msgstr "Corbeille"
-
-#: wp-includes/js/dist/edit-site.js:33739
-#: wp-includes/js/dist/edit-site.js:33775
-msgid "No title"
-msgstr "Sans titre"
-
-#: wp-includes/js/dist/edit-site.js:33751
-msgid "An error occurred while creating the item."
-msgstr "Une erreur est apparue lors de la création de l’élément."
-
-#. translators: %s: post type singular_name label e.g: "Page".
-#: wp-includes/js/dist/edit-site.js:33762
-msgid "Draft new: %s"
-msgstr "Rédiger un nouveau brouillon: %s"
-
-#: wp-includes/js/dist/edit-site.js:33773
-#: wp-includes/js/dist/edit-site.js:34094
-#: wp-includes/js/dist/edit-site.js:35955
-msgid "Title"
-msgstr "Titre"
-
-#: wp-includes/js/dist/edit-site.js:33791
-msgid "Create draft"
-msgstr "Créer un brouillon"
-
-#: wp-includes/js/dist/edit-site.js:33939
-msgid "Draft"
-msgstr "Brouillon"
-
-#: wp-includes/js/dist/edit-site.js:33941
-msgid "Not ready to publish."
-msgstr "Pas encore prêt à être publié."
-
-#: wp-includes/js/dist/edit-site.js:33946
-msgid "Publish automatically on a chosen date."
-msgstr "Publier automatiquement à une date choisie."
-
-#: wp-includes/js/dist/edit-site.js:33949
-msgid "Pending Review"
-msgstr "En attente"
-
-#: wp-includes/js/dist/edit-site.js:33951
-msgid "Waiting for review before publishing."
-msgstr "En attente de revue avant publication."
-
-#: wp-includes/js/dist/edit-site.js:33956
-msgid "Only visible to site admins and editors."
-msgstr "Seulement visible par des administrateur·ice·s et éditeur·ice·s."
-
-#: wp-includes/js/dist/edit-site.js:33961
-msgid "Visible to everyone."
-msgstr "Visible de tou·te·s"
-
-#: wp-includes/js/dist/edit-site.js:33994
-#: wp-includes/js/dist/edit-site.js:34111
-#: wp-includes/js/dist/edit-site.js:34113
-#: wp-includes/js/dist/edit-site.js:38165
-msgid "(no title)"
-msgstr "(sans titre) "
-
-#: wp-includes/js/dist/edit-site.js:34046
-msgid "Author avatar"
-msgstr "Image de profil de l’auteur·ice"
-
-#: wp-includes/js/dist/edit-site.js:34082
-msgid "Featured Image"
-msgstr "Image à la une"
-
-#: wp-includes/js/dist/edit-site.js:34119
-msgid "Homepage"
-msgstr "Page d’accueil"
-
-#: wp-includes/js/dist/edit-site.js:34124
-msgid "Posts Page"
-msgstr "Page des articles"
-
-#: wp-includes/js/dist/edit-site.js:34136
-#: wp-includes/js/dist/edit-site.js:36028
-#: wp-includes/js/dist/edit-site.js:36855
-#: wp-includes/js/dist/edit-site.js:38225
-msgid "Author"
-msgstr "Auteur·ice"
-
-#: wp-includes/js/dist/edit-site.js:34153
-msgid "Status"
-msgstr "Statut"
-
-#: wp-includes/js/dist/edit-site.js:34164
-msgid "Date"
-msgstr "Date"
-
-#. translators: %s: page creation or modification date.
-#: wp-includes/js/dist/edit-site.js:34173
-#: wp-includes/js/dist/edit-site.js:34200
-msgid "<span>Modified: <time>%s</time></span>"
-msgstr "<span>Modifié : <time>%s</time></span>"
-
-#. translators: %s: page creation date
-#: wp-includes/js/dist/edit-site.js:34181
-msgid "<span>Scheduled: <time>%s</time></span>"
-msgstr "<span>Planifié : <time>%s</time></span>"
-
-#. translators: %s: page creation time
-#: wp-includes/js/dist/edit-site.js:34189
-msgid "<span>Published: <time>%s</time></span>"
-msgstr "<span>Publié : <time>%s</time></span>"
-
-#: wp-includes/js/dist/edit-site.js:34574
-msgid "Toggle details panel"
-msgstr "Interrupteur le panneau de détails"
-
-#: wp-includes/js/dist/edit-site.js:35141
-msgid "Import pattern from JSON"
-msgstr "Importer la composition à partir du JSON"
-
-#. translators: %s: The imported pattern's title.
-#: wp-includes/js/dist/edit-site.js:35215
-msgid "Imported \"%s\" from JSON."
-msgstr "« %s » a été importé à partir du JSON"
-
-#: wp-includes/js/dist/edit-site.js:35303
-msgid "Uncategorized"
-msgstr "Non classé"
-
-#: wp-includes/js/dist/edit-site.js:35368
-msgid "My patterns"
-msgstr "Mes compositions"
-
-#: wp-includes/js/dist/edit-site.js:35373
-msgid "All patterns"
-msgstr "Toutes les compositions"
-
-#: wp-includes/js/dist/edit-site.js:35374
-msgid "A list of all patterns from all sources."
-msgstr ""
-"Une liste de toutes les compostions en provenance de toutes les sources"
-
-#. translators: %s: The pattern category's name
-#: wp-includes/js/dist/edit-site.js:35504
-msgctxt "pattern category"
-msgid "\"%s\" deleted."
-msgstr "« %s » supprimée."
-
-#: wp-includes/js/dist/edit-site.js:35514
-msgid "An error occurred while deleting the pattern category."
-msgstr ""
-"Une erreur est apparue lors de la suppression de la catégorie de composition."
-
-#. translators: %s: The pattern category's name.
-#: wp-includes/js/dist/edit-site.js:35534
-msgctxt "pattern category"
-msgid "Delete \"%s\"?"
-msgstr "Supprimer « %s » ?"
-
-#. translators: %s: The pattern category's name.
-#: wp-includes/js/dist/edit-site.js:35539
-msgid ""
-"Are you sure you want to delete the category \"%s\"? The patterns will not "
-"be deleted."
-msgstr ""
-"Êtes-vous certain·e de vouloir supprimer la catégorie « %s » ? Les "
-"compositions ne seront pas supprimées."
-
-#: wp-includes/js/dist/edit-site.js:35577
-msgid "All Template Parts"
-msgstr "Toutes les portions de gabarit"
-
-#: wp-includes/js/dist/edit-site.js:35578
-msgid "Includes every template part defined for any area."
-msgstr "Inclue chaque portion de gabarit définie quelque soit la zone."
-
-#. translators: %s: pattern category name
-#: wp-includes/js/dist/edit-site.js:35608
-msgid "Action menu for %s pattern category"
-msgstr "Menu d’action pour la catégorie de composition %s"
-
-#: wp-includes/js/dist/edit-site.js:35892
-msgid "Empty template part"
-msgstr "Portion de gabarit vide"
-
-#: wp-includes/js/dist/edit-site.js:35892
-msgid "Empty pattern"
-msgstr "Composition vide"
-
-#: wp-includes/js/dist/edit-site.js:35906
-#: wp-includes/js/dist/edit-site.js:38148
-msgid "Preview"
-msgstr "Aperçu"
-
-#: wp-includes/js/dist/edit-site.js:35945
-msgid "This pattern cannot be edited."
-msgstr "Cette composition ne peut pas être modifiée."
-
-#: wp-includes/js/dist/edit-site.js:35965
-msgctxt "pattern (singular)"
-msgid "Synced"
-msgstr "Synchronisée"
-
-#: wp-includes/js/dist/edit-site.js:35966
-msgid "Patterns that are kept in sync across the site."
-msgstr "Compositions maintenues synchronisées partout sur le site."
-
-#: wp-includes/js/dist/edit-site.js:35969
-msgctxt "pattern (singular)"
-msgid "Not synced"
-msgstr "Non synchronisée"
-
-#: wp-includes/js/dist/edit-site.js:35970
-msgid "Patterns that can be changed freely without affecting the site."
-msgstr "Compositions qui peuvent être modifiées sans impacter le site."
-
-#: wp-includes/js/dist/edit-site.js:35973
-msgid "Sync status"
-msgstr "Statut de synchronisation"
-
-#: wp-includes/js/dist/edit-site.js:36208
-msgid "Patterns content"
-msgstr "Contenu des compositions"
-
-#. translators: %1s: Name of the post type e.g: "Post"; %2s: Slug of the post type e.g: "book".
-#: wp-includes/js/dist/edit-site.js:36517
-msgid "Archive: %1$s (%2$s)"
-msgstr "Archive : %1$s (%2$s)"
-
-#. translators: %s: Name of the post type e.g: "Post".
-#: wp-includes/js/dist/edit-site.js:36521
-msgid "Archive: %s"
-msgstr "Archive : %s"
-
-#. translators: %s: Name of the post type e.g: "Post".
-#: wp-includes/js/dist/edit-site.js:36527
-msgid "Displays an archive with the latest posts of type: %s."
-msgstr "Affiche une archive avec les dernières publications du type : %s"
-
-#. translators: %s: Name of the post type e.g: "Post".
-#: wp-includes/js/dist/edit-site.js:36590
-msgid "Single item: %s"
-msgstr "Élément unique : %s"
-
-#. translators: 1: Name of the template e.g: "Single Item: Post". 2: Slug of the post type e.g: "book".
-#: wp-includes/js/dist/edit-site.js:36594
-msgctxt "post type menu label"
-msgid "%1$s (%2$s)"
-msgstr "%1$s (%2$s)"
-
-#. translators: 1: Name of the post type e.g: "Post". 2: Slug of the post type e.g: "book".
-#: wp-includes/js/dist/edit-site.js:36596
-msgctxt "post type menu label"
-msgid "Single item: %1$s (%2$s)"
-msgstr "Élément unique : %1$s (%2$s)"
-
-#. translators: %s: Name of the post type e.g: "Post".
-#: wp-includes/js/dist/edit-site.js:36606
-msgid "Displays a single item: %s."
-msgstr "Afficher un élément unique : %s"
-
-#. translators: 1: Name of the template e.g: "Products by Category". 2s: Slug of the taxonomy e.g: "product_cat".
-#: wp-includes/js/dist/edit-site.js:36727
-msgctxt "taxonomy template menu label"
-msgid "%1$s (%2$s)"
-msgstr "%1$s (%2$s)"
-
-#. translators: 1: Name of the taxonomy e.g: "Category". 2: Slug of the taxonomy e.g: "product_cat".
-#: wp-includes/js/dist/edit-site.js:36729
-msgctxt "taxonomy menu label"
-msgid "%1$s (%2$s)"
-msgstr "%1$s (%2$s)"
-
-#. translators: %s: Name of the taxonomy e.g: "Product Categories".
-#: wp-includes/js/dist/edit-site.js:36739
-msgid "Displays taxonomy: %s."
-msgstr "Affiche la taxonomie : %s"
-
-#: wp-includes/js/dist/edit-site.js:36817
-msgid "Displays latest posts written by a single author."
-msgstr "Affiche les derniers articles publiés par un utilisateur·ice unique."
-
-#: wp-includes/js/dist/edit-site.js:36856
-msgid "Search Authors"
-msgstr "Rechercher des auteur·ice·s"
-
-#: wp-includes/js/dist/edit-site.js:36857
-msgid "No authors found."
-msgstr "Aucun·e auteur·ice trouvé·e."
-
-#: wp-includes/js/dist/edit-site.js:36858
-msgid "All Authors"
-msgstr "Tou·te·s les auteur·ice·s"
-
-#: wp-includes/js/dist/edit-site.js:37088
-msgid "Suggestions list"
-msgstr "Liste de suggestions"
-
-#: wp-includes/js/dist/edit-site.js:37114
-msgid ""
-"Select whether to create a single template for all items or a specific one."
-msgstr ""
-"Sélectionner s’il s’agit de créer un gabarit unique pour tous les éléments "
-"ou un élément en particulier."
-
-#. translators: The user is given the choice to set up a template for all items of a post type or taxonomy, or just a specific one.
-#: wp-includes/js/dist/edit-site.js:37148
-msgid "For all items"
-msgstr "Pour tous les éléments"
-
-#. translators: The user is given the choice to set up a template for all items of a post type or taxonomy, or just a specific one.
-#: wp-includes/js/dist/edit-site.js:37168
-msgid "For a specific item"
-msgstr "Pour un élément en particulier"
-
-#: wp-includes/js/dist/edit-site.js:37175
-msgid "This template will be used only for the specific item chosen."
-msgstr ""
-"Ce gabarit sera uniquement utilisé pour l’élément particulier sélectionné."
-
-#: wp-includes/js/dist/edit-site.js:37704
-msgid "Custom Template"
-msgstr "Gabarit personnalisé"
-
-#: wp-includes/js/dist/edit-site.js:37733
-msgid ""
-"Describe the template, e.g. \"Post with sidebar\". A custom template can be "
-"manually applied to any post or page."
-msgstr ""
-"Décrivez le gabarit, ex : « Publication avec barre latérale ». Un gabarit "
-"personnalisé peut être appliqué manuellement à toute publication."
-
-#: wp-includes/js/dist/edit-site.js:37750
-#: wp-includes/js/dist/edit-site.js:40487
-msgid "Create"
-msgstr "Créer"
-
-#. translators: %s: The homepage url.
-#: wp-includes/js/dist/edit-site.js:37886
-msgid "E.g. %s"
-msgstr "Ex : %s"
-
-#: wp-includes/js/dist/edit-site.js:37923
-msgid "An error occurred while creating the template."
-msgstr "Une erreur est apparue lors de la création du gabarit."
-
-#: wp-includes/js/dist/edit-site.js:37935
-msgid "Add template"
-msgstr "Ajouter gabarit"
-
-#. translators: %s: Name of the post type e.g: "Post".
-#: wp-includes/js/dist/edit-site.js:37939
-msgid "Add template: %s"
-msgstr "Ajouter gabarit : %s"
-
-#: wp-includes/js/dist/edit-site.js:37941
-msgid "Create custom template"
-msgstr "Créer un gabarit personnalisé"
-
-#: wp-includes/js/dist/edit-site.js:37959
-msgid "Select what the new template should apply to:"
-msgstr "Sélectionner ce sur quoi le nouveau gabarit devrait être appliquer à :"
-
-#: wp-includes/js/dist/edit-site.js:37975
-msgid "Custom template"
-msgstr "Gabarit personnalisé"
-
-#: wp-includes/js/dist/edit-site.js:37983
-msgid "A custom template can be manually applied to any post or page."
-msgstr ""
-"Un gabarit personnalisé peut être appliqué manuellement à toute publication."
-
-#: wp-includes/js/dist/edit-site.js:38138
-msgid "Empty template"
-msgstr "Gabarit vide"
-
-#: wp-includes/js/dist/edit-site.js:38179
-msgid "Description"
-msgstr "Description"
-
-#: wp-includes/js/dist/edit-site.js:38411
-#: wp-includes/js/dist/edit-site.js:39060
-#: wp-includes/js/dist/edit-site.js:40157
-msgid "Templates"
-msgstr "Gabarits"
-
-#. translators: 1: theme name. 2: title
-#: wp-includes/js/dist/edit-site.js:38542
-msgid "Previewing %1$s: %2$s"
-msgstr "Aperçu de %1$s: %2$s"
-
-#: wp-includes/js/dist/edit-site.js:38808
-msgid "Last modified"
-msgstr "Dernièrement modifié"
-
-#. translators: %s: is the relative time when the post was last modified.
-#: wp-includes/js/dist/edit-site.js:38811
-msgid "<time>%s</time>"
-msgstr "<time>%s</time>"
-
-#: wp-includes/js/dist/edit-site.js:38950
-msgid "Choose a different style combination for the theme styles."
-msgstr ""
-"Sélectionner une combinaison de style différente pour les styles du thème."
-
-#: wp-includes/js/dist/edit-site.js:38965
-msgid "Edit styles"
-msgstr "Modifier les styles"
-
-#: wp-includes/js/dist/edit-site.js:39028
-msgid "Design"
-msgstr "Conception"
-
-#: wp-includes/js/dist/edit-site.js:39029
-msgid "Customize the appearance of your website using the block editor."
-msgstr ""
-"Personnaliser l’apparence de votre site Web en utilisant l’éditeur de blocs."
-
-#: wp-includes/js/dist/edit-site.js:39052
-#: wp-includes/js/dist/edit-site.js:41191
-msgid "Pages"
-msgstr "Pages"
-
-#: wp-includes/js/dist/edit-site.js:39068
-#: wp-includes/js/dist/edit-site.js:40364
-msgid "Patterns"
-msgstr "Compositions"
-
-#: wp-includes/js/dist/edit-site.js:39121
+#: wp-includes/js/dist/edit-site.js:29950
 msgid "Navigation title"
 msgstr "Titre de la navigation"
 
-#: wp-includes/js/dist/edit-site.js:39179
+#: wp-includes/js/dist/edit-site.js:30008
 msgid "Are you sure you want to delete this Navigation Menu?"
 msgstr "Êtes vous certain·e de vouloir supprimer ce menu de navigation ?"
 
-#: wp-includes/js/dist/edit-site.js:39256
+#: wp-includes/js/dist/edit-site.js:30079
 msgid "Duplicate"
 msgstr "Dupliquer"
 
 #. translators: %s: block name
-#: wp-includes/js/dist/edit-site.js:39321
+#: wp-includes/js/dist/edit-site.js:30176
 msgid "Remove %s"
 msgstr "Retirer %s"
 
 #. translators: %s: block name
-#: wp-includes/js/dist/edit-site.js:39326
+#: wp-includes/js/dist/edit-site.js:30181
 msgid "Go to %s"
 msgstr "Aller à %s"
 
-#: wp-includes/js/dist/edit-site.js:39368
+#: wp-includes/js/dist/edit-site.js:30213
 msgid "Options"
 msgstr "Options"
 
-#: wp-includes/js/dist/edit-site.js:39383
+#: wp-includes/js/dist/edit-site.js:30228
 msgid "Move up"
 msgstr "Déplacer au dessus"
 
-#: wp-includes/js/dist/edit-site.js:39390
+#: wp-includes/js/dist/edit-site.js:30235
 msgid "Move down"
 msgstr "Déplacer en dessous"
 
 #. translators: %s: the index of the menu in the list of menus.
-#: wp-includes/js/dist/edit-site.js:39560
-#: wp-includes/js/dist/edit-site.js:39885
+#: wp-includes/js/dist/edit-site.js:30406
+#: wp-includes/js/dist/edit-site.js:30724
 msgid "(no title %s)"
 msgstr "(sans titre %s)"
 
 #. translators: 1: title of the menu. 2: status of the menu (draft, pending, etc.).
-#: wp-includes/js/dist/edit-site.js:39567
-#: wp-includes/js/dist/edit-site.js:39892
+#: wp-includes/js/dist/edit-site.js:30413
+#: wp-includes/js/dist/edit-site.js:30731
 msgctxt "menu label"
 msgid "%1$s (%2$s)"
 msgstr "%1$s (%2$s)"
 
-#: wp-includes/js/dist/edit-site.js:39605
-#: wp-includes/js/dist/edit-site.js:39674
+#: wp-includes/js/dist/edit-site.js:30450
+#: wp-includes/js/dist/edit-site.js:30519
 msgid ""
 "Navigation Menus are a curated collection of blocks that allow visitors to "
 "get around your site."
@@ -2166,56 +1637,436 @@ msgstr ""
 "Les menus de navigation sont une collection organisée de blocs qui "
 "permettent aux visiteur·euse·s de se déplacer sur votre site."
 
-#: wp-includes/js/dist/edit-site.js:39683
+#: wp-includes/js/dist/edit-site.js:30528
 msgid "Navigation Menu missing."
 msgstr "Menu de navigation manquant."
 
-#: wp-includes/js/dist/edit-site.js:39698
+#: wp-includes/js/dist/edit-site.js:30543
 msgid "This Navigation Menu is empty."
 msgstr "Ce menu de navigation est vide."
 
-#: wp-includes/js/dist/edit-site.js:39746
+#: wp-includes/js/dist/edit-site.js:30591
 msgid "Navigation Menu successfully deleted."
 msgstr "Menu de navigation supprimé avec succès."
 
 #. translators: %s: error message describing why the navigation menu could not be deleted.
-#: wp-includes/js/dist/edit-site.js:39754
+#: wp-includes/js/dist/edit-site.js:30597
 msgid "Unable to delete Navigation Menu (%s)."
 msgstr "Impossible de supprimer ce menu de navigation (%s)."
 
-#: wp-includes/js/dist/edit-site.js:39797
+#: wp-includes/js/dist/edit-site.js:30640
 msgid "Renamed Navigation Menu"
-msgstr "Menu de navigation renommé."
+msgstr "Menu de navigation renommé"
 
 #. translators: %s: error message describing why the navigation menu could not be renamed.
-#: wp-includes/js/dist/edit-site.js:39804
+#: wp-includes/js/dist/edit-site.js:30647
 msgid "Unable to rename Navigation Menu (%s)."
 msgstr "Impossible de renommer ce menu de navigation (%s)."
 
 #. translators: %s: Navigation menu title
-#: wp-includes/js/dist/edit-site.js:39825
+#: wp-includes/js/dist/edit-site.js:30668
 msgctxt "navigation menu"
 msgid "%s (Copy)"
 msgstr "%s (Copie)"
 
-#: wp-includes/js/dist/edit-site.js:39832
+#: wp-includes/js/dist/edit-site.js:30675
 msgid "Duplicated Navigation Menu"
 msgstr "Menu de navigation dupliqué"
 
 #. translators: %s: error message describing why the navigation menu could not be deleted.
-#: wp-includes/js/dist/edit-site.js:39842
+#: wp-includes/js/dist/edit-site.js:30682
 msgid "Unable to duplicate Navigation Menu (%s)."
 msgstr "Impossible de dupliquer ce menu de navigation (%s)."
 
-#: wp-includes/js/dist/edit-site.js:39937
+#: wp-includes/js/dist/edit-site.js:30771
 msgid "No Navigation Menus found."
 msgstr "Aucun menu de navigation trouvé."
 
-#: wp-includes/js/dist/edit-site.js:39978
+#: wp-includes/js/dist/edit-site.js:30813
 msgid "Manage your Navigation Menus."
 msgstr "Gérer vos menus de navigation."
 
-#: wp-includes/js/dist/edit-site.js:40158
+#: wp-includes/js/dist/edit-site.js:31405
+msgid "Uncategorized"
+msgstr "Non classé"
+
+#: wp-includes/js/dist/edit-site.js:31470
+msgid "My patterns"
+msgstr "Mes compositions"
+
+#: wp-includes/js/dist/edit-site.js:31475
+msgid "All patterns"
+msgstr "Toutes les compositions"
+
+#: wp-includes/js/dist/edit-site.js:31476
+msgid "A list of all patterns from all sources."
+msgstr ""
+"Une liste de toutes les compositions en provenance de toutes les sources."
+
+#: wp-includes/js/dist/edit-site.js:31572
+msgid "All template parts"
+msgstr "Toutes les portions de gabarit"
+
+#: wp-includes/js/dist/edit-site.js:31626
+msgid "Manage what patterns are available when editing the site."
+msgstr "Gérer les compostions disponibles lors de l’édition de votre site."
+
+#: wp-includes/js/dist/edit-site.js:31630
+msgid "Loading items…"
+msgstr "Chargement des éléments…"
+
+#: wp-includes/js/dist/edit-site.js:31634
+msgid "No items found"
+msgstr "Aucun élément trouvé."
+
+#: wp-includes/js/dist/edit-site.js:31702
+msgid "Is"
+msgstr "Est"
+
+#: wp-includes/js/dist/edit-site.js:31706
+msgid "Is not"
+msgstr "N’est pas"
+
+#: wp-includes/js/dist/edit-site.js:31710
+msgid "Is any"
+msgstr "Est n’importe"
+
+#: wp-includes/js/dist/edit-site.js:31714
+msgid "Is none"
+msgstr "Est aucun"
+
+#: wp-includes/js/dist/edit-site.js:31718
+msgid "Is all"
+msgstr "Est tous"
+
+#: wp-includes/js/dist/edit-site.js:31722
+msgid "Is not all"
+msgstr "N’est pas tous"
+
+#: wp-includes/js/dist/edit-site.js:31735
+msgid "Sort ascending"
+msgstr "Trier dans l’ordre croissant"
+
+#: wp-includes/js/dist/edit-site.js:31736
+msgid "Sort descending"
+msgstr "Trier dans l’ordre décroissant"
+
+#: wp-includes/js/dist/edit-site.js:32030
+msgid "Select item"
+msgstr "Sélectionner l’élément"
+
+#. translators: List of items for a filter. 1: Filter name. e.g.: "List of: Author".
+#: wp-includes/js/dist/edit-site.js:37321
+msgid "List of: %1$s"
+msgstr "Liste de: %1$s"
+
+#: wp-includes/js/dist/edit-site.js:37416
+#: wp-includes/js/dist/edit-site.js:37418
+msgid "Search items"
+msgstr "Rechercher des éléments"
+
+#: wp-includes/js/dist/edit-site.js:37458
+msgid "No results found"
+msgstr "Pas de résultat trouvé"
+
+#. translators: 1: Filter name. 3: Filter value. e.g.: "Author is any: Admin, Editor".
+#: wp-includes/js/dist/edit-site.js:37509
+msgid "<Name>%1$s is any: </Name><Value>%2$s</Value>"
+msgstr "<Name>%1$s est n’importe : </Name><Value>%2$s</Value>"
+
+#. translators: 1: Filter name. 3: Filter value. e.g.: "Author is none: Admin, Editor".
+#: wp-includes/js/dist/edit-site.js:37513
+msgid "<Name>%1$s is none: </Name><Value>%2$s</Value>"
+msgstr "<Name>%1$s est aucun : </Name><Value>%2$s</Value>"
+
+#. translators: 1: Filter name. 3: Filter value. e.g.: "Author is all: Admin, Editor".
+#: wp-includes/js/dist/edit-site.js:37517
+msgid "<Name>%1$s is all: </Name><Value>%2$s</Value>"
+msgstr "<Name>%1$s est tous : </Name><Value>%2$s</Value>"
+
+#. translators: 1: Filter name. 3: Filter value. e.g.: "Author is not all: Admin, Editor".
+#: wp-includes/js/dist/edit-site.js:37521
+msgid "<Name>%1$s is not all: </Name><Value>%2$s</Value>"
+msgstr "<Name>%1$s n’est pas tous : </Name><Value>%2$s</Value>"
+
+#. translators: 1: Filter name. 3: Filter value. e.g.: "Author is: Admin".
+#: wp-includes/js/dist/edit-site.js:37525
+msgid "<Name>%1$s is: </Name><Value>%2$s</Value>"
+msgstr "<Name>%1$s est : </Name><Value>%2$s</Value>"
+
+#. translators: 1: Filter name. 3: Filter value. e.g.: "Author is not: Admin".
+#: wp-includes/js/dist/edit-site.js:37529
+msgid "<Name>%1$s is not: </Name><Value>%2$s</Value>"
+msgstr "<Name>%1$s n’est pas : </Name><Value>%2$s</Value>"
+
+#. translators: 1: Filter name e.g.: "Unknown status for Author".
+#: wp-includes/js/dist/edit-site.js:37532
+msgid "Unknown status for %1$s"
+msgstr "Statut inconnu pour %1$s"
+
+#: wp-includes/js/dist/edit-site.js:37553
+msgid "Conditions"
+msgstr "Conditions"
+
+#. translators: 1: Filter name.
+#: wp-includes/js/dist/edit-site.js:37622
+msgid "Filter by: %1$s"
+msgstr "Filtrer par : %1$s"
+
+#: wp-includes/js/dist/edit-site.js:37775
+#: wp-includes/js/dist/edit-site.js:37919
+#: wp-includes/js/dist/edit-site.js:38737
+msgid "Add filter"
+msgstr "Ajouter un filtre"
+
+#: wp-includes/js/dist/edit-site.js:37924
+msgctxt "verb"
+msgid "Filter"
+msgstr "Filtrer"
+
+#: wp-includes/js/dist/edit-site.js:38108
+msgid "(no title)"
+msgstr "(sans titre)"
+
+#: wp-includes/js/dist/edit-site.js:38422
+msgid "Deselect all"
+msgstr "Désélectionner tout"
+
+#. translators: %d: number of items.
+#: wp-includes/js/dist/edit-site.js:38479
+msgid "%d Item selected"
+msgid_plural "%d Items selected"
+msgstr[0] "%d élément sélectionné"
+msgstr[1] "%d éléments sélectionnés"
+
+#. translators: %d: number of items.
+#: wp-includes/js/dist/edit-site.js:38480
+msgid "%d Item"
+msgid_plural "%d Items"
+msgstr[0] "%d élément"
+msgstr[1] "%d éléments"
+
+#: wp-includes/js/dist/edit-site.js:38754
+msgid "Move left"
+msgstr "Déplacer à gauche"
+
+#: wp-includes/js/dist/edit-site.js:38769
+msgid "Move right"
+msgstr "Déplacer à droite"
+
+#: wp-includes/js/dist/edit-site.js:38783
+msgid "Hide column"
+msgstr "Masquer la colonne"
+
+#: wp-includes/js/dist/edit-site.js:39193
+#: wp-includes/js/dist/edit-site.js:39566
+#: wp-includes/js/dist/edit-site.js:39906
+msgid "No results"
+msgstr "Aucun résultat"
+
+#: wp-includes/js/dist/edit-site.js:39300
+msgid "Preview size"
+msgstr "Taille de l’aperçu"
+
+#: wp-includes/js/dist/edit-site.js:39400
+msgid "Navigate to item"
+msgstr "Naviguer jusqu'à l’élément"
+
+#: wp-includes/js/dist/edit-site.js:39955
+msgid "Density"
+msgstr "Densité"
+
+#: wp-includes/js/dist/edit-site.js:39969
+msgctxt "Density option for DataView layout"
+msgid "Comfortable"
+msgstr "Confortable"
+
+#: wp-includes/js/dist/edit-site.js:39972
+msgctxt "Density option for DataView layout"
+msgid "Balanced"
+msgstr "Équilibré"
+
+#: wp-includes/js/dist/edit-site.js:39975
+msgctxt "Density option for DataView layout"
+msgid "Compact"
+msgstr "Condensée"
+
+#: wp-includes/js/dist/edit-site.js:39998
+msgid "Table"
+msgstr "Tableau"
+
+#: wp-includes/js/dist/edit-site.js:40004
+msgid "Grid"
+msgstr "Grille"
+
+#: wp-includes/js/dist/edit-site.js:40010
+msgid "List"
+msgstr "Liste"
+
+#. translators: Current page number in total number of pages
+#: wp-includes/js/dist/edit-site.js:40100
+msgid "Page %1$s of %2$s"
+msgstr "Page %1$s de %2$s"
+
+#: wp-includes/js/dist/edit-site.js:40406
+msgid "Sort by"
+msgstr "Trier par"
+
+#: wp-includes/js/dist/edit-site.js:40440
+msgid "Order"
+msgstr "Ordre"
+
+#: wp-includes/js/dist/edit-site.js:40477
+msgid "Items per page"
+msgstr "Éléments par page"
+
+#: wp-includes/js/dist/edit-site.js:40520
+#: wp-includes/js/dist/edit-site.js:40704
+#: wp-includes/js/dist/edit-site.js:41800
+#: wp-includes/js/dist/edit-site.js:44141
+msgid "Preview"
+msgstr "Aperçu"
+
+#: wp-includes/js/dist/edit-site.js:40607
+msgid "This field can't be moved up"
+msgstr "Ce champ ne peut être déplacé vers le haut"
+
+#. translators: %s: field label
+#: wp-includes/js/dist/edit-site.js:40608
+msgid "Move %s up"
+msgstr "Déplacer %s en haut"
+
+#: wp-includes/js/dist/edit-site.js:40615
+msgid "This field can't be moved down"
+msgstr "Ce champ ne peut être déplacé vers le bas"
+
+#. translators: %s: field label
+#: wp-includes/js/dist/edit-site.js:40616
+msgid "Move %s down"
+msgstr "Déplacer %s en bas"
+
+#. translators: %s: field label
+#: wp-includes/js/dist/edit-site.js:40629
+msgctxt "field"
+msgid "Hide %s"
+msgstr "Masquer %s"
+
+#. translators: %s: field label
+#: wp-includes/js/dist/edit-site.js:40630
+msgctxt "field"
+msgid "Show %s"
+msgstr "Montrer %s"
+
+#: wp-includes/js/dist/edit-site.js:40795
+msgid "Hidden"
+msgstr "Masqué"
+
+#: wp-includes/js/dist/edit-site.js:40875
+msgctxt "View is used as a noun"
+msgid "View options"
+msgstr "Afficher les options"
+
+#: wp-includes/js/dist/edit-site.js:40888
+msgid "Appearance"
+msgstr "Apparence"
+
+#: wp-includes/js/dist/edit-site.js:40895
+msgid "Properties"
+msgstr "Propriétés"
+
+#: wp-includes/js/dist/edit-site.js:41224
+msgid "Import pattern from JSON"
+msgstr "Importer la composition à partir du JSON"
+
+#. translators: %s: The imported pattern's title.
+#: wp-includes/js/dist/edit-site.js:41289
+msgid "Imported \"%s\" from JSON."
+msgstr "« %s » a été importé à partir du JSON."
+
+#. translators: %s: The pattern category's name
+#: wp-includes/js/dist/edit-site.js:41421
+msgctxt "pattern category"
+msgid "\"%s\" deleted."
+msgstr "« %s » supprimée."
+
+#: wp-includes/js/dist/edit-site.js:41428
+msgid "An error occurred while deleting the pattern category."
+msgstr ""
+"Une erreur est apparue lors de la suppression de la catégorie de composition."
+
+#. translators: %s: The pattern category's name.
+#: wp-includes/js/dist/edit-site.js:41448
+msgctxt "pattern category"
+msgid "Delete \"%s\"?"
+msgstr "Supprimer « %s » ?"
+
+#. translators: %s: The pattern category's name.
+#: wp-includes/js/dist/edit-site.js:41453
+msgid ""
+"Are you sure you want to delete the category \"%s\"? The patterns will not "
+"be deleted."
+msgstr ""
+"Êtes-vous certain·e de vouloir supprimer la catégorie « %s » ? Les "
+"compositions ne seront pas supprimées."
+
+#: wp-includes/js/dist/edit-site.js:41490
+msgid "All Template Parts"
+msgstr "Toutes les portions de gabarit"
+
+#: wp-includes/js/dist/edit-site.js:41491
+msgid "Includes every template part defined for any area."
+msgstr "Inclue chaque portion de gabarit définie quelque soit la zone."
+
+#. translators: %s: pattern category name
+#: wp-includes/js/dist/edit-site.js:41521
+msgid "Action menu for %s pattern category"
+msgstr "Menu d’action pour la catégorie de composition %s"
+
+#: wp-includes/js/dist/edit-site.js:41787
+msgid "Empty template part"
+msgstr "Portion de gabarit vide"
+
+#: wp-includes/js/dist/edit-site.js:41787
+msgid "Empty pattern"
+msgstr "Composition vide"
+
+#: wp-includes/js/dist/edit-site.js:41807
+msgctxt "pattern (singular)"
+msgid "Synced"
+msgstr "Synchronisée"
+
+#: wp-includes/js/dist/edit-site.js:41808
+msgid "Patterns that are kept in sync across the site."
+msgstr "Compositions maintenues synchronisées partout sur le site."
+
+#: wp-includes/js/dist/edit-site.js:41811
+msgctxt "pattern (singular)"
+msgid "Not synced"
+msgstr "Non synchronisée"
+
+#: wp-includes/js/dist/edit-site.js:41812
+msgid "Patterns that can be changed freely without affecting the site."
+msgstr "Compositions qui peuvent être modifiées sans impacter le site."
+
+#: wp-includes/js/dist/edit-site.js:41815
+msgid "Sync status"
+msgstr "Statut de synchronisation"
+
+#: wp-includes/js/dist/edit-site.js:41870
+#: wp-includes/js/dist/edit-site.js:42880
+#: wp-includes/js/dist/edit-site.js:44193
+msgid "Author"
+msgstr "Auteur·ice"
+
+#: wp-includes/js/dist/edit-site.js:42046
+msgid "Patterns content"
+msgstr "Contenu des compositions"
+
+#: wp-includes/js/dist/edit-site.js:42228
+msgid "All templates"
+msgstr "Tous les gabarits"
+
+#: wp-includes/js/dist/edit-site.js:42255
 msgid ""
 "Create new templates, or reset any customizations made to the templates "
 "supplied by your theme."
@@ -2223,60 +2074,256 @@ msgstr ""
 "Créer de nouveaux gabarits, ou réinitialiser toute personnalisation apportée "
 "aux gabarits fournis par votre thème."
 
-#: wp-includes/js/dist/edit-site.js:40162
-msgid "All templates"
-msgstr "Tous les gabarits"
+#. translators: %1s: Name of the post type e.g: "Post"; %2s: Slug of the post type e.g: "book".
+#: wp-includes/js/dist/edit-site.js:42542
+msgid "Archive: %1$s (%2$s)"
+msgstr "Archive : %1$s (%2$s)"
 
-#: wp-includes/js/dist/edit-site.js:40308
-msgid "All template parts"
-msgstr "Toutes les portions de gabarit"
+#. translators: %s: Name of the post type e.g: "Post".
+#: wp-includes/js/dist/edit-site.js:42546
+msgid "Archive: %s"
+msgstr "Archive : %s"
 
-#: wp-includes/js/dist/edit-site.js:40365
-msgid "Manage what patterns are available when editing the site."
-msgstr "Gérer les compostions disponibles lors de l’édition de votre site."
+#. translators: %s: Name of the post type e.g: "Post".
+#: wp-includes/js/dist/edit-site.js:42552
+msgid "Displays an archive with the latest posts of type: %s."
+msgstr "Affiche une archive avec les dernières publications du type : %s."
 
-#: wp-includes/js/dist/edit-site.js:40368
-msgid "Loading items…"
-msgstr "Chargement des éléments…"
+#. translators: %s: Name of the post type e.g: "Post".
+#: wp-includes/js/dist/edit-site.js:42615
+msgid "Single item: %s"
+msgstr "Élément unique : %s"
 
-#: wp-includes/js/dist/edit-site.js:40372
-msgid "No items found"
-msgstr "Aucun élément trouvé."
+#. translators: 1: Name of the template e.g: "Single Item: Post". 2: Slug of the post type e.g: "book".
+#: wp-includes/js/dist/edit-site.js:42619
+msgctxt "post type menu label"
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
 
-#: wp-includes/js/dist/edit-site.js:40470
-#: wp-includes/js/dist/edit-site.js:40568
+#. translators: 1: Name of the post type e.g: "Post". 2: Slug of the post type e.g: "book".
+#: wp-includes/js/dist/edit-site.js:42621
+msgctxt "post type menu label"
+msgid "Single item: %1$s (%2$s)"
+msgstr "Élément unique : %1$s (%2$s)"
+
+#. translators: %s: Name of the post type e.g: "Post".
+#: wp-includes/js/dist/edit-site.js:42631
+msgid "Displays a single item: %s."
+msgstr "Afficher un élément unique : %s."
+
+#. translators: 1: Name of the template e.g: "Products by Category". 2s: Slug of the taxonomy e.g: "product_cat".
+#: wp-includes/js/dist/edit-site.js:42752
+msgctxt "taxonomy template menu label"
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+#. translators: 1: Name of the taxonomy e.g: "Category". 2: Slug of the taxonomy e.g: "product_cat".
+#: wp-includes/js/dist/edit-site.js:42754
+msgctxt "taxonomy menu label"
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+#. translators: %s: Name of the taxonomy e.g: "Product Categories".
+#: wp-includes/js/dist/edit-site.js:42764
+msgid "Displays taxonomy: %s."
+msgstr "Affiche la taxonomie : %s."
+
+#: wp-includes/js/dist/edit-site.js:42842
+msgid "Displays latest posts written by a single author."
+msgstr "Affiche les derniers articles publiés par un utilisateur·ice unique."
+
+#: wp-includes/js/dist/edit-site.js:42881
+msgid "Search Authors"
+msgstr "Rechercher des auteur·ice·s"
+
+#: wp-includes/js/dist/edit-site.js:42882
+msgid "No authors found."
+msgstr "Aucun·e auteur·ice trouvé·e."
+
+#: wp-includes/js/dist/edit-site.js:42883
+msgid "All Authors"
+msgstr "Tou·te·s les auteur·ice·s"
+
+#: wp-includes/js/dist/edit-site.js:43111
+msgid "Suggestions list"
+msgstr "Liste de suggestions"
+
+#: wp-includes/js/dist/edit-site.js:43137
+msgid ""
+"Select whether to create a single template for all items or a specific one."
+msgstr ""
+"Sélectionner s’il s’agit de créer un gabarit unique pour tous les éléments "
+"ou un élément en particulier."
+
+#. translators: The user is given the choice to set up a template for all items of a post type or taxonomy, or just a specific one.
+#: wp-includes/js/dist/edit-site.js:43171
+msgid "For all items"
+msgstr "Pour tous les éléments"
+
+#. translators: The user is given the choice to set up a template for all items of a post type or taxonomy, or just a specific one.
+#: wp-includes/js/dist/edit-site.js:43191
+msgid "For a specific item"
+msgstr "Pour un élément en particulier"
+
+#: wp-includes/js/dist/edit-site.js:43198
+msgid "This template will be used only for the specific item chosen."
+msgstr ""
+"Ce gabarit sera uniquement utilisé pour l’élément particulier sélectionné."
+
+#: wp-includes/js/dist/edit-site.js:43717
+msgid "Custom Template"
+msgstr "Gabarit personnalisé"
+
+#: wp-includes/js/dist/edit-site.js:43746
+msgid ""
+"Describe the template, e.g. \"Post with sidebar\". A custom template can be "
+"manually applied to any post or page."
+msgstr ""
+"Décrivez le gabarit, ex : « Publication avec barre latérale ». Un gabarit "
+"personnalisé peut être appliqué manuellement à toute publication."
+
+#: wp-includes/js/dist/edit-site.js:43765
+#: wp-includes/js/dist/edit-site.js:44880
+msgid "Create"
+msgstr "Créer"
+
+#. translators: %s: The homepage url.
+#: wp-includes/js/dist/edit-site.js:43899
+msgid "E.g. %s"
+msgstr "Ex : %s"
+
+#: wp-includes/js/dist/edit-site.js:43932
+msgid "An error occurred while creating the template."
+msgstr "Une erreur est apparue lors de la création du gabarit."
+
+#: wp-includes/js/dist/edit-site.js:43944
+msgid "Add template"
+msgstr "Ajouter gabarit"
+
+#. translators: %s: Name of the post type e.g: "Post".
+#: wp-includes/js/dist/edit-site.js:43948
+msgid "Add template: %s"
+msgstr "Ajouter gabarit : %s"
+
+#: wp-includes/js/dist/edit-site.js:43950
+msgid "Create custom template"
+msgstr "Créer un gabarit personnalisé"
+
+#: wp-includes/js/dist/edit-site.js:43968
+msgid "Select what the new template should apply to:"
+msgstr "Sélectionner ce sur quoi le nouveau gabarit devrait être appliquer à :"
+
+#: wp-includes/js/dist/edit-site.js:43984
+msgid "Custom template"
+msgstr "Gabarit personnalisé"
+
+#: wp-includes/js/dist/edit-site.js:43992
+msgid "A custom template can be manually applied to any post or page."
+msgstr ""
+"Un gabarit personnalisé peut être appliqué manuellement à toute publication."
+
+#: wp-includes/js/dist/edit-site.js:44132
+msgid "Empty template"
+msgstr "Gabarit vide"
+
+#: wp-includes/js/dist/edit-site.js:44147
+msgid "Description"
+msgstr "Description"
+
+#: wp-includes/js/dist/edit-site.js:44649
+msgid "All items"
+msgstr "Tous les éléments"
+
+#: wp-includes/js/dist/edit-site.js:44654
+msgid "Published"
+msgstr "Publié"
+
+#: wp-includes/js/dist/edit-site.js:44664
+msgid "Scheduled"
+msgstr "Planifié"
+
+#: wp-includes/js/dist/edit-site.js:44674
+msgid "Drafts"
+msgstr "Brouillons"
+
+#: wp-includes/js/dist/edit-site.js:44684
+msgid "Pending"
+msgstr "En attente"
+
+#: wp-includes/js/dist/edit-site.js:44694
+msgid "Private"
+msgstr "Privé"
+
+#: wp-includes/js/dist/edit-site.js:44704
+msgid "Trash"
+msgstr "Corbeille"
+
+#: wp-includes/js/dist/edit-site.js:44863
+#: wp-includes/js/dist/edit-site.js:44960
 msgid "My view"
 msgstr "Ma vue"
 
-#: wp-includes/js/dist/edit-site.js:40504
+#: wp-includes/js/dist/edit-site.js:44897
 msgid "New view"
 msgstr "Nouvelle vue"
 
-#: wp-includes/js/dist/edit-site.js:40506
+#: wp-includes/js/dist/edit-site.js:44899
 msgid "Add new view"
 msgstr "Ajouter une nouvelle vue"
 
-#: wp-includes/js/dist/edit-site.js:40710
+#: wp-includes/js/dist/edit-site.js:45098
 msgid "Custom Views"
 msgstr "Vues personnalisées"
 
+#: wp-includes/js/dist/edit-site.js:45242
+msgid "An error occurred while creating the item."
+msgstr "Une erreur est apparue lors de la création de l’élément."
+
+#. translators: %s: post type singular_name label e.g: "Page".
+#: wp-includes/js/dist/edit-site.js:45253
+msgid "Draft new: %s"
+msgstr "Rédiger un nouveau brouillon: %s"
+
+#: wp-includes/js/dist/edit-site.js:45264
+msgid "Title"
+msgstr "Titre"
+
+#: wp-includes/js/dist/edit-site.js:45266
+msgid "No title"
+msgstr "Sans titre"
+
+#: wp-includes/js/dist/edit-site.js:45282
+msgid "Create draft"
+msgstr "Créer un brouillon"
+
+#: wp-includes/js/dist/edit-site.js:45658
+msgid "Details"
+msgstr "Détails"
+
 #. translators: %s: Field name.
-#: wp-includes/js/dist/edit-site.js:40897
+#: wp-includes/js/dist/edit-site.js:45907
 msgctxt "field"
 msgid "Edit %s"
 msgstr "Modifier %s"
 
-#: wp-includes/js/dist/edit-site.js:41084
+#: wp-includes/js/dist/edit-site.js:46230
+msgid "Status & Visibility"
+msgstr "Statut et visibilité"
+
+#: wp-includes/js/dist/edit-site.js:46306
 msgid "Post Edit"
 msgstr "Poster les modifications"
 
-#: wp-includes/js/dist/edit-site.js:41089
+#: wp-includes/js/dist/edit-site.js:46311
 msgid "Select a page to edit"
 msgstr "Sélectionner une page à modifier"
 
-#. translators: %s: plugin name
-#: wp-includes/js/dist/edit-site.js:41406
-msgid "The \"%s\" plugin has encountered an error and cannot be rendered."
+#: wp-includes/js/dist/edit-site.js:46486
+msgid "Preview your website's visual identity: colors, typography, and blocks."
 msgstr ""
-"L’extension « %s » a rencontré une erreur et le contenu de ce bloc ne peut "
-"être généré."
+"Prévisualiser l’identité visuelle de votre site Web : couleurs, typographie, "
+"et blocs."
+
+#: wp-includes/js/dist/edit-site.js:46522
+msgid "The requested page could not be found. Please check the URL."
+msgstr "La page demandée n’a pas pu être trouvée. Merci de vérifier l’URL."
