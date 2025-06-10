@@ -45,7 +45,6 @@ wp i18n make-json js-po/dist-core-data ./ --no-purge
 wp i18n make-json js-po/dist-edit-post ./ --no-purge
 wp i18n make-json js-po/dist-edit-site ./ --no-purge
 wp i18n make-json js-po/dist-editor ./ --no-purge
-wp i18n make-json js-po/dist-fields ./ --no-purge
 wp i18n make-json js-po/dist-format-library ./ --no-purge
 wp i18n make-json js-po/dist-i18n ./ --no-purge
 wp i18n make-json js-po/dist-keycodes ./ --no-purge
