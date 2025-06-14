@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Retraceur - 2.0.0\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
-"POT-Creation-Date: 2025-05-31T09:09:56+00:00\n"
-"PO-Revision-Date: 2025-06-09 08:12+0200\n"
+"POT-Creation-Date: 2025-06-14T07:04:37+00:00\n"
+"PO-Revision-Date: 2025-06-14 20:44+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -62,9 +62,9 @@ msgstr "Statuts"
 msgid "Site"
 msgstr "Site"
 
-#: wp-includes/js/dist/core-data.js:22500
-#: wp-includes/js/dist/core-data.js:22522
-#: wp-includes/js/dist/core-data.js:22544
-#: wp-includes/js/dist/core-data.js:22564
+#: wp-includes/js/dist/core-data.js:22503
+#: wp-includes/js/dist/core-data.js:22525
+#: wp-includes/js/dist/core-data.js:22547
+#: wp-includes/js/dist/core-data.js:22567
 msgid "(no title)"
 msgstr "(sans titre)"

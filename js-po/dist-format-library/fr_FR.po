@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Retraceur - 2.0.0\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
-"POT-Creation-Date: 2025-05-31T09:09:34+00:00\n"
-"PO-Revision-Date: 2025-06-10 21:02+0200\n"
+"POT-Creation-Date: 2025-06-14T07:04:16+00:00\n"
+"PO-Revision-Date: 2025-06-14 20:49+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -49,7 +49,7 @@ msgstr "https://www.w3.org/WAI/tutorials/images/decision-tree/fr"
 
 #: wp-includes/js/dist/format-library.js:271
 msgid "Describe the purpose of the image."
-msgstr "Décrire le rôle de l’image"
+msgstr "Décrire le rôle de l’image."
 
 #: wp-includes/js/dist/format-library.js:272
 msgid "Leave empty if decorative."
