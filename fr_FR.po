@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Retraceur - 2.0.0\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
 "POT-Creation-Date: 2025-05-31T09:08:42+00:00\n"
-"PO-Revision-Date: 2025-06-03 19:22+0200\n"
+"PO-Revision-Date: 2025-06-19 23:05+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: Poedit 3.6\n"
 
 #: wp-activate.php:26 wp-includes/deprecated.php:15849
 #: wp-includes/deprecated.php:15883 wp-includes/deprecated.php:15923
@@ -805,8 +805,8 @@ msgstr "Archives des dates"
 
 #: wp-includes/block-template-utils.php:188
 msgid ""
-"Displays a post archive when a specific date is visited (e.g., example."
-"com/2023/)."
+"Displays a post archive when a specific date is visited (e.g., example.com/"
+"2023/)."
 msgstr ""
 "Affiche une page d’archive de publications quand une date spécifique est "
 "visitée (p. ex. : exemple.com/2023/)."
@@ -2744,14 +2744,8 @@ msgstr ""
 
 #: wp-includes/class-wp-query.php:1533
 msgctxt "Comma-separated list of search stopwords in your language"
-msgid ""
-"about,an,are,as,at,be,by,com,for,from,how,in,is,it,of,on,or,that,the,this,to,"
-"was,what,when,where,who,will,with,www"
-msgstr ""
-"le,la,les,de,des,un,uns,une,unes,et,a,à,il,elle,on,ne,je,tu,nous,vous,ils,"
-"elles,son,sa,ses,que,quoi,se,qui,ce,cette,dans,en,du,au,aux,pour,pas,sur,y,"
-"ou,où,si,ton,ta,te,mon,ma,tout,toute,tous,toutes,ça,ni,www,com,fr,par,sur,"
-"par,dans,mais,vos,votre,vôtre,c,d,j,,l,m,n,s,t,sans,toi,moi,lui,leur,leurs"
+msgid "about,an,are,as,at,be,by,com,for,from,how,in,is,it,of,on,or,that,the,this,to,was,what,when,where,who,will,with,www"
+msgstr "le,la,les,de,des,un,uns,une,unes,et,a,à,il,elle,on,ne,je,tu,nous,vous,ils,elles,son,sa,ses,que,quoi,se,qui,ce,cette,dans,en,du,au,aux,pour,pas,sur,y,ou,où,si,ton,ta,te,mon,ma,tout,toute,tous,toutes,ça,ni,www,com,fr,par,sur,par,dans,mais,vos,votre,vôtre,c,d,j,,l,m,n,s,t,sans,toi,moi,lui,leur,leurs"
 
 #. translators: 1: Deprecated argument key, 2: Valid argument key.
 #: wp-includes/class-wp-query.php:1895 wp-includes/class-wp-user-query.php:407
@@ -3153,8 +3147,8 @@ msgid ""
 "The &#8220;slug&#8221; is the URL-friendly version of the name. It is "
 "usually all lowercase and contains only letters, numbers, and hyphens."
 msgstr ""
-"Le « slug » est la version du nom normalisée pour les URL. Il ne contient "
-"généralement que des lettres, des chiffres et des traits d’union."
+"La « portion d’URL » est la version du nom normalisée pour les URL. Il ne "
+"contient généralement que des lettres, des chiffres et des traits d’union."
 
 #: wp-includes/class-wp-taxonomy.php:611
 msgid ""
@@ -3550,7 +3544,7 @@ msgid ""
 "Could not register file \"%s\" as a block pattern (\"Slug\" field missing)"
 msgstr ""
 "Impossible d’enregistrer le fichier « %s » en tant que composition de blocs "
-"(champ « Slug » manquant)"
+"(champ « portion d’URL » manquant)"
 
 #. translators: 1: file name; 2: slug value found.
 #: wp-includes/class-wp-theme.php:1914
@@ -4215,12 +4209,8 @@ msgstr "'tain't,'twere,'twas,'tis,'twill,'til,'bout,'nuff,'round,'cause,'em"
 
 #: wp-includes/formatting.php:131
 msgctxt "Comma-separated list of replacement words in your language"
-msgid ""
-"&#8217;tain&#8217;t,&#8217;twere,&#8217;twas,&#8217;tis,&#8217;twill,&#8217;"
-"til,&#8217;bout,&#8217;nuff,&#8217;round,&#8217;cause,&#8217;em"
-msgstr ""
-"&#8217;tain&#8217;t,&#8217;twere,&#8217;twas,&#8217;tis,&#8217;twill,&#8217;"
-"til,&#8217;bout,&#8217;nuff,&#8217;round,&#8217;cause,&#8217;em"
+msgid "&#8217;tain&#8217;t,&#8217;twere,&#8217;twas,&#8217;tis,&#8217;twill,&#8217;til,&#8217;bout,&#8217;nuff,&#8217;round,&#8217;cause,&#8217;em"
+msgstr "&#8217;tain&#8217;t,&#8217;twere,&#8217;twas,&#8217;tis,&#8217;twill,&#8217;til,&#8217;bout,&#8217;nuff,&#8217;round,&#8217;cause,&#8217;em"
 
 #. translators: %s: Time duration in second or seconds.
 #: wp-includes/formatting.php:3872 wp-includes/functions.php:570
@@ -12351,8 +12341,8 @@ msgstr ""
 #: wp-includes/update.php:135 wp-includes/update.php:357
 #: wp-includes/update.php:639
 msgid ""
-"An unexpected error occurred. Something may be wrong with this server&#8217;"
-"s configuration."
+"An unexpected error occurred. Something may be wrong with this "
+"server&#8217;s configuration."
 msgstr ""
 "Une erreur imprévue s’est produite. Il pourrait y avoir un problème avec la "
 "configuration de ce serveur."
@@ -14950,91 +14940,3 @@ msgstr "vidéo"
 msgctxt "block title"
 msgid "Widget Group"
 msgstr "Groupe de widgets"
-
-#~ msgid ""
-#~ "A key value mismatch has been detected. Please follow the link provided "
-#~ "in your activation email."
-#~ msgstr ""
-#~ "Une incohérence de valeur de clé a été détectée. Merci de suivre le lien "
-#~ "fourni dans le courriel d’activation."
-
-#~ msgid "An error occurred during the activation"
-#~ msgstr "Une erreur s’est produite lors de l’activation."
-
-#~ msgid "Activation Key Required"
-#~ msgstr "Clé d’activation requise"
-
-#~ msgid "Activation Key:"
-#~ msgstr "Clé d’activation :"
-
-#~ msgid "Activate"
-#~ msgstr "Activer"
-
-#~ msgid "Your account is now active!"
-#~ msgstr "Votre compte est maintenant activé !"
-
-#~ msgid ""
-#~ "Your account has been activated. You may now <a href=\"%1$s\">log in</a> "
-#~ "to the site using your chosen username of &#8220;%2$s&#8221;. Please "
-#~ "check your email inbox at %3$s for your password and login instructions. "
-#~ "If you do not receive an email, please check your junk or spam folder. If "
-#~ "you still do not receive an email within an hour, you can <a "
-#~ "href=\"%4$s\">reset your password</a>."
-#~ msgstr ""
-#~ "Votre compte vient d’être activé. Vous pouvez dès maintenant vous <a "
-#~ "href=\"%1$s\">connecter</a> à votre site en utilisant votre nom "
-#~ "d’utilisateur·rice « %2$s ». Vous trouverez dans votre messagerie (sur "
-#~ "%3$s) un message vous donnant votre mot de passe et les instructions pour "
-#~ "vous connecter. Si vous ne recevez pas de courriel, pensez à consulter le "
-#~ "dossier « spam » de votre client de messagerie. Si vous ne recevez pas "
-#~ "votre mot de passe dans moins d’une heure, vous pouvez <a "
-#~ "href=\"%4$s\">réinitialiser votre mot de passe</a>."
-
-#~ msgid ""
-#~ "Your site at %1$s is active. You may now log in to your site using your "
-#~ "chosen username of &#8220;%2$s&#8221;. Please check your email inbox at "
-#~ "%3$s for your password and login instructions. If you do not receive an "
-#~ "email, please check your junk or spam folder. If you still do not receive "
-#~ "an email within an hour, you can <a href=\"%4$s\">reset your password</a>."
-#~ msgstr ""
-#~ "Votre site est activé à %1$s. Vous pouvez dès maintenant vous connecter à "
-#~ "ce site en utilisant le nom d’utilisateur·rice choisi « %2$s ». Vous "
-#~ "trouverez dans votre messagerie (sur %3$s) un message vous donnant votre "
-#~ "mot de passe et les instructions pour vous connecter. Si vous ne recevez "
-#~ "pas de courriel, pensez à consulter le dossier « indésirables » de votre "
-#~ "client de messagerie. Si vous ne recevez pas votre mot de passe dans "
-#~ "moins d’une heure, vous pouvez <a href=\"%4$s\">réinitialiser votre mot "
-#~ "de passe</a>."
-
-#~ msgid "Username:"
-#~ msgstr "Nom d’utilisateur·rice :"
-
-#~ msgid ""
-#~ "Your account is now activated. <a href=\"%1$s\">View your site</a> or <a "
-#~ "href=\"%2$s\">Log in</a>"
-#~ msgstr ""
-#~ "Votre compte est maintenant activé. <a href=\"%1$s\">Consultez votre "
-#~ "site</a> ou <a href=\"%2$s\">connectez-vous</a>"
-
-#~ msgid ""
-#~ "Your account is now activated. <a href=\"%1$s\">Log in</a> or go back to "
-#~ "the <a href=\"%2$s\">homepage</a>."
-#~ msgstr ""
-#~ "Votre compte est maintenant activé. <a href=\"%1$s\">Connectez-vous</a> "
-#~ "ou retournez sur la <a href=\"%2$s\">page d’accueil de votre site</a>."
-
-#~ msgid "Empty template: %s"
-#~ msgstr "Gabarit vide : %s"
-
-#~ msgid "Enlarge image: %s"
-#~ msgstr "Agrandir l’image : %s"
-
-#~ msgid "Add New"
-#~ msgstr "Ajouter"
-
-#~ msgid "Something went wrong."
-#~ msgstr "Une mauvaise manipulation ?"
-
-#~ msgctxt "block title"
-#~ msgid "List item"
-#~ msgstr "Élément de liste"
