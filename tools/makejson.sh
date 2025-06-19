@@ -57,6 +57,7 @@ wp i18n make-json js-po/dist-preferences ./ --no-purge
 wp i18n make-json js-po/dist-reusable-blocks ./ --no-purge
 wp i18n make-json js-po/dist-rich-text ./ --no-purge
 wp i18n make-json js-po/dist-server-side-render ./ --no-purge
+wp i18n make-json js-po/dist-widgets ./ --no-purge
 wp i18n make-json js-po/includes-auth-check ./ --no-purge
 wp i18n make-json js-po/includes-media-editor ./ --no-purge
 wp i18n make-json js-po/includes-media-views ./ --no-purge
