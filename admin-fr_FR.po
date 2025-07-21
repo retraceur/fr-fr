@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Retraceur - 2.0.0 - Administration\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
-"POT-Creation-Date: 2025-06-29T01:35:05+00:00\n"
-"PO-Revision-Date: 2025-07-01 02:50+0200\n"
+"POT-Creation-Date: 2025-07-19T18:48:22+00:00\n"
+"PO-Revision-Date: 2025-07-21 08:02+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -955,9 +955,9 @@ msgstr ""
 "formats d’article sur votre site."
 
 #: wp-admin/edit-tag-form.php:160 wp-admin/edit-tags.php:455
-#: wp-admin/includes/class-wp-terms-list-table.php:198
-#: wp-admin/includes/class-wp-terms-list-table.php:220
-#: wp-admin/includes/class-wp-terms-list-table.php:714
+#: wp-admin/includes/class-wp-terms-list-table.php:199
+#: wp-admin/includes/class-wp-terms-list-table.php:221
+#: wp-admin/includes/class-wp-terms-list-table.php:724
 msgctxt "term name"
 msgid "Name"
 msgstr "Nom"
@@ -965,9 +965,9 @@ msgstr "Nom"
 #. translators: Hidden accessibility text.
 #: wp-admin/edit-tag-form.php:166 wp-admin/edit-tags.php:460
 #: wp-admin/includes/class-wp-posts-list-table.php:1700
-#: wp-admin/includes/class-wp-terms-list-table.php:200
-#: wp-admin/includes/class-wp-terms-list-table.php:222
-#: wp-admin/includes/class-wp-terms-list-table.php:719
+#: wp-admin/includes/class-wp-terms-list-table.php:201
+#: wp-admin/includes/class-wp-terms-list-table.php:223
+#: wp-admin/includes/class-wp-terms-list-table.php:729
 #: wp-admin/includes/meta-boxes.php:781 wp-admin/includes/meta-boxes.php:1095
 msgid "Slug"
 msgstr "Portion d’URL"
@@ -991,8 +991,8 @@ msgstr ""
 
 #: wp-admin/edit-tag-form.php:222 wp-admin/edit-tags.php:513
 #: wp-admin/includes/class-wp-plugins-list-table.php:500
-#: wp-admin/includes/class-wp-terms-list-table.php:199
-#: wp-admin/includes/class-wp-terms-list-table.php:221
+#: wp-admin/includes/class-wp-terms-list-table.php:200
+#: wp-admin/includes/class-wp-terms-list-table.php:222
 #: wp-admin/includes/media.php:1412 wp-admin/includes/media.php:3264
 #: wp-admin/themes.php:567
 msgid "Description"
@@ -1016,8 +1016,8 @@ msgstr "Mettre à jour"
 #: wp-admin/includes/class-wp-plugins-list-table.php:920
 #: wp-admin/includes/class-wp-plugins-list-table.php:1009
 #: wp-admin/includes/class-wp-plugins-list-table.php:1026
-#: wp-admin/includes/class-wp-terms-list-table.php:175
-#: wp-admin/includes/class-wp-terms-list-table.php:533
+#: wp-admin/includes/class-wp-terms-list-table.php:176
+#: wp-admin/includes/class-wp-terms-list-table.php:537
 #: wp-admin/includes/class-wp-themes-list-table.php:229
 #: wp-admin/includes/class-wp-users-list-table.php:282
 #: wp-admin/includes/class-wp-users-list-table.php:483
@@ -5509,7 +5509,7 @@ msgstr "Sélectionner %s"
 #. translators: %s: Object title.
 #: wp-admin/includes/class-wp-media-list-table.php:464
 #: wp-admin/includes/class-wp-posts-list-table.php:1144
-#: wp-admin/includes/class-wp-terms-list-table.php:424
+#: wp-admin/includes/class-wp-terms-list-table.php:426
 msgid "&#8220;%s&#8221; (Edit)"
 msgstr "« %s » (Modifier)"
 
@@ -5565,7 +5565,7 @@ msgstr "Attacher « %s » à du contenu existant"
 #. translators: %s: Object title.
 #: wp-admin/includes/class-wp-media-list-table.php:765
 #: wp-admin/includes/class-wp-posts-list-table.php:1483
-#: wp-admin/includes/class-wp-terms-list-table.php:503
+#: wp-admin/includes/class-wp-terms-list-table.php:506
 #: wp-admin/includes/dashboard.php:624
 msgid "Edit &#8220;%s&#8221;"
 msgstr "Modifier « %s »"
@@ -5573,7 +5573,7 @@ msgstr "Modifier « %s »"
 #: wp-admin/includes/class-wp-media-list-table.php:766
 #: wp-admin/includes/class-wp-posts-list-table.php:444
 #: wp-admin/includes/class-wp-posts-list-table.php:1484
-#: wp-admin/includes/class-wp-terms-list-table.php:504
+#: wp-admin/includes/class-wp-terms-list-table.php:507
 #: wp-admin/includes/class-wp-users-list-table.php:474
 #: wp-admin/includes/meta-boxes.php:137 wp-admin/includes/meta-boxes.php:199
 #: wp-admin/includes/meta-boxes.php:294 wp-admin/includes/post.php:1589
@@ -5618,7 +5618,7 @@ msgstr "Afficher « %s »"
 
 #: wp-admin/includes/class-wp-media-list-table.php:814
 #: wp-admin/includes/class-wp-posts-list-table.php:1555
-#: wp-admin/includes/class-wp-terms-list-table.php:543
+#: wp-admin/includes/class-wp-terms-list-table.php:547
 #: wp-admin/includes/class-wp-users-list-table.php:500
 msgid "View"
 msgstr "Voir"
@@ -6197,12 +6197,12 @@ msgstr "Dernièrement modifié"
 
 #. translators: %s: Object title.
 #: wp-admin/includes/class-wp-posts-list-table.php:1501
-#: wp-admin/includes/class-wp-terms-list-table.php:521
+#: wp-admin/includes/class-wp-terms-list-table.php:525
 msgid "Quick edit &#8220;%s&#8221; inline"
 msgstr "Modifier rapidement « %s » en ligne"
 
 #: wp-admin/includes/class-wp-posts-list-table.php:1502
-#: wp-admin/includes/class-wp-terms-list-table.php:522
+#: wp-admin/includes/class-wp-terms-list-table.php:526
 msgid "Quick&nbsp;Edit"
 msgstr "Modification rapide"
 
@@ -6226,7 +6226,7 @@ msgid "Bulk Edit"
 msgstr "Modifications groupées"
 
 #: wp-admin/includes/class-wp-posts-list-table.php:1679
-#: wp-admin/includes/class-wp-terms-list-table.php:711
+#: wp-admin/includes/class-wp-terms-list-table.php:721
 msgid "Quick Edit"
 msgstr "Modification rapide"
 
@@ -6297,7 +6297,7 @@ msgid "Format"
 msgstr "Format"
 
 #: wp-admin/includes/class-wp-posts-list-table.php:2026
-#: wp-admin/includes/class-wp-terms-list-table.php:748
+#: wp-admin/includes/class-wp-terms-list-table.php:758
 #: wp-admin/includes/dashboard.php:201 wp-admin/includes/file.php:1939
 #: wp-admin/includes/media.php:1745 wp-admin/includes/media.php:2288
 #: wp-admin/includes/meta-boxes.php:168 wp-admin/includes/meta-boxes.php:226
@@ -8696,58 +8696,58 @@ msgstr "La demande de bouclage vers votre site s’est bien terminée."
 msgid "A test is unavailable"
 msgstr "Un test n’est pas disponible"
 
-#: wp-admin/includes/class-wp-terms-list-table.php:201
-#: wp-admin/includes/class-wp-terms-list-table.php:223
+#: wp-admin/includes/class-wp-terms-list-table.php:202
+#: wp-admin/includes/class-wp-terms-list-table.php:224
 msgctxt "Number/count of items"
 msgid "Count"
 msgstr "Total"
 
-#: wp-admin/includes/class-wp-terms-list-table.php:214
+#: wp-admin/includes/class-wp-terms-list-table.php:215
 msgid "Table ordered hierarchically."
 msgstr "Tableau trié hiérarchiquement."
 
-#: wp-admin/includes/class-wp-terms-list-table.php:216
+#: wp-admin/includes/class-wp-terms-list-table.php:217
 msgid "Table ordered by Name."
 msgstr "Tableau trié par nom."
 
-#: wp-admin/includes/class-wp-terms-list-table.php:221
+#: wp-admin/includes/class-wp-terms-list-table.php:222
 msgid "Table ordered by Description."
 msgstr "Tableau trié par description."
 
-#: wp-admin/includes/class-wp-terms-list-table.php:222
+#: wp-admin/includes/class-wp-terms-list-table.php:223
 msgid "Table ordered by Slug."
 msgstr "Tableau trié par slug."
 
-#: wp-admin/includes/class-wp-terms-list-table.php:223
+#: wp-admin/includes/class-wp-terms-list-table.php:224
 msgid "Table ordered by Posts Count."
 msgstr "Tableau trié par nombre de publications."
 
-#: wp-admin/includes/class-wp-terms-list-table.php:224
+#: wp-admin/includes/class-wp-terms-list-table.php:225
 msgid "Links"
 msgstr "Liens"
 
-#: wp-admin/includes/class-wp-terms-list-table.php:224
+#: wp-admin/includes/class-wp-terms-list-table.php:225
 msgid "Table ordered by Links."
 msgstr "Tableau trié par liens."
 
 #. translators: %s: Taxonomy term name.
-#: wp-admin/includes/class-wp-terms-list-table.php:373
+#: wp-admin/includes/class-wp-terms-list-table.php:374
 msgctxt "taxonomy"
 msgid "Select %s"
 msgstr "Sélectionner %s"
 
 #. translators: %s: Taxonomy term name.
-#: wp-admin/includes/class-wp-terms-list-table.php:532
+#: wp-admin/includes/class-wp-terms-list-table.php:536
 msgid "Delete &#8220;%s&#8221;"
 msgstr "Supprimer « %s »"
 
 #. translators: %s: Object title.
-#: wp-admin/includes/class-wp-terms-list-table.php:542
+#: wp-admin/includes/class-wp-terms-list-table.php:546
 msgid "View &#8220;%s&#8221; archive"
 msgstr "Voir l’archive pour « %s »"
 
 #. translators: Hidden accessibility text.
-#: wp-admin/includes/class-wp-terms-list-table.php:591
+#: wp-admin/includes/class-wp-terms-list-table.php:595
 msgid "No description"
 msgstr "Aucune description"
 
@@ -11862,29 +11862,29 @@ msgid "To:"
 msgstr "Vers :"
 
 #. translators: %s: User's display name.
-#: wp-admin/includes/revision.php:419
+#: wp-admin/includes/revision.php:420
 msgid "Autosave by %s"
 msgstr "Sauvegarde automatique par %s"
 
 #. translators: %s: User's display name.
-#: wp-admin/includes/revision.php:429
+#: wp-admin/includes/revision.php:430
 msgid "Current Revision by %s"
 msgstr "Révision actuelle par %s"
 
 #. translators: %s: User's display name.
-#: wp-admin/includes/revision.php:439
+#: wp-admin/includes/revision.php:440
 msgid "Revision by %s"
 msgstr "Révision par %s"
 
-#: wp-admin/includes/revision.php:457
+#: wp-admin/includes/revision.php:459
 msgid "Restore This Autosave"
 msgstr "Rétablir cette sauvegarde automatique"
 
-#: wp-admin/includes/revision.php:459
+#: wp-admin/includes/revision.php:461
 msgid "Restore This Revision"
 msgstr "Rétablir cette révision"
 
-#: wp-admin/includes/revision.php:471
+#: wp-admin/includes/revision.php:473
 msgid ""
 "An error occurred while loading the comparison. Please refresh the page and "
 "try again."
