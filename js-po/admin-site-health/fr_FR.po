@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Retraceur - 2.0.0\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
-"POT-Creation-Date: 2025-05-31T09:09:09+00:00\n"
-"PO-Revision-Date: 2025-06-05 04:00+0200\n"
+"POT-Creation-Date: 2025-07-20T04:15:17+00:00\n"
+"PO-Revision-Date: 2025-07-21 08:33+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -13,58 +13,61 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: Poedit 3.6\n"
 
 #: wp-admin/js/site-health.js:40
 msgid "Site information has been copied to your clipboard."
 msgstr ""
 "Les informations sur le site ont été copiées dans votre presse-papiers."
 
-#: wp-admin/js/site-health.js:148
+#. Translators: %s. Amount of critical issues.
+#: wp-admin/js/site-health.js:149
 msgid "%s critical issue"
 msgid_plural "%s critical issues"
 msgstr[0] "%s problème critique"
 msgstr[1] "%s problèmes critiques"
 
-#: wp-admin/js/site-health.js:153
+#. Translators: %s. Amount of improvements.
+#: wp-admin/js/site-health.js:155
 msgid "%s recommended improvement"
 msgid_plural "%s recommended improvements"
 msgstr[0] "%s amélioration recommandée"
 msgstr[1] "%s améliorations recommandées"
 
-#: wp-admin/js/site-health.js:158
+#. Translators: %s. Amount of items without issues.
+#: wp-admin/js/site-health.js:161
 msgid "%s item with no issues detected"
 msgid_plural "%s items with no issues detected"
 msgstr[0] "%s élément sans problème détecté"
 msgstr[1] "%s éléments sans problème détectés"
 
-#: wp-admin/js/site-health.js:225
+#: wp-admin/js/site-health.js:228
 msgid "Good"
 msgstr "Bon"
 
-#: wp-admin/js/site-health.js:230
+#: wp-admin/js/site-health.js:233
 msgid "Should be improved"
 msgstr "Devrait être amélioré"
 
-#: wp-admin/js/site-health.js:289 wp-admin/js/site-health.js:310
+#: wp-admin/js/site-health.js:292 wp-admin/js/site-health.js:313
 msgid "No details available"
 msgstr "Aucun détail disponible"
 
-#: wp-admin/js/site-health.js:338
+#: wp-admin/js/site-health.js:341
 msgid "A test is unavailable"
 msgstr "Un test n’est pas disponible"
 
-#: wp-admin/js/site-health.js:341
+#: wp-admin/js/site-health.js:344
 msgid "Unavailable"
 msgstr "Indisponible"
 
-#: wp-admin/js/site-health.js:470
+#: wp-admin/js/site-health.js:473
 msgid "All site health tests have finished running. Your site is looking good."
 msgstr ""
 "Tous les tests liés à la santé du site sont terminés. Votre site se porte "
 "bien."
 
-#: wp-admin/js/site-health.js:473
+#: wp-admin/js/site-health.js:476
 msgid ""
 "All site health tests have finished running. There are items that should be "
 "addressed."
@@ -72,6 +75,6 @@ msgstr ""
 "Tous les tests liés à la santé du site sont terminés. Des éléments devraient "
 "être traités."
 
-#: wp-admin/js/site-health.js:476
+#: wp-admin/js/site-health.js:479
 msgid "Running additional tests... please wait."
 msgstr "Tests additionnels en cours… Merci de patienter."

@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Retraceur - 2.0.0\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
-"POT-Creation-Date: 2025-05-31T09:09:14+00:00\n"
-"PO-Revision-Date: 2025-06-05 04:09+0200\n"
+"POT-Creation-Date: 2025-07-20T04:16:53+00:00\n"
+"PO-Revision-Date: 2025-07-21 08:34+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: Poedit 3.6\n"
 
 #. translators: %s: Total number of updates available.
 #: wp-admin/js/updates.js:368
@@ -355,13 +355,12 @@ msgstr "Mettre à jour %s maintenant"
 msgid "Update canceled."
 msgstr "Mise à jour annulée."
 
-#. translators: %s: Plugin name.
+#. translators: %s: Plugin/Theme name.
 #: wp-admin/js/updates.js:2687
 msgid "Are you sure you want to delete %s and its data?"
 msgstr "Êtes vous certain·e de vouloir supprimer %s et ses données ?"
 
-#. translators: %s: Plugin name.
-#. translators: %s: Theme name.
+#. translators: %s: Plugin/Theme name.
 #: wp-admin/js/updates.js:2693 wp-admin/js/updates.js:2750
 msgid "Are you sure you want to delete %s?"
 msgstr "Êtes vous certain·e de vouloir supprimer %s ?"
