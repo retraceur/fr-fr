@@ -1,23 +1,24 @@
 {
-  "name": "fr-fr",
-  "version": "2.0.0",
-  "description": "French translation files for Retraceur",
-  "main": "index.js",
-  "scripts": {
-    "makejson": "./tools/makejson.sh"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/retraceur/fr-fr.git"
-  },
-  "keywords": [
-    "retraceur-language",
-    "french"
-  ],
-  "author": "imath",
-  "license": "GPL-2.0+",
-  "bugs": {
-    "url": "https://github.com/retraceur/fr-fr/issues"
-  },
-  "homepage": "https://github.com/retraceur/fr-fr#readme"
+	"name": "fr-fr",
+	"version": "2.0.0",
+	"description": "French translation files for Retraceur",
+	"main": "index.js",
+	"scripts": {
+		"makejson": "./tools/makejson.sh",
+		"i18n:php": "wp i18n make-php ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/retraceur/fr-fr.git"
+	},
+	"keywords": [
+		"retraceur-language",
+		"french"
+	],
+	"author": "imath",
+	"license": "GPL-2.0+",
+	"bugs": {
+		"url": "https://github.com/retraceur/fr-fr/issues"
+	},
+	"homepage": "https://github.com/retraceur/fr-fr#readme"
 }
