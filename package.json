@@ -4,7 +4,8 @@
   "description": "French translation files for Retraceur",
   "main": "index.js",
   "scripts": {
-    "makejson": "./tools/makejson.sh"
+    "makejson": "./tools/makejson.sh",
+		"i18n:php": "wp i18n make-php ."
   },
   "repository": {
     "type": "git",
