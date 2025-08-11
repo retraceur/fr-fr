@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Retraceur - 2.0.0\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
-"POT-Creation-Date: 2025-07-19T18:48:51+00:00\n"
-"PO-Revision-Date: 2025-07-21 08:32+0200\n"
+"POT-Creation-Date: 2025-08-10T16:44:40+00:00\n"
+"PO-Revision-Date: 2025-08-10 19:40+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -43,40 +43,50 @@ msgctxt "Message to convey that a webpage could not be found"
 msgid "The page you are looking for does not exist, or it has been moved."
 msgstr "La page que vous recherchez n’existe pas ou a été déplacée."
 
-#: wp-content/themes/point/patterns/entry-footer-archive-post-format-image.php:17 wp-content/themes/point/patterns/entry-footer-single-post-format-image.php:17
-msgctxt "Image post format \"Published on\" date separator"
-msgid ": published on"
-msgstr ": publiée le"
-
-#: wp-content/themes/point/patterns/entry-footer-archive-post-format-image.php:22 wp-content/themes/point/patterns/entry-footer-single-post-format-image.php:21 wp-content/themes/point/patterns/entry-header-post-format.php:21 wp-content/themes/point/patterns/entry-header.php:21
-msgctxt "\"by\" Author separator"
-msgid "by"
-msgstr "par"
-
-#: wp-content/themes/point/patterns/entry-footer.php:17
+#: wp-content/themes/point/patterns/entry-footer.php:19
 msgctxt "\"Published in\" category separator"
 msgid "Categorized in"
 msgstr "Catégorisé dans"
 
-#: wp-content/themes/point/patterns/entry-footer.php:20
+#: wp-content/themes/point/patterns/entry-footer.php:22
 msgctxt "\"Tagged\" tag separator"
 msgid "Tagged"
 msgstr "Étiqueté"
 
-#: wp-content/themes/point/patterns/entry-header-archive-post-format-status.php:17 wp-content/themes/point/patterns/entry-header-single-post-format-status.php:17
-msgctxt "Status post format \"Published on\" date separator"
-msgid "on"
-msgstr "Le"
-
-#: wp-content/themes/point/patterns/entry-header-post-format.php:16 wp-content/themes/point/patterns/entry-header-single.php:16 wp-content/themes/point/patterns/entry-header.php:16
+#: wp-content/themes/point/patterns/entry-header-single.php:20 wp-content/themes/point/patterns/entry-header.php:20
 msgctxt "\"Published on\" date separator"
 msgid "Published on"
 msgstr "Publié le"
 
-#: wp-content/themes/point/patterns/entry-header-single.php:20
+#: wp-content/themes/point/patterns/entry-header-single.php:24
 msgctxt "\"in\" category"
 msgid "in"
 msgstr "dans"
+
+#: wp-content/themes/point/patterns/entry-header-single.php:40 wp-content/themes/point/patterns/entry-header.php:42
+msgctxt "Link post format \"Published on\" date separator"
+msgid "shared this link on"
+msgstr "a partagé ce lien le "
+
+#: wp-content/themes/point/patterns/entry-header-single.php:45 wp-content/themes/point/patterns/entry-header.php:47
+msgctxt "Status post format \"Published on\" date separator"
+msgid "published this status update on"
+msgstr "a publié cette mise à jour de statut le"
+
+#: wp-content/themes/point/patterns/entry-header-single.php:50 wp-content/themes/point/patterns/entry-header.php:52
+msgctxt "Image post format \"Published on\" date separator"
+msgid "shared this photo on"
+msgstr "a partagé cette photo le"
+
+#: wp-content/themes/point/patterns/entry-header-single.php:55 wp-content/themes/point/patterns/entry-header.php:57
+msgctxt "Quote post format \"Published on\" date separator"
+msgid "referred to this quote on"
+msgstr "s’est référé à cette citation le"
+
+#: wp-content/themes/point/patterns/entry-header.php:25
+msgctxt "\"by\" Author separator"
+msgid "by"
+msgstr "par"
 
 #. Translators: %s: Retraceur link.
 #: wp-content/themes/point/patterns/footer.php:34 wp-includes/theme-compat/footer.php:25
@@ -980,10 +990,10 @@ msgstr "Article sans titre %d"
 msgid "The %s post format is not supported by this Theme."
 msgstr "Le format d’article %s n’est pas supporté par ce thème."
 
-#. Translators: 1: Post Format title. 2: Post ID.
-#: wp-includes/blocks/post-format-name.php:47 wp-includes/general-template.php:1491
-msgid "%1$s #%2$d"
-msgstr "%1$s n°%2$d"
+#. Translators: %d: Post ID.
+#: wp-includes/blocks/post-format-name.php:49
+msgid " #%d"
+msgstr "n°%d"
 
 #: wp-includes/blocks/post-navigation-link.php:42
 msgctxt "label for next post link"
@@ -3390,6 +3400,10 @@ msgstr "La modification de fichiers de thème n’est pas supportée par Retrace
 msgid "Editing plugin or theme files is not supported by Retraceur."
 msgstr "Retraceur ne prend pas en charge la modification des fichiers d’extensions ou de thèmes."
 
+#: wp-includes/deprecated.php:16493
+msgid "The WP Background Updates feature is not used by Retraceur fork."
+msgstr "La fonctionnalité de mises à jour en arrière plan de WP n'est pas prise en charge dans Retraceur."
+
 #: wp-includes/embed.php:342
 msgctxt "oEmbed resource link name"
 msgid "oEmbed (JSON)"
@@ -4098,6 +4112,11 @@ msgstr "Page %s"
 #: wp-includes/general-template.php:1413
 msgid "Search Results %1$s %2$s"
 msgstr "Résultats de recherche %1$s %2$s"
+
+#. Translators: 1: Post Format title. 2: Post ID.
+#: wp-includes/general-template.php:1491
+msgid "%1$s #%2$d"
+msgstr "%1$s n°%2$d"
 
 #: wp-includes/general-template.php:1736
 msgctxt "category archive title prefix"
@@ -10779,51 +10798,47 @@ msgstr "Détermine si le thème utilise le style des blocs Retraceur par défaut
 msgid "This function should not be called before the theme directory is registered."
 msgstr "Cette fonction ne devrait pas être utilisée avant que le répertoire du thème soit initialisé."
 
-#: wp-includes/update.php:135 wp-includes/update.php:357 wp-includes/update.php:639
+#: wp-includes/update.php:315 wp-includes/update.php:597
 msgid "An unexpected error occurred. Something may be wrong with this server&#8217;s configuration."
 msgstr "Une erreur imprévue s’est produite. Il pourrait y avoir un problème avec la configuration de ce serveur."
 
-#: wp-includes/update.php:135
-msgid "(Retraceur could not establish a secure connection to Core Updater. Please contact your server administrator.)"
-msgstr "(Retraceur n’a pas pu établir de connexion sécurisée vers l’outil de mise à jour du coeur. Merci de contacter l’administrateur·rice de votre serveur.)"
-
-#: wp-includes/update.php:357
+#: wp-includes/update.php:315
 msgid "(Retraceur could not establish a secure connection to Plugins updater. Please contact your server administrator.)"
 msgstr "(Retraceur n’a pas pu établir de connexion sécurisée vers l’outil de mise à jour des extensions. Merci de contacter l’administrateur·rice de votre serveur.)"
 
-#: wp-includes/update.php:639
+#: wp-includes/update.php:597
 msgid "(Retraceur could not establish a secure connection to Theme updater. Please contact your server administrator.)"
 msgstr "(Retraceur n’a pas pu établir de connexion sécurisée vers l’outil de mise à jour des thèmes. Merci de contacter l’administrateur·rice de votre serveur.)"
 
 #. translators: %d: Number of available Retraceur updates.
-#: wp-includes/update.php:881
+#: wp-includes/update.php:828
 msgid "%d Retraceur Update"
 msgstr "%d mise à jour de Retraceur"
 
 #. translators: %d: Number of available plugin updates.
-#: wp-includes/update.php:886
+#: wp-includes/update.php:833
 msgid "%d Plugin Update"
 msgid_plural "%d Plugin Updates"
 msgstr[0] "%d mise à jour d’extension"
 msgstr[1] "%d mises à jour d’extensions"
 
 #. translators: %d: Number of available theme updates.
-#: wp-includes/update.php:891
+#: wp-includes/update.php:838
 msgid "%d Theme Update"
 msgid_plural "%d Theme Updates"
 msgstr[0] "%d mise à jour de thème"
 msgstr[1] "%d mises à jour de thèmes"
 
-#: wp-includes/update.php:895
+#: wp-includes/update.php:842
 msgid "Translation Updates"
 msgstr "Mettre à jour les traductions"
 
-#: wp-includes/update.php:1057
+#: wp-includes/update.php:1009
 msgid "Could not access filesystem."
 msgstr "Impossible d’accéder au système de fichiers."
 
 #. translators: %s: Directory name.
-#: wp-includes/update.php:1065
+#: wp-includes/update.php:1017
 msgid "Unable to locate Retraceur content directory (%s)."
 msgstr "Impossible de localiser le répertoire de contenu de Retraceur (%s)."
 
@@ -12603,8 +12618,8 @@ msgstr "Portion de gabarit d’un format d’article"
 
 #: wp-includes/blocks/post-format-part/block.json
 msgctxt "block description"
-msgid "Displays Post Formats according to the one(s) specified within the include or exclude attributes."
-msgstr "Affiche les formats d'article en fonction de ceux spécifiés à l’aide des attributs « include » ou « exclude »."
+msgid "Only Displays contained block(s) when the current Post Format matches one of the Post Formats specified in settings."
+msgstr "Limite l’affichage des blocs contenus lorsque le format d’article courant correspond à l’un des formats d’article spécifiés dans les réglages."
 
 #: wp-includes/blocks/post-navigation-link/block.json
 msgctxt "block title"
@@ -13050,3 +13065,18 @@ msgstr "vidéo"
 msgctxt "block title"
 msgid "Widget Group"
 msgstr "Groupe de widgets"
+
+#~ msgctxt "Image post format \"Published on\" date separator"
+#~ msgid ": published on"
+#~ msgstr ": publiée le"
+
+#~ msgctxt "Status post format \"Published on\" date separator"
+#~ msgid "on"
+#~ msgstr "Le"
+
+#~ msgid "(Retraceur could not establish a secure connection to Core Updater. Please contact your server administrator.)"
+#~ msgstr "(Retraceur n’a pas pu établir de connexion sécurisée vers l’outil de mise à jour du coeur. Merci de contacter l’administrateur·rice de votre serveur.)"
+
+#~ msgctxt "block description"
+#~ msgid "Displays Post Formats according to the one(s) specified within the include or exclude attributes."
+#~ msgstr "Affiche les formats d'article en fonction de ceux spécifiés à l’aide des attributs « include » ou « exclude »."
