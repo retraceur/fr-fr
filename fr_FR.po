@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Retraceur - 2.0.0\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
-"POT-Creation-Date: 2025-08-10T16:44:40+00:00\n"
-"PO-Revision-Date: 2025-08-10 19:40+0200\n"
+"POT-Creation-Date: 2025-09-03T20:06:55+00:00\n"
+"PO-Revision-Date: 2025-09-03 22:34+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.7\n"
 
 #: wp-activate.php:26 wp-includes/deprecated.php:15849 wp-includes/deprecated.php:15883 wp-includes/deprecated.php:15923 wp-includes/deprecated.php:15968 wp-includes/deprecated.php:16019 wp-includes/deprecated.php:16036 wp-includes/deprecated.php:16088 wp-includes/deprecated.php:16123
 #: wp-includes/deprecated.php:16162 wp-includes/deprecated.php:16228 wp-includes/deprecated.php:16295
@@ -835,7 +835,7 @@ msgid "Cannot hook block to itself."
 msgstr "Impossible de crocheter un bloc à lui-même."
 
 #. translators: 1: Block type, 2: Typography supports key, e.g: fontSize, lineHeight, etc. 3: block.json, 4: Old metadata key, 5: New metadata key.
-#: wp-includes/blocks.php:2573
+#: wp-includes/blocks.php:2628
 msgid "Block \"%1$s\" is declaring %2$s support in %3$s file under %4$s. %2$s support is now declared under %5$s."
 msgstr "Le bloc « %1$s » déclare la prise en charge de %2$s dans le fichier « %3$s » dans %4$s. La prise en charge de %2$s est maintenant déclarée dans %5$s."
 
