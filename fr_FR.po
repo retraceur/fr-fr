@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Retraceur - 2.0.0\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
 "POT-Creation-Date: 2025-09-03T20:06:55+00:00\n"
-"PO-Revision-Date: 2025-09-03 22:34+0200\n"
+"PO-Revision-Date: 2025-09-14 12:35+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -993,7 +993,7 @@ msgstr "Le format d’article %s n’est pas supporté par ce thème."
 #. Translators: %d: Post ID.
 #: wp-includes/blocks/post-format-name.php:49
 msgid " #%d"
-msgstr "n°%d"
+msgstr " n°%d"
 
 #: wp-includes/blocks/post-navigation-link.php:42
 msgctxt "label for next post link"
