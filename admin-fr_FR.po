@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Retraceur - 2.0.0 - Administration\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
 "POT-Creation-Date: 2025-09-13T01:48:23+00:00\n"
-"PO-Revision-Date: 2025-09-13 04:11+0200\n"
+"PO-Revision-Date: 2025-09-20 13:40+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -211,7 +211,7 @@ msgstr "Aller aux mises à jour"
 
 #: wp-admin/about.php:147
 msgid "Go to Dashboard &rarr; Updates"
-msgstr "Aller sur Tableau de bord &rarr; Mises à jour"
+msgstr "Aller sur Tableau de bord &rarr; Mises à niveau"
 
 #: wp-admin/about.php:154
 msgid "Go to Dashboard &rarr; Home"
@@ -2769,7 +2769,7 @@ msgstr "Aller sur la page des extensions"
 #: wp-admin/includes/class-bulk-theme-upgrader-skin.php:85
 #: wp-admin/includes/class-language-pack-upgrader-skin.php:100
 msgid "Go to Retraceur Updates page"
-msgstr "Aller à la page des mises à jour de Retraceur"
+msgstr "Aller à la page des mises à niveau de Retraceur"
 
 #. translators: 1: Theme name, 2: Number of the theme, 3: Total number of themes being updated.
 #: wp-admin/includes/class-bulk-theme-upgrader-skin.php:42
@@ -8229,7 +8229,7 @@ msgstr "Évènements planifiés"
 
 #: wp-admin/includes/class-wp-site-health.php:2585
 msgid "Retraceur Coeur updates"
-msgstr "Mises à jour du cœur de Retraceur"
+msgstr "Mises à niveau du cœur de Retraceur"
 
 #: wp-admin/includes/class-wp-site-health.php:2589
 msgid "HTTP Requests"
@@ -13234,7 +13234,7 @@ msgstr "Accueil"
 #. translators: %s: Number of pending updates.
 #: wp-admin/menu.php:52
 msgid "Updates %s"
-msgstr "Mises à jour %s"
+msgstr "Mises à niveau %s"
 
 #: wp-admin/menu.php:70
 msgid "Library"
