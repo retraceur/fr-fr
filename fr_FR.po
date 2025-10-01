@@ -2,10 +2,10 @@
 # This file is distributed under the GPL-2.0+ license.
 msgid ""
 msgstr ""
-"Project-Id-Version: Retraceur - 2.0.0\n"
+"Project-Id-Version: Retraceur - 2.0.1\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
-"POT-Creation-Date: 2025-09-03T20:06:55+00:00\n"
-"PO-Revision-Date: 2025-09-14 12:35+0200\n"
+"POT-Creation-Date: 2025-10-01T18:16:47+00:00\n"
+"PO-Revision-Date: 2025-10-01 20:43+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -30,6 +30,7 @@ msgstr "Merci de télécharger et d’activer le module complémentaire « Retra
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: wp-content/themes/point/functions.php:71
+#, php-format
 msgid "Read more<span class=\"screen-reader-text\"> about \"%s\"</span>"
 msgstr "Lire la suite<span class=\"screen-reader-text\"> de \"%s\"</span>"
 
@@ -90,6 +91,7 @@ msgstr "par"
 
 #. Translators: %s: Retraceur link.
 #: wp-content/themes/point/patterns/footer.php:34 wp-includes/theme-compat/footer.php:25
+#, php-format
 msgid "♡ %s"
 msgstr "♡ %s"
 
@@ -113,11 +115,13 @@ msgstr "Rechercher…"
 
 #. translators: 1: Hook name, 2: Error code, 3: Error message, 4: Event data.
 #: wp-cron.php:135
+#, php-format
 msgid "Cron reschedule event error for hook: %1$s, Error code: %2$s, Error message: %3$s, Data: %4$s"
 msgstr "Erreur d’événement de replanification de tâche pour le crochet %1$s. Code d’erreur : %2$s. Message d’erreur : %3$s. Données : %4$s"
 
 #. translators: 1: Hook name, 2: Error code, 3: Error message, 4: Event data.
 #: wp-cron.php:162
+#, php-format
 msgid "Cron unschedule event error for hook: %1$s, Error code: %2$s, Error message: %3$s, Data: %4$s"
 msgstr "Erreur d’événement de déplanification de tâche pour le crochet %1$s. Code d’erreur : %2$s. Message d’erreur : %3$s. Données : %4$s"
 
@@ -137,6 +141,7 @@ msgstr "Menu"
 
 #. translators: %s: Current user's display name.
 #: wp-includes/admin-bar.php:232 wp-includes/admin-bar.php:244
+#, php-format
 msgid "Howdy, %s"
 msgstr "Bonjour, %s"
 
@@ -150,11 +155,13 @@ msgstr "Se déconnecter"
 
 #. translators: %s: Site title.
 #: wp-includes/admin-bar.php:337
+#, php-format
 msgid "Network Admin: %s"
 msgstr "Administrateur·rice du réseau : %s"
 
 #. translators: %s: Site title.
 #: wp-includes/admin-bar.php:340
+#, php-format
 msgid "Contributor Dashboard: %s"
 msgstr "Tableau de bord du·de la contributeur·rice : %s"
 
@@ -241,6 +248,7 @@ msgstr "Entête"
 
 #. translators: Hidden accessibility text. %s: Total number of updates available.
 #: wp-includes/admin-bar.php:982
+#, php-format
 msgid "%s update available"
 msgid_plural "%s updates available"
 msgstr[0] "%s mise à jour disponible"
@@ -261,26 +269,31 @@ msgstr "L’extension XML de PHP n’est pas disponible. Merci de contacter votr
 
 #. translators: 1: Error message, 2: Line number.
 #: wp-includes/atomlib.php:181
+#, php-format
 msgid "XML Error: %1$s at line %2$s"
 msgstr "Erreur XML : %1$s à la ligne %2$s"
 
 #. translators: %s: get_the_author()
 #: wp-includes/author-template.php:71
+#, php-format
 msgid "Use %s instead if you do not want the value echoed."
 msgstr "Si vous ne souhaitez pas que la valeur soit affichée avec echo, utilisez plutôt %s."
 
 #. translators: %s: Author's display name.
 #: wp-includes/author-template.php:242
+#, php-format
 msgid "Visit %s&#8217;s website"
 msgstr "Aller sur le site de %s"
 
 #. translators: %s: Author's display name.
 #: wp-includes/author-template.php:319 wp-includes/author-template.php:530
+#, php-format
 msgid "Posts by %s"
 msgstr "Articles de %s"
 
 #. translators: 1: User's first name, 2: Last name.
 #: wp-includes/author-template.php:508 wp-includes/user.php:945 wp-includes/user.php:2378
+#, php-format
 msgctxt "Display name based on first name and last name"
 msgid "%1$s %2$s"
 msgstr "%1$s %2$s"
@@ -520,6 +533,7 @@ msgstr "Divers designs d’entêtes affichant le titre et la navigation de votre
 
 #. translators: %s: file name.
 #: wp-includes/block-patterns.php:234
+#, php-format
 msgid "Could not register file \"%s\" as a block pattern as the file does not exist."
 msgstr "Impossible d’enregistrer le fichier « %s » comme composition de blocs car le fichier n’existe pas."
 
@@ -747,48 +761,57 @@ msgstr "S’affiche quand un internaute visite une page qui n’existe pas, en s
 
 #. translators: %s: Post format name.
 #: wp-includes/block-template-utils.php:218
+#, php-format
 msgctxt "Template name"
 msgid "Single Post Format entries: %s"
 msgstr "Entrées uniques du format d’article : %s"
 
 #. translators: %s: Post format name.
 #: wp-includes/block-template-utils.php:223
+#, php-format
 msgid "Displays the %s post format single entry."
 msgstr "Affiche la page unique du format d’article : %s."
 
 #. translators: %s: Post format name.
 #: wp-includes/block-template-utils.php:230
+#, php-format
 msgctxt "Template name"
 msgid "Post Format: %s"
 msgstr "Format de publication : %s"
 
 #. translators: %s: Post format name.
 #: wp-includes/block-template-utils.php:235
+#, php-format
 msgid "Displays the %s post format archive."
 msgstr "Affiche la page des archives du format de publication : %s."
 
 #. translators: %1$s: Template area type, %2$s: the uncategorized template area value.
 #: wp-includes/block-template-utils.php:283
+#, php-format
 msgid "\"%1$s\" is not a supported wp_template_part area value and has been added as \"%2$s\"."
 msgstr "« %1$s » n’est pas une valeur de zone « wp_template_part » prise en charge et a été ajoutée en tant que « %2$s »."
 
 #. translators: 1: Object singular name, 2: Object slug.
 #: wp-includes/block-template-utils.php:713 wp-includes/block-template-utils.php:790
+#, php-format
 msgid "Not found: %1$s (%2$s)"
 msgstr "Non trouvé : %1$s (%2$s)"
 
 #. translators: 1: Object singular name, 2: Object title.
 #: wp-includes/block-template-utils.php:725 wp-includes/block-template-utils.php:801
+#, php-format
 msgid "%1$s: %2$s"
 msgstr "%1$s : %2$s"
 
 #. translators: %s: Object title or name.
 #: wp-includes/block-template-utils.php:732 wp-includes/block-template-utils.php:808 wp-includes/block-template-utils.php:982
+#, php-format
 msgid "Template for %s"
 msgstr "Gabarit pour %s"
 
 #. translators: 1: Template title, 2: Template slug.
 #: wp-includes/block-template-utils.php:746 wp-includes/block-template-utils.php:825 wp-includes/block-template-utils.php:998
+#, php-format
 msgid "%1$s (%2$s)"
 msgstr "%1$s (%2$s)"
 
@@ -798,11 +821,13 @@ msgstr "Aucun thème n’est défini pour ce gabarit."
 
 #. translators: Custom template title in the Site Editor, referencing a deleted author. %s: Author nicename.
 #: wp-includes/block-template-utils.php:968
+#, php-format
 msgid "Deleted author: %s"
 msgstr "Auteur·rice supprimé·e : %s"
 
 #. translators: Custom template title in the Site Editor. %s: Author name.
 #: wp-includes/block-template-utils.php:976
+#, php-format
 msgid "Author: %s"
 msgstr "Auteur·rice : %s"
 
@@ -836,6 +861,7 @@ msgstr "Impossible de crocheter un bloc à lui-même."
 
 #. translators: 1: Block type, 2: Typography supports key, e.g: fontSize, lineHeight, etc. 3: block.json, 4: Old metadata key, 5: New metadata key.
 #: wp-includes/blocks.php:2628
+#, php-format
 msgid "Block \"%1$s\" is declaring %2$s support in %3$s file under %4$s. %2$s support is now declared under %5$s."
 msgstr "Le bloc « %1$s » déclare la prise en charge de %2$s dans le fichier « %3$s » dans %4$s. La prise en charge de %2$s est maintenant déclarée dans %5$s."
 
@@ -869,11 +895,13 @@ msgstr "Aucune archive à afficher."
 
 #. translators: %s: Author name.
 #: wp-includes/blocks/avatar.php:51
+#, php-format
 msgid "%s Avatar"
 msgstr "Image de profil de %s"
 
 #. translators: %s is the Author name.
 #: wp-includes/blocks/avatar.php:66
+#, php-format
 msgid "(%s author archive, opens in a new tab)"
 msgstr "(Archive de l’auteur·rice %s, s’ouvre dans un nouvel onglet)"
 
@@ -888,12 +916,14 @@ msgstr "Le bloc calendrier est masqué car il n’y a aucun article publié."
 
 #. translators: %s: Taxonomy term name
 #: wp-includes/blocks/categories.php:48
+#, php-format
 msgctxt "taxonomy"
 msgid "Select %s"
 msgstr "Sélectionner %s"
 
 #. translators: %s: filename.
 #: wp-includes/blocks/file.php:37
+#, php-format
 msgid "Embed of %s."
 msgstr "Contenu embarqué %s."
 
@@ -903,6 +933,7 @@ msgstr "PDF embarqué"
 
 #. Translators: %d: Integer representing the number of return links on the page.
 #: wp-includes/blocks/footnotes.php:50
+#, php-format
 msgid "Jump to footnote reference %1$d"
 msgstr "Aller à la note de bas de page %1$d"
 
@@ -932,11 +963,13 @@ msgstr "(pas de titre)"
 
 #. translators: byline. %s: author.
 #: wp-includes/blocks/latest-posts.php:129 wp-includes/blocks/rss.php:69
+#, php-format
 msgid "by %s"
 msgstr "par %s"
 
 #. translators: 1: A URL to a post, 2: Hidden accessibility text: Post title
 #: wp-includes/blocks/latest-posts.php:163
+#, php-format
 msgid "… <a class=\"wp-block-latest-posts__read-more\" href=\"%1$s\" rel=\"noopener noreferrer\">Read more<span class=\"screen-reader-text\">: %2$s</span></a>"
 msgstr "… <a class=\"wp-block-latest-posts__read-more\" href=\"%1$s\" rel=\"noopener noreferrer\">Lire la suite<span class=\"screen-reader-text\"> : %2$s</span></a>"
 
@@ -954,6 +987,7 @@ msgstr "Un lien vers un format d’article"
 
 #. translators: Accessibility text. %s: Parent page title.
 #: wp-includes/blocks/navigation-submenu.php:138 wp-includes/blocks/page-list.php:202
+#, php-format
 msgid "%s submenu"
 msgstr "Sous-menu %s"
 
@@ -967,31 +1001,37 @@ msgstr "Fermer le menu"
 
 #. translators: Visible only in the front end, this warning takes the place of a faulty block. %s represents a pattern's slug.
 #: wp-includes/blocks/pattern.php:56
+#, php-format
 msgid "[block rendering halted for pattern \"%s\"]"
 msgstr "[rendu du bloc interrompu pour la composition « %s »]"
 
 #. translators: %s: Human-readable time difference.
 #: wp-includes/blocks/post-date.php:31 wp-includes/script-loader.php:433
+#, php-format
 msgid "%s from now"
 msgstr "Dans %s"
 
 #. translators: %s: Human-readable time difference.
 #: wp-includes/blocks/post-date.php:34 wp-includes/blocks/post-date.php:57 wp-includes/rest-api/endpoints/class-wp-rest-block-directory-controller.php:145 wp-includes/script-loader.php:435
+#, php-format
 msgid "%s ago"
 msgstr "il y a %s"
 
 #. translators: %d is the post ID.
 #: wp-includes/blocks/post-featured-image.php:37
+#, php-format
 msgid "Untitled post %d"
 msgstr "Article sans titre %d"
 
 #. Translators: %s: Post Format name.
 #: wp-includes/blocks/post-format-name.php:42
+#, php-format
 msgid "The %s post format is not supported by this Theme."
 msgstr "Le format d’article %s n’est pas supporté par ce thème."
 
 #. Translators: %d: Post ID.
 #: wp-includes/blocks/post-format-name.php:49
+#, php-format
 msgid " #%d"
 msgstr " n°%d"
 
@@ -1017,6 +1057,7 @@ msgstr "Précédent :"
 
 #. translators: %s: taxonomy's label
 #: wp-includes/blocks/post-terms.php:95
+#, php-format
 msgid "Display a list of assigned terms from the taxonomy: %s"
 msgstr "Affiche la liste des termes assignés de la taxonomie : %s"
 
@@ -1038,21 +1079,25 @@ msgstr "Résultats de recherche"
 
 #. translators: %s is the search term.
 #: wp-includes/blocks/query-title.php:48
+#, php-format
 msgid "Search results for: \"%s\""
 msgstr "Résultats de recherche pour « %s »"
 
 #. translators: 1: Start index of posts, 2: Total number of posts
 #: wp-includes/blocks/query-total.php:49
+#, php-format
 msgid "Displaying %1$s of %2$s"
 msgstr "Affichage de %1$s de %2$s"
 
 #. translators: 1: Start index of posts, 2: End index of posts, 3: Total number of posts
 #: wp-includes/blocks/query-total.php:56
+#, php-format
 msgid "Displaying %1$s – %2$s of %3$s"
 msgstr "Affichage de %1$s - %2$s de %3$s"
 
 #. translators: %d: number of results.
 #: wp-includes/blocks/query-total.php:68
+#, php-format
 msgid "%d result found"
 msgid_plural "%d results found"
 msgstr[0] "%d résultat trouvé"
@@ -1060,11 +1105,13 @@ msgstr[1] "%d résultats trouvés"
 
 #. translators: %s is post ID to describe the link for screen readers.
 #: wp-includes/blocks/read-more.php:30
+#, php-format
 msgid "untitled post %s"
 msgstr "publication sans titre %s"
 
 #. translators: %s is either the post title or post ID to describe the link for screen readers.
 #: wp-includes/blocks/read-more.php:36
+#, php-format
 msgid ": %s"
 msgstr " : %s"
 
@@ -1118,6 +1165,7 @@ msgstr "Il n’y a aucun contenu à afficher ici pour l’instant."
 
 #. translators: %s: Template part slug.
 #: wp-includes/blocks/template-part.php:124
+#, php-format
 msgid "Template part has been deleted or is unavailable: %s"
 msgstr "La portion de gabarit a été supprimée ou n’est pas disponible : %s"
 
@@ -1131,31 +1179,37 @@ msgstr "Votre implémentation du cache objets ne prend pas en charge la vidange 
 
 #. translators: %s: Capability name.
 #: wp-includes/capabilities.php:82 wp-includes/capabilities.php:189 wp-includes/capabilities.php:288 wp-includes/capabilities.php:381 wp-includes/capabilities.php:434
+#, php-format
 msgid "When checking for the %s capability, you must always check it against a specific post."
 msgstr "Lors de la vérification de la capacité %s, vous devez toujours la comparer avec une publication spécifique."
 
 #. translators: %s: Capability name.
 #: wp-includes/capabilities.php:85 wp-includes/capabilities.php:192 wp-includes/capabilities.php:291
+#, php-format
 msgid "When checking for the %s capability, you must always check it against a specific page."
 msgstr "Lors de la vérification de la capacité %s, vous devez toujours la comparer avec une page spécifique."
 
 #. translators: 1: Post type, 2: Capability name.
 #: wp-includes/capabilities.php:119 wp-includes/capabilities.php:222 wp-includes/capabilities.php:321 wp-includes/capabilities.php:402
+#, php-format
 msgid "The post type %1$s is not registered, so it may not be reliable to check the capability %2$s against a post of that type."
 msgstr "Le type de publication %1$s n’est pas enregistré. Il n’est donc pas possible de vérifier de manière fiable que la permission « %2$s » correspond à ce type de publication."
 
 #. translators: 1: Post status, 2: Capability name.
 #: wp-includes/capabilities.php:349
+#, php-format
 msgid "The post status %1$s is not registered, so it may not be reliable to check the capability %2$s against a post with that status."
 msgstr "L’état %1$s de la publication n’est pas enregistré et pourrait ne pas être fiable lors de la vérification de la capacité « %2$s » d’une publication ayant ce statut."
 
 #. translators: %s: Capability name.
 #: wp-includes/capabilities.php:437 wp-includes/capabilities.php:666
+#, php-format
 msgid "When checking for the %s capability, you must always check it against a specific term."
 msgstr "Lors de la vérification de la capacité %s, vous devez toujours la comparer à un terme spécifique."
 
 #. translators: %s: Capability name.
 #: wp-includes/capabilities.php:440
+#, php-format
 msgid "When checking for the %s capability, you must always check it against a specific contributor."
 msgstr "Lors de la vérification de la capacité %s, vous devez toujours la comparer avec un·e contributeur·rice spécifique."
 
@@ -1203,6 +1257,7 @@ msgstr "Catégories"
 
 #. translators: %s: Number of items (tags).
 #: wp-includes/category-template.php:861 wp-includes/category-template.php:872
+#, php-format
 msgid "%s item"
 msgid_plural "%s items"
 msgstr[0] "%s élément"
@@ -1222,11 +1277,13 @@ msgstr "La classe SMTP a été déplacée vers le sous-répertoire wp-includes/P
 
 #. translators: %s: Category name.
 #: wp-includes/class-walker-category.php:173
+#, php-format
 msgid "Feed for all posts filed under %s"
 msgstr "Flux pour tous les articles classés dans %s"
 
 #. translators: %d: ID of a post.
 #: wp-includes/class-walker-page-dropdown.php:83 wp-includes/class-walker-page.php:166
+#, php-format
 msgid "#%d (no title)"
 msgstr "#%d (pas de titre)"
 
@@ -1276,6 +1333,7 @@ msgstr "Les noms de source des attaches de bloc doivent contenir un préfixe esp
 
 #. translators: %s: Block bindings source name.
 #: wp-includes/class-wp-block-bindings-registry.php:132
+#, php-format
 msgid "Block bindings source \"%s\" already registered."
 msgstr "Source des attaches de bloc « %s » déjà enregistrée."
 
@@ -1301,11 +1359,13 @@ msgstr "Le tableau $source_properties contient des propriétés non valides."
 
 #. translators: %s: Block bindings source name.
 #: wp-includes/class-wp-block-bindings-registry.php:210
+#, php-format
 msgid "Block binding \"%s\" not found."
 msgstr "Attache de bloc « %s » non trouvée."
 
 #. translators: %s: list of allowed collection roots
 #: wp-includes/class-wp-block-metadata-registry.php:129
+#, php-format
 msgid "Block metadata collections cannot be registered as one of the following directories or their parent directories: %s"
 msgstr "Les collections de métadonnées de bloc ne peuvent être mises en registre comme un des répertoires ou parent de ces répertoires suivants : %s"
 
@@ -1323,6 +1383,7 @@ msgstr "La catégorie de composition de bloc doit être une chaîne."
 
 #. translators: %s: Block pattern name.
 #: wp-includes/class-wp-block-pattern-categories-registry.php:94
+#, php-format
 msgid "Block pattern category \"%s\" not found."
 msgstr "Catégorie de composition « %s » non trouvée."
 
@@ -1340,6 +1401,7 @@ msgstr "Le contenu de la composition doit être une chaîne."
 
 #. translators: %s: Pattern name.
 #: wp-includes/class-wp-block-patterns-registry.php:151
+#, php-format
 msgid "Pattern \"%s\" not found."
 msgstr "La composition « %s » n’a pas été trouvée."
 
@@ -1357,6 +1419,7 @@ msgstr "Le nom du style de bloc ne doit contenir aucun espace."
 
 #. translators: 1: Block name, 2: Block style name.
 #: wp-includes/class-wp-block-styles-registry.php:125
+#, php-format
 msgid "Block \"%1$s\" does not contain a style named \"%2$s\"."
 msgstr "Le bloc « %1$s » ne contient pas de style nommé « %2$s »."
 
@@ -1374,11 +1437,13 @@ msgstr "Les noms de gabarits doivent contenir un préfixe constitué d’un espa
 
 #. translators: %s: Template name.
 #: wp-includes/class-wp-block-templates-registry.php:60
+#, php-format
 msgid "Template \"%s\" is already registered."
 msgstr "Le gabarit « %s » est déjà enregistré."
 
 #. translators: %s: Template name.
 #: wp-includes/class-wp-block-templates-registry.php:229 wp-includes/class-wp-block-templates-registry.php:233
+#, php-format
 msgid "Template \"%s\" is not registered."
 msgstr "Le gabarit « %s » n’est pas enregistré."
 
@@ -1396,41 +1461,49 @@ msgstr "Les noms de types de bloc doivent contenir un préfixe d’espace de nom
 
 #. translators: %s: Block name.
 #: wp-includes/class-wp-block-type-registry.php:89
+#, php-format
 msgid "Block type \"%s\" is already registered."
 msgstr "Le type de de bloc \"%s\" est déjà enregistré."
 
 #. translators: %s: Block name.
 #: wp-includes/class-wp-block-type-registry.php:122
+#, php-format
 msgid "Block type \"%s\" is not registered."
 msgstr "Le type de bloc « %s » n’est pas enregistré."
 
 #. translators: %s: The '$value' argument.
 #: wp-includes/class-wp-block-type.php:441
+#, php-format
 msgid "The %s argument must be a string or a string array."
 msgstr "L‘argument %s doit être une chaine ou un tableau."
 
 #. translators: Date query invalid date message. 1: Invalid value, 2: Type of value, 3: Minimum valid value, 4: Maximum valid value.
 #: wp-includes/class-wp-date-query.php:405
+#, php-format
 msgid "Invalid value %1$s for %2$s. Expected value should be between %3$s and %4$s."
 msgstr "Valeur %1$s non valide pour %2$s. La valeur attendue doit se trouver entre %3$s et %4$s."
 
 #. translators: 1: Year, 2: Month, 3: Day of month.
 #: wp-includes/class-wp-date-query.php:435
+#, php-format
 msgid "The following values do not describe a valid date: year %1$s, month %2$s, day %3$s."
 msgstr "Les valeurs suivantes ne décrivent pas une date valide : année %1$s, mois %2$s, jour %3$s."
 
 #. translators: 1: Month, 2: Day of month.
 #: wp-includes/class-wp-date-query.php:451
+#, php-format
 msgid "The following values do not describe a valid date: month %1$s, day %2$s."
 msgstr "Les valeurs suivantes ne décrivent pas une date valide : mois de %1$s, jour %2$s."
 
 #. translators: 1: Duotone colors, 2: theme.json, 3: settings.color.duotone
 #: wp-includes/class-wp-duotone.php:676
+#, php-format
 msgid "\"%1$s\" in %2$s %3$s is not a hex or rgb string."
 msgstr "« %1$s » dans %2$s %3$s n’est pas une chaine hexadécimale ou RGB."
 
 #. translators: 1: Duotone filter ID, 2: theme.json
 #: wp-includes/class-wp-duotone.php:906
+#, php-format
 msgid "The duotone id \"%1$s\" is not registered in %2$s settings"
 msgstr "L’ID duotone « %1$s » n’est pas enregistré dans les réglages du %2$s"
 
@@ -1456,6 +1529,7 @@ msgstr "Ce fichier est uniquement chargé pour la rétro-compatibilité avec Sim
 
 #. translators: 1: fopen(), 2: File name.
 #: wp-includes/class-wp-http-curl.php:201 wp-includes/class-wp-http-streams.php:302
+#, php-format
 msgid "Could not open handle for %1$s to %2$s."
 msgstr "Impossible d’ouvrir une prise en main de %1$s pour %2$s."
 
@@ -1537,16 +1611,19 @@ msgstr "L’image ne peut pas être tournée car les métadonnées embarquées n
 
 #. translators: %s: PHP function name.
 #: wp-includes/class-wp-image-editor-imagick.php:953
+#, php-format
 msgid "%s failed while writing image to stream."
 msgstr "%s a échoué lors de l’écriture de l’image dans le flux."
 
 #. translators: %s: Directory path.
 #: wp-includes/class-wp-image-editor-imagick.php:969 wp-includes/functions.php:2219 wp-includes/functions.php:2753
+#, php-format
 msgid "Unable to create directory %s. Is its parent directory writable by the server?"
 msgstr "Impossible de créer le dossier %s. Son dossier parent est-il accessible en écriture par le serveur ?"
 
 #. translators: %s: ImageMagick method name.
 #: wp-includes/class-wp-image-editor-imagick.php:1025 wp-includes/class-wp-image-editor-imagick.php:1036
+#, php-format
 msgid "%s is required to strip image meta."
 msgstr "%s est nécessaire pour supprimer les métadonnées de l’image."
 
@@ -1951,6 +2028,7 @@ msgstr "La clé du cache ne doit pas être une chaîne vide."
 
 #. translators: %s: The type of the given cache key.
 #: wp-includes/class-wp-object-cache.php:160
+#, php-format
 msgid "Cache key must be an integer or a non-empty string, %s given."
 msgstr "La clé de cache doit être un entier ou une chaîne non-vide, avec le type %s renseigné."
 
@@ -1988,6 +2066,7 @@ msgstr "Erreur SMTP : Impossible de s'authentifier."
 
 #. translators: 1: mail.add_x_header. 2: php.ini
 #: wp-includes/class-wp-phpmailer.php:47
+#, php-format
 msgid "Your version of PHP is affected by a bug that may result in corrupted messages. To fix it, switch to sending using SMTP, disable the %1$s option in your %2$s, or switch to MacOS or Linux, or upgrade your PHP version."
 msgstr "Votre version de PHP est affectée par un bogue qui peut entraîner des messages corrompus. Pour y remédier, passez à l'envoi par SMTP, désactivez l'option %1$s dans votre %2$s, passez à MacOS ou Linux, ou mettez à jour votre version de PHP."
 
@@ -2110,6 +2189,7 @@ msgstr "Certaines extensions requises sont manquantes ou inactives."
 
 #. translators: %s: Link to the plugins page.
 #: wp-includes/class-wp-plugin-dependencies.php:380 wp-includes/class-wp-plugin-dependencies.php:389
+#, php-format
 msgid "<a href=\"%s\">Manage plugins</a>."
 msgstr "<a href=\"%s\">Gérer les extensions</a>."
 
@@ -2119,6 +2199,7 @@ msgstr "Merci de contacter votre administrateur·rice réseau."
 
 #. translators: 1: First plugin name, 2: Second plugin name.
 #: wp-includes/class-wp-plugin-dependencies.php:422
+#, php-format
 msgctxt "The first plugin requires the second plugin."
 msgid "%1$s requires %2$s"
 msgstr "%1$s nécessite l’installation de %2$s"
@@ -2145,6 +2226,7 @@ msgstr "L’extension n’a pas d’extensions requises."
 
 #. translators: %s: A list of inactive dependency plugin names.
 #: wp-includes/class-wp-plugin-dependencies.php:525
+#, php-format
 msgid "The following plugins must be activated first: %s."
 msgstr "Les extensions suivantes doivent d’abord être activées : %s."
 
@@ -2431,6 +2513,7 @@ msgstr "le,la,les,de,des,un,uns,une,unes,et,a,à,il,elle,on,ne,je,tu,nous,vous,i
 
 #. translators: 1: Deprecated argument key, 2: Valid argument key.
 #: wp-includes/class-wp-query.php:1934 wp-includes/class-wp-user-query.php:407
+#, php-format
 msgid "%1$s is deprecated. Use %2$s instead."
 msgstr "%1$s est obsolète. Utilisez %2$s à la place."
 
@@ -2482,11 +2565,13 @@ msgstr "Impossible de mettre à jour l’heure de dernier envoi du courriel."
 
 #. translators: %s: mail()
 #: wp-includes/class-wp-recovery-mode-email-service.php:74
+#, php-format
 msgid "The email could not be sent. Possible reason: your host may have disabled the %s function."
 msgstr "Le courriel n’a pas pu être envoyé. Raison possible : votre hébergeur peut avoir désactivé la fonction %s."
 
 #. translators: 1: Last sent as a human time diff, 2: Wait time as a human time diff.
 #: wp-includes/class-wp-recovery-mode-email-service.php:82
+#, php-format
 msgid "A recovery link was already sent %1$s ago. Please wait another %2$s before requesting a new email."
 msgstr "Un lien de récupération a déjà été envoyé il y a %1$s. Merci d’attendre %2$s avant de demander un l’envoi d’un nouveau courriel."
 
@@ -2542,36 +2627,43 @@ msgstr ""
 
 #. translators: %s: Site title.
 #: wp-includes/class-wp-recovery-mode-email-service.php:202
+#, php-format
 msgid "[%s] Your Site is Experiencing a Technical Issue"
 msgstr "[%s] Votre site connaît un problème technique"
 
 #. translators: %s: Plugin name.
 #: wp-includes/class-wp-recovery-mode-email-service.php:282
+#, php-format
 msgid "In this case, Retraceur caught an error with one of your plugins, %s."
 msgstr "Ici, Retraceur a trouvé une erreur avec l’une de vos extensions, « %s »."
 
 #. translators: %s: Theme name.
 #: wp-includes/class-wp-recovery-mode-email-service.php:288
+#, php-format
 msgid "In this case, Retraceur caught an error with your theme, %s."
 msgstr "Ici, Retraceur a trouvé une erreur avec votre thème, « %s »."
 
 #. translators: %s: Current Retraceur version number.
 #: wp-includes/class-wp-recovery-mode-email-service.php:354
+#, php-format
 msgid "Retraceur version %s"
 msgstr "Retraceur version %s"
 
 #. translators: 1: Current active theme name. 2: Current active theme version.
 #: wp-includes/class-wp-recovery-mode-email-service.php:359
+#, php-format
 msgid "Active theme: %1$s (version %2$s)"
 msgstr "Thème actif : %1$s (version %2$s)"
 
 #. translators: 1: The failing plugins name. 2: The failing plugins version.
 #: wp-includes/class-wp-recovery-mode-email-service.php:368
+#, php-format
 msgid "Current plugin: %1$s (version %2$s)"
 msgstr "Extension actuelle : %1$s (version %2$s)"
 
 #. translators: %s: The currently used PHP version.
 #: wp-includes/class-wp-recovery-mode-email-service.php:376
+#, php-format
 msgid "PHP version %s"
 msgstr "PHP version %s"
 
@@ -2625,56 +2717,67 @@ msgstr "Notifications"
 
 #. translators: 1: $l10n, 2: wp_add_inline_script()
 #: wp-includes/class-wp-scripts.php:575
+#, php-format
 msgid "The %1$s parameter must be an array. To pass arbitrary data to scripts, use the %2$s function instead."
 msgstr "Le paramètre %1$s doit être un tableau. Pour transmettre des données arbitraires aux scripts, utilisez plutôt la fonction %2$s."
 
 #. translators: 1: $strategy, 2: $handle
 #: wp-includes/class-wp-scripts.php:815
+#, php-format
 msgid "Invalid strategy `%1$s` defined for `%2$s` during script registration."
 msgstr "Stratégie `%1$s` incorrecte définie pour `%2$s` lors la déclaration du script."
 
 #. translators: 1: $strategy, 2: $handle
 #: wp-includes/class-wp-scripts.php:827
+#, php-format
 msgid "Cannot supply a strategy `%1$s` for script `%2$s` because it is an alias (it lacks a `src` value)."
 msgstr "Impossible d’établir une stratégie `%1$s` pour le script `%2$s` car il s’agit d’un alias (la valeur `src` est manquante)."
 
 #. translators: %s: invalid mode value
 #: wp-includes/class-wp-speculation-rules.php:86
+#, php-format
 msgid "The value \"%s\" is not a valid speculation rules mode."
 msgstr "La valeur « %s » n’est pas une règle de spéculation valide."
 
 #. translators: %s: invalid ID value
 #: wp-includes/class-wp-speculation-rules.php:99
+#, php-format
 msgid "The value \"%s\" is not a valid ID for a speculation rule."
 msgstr "La valeur « %s » n’est pas un identifiant valide de règle de spéculation."
 
 #. translators: %s: invalid ID value
 #: wp-includes/class-wp-speculation-rules.php:112
+#, php-format
 msgid "A speculation rule with ID \"%s\" already exists."
 msgstr "Une règle de spéculation ayant pour identifiant « %s » existe déjà."
 
 #. translators: 1: allowed key, 2: alternative allowed key
 #: wp-includes/class-wp-speculation-rules.php:134
+#, php-format
 msgid "A speculation rule must include either a \"%1$s\" key or a \"%2$s\" key, but not both."
 msgstr "Une règle de spéculation doit soit inclure une clé « %1$s » soit une clé « %2$s », mais pas les deux à la fois."
 
 #. translators: %s: invalid source value
 #: wp-includes/class-wp-speculation-rules.php:148
+#, php-format
 msgid "The value \"%s\" is not a valid source for a speculation rule."
 msgstr "La valeur « %s » n’est pas une donnée source valide pour une règle de spéculation."
 
 #. translators: 1: source value, 2: forbidden key
 #: wp-includes/class-wp-speculation-rules.php:161 wp-includes/class-wp-speculation-rules.php:175
+#, php-format
 msgid "A speculation rule of source \"%1$s\" must not include a \"%2$s\" key."
 msgstr "Une règle de spéculation ayant pour source « %1$s » ne doit pas inclure une clé « %2$s »."
 
 #. translators: %s: invalid eagerness value
 #: wp-includes/class-wp-speculation-rules.php:192
+#, php-format
 msgid "The value \"%s\" is not a valid eagerness for a speculation rule."
 msgstr "La valeur « %s » n’est pas une donnée d’empressement valide pour une règle de spéculation."
 
 #. translators: %s: forbidden eagerness value
 #: wp-includes/class-wp-speculation-rules.php:205
+#, php-format
 msgid "The eagerness value \"%s\" is forbidden for document-level speculation rules."
 msgstr "La valeur de la donnée d’empressement « %s » est proscrite dans les règles de spéculation au niveau du document."
 
@@ -2896,6 +2999,7 @@ msgstr "Inchangé :"
 
 #. translators: 1: theme.json, 2: Value name, 3: Value path, 4: Another value name.
 #: wp-includes/class-wp-theme-json.php:2487
+#, php-format
 msgid "Your %1$s file uses a dynamic value (%2$s) for the path at %3$s. However, the value at %3$s is also a dynamic value (pointing to %4$s) and pointing to another dynamic value is not supported. Please update %3$s to point directly to %4$s."
 msgstr ""
 "Votre fichier %1$s utilise une valeur dynamique (%2$s) pour le chemin vers %3$s. Cependant, la valeur de %3$s est également une valeur dynamique (pointant vers %4$s) et pointant vers une autre valeur dynamique ce qui n’est pas pris en charge. Merci de mettre à jour %3$s pour pointer directement vers "
@@ -2903,6 +3007,7 @@ msgstr ""
 
 #. translators: 1: theme.json, 2: settings.spacing.spacingScale
 #: wp-includes/class-wp-theme-json.php:4076
+#, php-format
 msgid "Some of the %1$s %2$s values are invalid"
 msgstr "Certaines des valeurs %1$s %2$s sont invalides"
 
@@ -2913,16 +3018,19 @@ msgstr "Petite"
 
 #. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Small.
 #: wp-includes/class-wp-theme-json.php:4208
+#, php-format
 msgid "%sX-Small"
 msgstr "%sx plus petit"
 
 #. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Large.
 #: wp-includes/class-wp-theme-json.php:4245
+#, php-format
 msgid "%sX-Large"
 msgstr "%sx plus grand"
 
 #. translators: %s: Theme directory name.
 #: wp-includes/class-wp-theme.php:295
+#, php-format
 msgid "The theme directory \"%s\" does not exist."
 msgstr "Le répertoire du thème « %s » n’existe pas."
 
@@ -2940,21 +3048,25 @@ msgstr "Impossible de lire la feuille de style."
 
 #. translators: %s: Template.
 #: wp-includes/class-wp-theme.php:357
+#, php-format
 msgid "The theme defines itself as its parent theme. Please check the %s header."
 msgstr "Le thème se définit lui-même comme son propre thème parent. Merci de vérifier l’entête %s."
 
 #. translators: 1: templates/index.html, 2: index.php, 3: Template, 4: style.css
 #: wp-includes/class-wp-theme.php:387
+#, php-format
 msgid "Template is missing. Standalone themes need to have a %1$s or %2$s template file. Child themes need to have a %3$s header in the %4$s stylesheet."
 msgstr "Le gabarit est manquant. Les thèmes ont besoin du fichier de gabarit %1$s ou %2$s. Les thèmes enfants ont besoin d’une entête %3$s dans la feuille de style %4$s."
 
 #. translators: %s: Theme directory name.
 #: wp-includes/class-wp-theme.php:437
+#, php-format
 msgid "The parent theme is missing. Please install the \"%s\" parent theme."
 msgstr "Le thème parent est manquant. Merci d’installer le thème parent « %s »."
 
 #. translators: %s: Theme directory name.
 #: wp-includes/class-wp-theme.php:466 wp-includes/class-wp-theme.php:487
+#, php-format
 msgid "The \"%s\" theme is not a valid parent theme."
 msgstr "Le thème « %s » n’est pas un thème parent valide."
 
@@ -3054,26 +3166,31 @@ msgstr "Saisonnier"
 
 #. translators: 1: file name.
 #: wp-includes/class-wp-theme.php:1901
+#, php-format
 msgid "Could not register file \"%s\" as a block pattern (\"Slug\" field missing)"
 msgstr "Impossible d’enregistrer le fichier « %s » en tant que composition de blocs (champ « portion d’URL » manquant)"
 
 #. translators: 1: file name; 2: slug value found.
 #: wp-includes/class-wp-theme.php:1914
+#, php-format
 msgid "Could not register file \"%1$s\" as a block pattern (invalid slug \"%2$s\")"
 msgstr "Impossible d’enregistrer le fichier « %1$s » en tant que composition de blocs (slug « %2$s » non valide)"
 
 #. translators: 1: file name.
 #: wp-includes/class-wp-theme.php:1928
+#, php-format
 msgid "Could not register file \"%s\" as a block pattern (\"Title\" field missing)"
 msgstr "Impossible d’enregistrer le fichier « %s » en tant que composition de blocs (champ « Titre » manquant)"
 
 #. translators: %1$s: The filter name.
 #: wp-includes/class-wp-theme.php:2028
+#, php-format
 msgid "The %1$s filter must return an integer value greater than 0."
 msgstr "Le filtre %1$s doit renvoyer une valeur entière supérieure à 0."
 
 #. translators: 1: maximum byte length (a count)
 #: wp-includes/class-wp-token-map.php:302
+#, php-format
 msgid "Token Map tokens and substitutions must all be shorter than %1$d bytes."
 msgstr "Les jetons et les substitutions de la carte des jetons doivent tous être inférieurs à %1$d octets."
 
@@ -3083,21 +3200,25 @@ msgstr "Les données d’entrée obligatoires pour la carte <code>WP_Token_Map</
 
 #. translators: 1: version string, 2: version string.
 #: wp-includes/class-wp-token-map.php:413
+#, php-format
 msgid "Loaded version '%1$s' incompatible with expected version '%2$s'."
 msgstr "La version chargée « %1$s » est incompatible avec la version attendue « %2$s »."
 
 #. translators: %s: context string
 #: wp-includes/class-wp-url-pattern-prefixer.php:77
+#, php-format
 msgid "Invalid URL pattern context %s."
-msgstr "Le contexte de l’URL de la composition est invalide."
+msgstr "Le contexte de l’URL de la composition est invalide %s."
 
 #. translators: %s: plugins_loaded
 #: wp-includes/class-wp-user-query.php:792
+#, php-format
 msgid "Contributor queries should not be run before the %s hook."
 msgstr "Les requêtes de contributeur·rice·s ne devraient pas être lancées avant le crochet %s."
 
 #. translators: %s: WP_User->ID
 #: wp-includes/class-wp-user.php:286 wp-includes/class-wp-user.php:319 wp-includes/class-wp-user.php:360 wp-includes/class-wp-user.php:385
+#, php-format
 msgid "Use %s instead."
 msgstr "Utilisez plutôt %s."
 
@@ -3119,6 +3240,7 @@ msgstr "Impossible de sélectionner la base données"
 
 #. translators: %s: Database name.
 #: wp-includes/class-wpdb.php:1212
+#, php-format
 msgid "The database server could be connected to (which means your username and password is okay) but the %s database could not be selected."
 msgstr "Le serveur de la base de données n’est pas connecté (ce qui signifie que votre identifiant et mot de passe sont corrects) mais la base de données %s ne peut pas être sélectionnée."
 
@@ -3128,11 +3250,13 @@ msgstr "Confirmez-vous que cela existe ?"
 
 #. translators: 1: Database user, 2: Database name.
 #: wp-includes/class-wpdb.php:1221
+#, php-format
 msgid "Does the contributor %1$s have permission to use the %2$s database?"
 msgstr "Le•la contributeur·rice %1$s a-t-il·elle le droit d’utiliser la base de données %2$s ?"
 
 #. translators: %s: Database name.
 #: wp-includes/class-wpdb.php:1228
+#, php-format
 msgid "On some systems the name of your database is prefixed with your username, so it would be like <code>username_%1$s</code>. Could that be the problem?"
 msgstr "Dans certaines configurations système, le nom de la base de données a pour préfixe votre identifiant, cela devrait ressembler à <code>identifiant_%1$s</code>. Cela pourrait-il être le problème ?"
 
@@ -3142,16 +3266,19 @@ msgstr "Si vous ne savez pas comment configurer une base de données, vous devri
 
 #. translators: %s: Database access abstraction class, usually wpdb or a class extending wpdb.
 #: wp-includes/class-wpdb.php:1283
+#, php-format
 msgid "%s must set a database connection for use with escaping."
 msgstr "%s doit mettre en place une connexion à la base de données pour l’utiliser avec l’échappement."
 
 #. translators: %s: wpdb::prepare()
 #: wp-includes/class-wpdb.php:1469
+#, php-format
 msgid "The query argument of %s must have a placeholder."
 msgstr "L’argument de requête %s doit avoir un paramètre fictif."
 
 #. translators: %s: A list of placeholders found to be a problem.
 #: wp-includes/class-wpdb.php:1656
+#, php-format
 msgid "Arguments cannot be prepared as both an Identifier and Value. Found the following conflicts: %s"
 msgstr "Les arguments ne peuvent pas être préparés à la fois comme identificateur et comme valeur. Les conflits suivants ont été trouvés : %s"
 
@@ -3161,11 +3288,13 @@ msgstr "La requête n’attendait qu’un unique substitutif/placeholder, mais u
 
 #. translators: 1: Number of placeholders, 2: Number of arguments passed.
 #: wp-includes/class-wpdb.php:1692
+#, php-format
 msgid "The query does not contain the correct number of placeholders (%1$d) for the number of arguments passed (%2$d)."
 msgstr "La requête ne contient pas un nombre correct de substitutifs/placeholders (%1$d) pour le nombre d’arguments proposés (%2$d)."
 
 #. translators: %s: Value type.
 #: wp-includes/class-wpdb.php:1736
+#, php-format
 msgid "Unsupported value type (%s)."
 msgstr "Type de valeur non supporté (%s)."
 
@@ -3179,6 +3308,7 @@ msgstr "Erreur lors de la connexion à la base de données"
 
 #. translators: 1: wp-config.php, 2: Database host.
 #: wp-includes/class-wpdb.php:2004
+#, php-format
 msgid "This either means that the username and password information in your %1$s file is incorrect or that contact with the database server at %2$s could not be established. This could mean your host&#8217;s database server is down."
 msgstr "Cela signifie soit que l’identifiant ou le mot de passe dans votre fichier %1$s n’est pas correct, soit que le serveur de base de données à l’adresse %2$s ne peut pas être contacté. Cela peut signifier que votre serveur de base de données ne fonctionne plus."
 
@@ -3204,6 +3334,7 @@ msgstr "Erreur de reconnexion à la base de données"
 
 #. translators: %s: Database host.
 #: wp-includes/class-wpdb.php:2163
+#, php-format
 msgid "This means that the contact with the database server at %s was lost. This could mean your host&#8217;s database server is down."
 msgstr "Cela signifie que le contact avec le serveur de base de données à l’adresse %s a été perdu. Cela peut signifier que le serveur de votre base de données ne fonctionne plus."
 
@@ -3221,11 +3352,13 @@ msgstr "Impossible de retrouver le message d’erreur depuis MYSQL"
 
 #. translators: %s: Database field where the error occurred.
 #: wp-includes/class-wpdb.php:2825
+#, php-format
 msgid "Retraceur database error: Processing the value for the following field failed: %s. The supplied value may be too long or contains invalid data."
 msgstr "Erreur base de données Retraceur : le traitement de la valeur du champ %s a échoué. La valeur fournie est peut-être trop grande ou contient des données non valides."
 
 #. translators: %s: Database fields where the error occurred.
 #: wp-includes/class-wpdb.php:2831
+#, php-format
 msgid "Retraceur database error: Processing the values for the following fields failed: %s. The supplied values may be too long or contain invalid data."
 msgstr "Erreur base de données Retraceur : le traitement de la valeur des champs %s a échoué. La valeur fournie est peut-être trop grande ou contient des données non valides."
 
@@ -3239,6 +3372,7 @@ msgstr "Impossible de supprimer le texte non valide."
 
 #. translators: 1: Retraceur version number, 2: Minimum required MySQL version number.
 #: wp-includes/class-wpdb.php:3983
+#, php-format
 msgid "<strong>Error:</strong> Retraceur %1$s requires MySQL %2$s or higher"
 msgstr "<strong>Erreur :</strong> Retraceur %1$s requiert MySQL %2$s ou une version supérieure"
 
@@ -3329,6 +3463,7 @@ msgstr "Voulez-vous vraiment faire cela ?"
 
 #. translators: %s: File name.
 #: wp-includes/deprecated.php:3199
+#, php-format
 msgid "File &#8220;%s&#8221; does not exist?"
 msgstr "Le fichier « %s » n’existe pas ?"
 
@@ -3338,6 +3473,7 @@ msgstr "La bibliothèque d’imagerie GD n’est pas installée."
 
 #. translators: %s: File name.
 #: wp-includes/deprecated.php:3212
+#, php-format
 msgid "File &#8220;%s&#8221; is not an image."
 msgstr "Le fichier « %s » n’est pas une image."
 
@@ -3416,11 +3552,13 @@ msgstr "oEmbed (XML)"
 
 #. translators: 1: Post title, 2: Site title.
 #: wp-includes/embed.php:508
+#, php-format
 msgid "&#8220;%1$s&#8221; &#8212; %2$s"
 msgstr "« %1$s » &#8212; %2$s"
 
 #. translators: %s: Post title.
 #: wp-includes/embed.php:1006 wp-includes/post-template.php:305
+#, php-format
 msgid "Continue reading %s"
 msgstr "Lire la suite de %s"
 
@@ -3463,16 +3601,19 @@ msgstr "Fermer la fenêtre de partage"
 
 #. translators: 1: Error type, 2: Error line number, 3: Error file name, 4: Error message.
 #: wp-includes/error-protection.php:65
+#, php-format
 msgid "An error of type %1$s was caused in line %2$s of the file %3$s. Error message: %4$s"
 msgstr "Une erreur de type %1$s a été causée dans la ligne %2$s du fichier %3$s. Message d’erreur : %4$s"
 
 #. translators: %s: 'document_title_separator' filter name.
 #: wp-includes/feed.php:108 wp-includes/feed.php:134
+#, php-format
 msgid "Use the %s filter instead."
 msgstr "Utilisez le filtre %s à la place."
 
 #. translators: %s: Font collection slug.
 #: wp-includes/fonts/class-wp-font-collection.php:61
+#, php-format
 msgid "Font collection slug \"%s\" is not valid. Slugs must use only alphanumeric characters, dashes, and underscores."
 msgstr "Le slug de la collection de polices « %s » n’est pas valide. Les slugs doivent utiliser uniquement des caractères alphanumériques et des tirets hauts et bas."
 
@@ -3487,6 +3628,7 @@ msgstr "Erreur de décodage du contenu du fichier JSON de la collection de polic
 
 #. translators: %s: Font collection URL.
 #: wp-includes/fonts/class-wp-font-collection.php:190
+#, php-format
 msgid "Error fetching the font collection data from \"%s\"."
 msgstr "Erreur lors de la récupération des données de la collection de polices depuis « %s »."
 
@@ -3496,6 +3638,7 @@ msgstr "Erreur de décodage des données de la collection de polices à partir d
 
 #. translators: 1: Font collection slug, 2: Missing property name, e.g. "font_families".
 #: wp-includes/fonts/class-wp-font-collection.php:230
+#, php-format
 msgid "Font collection \"%1$s\" has missing or empty property: \"%2$s\"."
 msgstr "La collection de polices « %1$s » a une propriété vide ou manquante : « %2$s »."
 
@@ -3517,11 +3660,13 @@ msgstr "Le descripteur font-weight de police doit être une chaine de caractère
 
 #. translators: %s: Font collection slug.
 #: wp-includes/fonts/class-wp-font-library.php:54
+#, php-format
 msgid "Font collection with slug: \"%s\" is already registered."
 msgstr "La collection de polices correspondant au slug « %s » est déjà enregistrée."
 
 #. translators: %s: Font collection slug.
 #: wp-includes/fonts/class-wp-font-library.php:81
+#, php-format
 msgid "Font collection \"%s\" not found."
 msgstr "Impossible de trouver la collection de polices « %s »."
 
@@ -3591,6 +3736,7 @@ msgstr "&#8217;tain&#8217;t,&#8217;twere,&#8217;twas,&#8217;tis,&#8217;twill,&#8
 
 #. translators: %s: Time duration in second or seconds.
 #: wp-includes/formatting.php:3882 wp-includes/functions.php:570
+#, php-format
 msgid "%s second"
 msgid_plural "%s seconds"
 msgstr[0] "%s seconde"
@@ -3598,6 +3744,7 @@ msgstr[1] "%s secondes"
 
 #. translators: %s: Time duration in minute or minutes.
 #: wp-includes/formatting.php:3889 wp-includes/functions.php:564
+#, php-format
 msgid "%s minute"
 msgid_plural "%s minutes"
 msgstr[0] "%s minute"
@@ -3605,6 +3752,7 @@ msgstr[1] "%s minutes"
 
 #. translators: %s: Time duration in hour or hours.
 #: wp-includes/formatting.php:3896 wp-includes/functions.php:558
+#, php-format
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] "%s heure"
@@ -3612,6 +3760,7 @@ msgstr[1] "%s heures"
 
 #. translators: Time difference between two dates, in days. %s: Number of days.
 #: wp-includes/formatting.php:3903
+#, php-format
 msgid "%s day"
 msgid_plural "%s days"
 msgstr[0] "%s jour"
@@ -3619,6 +3768,7 @@ msgstr[1] "%s jours"
 
 #. translators: Time difference between two dates, in weeks. %s: Number of weeks.
 #: wp-includes/formatting.php:3910
+#, php-format
 msgid "%s week"
 msgid_plural "%s weeks"
 msgstr[0] "%s semaine"
@@ -3626,6 +3776,7 @@ msgstr[1] "%s semaines"
 
 #. translators: Time difference between two dates, in months. %s: Number of months.
 #: wp-includes/formatting.php:3917
+#, php-format
 msgid "%s month"
 msgid_plural "%s months"
 msgstr[0] "%s mois"
@@ -3633,6 +3784,7 @@ msgstr[1] "%s mois"
 
 #. translators: Time difference between two dates, in years. %s: Number of years.
 #: wp-includes/formatting.php:3924
+#, php-format
 msgid "%s year"
 msgid_plural "%s years"
 msgstr[0] "%s an"
@@ -3670,26 +3822,31 @@ msgstr "Une balise structurelle est nécessaire quand les permaliens personnalis
 
 #. translators: 1: Option name, 2: Error code.
 #: wp-includes/formatting.php:5031
+#, php-format
 msgid "Could not sanitize the %1$s option. Error code: %2$s"
 msgstr "Impossible de sanitiser l’option %1$s. Code d’erreur : %2$s"
 
 #. translators: Used to join items in a list with more than 2 items.
 #: wp-includes/formatting.php:5274
+#, php-format
 msgid "%1$s, %2$s"
 msgstr "%1$s, %2$s"
 
 #. translators: Used to join last two items in a list with more than 2 times.
 #: wp-includes/formatting.php:5276
+#, php-format
 msgid "%1$s, and %2$s"
 msgstr "%1$s, et %2$s"
 
 #. translators: Used to join items in a list with only 2 items.
 #: wp-includes/formatting.php:5278
+#, php-format
 msgid "%1$s and %2$s"
 msgstr "%1$s et %2$s"
 
 #. translators: 1: The function name, 2: The argument number, 3: The argument name, 4: The expected type, 5: The provided type.
 #: wp-includes/formatting.php:5464
+#, php-format
 msgid "Warning: %1$s expects parameter %2$s (%3$s) to be a %4$s, %5$s given."
 msgstr "Avertissement : %1$s attend que le paramètre %2$s (%3$s) soit %4$s plutôt que %5$s."
 
@@ -3759,6 +3916,7 @@ msgstr "<strong>Erreur :</strong> ce n’est pas un gabarit de flux valide."
 
 #. translators: %s: Database repair URL.
 #: wp-includes/functions.php:1652
+#, php-format
 msgid "One or more database tables are unavailable. The database may need to be <a href=\"%s\">repaired</a>."
 msgstr "Une ou plusieurs tables de votre base de données sont indisponibles. La base de données a peut-être besoin d’être <a href=\"%s\">réparée</a>."
 
@@ -3772,6 +3930,7 @@ msgstr "Désolé, vous n’avez pas l’autorisation de charger ce type de fichi
 
 #. translators: %s: File name.
 #: wp-includes/functions.php:2763
+#, php-format
 msgid "Could not write file %s"
 msgstr "Impossible d’écrire le fichier %s"
 
@@ -3781,11 +3940,13 @@ msgstr "Une erreur est survenue."
 
 #. translators: %s: Site title.
 #: wp-includes/functions.php:3486
+#, php-format
 msgid "You are attempting to log out of %s"
 msgstr "Vous êtes en train de vous déconnecter de %s"
 
 #. translators: %s: Logout URL.
 #: wp-includes/functions.php:3496
+#, php-format
 msgid "Do you really want to <a href=\"%s\">log out</a>?"
 msgstr "Voulez-vous réellement <a href=\"%s\">vous déconnecter</a> ?"
 
@@ -3807,16 +3968,19 @@ msgstr "Retraceur > Erreur"
 
 #. translators: 1: WP_REST_Response, 2: WP_Error
 #: wp-includes/functions.php:4286
+#, php-format
 msgid "Return a %1$s or %2$s object from your callback when using the REST API."
 msgstr "Renvoie un objet %1$s ou %2$s à partir de votre fonction de rappel quand vous utilisez l’API REST."
 
 #. translators: %s: Path to the JSON file.
 #: wp-includes/functions.php:4425
+#, php-format
 msgid "File %s doesn't exist!"
 msgstr "Le fichier %s n’existe pas !"
 
 #. translators: 1: Path to the JSON file, 2: Error message.
 #: wp-includes/functions.php:4440
+#, php-format
 msgid "Error when decoding a JSON file at path %1$s: %2$s"
 msgstr "Erreur lors du décodage du fichier JSON à l’emplacement %1$s : %2$s"
 
@@ -3826,76 +3990,91 @@ msgstr "Erreur de la base de données"
 
 #. translators: 1: PHP function name, 2: Project name, 3: Version number, 4: Alternative function name.
 #: wp-includes/functions.php:5264
+#, php-format
 msgid "Function %1$s is <strong>deprecated</strong> since %2$s version %3$s! Use %4$s instead."
 msgstr "La fonction %1$s est <strong>obsolète</strong> depuis %2$s version %3$s ! Utilisez %4$s à la place."
 
 #. translators: 1: PHP function name, 2: Project name, 3: Version number.
 #: wp-includes/functions.php:5273
+#, php-format
 msgid "Function %1$s is <strong>deprecated</strong> since %2$s version %3$s with no alternative available."
 msgstr "La fonction %1$s est <strong>obsolète</strong> depuis %2$s version %3$s, aucune alternative n’est disponible."
 
 #. translators: 1: PHP class name, 2: PHP parent class name, 3: Version number, 4: __construct() method.
 #: wp-includes/functions.php:5350
+#, php-format
 msgid "The called constructor method for %1$s class in %2$s is <strong>deprecated</strong> since version %3$s! Use %4$s instead."
 msgstr "La méthode de construction de la classe %1$s située dans %2$s est <strong>obsolète</strong> depuis la version %3$s ! Utilisez %4$s à la place."
 
 #. translators: 1: PHP class name, 2: Version number, 3: __construct() method.
 #: wp-includes/functions.php:5359
+#, php-format
 msgid "The called constructor method for %1$s class is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "La méthode de construction appelée pour la classe %1$s est <strong>obsolète</strong> depuis la version %2$s ! Merci d’utiliser %3$s à la place."
 
 #. translators: 1: PHP class name, 2: Project name, 3: Version number, 4: Alternative class or function name.
 #: wp-includes/functions.php:5433
+#, php-format
 msgid "Class %1$s is <strong>deprecated</strong> since %2$s version %3$s! Use %4$s instead."
 msgstr "La classe %1$s est <strong>obsolète</strong> depuis %2$s version %3$s ! Utilisez %4$s à la place."
 
 #. translators: 1: PHP class name, 2: Project name, 3: Version number.
 #: wp-includes/functions.php:5442
+#, php-format
 msgid "Class %1$s is <strong>deprecated</strong> since %2$s version %3$s with no alternative available."
 msgstr "La classe %1$s est <strong>obsolète</strong> depuis %2$s version %3$s et sans alternative disponible."
 
 #. translators: 1: PHP file name, 2: Project name, 3: Version number, 4: Alternative file name.
 #: wp-includes/functions.php:5521
+#, php-format
 msgid "File %1$s is <strong>deprecated</strong> since %2$s version %3$s! Use %4$s instead."
 msgstr "Le fichier %1$s est <strong>obsolète</strong> depuis %2$s version %3$s ! Utilisez %4$s à la place."
 
 #. translators: 1: PHP file name, 2: Project name, 3: Version number.
 #: wp-includes/functions.php:5530
+#, php-format
 msgid "File %1$s is <strong>deprecated</strong> since %2$s version %3$s with no alternative available."
 msgstr "Le fichier %1$s est <strong>obsolète</strong> depuis %2$s version %3$s, aucune alternative n’est disponible."
 
 #. translators: 1: PHP function name, 2: Software name, 3: Version number, 4: Optional message regarding the change.
 #: wp-includes/functions.php:5610
+#, php-format
 msgid "Function %1$s was called with an argument that is <strong>deprecated</strong> since %2$s version %3$s! %4$s"
 msgstr "%1$s est appelé avec un argument qui est <strong>obsolète</strong> depuis %2$s version %3$s ! %4$s"
 
 #. translators: 1: PHP function name, 2: Software name, 3: Version number.
 #: wp-includes/functions.php:5619
+#, php-format
 msgid "Function %1$s was called with an argument that is <strong>deprecated</strong> since %2$s version %3$s with no alternative available."
 msgstr "La fonction %1$s a été appelée avec un argument qui est <strong>obsolète</strong> depuis %2$s version %3$s, sans aucune alternative disponible."
 
 #. translators: 1: WP hook name, 2: Version number, 3: Alternative hook name.
 #: wp-includes/functions.php:5695
+#, php-format
 msgid "Hook %1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "%1$s est <strong>obsolète</strong> depuis la version %2$s ! Utilisez %3$s à la place."
 
 #. translators: 1: WP hook name, 2: Version number.
 #: wp-includes/functions.php:5703
+#, php-format
 msgid "Hook %1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "Le crochet %1$s est <strong>obsolète</strong> depuis la version %2$s, sans aucune alternative disponible."
 
 #. translators: 1: Version number. 2: Name of the software.
 #: wp-includes/functions.php:5759
+#, php-format
 msgid "(This message was added in version %1$s of %2$s)"
 msgstr "(Ce message a été ajouté à la version %1$s de %2$s)"
 
 #. translators: custom debugging message. 1: PHP function name, 2: custom message.
 #: wp-includes/functions.php:5768
+#, php-format
 msgid "%1$s was called <strong>incorrectly</strong>. %2$s"
 msgstr "%1$s a été appelé de façon <strong>incorrecte</strong>. %2$s"
 
 #. translators: Developer debugging message. 1: PHP function name, 2: WP version number.
 #: wp-includes/functions.php:5777
+#, php-format
 msgid "Function %1$s was called <strong>incorrectly</strong>. %2$s"
 msgstr "La fonction %1$s a été appelée de façon <strong>incorrecte</strong>. %2$s"
 
@@ -3913,6 +4092,7 @@ msgstr "Décalages manuels"
 
 #. translators: %s: The type of the given object ID.
 #: wp-includes/functions.php:7040
+#, php-format
 msgid "Object ID must be an integer, %s given."
 msgstr "L’ID de l’objet doit être un entier, %s a été donné."
 
@@ -3966,6 +4146,7 @@ msgstr ""
 
 #. translators: Site admin email change notification email subject. %s: Site title.
 #: wp-includes/functions.php:7849
+#, php-format
 msgid "[%s] Admin Email Changed"
 msgstr "[%s] Courriel d’administration modifié"
 
@@ -3981,36 +4162,43 @@ msgstr "Ce contenu a été supprimé par son auteur·rice."
 
 #. translators: 1: Function name, 2: A variable type, like "boolean" or "integer".
 #: wp-includes/functions.php:8293
+#, php-format
 msgid "%1$s only accepts a non-empty path string, received %2$s."
 msgstr "%1$s n’accepte qu’une chaine contenant un chemin non vide, et non la valeur reçue %2$s."
 
 #. translators: %s: The "type" key.
 #: wp-includes/functions.php:8524
+#, php-format
 msgid "The %s key must be a string without spaces."
 msgstr "La clé %s doit être une chaîne de caractères sans espaces."
 
 #. translators: %s: parameter name.
 #: wp-includes/functions.php:8710
+#, php-format
 msgid "The %s argument must not be empty."
 msgstr "L’argument %s ne peut pas être vide."
 
 #. translators: 1: wp_enqueue_scripts, 2: admin_enqueue_scripts, 3: login_enqueue_scripts
 #: wp-includes/functions.wp-scripts.php:51
+#, php-format
 msgid "Scripts and styles should not be registered or enqueued until the %1$s, %2$s, or %3$s hooks."
 msgstr "Les scripts et les styles ne peuvent pas être enregistrés ou ajoutés avant le déclenchement des crochets %1$s, %2$s ou %3$s."
 
 #. translators: %s: Name of the script or stylesheet.
 #: wp-includes/functions.wp-scripts.php:60
+#, php-format
 msgid "This notice was triggered by the %s handle."
 msgstr "Cette notification a été déclenchée par %s."
 
 #. translators: 1: HTML tag, 2: Functions name.
 #: wp-includes/functions.wp-scripts.php:139 wp-includes/functions.wp-styles.php:96
+#, php-format
 msgid "Do not pass %1$s tags to %2$s."
 msgstr "Ne pas passer la balise %1$s à %2$s."
 
 #. translators: 1: Script name, 2: wp_enqueue_scripts
 #: wp-includes/functions.wp-scripts.php:318
+#, php-format
 msgid "Do not deregister the %1$s script in the administration area. To target the front-end theme, use the %2$s hook."
 msgstr "Ne désenregistrez pas le script %1$s dans la zone d’administration. Pour cibler le thème public, utilisez le crochet %2$s."
 
@@ -4064,11 +4252,13 @@ msgstr "Admin. du site"
 
 #. translators: 1: 'siteurl'/'home' argument, 2: bloginfo() function name, 3: 'url' argument.
 #: wp-includes/general-template.php:814
+#, php-format
 msgid "The %1$s option is deprecated for the family of %2$s functions. Use the %3$s option instead."
 msgstr "L’option %1$s est obsolète pour l’ensemble des fonctions %2$s. Utilisez plutôt l’option %3$s."
 
 #. translators: 1: 'siteurl'/'home' argument, 2: bloginfo() function name.
 #: wp-includes/general-template.php:850
+#, php-format
 msgid "The %1$s option is deprecated for the family of %2$s functions."
 msgstr "L’option %1$s est obsolète pour la famille de fonctions %2$s."
 
@@ -4079,6 +4269,7 @@ msgstr "fr-FR"
 
 #. translators: 1: 'text_direction' argument, 2: bloginfo() function name, 3: is_rtl() function name.
 #: wp-includes/general-template.php:902
+#, php-format
 msgid "The %1$s option is deprecated for the family of %2$s functions. Use the %3$s function instead."
 msgstr "L’option %1$s est obsolète pour l’ensemble des fonctions %2$s. Utilisez plutôt l’option %3$s."
 
@@ -4088,6 +4279,7 @@ msgstr "Page non trouvée"
 
 #. translators: %s: Search query.
 #: wp-includes/general-template.php:1200
+#, php-format
 msgid "Search Results for &#8220;%s&#8221;"
 msgstr "Résultats de recherche pour « %s »"
 
@@ -4105,16 +4297,19 @@ msgstr "F Y"
 
 #. translators: %s: Page number.
 #: wp-includes/general-template.php:1244
+#, php-format
 msgid "Page %s"
 msgstr "Page %s"
 
 #. translators: 1: Separator, 2: Search query.
 #: wp-includes/general-template.php:1413
+#, php-format
 msgid "Search Results %1$s %2$s"
 msgstr "Résultats de recherche %1$s %2$s"
 
 #. Translators: 1: Post Format title. 2: Post ID.
 #: wp-includes/general-template.php:1491
+#, php-format
 msgid "%1$s #%2$d"
 msgstr "%1$s n°%2$d"
 
@@ -4161,29 +4356,34 @@ msgstr "Archives :"
 
 #. translators: %s: Taxonomy singular name.
 #: wp-includes/general-template.php:1765
+#, php-format
 msgctxt "taxonomy term archive title prefix"
 msgid "%s:"
 msgstr "%s :"
 
 #. translators: 1: Title prefix. 2: Title.
 #: wp-includes/general-template.php:1783
+#, php-format
 msgctxt "archive title"
 msgid "%1$s %2$s"
 msgstr "%1$s %2$s"
 
 #. translators: 1: Month, 2: Year.
 #: wp-includes/general-template.php:2082 wp-includes/media.php:4884
+#, php-format
 msgid "%1$s %2$d"
 msgstr "%1$s %2$d"
 
 #. translators: Calendar caption: 1: Month name, 2: 4-digit year.
 #: wp-includes/general-template.php:2437
+#, php-format
 msgctxt "calendar caption"
 msgid "%1$s %2$s"
 msgstr "%1$s %2$s"
 
 #. translators: Post calendar label. %s: Date.
 #: wp-includes/general-template.php:2518
+#, php-format
 msgid "Posts published on %s"
 msgstr "Publications publiées sur %s"
 
@@ -4199,36 +4399,43 @@ msgstr "&raquo;"
 
 #. translators: 1: Site title, 2: Separator (raquo).
 #: wp-includes/general-template.php:3244
+#, php-format
 msgid "%1$s %2$s Feed"
 msgstr "%1$s %2$s Flux"
 
 #. translators: 1: Site name, 2: Separator (raquo), 3: Category name.
 #: wp-includes/general-template.php:3304
+#, php-format
 msgid "%1$s %2$s %3$s Category Feed"
 msgstr "%1$s %2$s Flux de la catégorie %3$s"
 
 #. translators: 1: Site name, 2: Separator (raquo), 3: Tag name.
 #: wp-includes/general-template.php:3306
+#, php-format
 msgid "%1$s %2$s %3$s Tag Feed"
 msgstr "%1$s %2$s Flux de l’étiquette %3$s"
 
 #. translators: 1: Site name, 2: Separator (raquo), 3: Term name, 4: Taxonomy singular name.
 #: wp-includes/general-template.php:3308
+#, php-format
 msgid "%1$s %2$s %3$s %4$s Feed"
 msgstr "Flux pour %1$s %2$s %3$s %4$s"
 
 #. translators: 1: Site name, 2: Separator (raquo), 3: Author name.
 #: wp-includes/general-template.php:3310
+#, php-format
 msgid "%1$s %2$s Posts by %3$s Feed"
 msgstr "%1$s %2$s Flux des articles écrits par %3$s"
 
 #. translators: 1: Site name, 2: Separator (raquo), 3: Search query.
 #: wp-includes/general-template.php:3312
+#, php-format
 msgid "%1$s %2$s Search Results for &#8220;%3$s&#8221; Feed"
 msgstr "%1$s %2$s Flux de résultats de la recherche pour « %3$s »"
 
 #. translators: 1: Site name, 2: Separator (raquo), 3: Post type name.
 #: wp-includes/general-template.php:3314
+#, php-format
 msgid "%1$s %2$s %3$s Feed"
 msgstr "%1$s %2$s Flux pour %3$s"
 
@@ -4297,6 +4504,7 @@ msgstr "*"
 
 #. translators: %s: Asterisk symbol (*).
 #: wp-includes/general-template.php:5268
+#, php-format
 msgid "Required fields are marked %s"
 msgstr "Les champs obligatoires sont indiqués avec %s"
 
@@ -4306,6 +4514,7 @@ msgstr "Aucun élément de contexte valide n’a été détecté."
 
 #. translators: %s: WP_HTML_Processor::create_fragment().
 #: wp-includes/html-api/class-wp-html-processor.php:374
+#, php-format
 msgid "Call %s to create an HTML Processor instead of calling the constructor directly."
 msgstr "Appelez %s pour créer un processeur HTML au lieu de passer directement par le constructeur."
 
@@ -4315,11 +4524,13 @@ msgstr "L’élément de contexte doit être une balise ouvrante."
 
 #. translators: %s: A tag name like INPUT or BR.
 #: wp-includes/html-api/class-wp-html-processor.php:480
+#, php-format
 msgid "The context element cannot be a void element, found \"%s\"."
 msgstr "L’élément de contexte ne peut pas être nul, « %s » a été trouvé."
 
 #. translators: %s: A tag name like IFRAME or TEXTAREA.
 #: wp-includes/html-api/class-wp-html-processor.php:500
+#, php-format
 msgid "The context element \"%s\" is not supported."
 msgstr "L’élément de contexte %s n’est pas pris en charge."
 
@@ -4365,6 +4576,7 @@ msgstr "Il semblerait que la réponse ne provienne pas de ce site."
 
 #. translators: 1: SVG or MATH HTML tag.
 #: wp-includes/interactivity-api/class-wp-interactivity-api-directives-processor.php:207
+#, php-format
 msgid "Interactivity directives were detected inside an incompatible %1$s tag. These directives will be ignored in the server side render."
 msgstr "Des directives d’interactivité ont été détectées à l’intérieur d’une balise %1$s incompatible. Ces directives seront ignorées dans le rendu côté serveur."
 
@@ -4398,31 +4610,37 @@ msgstr "L’élément ne peut être lu que pendant le traitement de la directive
 
 #. translators: 1: SVG or MATH HTML tag, 2: Namespace of the interactive block.
 #: wp-includes/interactivity-api/class-wp-interactivity-api.php:420
+#, php-format
 msgid "Interactivity directives were detected on an incompatible %1$s tag when processing \"%2$s\". These directives will be ignored in the server side render."
 msgstr "Des directives d’interactivité ont été détectées sur une balise %1$s incompatible lors du traitement de « %2$s ». Ces directives seront ignorées dans le rendu côté serveur."
 
 #. translators: %1s: Namespace processed, %2s: The tag that caused the error; could be any HTML tag.
 #: wp-includes/interactivity-api/class-wp-interactivity-api.php:559
+#, php-format
 msgid "Interactivity directives failed to process in \"%1$s\" due to a missing \"%2$s\" end tag."
 msgstr "Les directives d’interactivité n’ont pas été traitées dans « %1$s » en raison d’une balise finale « %2$s » manquante."
 
 #. translators: %s: The directive value referenced.
 #: wp-includes/interactivity-api/class-wp-interactivity-api.php:586
+#, php-format
 msgid "Namespace or reference path cannot be empty. Directive value referenced: %s"
 msgstr "L’espace nom ou le chemin de référence ne peut être vide. Valeur de la directive référencée : %s"
 
 #. translators: 1: Path pointing to an Interactivity API state property, 2: Namespace for an Interactivity API store.
 #: wp-includes/interactivity-api/class-wp-interactivity-api.php:658
+#, php-format
 msgid "Uncaught error executing a derived state callback with path \"%1$s\" and namespace \"%2$s\"."
 msgstr "Erreur non résolue lors de l’exécution d’un rappel d’état dérivé avec le chemin « %1$s » et l’espace nom « %2$s »."
 
 #. translators: 1: CUSTOM_TAGS, 2: Global variable names.
 #: wp-includes/kses.php:714
+#, php-format
 msgid "When using the %1$s constant, make sure to set these globals to an array: %2$s."
 msgstr "À l‘utilisation de la constante %1$s, s‘assurer de définir ces valeurs globales dans un tableau : %2$s."
 
 #. translators: 1: The text domain. 2: 'init'.
 #: wp-includes/l10n.php:1376
+#, php-format
 msgid "Translation loading for the %1$s domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the %2$s action or later."
 msgstr "Le chargement de la traduction pour le domaine %1$s a été déclenché trop tôt. Cela indique généralement que du code dans l’extension ou le thème s’exécute trop tôt. Les traductions doivent être chargées au moment de l’action %2$s ou plus tard."
 
@@ -4447,6 +4665,7 @@ msgstr "Modifier"
 
 #. translators: %s: The word 'and'.
 #: wp-includes/link-template.php:1552
+#, php-format
 msgid "Use commas instead of %s to separate excluded terms."
 msgstr "Utilisez des virgules au lieu de %s pour séparer les termes exclus."
 
@@ -4515,6 +4734,7 @@ msgstr "Il semble que votre installation PHP ne possède pas l’extension MySQL
 
 #. translators: %s: mysqli.
 #: wp-includes/load.php:212
+#, php-format
 msgid "Please check that the %s PHP extension is installed and enabled."
 msgstr "Merci de vérifier que l’extension PHP %s est installée et activée."
 
@@ -4524,6 +4744,7 @@ msgstr "Prérequis non remplis"
 
 #. translators: %s: WP_ENVIRONMENT_TYPES
 #: wp-includes/load.php:262
+#, php-format
 msgid "The %s constant is no longer supported."
 msgstr "La constante %s n’est plus prise en charge."
 
@@ -4537,6 +4758,7 @@ msgstr "Maintenance"
 
 #. translators: 1: $table_prefix, 2: wp-config.php
 #: wp-includes/load.php:779
+#, php-format
 msgid "<strong>Error:</strong> %1$s in %2$s can only contain numbers, letters, and underscores."
 msgstr "<strong>Erreur :</strong> la variable %1$s du fichier %2$s ne peut contenir que des chiffres, des lettres et des tirets bas."
 
@@ -4550,6 +4772,7 @@ msgstr "La vérification de la clé a échouée. Merci de réessayer."
 
 #. translators: 1: Link to tutorial, 2: Additional link attributes, 3: Accessibility text.
 #: wp-includes/media-template.php:163
+#, php-format
 msgid "<a href=\"%1$s\" %2$s>Learn how to describe the purpose of the image%3$s</a>. Leave empty if the image is purely decorative."
 msgstr "<a href=\"%1$s\" %2$s>Apprendre à décrire le but de l’image%3$s</a>. Laissez vide si l’image est purement décorative."
 
@@ -4610,11 +4833,13 @@ msgstr "Sélectionnez des fichiers"
 
 #. translators: %s: Maximum allowed file size.
 #: wp-includes/media-template.php:291
+#, php-format
 msgid "Maximum upload file size: %s."
 msgstr "Taille de fichier maximale pour le chargement : %s."
 
 #. translators: 1: Suggested width number, 2: Suggested height number.
 #: wp-includes/media-template.php:301 wp-includes/media.php:5047
+#, php-format
 msgid "Suggested image dimensions: %1$s by %2$s pixels."
 msgstr "Dimensions suggérées de l’image : %1$s par %2$s pixels."
 
@@ -4702,6 +4927,7 @@ msgstr "Dimensions :"
 
 #. translators: 1: A number of pixels wide, 2: A number of pixels tall.
 #: wp-includes/media-template.php:466 wp-includes/media-template.php:712
+#, php-format
 msgid "%1$s by %2$s pixels"
 msgstr "%1$s pixels par %2$s"
 
@@ -5053,6 +5279,7 @@ msgstr "Pistes (sous-titres, légendes, descriptions, chapitres ou métadonnées
 
 #. translators: 1: "srclang" HTML attribute, 2: "label" HTML attribute, 3: "kind" HTML attribute.
 #: wp-includes/media-template.php:1486
+#, php-format
 msgid "The %1$s, %2$s, and %3$s values can be edited to set the video track language and kind."
 msgstr "Les valeurs %1$s, %2$s et %3$s ne peuvent pas être modifiées pour définir la langue et le genre de la piste vidéo."
 
@@ -5096,6 +5323,7 @@ msgstr "Une image ne devrait pas être chargée en différé et marquée en prio
 
 #. translators: %s: Playlist item title.
 #: wp-includes/media.php:2954 wp-includes/media.php:2975
+#, php-format
 msgctxt "playlist item title"
 msgid "&#8220;%s&#8221;"
 msgstr "« %s »"
@@ -5155,6 +5383,7 @@ msgstr "Retour"
 
 #. translators: This is a would-be plural string used in the media manager. If there is not a word you can use in your language to avoid issues with the lack of plural support here, turn it into "selected: %d" then translate it.
 #: wp-includes/media.php:4972
+#, php-format
 msgid "%d selected"
 msgstr "%d sélection(s)"
 
@@ -5267,6 +5496,7 @@ msgstr "Rechercher des médias…"
 
 #. translators: %d: Number of attachments found in a search.
 #: wp-includes/media.php:5009
+#, php-format
 msgid "Number of media items found: %d"
 msgstr "Nombre d’éléments média trouvés : %d"
 
@@ -5488,6 +5718,7 @@ msgstr "Lors de l’enregistrement d’une valeur de métadonnée par défaut, l
 
 #. translators: %s: Option name.
 #: wp-includes/option.php:550
+#, php-format
 msgid "%s is a protected WP option and may not be modified"
 msgstr "%s est une option protégée de WordPress, et ne peut être modifiée"
 
@@ -5577,11 +5808,13 @@ msgstr "Quand vous enregistrez une métadonnée de type « tableau » pour l�
 
 #. translators: %s: Slug-name of the settings page.
 #: wp-includes/option.php:2933 wp-includes/option.php:2946 wp-includes/option.php:3006 wp-includes/option.php:3019
+#, php-format
 msgid "The \"%s\" options group has been removed. Use another settings group."
 msgstr "Le groupe d’options « %s » a été supprimé. Merci d’utiliser un autre groupe de réglages."
 
 #. translators: 1: $sanitize_callback, 2: register_setting()
 #: wp-includes/option.php:3041
+#, php-format
 msgid "%1$s is deprecated. The callback from %2$s is used instead."
 msgstr "%1$s est obsolète. Le rappel de %2$s est utilisé à la place."
 
@@ -5599,31 +5832,37 @@ msgstr "L’état du code de redirection HTTP doit être un code de redirection 
 
 #. translators: %s: User name.
 #: wp-includes/pluggable.php:1671
+#, php-format
 msgid "Password changed for contributor: %s"
 msgstr "Mot de passe modifié pour le·la contributeur·rice : %s"
 
 #. translators: Password change notification email subject. %s: Site title.
 #: wp-includes/pluggable.php:1681 wp-includes/user.php:2728
+#, php-format
 msgid "[%s] Password Changed"
 msgstr "[%s] Mot de passe changé"
 
 #. translators: %s: Site title.
 #: wp-includes/pluggable.php:1773
+#, php-format
 msgid "New contributor registration on your site %s:"
 msgstr "Nouvelle adhésion à votre site %s :"
 
 #. translators: %s: User login.
 #: wp-includes/pluggable.php:1775 wp-includes/pluggable.php:1840 wp-includes/user.php:3278
+#, php-format
 msgid "Username: %s"
 msgstr "Identifiant : %s"
 
 #. translators: %s: User email address.
 #: wp-includes/pluggable.php:1777
+#, php-format
 msgid "Email: %s"
 msgstr "Courriel : %s"
 
 #. translators: New user registration notification email subject. %s: Site title.
 #: wp-includes/pluggable.php:1782
+#, php-format
 msgid "[%s] New Contributor Registration"
 msgstr "[%s] Nouvelle adhésion"
 
@@ -5633,11 +5872,13 @@ msgstr "Pour configurer votre mot de passe, rendez-vous à l’adresse suivante�
 
 #. translators: Login details notification email subject. %s: Site title.
 #: wp-includes/pluggable.php:1855
+#, php-format
 msgid "[%s] Login Details"
 msgstr "[%s] Détails de connexion"
 
 #. translators: 1: Name of a cryptographic hash algorithm. 2: List of supported algorithms.
 #: wp-includes/pluggable.php:2179
+#, php-format
 msgid "Unsupported hashing algorithm: %1$s. Supported algorithms are: %2$s"
 msgstr "Algorithme de hachage non pris en charge : %1$s. Les algorithmes supportés sont : %2$s"
 
@@ -5816,11 +6057,13 @@ msgstr "Sons"
 
 #. translators: %s: Protected post title.
 #: wp-includes/post-template.php:130
+#, php-format
 msgid "Protected: %s"
 msgstr "Protégé : %s"
 
 #. translators: %s: Private post title.
 #: wp-includes/post-template.php:149
+#, php-format
 msgid "Private: %s"
 msgstr "Privé : %s"
 
@@ -5846,6 +6089,7 @@ msgstr "Page précédente"
 
 #. translators: %s: Post custom field name.
 #: wp-includes/post-template.php:1139
+#, php-format
 msgctxt "Post custom field name"
 msgid "%s:"
 msgstr "%s :"
@@ -5879,16 +6123,19 @@ msgstr "j F Y à G \\h i \\m\\i\\n"
 
 #. translators: %s: Revision date with author avatar.
 #: wp-includes/post-template.php:1918 wp-includes/post-template.php:1979
+#, php-format
 msgid "%s [Autosave]"
 msgstr "%s [Sauvegarde automatique]"
 
 #. translators: %s: Revision date with author avatar.
 #: wp-includes/post-template.php:1920 wp-includes/post-template.php:1981
+#, php-format
 msgid "%s [Current Revision]"
 msgstr "%s [Version actuelle]"
 
 #. translators: Post revision title. 1: Author avatar, 2: Author name, 3: Time ago, 4: Date.
 #: wp-includes/post-template.php:1971
+#, php-format
 msgid "%1$s %2$s, %3$s ago (%4$s)"
 msgstr "%1$s %2$s, il y a %3$s (%4$s)"
 
@@ -6304,6 +6551,7 @@ msgstr "Publié"
 
 #. translators: %s: Number of published posts.
 #: wp-includes/post.php:564
+#, php-format
 msgid "Published <span class=\"count\">(%s)</span>"
 msgid_plural "Published <span class=\"count\">(%s)</span>"
 msgstr[0] "Publié <span class=\"count\">(%s)</span>"
@@ -6316,6 +6564,7 @@ msgstr "Planifié"
 
 #. translators: %s: Number of scheduled posts.
 #: wp-includes/post.php:578
+#, php-format
 msgid "Scheduled <span class=\"count\">(%s)</span>"
 msgid_plural "Scheduled <span class=\"count\">(%s)</span>"
 msgstr[0] "Planifié <span class=\"count\">(%s)</span>"
@@ -6328,6 +6577,7 @@ msgstr "Brouillon"
 
 #. translators: %s: Number of draft posts.
 #: wp-includes/post.php:592
+#, php-format
 msgid "Draft <span class=\"count\">(%s)</span>"
 msgid_plural "Drafts <span class=\"count\">(%s)</span>"
 msgstr[0] "Brouillon <span class=\"count\">(%s)</span>"
@@ -6340,6 +6590,7 @@ msgstr "En attente"
 
 #. translators: %s: Number of pending items.
 #: wp-includes/post.php:607 wp-includes/post.php:671
+#, php-format
 msgid "Pending <span class=\"count\">(%s)</span>"
 msgid_plural "Pending <span class=\"count\">(%s)</span>"
 msgstr[0] "En attente de relecture <span class=\"count\">(%s)</span>"
@@ -6352,6 +6603,7 @@ msgstr "Privé"
 
 #. translators: %s: Number of private posts.
 #: wp-includes/post.php:622
+#, php-format
 msgid "Private <span class=\"count\">(%s)</span>"
 msgid_plural "Private <span class=\"count\">(%s)</span>"
 msgstr[0] "Privé <span class=\"count\">(%s)</span>"
@@ -6364,6 +6616,7 @@ msgstr "Corbeille"
 
 #. translators: %s: Number of trashed posts.
 #: wp-includes/post.php:636
+#, php-format
 msgid "Trash <span class=\"count\">(%s)</span>"
 msgid_plural "Trash <span class=\"count\">(%s)</span>"
 msgstr[0] "Corbeille <span class=\"count\">(%s)</span>"
@@ -6381,6 +6634,7 @@ msgstr "Confirmée"
 
 #. translators: %s: Number of confirmed requests.
 #: wp-includes/post.php:686
+#, php-format
 msgid "Confirmed <span class=\"count\">(%s)</span>"
 msgid_plural "Confirmed <span class=\"count\">(%s)</span>"
 msgstr[0] "Confirmé <span class=\"count\">(%s)</span>"
@@ -6393,6 +6647,7 @@ msgstr "Échouée"
 
 #. translators: %s: Number of failed requests.
 #: wp-includes/post.php:701
+#, php-format
 msgid "Failed <span class=\"count\">(%s)</span>"
 msgid_plural "Failed <span class=\"count\">(%s)</span>"
 msgstr[0] "Échoué <span class=\"count\">(%s)</span>"
@@ -6405,6 +6660,7 @@ msgstr "Terminée"
 
 #. translators: %s: Number of completed requests.
 #: wp-includes/post.php:716
+#, php-format
 msgid "Completed <span class=\"count\">(%s)</span>"
 msgid_plural "Completed <span class=\"count\">(%s)</span>"
 msgstr[0] "Terminé <span class=\"count\">(%s)</span>"
@@ -6440,6 +6696,7 @@ msgstr "Vous ne pouvez supprimer un type de publication par défaut"
 
 #. translators: %s: Post type name.
 #: wp-includes/post.php:2020
+#, php-format
 msgid "Single item: %s"
 msgstr "Élément unique : %s"
 
@@ -6453,6 +6710,7 @@ msgstr "Gérer les images"
 
 #. translators: %s: Number of images.
 #: wp-includes/post.php:3365
+#, php-format
 msgid "Image <span class=\"count\">(%s)</span>"
 msgid_plural "Images <span class=\"count\">(%s)</span>"
 msgstr[0] "Image <span class=\"count\">(%s)</span>"
@@ -6469,6 +6727,7 @@ msgstr "Gérer le son"
 
 #. translators: %s: Number of audio files.
 #: wp-includes/post.php:3374
+#, php-format
 msgid "Audio <span class=\"count\">(%s)</span>"
 msgid_plural "Audio <span class=\"count\">(%s)</span>"
 msgstr[0] "Son <span class=\"count\">(%s)</span>"
@@ -6485,6 +6744,7 @@ msgstr "Gérer les vidéos"
 
 #. translators: %s: Number of video files.
 #: wp-includes/post.php:3383
+#, php-format
 msgid "Video <span class=\"count\">(%s)</span>"
 msgid_plural "Video <span class=\"count\">(%s)</span>"
 msgstr[0] "Vidéo <span class=\"count\">(%s)</span>"
@@ -6500,6 +6760,7 @@ msgstr "Gérer les documents"
 
 #. translators: %s: Number of documents.
 #: wp-includes/post.php:3392
+#, php-format
 msgid "Document <span class=\"count\">(%s)</span>"
 msgid_plural "Documents <span class=\"count\">(%s)</span>"
 msgstr[0] "Document <span class=\"count\">(%s)</span>"
@@ -6515,6 +6776,7 @@ msgstr "Gérer les feuilles de calcul"
 
 #. translators: %s: Number of spreadsheets.
 #: wp-includes/post.php:3401
+#, php-format
 msgid "Spreadsheet <span class=\"count\">(%s)</span>"
 msgid_plural "Spreadsheets <span class=\"count\">(%s)</span>"
 msgstr[0] "Feuille de calcul <span class=\"count\">(%s)</span>"
@@ -6531,6 +6793,7 @@ msgstr "Gérer les archives"
 
 #. translators: %s: Number of archives.
 #: wp-includes/post.php:3410
+#, php-format
 msgid "Archive <span class=\"count\">(%s)</span>"
 msgid_plural "Archives <span class=\"count\">(%s)</span>"
 msgstr[0] "Archive <span class=\"count\">(%s)</span>"
@@ -6540,7 +6803,7 @@ msgstr[1] "Archives <span class=\"count\">(%s)</span>"
 msgid "Passing an integer number of posts is deprecated. Pass an array of arguments instead."
 msgstr "Il n’est pas recommandé de passer un nombre entier d’articles ; il est préférable de passer un tableau d’arguments."
 
-#: wp-includes/post.php:4212 wp-includes/post.php:4871 wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:542 wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:207 wp-includes/revision.php:366
+#: wp-includes/post.php:4212 wp-includes/post.php:4871 wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:548 wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:207 wp-includes/revision.php:366
 msgid "Invalid post ID."
 msgstr "Identifiant de l’article non valide."
 
@@ -6570,6 +6833,7 @@ msgstr "Impossible d’insérer la publication dans la base de données."
 
 #. translators: %s: Taxonomy name.
 #: wp-includes/post.php:4632
+#, php-format
 msgid "Invalid taxonomy: %s."
 msgstr "Taxonomie invalide : %s."
 
@@ -6590,6 +6854,7 @@ msgstr "Les balises de requête conditionnelle ne fonctionnent pas avant le lanc
 
 #. translators: 1: pre_get_posts, 2: WP_Query->is_main_query(), 3: is_main_query().
 #: wp-includes/query.php:775
+#, php-format
 msgid "In %1$s, use the %2$s method, not the %3$s function."
 msgstr "Dans %1$s, utilisez la méthode %2$s et non la fonction %3$s."
 
@@ -6599,31 +6864,37 @@ msgstr "Ce fichier n’a plus besoin d’être inclus."
 
 #. translators: 1: string value of the namespace, 2: string value of the route.
 #: wp-includes/rest-api.php:47
+#, php-format
 msgid "Routes must be namespaced with plugin or theme name and version. Instead there seems to be an empty namespace '%1$s' for route '%2$s'."
 msgstr "Les chemins doivent être nommés avec le nom et la version de l’extension ou du thème. Au lieu de cela, il semble y avoir un espace de nom vide « %1$s » pour le chemin « %2$s »."
 
 #. translators: 1: string value of the namespace, 2: string value of the route.
 #: wp-includes/rest-api.php:59
+#, php-format
 msgid "Route must be specified. Instead within the namespace '%1$s', there seems to be an empty route '%2$s'."
 msgstr "Le chemin doit être spécifié. Au lieu de cela, dans l’espace du nom « %1$s » il semble y avoir un champ vide « %2$s »."
 
 #. translators: 1: string value of the namespace, 2: string value of the route.
 #: wp-includes/rest-api.php:75
+#, php-format
 msgid "Namespace must not start or end with a slash. Instead namespace '%1$s' for route '%2$s' seems to contain a slash."
 msgstr "L’espace de noms ne doit pas commencer ou se terminer par une barre oblique. Au lieu de cela, l’espace de noms « %1$s » pour le chemin « %2$s » semble contenir une barre oblique."
 
 #. translators: 1: rest_api_init, 2: string value of the route, 3: string value of the namespace.
 #: wp-includes/rest-api.php:88
+#, php-format
 msgid "REST API routes must be registered on the %1$s action. Instead route '%2$s' with namespace '%3$s' was not registered on this action."
 msgstr "Les chemins API REST doivent être inscrits sur l’action %1$s. Au lieu de cela, le chemin « %2$s » avec l’espace de nom « %3$s » n’était pas inscrite sur cette action."
 
 #. translators: 1: The REST API route being registered, 2: The argument name, 3: The suggested function name.
 #: wp-includes/rest-api.php:129
+#, php-format
 msgid "The REST API route definition for %1$s is missing the required %2$s argument. For REST API routes that are intended to be public, use %3$s as the permission callback."
 msgstr "La définition de la route de l’API REST pour %1$s n’a pas l’argument %2$s nécessaire. Pour les routes de l’API REST qui sont destinées à être publiques, utilisez %3$s comme rappel de permission."
 
 #. translators: 1: $args, 2: The REST API route being registered.
 #: wp-includes/rest-api.php:144
+#, php-format
 msgid "REST API %1$s should be an array of arrays. Non-array value detected for %2$s."
 msgstr "%1$s de l’API REST devrait être un tableau de tableaux. Une valeur qui n’est pas de type tableau a été détectée pour %2$s."
 
@@ -6633,21 +6904,25 @@ msgstr "Le paramètre de l’URL REST doit être une chaîne de caractères."
 
 #. translators: 1: Function name, 2: WP version number, 3: New function name.
 #: wp-includes/rest-api.php:690
+#, php-format
 msgid "%1$s (since %2$s; use %3$s instead)"
 msgstr "%1$s (depuis la %2$s ; utilisez %3$s à la place)"
 
 #. translators: 1: Function name, 2: WP version number.
 #: wp-includes/rest-api.php:693 wp-includes/rest-api.php:717
+#, php-format
 msgid "%1$s (since %2$s; no alternative available)"
 msgstr "%1$s (depuis la %2$s ; aucune alternative disponible)"
 
 #. translators: 1: Function name, 2: Version number, 3: Error message.
 #: wp-includes/rest-api.php:714 wp-includes/rest-api.php:739
+#, php-format
 msgid "%1$s (since %2$s; %3$s)"
 msgstr "%1$s (depuis la %2$s ; %3$s)"
 
 #. translators: Developer debugging message. 1: PHP function name, 2: Explanatory message.
 #: wp-includes/rest-api.php:743
+#, php-format
 msgctxt "rest-api"
 msgid "%1$s (%2$s)"
 msgstr "%1$s (%2$s)"
@@ -6663,6 +6938,7 @@ msgstr "La vérification du cookie a échouée"
 
 #. translators: 1: Parameter, 2: List of allowed types.
 #: wp-includes/rest-api.php:1693
+#, php-format
 msgid "The \"type\" schema keyword for %1$s can only contain the built-in types: %2$l."
 msgstr "Le mot-clé « type » du schéma pour %1$s peut uniquement contenir les types natifs : %2$l."
 
@@ -6672,56 +6948,67 @@ msgstr "Impossible de stabiliser les objets. Convertissez d’abord l’objet en
 
 #. translators: 1: Parameter, 2: Schema title, 3: Reason.
 #: wp-includes/rest-api.php:1824
+#, php-format
 msgid "%1$s is not a valid %2$s. Reason: %3$s"
 msgstr "%1$s n’est pas un %2$s valide. Explication : %3$s"
 
 #. translators: 1: Parameter, 2: Reason.
 #: wp-includes/rest-api.php:1832
+#, php-format
 msgid "%1$s does not match the expected format. Reason: %2$s"
 msgstr "%1$s ne correspond pas au format attendu. Explication : %2$s"
 
 #. translators: 1: Parameter, 2: Schema titles.
 #: wp-includes/rest-api.php:1899
+#, php-format
 msgid "%1$s is not a valid %2$l."
 msgstr "%1$s n’est pas un %2$l valide."
 
 #. translators: %s: Parameter.
 #: wp-includes/rest-api.php:1903
+#, php-format
 msgid "%s does not match any of the expected formats."
 msgstr "%s ne correspond à aucun des formats attendus."
 
 #. translators: 1: Parameter, 2: Schema titles.
 #: wp-includes/rest-api.php:1999
+#, php-format
 msgid "%1$s matches %2$l, but should match only one."
 msgstr "%1$s correspond à %2$l, mais ne devrait correspondre qu’à un seul schéma."
 
 #. translators: %s: Parameter.
 #: wp-includes/rest-api.php:2007
+#, php-format
 msgid "%s matches more than one of the expected formats."
 msgstr "%s correspond à plus d’un des formats attendus."
 
 #. translators: 1: Parameter, 2: Valid values.
 #: wp-includes/rest-api.php:2081
+#, php-format
 msgid "%1$s is not %2$s."
 msgstr "%1$s n’est pas %2$s."
 
 #. translators: 1: Parameter, 2: List of valid values.
 #: wp-includes/rest-api.php:2085
+#, php-format
 msgid "%1$s is not one of %2$l."
 msgstr "%1$s ne fait pas partie de %2$l."
 
 #. translators: %s: Parameter.
 #: wp-includes/rest-api.php:2174 wp-includes/rest-api.php:2776
+#, php-format
 msgid "The \"type\" schema keyword for %s is required."
 msgstr "Le mot-clé « type » du schéma est obligatoire pour %s."
 
 #. translators: 1: Parameter, 2: Type name or list of type names.
 #: wp-includes/rest-api.php:2184 wp-includes/rest-api.php:2296 wp-includes/rest-api.php:2318 wp-includes/rest-api.php:2341 wp-includes/rest-api.php:2456 wp-includes/rest-api.php:2527 wp-includes/rest-api.php:2656 wp-includes/rest-api.php:2724
+#, php-format
 msgid "%1$s is not of type %2$s."
 msgstr "Le paramètre %1$s n’est pas de type %2$s."
 
 #. translators: 1: Parameter, 2: The list of allowed types.
 #: wp-includes/rest-api.php:2196 wp-includes/rest-api.php:2793
+#, php-format
 msgid "The \"type\" schema keyword for %1$s can only be one of the built-in types: %2$l."
 msgstr "Le mot-clé « type » du schéma pour %1$s peut uniquement être l’un des types natifs : %2$l."
 
@@ -6729,32 +7016,37 @@ msgstr "Le mot-clé « type » du schéma pour %1$s peut uniquement être l’
 msgid "Invalid hex color."
 msgstr "Couleur hexadécimale non valide."
 
-#: wp-includes/rest-api.php:2261 wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:773 wp-includes/user.php:5134
+#: wp-includes/rest-api.php:2261 wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:779 wp-includes/user.php:5134
 msgid "Invalid email address."
 msgstr "Adresse de courriel non valide."
 
 #. translators: %s: IP address.
 #: wp-includes/rest-api.php:2267
+#, php-format
 msgid "%s is not a valid IP address."
 msgstr "%s n’est pas une adresse IP valide."
 
 #. translators: %s: The name of a JSON field expecting a valid UUID.
 #: wp-includes/rest-api.php:2273
+#, php-format
 msgid "%s is not a valid UUID."
 msgstr "%s n’est pas un UUID valide."
 
 #. translators: 1: Property of an object, 2: Parameter.
 #: wp-includes/rest-api.php:2354 wp-includes/rest-api.php:2364
+#, php-format
 msgid "%1$s is a required property of %2$s."
 msgstr "%1$s est une propriété obligatoire de %2$s."
 
 #. translators: %s: Property of an object.
 #: wp-includes/rest-api.php:2393
+#, php-format
 msgid "%1$s is not a valid property of Object."
 msgstr "%1$s n’est pas une propriété valide de l’objet."
 
 #. translators: 1: Parameter, 2: Number.
 #: wp-includes/rest-api.php:2411
+#, php-format
 msgid "%1$s must contain at least %2$s property."
 msgid_plural "%1$s must contain at least %2$s properties."
 msgstr[0] "%1$s doit contenir au moins %2$s propriété."
@@ -6762,6 +7054,7 @@ msgstr[1] "%1$s doit contenir au moins %2$s propriétés."
 
 #. translators: 1: Parameter, 2: Number.
 #: wp-includes/rest-api.php:2427
+#, php-format
 msgid "%1$s must contain at most %2$s property."
 msgid_plural "%1$s must contain at most %2$s properties."
 msgstr[0] "%1$s doit contenir au maximum %2$s propriété."
@@ -6769,6 +7062,7 @@ msgstr[1] "%1$s doit contenir au maximum %2$s propriétés."
 
 #. translators: 1: Parameter, 2: Number.
 #: wp-includes/rest-api.php:2477
+#, php-format
 msgid "%1$s must contain at least %2$s item."
 msgid_plural "%1$s must contain at least %2$s items."
 msgstr[0] "%1$s doit contenir au moins %2$s élément."
@@ -6776,6 +7070,7 @@ msgstr[1] "%1$s doit contenir au moins %2$s éléments."
 
 #. translators: 1: Parameter, 2: Number.
 #: wp-includes/rest-api.php:2493
+#, php-format
 msgid "%1$s must contain at most %2$s item."
 msgid_plural "%1$s must contain at most %2$s items."
 msgstr[0] "%1$s doit contenir au maximum %2$s élément."
@@ -6783,56 +7078,67 @@ msgstr[1] "%1$s doit contenir au maximum %2$s éléments."
 
 #. translators: %s: Parameter.
 #: wp-includes/rest-api.php:2506 wp-includes/rest-api.php:2809
+#, php-format
 msgid "%s has duplicate items."
 msgstr "%s contient des éléments dupliqués."
 
 #. translators: 1: Parameter, 2: Multiplier.
 #: wp-includes/rest-api.php:2536
+#, php-format
 msgid "%1$s must be a multiple of %2$s."
 msgstr "%1$s doit être un multiple de %2$s."
 
 #. translators: 1: Parameter, 2: Minimum number.
 #: wp-includes/rest-api.php:2545
+#, php-format
 msgid "%1$s must be greater than %2$d"
 msgstr "%1$s doit être supérieur à %2$d"
 
 #. translators: 1: Parameter, 2: Minimum number.
 #: wp-includes/rest-api.php:2553
+#, php-format
 msgid "%1$s must be greater than or equal to %2$d"
 msgstr "%1$s doit être supérieur ou égal à %2$d"
 
 #. translators: 1: Parameter, 2: Maximum number.
 #: wp-includes/rest-api.php:2563
+#, php-format
 msgid "%1$s must be less than %2$d"
 msgstr "%1$s doit être inférieur à %2$d"
 
 #. translators: 1: Parameter, 2: Maximum number.
 #: wp-includes/rest-api.php:2571
+#, php-format
 msgid "%1$s must be less than or equal to %2$d"
 msgstr "%1$s doit être inférieur ou égal à %2$d"
 
 #. translators: 1: Parameter, 2: Minimum number, 3: Maximum number.
 #: wp-includes/rest-api.php:2583
+#, php-format
 msgid "%1$s must be between %2$d (exclusive) and %3$d (exclusive)"
 msgstr "%1$s doit être compris entre %2$d (exclu) et %3$d (exclu)"
 
 #. translators: 1: Parameter, 2: Minimum number, 3: Maximum number.
 #: wp-includes/rest-api.php:2598
+#, php-format
 msgid "%1$s must be between %2$d (exclusive) and %3$d (inclusive)"
 msgstr "%1$s doit être compris entre %2$d (exclu) et %3$d (inclus)"
 
 #. translators: 1: Parameter, 2: Minimum number, 3: Maximum number.
 #: wp-includes/rest-api.php:2613
+#, php-format
 msgid "%1$s must be between %2$d (inclusive) and %3$d (exclusive)"
 msgstr "%1$s doit être compris entre %2$d (inclus) et %3$d (exclu)"
 
 #. translators: 1: Parameter, 2: Minimum number, 3: Maximum number.
 #: wp-includes/rest-api.php:2628
+#, php-format
 msgid "%1$s must be between %2$d (inclusive) and %3$d (inclusive)"
 msgstr "%1$s doit être compris entre %2$d (inclus) et %3$d (inclus)"
 
 #. translators: 1: Parameter, 2: Number of characters.
 #: wp-includes/rest-api.php:2666
+#, php-format
 msgid "%1$s must be at least %2$s character long."
 msgid_plural "%1$s must be at least %2$s characters long."
 msgstr[0] "%1$s doit faire au minimum %2$s caractère."
@@ -6840,6 +7146,7 @@ msgstr[1] "%1$s doit faire au minimum %2$s caractères."
 
 #. translators: 1: Parameter, 2: Number of characters.
 #: wp-includes/rest-api.php:2682
+#, php-format
 msgid "%1$s must be at most %2$s character long."
 msgid_plural "%1$s must be at most %2$s characters long."
 msgstr[0] "%1$s doit faire au maximum %2$s caractère."
@@ -6847,6 +7154,7 @@ msgstr[1] "%1$s doit faire au maximum %2$s caractères."
 
 #. translators: 1: Parameter, 2: Pattern.
 #: wp-includes/rest-api.php:2697
+#, php-format
 msgid "%1$s does not match pattern %2$s."
 msgstr "%1$s ne correspond pas à la composition %2$s."
 
@@ -6856,11 +7164,13 @@ msgstr "Contenu JSON transmis non valide."
 
 #. translators: %s: List of invalid parameters.
 #: wp-includes/rest-api/class-wp-rest-request.php:868 wp-includes/rest-api/class-wp-rest-request.php:950
+#, php-format
 msgid "Invalid parameter(s): %s"
 msgstr "Paramètre(s) invalide(s) : « %s »"
 
 #. translators: %s: List of required parameters.
 #: wp-includes/rest-api/class-wp-rest-request.php:911
+#, php-format
 msgid "Missing parameter(s): %s"
 msgstr "Paramètre(s) manquant(s) : %s"
 
@@ -6874,6 +7184,7 @@ msgstr "Paramètres non valides."
 
 #. translators: %s: rest_authentication_errors
 #: wp-includes/rest-api/class-wp-rest-server.php:351
+#, php-format
 msgid "The REST API can no longer be completely disabled, the %s filter can be used to restrict access to the API, instead."
 msgstr "L’API REST ne peut plus rester complètement désactivée. Au lieu de cela, le filtre %s peut être utilisé pour restreindre l’accès à l’API."
 
@@ -6957,11 +7268,11 @@ msgstr "Désolé, vous n’avez pas l’autorisation de gérer les mots de passe
 msgid "Application passwords are not available."
 msgstr "Les mots de passe d’application ne sont pas activés."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php:694 wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:442 wp-includes/user.php:2195 wp-includes/user.php:2638 wp-includes/user.php:2644
+#: wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php:694 wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:446 wp-includes/user.php:2195 wp-includes/user.php:2638 wp-includes/user.php:2644
 msgid "Invalid contributor ID."
 msgstr "ID du·de la contributeur·rice non valide."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php:704 wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:533
+#: wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php:704 wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:539
 msgid "You are not currently logged in."
 msgstr "Vous n’êtes actuellement pas connecté."
 
@@ -7019,6 +7330,7 @@ msgstr "Type de parent non valide."
 
 #. translators: %s: attachment mime type
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:425
+#, php-format
 msgid "This site does not support post thumbnails on attachments with MIME type %s."
 msgstr "Ce site ne prend pas en charge les miniatures de publications sur les fichiers joints de type MIME %s."
 
@@ -7132,11 +7444,13 @@ msgstr "Limiter le groupe de résultats à un type MIME particulier."
 
 #. translators: %s: Required disk space in kilobytes.
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1427
+#, php-format
 msgid "Not enough space to upload. %s KB needed."
 msgstr "Pas assez d’espace pour charger. Il y a besoin de %s KB."
 
 #. translators: %s: Maximum allowed file size in kilobytes.
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1436
+#, php-format
 msgid "This file is too big. Files must be less than %s KB in size."
 msgstr "Ce fichier est trop grand. La taille des fichiers doit être inférieure à %s Ko."
 
@@ -7236,7 +7550,7 @@ msgstr "Désolé, vous n’avez pas l’autorisation de voir les sauvegardes aut
 msgid "Invalid item ID."
 msgstr "ID d’élément invalide."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:275 wp-includes/rest-api/endpoints/class-wp-rest-font-faces-controller.php:768 wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1439 wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:155
+#: wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:275 wp-includes/rest-api/endpoints/class-wp-rest-font-faces-controller.php:768 wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1445 wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:155
 msgid "Invalid post parent ID."
 msgstr "ID de la publication parente non valide."
 
@@ -7614,6 +7928,7 @@ msgstr "Accès public et identifiant de style éditeur. OBSOLÈTE : utilisez pl
 
 #. translators: %s: register_routes()
 #: wp-includes/rest-api/endpoints/class-wp-rest-controller.php:55
+#, php-format
 msgid "Method '%s' must be overridden."
 msgstr "La méthode « %s » doit être surchargée."
 
@@ -7621,6 +7936,7 @@ msgstr "La méthode « %s » doit être surchargée."
 #: wp-includes/rest-api/endpoints/class-wp-rest-controller.php:72 wp-includes/rest-api/endpoints/class-wp-rest-controller.php:89 wp-includes/rest-api/endpoints/class-wp-rest-controller.php:106 wp-includes/rest-api/endpoints/class-wp-rest-controller.php:123
 #: wp-includes/rest-api/endpoints/class-wp-rest-controller.php:140 wp-includes/rest-api/endpoints/class-wp-rest-controller.php:157 wp-includes/rest-api/endpoints/class-wp-rest-controller.php:174 wp-includes/rest-api/endpoints/class-wp-rest-controller.php:191
 #: wp-includes/rest-api/endpoints/class-wp-rest-controller.php:208 wp-includes/rest-api/endpoints/class-wp-rest-controller.php:225 wp-includes/rest-api/endpoints/class-wp-rest-controller.php:242 wp-includes/rest-api/endpoints/class-wp-rest-controller.php:260
+#, php-format
 msgid "Method '%s' not implemented. Must be overridden in subclass."
 msgstr "La méthode « %s » n’est pas implémentée. Cela devrait être surchargé en sous-classe."
 
@@ -7644,7 +7960,7 @@ msgstr "Le contexte dans lequel la demande est faite ; cela détermine les cham
 msgid "Sorry, you are not allowed to export templates and template parts."
 msgstr "Désolé, vous n’avez pas l‘autorisation d’exporter des gabarits et des portions de gabarit."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-font-collections-controller.php:87 wp-includes/rest-api/endpoints/class-wp-rest-global-styles-revisions-controller.php:231 wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:497
+#: wp-includes/rest-api/endpoints/class-wp-rest-font-collections-controller.php:87 wp-includes/rest-api/endpoints/class-wp-rest-global-styles-revisions-controller.php:231 wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:503
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:338 wp-includes/rest-api/endpoints/class-wp-rest-search-controller.php:165
 msgid "The page number requested is larger than the number of pages available."
 msgstr "Le nombre de page demandé est plus grand que le nombre de pages disponibles."
@@ -7703,26 +8019,31 @@ msgstr "Le paramètre font_face_settings doit être une chaîne JSON valide."
 
 #. translators: %s: Name of the missing key.
 #: wp-includes/rest-api/endpoints/class-wp-rest-font-faces-controller.php:193 wp-includes/rest-api/endpoints/class-wp-rest-font-families-controller.php:136
+#, php-format
 msgid "%s cannot be empty."
 msgstr "%s ne peut pas être vide."
 
 #. translators: %s: Font face source parameter name: "font_face_settings[src]".
 #: wp-includes/rest-api/endpoints/class-wp-rest-font-faces-controller.php:209
+#, php-format
 msgid "%s values must be non-empty strings."
 msgstr "Les valeurs %s doivent être des chaînes non vides."
 
 #. translators: 1: Font face source parameter name: "font_face_settings[src]", 2: The invalid src value.
 #: wp-includes/rest-api/endpoints/class-wp-rest-font-faces-controller.php:219
+#, php-format
 msgid "%1$s value \"%2$s\" must be a valid URL or file reference."
 msgstr "La valeur %1$s « %2$s » doit être une URL valide ou une référence fichier."
 
 #. translators: 1: File key (e.g. "file-0") in the request data, 2: Font face source parameter name: "font_face_settings[src]".
 #: wp-includes/rest-api/endpoints/class-wp-rest-font-faces-controller.php:231
+#, php-format
 msgid "File %1$s must be used in %2$s."
 msgstr "Le fichier %1$s doit être utilisé dans %2$s."
 
 #. translators: %d: A post id.
 #: wp-includes/rest-api/endpoints/class-wp-rest-font-faces-controller.php:303 wp-includes/rest-api/endpoints/class-wp-rest-font-faces-controller.php:417
+#, php-format
 msgid "The font face does not belong to the specified font family with id of \"%d\"."
 msgstr "La police de caractères n’appartient pas à la famille de polices ayant pour ID « %d »."
 
@@ -7732,10 +8053,11 @@ msgstr "Une police de caractères correspondant à ces réglages existe déjà."
 
 #. translators: %s: force=true
 #: wp-includes/rest-api/endpoints/class-wp-rest-font-faces-controller.php:429 wp-includes/rest-api/endpoints/class-wp-rest-font-families-controller.php:216
+#, php-format
 msgid "Font faces do not support trashing. Set \"%s\" to delete."
 msgstr "Les polices de caractères ne supportent pas la suppression. Configurez « %s » pour supprimer."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-font-faces-controller.php:507 wp-includes/rest-api/endpoints/class-wp-rest-font-families-controller.php:295 wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:120 wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2350
+#: wp-includes/rest-api/endpoints/class-wp-rest-font-faces-controller.php:507 wp-includes/rest-api/endpoints/class-wp-rest-font-families-controller.php:295 wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:120 wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2356
 msgid "Unique identifier for the post."
 msgstr "Identifiant unique pour la publication."
 
@@ -7821,16 +8143,19 @@ msgstr "Désolé, vous n’avez pas l’autorisation d’accéder à cette famil
 
 #. translators: %s: Parameter name: "font_family_settings".
 #: wp-includes/rest-api/endpoints/class-wp-rest-font-families-controller.php:99
+#, php-format
 msgid "%s parameter must be a valid JSON string."
 msgstr "Le paramètre %s doit être une chaine JSON valide."
 
 #. translators: %s: Name of parameter being updated: font_family_settings[slug]".
 #: wp-includes/rest-api/endpoints/class-wp-rest-font-families-controller.php:116
+#, php-format
 msgid "%s cannot be updated."
 msgstr "%s ne peut être mis à jour."
 
 #. translators: %s: Font family slug.
 #: wp-includes/rest-api/endpoints/class-wp-rest-font-families-controller.php:192
+#, php-format
 msgid "A font family with slug \"%s\" already exists."
 msgstr "Une police de caractères avec le slug « %s » existe déjà."
 
@@ -7899,7 +8224,7 @@ msgstr "Titre de la variation de styles globaux."
 msgid "Title for the global styles variation, as it exists in the database."
 msgstr "Titre de la variation de styles globaux, tel qu’il existe en base de données."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-global-styles-controller.php:495 wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2508
+#: wp-includes/rest-api/endpoints/class-wp-rest-global-styles-controller.php:495 wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2514
 msgid "HTML title for the post, transformed for display."
 msgstr "Le titre HTML pour la publication, mis en forme pour l’affichage."
 
@@ -7992,17 +8317,17 @@ msgstr "Limiter les résultats à ceux qui correspondent à un identifiant de mo
 msgid "Limit results to those matching a pattern (slug)."
 msgstr "Limiter les résultats à ceux qui correspondent à une composition (slug)."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-pattern-directory-controller.php:289 wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2937 wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:842 wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1152
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1584
+#: wp-includes/rest-api/endpoints/class-wp-rest-pattern-directory-controller.php:289 wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2943 wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:842 wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1156
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1590
 msgid "Offset the result set by a specific number of items."
 msgstr "Ignorer un nombre spécifique d’éléments au sein du jeu de résultats."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-pattern-directory-controller.php:294 wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2942 wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:847 wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1158
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1590
+#: wp-includes/rest-api/endpoints/class-wp-rest-pattern-directory-controller.php:294 wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2948 wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:847 wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1162
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1596
 msgid "Order sort attribute ascending or descending."
 msgstr "Le paramètre order trie les attributs dans l’ordre croissant ou décroissant."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-pattern-directory-controller.php:301 wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2949
+#: wp-includes/rest-api/endpoints/class-wp-rest-pattern-directory-controller.php:301 wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2955
 msgid "Sort collection by post attribute."
 msgstr "Trier la collection par attributs de publication."
 
@@ -8266,374 +8591,383 @@ msgstr "Vous devez définir un terme à rechercher pour ordonner par pertinence.
 msgid "You need to define an include parameter to order by include."
 msgstr "Vous devez définir un paramètre d’inclusion pour ordonner avec <em lang=\"en\">include</em>."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:575 wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:890
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:581 wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:896
 msgid "Sorry, you are not allowed to edit this post."
 msgstr "Désolé, vous n’avez pas l’autorisation de modifier cet article."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:585
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:591
 msgid "Incorrect post password."
 msgstr "Mot de passe de la publication incorrect."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:677 wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:731
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:683 wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:737
 msgid "Cannot create existing post."
 msgstr "Impossible de créer une publication existant déjà."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:687 wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:703
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:693 wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:709
 msgid "Sorry, you are not allowed to create posts as this contributor."
 msgstr "Désolé, vous n’avez pas l’autorisation de créer des contenus sous cet identifiant."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:695 wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:906
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:701 wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:912
 msgid "Sorry, you are not allowed to make posts sticky."
 msgstr "Désolé, vous n’avez pas l’autorisation d’épingler cette publication."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:711 wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:914
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:717 wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:920
 msgid "Sorry, you are not allowed to assign the provided terms."
 msgstr "Désolé, vous n’avez pas l’autorisation d’attribuer les termes proposés."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:898
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:904
 msgid "Sorry, you are not allowed to update posts as this contributor."
 msgstr "Désolé, vous n’avez pas l’autorisation de mettre à jour des articles sous cet identifiant."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1060 wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1114
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1066 wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1120
 msgid "Sorry, you are not allowed to delete this post."
 msgstr "Désolé, vous n’avez pas l’autorisation de supprimer cet article."
 
 #. translators: %s: force=true
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1138
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1144
+#, php-format
 msgid "The post does not support trashing. Set '%s' to delete."
 msgstr "La publication ne peut pas être mise à la corbeille. Utilisez le paramètre « %s » pour la supprimer."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1147
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1153
 msgid "The post has already been deleted."
 msgstr "Cette publication a déjà été supprimée."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1164 wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:523
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1170 wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:523
 msgid "The post cannot be deleted."
 msgstr "Cette publication ne peut pas être supprimée."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1387 wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:652
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1393 wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:652
 msgid "Invalid author ID."
 msgstr "ID de l’auteur·rice non valide."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1404
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1410
 msgid "A post can not be sticky and have a password."
 msgstr "Une publication ne peut pas être épinglée et être protégée par un mot de passe."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1412
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1418
 msgid "A sticky post can not be password protected."
 msgstr "Une publication épinglée ne peut pas être protégée par un mot de passe."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1423
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1429
 msgid "A password protected post can not be set to sticky."
 msgstr "Une publication protégée par mot de passe ne peut pas être épinglée."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1523
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1529
 msgid "Sorry, you are not allowed to create private posts in this post type."
 msgstr "Désolé, vous n’avez pas l’autorisation de créer des contenus privés avec ce type de publication."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1533
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1539
 msgid "Sorry, you are not allowed to publish posts in this post type."
 msgstr "Désolé, vous n’avez pas l’autorisation de publier des articles avec ce type de publication."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1567
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1573
 msgid "Invalid featured media ID."
 msgstr "ID du média mis en avant non valide."
 
 #. translators: 1: Parameter, 2: List of valid values.
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1614
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1620
+#, php-format
 msgid "%1$s is not one of %2$s."
 msgstr "Le paramètre %1$s devrait avoir l’une de ces valeurs : %2$s."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2318
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2324
 msgid "The date the post was published, in the site's timezone."
 msgstr "La date de publication de l’article, dans le fuseau horaire du site."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2324
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2330
 msgid "The date the post was published, as GMT."
 msgstr "La date de mise en ligne de la publication, au format GMT."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2330
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2336
 msgid "The globally unique identifier for the post."
 msgstr "L’identifiant unique global pour cette publication."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2336
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2342
 msgid "GUID for the post, as it exists in the database."
 msgstr "L’identifiant unique de l’article, tel qu’il existe dans la base de données."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2342
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2348
 msgid "GUID for the post, transformed for display."
 msgstr "GUID pour la publication, transformé pour l’affichage."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2356
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2362
 msgid "URL to the post."
 msgstr "URL de la publication."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2363
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2369
 msgid "The date the post was last modified, in the site's timezone."
 msgstr "La date de dernière modification de l’article, dans le fuseau horaire du site."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2370
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2376
 msgid "The date the post was last modified, as GMT."
 msgstr "La dernière date GMT à laquelle la publication a été modifiée."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2377
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2383
 msgid "An alphanumeric identifier for the post unique to its type."
 msgstr "Un identificateur alphanumérique pour la publication, propre au type de la ressource."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2385
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2391
 msgid "A named status for the post."
 msgstr "Un état nommé pour la publication."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2394
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2400
 msgid "Type of post."
 msgstr "Type de publication."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2400
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2406
 msgid "A password to protect access to the content and excerpt."
 msgstr "Un mot de passe pour protéger l’accès au contenu et à l’extrait."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2410
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2416
 msgid "Permalink template for the post."
 msgstr "Gabarit de permalien pour la publication."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2417
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2423
 msgid "Slug automatically generated from the post title."
 msgstr "Slug automatiquement généré depuis le titre de la publication."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2424
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2430
 msgid "An array of the class names for the post container element."
 msgstr "Un tableau des noms de classe pour l’élément du conteneur de la publication."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2436
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2442
 msgid "The ID for the parent of the post."
 msgstr "L’ID du parent de la publication."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2494
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2500
 msgid "The title for the post."
 msgstr "Le titre de la publication."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2503
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2509
 msgid "Title for the post, as it exists in the database."
 msgstr "Le titre pour la publication, tel qu’il existe dans la base de données."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2519
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2525
 msgid "The content for the post."
 msgstr "Le contenu pour cette publication."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2528
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2534
 msgid "Content for the post, as it exists in the database."
 msgstr "Contenu pour cet objet, tel qu’il existe dans la base de données."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2533
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2539
 msgid "HTML content for the post, transformed for display."
 msgstr "Contenu HTML pour la publication, transformé pour l’affichage."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2539
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2545
 msgid "Version of the content block format used by the post."
 msgstr "Version du format de bloc de contenu utilisé par l’objet."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2545
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2551
 msgid "Whether the content is protected with a password."
 msgstr "Définit si le contenu est protégé par mot de passe ou non."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2556
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2562
 msgid "The ID for the author of the post."
 msgstr "L’ID pour l’auteur·rice de la publication."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2564
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2570
 msgid "The excerpt for the post."
 msgstr "L’extrait pour la publication."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2573
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2579
 msgid "Excerpt for the post, as it exists in the database."
 msgstr "L’extrait pour la publication, tel qu’il existe dans la base de données."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2578
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2584
 msgid "HTML excerpt for the post, transformed for display."
 msgstr "Extrait HTML pour la publication, mis en forme pour l’affichage."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2584
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2590
 msgid "Whether the excerpt is protected with a password."
 msgstr "Définit si l’extrait est protégé par un mot de passe ou non."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2595
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2601
 msgid "The ID of the featured media for the post."
 msgstr "L’ID du média mis en avant pour la publication."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2603
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2609
 msgid "The order of the post in relation to other posts."
 msgstr "L’ordre de la publication en fonction des autres publications."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2614
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2620
 msgid "The format for the post."
 msgstr "Le format pour la publication."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2630
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2636
 msgid "Whether or not the post should be treated as sticky."
 msgstr "Définit si la publication doit être traitée en tant que contenu épinglé ou non."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2637
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2643
 msgid "The theme file to use to display the post."
 msgstr "Le fichier de thème à utiliser pour afficher la publication."
 
 #. translators: 1: The taxonomy name, 2: The property name, either 'rest_base' or 'name', 3: The conflicting value.
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2656
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2662
+#, php-format
 msgid "The \"%1$s\" taxonomy \"%2$s\" property (%3$s) conflicts with an existing property on the REST API Posts Controller. Specify a custom \"rest_base\" when registering the taxonomy to avoid this error."
 msgstr "La propriété « %2$s » de la taxonomie « %1$s » (%3$s) ne fonctionne pas avec l’une des propriétés déjà existantes sur le contrôleur de publications de l’API REST. Spécifiez une « rest_base » personnalisée lors de l’enregistrement de la taxonomie pour éviter cette erreur."
 
 #. translators: %s: Taxonomy name.
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2667
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2673
+#, php-format
 msgid "The terms assigned to the post in the %s taxonomy."
 msgstr "Les termes assignés à la publication dans la taxonomie %s."
 
 #. translators: %s: register_rest_field
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2710
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2716
+#, php-format
 msgid "Please use %s to add new schema properties."
 msgstr "Merci d’utiliser %s pour ajouter de nouvelles propriétés de schéma."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2738
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2744
 msgid "The current contributor can publish this post."
 msgstr "Le·la contributeur·rice actuel·le peut publier cette publication."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2754
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2760
 msgid "The current contributor can post unfiltered HTML markup and JavaScript."
 msgstr "Le·la contributeur·rice actuel·le peut publier du code HTML et JavaScript sans qu’il soit filtré."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2771
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2777
 msgid "The current contributor can sticky this post."
 msgstr "Le·la contributeur·rice actuel·le peut épingler cette publication."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2787
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2793
 msgid "The current contributor can change the author on this post."
 msgstr "Le·la contributeur·rice actuel·le peut changer l’auteur·rice de cette publication."
 
 #. translators: %s: Taxonomy name.
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2806
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2812
+#, php-format
 msgid "The current contributor can assign terms in the %s taxonomy."
 msgstr "Le·la contributeur·rice actuel·le peut assigner des termes dans la taxonomie %s."
 
 #. translators: %s: Taxonomy name.
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2808
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2814
+#, php-format
 msgid "The current contributor can create terms in the %s taxonomy."
 msgstr "Le·la contributeur·rice actuel·le peut créer des termes dans la taxonomie %s."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2863
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2869
 msgid "Limit response to posts published after a given ISO8601 compliant date."
 msgstr "Limiter la réponse aux publications mises en ligne après une date définie et conforme à la norme ISO8601."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2869
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2875
 msgid "Limit response to posts modified after a given ISO8601 compliant date."
 msgstr "Limiter la réponse aux publications modifiées après une date définie et conforme à la norme ISO8601."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2876
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2882
 msgid "Limit result set to posts assigned to specific authors."
 msgstr "Limiter les résultats aux publications assignées à des auteur·rice·s spécifiques."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2884
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2890
 msgid "Ensure result set excludes posts assigned to specific authors."
 msgstr "S’assurer que le jeu de résultats exclut les publications assignées à des auteur·rice·s spécifiques."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2894
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2900
 msgid "Limit response to posts published before a given ISO8601 compliant date."
 msgstr "Limiter la réponse aux publications mises en ligne avant une date définie et conforme à la norme ISO8601."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2900
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2906
 msgid "Limit response to posts modified before a given ISO8601 compliant date."
 msgstr "Limiter la réponse aux publications modifiées avant une date définie et conforme à la norme ISO8601."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2906 wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:824 wp-includes/rest-api/endpoints/class-wp-rest-search-controller.php:341 wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1133
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1566
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2912 wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:824 wp-includes/rest-api/endpoints/class-wp-rest-search-controller.php:341 wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1137
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1572
 msgid "Ensure result set excludes specific IDs."
 msgstr "S’assure que le jeu de résultats exclut des ID spécifiques."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2915 wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:833 wp-includes/rest-api/endpoints/class-wp-rest-search-controller.php:350 wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1142
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1575
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2921 wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:833 wp-includes/rest-api/endpoints/class-wp-rest-search-controller.php:350 wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1146
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1581
 msgid "Limit result set to specific IDs."
 msgstr "Limiter le groupe de résultats aux ID spécifiés."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2925
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2931
 msgid "Limit result set to posts with a specific menu_order value."
 msgstr "Limiter le jeu de résultats aux publications ayant une valeur menu_order spécifique."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2931
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2937
 msgid "How to interpret the search input."
 msgstr "Comment interpréter le terme recherché."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2974
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2980
 msgid "Limit result set to items with particular parent IDs."
 msgstr "Limiter le jeu de résultats aux éléments ayant un ID parent particulier."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2982
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2988
 msgid "Limit result set to all items except those of a particular parent ID."
 msgstr "Limiter le jeu de résultats à tous les résultats, exceptés ceux dont le parent porte un ID spécifique."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2993 wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1654
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2999 wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1660
 msgid "Array of column names to be searched."
 msgstr "Tableau de nom de colonnes à rechercher."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3002
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3008
 msgid "Limit result set to posts with one or more specific slugs."
 msgstr "Limiter le jeu de résultats aux publications ayant au moins un slug particulier."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3011
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3017
 msgid "Limit result set to posts assigned one or more statuses."
 msgstr "Limiter le jeu de résultats aux publications associées à un ou plusieurs états."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3024
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3030
 msgid "Limit result set to items that are sticky."
 msgstr "Limiter les résultats aux éléments qui sont épinglés."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3029
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3035
 msgid "Whether to ignore sticky posts or not."
 msgstr "Détermine s’il faut ignorer ou non les publications épinglées."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3037
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3043
 msgid "Limit result set to items assigned one or more given formats."
 msgstr "Limiter le jeu de résultats aux éléments auxquels un ou plusieurs formats sont assignés."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3098
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3104
 msgid "Status is forbidden."
 msgstr "L’état est interdit."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3203
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3209
 msgid "Limit result set based on relationship between multiple taxonomies."
 msgstr "Limiter le jeu de résultats en se basant sur les correspondances entre plusieurs taxonomies."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3212
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3218
 msgid "Term ID List"
 msgstr "Listes des ID de termes"
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3213
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3219
 msgid "Match terms with the listed IDs."
 msgstr "Faire correspondre les termes avec les ID listés."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3220
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3226
 msgid "Term ID Taxonomy Query"
 msgstr "Requête sur un ID de terme de taxonomie"
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3221
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3227
 msgid "Perform an advanced term query."
 msgstr "Effectuer une recherche de terme avancée."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3225
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3231
 msgid "Term IDs."
 msgstr "ID de termes."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3233
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3239
 msgid "Whether to include child terms in the terms limiting the result set."
 msgstr "Possibilité d’inclure des termes enfants dans les termes limitant le champs de résultats."
 
 #. translators: %s: Taxonomy name.
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3246
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3252
+#, php-format
 msgid "Limit result set to items with specific terms assigned in the %s taxonomy."
 msgstr "Limiter le jeu de résultats aux éléments qui ont des termes spécifiquement assignés dans la taxonomie %s."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3252
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3258
 msgid "Whether items must be assigned all or any of the specified terms."
 msgstr "Si les éléments doivent être assignés à tous ou à certains des termes spécifiés."
 
 #. translators: %s: Taxonomy name.
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3261
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3267
+#, php-format
 msgid "Limit result set to items except those with specific terms assigned in the %s taxonomy."
 msgstr "Limiter le jeu de résultats aux éléments qui ont le terme spécifié assigné dans la taxonomie %s."
 
@@ -8655,6 +8989,7 @@ msgstr "ID de révision non valide."
 
 #. translators: %d: A post id.
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:426
+#, php-format
 msgid "The revision does not belong to the specified parent with id of \"%d\""
 msgstr "La révision n’appartient pas au parent ayant pour ID « %d »"
 
@@ -8668,6 +9003,7 @@ msgstr "Désolé, vous n’avez pas l’autorisation de modifier cette révision
 
 #. translators: %s: force=true
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:499
+#, php-format
 msgid "Revisions do not support trashing. Set '%s' to delete."
 msgstr "Les révisions ne peuvent pas être mises à la corbeille. Utilisez le paramètre « %s » pour supprimer."
 
@@ -8705,6 +9041,7 @@ msgstr "Trier la collection par attribut d’objet."
 
 #. translators: %s: PHP class name.
 #: wp-includes/rest-api/endpoints/class-wp-rest-search-controller.php:76
+#, php-format
 msgid "REST search handlers must extend the %s class."
 msgstr "Les prises en charge de la recherche REST doivent étendre la classe %s."
 
@@ -8746,6 +9083,7 @@ msgstr "Type de paramètre non valide."
 
 #. translators: %s: Property name.
 #: wp-includes/rest-api/endpoints/class-wp-rest-settings-controller.php:198 wp-includes/rest-api/fields/class-wp-rest-meta-fields.php:172 wp-includes/rest-api/fields/class-wp-rest-meta-fields.php:190
+#, php-format
 msgid "The %s property has an invalid stored value, and cannot be updated to null."
 msgstr "La propriété %s a une valeur stockée non valide, et ne peut pas être enregistrée comme nulle."
 
@@ -9005,7 +9343,7 @@ msgstr "Extension qui a enregistré le gabarit."
 msgid "Where the template part is intended for use (header, footer, etc.)"
 msgstr "L’emplacement où la portion de gabarit devrait être utilisé (entête, pied de page, etc.)"
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:113 wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1052
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:113 wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1056
 msgid "Unique identifier for the term."
 msgstr "Identificateur unique pour le terme."
 
@@ -9021,84 +9359,85 @@ msgstr "Désolé, vous n’avez pas l’autorisation de modifier les termes de c
 msgid "Sorry, you are not allowed to view terms for this post."
 msgstr "Désolé, vous n’avez pas l’autorisation de voir les termes de cette publication."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:420
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:424
 msgid "Term does not exist."
 msgstr "Le terme n’existe pas."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:458 wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:649
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:462 wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:653
 msgid "Sorry, you are not allowed to edit this term."
 msgstr "Désolé, vous n’avez pas l’autorisation de modifier ce terme."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:507
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:511
 msgid "Sorry, you are not allowed to create terms in this taxonomy."
 msgstr "Désolé, vous n’avez pas l’autorisation de créer des termes dans cette taxonomie."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:528 wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:675
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:532 wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:679
 msgid "Cannot set parent term, taxonomy is not hierarchical."
 msgstr "Impossible de définir un terme parent, la taxonomie n’est pas hiérarchique."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:538 wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:685 wp-includes/taxonomy.php:2477 wp-includes/taxonomy.php:3279
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:542 wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:689 wp-includes/taxonomy.php:2477 wp-includes/taxonomy.php:3279
 msgid "Parent term does not exist."
 msgstr "Le terme parent n’existe pas."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:750
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:754
 msgid "Sorry, you are not allowed to delete this term."
 msgstr "Désolé, vous n’avez pas l’autorisation de supprimer ce terme."
 
 #. translators: %s: force=true
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:779
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:783
+#, php-format
 msgid "Terms do not support trashing. Set '%s' to delete."
 msgstr "Les termes ne peuvent pas être mis à la corbeille. Utilisez le paramètre « %s » pour supprimer."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:793
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:797
 msgid "The term cannot be deleted."
 msgstr "Le terme ne peut pas être supprimé."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1058
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1062
 msgid "Number of published posts for the term."
 msgstr "Nombre de publications publiées pour le terme."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1064
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1068
 msgid "HTML description of the term."
 msgstr "Description HTML du terme."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1069
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1073
 msgid "URL of the term."
 msgstr "URL du terme."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1076
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1080
 msgid "HTML title for the term."
 msgstr "Titre HTML pour le terme."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1085
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1089
 msgid "An alphanumeric identifier for the term unique to its type."
 msgstr "Un identificateur alphanumérique pour le terme, propre au type de la ressource."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1093
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1097
 msgid "Type attribution for the term."
 msgstr "Type attribué pour le terme."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1106
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1110
 msgid "The parent term ID."
 msgstr "L’ID du terme parent."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1168
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1172
 msgid "Sort collection by term attribute."
 msgstr "Trier la collection par attributs de terme."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1184
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1188
 msgid "Whether to hide terms not assigned to any posts."
 msgstr "Détermine s’il faut masquer ou non des termes non affectés à des publications."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1191
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1195
 msgid "Limit result set to terms assigned to a specific parent."
 msgstr "Résultats limités aux termes ayant un parent spécifique."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1197
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1201
 msgid "Limit result set to terms assigned to a specific post."
 msgstr "Limiter le résultat aux termes assignés à une publication spécifique."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1203
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1207
 msgid "Limit result set to terms with one or more specific slugs."
 msgstr "Limiter le jeu de résultats aux termes ayant un ou plusieurs identifiants spécifiques."
 
@@ -9248,21 +9587,25 @@ msgstr "L’URL à traiter."
 
 #. translators: %s: HTML title tag.
 #: wp-includes/rest-api/endpoints/class-wp-rest-url-details-controller.php:82
+#, php-format
 msgid "The contents of the %s element from the URL."
 msgstr "Le contenu de l’élément %s à partir de l‘URL."
 
 #. translators: %s: HTML link tag.
 #: wp-includes/rest-api/endpoints/class-wp-rest-url-details-controller.php:92
+#, php-format
 msgid "The favicon image link of the %s element from the URL."
 msgstr "Le lien vers l’image de favicon de l’élément %s à partir de l’URL."
 
 #. translators: %s: HTML meta tag.
 #: wp-includes/rest-api/endpoints/class-wp-rest-url-details-controller.php:103
+#, php-format
 msgid "The content of the %s element from the URL."
 msgstr "Le contenu de l’élément %s à partir de l‘URL."
 
 #. translators: 1: HTML meta tag, 2: HTML meta tag.
 #: wp-includes/rest-api/endpoints/class-wp-rest-url-details-controller.php:113
+#, php-format
 msgid "The Open Graph image link of the %1$s or %2$s element from the URL."
 msgstr "Le lien de l‘image Open Graph de l‘élément %1$s ou %2$s à partir de l‘URL."
 
@@ -9282,7 +9625,7 @@ msgstr "URL introuvable. La réponse à retourné un code de statut différent d
 msgid "Unable to retrieve body from response at this URL."
 msgstr "Impossible de retrouver le corps de la réponse sur cet URL."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:85 wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1398
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:85 wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1404
 msgid "Unique identifier for the contributor."
 msgstr "Identifiant unique du·de la contributeur·rice."
 
@@ -9294,7 +9637,7 @@ msgstr "Nécessite la valeur « true », car la gestion des contributeur·rice
 msgid "Reassign the deleted contributor's posts to this contributor ID."
 msgstr "Transférer les publications du·de la contributeur·rice supprimé·e à cet ID de contributeur·rice."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:190 wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:601
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:190 wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:607
 msgid "Invalid contributor parameter(s)."
 msgstr "Paramètre(s) de contributeur·rice non valide(s)."
 
@@ -9306,9 +9649,9 @@ msgstr "Désolé, vous n’avez pas l’autorisation de filtrer les contributeur
 msgid "Sorry, you are not allowed to filter contributors by capability."
 msgstr "Désolé, vous n’avez pas l‘autorisation de filtrer les contributeur·rice·s selon leurs permissions."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:225 wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:485 wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:491
-msgid "Sorry, you are not allowed to list contributors."
-msgstr "Désolé, vous n’avez pas l’autorisation de lister les contributeur·rice·s."
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:225
+msgid "Sorry, you are not allowed to edit contributors."
+msgstr "Désolé, vous n’avez pas l’autorisation de modifier des contributeur·rice·s."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:233
 msgid "Sorry, you are not allowed to order contributors by this parameter."
@@ -9318,176 +9661,185 @@ msgstr "Désolé, vous n’avez pas l’autorisation de trier les contributeur·
 msgid "Sorry, you are not allowed to query contributors by this parameter."
 msgstr "Désolé vous n’avez pas l’autorisation d’utiliser ce paramètre de requête de contributeur·rice·s."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:558
-msgid "Sorry, you are not allowed to create new contributors."
-msgstr "Désolé, vous n’avez pas l’autorisation de créer des contributeur·rice·s."
-
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:578
-msgid "Cannot create existing contributor."
-msgstr "Impossible de créer un·e contributeur·rice déjà existant·e."
-
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:626
-msgid "Error creating new contributor."
-msgstr "Erreur de création du·de la contributeur·rice."
-
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:722
-msgid "Sorry, you are not allowed to edit roles of this contributor."
-msgstr "Désolé, vous n’avez pas l’autorisation de modifier le rôle de ce·tte contributeur·rice."
-
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:741
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:489 wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:747
 msgid "Sorry, you are not allowed to edit this contributor."
 msgstr "Désolé, vous n’avez pas l’autorisation de modifier ce·tte contributeur·rice."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:781
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:497
+msgid "Sorry, you are not allowed to list contributors."
+msgstr "Désolé, vous n’avez pas l’autorisation de lister les contributeur·rice·s."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:564
+msgid "Sorry, you are not allowed to create new contributors."
+msgstr "Désolé, vous n’avez pas l’autorisation de créer des contributeur·rice·s."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:584
+msgid "Cannot create existing contributor."
+msgstr "Impossible de créer un·e contributeur·rice déjà existant·e."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:632
+msgid "Error creating new contributor."
+msgstr "Erreur de création du·de la contributeur·rice."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:728
+msgid "Sorry, you are not allowed to edit roles of this contributor."
+msgstr "Désolé, vous n’avez pas l’autorisation de modifier le rôle de ce·tte contributeur·rice."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:787
 msgid "Username is not editable."
 msgstr "L’identifiant n’est pas modifiable."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:789
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:795
 msgid "Invalid slug."
 msgstr "Slug invalide."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:895
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:901
 msgid "Sorry, you are not allowed to delete this contributor."
 msgstr "Désolé, vous n’avez pas l’autorisation de supprimer ce·tte contributeur·rice."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:916 wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:963
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:922 wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:969
 msgid "The contributor cannot be deleted."
 msgstr "Le·la contributeur·rice ne peut pas être supprimé·e."
 
 #. translators: %s: force=true
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:936
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:942
+#, php-format
 msgid "Contributors do not support trashing. Set '%s' to delete."
 msgstr "Les contributeur·rice·s ne peuvent pas être mis à la corbeille. Utilisez le paramètre « %s » pour les supprimer."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:945
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:951
 msgid "Invalid contributor ID for reassignment."
 msgstr "ID de contributeur·rice non valide pour le transfert."
 
 #. translators: %s: Role key.
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1259
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1265
+#, php-format
 msgid "The role %s does not exist."
 msgstr "Le rôle %s n’existe pas."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1277 wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1291
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1283 wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1297
 msgid "Sorry, you are not allowed to give contributors that role."
 msgstr "Désolé, vous n’avez pas l’autorisation de donner ce rôle aux contributeur·rice·s."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1318
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1324
 msgid "This username is invalid because it uses illegal characters. Please enter a valid username."
 msgstr "L’identifiant n’est pas valide car il utilise des caractères non autorisés. Merci de saisir un identifiant valide."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1329 wp-includes/user.php:2246 wp-includes/user.php:3602 wp-includes/user.php:3609
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1335 wp-includes/user.php:2246 wp-includes/user.php:3602 wp-includes/user.php:3609
 msgid "Sorry, that username is not allowed."
 msgstr "Désolé, cet identifiant n’est pas autorisé."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1360
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1366
 msgid "Passwords cannot be empty."
 msgstr "Le champ texte mot de passe ne peut être vide."
 
 #. translators: %s: The '\' character.
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1370
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1376
+#, php-format
 msgid "Passwords cannot contain the \"%s\" character."
 msgstr "Les mots de passe ne peuvent pas contenir le caractère « %s »."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1404
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1410
 msgid "Login name for the contributor."
 msgstr "Identifiant de connexion pour le·la contributeur·rice."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1413
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1419
 msgid "Display name for the contributor."
 msgstr "Nom à afficher pour le·la contributeur·rice."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1421
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1427
 msgid "First name for the contributor."
 msgstr "Prénom associé à le·la contributeur·rice."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1429
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1435
 msgid "Last name for the contributor."
 msgstr "Nom (patronyme) du·de la contributeur·rice."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1437
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1443
 msgid "The email address for the contributor."
 msgstr "L’adresse de courriel du·de la contributeur·rice."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1444
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1450
 msgid "URL of the contributor."
 msgstr "URL du·de la contributeur·rice."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1450
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1456
 msgid "Description of the contributor."
 msgstr "Description du·de la contributeur·rice."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1455
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1461
 msgid "Author URL of the contributor."
 msgstr "URL d’auteur·rice du·de la contributeur·rice."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1462
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1468
 msgid "Locale for the contributor."
 msgstr "Langue choisie par le·la contributeur·rice."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1468
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1474
 msgid "The nickname for the contributor."
 msgstr "Le surnom du·de la contributeur·rice."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1476
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1482
 msgid "An alphanumeric identifier for the contributor."
 msgstr "Un identifiant alphanumérique pour le·la contributeur·rice."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1484
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1490
 msgid "Registration date for the contributor."
 msgstr "Date d’inscription du·de la contributeur·rice."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1491
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1497
 msgid "Roles assigned to the contributor."
 msgstr "Rôles assignés au·à la contributeur·rice."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1499
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1505
 msgid "Password for the contributor (never included)."
 msgstr "Mot de passe pour le·la contributeur·rice (jamais inclus)."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1508
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1514
 msgid "All capabilities assigned to the contributor."
 msgstr "Toutes les permissions affectées au compte."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1514
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1520
 msgid "Any extra capabilities assigned to the contributor."
 msgstr "Les permissions supplémentaires affectées au·à la contributeur·rice."
 
 #. translators: %d: Avatar image size in pixels.
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1530
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1536
+#, php-format
 msgid "Avatar URL with image size of %d pixels."
 msgstr "URL d’image de profil avec une taille d’image de %d pixels."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1538
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1544
 msgid "Avatar URLs for the contributor."
 msgstr "URL d’image de profil du·de la contributeur·rice."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1597
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1603
 msgid "Sort collection by contributor attribute."
 msgstr "Trier la collection par attribut de contributeur·rice."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1612
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1618
 msgid "Limit result set to contributors with one or more specific slugs."
 msgstr "Limiter le jeu de résultats aux contributeur·rice·s ayant un ou plusieurs identifiants spécifiques."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1620
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1626
 msgid "Limit result set to contributors matching at least one specific role provided. Accepts csv list or single role."
 msgstr "Limiter le résultat aux contributeur·rice·s correspondants à au moins un rôle spécifique fourni. Accepte les listes de type CSV ou les rôles uniques."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1628
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1634
 msgid "Limit result set to contributors matching at least one specific capability provided. Accepts csv list or single capability."
 msgstr "Limiter le jeu de résultats aux contributeur·rice·s correspondant à au moins une capacité spécifique fournie. Accepte une liste CSV ou une capacité unique."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1636
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1642
 msgid "Limit result set to contributors who are considered authors."
 msgstr "Limiter le jeu de résultats aux contributeur·rice·s considéré·e·s comme auteur·rice·s."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1644
+#: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1650
 msgid "Limit result set to contributors who have published posts."
 msgstr "Limiter les résultats aux contributeur·rice·s qui ont mis en ligne des publications."
 
 #. translators: %s: Custom field key.
 #: wp-includes/rest-api/fields/class-wp-rest-meta-fields.php:241 wp-includes/rest-api/fields/class-wp-rest-meta-fields.php:288 wp-includes/rest-api/fields/class-wp-rest-meta-fields.php:398
+#, php-format
 msgid "Sorry, you are not allowed to edit the %s custom field."
 msgstr "Désolé, vous n’avez pas l’autorisation de modifier le champ personnalisé %s."
 
@@ -9497,6 +9849,7 @@ msgstr "La suppression de la valeur de la métadonnée en base de données n’e
 
 #. translators: %s: Custom field key.
 #: wp-includes/rest-api/fields/class-wp-rest-meta-fields.php:343 wp-includes/rest-api/fields/class-wp-rest-meta-fields.php:357 wp-includes/rest-api/fields/class-wp-rest-meta-fields.php:410
+#, php-format
 msgid "Could not update the meta value of %s in database."
 msgstr "La mise à jour de la valeur de la méta de %s dans la base de données n’est pas possible."
 
@@ -9531,6 +9884,7 @@ msgstr "une seconde"
 
 #. translators: %d: Duration in seconds from or to a particular datetime, e.g., "4 seconds ago" or "4 seconds from now".
 #: wp-includes/script-loader.php:439
+#, php-format
 msgid "%d seconds"
 msgstr "%d secondes"
 
@@ -9541,6 +9895,7 @@ msgstr "une minute"
 
 #. translators: %d: Duration in minutes from or to a particular datetime, e.g., "4 minutes ago" or "4 minutes from now".
 #: wp-includes/script-loader.php:443
+#, php-format
 msgid "%d minutes"
 msgstr "%d minutes"
 
@@ -9551,6 +9906,7 @@ msgstr "une heure"
 
 #. translators: %d: Duration in hours from or to a particular datetime, e.g., "4 hours ago" or "4 hours from now".
 #: wp-includes/script-loader.php:447
+#, php-format
 msgid "%d hours"
 msgstr "%d heures"
 
@@ -9561,6 +9917,7 @@ msgstr "un jour"
 
 #. translators: %d: Duration in days from or to a particular datetime, e.g., "4 days ago" or "4 days from now".
 #: wp-includes/script-loader.php:451
+#, php-format
 msgid "%d days"
 msgstr "%d jours"
 
@@ -9571,6 +9928,7 @@ msgstr "un mois"
 
 #. translators: %d: Duration in months from or to a particular datetime, e.g., "4 months ago" or "4 months from now".
 #: wp-includes/script-loader.php:455
+#, php-format
 msgid "%d months"
 msgstr "%d mois"
 
@@ -9581,6 +9939,7 @@ msgstr "une année"
 
 #. translators: %d: Duration in years from or to a particular datetime, e.g., "4 years ago" or "4 years from now".
 #: wp-includes/script-loader.php:459
+#, php-format
 msgid "%d years"
 msgstr "%d ans"
 
@@ -9735,6 +10094,7 @@ msgstr "Vous avez tenté de charger trop de fichiers à la fois."
 
 #. translators: %s: File name.
 #: wp-includes/script-loader.php:837
+#, php-format
 msgid "%s exceeds the maximum upload size for this site."
 msgstr "%s dépasse la limite de chargement de ce site."
 
@@ -9784,11 +10144,13 @@ msgstr "Le chargement a échoué."
 
 #. translators: 1: Opening link tag, 2: Closing link tag.
 #: wp-includes/script-loader.php:850
+#, php-format
 msgid "Please try uploading this file with the %1$sbrowser uploader%2$s."
 msgstr "Merci d’essayer de charger ce fichier à l’aide de l’%1$soutil de chargement%2$s."
 
 #. translators: %s: File name.
 #: wp-includes/script-loader.php:852
+#, php-format
 msgid "%s exceeds the maximum upload size for the multi-file uploader when used in your browser."
 msgstr "%s dépasse la limite de chargement pour l’outil de chargement multiple utilisé avec votre navigateur."
 
@@ -9822,6 +10184,7 @@ msgstr "déplacé dans la corbeille."
 
 #. translators: %s: File name.
 #: wp-includes/script-loader.php:861
+#, php-format
 msgid "&#8220;%s&#8221; has failed to upload."
 msgstr "« %s » n’a pas pu être chargé."
 
@@ -10213,6 +10576,7 @@ msgstr "La chaîne attendue doit commencer par une balise de script (sans attrib
 
 #. translators: %s: wp_remove_surrounding_empty_script_tags()
 #: wp-includes/script-loader.php:3047
+#, php-format
 msgid "Function %s used incorrectly in PHP."
 msgstr "Fonction %s utilisée de manière incorrecte dans PHP."
 
@@ -10222,26 +10586,31 @@ msgstr "Nom de code court non valide : aucun nom donné."
 
 #. translators: 1: Shortcode name, 2: Space-separated list of reserved characters.
 #: wp-includes/shortcodes.php:80
+#, php-format
 msgid "Invalid shortcode name: %1$s. Do not use spaces or reserved characters: %2$s"
 msgstr "Nom de code court non valide : %1$s. N’utilisez pas d’espace ou de caractères réservés : %2$s"
 
 #. translators: %s: Shortcode tag.
 #: wp-includes/shortcodes.php:407
+#, php-format
 msgid "Attempting to parse a shortcode without a valid callback: %s"
 msgstr "Tentative d’analyse d’un code court sans fonction de rappel valide : %s"
 
 #. translators: %s: List of element names.
 #: wp-includes/sitemaps/class-wp-sitemaps-renderer.php:172
+#, php-format
 msgid "Fields other than %s are not currently supported for the sitemap index."
 msgstr "Les champs différents de %s ne sont actuellement pas supportés pour l’index du plan de site."
 
 #. translators: %s: List of element names.
 #: wp-includes/sitemaps/class-wp-sitemaps-renderer.php:236
+#, php-format
 msgid "Fields other than %s are not currently supported for sitemaps."
 msgstr "Les champs autres que %s ne sont pas supportés par les plans de sites pour l’instant."
 
 #. translators: %s: SimpleXML
 #: wp-includes/sitemaps/class-wp-sitemaps-renderer.php:265
+#, php-format
 msgid "Could not generate XML sitemap due to missing %s extension"
 msgstr "Impossible de générer le plan de site XML à cause d’une extension %s manquante"
 
@@ -10263,6 +10632,7 @@ msgstr "En savoir plus sur les plans de site XML."
 
 #. translators: %s: Number of URLs.
 #: wp-includes/sitemaps/class-wp-sitemaps-stylesheet.php:59 wp-includes/sitemaps/class-wp-sitemaps-stylesheet.php:173
+#, php-format
 msgid "Number of URLs in this XML Sitemap: %s."
 msgstr "Nombre d’URL dans ce plan de site XML : %s."
 
@@ -10455,6 +10825,7 @@ msgstr "Vous ne pouvez pas omettre de déclarer une taxonomie interne."
 
 #. translators: %s: Taxonomy name.
 #: wp-includes/taxonomy.php:749
+#, php-format
 msgctxt "taxonomy template name"
 msgid "%s Archives"
 msgstr "Archives de %s"
@@ -10501,6 +10872,7 @@ msgstr "Impossible d’insérer le terme associé dans la base de données."
 
 #. translators: %s: Taxonomy term slug.
 #: wp-includes/taxonomy.php:3343
+#, php-format
 msgid "The slug &#8220;%s&#8221; is already in use by another term."
 msgstr "Le slug « %s » est déjà utilisé par un autre terme."
 
@@ -10510,6 +10882,7 @@ msgstr "Impossible de séparer les termes partagés."
 
 #. translators: %s: Taxonomy label, %l: List of terms formatted as per $term_template.
 #: wp-includes/taxonomy.php:4796
+#, php-format
 msgid "%s: %l."
 msgstr "%s : %l."
 
@@ -10523,16 +10896,19 @@ msgstr "Oups ! Ce contenu est introuvable."
 
 #. translators: %s: A link to the embedded site.
 #: wp-includes/theme-compat/embed-404.php:23
+#, php-format
 msgid "It looks like nothing was found at this location. Maybe try visiting %s directly?"
 msgstr "Il semble qu’il n’y ait rien à cette adresse. Vous pourriez essayer de vous rendre directement sur %s ?"
 
 #. translators: %s: Template name.
 #: wp-includes/theme-compat/footer.php:11 wp-includes/theme-compat/header.php:11 wp-includes/theme-compat/sidebar.php:11
+#, php-format
 msgid "Theme without %s"
 msgstr "Thème sans %s"
 
 #. translators: %s: Template name.
 #: wp-includes/theme-compat/footer.php:15 wp-includes/theme-compat/header.php:15 wp-includes/theme-compat/sidebar.php:15
+#, php-format
 msgid "Please include a %s template in your theme."
 msgstr "Merci d’inclure un gabarit de %s à votre thème."
 
@@ -10542,11 +10918,13 @@ msgstr "Auteur·rice"
 
 #. translators: %s: Category name.
 #: wp-includes/theme-compat/sidebar.php:46
+#, php-format
 msgid "You are currently browsing the archives for the %s category."
 msgstr "Vous parcourez actuellement les archives de la catégorie %s."
 
 #. translators: 1: Site link, 2: Archive date.
 #: wp-includes/theme-compat/sidebar.php:57
+#, php-format
 msgid "You are currently browsing the %1$s blog archives for the day %2$s."
 msgstr "Vous parcourez actuellement les archives du blog %1$s pour le %2$s."
 
@@ -10557,6 +10935,7 @@ msgstr "l j F Y"
 
 #. translators: 1: Site link, 2: Archive month.
 #: wp-includes/theme-compat/sidebar.php:70
+#, php-format
 msgid "You are currently browsing the %1$s blog archives for %2$s."
 msgstr "Vous parcourez actuellement les archives du blog %1$s pour %2$s."
 
@@ -10567,16 +10946,19 @@ msgstr "F Y"
 
 #. translators: 1: Site link, 2: Archive year.
 #: wp-includes/theme-compat/sidebar.php:83
+#, php-format
 msgid "You are currently browsing the %1$s blog archives for the year %2$s."
 msgstr "Vous parcourez actuellement les archives du blog %1$s pour l’année %2$s."
 
 #. translators: 1: Site link, 2: Search query.
 #: wp-includes/theme-compat/sidebar.php:95
+#, php-format
 msgid "You have searched the %1$s blog archives for <strong>&#8216;%2$s&#8217;</strong>. If you are unable to find anything in these search results, you can try one of these links."
 msgstr "Vous avez lancé une recherche dans les archives du site %1$s avec la requête <strong>« %2$s »</strong>. Si les résultats ne vous conviennent pas, vous pouvez essayer l’un de ces liens."
 
 #. translators: %s: Site link.
 #: wp-includes/theme-compat/sidebar.php:107
+#, php-format
 msgid "You are currently browsing the %s blog archives."
 msgstr "Vous parcourez actuellement les archives du blog %s."
 
@@ -10586,18 +10968,21 @@ msgstr "Méta"
 
 #. translators: %s: Theme name.
 #: wp-includes/theme.php:941
+#, php-format
 msgctxt "theme"
 msgid "<strong>Error:</strong> Current Retraceur and PHP versions do not meet minimum requirements for %s."
 msgstr "<strong>Erreur :</strong> les versions actuelles de Retraceur et PHP ne répondent pas aux prérequis minimums de %s."
 
 #. translators: %s: Theme name.
 #: wp-includes/theme.php:950
+#, php-format
 msgctxt "theme"
 msgid "<strong>Error:</strong> Current PHP version does not meet minimum requirements for %s."
 msgstr "<strong>Erreur :</strong> la version actuelle de PHP ne répond pas aux prérequis minimums pour %s."
 
 #. translators: %s: Theme name.
 #: wp-includes/theme.php:959
+#, php-format
 msgctxt "theme"
 msgid "<strong>Error:</strong> Current Retraceur version does not meet minimum requirements for %s."
 msgstr "<strong>Erreur :</strong> la version actuelle de Retraceur ne répond pas aux prérequis minimums pour %s."
@@ -10674,6 +11059,7 @@ msgstr "Vous devez passer un tableau de types."
 
 #. translators: 1: title-tag, 2: wp_loaded
 #: wp-includes/theme.php:2693
+#, php-format
 msgid "Theme support for %1$s should be registered before the %2$s hook."
 msgstr "Le support de %1$s par le thème devrait être déclaré avant que le crochet %2$s ne soit émis."
 
@@ -10699,6 +11085,7 @@ msgstr "Lors de l’enregistrement d’une fonctionnalité de type « object �
 
 #. translators: %s: prepare_callback
 #: wp-includes/theme.php:3123
+#, php-format
 msgid "The \"%s\" must be a callable function."
 msgstr "« %s » doit être une fonction pouvant être appelée."
 
@@ -10812,11 +11199,13 @@ msgstr "(Retraceur n’a pas pu établir de connexion sécurisée vers l’outil
 
 #. translators: %d: Number of available Retraceur updates.
 #: wp-includes/update.php:828
+#, php-format
 msgid "%d Retraceur Update"
 msgstr "%d mise à jour de Retraceur"
 
 #. translators: %d: Number of available plugin updates.
 #: wp-includes/update.php:833
+#, php-format
 msgid "%d Plugin Update"
 msgid_plural "%d Plugin Updates"
 msgstr[0] "%d mise à jour d’extension"
@@ -10824,6 +11213,7 @@ msgstr[1] "%d mises à jour d’extensions"
 
 #. translators: %d: Number of available theme updates.
 #: wp-includes/update.php:838
+#, php-format
 msgid "%d Theme Update"
 msgid_plural "%d Theme Updates"
 msgstr[0] "%d mise à jour de thème"
@@ -10839,6 +11229,7 @@ msgstr "Impossible d’accéder au système de fichiers."
 
 #. translators: %s: Directory name.
 #: wp-includes/update.php:1017
+#, php-format
 msgid "Unable to locate Retraceur content directory (%s)."
 msgstr "Impossible de localiser le répertoire de contenu de Retraceur (%s)."
 
@@ -10852,11 +11243,13 @@ msgstr "<strong>Erreur :</strong> le champ du mot de passe est vide."
 
 #. translators: %s: User name.
 #: wp-includes/user.php:190
+#, php-format
 msgid "<strong>Error:</strong> The username <strong>%s</strong> is not registered on this site. If you are unsure of your username, try your email address instead."
 msgstr "<strong>Erreur :</strong> le nom d’utilisateur·rice <strong>%s</strong> n’est pas enregistré sur ce site. Si vous doutez de votre nom d’utilisateur·rice, essayez plutôt votre adresse de courriel."
 
 #. translators: %s: User name.
 #: wp-includes/user.php:217
+#, php-format
 msgid "<strong>Error:</strong> The password you entered for the username %s is incorrect."
 msgstr "<strong>Erreur :</strong> ce mot de passe ne correspond pas à l’identifiant %s."
 
@@ -10874,6 +11267,7 @@ msgstr "Adresse de courriel inconnue. Vérifiez l’orthographe ou essayez avec 
 
 #. translators: %s: Email address.
 #: wp-includes/user.php:300
+#, php-format
 msgid "<strong>Error:</strong> The password you entered for the email address %s is incorrect."
 msgstr "<strong>Erreur :</strong> le mot de passe que vous avez saisi pour l’adresse de courriel %s est incorrect."
 
@@ -10895,11 +11289,13 @@ msgstr "<strong>Erreur :</strong> votre compte a été marqué comme étant ind
 
 #. translators: %s: $network_id
 #: wp-includes/user.php:1451 wp-includes/user.php:1475 wp-includes/user.php:1508 wp-includes/user.php:1556
+#, php-format
 msgid "Unable to pass %s if not using multisite."
 msgstr "Impossible de passer %s si vous n‘utilisez pas multisite."
 
 #. translators: 1: User's display name, 2: User login.
 #: wp-includes/user.php:1821
+#, php-format
 msgctxt "user dropdown"
 msgid "%1$s (%2$s)"
 msgstr "%1$s (%2$s)"
@@ -10995,6 +11391,7 @@ msgstr ""
 
 #. translators: Email change notification email subject. %s: Site title.
 #: wp-includes/user.php:2786
+#, php-format
 msgid "[%s] Email Changed"
 msgstr "[%s] Couriel modifié"
 
@@ -11036,6 +11433,7 @@ msgstr "Quelqu’un a demandé la réinitialisation du mot de passe pour le comp
 
 #. translators: %s: Site name.
 #: wp-includes/user.php:3276
+#, php-format
 msgid "Site Name: %s"
 msgstr "Titre du site : %s"
 
@@ -11049,11 +11447,13 @@ msgstr "Pour renouveler votre mot de passe, cliquez sur le lien suivant :"
 
 #. translators: %s: IP address of password reset requester.
 #: wp-includes/user.php:3294
+#, php-format
 msgid "This password reset request originated from the IP address %s."
 msgstr "Cette demande de réinitialisation de mot de passe provient de l’adresse IP %s."
 
 #. translators: Password reset notification email subject. %s: Site title.
 #: wp-includes/user.php:3301
+#, php-format
 msgid "[%s] Password Reset"
 msgstr "[%s] Réinitialisation du mot de passe"
 
@@ -11087,11 +11487,13 @@ msgstr "<strong>Erreur :</strong> l’adresse de courriel est incorrecte."
 
 #. translators: %s: Link to the login page.
 #: wp-includes/user.php:3477 wp-includes/user.php:3640
+#, php-format
 msgid "<strong>Error:</strong> This email address is already registered. <a href=\"%s\">Log in</a> with this address or choose another one."
 msgstr "<strong>Erreur :</strong> cette adresse de courriel est déjà enregistrée. <a href=\"%s\">Connectez-vous</a> avec cette adresse ou choisissez-en une autre."
 
 #. translators: %s: Admin email address.
 #: wp-includes/user.php:3525
+#, php-format
 msgid "<strong>Error:</strong> Could not register you&hellip; please contact the <a href=\"mailto:%s\">site admin</a>!"
 msgstr "<strong>Erreur :</strong> inscription impossible… Merci de prendre contact avec l’<a href=\"mailto:%s\">admininistrateur·rice du site</a> !"
 
@@ -11149,6 +11551,7 @@ msgstr "Ce nom d’utilisateur·rice a déjà été activé."
 
 #. translators: New user notification email. %s: Activation URL.
 #: wp-includes/user.php:3989
+#, php-format
 msgid ""
 "To activate & confirm your registration, please click the following link:\n"
 "\n"
@@ -11164,6 +11567,7 @@ msgstr ""
 
 #. translators: New user notification email subject. 1: Network title, 2: New user login.
 #: wp-includes/user.php:4013
+#, php-format
 msgctxt "New contributor notification email subject"
 msgid "[%1$s] Activate %2$s"
 msgstr "[%1$s] Activer %2$s"
@@ -11208,11 +11612,13 @@ msgstr ""
 
 #. translators: New email address notification email subject. %s: Site title.
 #: wp-includes/user.php:4304
+#, php-format
 msgid "[%s] Email Change Request"
 msgstr "[%s] Demande de modification de l’adresse de courriel"
 
 #. translators: %s: New email address.
 #: wp-includes/user.php:4327
+#, php-format
 msgid "Your email address has not been updated yet. Please check your inbox at %s for a confirmation email."
 msgstr "Votre adresse de courriel n’a pas encore été mise à jour. Merci de vérifier votre messagerie sur %s et le courriel de confirmation."
 
@@ -11266,6 +11672,7 @@ msgstr "Description du·de la contributeur·rice"
 
 #. translators: %s: wp_privacy_additional_user_profile_data
 #: wp-includes/user.php:4477
+#, php-format
 msgid "Filter %s returned items with reserved names."
 msgstr "Le filtre %s a retourné des éléments avec des noms réservés."
 
@@ -11319,6 +11726,7 @@ msgstr "Données des jetons de session du·de la contributeur·rice."
 
 #. translators: Privacy data request confirmed notification email subject. 1: Site title, 2: Name of the confirmed action.
 #: wp-includes/user.php:4648
+#, php-format
 msgid "[%1$s] Action Confirmed: %2$s"
 msgstr "[%1$s] Action confirmée : %2$s"
 
@@ -11357,11 +11765,13 @@ msgstr ""
 
 #. translators: 1 & 2: Deprecation replacement options.
 #: wp-includes/user.php:4730 wp-includes/user.php:4970
+#, php-format
 msgid "%1$s or %2$s"
 msgstr "%1$s ou %2$s"
 
 #. translators: Erasure request fulfilled notification email subject. %s: Site title.
 #: wp-includes/user.php:4852
+#, php-format
 msgid "[%s] Erasure Request Fulfilled"
 msgstr "[%s] Demande d’effacement effectuée"
 
@@ -11461,6 +11871,7 @@ msgstr "Effacer les données"
 
 #. translators: %s: Action name.
 #: wp-includes/user.php:5201
+#, php-format
 msgid "Confirm the \"%s\" action"
 msgstr "Confirmer l’action « %s »"
 
@@ -11470,6 +11881,7 @@ msgstr "Demande de données personnelles invalide."
 
 #. translators: Confirm privacy data request notification email subject. 1: Site title, 2: Name of the action.
 #: wp-includes/user.php:5258
+#, php-format
 msgid "[%1$s] Confirm Action: %2$s"
 msgstr "[%1$s] Confirmer l’action : %2$s"
 
@@ -11541,11 +11953,13 @@ msgstr "Merci d’utiliser une extension à la place."
 
 #. translators: %s: wp-config.php
 #: wp-load.php:88
+#, php-format
 msgid "There doesn't seem to be a %s file. It is needed before the installation can continue."
 msgstr "Il ne semble pas y avoir de fichier %s. Celui-ci est nécessaire pour que l’installation puisse continuer."
 
 #. translators: %s: wp-config.php
 #: wp-load.php:93
+#, php-format
 msgid "You can create a %s file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file."
 msgstr "Vous pouvez créer un fichier %s par le biais d’une interface web, mais cela ne marche pas pour toutes les configurations de serveur. La manière la plus sûre reste de créer le fichier à la main."
 
@@ -11555,11 +11969,13 @@ msgstr "Créer un fichier de configuration"
 
 #. translators: Login screen title. 1: Login screen name, 2: Network or site name.
 #: wp-login.php:76
+#, php-format
 msgid "%1$s &lsaquo; %2$s &#8212; Retraceur"
 msgstr "%1$s &lsaquo; %2$s &#8212; Retraceur"
 
 #. translators: %s: Login screen title.
 #: wp-login.php:80
+#, php-format
 msgid "Recovery Mode &#8212; %s"
 msgstr "Mode de récupération &#8212; %s"
 
@@ -11573,6 +11989,7 @@ msgstr "Fait avec ♥ par Retraceur"
 
 #. translators: %s: Site title.
 #: wp-login.php:338
+#, php-format
 msgctxt "site"
 msgid "&larr; Go to %s"
 msgstr "&larr; Aller sur %s"
@@ -11600,6 +12017,7 @@ msgstr "Merci de vérifier que <strong>l’adresse de courriel d’administratio
 
 #. translators: %s: Admin email address.
 #: wp-login.php:703
+#, php-format
 msgid "Current administration email: %s"
 msgstr "Courriel d’administration actuel : %s"
 
@@ -11709,11 +12127,13 @@ msgstr "La confirmation d’inscription vous sera envoyée par courriel."
 
 #. translators: %s: Link to the login page.
 #: wp-login.php:1217
+#, php-format
 msgid "Check your email for the confirmation link, then visit the <a href=\"%s\">login page</a>."
 msgstr "Vérifiez vos courriels pour le lien de confirmation puis rendez-vous sur la <a href=\"%s\">page de connexion</a>."
 
 #. translators: %s: Link to the login page.
 #: wp-login.php:1227
+#, php-format
 msgid "Registration complete. Please check your email, then visit the <a href=\"%s\">login page</a>."
 msgstr "Enregistrement terminé. Vérifiez vos courriels puis rendez-vous sur la <a href=\"%s\">page de connexion</a>."
 
@@ -11743,6 +12163,7 @@ msgstr "Compte activé"
 
 #. Translators: 1: The user login. 2: The user password.
 #: wp-login.php:1323
+#, php-format
 msgid "<p>Your account is now active. Please log in using the following information:<br><br><strong>Login:</strong> %1$s<br><strong>Password:</strong> %2$s<br><br></p>"
 msgstr "<p>Votre compte est maintenant actif. Merci de vous connecter en utilisant les informations suivantes&nbsp;:<br><br><strong>Nom d’utilisateur·rice :</strong> %1$s<br><strong>Mot de passe</strong>: %2$s<br><br></p>"
 
@@ -13065,6 +13486,311 @@ msgstr "vidéo"
 msgctxt "block title"
 msgid "Widget Group"
 msgstr "Groupe de widgets"
+
+#: wp-content/themes/point/theme.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr "Primaire"
+
+#: wp-content/themes/point/theme.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr "Secondaire"
+
+#: wp-content/themes/point/theme.json
+msgctxt "Color name"
+msgid "Tertiary"
+msgstr "Tertiaire"
+
+#: wp-content/themes/point/theme.json
+msgctxt "Color name"
+msgid "Retraceur blue"
+msgstr "Bleu de Retraceur"
+
+#: wp-content/themes/point/theme.json
+msgctxt "Color name"
+msgid "Retraceur blue hover"
+msgstr "Bleu survolé de Retraceur"
+
+#: wp-content/themes/point/theme.json
+msgctxt "Color name"
+msgid "Very dark grey"
+msgstr "Gris très foncé"
+
+#: wp-content/themes/point/theme.json
+msgctxt "Font family name"
+msgid "Noto Serif"
+msgstr "Noto Serif"
+
+#: wp-content/themes/point/theme.json
+msgctxt "Font size name"
+msgid "Ultra Small"
+msgstr "Très petite"
+
+#: wp-content/themes/point/theme.json wp-includes/theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr "Petite"
+
+#: wp-content/themes/point/theme.json
+msgctxt "Font size name"
+msgid "Regular"
+msgstr "Régulier"
+
+#: wp-content/themes/point/theme.json wp-includes/theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr "Moyenne"
+
+#: wp-content/themes/point/theme.json wp-includes/theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr "Grande"
+
+#: wp-content/themes/point/theme.json
+msgctxt "Font size name"
+msgid "Very Large"
+msgstr "Très grande"
+
+#: wp-content/themes/point/theme.json
+msgctxt "Font size name"
+msgid "Ultra Large"
+msgstr "Super grande"
+
+#: wp-content/themes/point/theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr "Entête"
+
+#: wp-content/themes/point/theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr "Pied de page"
+
+#: wp-includes/theme.json
+msgctxt "Duotone name"
+msgid "Dark grayscale"
+msgstr "Échelle de gris foncé"
+
+#: wp-includes/theme.json
+msgctxt "Duotone name"
+msgid "Grayscale"
+msgstr "Échelle de gris"
+
+#: wp-includes/theme.json
+msgctxt "Duotone name"
+msgid "Purple and yellow"
+msgstr "Pourpre et jaune"
+
+#: wp-includes/theme.json
+msgctxt "Duotone name"
+msgid "Blue and red"
+msgstr "Bleu et rouge"
+
+#: wp-includes/theme.json
+msgctxt "Duotone name"
+msgid "Midnight"
+msgstr "Minuit"
+
+#: wp-includes/theme.json
+msgctxt "Duotone name"
+msgid "Magenta and yellow"
+msgstr "Magenta et jaune"
+
+#: wp-includes/theme.json
+msgctxt "Duotone name"
+msgid "Purple and green"
+msgstr "Pourpre et vert"
+
+#: wp-includes/theme.json
+msgctxt "Duotone name"
+msgid "Blue and orange"
+msgstr "Bleu et orange"
+
+#: wp-includes/theme.json
+msgctxt "Gradient name"
+msgid "Vivid cyan blue to vivid purple"
+msgstr "Bleu cyan vivifiant à pourpre vivifiant"
+
+#: wp-includes/theme.json
+msgctxt "Gradient name"
+msgid "Light green cyan to vivid green cyan"
+msgstr "Vert cyan léger à vert cyan vivifiant"
+
+#: wp-includes/theme.json
+msgctxt "Gradient name"
+msgid "Luminous vivid amber to luminous vivid orange"
+msgstr "Ambre vivifiant lumineux à orange vivifiant lumineux"
+
+#: wp-includes/theme.json
+msgctxt "Gradient name"
+msgid "Luminous vivid orange to vivid red"
+msgstr "Orange vivifiant lumineux à rouge vivifiant"
+
+#: wp-includes/theme.json
+msgctxt "Gradient name"
+msgid "Very light gray to cyan bluish gray"
+msgstr "Gris très léger à gris bleu cyan"
+
+#: wp-includes/theme.json
+msgctxt "Gradient name"
+msgid "Cool to warm spectrum"
+msgstr "Spectre froid à chaud"
+
+#: wp-includes/theme.json
+msgctxt "Gradient name"
+msgid "Blush light purple"
+msgstr "Rouge pourpre léger"
+
+#: wp-includes/theme.json
+msgctxt "Gradient name"
+msgid "Blush bordeaux"
+msgstr "Rouge bordeaux"
+
+#: wp-includes/theme.json
+msgctxt "Gradient name"
+msgid "Luminous dusk"
+msgstr "Crépuscule lumineux"
+
+#: wp-includes/theme.json
+msgctxt "Gradient name"
+msgid "Pale ocean"
+msgstr "Océan pâle"
+
+#: wp-includes/theme.json
+msgctxt "Gradient name"
+msgid "Electric grass"
+msgstr "Gazon électrique"
+
+#: wp-includes/theme.json
+msgctxt "Gradient name"
+msgid "Midnight"
+msgstr "Minuit"
+
+#: wp-includes/theme.json
+msgctxt "Color name"
+msgid "Black"
+msgstr "Noir"
+
+#: wp-includes/theme.json
+msgctxt "Color name"
+msgid "Cyan bluish gray"
+msgstr "Cyan bleu gris"
+
+#: wp-includes/theme.json
+msgctxt "Color name"
+msgid "White"
+msgstr "Blanc"
+
+#: wp-includes/theme.json
+msgctxt "Color name"
+msgid "Pale pink"
+msgstr "Rose pâle"
+
+#: wp-includes/theme.json
+msgctxt "Color name"
+msgid "Vivid red"
+msgstr "Rouge vivifiant"
+
+#: wp-includes/theme.json
+msgctxt "Color name"
+msgid "Luminous vivid orange"
+msgstr "Orange vivifiant lumineux"
+
+#: wp-includes/theme.json
+msgctxt "Color name"
+msgid "Luminous vivid amber"
+msgstr "Ambre vivifiant lumineux"
+
+#: wp-includes/theme.json
+msgctxt "Color name"
+msgid "Light green cyan"
+msgstr "Vert cyan léger"
+
+#: wp-includes/theme.json
+msgctxt "Color name"
+msgid "Vivid green cyan"
+msgstr "Vert cyan vivifiant"
+
+#: wp-includes/theme.json
+msgctxt "Color name"
+msgid "Pale cyan blue"
+msgstr "Bleu cyan pâle"
+
+#: wp-includes/theme.json
+msgctxt "Color name"
+msgid "Vivid cyan blue"
+msgstr "Bleu cyan vivifiant"
+
+#: wp-includes/theme.json
+msgctxt "Color name"
+msgid "Vivid purple"
+msgstr "Pourpre vivifiant"
+
+#: wp-includes/theme.json
+msgctxt "Aspect ratio name"
+msgid "Square - 1:1"
+msgstr "Carré - 1:1"
+
+#: wp-includes/theme.json
+msgctxt "Aspect ratio name"
+msgid "Standard - 4:3"
+msgstr "Standard - 4:3"
+
+#: wp-includes/theme.json
+msgctxt "Aspect ratio name"
+msgid "Portrait - 3:4"
+msgstr "Portrait - 3:4"
+
+#: wp-includes/theme.json
+msgctxt "Aspect ratio name"
+msgid "Classic - 3:2"
+msgstr "Classique - 3:2"
+
+#: wp-includes/theme.json
+msgctxt "Aspect ratio name"
+msgid "Classic Portrait - 2:3"
+msgstr "Portrait classique - 2:3"
+
+#: wp-includes/theme.json
+msgctxt "Aspect ratio name"
+msgid "Wide - 16:9"
+msgstr "Panoramique - 16:9"
+
+#: wp-includes/theme.json
+msgctxt "Aspect ratio name"
+msgid "Tall - 9:16"
+msgstr "Grand - 9:16"
+
+#: wp-includes/theme.json
+msgctxt "Shadow name"
+msgid "Natural"
+msgstr "Naturel"
+
+#: wp-includes/theme.json
+msgctxt "Shadow name"
+msgid "Deep"
+msgstr "Profond"
+
+#: wp-includes/theme.json
+msgctxt "Shadow name"
+msgid "Sharp"
+msgstr "Précis"
+
+#: wp-includes/theme.json
+msgctxt "Shadow name"
+msgid "Outlined"
+msgstr "Entouré"
+
+#: wp-includes/theme.json
+msgctxt "Shadow name"
+msgid "Crisp"
+msgstr "Crêpé"
+
+#: wp-includes/theme.json
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr "Énorme"
 
 #~ msgctxt "Image post format \"Published on\" date separator"
 #~ msgid ": published on"
