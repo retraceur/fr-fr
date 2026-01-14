@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Retraceur - 2.0.0\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
 "POT-Creation-Date: 2025-09-03T20:07:47+00:00\n"
-"PO-Revision-Date: 2025-09-03 23:00+0200\n"
+"PO-Revision-Date: 2026-01-13 19:25+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -672,7 +672,7 @@ msgstr ""
 
 #: wp-includes/js/dist/editor.js:9911 wp-includes/js/dist/editor.js:19699
 msgid "Change template"
-msgstr "Modifier le gabarit"
+msgstr "Changer de gabarit"
 
 #: wp-includes/js/dist/editor.js:9919 wp-includes/js/dist/editor.js:19772
 msgid "Use default template"
@@ -1092,7 +1092,7 @@ msgstr "Modifier la composition"
 #: wp-includes/js/dist/editor.js:14038 wp-includes/js/dist/editor.js:18820
 #: wp-includes/js/dist/editor.js:19953 wp-includes/js/dist/editor.js:30757
 msgid "Edit template"
-msgstr "Modifier gabarit"
+msgstr "Modifier le gabarit"
 
 #: wp-includes/js/dist/editor.js:14077
 msgctxt "Unlock content locked blocks"
