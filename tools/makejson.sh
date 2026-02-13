@@ -16,6 +16,7 @@ wp i18n make-json js-po/admin-auth-app ./ --no-purge
 wp i18n make-json js-po/admin-color-picker ./ --no-purge
 wp i18n make-json js-po/admin-common ./ --no-purge
 wp i18n make-json js-po/admin-dashboard ./ --no-purge
+wp i18n make-json js-po/admin-global-media ./ --no-purge
 wp i18n make-json js-po/admin-image-edit ./ --no-purge
 wp i18n make-json js-po/admin-inline-edit-post ./ --no-purge
 wp i18n make-json js-po/admin-inline-edit-tax ./ --no-purge
