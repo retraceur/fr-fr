@@ -71,6 +71,6 @@ wp i18n make-json js-po/dist-server-side-render ./ --no-purge
 wp i18n make-json js-po/dist-widgets ./ --no-purge
 
 # inc/js/dist
-wp i18n make-pot . js-po/tinymce-wplink.pot ./ --no-purge
+wp i18n make-json js-po/tinymce-wplink ./ --no-purge
 
 status "Done."
