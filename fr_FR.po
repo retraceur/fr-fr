@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Retraceur - 2.0.0\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
 "POT-Creation-Date: 2026-02-16T20:37:10+00:00\n"
-"PO-Revision-Date: 2026-02-16 22:56+0100\n"
+"PO-Revision-Date: 2026-02-19 01:55+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -127,17 +127,15 @@ msgstr "Erreur d’événement de déplanification de tâche pour le crochet %1$
 
 #. translators: 1: wp_abilities_api_init, 2: string value of the ability name.
 #: wp-includes/abilities-api.php:283
-#, fuzzy, php-format
-#| msgid "REST API routes must be registered on the %1$s action. Instead route '%2$s' with namespace '%3$s' was not registered on this action."
+#, php-format
 msgid "Abilities must be registered on the %1$s action. The ability %2$s was not registered."
-msgstr "Les chemins API REST doivent être inscrits sur l’action %1$s. Au lieu de cela, le chemin « %2$s » avec l’espace de nom « %3$s » n’était pas inscrite sur cette action."
+msgstr "Les capacités doivent être enregistrées sur l'action %1$s. La capacité %2$s n'a pas été enregistrée."
 
 #. translators: 1: wp_abilities_api_categories_init, 2: ability category slug.
 #: wp-includes/abilities-api.php:472
-#, fuzzy, php-format
-#| msgid "REST API routes must be registered on the %1$s action. Instead route '%2$s' with namespace '%3$s' was not registered on this action."
+#, php-format
 msgid "Ability categories must be registered on the %1$s action. The ability category %2$s was not registered."
-msgstr "Les chemins API REST doivent être inscrits sur l’action %1$s. Au lieu de cela, le chemin « %2$s » avec l’espace de nom « %3$s » n’était pas inscrite sur cette action."
+msgstr "Les catégories de capacités doivent être enregistrées dans l'action %1$s. La catégorie de capacité %2$s n'a pas été enregistrée."
 
 #: wp-includes/abilities-api/class-wp-abilities-registry.php:86
 msgid "Ability name must be a string containing a namespace prefix, i.e. \"my-plugin/my-ability\". It can only contain lowercase alphanumeric characters, dashes and the forward slash."
@@ -145,10 +143,9 @@ msgstr "Le nom de la capacité doit être une chaîne contenant un préfixe d'es
 
 #. translators: %s: Ability name.
 #: wp-includes/abilities-api/class-wp-abilities-registry.php:98
-#, fuzzy, php-format
-#| msgid "Block type \"%s\" is already registered."
+#, php-format
 msgid "Ability \"%s\" is already registered."
-msgstr "Le type de de bloc \"%s\" est déjà enregistré."
+msgstr "La capacité « %s » est déjà enregistrée."
 
 #. translators: %1$s: ability category slug, %2$s: ability name
 #: wp-includes/abilities-api/class-wp-abilities-registry.php:140
@@ -162,24 +159,21 @@ msgstr "Les arguments de capacité doivent fournir une classe `ability_class` va
 
 #. translators: %s: Ability name.
 #: wp-includes/abilities-api/class-wp-abilities-registry.php:197 wp-includes/abilities-api/class-wp-abilities-registry.php:257
-#, fuzzy, php-format
-#| msgid "Pattern \"%s\" not found."
+#, php-format
 msgid "Ability \"%s\" not found."
-msgstr "La composition « %s » n’a pas été trouvée."
+msgstr "La capacité « %s » n’a pas été trouvée."
 
 #. translators: %s: init action.
 #: wp-includes/abilities-api/class-wp-abilities-registry.php:280 wp-includes/abilities-api/class-wp-ability-categories-registry.php:211
-#, fuzzy, php-format
-#| msgid "This function should not be called before the theme directory is registered."
+#, php-format
 msgid "Ability API should not be initialized before the %s action has fired."
-msgstr "Cette fonction ne devrait pas être utilisée avant que le répertoire du thème soit initialisé."
+msgstr "L'API des capacités ne doit pas être initialisée avant que l'action %s ne se soit déclenchée."
 
 #. translators: %s: Ability category slug.
 #: wp-includes/abilities-api/class-wp-ability-categories-registry.php:64
-#, fuzzy, php-format
-#| msgid "Template \"%s\" is already registered."
+#, php-format
 msgid "Ability category \"%s\" is already registered."
-msgstr "Le gabarit « %s » est déjà enregistré."
+msgstr "La catégorie de capacité « %s » est déjà enregistrée."
 
 #: wp-includes/abilities-api/class-wp-ability-categories-registry.php:73
 msgid "Ability category slug must contain only lowercase alphanumeric characters and dashes."
@@ -187,16 +181,13 @@ msgstr "La terminaison d’URL de la catégorie de capacité doit contenir uniqu
 
 #. translators: %s: Ability category slug.
 #: wp-includes/abilities-api/class-wp-ability-categories-registry.php:128 wp-includes/abilities-api/class-wp-ability-categories-registry.php:188
-#, fuzzy, php-format
-#| msgid "Block pattern category \"%s\" not found."
+#, php-format
 msgid "Ability category \"%s\" not found."
-msgstr "Catégorie de composition « %s » non trouvée."
+msgstr "Catégorie de capacité « %s » non trouvée."
 
 #: wp-includes/abilities-api/class-wp-ability-category.php:80
-#, fuzzy
-#| msgid "Passwords cannot be empty."
 msgid "The ability category slug cannot be empty."
-msgstr "Le champ texte mot de passe ne peut être vide."
+msgstr "La terminaison d’URL de la catégorie de capacité ne peut être vide."
 
 #. translators: %s: Property name.
 #: wp-includes/abilities-api/class-wp-ability-category.php:94
@@ -205,10 +196,8 @@ msgid "Property \"%1$s\" is not a valid property for ability category \"%2$s\". 
 msgstr "La propriété « %1$s » n'est pas une propriété valide pour la catégorie de capacité « %2$s ». Veuillez vérifier la classe %3$s pour connaître les propriétés autorisées."
 
 #: wp-includes/abilities-api/class-wp-ability-category.php:133
-#, fuzzy
-#| msgid "The $source_properties must contain a \"label\"."
 msgid "The ability category properties must contain a `label` string."
-msgstr "$source_properties doit contenir un « libellé »."
+msgstr "Les propriétés de la catégorie de capacité doit contenir une propriété `label`."
 
 #: wp-includes/abilities-api/class-wp-ability-category.php:139
 msgid "The ability category properties must contain a `description` string."
@@ -225,28 +214,20 @@ msgid "Property \"%1$s\" is not a valid property for ability \"%2$s\". Please ch
 msgstr "La propriété « %1$s » n'est pas une propriété valide pour la capacité « %2$s ». Veuillez vérifier la classe %3$s pour connaître les propriétés autorisées."
 
 #: wp-includes/abilities-api/class-wp-ability.php:266
-#, fuzzy
-#| msgid "The $source_properties must contain a \"label\"."
 msgid "The ability properties must contain a `label` string."
-msgstr "$source_properties doit contenir un « libellé »."
+msgstr "Les propriétés de la capacité doivent contenir une propriété `label`."
 
 #: wp-includes/abilities-api/class-wp-ability.php:272
-#, fuzzy
-#| msgid "The $source_properties must contain a \"label\"."
 msgid "The ability properties must contain a `description` string."
-msgstr "$source_properties doit contenir un « libellé »."
+msgstr "Les propriétés de la capacité doivent contenir une propriété `description`."
 
 #: wp-includes/abilities-api/class-wp-ability.php:278
-#, fuzzy
-#| msgid "The $source_properties must contain a \"label\"."
 msgid "The ability properties must contain a `category` string."
-msgstr "$source_properties doit contenir un « libellé »."
+msgstr "Les propriétés de la capacité doivent contenir une propriété `category`."
 
 #: wp-includes/abilities-api/class-wp-ability.php:284
-#, fuzzy
-#| msgid "The $source_properties must contain a \"get_value_callback\"."
 msgid "The ability properties must contain a valid `execute_callback` function."
-msgstr "$source_properties doit contenir un élément « get_value_callback »."
+msgstr "Les propriétés de la capacité doivent contenir une propriété `execute_callback` définie avec une fonction valide."
 
 #: wp-includes/abilities-api/class-wp-ability.php:290
 msgid "The ability properties must provide a valid `permission_callback` function."
@@ -280,10 +261,9 @@ msgstr "La capacité « %s » ne définit pas un schéma d’éléments d’en
 
 #. translators: %1$s ability name, %2$s error message.
 #: wp-includes/abilities-api/class-wp-ability.php:488
-#, fuzzy, php-format
-#| msgid "%1$s is not a valid %2$s. Reason: %3$s"
+#, php-format
 msgid "Ability \"%1$s\" has invalid input. Reason: %2$s"
-msgstr "%1$s n’est pas un %2$s valide. Explication : %3$s"
+msgstr "La capacité « %1$s » comporte une entrée non valide. Motif : %2$s"
 
 #. translators: %s ability name.
 #: wp-includes/abilities-api/class-wp-ability.php:534
@@ -299,10 +279,9 @@ msgstr "La capacité « %s » ne fournit pas une fonction de gestion de l’ex
 
 #. translators: %1$s ability name, %2$s error message.
 #: wp-includes/abilities-api/class-wp-ability.php:581
-#, fuzzy, php-format
-#| msgid "%1$s is not a valid %2$s. Reason: %3$s"
+#, php-format
 msgid "Ability \"%1$s\" has invalid output. Reason: %2$s"
-msgstr "%1$s n’est pas un %2$s valide. Explication : %3$s"
+msgstr "La capacité « %1$s » a une sortie non valide. Raison : %2$s"
 
 #. translators: %s ability name.
 #: wp-includes/abilities-api/class-wp-ability.php:621
@@ -311,9 +290,6 @@ msgid "Ability \"%s\" does not have necessary permission."
 msgstr "La capacité « %s » n’a pas les permissions nécessaires."
 
 #: wp-includes/abilities.php:25
-#, fuzzy
-#| msgctxt "add new from admin bar"
-#| msgid "Site"
 msgid "Site"
 msgstr "Site"
 
@@ -322,58 +298,44 @@ msgid "Abilities that retrieve or modify site information and settings."
 msgstr "Capacités retournant ou modifiant les informations et réglages du site."
 
 #: wp-includes/abilities.php:33
-#, fuzzy
-#| msgid "Username"
 msgid "User"
-msgstr "Identifiant"
+msgstr "Contributeur·rice"
 
 #: wp-includes/abilities.php:34
 msgid "Abilities that retrieve or modify user information and settings."
 msgstr "Capacités retournant ou modifiant les informations et réglages d’un·e contributeur·rice."
 
 #: wp-includes/abilities.php:53
-#, fuzzy
-#| msgid "Site title."
 msgid "The site title."
-msgstr "Titre du site."
+msgstr "Le titre du site."
 
 #: wp-includes/abilities.php:57
-#, fuzzy
-#| msgid "Site tagline."
 msgid "The site tagline."
-msgstr "Slogan du site."
+msgstr "Le slogan du site."
 
 #: wp-includes/abilities.php:61
-#, fuzzy
-#| msgid "The theme's screenshot URL."
 msgid "The site home URL."
-msgstr "L’URL de la capture d’écran du thème."
+msgstr "L’URL de l‘accueil du site."
 
 #: wp-includes/abilities.php:65
 msgid "The Retraceur installation URL."
 msgstr "L’URL d’installation de Retraceur"
 
 #: wp-includes/abilities.php:69
-#, fuzzy
-#| msgid "Current administration email: %s"
 msgid "The site administrator email address."
-msgstr "Courriel d’administration actuel : %s"
+msgstr "L‘adresse de courriel de l’administratieur·rice."
 
 #: wp-includes/abilities.php:73
 msgid "The site character encoding."
 msgstr "L’encodage des caractères utilisé par le site"
 
 #: wp-includes/abilities.php:77
-#, fuzzy
-#| msgid "Retraceur locale code."
 msgid "The site language locale code."
-msgstr "Code local de Retraceur."
+msgstr "Code de localisation linguistique du site."
 
 #: wp-includes/abilities.php:81
-#, fuzzy
-#| msgid "Retraceur version %s"
 msgid "The Retraceur version."
-msgstr "Retraceur version %s"
+msgstr "La version de Retraceur."
 
 #: wp-includes/abilities.php:89
 msgid "Get Site Information"
@@ -396,32 +358,22 @@ msgid "Returns basic profile details for the current authenticated user to suppo
 msgstr "Renvoie les détails de base du profil du·de la contributeur·rice connecté·e en vue de permettre leur personnalisation, leur inspection et les fonctionnalités nécessitant un accès à ces données."
 
 #: wp-includes/abilities.php:149
-#, fuzzy
-#| msgid "The pattern ID."
 msgid "The user ID."
-msgstr "L’ID de la composition."
+msgstr "L’Identifiant du·de la contributeur·rice"
 
 #: wp-includes/abilities.php:153
-#, fuzzy
-#| msgid "The name of the theme."
 msgid "The display name of the user."
-msgstr "Le nom du thème."
+msgstr "Le nom d‘affichage du·de la contributeur·rice."
 
 #: wp-includes/abilities.php:157
-#, fuzzy
-#| msgid "The human-readable label for the style."
 msgid "The URL-friendly name for the user."
-msgstr "Libellé lisible par les humains pour le style."
+msgstr "Nom du·de la contributeur·rice adapté pour une URL."
 
 #: wp-includes/abilities.php:161
-#, fuzzy
-#| msgid "The username of the block author."
 msgid "The login username for the user."
-msgstr "Le nom d’utilisateur·rice de l’auteur·rice du bloc."
+msgstr "Le nom d’utilisateur·rice du·de la contributeur·rice."
 
 #: wp-includes/abilities.php:165
-#, fuzzy
-#| msgid "Roles assigned to the contributor."
 msgid "The roles assigned to the user."
 msgstr "Rôles assignés au·à la contributeur·rice."
 
@@ -442,20 +394,16 @@ msgid "The site's runtime environment classification (can be one of these: produ
 msgstr "Le type d’environnement d’exécution du site (soit l’un de ces types : production, pré-production, développement, local)"
 
 #: wp-includes/abilities.php:220
-#, fuzzy
-#| msgid "Minimum required version of Retraceur."
 msgid "The PHP runtime version executing Retraceur."
-msgstr "Version minimale de Retraceur requise."
+msgstr "Version du moteur PHP exécutant Retraceur."
 
 #: wp-includes/abilities.php:224
 msgid "The database server vendor and version string reported by the driver."
 msgstr "Le fournisseur du serveur de base de données et la chaîne de version signalés par le pilote."
 
 #: wp-includes/abilities.php:228
-#, fuzzy
-#| msgid "The minimum Retraceur version required for the theme to work."
 msgid "The Retraceur core version running on this site."
-msgstr "La version minimale de Retraceur nécessaire pour que le thème fonctionne."
+msgstr "La version du cœur de Retraceur s’exécutant sur le site."
 
 #. translators: Hidden accessibility text.
 #: wp-includes/admin-bar.php:143 wp-includes/admin-bar.php:147 wp-includes/admin-bar.php:166
@@ -636,12 +584,9 @@ msgid "Pattern Overrides"
 msgstr "Surcharges de composition"
 
 #: wp-includes/block-bindings/post-data.php:97
-#, fuzzy
-#| msgctxt "block bindings source"
-#| msgid "Post Meta"
 msgctxt "block bindings source"
 msgid "Post Data"
-msgstr "Métadonnées de publication"
+msgstr "Données de publication"
 
 #: wp-includes/block-bindings/post-meta.php:65
 msgctxt "block bindings source"
@@ -649,11 +594,9 @@ msgid "Post Meta"
 msgstr "Métadonnées de publication"
 
 #: wp-includes/block-bindings/term-data.php:112
-#, fuzzy
-#| msgid "Term ID List"
 msgctxt "block bindings source"
 msgid "Term Data"
-msgstr "Listes des ID de termes"
+msgstr "Données de terme"
 
 #: wp-includes/block-editor.php:24
 msgctxt "block category"
@@ -1410,12 +1353,10 @@ msgstr "Affiche la liste des termes assignés de la taxonomie : %s"
 
 #. translators: 1: minimum minutes, 2: maximum minutes to read the post.
 #: wp-includes/blocks/post-time-to-read.php:130
-#, fuzzy, php-format
-#| msgid "%s minute"
-#| msgid_plural "%s minutes"
+#, php-format
 msgctxt "Range of minutes to read"
 msgid "%1$s–%2$s minutes"
-msgstr "%s minute"
+msgstr "%1$s–%2$s minutes"
 
 #. translators: %s: Time duration in minute or minutes.
 #: wp-includes/blocks/post-time-to-read.php:138 wp-includes/formatting.php:3897 wp-includes/functions.php:563
@@ -1427,12 +1368,11 @@ msgstr[1] "%s minutes"
 
 #. translators: %s: the number of words in the post.
 #: wp-includes/blocks/post-time-to-read.php:149
-#, fuzzy, php-format
-#| msgid "Password"
+#, php-format
 msgid "%s word"
 msgid_plural "%s words"
-msgstr[0] "Mot de passe"
-msgstr[1] "Mot de passe"
+msgstr[0] "%s mot"
+msgstr[1] "%s mots"
 
 #. translators: %s: the number of characters in the post.
 #: wp-includes/blocks/post-time-to-read.php:153
@@ -1466,10 +1406,9 @@ msgstr "Résultats de recherche pour « %s »"
 
 #. translators: %s is the post type name.
 #: wp-includes/blocks/query-title.php:71
-#, fuzzy, php-format
-#| msgid "Posts by %s"
+#, php-format
 msgid "Post Type: \"%s\""
-msgstr "Articles de %s"
+msgstr "Type de publication : « %s »"
 
 #. translators: 1: Start index of posts, 2: Total number of posts
 #: wp-includes/blocks/query-total.php:49
@@ -1563,33 +1502,24 @@ msgid "Bandcamp"
 msgstr "Bandcamp"
 
 #: wp-includes/blocks/social-link.php:155
-#, fuzzy
-#| msgid "Cancel"
 msgctxt "social link block variation name"
 msgid "Behance"
-msgstr "Annuler"
+msgstr "Behance"
 
 #: wp-includes/blocks/social-link.php:159
-#, fuzzy
-#| msgid "Blue"
 msgctxt "social link block variation name"
 msgid "Bluesky"
-msgstr "Bleu"
+msgstr "Bluesky"
 
 #: wp-includes/blocks/social-link.php:163
-#, fuzzy
-#| msgctxt "Post format label"
-#| msgid "Link"
 msgctxt "social link block variation name"
 msgid "Link"
 msgstr "Lien"
 
 #: wp-includes/blocks/social-link.php:167
-#, fuzzy
-#| msgid "Code"
 msgctxt "social link block variation name"
 msgid "CodePen"
-msgstr "Code"
+msgstr "CodePen"
 
 #: wp-includes/blocks/social-link.php:171
 msgctxt "social link block variation name"
@@ -1652,11 +1582,9 @@ msgid "GitHub"
 msgstr "GitHub"
 
 #: wp-includes/blocks/social-link.php:219
-#, fuzzy
-#| msgid "Blavatar"
 msgctxt "social link block variation name"
 msgid "Lbravatar"
-msgstr "Blavatar"
+msgstr "Lbravatar"
 
 #: wp-includes/blocks/social-link.php:223
 msgctxt "social link block variation name"
@@ -1669,12 +1597,9 @@ msgid "Last.fm"
 msgstr "Last.fm"
 
 #: wp-includes/blocks/social-link.php:231
-#, fuzzy
-#| msgctxt "Post format label"
-#| msgid "Link"
 msgctxt "social link block variation name"
 msgid "LinkedIn"
-msgstr "Lien"
+msgstr "LinkedIn"
 
 #: wp-includes/blocks/social-link.php:235
 msgctxt "social link block variation name"
@@ -1692,11 +1617,9 @@ msgid "Meetup"
 msgstr "Meetup"
 
 #: wp-includes/blocks/social-link.php:247
-#, fuzzy
-#| msgid "Medium"
 msgctxt "social link block variation name"
 msgid "Medium"
-msgstr "Moyenne"
+msgstr "Medium"
 
 #: wp-includes/blocks/social-link.php:251
 msgctxt "social link block variation name"
@@ -1724,12 +1647,9 @@ msgid "Reddit"
 msgstr "Reddit"
 
 #: wp-includes/blocks/social-link.php:271
-#, fuzzy
-#| msgctxt "block title"
-#| msgid "Social Icon"
 msgctxt "social link block variation name"
 msgid "Share Icon"
-msgstr "Icône de réseau social"
+msgstr "Icône de partage"
 
 #: wp-includes/blocks/social-link.php:275
 msgctxt "social link block variation name"
@@ -1787,12 +1707,9 @@ msgid "VK"
 msgstr "VK"
 
 #: wp-includes/blocks/social-link.php:319
-#, fuzzy
-#| msgctxt "Post format plural name"
-#| msgid "Chats"
 msgctxt "social link block variation name"
 msgid "WhatsApp"
-msgstr "Transcriptions"
+msgstr "WhatsApp"
 
 #: wp-includes/blocks/social-link.php:323
 msgctxt "social link block variation name"
@@ -2735,8 +2652,6 @@ msgid "SMTP Error: Could not connect to SMTP host."
 msgstr "Erreur SMTP : Impossible de se connecter à l'hôte SMTP."
 
 #: wp-includes/class-wp-phpmailer.php:55
-#, fuzzy
-#| msgid "SMTP Error: data not accepted."
 msgid "SMTP Error: Data not accepted."
 msgstr "Erreur SMTP : données non acceptées."
 
@@ -2789,10 +2704,8 @@ msgstr "Nom ou valeur d’entête invalide"
 
 #. translators: There is a space after the colon.
 #: wp-includes/class-wp-phpmailer.php:74
-#, fuzzy
-#| msgid "Invalid hostentry: "
 msgid "Invalid host entry: "
-msgstr "Entrée d’hôte invalide : "
+msgstr "Entrée d’hôte invalide : "
 
 #. translators: There is a space after the colon.
 #: wp-includes/class-wp-phpmailer.php:76
@@ -3382,10 +3295,8 @@ msgid "Failed to exit recovery mode. Please try again later."
 msgstr "Erreur de sortie du mode de récupération. Merci de réessayer plus tard."
 
 #: wp-includes/class-wp-script-modules.php:126 wp-includes/class-wp-script-modules.php:298
-#, fuzzy
-#| msgid "A name is required for this term."
 msgid "Non-empty string required for id."
-msgstr "Un nom est nécessaire pour ce terme.  "
+msgstr "Une chaîne de caractères non-vide est nécessaire pour l’identifiant."
 
 #: wp-includes/class-wp-script-modules.php:135
 msgid "Missing required id key in entry among dependencies array."
@@ -3397,17 +3308,15 @@ msgstr "Les entrées dans le tableau de dépendances doivent être des chaînes 
 
 #. translators: 1: $fetchpriority, 2: $handle
 #: wp-includes/class-wp-script-modules.php:163 wp-includes/class-wp-scripts.php:889
-#, fuzzy, php-format
-#| msgid "Invalid strategy `%1$s` defined for `%2$s` during script registration."
+#, php-format
 msgid "Invalid fetchpriority `%1$s` defined for `%2$s` during script registration."
-msgstr "Stratégie `%1$s` incorrecte définie pour `%2$s` lors la déclaration du script."
+msgstr "Priorité de récupération invalide `%1$s` définie pour `%2$s` lors du référencement du script."
 
 #. translators: %s: Invalid fetchpriority.
 #: wp-includes/class-wp-script-modules.php:227
-#, fuzzy, php-format
-#| msgid "Invalid host: "
+#, php-format
 msgid "Invalid fetchpriority: %s"
-msgstr "Hôte invalide : "
+msgstr "Priorité de récupération non valide : %s"
 
 #. translators: 1: Script module ID, 2: List of missing dependency IDs.
 #: wp-includes/class-wp-script-modules.php:745
@@ -3439,10 +3348,9 @@ msgstr "Impossible d’établir une stratégie `%1$s` pour le script `%2$s` car 
 
 #. translators: 1: $fetchpriority, 2: $handle
 #: wp-includes/class-wp-scripts.php:901
-#, fuzzy, php-format
-#| msgid "Cannot supply a strategy `%1$s` for script `%2$s` because it is an alias (it lacks a `src` value)."
+#, php-format
 msgid "Cannot supply a fetchpriority `%1$s` for script `%2$s` because it is an alias (it lacks a `src` value)."
-msgstr "Impossible d’établir une stratégie `%1$s` pour le script `%2$s` car il s’agit d’un alias (la valeur `src` est manquante)."
+msgstr "Impossible de fournir une priorité de récupération `%1$s` pour le script `%2$s` car il s'agit d'un alias (il manque une valeur `src`)."
 
 #. translators: 1: Script handle, 2: List of missing dependency handles.
 #: wp-includes/class-wp-scripts.php:1181
@@ -3929,10 +3837,9 @@ msgstr "La version chargée « %1$s » est incompatible avec la version attend
 
 #. translators: %s: context string
 #: wp-includes/class-wp-url-pattern-prefixer.php:77
-#, fuzzy, php-format
-#| msgid "Invalid URL pattern context %s."
+#, php-format
 msgid "Invalid URL pattern context %s."
-msgstr "Le contexte de l’URL de la composition est invalide."
+msgstr "Le contexte de l’URL de la composition « %s » est invalide."
 
 #. translators: %s: plugins_loaded
 #: wp-includes/class-wp-user-query.php:792
@@ -4071,10 +3978,8 @@ msgid "Retraceur database error: Could not perform query because it contains inv
 msgstr "Erreur de la base de données Retraceur : impossible d’effectuer la requête car elle contient des données invalides."
 
 #: wp-includes/class-wpdb.php:2282
-#, fuzzy
-#| msgid "Unable to retrieve the error message from MySQL"
 msgid "Unable to retrieve the error message from the database server"
-msgstr "Impossible de retrouver le message d’erreur depuis MYSQL"
+msgstr "Impossible de récupérer le message d'erreur depuis le serveur de base de données."
 
 #. translators: %s: Database field where the error occurred.
 #: wp-includes/class-wpdb.php:2831
@@ -4339,10 +4244,9 @@ msgstr "Utilisez le filtre %s à la place."
 
 #. translators: %1$s is the feed URL, %2$s is the error message.
 #: wp-includes/feed.php:756
-#, fuzzy, php-format
-#| msgid "Error when decoding a JSON file at path %1$s: %2$s"
+#, php-format
 msgid "Error fetching feed %1$s: %2$s"
-msgstr "Erreur lors du décodage du fichier JSON à l’emplacement %1$s : %2$s"
+msgstr "Erreur lors de la récupération du flux %1$s : %2$s"
 
 #. translators: %s: Font collection slug.
 #: wp-includes/fonts/class-wp-font-collection.php:61
@@ -5234,10 +5138,8 @@ msgid "Required fields are marked %s"
 msgstr "Les champs obligatoires sont indiqués avec %s"
 
 #: wp-includes/html-api/class-wp-html-processor.php:305 wp-includes/html-api/class-wp-html-processor.php:356 wp-includes/html-api/class-wp-html-tag-processor.php:842
-#, fuzzy
-#| msgid "The REST route parameter must be a string."
 msgid "The HTML parameter must be a string."
-msgstr "Le paramètre de l’URL REST doit être une chaîne de caractères."
+msgstr "Le paramètre HTML doit être une chaîne de caractères."
 
 #: wp-includes/html-api/class-wp-html-processor.php:326
 msgid "No valid context element was detected."
@@ -6457,8 +6359,7 @@ msgstr "Une page du site %s."
 
 #. translators: %s: Option name.
 #: wp-includes/option.php:550
-#, fuzzy, php-format
-#| msgid "%s is a protected WP option and may not be modified"
+#, php-format
 msgid "%s is a protected option and may not be modified"
 msgstr "%s est une option protégée, et ne peut être modifiée"
 
@@ -6843,8 +6744,6 @@ msgid "Invalid password."
 msgstr "Mot de passe invalide."
 
 #: wp-includes/post-template.php:1806
-#, fuzzy
-#| msgid "This content is password protected. To view it please enter your password below:"
 msgid "This content is password-protected. To view it, please enter the password below."
 msgstr "Cette publication est protégée par un mot de passe. Pour la voir, merci de saisir votre mot de passe ci-dessous :"
 
@@ -7542,10 +7441,8 @@ msgstr[0] "Archive <span class=\"count\">(%s)</span>"
 msgstr[1] "Archives <span class=\"count\">(%s)</span>"
 
 #: wp-includes/post.php:3645
-#, fuzzy
-#| msgid "%1$s must be greater than %2$d"
 msgid "The post ID must be greater than 0."
-msgstr "%1$s doit être supérieur à %2$d"
+msgstr "L’identifiant de la publication doit être supérieur à 0."
 
 #: wp-includes/post.php:4126
 msgid "Passing an integer number of posts is deprecated. Pass an array of arguments instead."
@@ -7973,28 +7870,20 @@ msgid "The handler for the route is invalid"
 msgstr "Le gestionnaire de route n’est pas valide"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-categories-controller.php:67 wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-categories-controller.php:241
-#, fuzzy
-#| msgid "Unique identifier for the term."
 msgid "Unique identifier for the ability category."
-msgstr "Identificateur unique pour le terme."
+msgstr "Identificateur unique pour la catégorie de capacité."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-categories-controller.php:151
-#, fuzzy
-#| msgid "Block pattern category \"%s\" not found."
 msgid "Ability category not found."
-msgstr "Catégorie de composition « %s » non trouvée."
+msgstr "Catégorie de capacité non trouvée."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-categories-controller.php:247
-#, fuzzy
-#| msgid "Display name for the contributor."
 msgid "Display label for the category."
-msgstr "Nom à afficher pour le·la contributeur·rice."
+msgstr "Libellé à afficher pour la catégorie."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-categories-controller.php:253
-#, fuzzy
-#| msgid "Description of the contributor."
 msgid "Description of the category."
-msgstr "Description du·de la contributeur·rice."
+msgstr "Description de la catégorie."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-categories-controller.php:259
 #, fuzzy
@@ -12222,7 +12111,7 @@ msgstr "%1$s (%2$s)"
 
 #: wp-includes/user.php:2222
 msgid "The user_pass field is required when creating a new contributor. The contributor will need to reset their password before logging in."
-msgstr ""
+msgstr "Le champ du mot de passe (`user_pass`) est obligatoire lors de la création d'un·e nouveau·elle contributeur·rice. Le·la contributeur·rice devra réinitialiser son mot de passe avant de se connecter."
 
 #: wp-includes/user.php:2252
 msgid "Cannot create a contributor with an empty login name."
@@ -13164,7 +13053,7 @@ msgstr "accordéon"
 #: wp-includes/blocks/accordion-heading/block.json
 msgctxt "block description"
 msgid "Displays a heading that toggles the accordion panel."
-msgstr ""
+msgstr "Affiche un titre qui permet d'ouvrir ou de fermer le panneau accordéon."
 
 #: wp-includes/blocks/accordion-item/block.json
 #, fuzzy
@@ -13177,7 +13066,7 @@ msgstr "accordéon"
 #: wp-includes/blocks/accordion-item/block.json
 msgctxt "block description"
 msgid "Wraps the heading and panel in one unit."
-msgstr ""
+msgstr "Regroupe le titre et le panneau en une seule unité."
 
 #: wp-includes/blocks/accordion-panel/block.json
 #, fuzzy
@@ -13190,7 +13079,7 @@ msgstr "accordéon"
 #: wp-includes/blocks/accordion-panel/block.json
 msgctxt "block description"
 msgid "Contains the hidden or revealed content beneath the heading."
-msgstr ""
+msgstr "Contient le contenu masqué ou révélé sous le titre."
 
 #: wp-includes/blocks/accordion/block.json
 #, fuzzy
@@ -13203,7 +13092,7 @@ msgstr "accordéon"
 #: wp-includes/blocks/accordion/block.json
 msgctxt "block description"
 msgid "Displays a foldable layout that groups content in collapsible sections."
-msgstr ""
+msgstr "Affiche une mise en page repliable qui regroupe du contenu en sections réductibles."
 
 #: wp-includes/blocks/archives/block.json
 msgctxt "block title"
@@ -14043,12 +13932,12 @@ msgstr "Termes de la publication."
 #: wp-includes/blocks/post-time-to-read/block.json
 msgctxt "block title"
 msgid "Time to Read"
-msgstr ""
+msgstr "Temps de lecture"
 
 #: wp-includes/blocks/post-time-to-read/block.json
 msgctxt "block description"
 msgid "Show minutes required to finish reading the post. Can also show a word count."
-msgstr ""
+msgstr "Affiche le nombre de minutes nécessaires pour lire l'article. Peut également afficher le nombre de mots."
 
 #: wp-includes/blocks/post-title/block.json
 msgctxt "block title"
@@ -14563,7 +14452,7 @@ msgstr "Groupe de widgets"
 #: wp-content/themes/point/theme.json
 msgctxt "Color name"
 msgid "Primary"
-msgstr ""
+msgstr "Principale"
 
 #: wp-content/themes/point/theme.json
 #, fuzzy
@@ -14575,7 +14464,7 @@ msgstr "Lundi"
 #: wp-content/themes/point/theme.json
 msgctxt "Color name"
 msgid "Tertiary"
-msgstr ""
+msgstr "Tertiaire"
 
 #: wp-content/themes/point/theme.json
 #, fuzzy
@@ -14603,7 +14492,7 @@ msgstr "Très faible"
 #: wp-content/themes/point/theme.json
 msgctxt "Font family name"
 msgid "Noto Serif"
-msgstr ""
+msgstr "Noto Serif"
 
 #: wp-content/themes/point/theme.json
 #, fuzzy
@@ -14622,7 +14511,7 @@ msgstr "Petite"
 #: wp-content/themes/point/theme.json
 msgctxt "Font size name"
 msgid "Regular"
-msgstr ""
+msgstr "Normal"
 
 #: wp-content/themes/point/theme.json wp-includes/theme.json
 #, fuzzy
@@ -14671,7 +14560,7 @@ msgstr "Pied de page"
 #: wp-includes/theme.json
 msgctxt "Duotone name"
 msgid "Dark grayscale"
-msgstr ""
+msgstr "Échelle de gris sombres"
 
 #: wp-includes/theme.json
 #, fuzzy
@@ -14683,12 +14572,12 @@ msgstr "Gris"
 #: wp-includes/theme.json
 msgctxt "Duotone name"
 msgid "Purple and yellow"
-msgstr ""
+msgstr "Violet et jaune"
 
 #: wp-includes/theme.json
 msgctxt "Duotone name"
 msgid "Blue and red"
-msgstr ""
+msgstr "Bleu et rouge"
 
 #: wp-includes/theme.json
 #, fuzzy
@@ -14701,72 +14590,72 @@ msgstr "Minuit"
 #: wp-includes/theme.json
 msgctxt "Duotone name"
 msgid "Magenta and yellow"
-msgstr ""
+msgstr "Magenta et jaune"
 
 #: wp-includes/theme.json
 msgctxt "Duotone name"
 msgid "Purple and green"
-msgstr ""
+msgstr "Violet et vert"
 
 #: wp-includes/theme.json
 msgctxt "Duotone name"
 msgid "Blue and orange"
-msgstr ""
+msgstr "Bleu et orange"
 
 #: wp-includes/theme.json
 msgctxt "Gradient name"
 msgid "Vivid cyan blue to vivid purple"
-msgstr ""
+msgstr "Bleu cyan vif vers violet vif"
 
 #: wp-includes/theme.json
 msgctxt "Gradient name"
 msgid "Light green cyan to vivid green cyan"
-msgstr ""
+msgstr "Vert cyan clair vers vert cyan vif"
 
 #: wp-includes/theme.json
 msgctxt "Gradient name"
 msgid "Luminous vivid amber to luminous vivid orange"
-msgstr ""
+msgstr "Ambre vif lumineux vers orange vif lumineux"
 
 #: wp-includes/theme.json
 msgctxt "Gradient name"
 msgid "Luminous vivid orange to vivid red"
-msgstr ""
+msgstr "Orange vif lumineux vers rouge vif"
 
 #: wp-includes/theme.json
 msgctxt "Gradient name"
 msgid "Very light gray to cyan bluish gray"
-msgstr ""
+msgstr "Gris très clair vers gris bleuté cyan"
 
 #: wp-includes/theme.json
 msgctxt "Gradient name"
 msgid "Cool to warm spectrum"
-msgstr ""
+msgstr "Spectre du froid au chaud"
 
 #: wp-includes/theme.json
 msgctxt "Gradient name"
 msgid "Blush light purple"
-msgstr ""
+msgstr "Mauve rosé clair"
 
 #: wp-includes/theme.json
 msgctxt "Gradient name"
 msgid "Blush bordeaux"
-msgstr ""
+msgstr "Bordeaux rosé"
 
 #: wp-includes/theme.json
 msgctxt "Gradient name"
 msgid "Luminous dusk"
-msgstr ""
+msgstr "Crépuscule lumineux"
 
 #: wp-includes/theme.json
 msgctxt "Gradient name"
 msgid "Pale ocean"
-msgstr ""
+msgstr "Océan pâle"
 
 #: wp-includes/theme.json
 msgctxt "Gradient name"
 msgid "Electric grass"
-msgstr ""
+msgstr "Herbe électrique"
 
 #: wp-includes/theme.json
 #, fuzzy
@@ -14786,7 +14675,7 @@ msgstr "Noir"
 #: wp-includes/theme.json
 msgctxt "Color name"
 msgid "Cyan bluish gray"
-msgstr ""
+msgstr "Gris bleuté cyan"
 
 #: wp-includes/theme.json
 #, fuzzy
@@ -14798,7 +14687,7 @@ msgstr "Blanc"
 #: wp-includes/theme.json
 msgctxt "Color name"
 msgid "Pale pink"
-msgstr ""
+msgstr "Rose pâle"
 
 #: wp-includes/theme.json
 #, fuzzy
@@ -14811,42 +14700,42 @@ msgstr "séparateur"
 #: wp-includes/theme.json
 msgctxt "Color name"
 msgid "Luminous vivid orange"
-msgstr ""
+msgstr "Orange vif lumineux"
 
 #: wp-includes/theme.json
 msgctxt "Color name"
 msgid "Luminous vivid amber"
-msgstr ""
+msgstr "Ambre vif lumineux"
 
 #: wp-includes/theme.json
 msgctxt "Color name"
 msgid "Light green cyan"
-msgstr ""
+msgstr "Vert cyan clair"
 
 #: wp-includes/theme.json
 msgctxt "Color name"
 msgid "Vivid green cyan"
-msgstr ""
+msgstr "Vert cyan vif"
 
 #: wp-includes/theme.json
 msgctxt "Color name"
 msgid "Pale cyan blue"
-msgstr ""
+msgstr "Bleu cyan pâle"
 
 #: wp-includes/theme.json
 msgctxt "Color name"
 msgid "Vivid cyan blue"
-msgstr ""
+msgstr "Bleu cyan vif"
 
 #: wp-includes/theme.json
 msgctxt "Color name"
 msgid "Vivid purple"
-msgstr ""
+msgstr "Violet vif"
 
 #: wp-includes/theme.json
 msgctxt "Aspect ratio name"
 msgid "Square - 1:1"
-msgstr ""
+msgstr "Carré – 1:1"
 
 #: wp-includes/theme.json
 #, fuzzy
@@ -14859,7 +14748,7 @@ msgstr "Standard"
 #: wp-includes/theme.json
 msgctxt "Aspect ratio name"
 msgid "Portrait - 3:4"
-msgstr ""
+msgstr "Portrait – 3:4"
 
 #: wp-includes/theme.json
 #, fuzzy
@@ -14872,17 +14761,17 @@ msgstr "Classique"
 #: wp-includes/theme.json
 msgctxt "Aspect ratio name"
 msgid "Classic Portrait - 2:3"
-msgstr ""
+msgstr "Portrait classique – 2:3"
 
 #: wp-includes/theme.json
 msgctxt "Aspect ratio name"
 msgid "Wide - 16:9"
-msgstr ""
+msgstr "Large – 16:9"
 
 #: wp-includes/theme.json
 msgctxt "Aspect ratio name"
 msgid "Tall - 9:16"
-msgstr ""
+msgstr "Haut – 9:16"
 
 #: wp-includes/theme.json
 #, fuzzy
@@ -14894,12 +14783,12 @@ msgstr "Samedi"
 #: wp-includes/theme.json
 msgctxt "Shadow name"
 msgid "Deep"
-msgstr ""
+msgstr "Profonde"
 
 #: wp-includes/theme.json
 msgctxt "Shadow name"
 msgid "Sharp"
-msgstr ""
+msgstr "Nette"
 
 #: wp-includes/theme.json
 #, fuzzy
@@ -14912,7 +14801,7 @@ msgstr "Contour"
 #: wp-includes/theme.json
 msgctxt "Shadow name"
 msgid "Crisp"
-msgstr ""
+msgstr "Précise"
 
 #: wp-includes/theme.json
 #, fuzzy
