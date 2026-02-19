@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Retraceur - 2.0.0\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
 "POT-Creation-Date: 2026-02-16T20:37:10+00:00\n"
-"PO-Revision-Date: 2026-02-19 01:55+0100\n"
+"PO-Revision-Date: 2026-02-19 21:24+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -7886,10 +7886,8 @@ msgid "Description of the category."
 msgstr "Description de la catégorie."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-categories-controller.php:259
-#, fuzzy
-#| msgid "A link to a pattern category."
 msgid "Meta information about the category."
-msgstr "Un lien vers une catégorie de compositions."
+msgstr "Méta-informations sur la catégorie."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-categories-controller.php:281 wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-list-controller.php:346 wp-includes/rest-api/endpoints/class-wp-rest-controller.php:347
 msgid "Current page of the collection."
@@ -7900,28 +7898,20 @@ msgid "Maximum number of items to be returned in result set."
 msgstr "Nombre maximal d’éléments à retourner dans le groupe de résultats."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-list-controller.php:67 wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-list-controller.php:281 wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-run-controller.php:53
-#, fuzzy
-#| msgid "Unique identifier for the object."
 msgid "Unique identifier for the ability."
-msgstr "Identifiant unique de l’objet."
+msgstr "Identifiant unique de la capacité."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-list-controller.php:166 wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-run-controller.php:89 wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-run-controller.php:150
-#, fuzzy
-#| msgid "Plugin not found."
 msgid "Ability not found."
-msgstr "Extension non trouvée."
+msgstr "Capacité non trouvée."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-list-controller.php:287
-#, fuzzy
-#| msgid "Display name for the contributor."
 msgid "Display label for the ability."
-msgstr "Nom à afficher pour le·la contributeur·rice."
+msgstr "Libellé à afficher pour la capacité."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-list-controller.php:293
-#, fuzzy
-#| msgid "Description of template."
 msgid "Description of the ability."
-msgstr "Description du gabarit."
+msgstr "Description de la capacité."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-list-controller.php:299
 msgid "Ability category this ability belongs to."
@@ -7940,16 +7930,12 @@ msgid "Meta information about the ability."
 msgstr "Méta-informations à propos de la capacité"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-list-controller.php:321
-#, fuzzy
-#| msgid "Attributes for the block."
 msgid "Annotations for the ability."
-msgstr "Attributs pour le bloc."
+msgstr "Annotations relatives à la capacité."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-list-controller.php:359
-#, fuzzy
-#| msgid "Limit results to those matching a category ID."
 msgid "Limit results to abilities in specific ability category."
-msgstr "Limiter les résultats à ceux qui correspondent à l’identifiant d’une catégorie."
+msgstr "Limiter les résultats aux capacités d’une catégorie spécifique."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-run-controller.php:124
 msgid "Abilities that perform updates require POST method."
@@ -7964,20 +7950,16 @@ msgid "Abilities that perform destructive actions require DELETE method."
 msgstr "Les capacités exécutant des actions destructives nécessitent l’utilisation de la méthode DELETE."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-run-controller.php:179
-#, fuzzy
-#| msgid "Sorry, you are not allowed to delete this post."
 msgid "Sorry, you are not allowed to execute this ability."
-msgstr "Désolé, vous n’avez pas l’autorisation de supprimer cet article."
+msgstr "Désolé, vous n’avez pas l’autorisation d’utiliser cette capacité."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-run-controller.php:217
 msgid "Input parameters for the ability execution."
 msgstr "Paramètres d’intrant pour la capacité d’exécution."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-run-controller.php:238
-#, fuzzy
-#| msgid "The website of the theme author."
 msgid "The result of the ability execution."
-msgstr "Le site de l’auteur·rice du thème."
+msgstr "Le résultat de l’utilisation de la capacité."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php:124
 msgid "Sorry, you are not allowed to list application passwords for this contributor."
@@ -8106,10 +8088,8 @@ msgid "Unable to edit this image."
 msgstr "Impossible de modifier cette image."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:680
-#, fuzzy
-#| msgid "Unable to crop this image."
 msgid "Unable to flip this image."
-msgstr "Impossible de recadrer cette image."
+msgstr "Impossible de retourner cette image."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:695
 msgid "Unable to rotate this image."
@@ -8196,16 +8176,12 @@ msgid "Could not open file handle."
 msgstr "Impossible d’ouvrir la manipulation de fichier."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1372
-#, fuzzy
-#| msgid "Limit result set to attachments of a particular media type."
 msgid "Limit result set to attachments of a particular media type or media types."
-msgstr "Limiter le groupe de résultats aux médias attachés d’un type particulier."
+msgstr "Limiter le groupe de résultats aux médias attachés à un ou plusieurs types particuliers."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1382
-#, fuzzy
-#| msgid "Limit result set to attachments of a particular MIME type."
 msgid "Limit result set to attachments of a particular MIME type or MIME types."
-msgstr "Limiter le groupe de résultats à un type MIME particulier."
+msgstr "Limiter le groupe de résultats à un ou plusieurs types MIME particulier."
 
 #. translators: %s: Required disk space in kilobytes.
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1510
@@ -8240,22 +8216,16 @@ msgid "Flip"
 msgstr "Retourner"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1571
-#, fuzzy
-#| msgid "Crop type."
 msgid "Flip type."
-msgstr "Type de recadrage."
+msgstr "Type de retournement."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1576
-#, fuzzy
-#| msgid "Crop arguments."
 msgid "Flip arguments."
-msgstr "Arguments de recadrage."
+msgstr "Arguments de retournement."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1583
-#, fuzzy
-#| msgid "text direction"
 msgid "Flip direction."
-msgstr "direction du texte"
+msgstr "Sens du retournement."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1591
 msgid "Whether to flip in the horizontal direction."
@@ -8979,8 +8949,6 @@ msgid "ID of global styles config."
 msgstr "ID de la configuration de styles globaux."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-global-styles-controller.php:143
-#, fuzzy
-#| msgid "No global styles config exist with that id."
 msgid "No global styles config exists with that ID."
 msgstr "Aucune configuration de styles globaux n’existe avec cet identifiant."
 
@@ -10439,10 +10407,8 @@ msgid "Sorry, you are not allowed to filter contributors by capability."
 msgstr "Désolé, vous n’avez pas l‘autorisation de filtrer les contributeur·rice·s selon leurs permissions."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:225
-#, fuzzy
-#| msgid "Sorry, you are not allowed to list contributors."
 msgid "Sorry, you are not allowed to edit contributors."
-msgstr "Désolé, vous n’avez pas l’autorisation de lister les contributeur·rice·s."
+msgstr "Désolé, vous n’avez pas l’autorisation de modifier les contributeur·rice·s."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:233
 msgid "Sorry, you are not allowed to order contributors by this parameter."
@@ -11363,11 +11329,9 @@ msgstr "Précédent"
 
 #. translators: 1: Menu label, 2: Submenu label.
 #: wp-includes/script-loader.php:3102
-#, fuzzy, php-format
-#| msgctxt "Display name based on first name and last name"
-#| msgid "%1$s %2$s"
+#, php-format
 msgid "%1$s > %2$s"
-msgstr "%1$s %2$s"
+msgstr "%1$s > %2$s"
 
 #: wp-includes/script-loader.php:3171
 msgid "Expected string to start with script tag (without attributes) and end with script tag, with optional whitespace."
@@ -12126,10 +12090,8 @@ msgid "Sorry, that username already exists!"
 msgstr "Désolé, cet identifiant existe déjà !"
 
 #: wp-includes/user.php:2297
-#, fuzzy
-#| msgid "Cannot create a contributor with an empty login name."
 msgid "Cannot create a user with an empty nicename."
-msgstr "Impossible de créer un·e contributeur·rice avec un identifiant vide."
+msgstr "Impossible de créer un·e contributeur·rice avec un nom d’utilisateur·rice vide."
 
 #: wp-includes/user.php:2299
 msgid "Nicename may not be longer than 50 characters."
@@ -13043,12 +13005,9 @@ msgid "Use the REST API instead."
 msgstr "Utilisez l’API REST à la place."
 
 #: wp-includes/blocks/accordion-heading/block.json
-#, fuzzy
-#| msgctxt "block keyword"
-#| msgid "accordion"
 msgctxt "block title"
 msgid "Accordion Heading"
-msgstr "accordéon"
+msgstr "Titre de l’accordéon"
 
 #: wp-includes/blocks/accordion-heading/block.json
 msgctxt "block description"
@@ -13056,12 +13015,9 @@ msgid "Displays a heading that toggles the accordion panel."
 msgstr "Affiche un titre qui permet d'ouvrir ou de fermer le panneau accordéon."
 
 #: wp-includes/blocks/accordion-item/block.json
-#, fuzzy
-#| msgctxt "block keyword"
-#| msgid "accordion"
 msgctxt "block title"
 msgid "Accordion Item"
-msgstr "accordéon"
+msgstr "Élément d’accordéon"
 
 #: wp-includes/blocks/accordion-item/block.json
 msgctxt "block description"
@@ -13069,12 +13025,9 @@ msgid "Wraps the heading and panel in one unit."
 msgstr "Regroupe le titre et le panneau en une seule unité."
 
 #: wp-includes/blocks/accordion-panel/block.json
-#, fuzzy
-#| msgctxt "block keyword"
-#| msgid "accordion"
 msgctxt "block title"
 msgid "Accordion Panel"
-msgstr "accordéon"
+msgstr "Panneau d’accordéon"
 
 #: wp-includes/blocks/accordion-panel/block.json
 msgctxt "block description"
@@ -13082,12 +13035,9 @@ msgid "Contains the hidden or revealed content beneath the heading."
 msgstr "Contient le contenu masqué ou révélé sous le titre."
 
 #: wp-includes/blocks/accordion/block.json
-#, fuzzy
-#| msgctxt "block keyword"
-#| msgid "accordion"
 msgctxt "block title"
 msgid "Accordion"
-msgstr "accordéon"
+msgstr "Accordéon"
 
 #: wp-includes/blocks/accordion/block.json
 msgctxt "block description"
@@ -13852,12 +13802,9 @@ msgid "Date"
 msgstr "Date"
 
 #: wp-includes/blocks/post-date/block.json
-#, fuzzy
-#| msgctxt "block description"
-#| msgid "Display a list of all pages."
 msgctxt "block description"
 msgid "Display a custom date."
-msgstr "Affiche une liste de toutes les pages."
+msgstr "Affiche une date personnalisée."
 
 #: wp-includes/blocks/post-excerpt/block.json
 msgctxt "block title"
@@ -14200,12 +14147,9 @@ msgid "Site Tagline"
 msgstr "Description du site"
 
 #: wp-includes/blocks/site-tagline/block.json
-#, fuzzy
-#| msgctxt "block description"
-#| msgid "Describe in a few words what the site is about. The tagline can be used in search results or when sharing on social networks even if it’s not displayed in the theme design."
 msgctxt "block description"
 msgid "Describe in a few words what this site is about. This is important for search results, sharing on social media, and gives overall clarity to visitors."
-msgstr "Décrivez en quelques mots la raison d’être de ce site. La description est utile pour les résultats des moteurs de recherche et lors du partage sur les réseaux sociaux, même si elle n’est pas affichée de façon visible sur le site."
+msgstr "Décrivez en quelques mots la raison d’être de ce site. La description est utile pour les résultats des moteurs de recherche et lors du partage sur les réseaux sociaux, apporte une clarté générale aux visiteur·euse·s."
 
 #: wp-includes/blocks/site-tagline/block.json
 msgctxt "block keyword"
@@ -14298,20 +14242,14 @@ msgid "Edit the different global regions of your site, like the header, footer, 
 msgstr "Modifie les différentes zones de votre site en général, comme l’entête, le pied de page, la colonne latérale… ou créer une nouvelle zone de zéro."
 
 #: wp-includes/blocks/term-count/block.json
-#, fuzzy
-#| msgctxt "block title"
-#| msgid "Terms List"
 msgctxt "block title"
 msgid "Term Count"
-msgstr "Liste des termes"
+msgstr "Nombre de termes"
 
 #: wp-includes/blocks/term-count/block.json
-#, fuzzy
-#| msgctxt "block description"
-#| msgid "Displays the contents of a post or page."
 msgctxt "block description"
 msgid "Displays the post count of a taxonomy term."
-msgstr "Affiche le contenu d’un article ou d’une page."
+msgstr "Affiche le nombre de publications assignées à un terme de taxonomie."
 
 #: wp-includes/blocks/term-description/block.json
 msgctxt "block title"
@@ -14324,80 +14262,54 @@ msgid "Display the description of categories, tags and custom taxonomies when vi
 msgstr "Affiche la description des catégories, des étiquettes et des taxonomies personnalisées lors de l’affichage d’une archive."
 
 #: wp-includes/blocks/term-name/block.json
-#, fuzzy
-#| msgctxt "block title"
-#| msgid "Author Name"
 msgctxt "block title"
 msgid "Term Name"
-msgstr "Nom de l’auteur·rice"
+msgstr "Nom du terme"
 
 #: wp-includes/blocks/term-name/block.json
-#, fuzzy
-#| msgctxt "block description"
-#| msgid "Displays the name of a post format."
 msgctxt "block description"
 msgid "Displays the name of a taxonomy term."
-msgstr "Affiche le nom d’un format d’article."
+msgstr "Affiche le nom d’un terme de taxonomie."
 
 #: wp-includes/blocks/term-name/block.json
-#, fuzzy
-#| msgid "Site title."
 msgctxt "block keyword"
 msgid "term title"
-msgstr "Titre du site."
+msgstr "Titre du term."
 
 #: wp-includes/blocks/term-template/block.json
-#, fuzzy
-#| msgid "New Template"
 msgctxt "block title"
 msgid "Term Template"
-msgstr "Nouveau gabarit"
+msgstr "Gabarit de terme"
 
 #: wp-includes/blocks/term-template/block.json
-#, fuzzy
-#| msgctxt "block description"
-#| msgid "Contains the block elements used to render a post, like the title, date, featured image, content or excerpt, and more."
 msgctxt "block description"
 msgid "Contains the block elements used to render a taxonomy term, like the name, description, and more."
-msgstr "Contient les blocs utilisés pour afficher une publication, tels que le titre, la date, l’image mise en avant, le contenu ou l’extrait, et plus encore."
+msgstr "Contient les blocs utilisés pour afficher la page d’un terme de taxonomie, tels que le titre, la description, et plus encore."
 
 #: wp-includes/blocks/terms-query/block.json
-#, fuzzy
-#| msgid "Term ID Taxonomy Query"
 msgctxt "block title"
 msgid "Terms Query"
-msgstr "Requête sur un ID de terme de taxonomie"
+msgstr "Requête de termes"
 
 #: wp-includes/blocks/terms-query/block.json
-#, fuzzy
-#| msgctxt "block description"
-#| msgid "An advanced block that allows displaying post types based on different query parameters and visual configurations."
 msgctxt "block description"
 msgid "An advanced block that allows displaying taxonomy terms based on different query parameters and visual configurations."
-msgstr "Un bloc avancé qui permet l’affichage de types de publications avec divers paramètres de requête et configurations visuelles."
+msgstr "Un bloc avancé qui permet l’affichage des termes d’une taxonomie avec divers paramètres de requête et configurations visuelles."
 
 #: wp-includes/blocks/terms-query/block.json
-#, fuzzy
-#| msgctxt "block title"
-#| msgid "Post Terms"
 msgctxt "block keyword"
 msgid "terms"
-msgstr "Étiquettes de publication"
+msgstr "termes"
 
 #: wp-includes/blocks/terms-query/block.json
-#, fuzzy
-#| msgctxt "Template name"
-#| msgid "Taxonomy"
 msgctxt "block keyword"
 msgid "taxonomy"
-msgstr "Taxonomie"
+msgstr "taxonomie"
 
 #: wp-includes/blocks/terms-query/block.json
-#, fuzzy
-#| msgid "No tags"
 msgctxt "block keyword"
 msgid "tags"
-msgstr "Aucune étiquette"
+msgstr "étiquettes"
 
 #: wp-includes/blocks/text-columns/block.json
 msgctxt "block title"
@@ -14455,11 +14367,9 @@ msgid "Primary"
 msgstr "Principale"
 
 #: wp-content/themes/point/theme.json
-#, fuzzy
-#| msgid "Monday"
 msgctxt "Color name"
 msgid "Secondary"
-msgstr "Lundi"
+msgstr "Secondaire"
 
 #: wp-content/themes/point/theme.json
 msgctxt "Color name"
@@ -14467,27 +14377,19 @@ msgid "Tertiary"
 msgstr "Tertiaire"
 
 #: wp-content/themes/point/theme.json
-#, fuzzy
-#| msgctxt "admin color scheme"
-#| msgid "Retraceur"
 msgctxt "Color name"
 msgid "Retraceur blue"
-msgstr "Retraceur"
+msgstr "Bleu de Retraceur"
 
 #: wp-content/themes/point/theme.json
-#, fuzzy
-#| msgid "Retraceur locale code."
 msgctxt "Color name"
 msgid "Retraceur blue hover"
-msgstr "Code local de Retraceur."
+msgstr "Bleu survolé de Retraceur."
 
 #: wp-content/themes/point/theme.json
-#, fuzzy
-#| msgctxt "password strength"
-#| msgid "Very weak"
 msgctxt "Color name"
 msgid "Very dark grey"
-msgstr "Très faible"
+msgstr "Gris très sombre"
 
 #: wp-content/themes/point/theme.json
 msgctxt "Font family name"
@@ -14495,15 +14397,11 @@ msgid "Noto Serif"
 msgstr "Noto Serif"
 
 #: wp-content/themes/point/theme.json
-#, fuzzy
-#| msgid "Small"
 msgctxt "Font size name"
 msgid "Ultra Small"
-msgstr "Petite"
+msgstr "Très petite"
 
 #: wp-content/themes/point/theme.json wp-includes/theme.json
-#, fuzzy
-#| msgid "Small"
 msgctxt "Font size name"
 msgid "Small"
 msgstr "Petite"
@@ -14514,45 +14412,31 @@ msgid "Regular"
 msgstr "Normal"
 
 #: wp-content/themes/point/theme.json wp-includes/theme.json
-#, fuzzy
-#| msgid "Medium"
 msgctxt "Font size name"
 msgid "Medium"
 msgstr "Moyenne"
 
 #: wp-content/themes/point/theme.json wp-includes/theme.json
-#, fuzzy
-#| msgid "Large"
 msgctxt "Font size name"
 msgid "Large"
 msgstr "Grande"
 
 #: wp-content/themes/point/theme.json
-#, fuzzy
-#| msgid "Large"
 msgctxt "Font size name"
 msgid "Very Large"
-msgstr "Grande"
+msgstr "Très grande"
 
 #: wp-content/themes/point/theme.json
-#, fuzzy
-#| msgid "Large"
 msgctxt "Font size name"
 msgid "Ultra Large"
-msgstr "Grande"
+msgstr "Super grande"
 
 #: wp-content/themes/point/theme.json
-#, fuzzy
-#| msgctxt "custom image header"
-#| msgid "Header"
 msgctxt "Template part name"
 msgid "Header"
 msgstr "Entête"
 
 #: wp-content/themes/point/theme.json
-#, fuzzy
-#| msgctxt "template part area"
-#| msgid "Footer"
 msgctxt "Template part name"
 msgid "Footer"
 msgstr "Pied de page"
@@ -14563,11 +14447,9 @@ msgid "Dark grayscale"
 msgstr "Échelle de gris sombres"
 
 #: wp-includes/theme.json
-#, fuzzy
-#| msgid "Gray"
 msgctxt "Duotone name"
 msgid "Grayscale"
-msgstr "Gris"
+msgstr "Échelle de gris"
 
 #: wp-includes/theme.json
 msgctxt "Duotone name"
@@ -14580,9 +14462,6 @@ msgid "Blue and red"
 msgstr "Bleu et rouge"
 
 #: wp-includes/theme.json
-#, fuzzy
-#| msgctxt "admin color scheme"
-#| msgid "Midnight"
 msgctxt "Duotone name"
 msgid "Midnight"
 msgstr "Minuit"
@@ -14658,16 +14537,11 @@ msgid "Electric grass"
 msgstr "Herbe électrique"
 
 #: wp-includes/theme.json
-#, fuzzy
-#| msgctxt "admin color scheme"
-#| msgid "Midnight"
 msgctxt "Gradient name"
 msgid "Midnight"
 msgstr "Minuit"
 
 #: wp-includes/theme.json
-#, fuzzy
-#| msgid "Black"
 msgctxt "Color name"
 msgid "Black"
 msgstr "Noir"
@@ -14678,8 +14552,6 @@ msgid "Cyan bluish gray"
 msgstr "Gris bleuté cyan"
 
 #: wp-includes/theme.json
-#, fuzzy
-#| msgid "White"
 msgctxt "Color name"
 msgid "White"
 msgstr "Blanc"
@@ -14690,12 +14562,9 @@ msgid "Pale pink"
 msgstr "Rose pâle"
 
 #: wp-includes/theme.json
-#, fuzzy
-#| msgctxt "block keyword"
-#| msgid "divider"
 msgctxt "Color name"
 msgid "Vivid red"
-msgstr "séparateur"
+msgstr "Rouge vif"
 
 #: wp-includes/theme.json
 msgctxt "Color name"
@@ -14738,12 +14607,9 @@ msgid "Square - 1:1"
 msgstr "Carré – 1:1"
 
 #: wp-includes/theme.json
-#, fuzzy
-#| msgctxt "Block pattern title"
-#| msgid "Standard"
 msgctxt "Aspect ratio name"
 msgid "Standard - 4:3"
-msgstr "Standard"
+msgstr "Standard - 4:3"
 
 #: wp-includes/theme.json
 msgctxt "Aspect ratio name"
@@ -14751,12 +14617,9 @@ msgid "Portrait - 3:4"
 msgstr "Portrait – 3:4"
 
 #: wp-includes/theme.json
-#, fuzzy
-#| msgctxt "block title"
-#| msgid "Classic"
 msgctxt "Aspect ratio name"
 msgid "Classic - 3:2"
-msgstr "Classique"
+msgstr "Classique - 3:2"
 
 #: wp-includes/theme.json
 msgctxt "Aspect ratio name"
@@ -14774,11 +14637,9 @@ msgid "Tall - 9:16"
 msgstr "Haut – 9:16"
 
 #: wp-includes/theme.json
-#, fuzzy
-#| msgid "Saturday"
 msgctxt "Shadow name"
 msgid "Natural"
-msgstr "Samedi"
+msgstr "Naturel"
 
 #: wp-includes/theme.json
 msgctxt "Shadow name"
@@ -14791,12 +14652,9 @@ msgid "Sharp"
 msgstr "Nette"
 
 #: wp-includes/theme.json
-#, fuzzy
-#| msgctxt "block style label"
-#| msgid "Outline"
 msgctxt "Shadow name"
 msgid "Outlined"
-msgstr "Contour"
+msgstr "Esquissé"
 
 #: wp-includes/theme.json
 msgctxt "Shadow name"
@@ -14804,8 +14662,6 @@ msgid "Crisp"
 msgstr "Précise"
 
 #: wp-includes/theme.json
-#, fuzzy
-#| msgid "Large"
 msgctxt "Font size name"
 msgid "Extra Large"
-msgstr "Grande"
+msgstr "Ultra grande"
