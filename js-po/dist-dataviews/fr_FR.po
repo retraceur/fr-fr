@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Retraceur 3.0.0-alpha\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
-"POT-Creation-Date: 2026-02-05T02:04:41+00:00\n"
-"PO-Revision-Date: 2026-02-13 11:49+0100\n"
+"POT-Creation-Date: 2026-02-21T11:19:09+00:00\n"
+"PO-Revision-Date: 2026-02-21 14:30+0100\n"
 "Last-Translator: \n"
 "Language-Team: Retraceur <retraceur@proton.me>\n"
 "Language: fr_FR\n"
@@ -275,14 +275,12 @@ msgstr "<Name>%1$s est tous : </Name><Value>%2$s</Value>"
 msgid "<Name>%1$s is not all: </Name><Value>%2$s</Value>"
 msgstr "<Name>%1$s n’est pas tous : </Name><Value>%2$s</Value>"
 
-#. translators: 1: Filter name. 2: Filter value. e.g.: "Author is: Admin".
-#. translators: 1: Filter name. 2: Filter value. e.g.: "Date is: 2024-01-01".
+#. translators: 1: Filter name. 2: Filter value.
 #: wp-includes/js/dist/dataviews.js:8970 wp-includes/js/dist/dataviews.js:9132
 msgid "<Name>%1$s is: </Name><Value>%2$s</Value>"
 msgstr "<Name>%1$s est : </Name><Value>%2$s</Value>"
 
-#. translators: 1: Filter name. 2: Filter value. e.g.: "Author is not: Admin".
-#. translators: 1: Filter name. 2: Filter value. e.g.: "Date is not: 2024-01-01".
+#. translators: 1: Filter name. 2: Filter value.
 #: wp-includes/js/dist/dataviews.js:8981 wp-includes/js/dist/dataviews.js:9143
 msgid "<Name>%1$s is not: </Name><Value>%2$s</Value>"
 msgstr "<Name>%1$s n’est pas : </Name><Value>%2$s</Value>"

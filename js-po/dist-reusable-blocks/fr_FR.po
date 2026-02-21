@@ -4,49 +4,49 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Retraceur - 3.0.0\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
-"POT-Creation-Date: 2025-09-03T20:07:41+00:00\n"
-"PO-Revision-Date: 2025-09-03 23:04+0200\n"
+"POT-Creation-Date: 2026-02-21T11:19:25+00:00\n"
+"PO-Revision-Date: 2026-02-21 14:45+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.7\n"
+"X-Generator: Poedit 3.8\n"
 
-#: wp-includes/js/dist/reusable-blocks.js:108
+#: wp-includes/js/dist/reusable-blocks.js:149
 msgid "Untitled pattern block"
 msgstr "Composition de bloc sans titre"
 
 #. translators: %s: the name the user has given to the pattern.
-#: wp-includes/js/dist/reusable-blocks.js:332
+#: wp-includes/js/dist/reusable-blocks.js:305
 msgid "Synced pattern created: %s"
 msgstr "Composition synchronisée créée : %s"
 
 #. translators: %s: the name the user has given to the pattern.
-#: wp-includes/js/dist/reusable-blocks.js:334
+#: wp-includes/js/dist/reusable-blocks.js:309
 msgid "Unsynced pattern created: %s"
 msgstr "Composition non synchronisée créée : %s"
 
-#: wp-includes/js/dist/reusable-blocks.js:352
-#: wp-includes/js/dist/reusable-blocks.js:354
+#: wp-includes/js/dist/reusable-blocks.js:336
+#: wp-includes/js/dist/reusable-blocks.js:340
 msgid "Create pattern"
 msgstr "Créer une composition"
 
-#: wp-includes/js/dist/reusable-blocks.js:373
+#: wp-includes/js/dist/reusable-blocks.js:362
 msgid "Name"
 msgstr "Nom"
 
-#: wp-includes/js/dist/reusable-blocks.js:376
+#: wp-includes/js/dist/reusable-blocks.js:365
 msgid "My pattern"
 msgstr "Ma composition"
 
-#: wp-includes/js/dist/reusable-blocks.js:379
+#: wp-includes/js/dist/reusable-blocks.js:372
 msgctxt "pattern (singular)"
 msgid "Synced"
 msgstr "Synchronisée"
 
-#: wp-includes/js/dist/reusable-blocks.js:380
+#: wp-includes/js/dist/reusable-blocks.js:373
 msgid "Sync this pattern across multiple locations."
 msgstr "Synchroniser cette composition à travers de multiples emplacements."
 
@@ -54,14 +54,14 @@ msgstr "Synchroniser cette composition à travers de multiples emplacements."
 msgid "Cancel"
 msgstr "Annuler"
 
-#: wp-includes/js/dist/reusable-blocks.js:399
+#: wp-includes/js/dist/reusable-blocks.js:403
 msgid "Create"
 msgstr "Créer"
 
-#: wp-includes/js/dist/reusable-blocks.js:474
+#: wp-includes/js/dist/reusable-blocks.js:457
 msgid "Manage patterns"
 msgstr "Gérer les compositions"
 
-#: wp-includes/js/dist/reusable-blocks.js:477
+#: wp-includes/js/dist/reusable-blocks.js:458
 msgid "Detach"
 msgstr "Détacher"
