@@ -2,10 +2,10 @@
 # This file is distributed under the GPL-2.0+ license.
 msgid ""
 msgstr ""
-"Project-Id-Version: Retraceur - 3.0.0\n"
+"Project-Id-Version: Retraceur - 3.1.0\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
-"POT-Creation-Date: 2026-03-01T12:53:34+00:00\n"
-"PO-Revision-Date: 2026-03-01 13:58+0100\n"
+"POT-Creation-Date: 2026-03-14T06:23:25+00:00\n"
+"PO-Revision-Date: 2026-03-14 07:30+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -5258,6 +5258,12 @@ msgstr "L’espace nom ou le chemin de référence ne peut être vide. Valeur de
 #, php-format
 msgid "Uncaught error executing a derived state callback with path \"%1$s\" and namespace \"%2$s\"."
 msgstr "Erreur non résolue lors de l’exécution d’un rappel d’état dérivé avec le chemin « %1$s » et l’espace nom « %2$s »."
+
+#. translators: %s: The directive, e.g. data-wp-on--click.
+#: wp-includes/interactivity-api/class-wp-interactivity-api.php:1044
+#, php-format
+msgid "Binding event handler attributes is not supported. Please use \"%s\" instead."
+msgstr "La liaison des attributs des gestionnaires d'événements n'est pas prise en charge. Veuillez utiliser « %s » à la place."
 
 #. translators: 1: CUSTOM_TAGS, 2: Global variable names.
 #: wp-includes/kses.php:925
