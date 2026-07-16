@@ -1,8 +1,7 @@
 {
 	"name": "fr-fr",
-	"version": "3.1.0",
+	"version": "4.0.0-beta1",
 	"description": "French translation files for Retraceur",
-	"main": "index.js",
 	"scripts": {
 		"makejson": "./tools/makejson.sh",
 		"i18n:php": "wp i18n make-php ."
