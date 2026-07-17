@@ -1,0 +1,37 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Retraceur 4.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
+"POT-Creation-Date: 2026-07-16T08:41:01+00:00\n"
+"PO-Revision-Date: 2026-07-17 18:21+0200\n"
+"Last-Translator: \n"
+"Language-Team: Retraceur <retraceur@proton.me>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.9\n"
+
+#: wp-includes/js/dist/script-modules/workflow/index.js:3330
+msgid "Run abilities and workflows"
+msgstr "Exécuter les capacités et les flux de travail"
+
+#: wp-includes/js/dist/script-modules/workflow/index.js:3383
+msgid "Open the workflow palette."
+msgstr "Ouvrir la palette des flux de travail"
+
+#: wp-includes/js/dist/script-modules/workflow/index.js:3455
+msgid "Workflow palette"
+msgstr "Palette des flux de travail"
+
+#: wp-includes/js/dist/script-modules/workflow/index.js:3493
+msgid "Workflow suggestions"
+msgstr "Suggestions de flux de travail"
+
+#: wp-includes/js/dist/script-modules/workflow/index.js:3499
+msgid "Executing ability…"
+msgstr "Exécution de la capacité…"
+
+#: wp-includes/js/dist/script-modules/workflow/index.js:3502
+msgid "No results found."
+msgstr "Aucun résultat n’a été trouvé."

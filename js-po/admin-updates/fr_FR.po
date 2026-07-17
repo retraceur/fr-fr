@@ -1,11 +1,11 @@
-# Translation of Retraceur - 3.0.x - wp-admin/js/updates.js in French (France)
+# Translation of Retraceur - 4.0.x - wp-admin/js/updates.js in French (France)
 # This file is distributed under the GPL-2.0+ license.
 msgid ""
 msgstr ""
-"Project-Id-Version: Retraceur - 3.0.0\n"
+"Project-Id-Version: Retraceur 4.0.0\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
-"POT-Creation-Date: 2026-03-01T12:54:04+00:00\n"
-"PO-Revision-Date: 2026-03-01 14:10+0100\n"
+"POT-Creation-Date: 2026-07-16T08:39:56+00:00\n"
+"PO-Revision-Date: 2026-07-17 18:39+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -13,365 +13,337 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 
 #. translators: %s: Total number of updates available.
-#: wp-admin/js/updates.js:368
+#: wp-admin/js/updates.js:364
 msgid "%s update available"
 msgid_plural "%s updates available"
 msgstr[0] "%s mise à jour disponible"
 msgstr[1] "%s mises à jour disponibles"
 
-#: wp-admin/js/updates.js:488 wp-admin/js/updates.js:519
-#: wp-admin/js/updates.js:1570 wp-admin/js/updates.js:1575
+#: wp-admin/js/updates.js:484 wp-admin/js/updates.js:515
+#: wp-admin/js/updates.js:1368 wp-admin/js/updates.js:1373
 msgid "Updating..."
 msgstr "Mise à jour en cours…"
 
 #. translators: %s: Plugin name and version.
-#: wp-admin/js/updates.js:501 wp-admin/js/updates.js:509
+#: wp-admin/js/updates.js:497 wp-admin/js/updates.js:505
 msgctxt "plugin"
 msgid "Updating %s..."
 msgstr "Mise à jour de l’élément de type % en cours…"
 
-#: wp-admin/js/updates.js:561
+#: wp-admin/js/updates.js:557
 msgctxt "plugin"
 msgid "Updated!"
 msgstr "Mis à jour !"
 
 #. translators: %s: Plugin name and version.
-#: wp-admin/js/updates.js:564
+#: wp-admin/js/updates.js:560
 msgctxt "plugin"
 msgid "%s updated!"
 msgstr "L’élément de type %s a été mis à jour !"
 
-#: wp-admin/js/updates.js:594 wp-admin/js/updates.js:1625
+#: wp-admin/js/updates.js:587 wp-admin/js/updates.js:1419
 msgid "Update completed successfully."
 msgstr "La mise à jour a été complétée avec succès."
 
 #. translators: %s: Error string for a failed update.
-#: wp-admin/js/updates.js:641 wp-admin/js/updates.js:1651
-#: wp-admin/js/updates.js:2325
+#: wp-admin/js/updates.js:634 wp-admin/js/updates.js:1445
+#: wp-admin/js/updates.js:2096
 msgid "Update failed: %s"
 msgstr "La mise à jour a échouée : %s"
 
 #. translators: %s: Plugin name and version.
-#: wp-admin/js/updates.js:661 wp-admin/js/updates.js:688
+#: wp-admin/js/updates.js:654 wp-admin/js/updates.js:681
 msgctxt "plugin"
 msgid "%s update failed."
 msgstr "La mise à jour de %s a échoué."
 
-#: wp-admin/js/updates.js:669 wp-admin/js/updates.js:2369
+#: wp-admin/js/updates.js:662 wp-admin/js/updates.js:2140
 msgid "Update failed."
 msgstr "La mise à jour a échouée."
 
-#: wp-admin/js/updates.js:708
+#: wp-admin/js/updates.js:701
 msgid "Update Now"
 msgstr "Mettre à jour maintenant"
 
-#: wp-admin/js/updates.js:747 wp-admin/js/updates.js:759
-#: wp-admin/js/updates.js:1705 wp-admin/js/updates.js:1718
-msgid "Installing..."
-msgstr "Installation en cours…"
-
-#. translators: %s: Plugin name and version.
-#: wp-admin/js/updates.js:765
-msgctxt "plugin"
-msgid "Installing %s..."
-msgstr "Installation de %s en cours…"
-
-#: wp-admin/js/updates.js:774 wp-admin/js/updates.js:1720
-msgid "Installing... please wait."
-msgstr "Installation en cours… Merci de patienter."
-
-#: wp-admin/js/updates.js:808
-msgctxt "plugin"
-msgid "Installed!"
-msgstr "Installé !"
-
-#. translators: %s: Plugin name and version.
-#: wp-admin/js/updates.js:811
-msgctxt "plugin"
-msgid "%s installed!"
-msgstr "%s a été installée !"
-
-#: wp-admin/js/updates.js:821 wp-admin/js/updates.js:1261
-#: wp-admin/js/updates.js:1759
-msgid "Installation completed successfully."
-msgstr "L’installation a été complétée avec succès."
-
-#: wp-admin/js/updates.js:861 wp-admin/js/updates.js:1857
-msgid "Installation failed."
-msgstr "L’installation a échoué."
-
-#. translators: %s: Plugin name and version.
-#: wp-admin/js/updates.js:864
-msgctxt "plugin"
-msgid "%s installation failed"
-msgstr "L’installation de %s a échoué"
-
-#. translators: %s: Error string for a failed installation.
-#: wp-admin/js/updates.js:879 wp-admin/js/updates.js:1280
-#: wp-admin/js/updates.js:1823 wp-admin/js/updates.js:2330
-msgid "Installation failed: %s"
-msgstr "L’installation a échoué : %s"
-
-#: wp-admin/js/updates.js:936
+#: wp-admin/js/updates.js:788
 msgid "Checking plugin dependencies... please wait."
 msgstr "Vérifications des dépendances de l’extension… Merci de patienter."
 
-#: wp-admin/js/updates.js:963
+#: wp-admin/js/updates.js:815
 msgid "Plugin dependencies check completed successfully."
 msgstr "Vérification des dépendances de l’extension complétée avec succès."
 
-#: wp-admin/js/updates.js:967
+#: wp-admin/js/updates.js:819
 msgctxt "plugin"
 msgid "Network Activate"
 msgstr "Activer sur le réseau"
 
 #. translators: %s: Plugin name.
-#: wp-admin/js/updates.js:970
+#: wp-admin/js/updates.js:822
 msgctxt "plugin"
 msgid "Network Activate %s"
 msgstr "Activer %s sur le réseau"
 
-#: wp-admin/js/updates.js:978 wp-admin/js/updates.js:1023
+#: wp-admin/js/updates.js:830 wp-admin/js/updates.js:875
 msgctxt "plugin"
 msgid "Activate"
 msgstr "Activer"
 
 #. translators: %s: Plugin name.
-#: wp-admin/js/updates.js:981
+#: wp-admin/js/updates.js:833
 msgctxt "plugin"
 msgid "Activate %s"
 msgstr "Activer %s"
 
 #. translators: 1: Plugin name, 2. The reason the plugin cannot be activated.
-#: wp-admin/js/updates.js:1026
+#: wp-admin/js/updates.js:878
 msgctxt "plugin"
 msgid "Cannot activate %1$s. %2$s"
 msgstr "L’activation de %1$s n’a pas été possible. %2$s"
 
 #. translators: %s: Error string for a failed activation.
-#: wp-admin/js/updates.js:1038 wp-admin/js/updates.js:1200
-#: wp-admin/js/updates.js:2340
+#: wp-admin/js/updates.js:890 wp-admin/js/updates.js:1052
+#: wp-admin/js/updates.js:2111
 msgid "Activation failed: %s"
 msgstr "L’activation a échoué : %s"
 
-#: wp-admin/js/updates.js:1087
+#: wp-admin/js/updates.js:939
 msgid "Activating... please wait."
 msgstr "Activation en cours… Merci de patienter."
 
-#: wp-admin/js/updates.js:1097
+#: wp-admin/js/updates.js:949
 msgid "Activating..."
 msgstr "Activation en cours…"
 
 #. translators: %s: Plugin name.
-#: wp-admin/js/updates.js:1100
+#: wp-admin/js/updates.js:952
 msgctxt "plugin"
 msgid "Activating %s"
 msgstr "Activation de %s"
 
-#: wp-admin/js/updates.js:1122
+#: wp-admin/js/updates.js:974
 msgctxt "plugin"
 msgid "Activated!"
 msgstr "Activé !"
 
-#: wp-admin/js/updates.js:1129
+#: wp-admin/js/updates.js:981
 msgid "Activation completed successfully."
 msgstr "L’activation a été complétée avec succès."
 
-#: wp-admin/js/updates.js:1153 wp-admin/js/updates.js:1161
+#: wp-admin/js/updates.js:1005 wp-admin/js/updates.js:1013
 msgctxt "plugin"
 msgid "Active"
 msgstr "Active"
 
-#: wp-admin/js/updates.js:1186
+#: wp-admin/js/updates.js:1038
 msgid "Activation failed."
 msgstr "L’activation a échoué."
 
 #. translators: %s: Plugin name.
-#: wp-admin/js/updates.js:1189
+#: wp-admin/js/updates.js:1041
 msgctxt "plugin"
 msgid "%s activation failed"
 msgstr "L’activation de %s a échoué"
 
 #. translators: %s: Activation URL.
-#: wp-admin/js/updates.js:1243
+#: wp-admin/js/updates.js:1095
 msgid "Importer installed successfully. <a href=\"%s\">Run importer</a>"
 msgstr ""
 "L’outil d’importation a été installé avec succès. <a href=\"%s\">Lancer "
 "l’importation</a>"
 
 #. translators: %s: Importer name.
-#: wp-admin/js/updates.js:1255
+#: wp-admin/js/updates.js:1107
 msgid "Run %s"
 msgstr "Lancer %s"
 
-#: wp-admin/js/updates.js:1259
+#: wp-admin/js/updates.js:1111
 msgid "Run Importer"
 msgstr "Lancer l’importation"
 
-#. translators: %s: Plugin name.
-#: wp-admin/js/updates.js:1306 wp-admin/js/updates.js:2519
-#: wp-admin/js/updates.js:2655
-msgctxt "plugin"
-msgid "Install %s now"
-msgstr "Installer %s maintenant"
+#: wp-admin/js/updates.js:1113 wp-admin/js/updates.js:1553
+msgid "Installation completed successfully."
+msgstr "L’installation a été complétée avec succès."
 
-#: wp-admin/js/updates.js:1310 wp-admin/js/updates.js:2603
-#: wp-admin/js/updates.js:2659
-msgctxt "plugin"
-msgid "Install Now"
-msgstr "Installer maintenant"
-
-#: wp-admin/js/updates.js:1338 wp-admin/js/updates.js:1341
-#: wp-admin/js/updates.js:1344 wp-admin/js/updates.js:1890
-#: wp-admin/js/updates.js:1893 wp-admin/js/updates.js:1896
+#: wp-admin/js/updates.js:1154 wp-admin/js/updates.js:1157
+#: wp-admin/js/updates.js:1160 wp-admin/js/updates.js:1684
+#: wp-admin/js/updates.js:1687 wp-admin/js/updates.js:1690
 msgid "Deleting..."
 msgstr "Suppression en cours…"
 
-#: wp-admin/js/updates.js:1455
+#: wp-admin/js/updates.js:1253
 msgid "No plugins are currently available."
 msgstr "Aucune extension n’est actuellement disponible."
 
-#: wp-admin/js/updates.js:1457
+#: wp-admin/js/updates.js:1255
 msgid "No blocks are currently available."
 msgstr "Aucun bloc n’est actuellement disponible."
 
 #. translators: %s: The remaining number of plugins.
-#: wp-admin/js/updates.js:1469
+#: wp-admin/js/updates.js:1267
 msgctxt "plugin/plugins"
 msgid "%s item"
 msgid_plural "%s items"
 msgstr[0] "%s élément"
 msgstr[1] "%s éléments"
 
-#: wp-admin/js/updates.js:1476
+#: wp-admin/js/updates.js:1274
 msgctxt "plugin"
 msgid "Deleted!"
 msgstr "Supprimée !"
 
-#: wp-admin/js/updates.js:1574
+#: wp-admin/js/updates.js:1372
 msgid "Updating... please wait."
 msgstr "Mise à jour en cours… Merci de patienter."
 
-#: wp-admin/js/updates.js:1599
+#: wp-admin/js/updates.js:1397
 msgctxt "theme"
 msgid "Updated!"
 msgstr "Mis à jour !"
 
+#: wp-admin/js/updates.js:1499 wp-admin/js/updates.js:1512
+msgid "Installing..."
+msgstr "Installation en cours…"
+
 #. translators: %s: Theme name and version.
-#: wp-admin/js/updates.js:1714
+#: wp-admin/js/updates.js:1508
 msgctxt "theme"
 msgid "Installing %s..."
 msgstr "Installation de %s en cours…"
 
+#: wp-admin/js/updates.js:1514
+msgid "Installing... please wait."
+msgstr "Installation en cours… Merci de patienter."
+
 #. translators: %s: Theme name and version.
-#: wp-admin/js/updates.js:1753
+#: wp-admin/js/updates.js:1547
 msgctxt "theme"
 msgid "%s installed!"
 msgstr "%s a été installé !"
 
-#: wp-admin/js/updates.js:1757
+#: wp-admin/js/updates.js:1551
 msgctxt "theme"
 msgid "Installed!"
 msgstr "Installé !"
 
 #. translators: %s: Theme name.
-#: wp-admin/js/updates.js:1777
+#: wp-admin/js/updates.js:1571
 msgctxt "theme"
 msgid "Network Activate %s"
 msgstr "%s a été activé au niveau du réseau"
 
-#: wp-admin/js/updates.js:1781
+#: wp-admin/js/updates.js:1575
 msgid "Network Enable"
 msgstr "Rendre disponible sur le réseau"
 
 #. translators: %s: Theme name.
-#: wp-admin/js/updates.js:1788
+#: wp-admin/js/updates.js:1582
 msgctxt "theme"
 msgid "Activate %s"
 msgstr "Activer %s"
 
-#: wp-admin/js/updates.js:1792
+#: wp-admin/js/updates.js:1586
 msgctxt "theme"
 msgid "Activate"
 msgstr "Activer"
 
-#: wp-admin/js/updates.js:1803
+#: wp-admin/js/updates.js:1597
 msgid "Customize"
 msgstr "Personnaliser"
 
+#. translators: %s: Error string for a failed installation.
+#: wp-admin/js/updates.js:1617 wp-admin/js/updates.js:2101
+msgid "Installation failed: %s"
+msgstr "L’installation a échoué : %s"
+
 #. translators: %s: Theme name and version.
-#: wp-admin/js/updates.js:1853
+#: wp-admin/js/updates.js:1647
 msgctxt "theme"
 msgid "%s installation failed"
 msgstr "L’installation de %s a échoué"
 
-#: wp-admin/js/updates.js:1987
+#: wp-admin/js/updates.js:1651
+msgid "Installation failed."
+msgstr "L’installation a échoué."
+
+#: wp-admin/js/updates.js:1763
 msgctxt "theme"
 msgid "Deleted!"
 msgstr "Supprimé !"
 
 #. translators: %s: Error string for a failed deletion.
-#: wp-admin/js/updates.js:2009 wp-admin/js/updates.js:2345
+#: wp-admin/js/updates.js:1785 wp-admin/js/updates.js:2116
 msgid "Deletion failed: %s"
 msgstr "La suppression a échoué : %s"
 
-#: wp-admin/js/updates.js:2302
+#: wp-admin/js/updates.js:2073
 msgid "An error occurred during the update process. Please try again."
 msgstr ""
 "Une erreur est apparue lors de l’opération de la mise à jour. Merci de "
 "recharger la page et d’essayer à nouveau."
 
-#: wp-admin/js/updates.js:2311
+#: wp-admin/js/updates.js:2082
 msgid "An error has occurred. Please reload the page and try again."
 msgstr ""
 "Une erreur est apparue. Merci de recharger la page et d’essayer à nouveau."
 
-#: wp-admin/js/updates.js:2315
+#: wp-admin/js/updates.js:2086
 msgid "Connection lost or the server is busy. Please try again later."
 msgstr ""
 "La connexion a été perdue ou le serveur est trop sollicité. Merci de "
 "réessayer plus tard."
 
 #. translators: %s: Error string for a failed dependencies check.
-#: wp-admin/js/updates.js:2335
+#: wp-admin/js/updates.js:2106
 msgid "Dependencies check failed: %s"
 msgstr "La vérification des dépendances a échoué : %s"
 
-#: wp-admin/js/updates.js:2393
+#: wp-admin/js/updates.js:2164
 msgid "Updates may not complete if you navigate away from this page."
 msgstr "Les mises à jour peuvent être incomplètes si vous quittez cette page."
 
 #. translators: %s: Plugin name and version.
-#: wp-admin/js/updates.js:2510
+#: wp-admin/js/updates.js:2281
 msgctxt "plugin"
 msgid "Update %s now"
 msgstr "Mettre à jour %s maintenant"
 
-#: wp-admin/js/updates.js:2527 wp-admin/js/updates.js:2605
-#: wp-admin/js/updates.js:2661
+#: wp-admin/js/updates.js:2289 wp-admin/js/updates.js:2367
+#: wp-admin/js/updates.js:2423
 msgid "Update canceled."
 msgstr "Mise à jour annulée."
 
+#: wp-admin/js/updates.js:2365 wp-admin/js/updates.js:2421
+msgctxt "plugin"
+msgid "Install Now"
+msgstr "Installer maintenant"
+
+#. translators: %s: Plugin name.
+#: wp-admin/js/updates.js:2417
+msgctxt "plugin"
+msgid "Install %s now"
+msgstr "Installer %s maintenant"
+
 #. translators: %s: Plugin/Theme name.
-#: wp-admin/js/updates.js:2687
+#: wp-admin/js/updates.js:2449
 msgid "Are you sure you want to delete %s and its data?"
 msgstr "Êtes vous certain·e de vouloir supprimer %s et ses données ?"
 
 #. translators: %s: Plugin/Theme name.
-#: wp-admin/js/updates.js:2693 wp-admin/js/updates.js:2750
+#: wp-admin/js/updates.js:2455 wp-admin/js/updates.js:2512
 msgid "Are you sure you want to delete %s?"
 msgstr "Êtes vous certain·e de vouloir supprimer %s ?"
 
-#: wp-admin/js/updates.js:2812
+#: wp-admin/js/updates.js:2574
 msgid "Are you sure you want to delete the selected plugins and their data?"
 msgstr ""
 "Êtes vous certain·e de vouloir supprimer les extensions sélectionnée ainsi "
 "que leurs données ?"
 
-#: wp-admin/js/updates.js:2813
+#: wp-admin/js/updates.js:2575
 msgid ""
 "Caution: These themes may be active on other sites in the network. Are you "
 "sure you want to proceed?"
@@ -380,73 +352,44 @@ msgstr ""
 "Êtes vous certain·e de vouloir poursuivre ?"
 
 #. translators: %s: Number of plugins.
-#: wp-admin/js/updates.js:2890
+#: wp-admin/js/updates.js:2652
 msgid "%s plugin successfully updated."
 msgid_plural "%s plugins successfully updated."
 msgstr[0] "%s extension mise à jour avec succès."
 msgstr[1] "%s extensions mises à jour avec succès."
 
 #. translators: %s: Number of themes.
-#: wp-admin/js/updates.js:2896
+#: wp-admin/js/updates.js:2658
 msgid "%s theme successfully updated."
 msgid_plural "%s themes successfully updated."
 msgstr[0] "%s thème mis à jour avec succès."
 msgstr[1] "%s thèmes mis à jour avec succès."
 
 #. translators: %s: Number of failed updates.
-#: wp-admin/js/updates.js:2907
+#: wp-admin/js/updates.js:2669
 msgid "%s update failed."
 msgid_plural "%s updates failed."
 msgstr[0] "%s mis à jour a échoué"
 msgstr[1] "%s mis à jour ont échoué"
 
-#: wp-admin/js/updates.js:3005
+#: wp-admin/js/updates.js:2767
 msgid "Search Results"
 msgstr "Résultats de recherche"
 
-#: wp-admin/js/updates.js:3028
+#: wp-admin/js/updates.js:2790
 msgid "You do not appear to have any plugins available at this time."
 msgstr "Vous ne semblez pas avoir d’extension disponible à ce jour."
 
 #. translators: %s: Number of plugins.
-#: wp-admin/js/updates.js:3033 wp-admin/js/updates.js:3129
+#: wp-admin/js/updates.js:2795 wp-admin/js/updates.js:2891
 msgid "Number of plugins found: %d"
 msgstr "Nombre d’extensions trouvées : %d"
 
 #. translators: %s: Search query.
-#: wp-admin/js/updates.js:3105
+#: wp-admin/js/updates.js:2867
 msgid "Search results for: %s"
 msgstr "Résultats de recherche pour : %s"
 
-#: wp-admin/js/updates.js:3124
+#: wp-admin/js/updates.js:2886
 msgid "No plugins found. Try a different search."
 msgstr "Aucune extension n’a été trouvée. Essayez une recherche différente."
-
-#: wp-admin/js/updates.js:3361
-msgid "Enabling..."
-msgstr "Mise à disposition…"
-
-#: wp-admin/js/updates.js:3363
-msgid "Disabling..."
-msgstr "Neutralisation…"
-
-#: wp-admin/js/updates.js:3387 wp-admin/js/updates.js:3451
-#: wp-admin/js/updates.js:3453
-msgid "The request could not be completed."
-msgstr "La requête n’a pu être complétée."
-
-#: wp-admin/js/updates.js:3429
-msgid "Disable auto-updates"
-msgstr "Neutraliser les mises à jour automatiques"
-
-#: wp-admin/js/updates.js:3431
-msgid "Auto-updates enabled"
-msgstr "Mises à jour automatiques disponibles"
-
-#: wp-admin/js/updates.js:3440
-msgid "Enable auto-updates"
-msgstr "Rendre disponible les mises à jour automatiques"
-
-#: wp-admin/js/updates.js:3442
-msgid "Auto-updates disabled"
-msgstr "Mises à jour automatiques neutralisées"

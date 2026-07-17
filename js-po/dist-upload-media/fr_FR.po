@@ -1,0 +1,33 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Retraceur 4.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
+"POT-Creation-Date: 2026-07-16T08:40:58+00:00\n"
+"PO-Revision-Date: 2026-07-17 18:15+0200\n"
+"Last-Translator: \n"
+"Language-Team: Retraceur <retraceur@proton.me>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.9\n"
+
+#. translators: %s: file name.
+#: wp-includes/js/dist/upload-media.js:704
+msgid "%s: Sorry, this file type is not supported here."
+msgstr "%s : désolé, ce type de fichier n’est pas supporté."
+
+#. translators: %s: file name.
+#: wp-includes/js/dist/upload-media.js:748
+msgid "%s: Sorry, you are not allowed to upload this file type."
+msgstr "%s : désolé, vous n’avez pas l’autorisation de charger ce type de fichier."
+
+#. translators: %s: file name.
+#: wp-includes/js/dist/upload-media.js:766
+msgid "%s: This file is empty."
+msgstr "%s : ce fichier est vide."
+
+#. translators: %s: file name.
+#: wp-includes/js/dist/upload-media.js:777
+msgid "%s: This file exceeds the maximum upload size for this site."
+msgstr "%s : ce fichier excède la taille maximale de chargement de ce site."
