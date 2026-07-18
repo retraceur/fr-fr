@@ -2,10 +2,10 @@
 # This file is distributed under the GPL-2.0+ license.
 msgid ""
 msgstr ""
-"Project-Id-Version: Retraceur - 3.1.0\n"
+"Project-Id-Version: Retraceur 3.2.0\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
-"POT-Creation-Date: 2026-03-14T06:23:25+00:00\n"
-"PO-Revision-Date: 2026-03-14 07:30+0100\n"
+"POT-Creation-Date: 2026-07-18T08:50:44+00:00\n"
+"PO-Revision-Date: 2026-07-18 10:55+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 
 #: wp-activate.php:26 wp-includes/deprecated.php:15850 wp-includes/deprecated.php:15884 wp-includes/deprecated.php:15924 wp-includes/deprecated.php:15969 wp-includes/deprecated.php:16020 wp-includes/deprecated.php:16037 wp-includes/deprecated.php:16089 wp-includes/deprecated.php:16124
 #: wp-includes/deprecated.php:16163 wp-includes/deprecated.php:16229 wp-includes/deprecated.php:16296
@@ -3108,7 +3108,7 @@ msgstr "le,la,les,de,des,un,uns,une,unes,et,a,à,il,elle,on,ne,je,tu,nous,vous,i
 msgid "%1$s is deprecated. Use %2$s instead."
 msgstr "%1$s est obsolète. Utilisez %2$s à la place."
 
-#: wp-includes/class-wp-query.php:3698 wp-includes/class-wp-rewrite.php:1298 wp-includes/deprecated.php:10029 wp-includes/deprecated.php:10050 wp-includes/deprecated.php:10067 wp-includes/deprecated.php:10084 wp-includes/deprecated.php:10101 wp-includes/deprecated.php:10138
+#: wp-includes/class-wp-query.php:3702 wp-includes/class-wp-rewrite.php:1298 wp-includes/deprecated.php:10029 wp-includes/deprecated.php:10050 wp-includes/deprecated.php:10067 wp-includes/deprecated.php:10084 wp-includes/deprecated.php:10101 wp-includes/deprecated.php:10138
 #: wp-includes/deprecated.php:10155 wp-includes/deprecated.php:10172 wp-includes/deprecated.php:10189 wp-includes/deprecated.php:10206 wp-includes/deprecated.php:10245 wp-includes/deprecated.php:10279 wp-includes/deprecated.php:10312 wp-includes/deprecated.php:10403 wp-includes/deprecated.php:10420
 #: wp-includes/deprecated.php:10451 wp-includes/deprecated.php:10467 wp-includes/deprecated.php:10525 wp-includes/deprecated.php:10581 wp-includes/deprecated.php:10686 wp-includes/deprecated.php:10722 wp-includes/deprecated.php:10778 wp-includes/deprecated.php:10810 wp-includes/deprecated.php:10827
 #: wp-includes/deprecated.php:10843 wp-includes/deprecated.php:10888 wp-includes/deprecated.php:10945 wp-includes/deprecated.php:10975 wp-includes/deprecated.php:11011 wp-includes/deprecated.php:11042 wp-includes/deprecated.php:11082 wp-includes/deprecated.php:11106 wp-includes/deprecated.php:11138
@@ -7462,7 +7462,7 @@ msgstr "Identifiant de l’article non valide."
 msgid "Content, title, and excerpt are empty."
 msgstr "Le contenu, le titre et l’extrait sont vides."
 
-#: wp-includes/post.php:4392 wp-includes/rest-api.php:2264
+#: wp-includes/post.php:4392 wp-includes/rest-api.php:2273
 msgid "Invalid date."
 msgstr "Date non valide."
 
@@ -7549,154 +7549,154 @@ msgstr "La définition de la route de l’API REST pour %1$s n’a pas l’argum
 msgid "REST API %1$s should be an array of arrays. Non-array value detected for %2$s."
 msgstr "%1$s de l’API REST devrait être un tableau de tableaux. Une valeur qui n’est pas de type tableau a été détectée pour %2$s."
 
-#: wp-includes/rest-api.php:428
+#: wp-includes/rest-api.php:437
 msgid "The REST route parameter must be a string."
 msgstr "Le paramètre de l’URL REST doit être une chaîne de caractères."
 
 #. translators: 1: Function name, 2: WP version number, 3: New function name.
-#: wp-includes/rest-api.php:699
+#: wp-includes/rest-api.php:708
 #, php-format
 msgid "%1$s (since %2$s; use %3$s instead)"
 msgstr "%1$s (depuis la %2$s ; utilisez %3$s à la place)"
 
 #. translators: 1: Function name, 2: WP version number.
-#: wp-includes/rest-api.php:702 wp-includes/rest-api.php:726
+#: wp-includes/rest-api.php:711 wp-includes/rest-api.php:735
 #, php-format
 msgid "%1$s (since %2$s; no alternative available)"
 msgstr "%1$s (depuis la %2$s ; aucune alternative disponible)"
 
 #. translators: 1: Function name, 2: Version number, 3: Error message.
-#: wp-includes/rest-api.php:723 wp-includes/rest-api.php:748
+#: wp-includes/rest-api.php:732 wp-includes/rest-api.php:757
 #, php-format
 msgid "%1$s (since %2$s; %3$s)"
 msgstr "%1$s (depuis la %2$s ; %3$s)"
 
 #. translators: Developer debugging message. 1: PHP function name, 2: Explanatory message.
-#: wp-includes/rest-api.php:752
+#: wp-includes/rest-api.php:761
 #, php-format
 msgctxt "rest-api"
 msgid "%1$s (%2$s)"
 msgstr "%1$s (%2$s)"
 
-#: wp-includes/rest-api.php:1039 wp-includes/rest-api.php:1070
+#: wp-includes/rest-api.php:1048 wp-includes/rest-api.php:1079
 msgctxt "REST API resource link name"
 msgid "JSON"
 msgstr "JSON"
 
-#: wp-includes/rest-api.php:1128
+#: wp-includes/rest-api.php:1137
 msgid "Cookie check failed"
 msgstr "La vérification du cookie a échouée"
 
 #. translators: 1: Parameter, 2: List of allowed types.
-#: wp-includes/rest-api.php:1702
+#: wp-includes/rest-api.php:1711
 #, php-format
 msgid "The \"type\" schema keyword for %1$s can only contain the built-in types: %2$l."
 msgstr "Le mot-clé « type » du schéma pour %1$s peut uniquement contenir les types natifs : %2$l."
 
-#: wp-includes/rest-api.php:1764
+#: wp-includes/rest-api.php:1773
 msgid "Cannot stabilize objects. Convert the object to an array first."
 msgstr "Impossible de stabiliser les objets. Convertissez d’abord l’objet en tableau."
 
 #. translators: 1: Parameter, 2: Schema title, 3: Reason.
-#: wp-includes/rest-api.php:1833
+#: wp-includes/rest-api.php:1842
 #, php-format
 msgid "%1$s is not a valid %2$s. Reason: %3$s"
 msgstr "%1$s n’est pas un %2$s valide. Explication : %3$s"
 
 #. translators: 1: Parameter, 2: Reason.
-#: wp-includes/rest-api.php:1841
+#: wp-includes/rest-api.php:1850
 #, php-format
 msgid "%1$s does not match the expected format. Reason: %2$s"
 msgstr "%1$s ne correspond pas au format attendu. Explication : %2$s"
 
 #. translators: 1: Parameter, 2: Schema titles.
-#: wp-includes/rest-api.php:1908
+#: wp-includes/rest-api.php:1917
 #, php-format
 msgid "%1$s is not a valid %2$l."
 msgstr "%1$s n’est pas un %2$l valide."
 
 #. translators: %s: Parameter.
-#: wp-includes/rest-api.php:1912
+#: wp-includes/rest-api.php:1921
 #, php-format
 msgid "%s does not match any of the expected formats."
 msgstr "%s ne correspond à aucun des formats attendus."
 
 #. translators: 1: Parameter, 2: Schema titles.
-#: wp-includes/rest-api.php:2008
+#: wp-includes/rest-api.php:2017
 #, php-format
 msgid "%1$s matches %2$l, but should match only one."
 msgstr "%1$s correspond à %2$l, mais ne devrait correspondre qu’à un seul schéma."
 
 #. translators: %s: Parameter.
-#: wp-includes/rest-api.php:2016
+#: wp-includes/rest-api.php:2025
 #, php-format
 msgid "%s matches more than one of the expected formats."
 msgstr "%s correspond à plus d’un des formats attendus."
 
 #. translators: 1: Parameter, 2: Valid values.
-#: wp-includes/rest-api.php:2090
+#: wp-includes/rest-api.php:2099
 #, php-format
 msgid "%1$s is not %2$s."
 msgstr "%1$s n’est pas %2$s."
 
 #. translators: 1: Parameter, 2: List of valid values.
-#: wp-includes/rest-api.php:2094
+#: wp-includes/rest-api.php:2103
 #, php-format
 msgid "%1$s is not one of %2$l."
 msgstr "%1$s ne fait pas partie de %2$l."
 
 #. translators: %s: Parameter.
-#: wp-includes/rest-api.php:2183 wp-includes/rest-api.php:2785
+#: wp-includes/rest-api.php:2192 wp-includes/rest-api.php:2794
 #, php-format
 msgid "The \"type\" schema keyword for %s is required."
 msgstr "Le mot-clé « type » du schéma est obligatoire pour %s."
 
 #. translators: 1: Parameter, 2: Type name or list of type names.
-#: wp-includes/rest-api.php:2193 wp-includes/rest-api.php:2305 wp-includes/rest-api.php:2327 wp-includes/rest-api.php:2350 wp-includes/rest-api.php:2465 wp-includes/rest-api.php:2536 wp-includes/rest-api.php:2665 wp-includes/rest-api.php:2733
+#: wp-includes/rest-api.php:2202 wp-includes/rest-api.php:2314 wp-includes/rest-api.php:2336 wp-includes/rest-api.php:2359 wp-includes/rest-api.php:2474 wp-includes/rest-api.php:2545 wp-includes/rest-api.php:2674 wp-includes/rest-api.php:2742
 #, php-format
 msgid "%1$s is not of type %2$s."
 msgstr "Le paramètre %1$s n’est pas de type %2$s."
 
 #. translators: 1: Parameter, 2: The list of allowed types.
-#: wp-includes/rest-api.php:2205 wp-includes/rest-api.php:2802
+#: wp-includes/rest-api.php:2214 wp-includes/rest-api.php:2811
 #, php-format
 msgid "The \"type\" schema keyword for %1$s can only be one of the built-in types: %2$l."
 msgstr "Le mot-clé « type » du schéma pour %1$s peut uniquement être l’un des types natifs : %2$l."
 
-#: wp-includes/rest-api.php:2258
+#: wp-includes/rest-api.php:2267
 msgid "Invalid hex color."
 msgstr "Couleur hexadécimale non valide."
 
-#: wp-includes/rest-api.php:2270 wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:782 wp-includes/user.php:5168
+#: wp-includes/rest-api.php:2279 wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:782 wp-includes/user.php:5168
 msgid "Invalid email address."
 msgstr "Adresse de courriel non valide."
 
 #. translators: %s: IP address.
-#: wp-includes/rest-api.php:2276
+#: wp-includes/rest-api.php:2285
 #, php-format
 msgid "%s is not a valid IP address."
 msgstr "%s n’est pas une adresse IP valide."
 
 #. translators: %s: The name of a JSON field expecting a valid UUID.
-#: wp-includes/rest-api.php:2282
+#: wp-includes/rest-api.php:2291
 #, php-format
 msgid "%s is not a valid UUID."
 msgstr "%s n’est pas un UUID valide."
 
 #. translators: 1: Property of an object, 2: Parameter.
-#: wp-includes/rest-api.php:2363 wp-includes/rest-api.php:2373
+#: wp-includes/rest-api.php:2372 wp-includes/rest-api.php:2382
 #, php-format
 msgid "%1$s is a required property of %2$s."
 msgstr "%1$s est une propriété obligatoire de %2$s."
 
 #. translators: %s: Property of an object.
-#: wp-includes/rest-api.php:2402
+#: wp-includes/rest-api.php:2411
 #, php-format
 msgid "%1$s is not a valid property of Object."
 msgstr "%1$s n’est pas une propriété valide de l’objet."
 
 #. translators: 1: Parameter, 2: Number.
-#: wp-includes/rest-api.php:2420
+#: wp-includes/rest-api.php:2429
 #, php-format
 msgid "%1$s must contain at least %2$s property."
 msgid_plural "%1$s must contain at least %2$s properties."
@@ -7704,7 +7704,7 @@ msgstr[0] "%1$s doit contenir au moins %2$s propriété."
 msgstr[1] "%1$s doit contenir au moins %2$s propriétés."
 
 #. translators: 1: Parameter, 2: Number.
-#: wp-includes/rest-api.php:2436
+#: wp-includes/rest-api.php:2445
 #, php-format
 msgid "%1$s must contain at most %2$s property."
 msgid_plural "%1$s must contain at most %2$s properties."
@@ -7712,7 +7712,7 @@ msgstr[0] "%1$s doit contenir au maximum %2$s propriété."
 msgstr[1] "%1$s doit contenir au maximum %2$s propriétés."
 
 #. translators: 1: Parameter, 2: Number.
-#: wp-includes/rest-api.php:2486
+#: wp-includes/rest-api.php:2495
 #, php-format
 msgid "%1$s must contain at least %2$s item."
 msgid_plural "%1$s must contain at least %2$s items."
@@ -7720,7 +7720,7 @@ msgstr[0] "%1$s doit contenir au moins %2$s élément."
 msgstr[1] "%1$s doit contenir au moins %2$s éléments."
 
 #. translators: 1: Parameter, 2: Number.
-#: wp-includes/rest-api.php:2502
+#: wp-includes/rest-api.php:2511
 #, php-format
 msgid "%1$s must contain at most %2$s item."
 msgid_plural "%1$s must contain at most %2$s items."
@@ -7728,67 +7728,67 @@ msgstr[0] "%1$s doit contenir au maximum %2$s élément."
 msgstr[1] "%1$s doit contenir au maximum %2$s éléments."
 
 #. translators: %s: Parameter.
-#: wp-includes/rest-api.php:2515 wp-includes/rest-api.php:2818
+#: wp-includes/rest-api.php:2524 wp-includes/rest-api.php:2827
 #, php-format
 msgid "%s has duplicate items."
 msgstr "%s contient des éléments dupliqués."
 
 #. translators: 1: Parameter, 2: Multiplier.
-#: wp-includes/rest-api.php:2545
+#: wp-includes/rest-api.php:2554
 #, php-format
 msgid "%1$s must be a multiple of %2$s."
 msgstr "%1$s doit être un multiple de %2$s."
 
 #. translators: 1: Parameter, 2: Minimum number.
-#: wp-includes/rest-api.php:2554
+#: wp-includes/rest-api.php:2563
 #, php-format
 msgid "%1$s must be greater than %2$d"
 msgstr "%1$s doit être supérieur à %2$d"
 
 #. translators: 1: Parameter, 2: Minimum number.
-#: wp-includes/rest-api.php:2562
+#: wp-includes/rest-api.php:2571
 #, php-format
 msgid "%1$s must be greater than or equal to %2$d"
 msgstr "%1$s doit être supérieur ou égal à %2$d"
 
 #. translators: 1: Parameter, 2: Maximum number.
-#: wp-includes/rest-api.php:2572
+#: wp-includes/rest-api.php:2581
 #, php-format
 msgid "%1$s must be less than %2$d"
 msgstr "%1$s doit être inférieur à %2$d"
 
 #. translators: 1: Parameter, 2: Maximum number.
-#: wp-includes/rest-api.php:2580
+#: wp-includes/rest-api.php:2589
 #, php-format
 msgid "%1$s must be less than or equal to %2$d"
 msgstr "%1$s doit être inférieur ou égal à %2$d"
 
 #. translators: 1: Parameter, 2: Minimum number, 3: Maximum number.
-#: wp-includes/rest-api.php:2592
+#: wp-includes/rest-api.php:2601
 #, php-format
 msgid "%1$s must be between %2$d (exclusive) and %3$d (exclusive)"
 msgstr "%1$s doit être compris entre %2$d (exclu) et %3$d (exclu)"
 
 #. translators: 1: Parameter, 2: Minimum number, 3: Maximum number.
-#: wp-includes/rest-api.php:2607
+#: wp-includes/rest-api.php:2616
 #, php-format
 msgid "%1$s must be between %2$d (exclusive) and %3$d (inclusive)"
 msgstr "%1$s doit être compris entre %2$d (exclu) et %3$d (inclus)"
 
 #. translators: 1: Parameter, 2: Minimum number, 3: Maximum number.
-#: wp-includes/rest-api.php:2622
+#: wp-includes/rest-api.php:2631
 #, php-format
 msgid "%1$s must be between %2$d (inclusive) and %3$d (exclusive)"
 msgstr "%1$s doit être compris entre %2$d (inclus) et %3$d (exclu)"
 
 #. translators: 1: Parameter, 2: Minimum number, 3: Maximum number.
-#: wp-includes/rest-api.php:2637
+#: wp-includes/rest-api.php:2646
 #, php-format
 msgid "%1$s must be between %2$d (inclusive) and %3$d (inclusive)"
 msgstr "%1$s doit être compris entre %2$d (inclus) et %3$d (inclus)"
 
 #. translators: 1: Parameter, 2: Number of characters.
-#: wp-includes/rest-api.php:2675
+#: wp-includes/rest-api.php:2684
 #, php-format
 msgid "%1$s must be at least %2$s character long."
 msgid_plural "%1$s must be at least %2$s characters long."
@@ -7796,7 +7796,7 @@ msgstr[0] "%1$s doit faire au minimum %2$s caractère."
 msgstr[1] "%1$s doit faire au minimum %2$s caractères."
 
 #. translators: 1: Parameter, 2: Number of characters.
-#: wp-includes/rest-api.php:2691
+#: wp-includes/rest-api.php:2700
 #, php-format
 msgid "%1$s must be at most %2$s character long."
 msgid_plural "%1$s must be at most %2$s characters long."
@@ -7804,7 +7804,7 @@ msgstr[0] "%1$s doit faire au maximum %2$s caractère."
 msgstr[1] "%1$s doit faire au maximum %2$s caractères."
 
 #. translators: 1: Parameter, 2: Pattern.
-#: wp-includes/rest-api.php:2706
+#: wp-includes/rest-api.php:2715
 #, php-format
 msgid "%1$s does not match pattern %2$s."
 msgstr "%1$s ne correspond pas à la composition %2$s."
@@ -7834,44 +7834,44 @@ msgid "Invalid parameters."
 msgstr "Paramètres non valides."
 
 #. translators: %s: rest_authentication_errors
-#: wp-includes/rest-api/class-wp-rest-server.php:351
+#: wp-includes/rest-api/class-wp-rest-server.php:357
 #, php-format
 msgid "The REST API can no longer be completely disabled, the %s filter can be used to restrict access to the API, instead."
 msgstr "L’API REST ne peut plus rester complètement désactivée. Au lieu de cela, le filtre %s peut être utilisé pour restreindre l’accès à l’API."
 
-#: wp-includes/rest-api/class-wp-rest-server.php:358
+#: wp-includes/rest-api/class-wp-rest-server.php:364
 msgid "JSONP support is disabled on this site."
 msgstr "Le support de JSONP est désactivé sur ce site."
 
-#: wp-includes/rest-api/class-wp-rest-server.php:363
+#: wp-includes/rest-api/class-wp-rest-server.php:369
 msgid "Invalid JSONP callback function."
 msgstr "Fonction de rappel JSONP non valide."
 
-#: wp-includes/rest-api/class-wp-rest-server.php:1110
+#: wp-includes/rest-api/class-wp-rest-server.php:1116
 msgid "The handler for the route is invalid."
 msgstr "Le gestionnaire de route n’est pas valide."
 
-#: wp-includes/rest-api/class-wp-rest-server.php:1222
+#: wp-includes/rest-api/class-wp-rest-server.php:1228
 msgid "No route was found matching the URL and request method."
 msgstr "Aucune route correspondante à l’URL et à la méthode de requête n’a été trouvée."
 
-#: wp-includes/rest-api/class-wp-rest-server.php:1268 wp-includes/script-loader.php:680
+#: wp-includes/rest-api/class-wp-rest-server.php:1274 wp-includes/script-loader.php:680
 msgid "Sorry, you are not allowed to do that."
 msgstr "Désolé, vous n’avez pas l’autorisation de faire cela."
 
-#: wp-includes/rest-api/class-wp-rest-server.php:1522
+#: wp-includes/rest-api/class-wp-rest-server.php:1528
 msgid "The specified namespace could not be found."
 msgstr "L’espace de nom (namespace) spécifié n’a pas pu être trouvé."
 
-#: wp-includes/rest-api/class-wp-rest-server.php:1722
+#: wp-includes/rest-api/class-wp-rest-server.php:1728
 msgid "Could not parse the path."
 msgstr "Impossible d’analyser le chemin."
 
-#: wp-includes/rest-api/class-wp-rest-server.php:1778
+#: wp-includes/rest-api/class-wp-rest-server.php:1785
 msgid "The requested route does not support batch requests."
 msgstr "La route demandée ne prend pas en charge les demandes par lots."
 
-#: wp-includes/rest-api/class-wp-rest-server.php:1857
+#: wp-includes/rest-api/class-wp-rest-server.php:1864
 msgid "The handler for the route is invalid"
 msgstr "Le gestionnaire de route n’est pas valide"
 
