@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Retraceur 4.0.0\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
 "POT-Creation-Date: 2026-07-16T08:40:34+00:00\n"
-"PO-Revision-Date: 2026-07-18 15:03+0200\n"
+"PO-Revision-Date: 2026-07-18 22:00+0200\n"
 "Last-Translator: \n"
 "Language-Team: Retraceur <retraceur@proton.me>\n"
 "Language: fr_FR\n"
@@ -23,7 +23,7 @@ msgstr "Trier dans l’ordre décroissant"
 
 #: wp-includes/js/dist/dataviews.js:1563 wp-includes/js/dist/dataviews.js:4885
 msgid "(no title)"
-msgstr "(sans titre) "
+msgstr "(sans titre)"
 
 #: wp-includes/js/dist/dataviews.js:1770 wp-includes/js/dist/dataviews.js:3163
 #: wp-includes/js/dist/dataviews.js:3882
@@ -586,11 +586,11 @@ msgstr "La valeur maximale doit être supérieure à la valeur minimale."
 
 #: wp-includes/js/dist/dataviews.js:14726
 msgid "Min."
-msgstr "Minimum"
+msgstr "Min."
 
 #: wp-includes/js/dist/dataviews.js:14738
 msgid "Max."
-msgstr "Maximum"
+msgstr "Max."
 
 #: wp-includes/js/dist/dataviews.js:15306
 msgid "Open color picker"
@@ -626,7 +626,7 @@ msgstr "Faux"
 
 #: wp-includes/js/dist/dataviews.js:16051
 msgid "Value must be true, false, or undefined"
-msgstr "La valeur doit être vrai, faux ou indéfinie."
+msgstr "La valeur doit être vrai, faux ou indéfinie"
 
 #: wp-includes/js/dist/dataviews.js:16128
 msgid "Value must be an array."
