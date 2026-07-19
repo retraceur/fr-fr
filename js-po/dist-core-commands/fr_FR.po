@@ -2,52 +2,52 @@
 # This file is distributed under the GPL-2.0+ license.
 msgid ""
 msgstr ""
-"Project-Id-Version: Retraceur - 3.0.0\n"
+"Project-Id-Version: Retraceur 4.0.0\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
-"POT-Creation-Date: 2026-03-01T12:54:34+00:00\n"
-"PO-Revision-Date: 2026-03-01 14:16+0100\n"
+"POT-Creation-Date: 2026-07-16T08:40:31+00:00\n"
+"PO-Revision-Date: 2026-07-19 17:26+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 
-#: wp-includes/js/dist/core-commands.js:206
+#: wp-includes/js/dist/core-commands.js:198
 msgid "View site"
 msgstr "Afficher le site"
 
 #. translators: %s: menu label
-#: wp-includes/js/dist/core-commands.js:225
+#: wp-includes/js/dist/core-commands.js:218
 msgid "Go to: %s"
 msgstr "Aller à : %s"
 
-#: wp-includes/js/dist/core-commands.js:355
-#: wp-includes/js/dist/core-commands.js:442
+#: wp-includes/js/dist/core-commands.js:374
+#: wp-includes/js/dist/core-commands.js:460
 msgid "(no title)"
 msgstr "(sans titre)"
 
-#: wp-includes/js/dist/core-commands.js:466
+#: wp-includes/js/dist/core-commands.js:485
 msgid "Go to: Template parts"
 msgstr "Aller aux : portions de gabarit"
 
-#: wp-includes/js/dist/core-commands.js:517
+#: wp-includes/js/dist/core-commands.js:537
 msgid "Go to: Styles"
 msgstr "Aller aux : styles"
 
-#: wp-includes/js/dist/core-commands.js:535
+#: wp-includes/js/dist/core-commands.js:556
 msgid "Go to: Navigation"
 msgstr "Aller à : navigation"
 
-#: wp-includes/js/dist/core-commands.js:553
+#: wp-includes/js/dist/core-commands.js:575
 msgid "Go to: Templates"
 msgstr "Aller aux gabarits"
 
-#: wp-includes/js/dist/core-commands.js:573
+#: wp-includes/js/dist/core-commands.js:596
 msgid "Go to: Patterns"
 msgstr "Aller à : Compositions"
 
-#: wp-includes/js/dist/core-commands.js:627
+#: wp-includes/js/dist/core-commands.js:649
 msgid "Open custom CSS"
 msgstr "Personnaliser les CSS"

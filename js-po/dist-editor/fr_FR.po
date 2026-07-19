@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Retraceur 4.0.0\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
 "POT-Creation-Date: 2026-07-16T08:40:42+00:00\n"
-"PO-Revision-Date: 2026-07-19 01:55+0200\n"
+"PO-Revision-Date: 2026-07-19 17:04+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -885,20 +885,20 @@ msgstr "Texte alternatif"
 
 #: wp-includes/js/dist/editor.js:12695
 msgid "(Unattached)"
-msgstr "(Sans attache)"
+msgstr "(Non attaché)"
 
 #: wp-includes/js/dist/editor.js:12794
 msgid ""
 "Search for a post or page to attach this media to or <button>detach current</"
 "button>."
 msgstr ""
-"Recherchez un article ou une page à laquelle attacher ce fichier multimédia, "
-"ou <button>détacher le fichier actuel</button>."
+"Recherchez un article ou une page à laquelle attacher ce fichier média, ou "
+"<button>détacher de la publication actuelle</button>."
 
 #: wp-includes/js/dist/editor.js:12808
 msgid "Search for a post or page to attach this media to."
 msgstr ""
-"Recherchez un article ou une page à laquelle associer ce fichier multimédia."
+"Recherchez un article ou une page à laquelle associer ce fichier média."
 
 #: wp-includes/js/dist/editor.js:12815 wp-includes/js/dist/editor.js:12833
 msgid "Attached to"
@@ -925,7 +925,7 @@ msgstr "Nom du fichier"
 #: wp-includes/js/dist/editor.js:13063
 msgctxt "file size"
 msgid "%1$s %2$s"
-msgstr "%1$s %2$s"
+msgstr "%1$s (%2$s)"
 
 #. translators: Unit symbol for byte.
 #: wp-includes/js/dist/editor.js:13073 wp-includes/js/dist/editor.js:13093
@@ -1017,11 +1017,11 @@ msgstr "Rechercher des vidéos"
 
 #: wp-includes/js/dist/editor.js:13269 wp-includes/js/dist/editor.js:43632
 msgid "Audio"
-msgstr "Sons"
+msgstr "Son"
 
 #: wp-includes/js/dist/editor.js:13270
 msgid "Search audio"
-msgstr "Rechercher un audio"
+msgstr "Rechercher un son"
 
 #: wp-includes/js/dist/editor.js:14085
 msgid "Button"
