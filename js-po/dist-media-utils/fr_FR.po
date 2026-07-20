@@ -2,55 +2,256 @@
 # This file is distributed under the GPL-2.0+ license.
 msgid ""
 msgstr ""
-"Project-Id-Version: Retraceur - 3.0.0\n"
+"Project-Id-Version: Retraceur 4.0.0\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
-"POT-Creation-Date: 2026-03-01T12:54:50+00:00\n"
-"PO-Revision-Date: 2026-03-01 14:20+0100\n"
+"POT-Creation-Date: 2026-07-16T08:40:51+00:00\n"
+"PO-Revision-Date: 2026-07-19 17:06+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.8\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.9\n"
 
-#: wp-includes/js/dist/media-utils.js:377
+#: wp-includes/js/dist/media-utils.js:447
 msgid "Select or Upload Media"
 msgstr "Sélectionner ou charger un média"
 
 #. translators: %s: file name.
-#: wp-includes/js/dist/media-utils.js:583
+#: wp-includes/js/dist/media-utils.js:653
 msgid "%s: Sorry, this file type is not supported here."
 msgstr "« %s » : désolé, ce type de fichier n’est pas supporté."
 
 #. translators: %s: file name.
-#: wp-includes/js/dist/media-utils.js:627
+#: wp-includes/js/dist/media-utils.js:697
 msgid "%s: Sorry, you are not allowed to upload this file type."
 msgstr ""
 "« %s » : désolé, vous n’êtes pas autorisé·e are charger ce type de fichier."
 
 #. translators: %s: file name.
-#: wp-includes/js/dist/media-utils.js:645
+#: wp-includes/js/dist/media-utils.js:715
 msgid "%s: This file is empty."
 msgstr "« %s » : ce fichier est vide."
 
 #. translators: %s: file name.
-#: wp-includes/js/dist/media-utils.js:656
+#: wp-includes/js/dist/media-utils.js:726
 msgid "%s: This file exceeds the maximum upload size for this site."
 msgstr ""
 "« %s » : ce fichier dépasse la taille maximale autorisée en chargement sur "
 "ce site."
 
-#: wp-includes/js/dist/media-utils.js:679
+#: wp-includes/js/dist/media-utils.js:749
 msgid "Only one file can be used here."
 msgstr "Un seul fichier peut être utilisé ici."
 
 #. translators: %s: file name
-#: wp-includes/js/dist/media-utils.js:736
+#: wp-includes/js/dist/media-utils.js:806
 msgid "Error while uploading file %s to the media library."
 msgstr "Erreur lors du chargement du fichier « %s » dans la médiathèque."
 
 #. translators: %s: file name
-#: wp-includes/js/dist/media-utils.js:803
+#: wp-includes/js/dist/media-utils.js:873
 msgid "Error while sideloading file %s to the server."
 msgstr "Erreur lors du chargement parallèle du fichier %s sur le serveur."
+
+#: wp-includes/js/dist/media-utils.js:935
+msgid "Alt text"
+msgstr "Texte alternatif"
+
+#: wp-includes/js/dist/media-utils.js:991
+msgid "(Unattached)"
+msgstr "(Non attaché)"
+
+#: wp-includes/js/dist/media-utils.js:1090
+msgid ""
+"Search for a post or page to attach this media to or <button>detach current</"
+"button>."
+msgstr ""
+"Recherchez un article ou une page à laquelle attacher ce fichier média, ou "
+"<button>détacher de la publication actuelle</button>."
+
+#: wp-includes/js/dist/media-utils.js:1104
+msgid "Search for a post or page to attach this media to."
+msgstr ""
+"Recherchez un article ou une page à laquelle associer ce fichier média."
+
+#: wp-includes/js/dist/media-utils.js:1111
+#: wp-includes/js/dist/media-utils.js:1129
+msgid "Attached to"
+msgstr "Attaché à"
+
+#: wp-includes/js/dist/media-utils.js:1196
+msgid "Author avatar"
+msgstr "Image de profil de l’auteur·ice"
+
+#: wp-includes/js/dist/media-utils.js:1209
+msgid "Author"
+msgstr "Auteur·ice"
+
+#: wp-includes/js/dist/media-utils.js:1264
+msgid "Caption"
+msgstr "Légende"
+
+#: wp-includes/js/dist/media-utils.js:1289
+msgid "Date added"
+msgstr "Date ajoutée"
+
+#: wp-includes/js/dist/media-utils.js:1306
+msgid "Date modified"
+msgstr "Date modifiée"
+
+#: wp-includes/js/dist/media-utils.js:1324
+msgid "Description"
+msgstr "Description"
+
+#: wp-includes/js/dist/media-utils.js:1370
+msgid "File name"
+msgstr "Nom du fichier"
+
+#. translators: 1: Actual bytes of a file. 2: The unit symbol (e.g. MB).
+#: wp-includes/js/dist/media-utils.js:1392
+msgctxt "file size"
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#. translators: Unit symbol for byte.
+#: wp-includes/js/dist/media-utils.js:1402
+#: wp-includes/js/dist/media-utils.js:1422
+msgctxt "unit symbol"
+msgid "B"
+msgstr "B"
+
+#. translators: Unit symbol for yottabyte.
+#: wp-includes/js/dist/media-utils.js:1406
+msgctxt "unit symbol"
+msgid "YB"
+msgstr "YB"
+
+#. translators: Unit symbol for zettabyte.
+#: wp-includes/js/dist/media-utils.js:1408
+msgctxt "unit symbol"
+msgid "ZB"
+msgstr "ZB"
+
+#. translators: Unit symbol for exabyte.
+#: wp-includes/js/dist/media-utils.js:1410
+msgctxt "unit symbol"
+msgid "EB"
+msgstr "EB"
+
+#. translators: Unit symbol for petabyte.
+#: wp-includes/js/dist/media-utils.js:1412
+msgctxt "unit symbol"
+msgid "PB"
+msgstr "PB"
+
+#. translators: Unit symbol for terabyte.
+#: wp-includes/js/dist/media-utils.js:1414
+msgctxt "unit symbol"
+msgid "TB"
+msgstr "TB"
+
+#. translators: Unit symbol for gigabyte.
+#: wp-includes/js/dist/media-utils.js:1416
+msgctxt "unit symbol"
+msgid "GB"
+msgstr "GB"
+
+#. translators: Unit symbol for megabyte.
+#: wp-includes/js/dist/media-utils.js:1418
+msgctxt "unit symbol"
+msgid "MB"
+msgstr "MB"
+
+#. translators: Unit symbol for kilobyte.
+#: wp-includes/js/dist/media-utils.js:1420
+msgctxt "unit symbol"
+msgid "KB"
+msgstr "KB"
+
+#: wp-includes/js/dist/media-utils.js:1434
+msgid "File size"
+msgstr "Taille du fichier"
+
+#: wp-includes/js/dist/media-utils.js:1450
+msgid "Dimensions"
+msgstr "Dimensions"
+
+#. translators: 1: Width. 2: Height.
+#: wp-includes/js/dist/media-utils.js:1453
+msgctxt "image dimensions"
+msgid "%1$s × %2$s"
+msgstr "%1$s × %2$s"
+
+#: wp-includes/js/dist/media-utils.js:1482
+msgid "Image"
+msgstr "Image"
+
+#: wp-includes/js/dist/media-utils.js:1489
+msgid "Video"
+msgstr "Vidéo"
+
+#: wp-includes/js/dist/media-utils.js:1496
+msgid "Audio"
+msgstr "Son"
+
+#: wp-includes/js/dist/media-utils.js:1502
+msgid "Application"
+msgstr "Application"
+
+#: wp-includes/js/dist/media-utils.js:1581
+msgid "Thumbnail"
+msgstr "Miniature"
+
+#: wp-includes/js/dist/media-utils.js:1593
+msgid "File type"
+msgstr "Type de fichier"
+
+#: wp-includes/js/dist/media-utils.js:1628
+msgid "Select Media"
+msgstr "Sélectionner un média"
+
+#: wp-includes/js/dist/media-utils.js:1633
+msgid "Search media"
+msgstr "Rechercher un média"
+
+#: wp-includes/js/dist/media-utils.js:1713
+msgid "Title"
+msgstr "Titre"
+
+#: wp-includes/js/dist/media-utils.js:1716
+msgid "(no title)"
+msgstr "(sans titre) "
+
+#: wp-includes/js/dist/media-utils.js:1737
+msgid "Select"
+msgstr "Sélectionner"
+
+#. translators: %s: number of files
+#: wp-includes/js/dist/media-utils.js:1776
+msgid "Uploaded %s file"
+msgid_plural "Uploaded %s files"
+msgstr[0] "%s fichier chargé"
+msgstr[1] "%s fichiers chargés"
+
+#. translators: %s: number of files
+#: wp-includes/js/dist/media-utils.js:1822
+#: wp-includes/js/dist/media-utils.js:1933
+msgid "Uploading %s file"
+msgid_plural "Uploading %s files"
+msgstr[0] "Chargement de %s fichier"
+msgstr[1] "Chargement de %s fichiers"
+
+#: wp-includes/js/dist/media-utils.js:1909
+msgid "Upload media"
+msgstr "Charger un média"
+
+#: wp-includes/js/dist/media-utils.js:1955
+msgid "Drop files to upload"
+msgstr "Déposer des fichiers pour les charger"
+
+#: wp-includes/js/dist/media-utils.js:1974
+msgid "Media items"
+msgstr "Médias"

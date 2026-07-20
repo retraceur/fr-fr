@@ -1,0 +1,197 @@
+# Translation of Retraceur - 4.0.x - wp-admin/js/discovery.js in French (France)
+# This file is distributed under the GPL-2.0+ license.
+msgid ""
+msgstr ""
+"Project-Id-Version: Retraceur 4.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
+"POT-Creation-Date: 2026-07-17T15:24:23+00:00\n"
+"PO-Revision-Date: 2026-07-17 18:03+0200\n"
+"Last-Translator: \n"
+"Language-Team: Retraceur <retraceur@proton.me>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.9\n"
+
+#. Translators: 1: required version, 2: installed version.
+#: wp-admin/js/discovery.js:2
+msgid "Requires Retraceur %1$s or higher. You are running %2$s."
+msgstr "Nécessite Retraceur %1$s ou une version supérieure. Vous utilisez actuellement la version %2$s."
+
+#. Translators: 1: required version, 2: installed version.
+#: wp-admin/js/discovery.js:3
+msgid "Requires PHP %1$s or higher. You are running %2$s."
+msgstr "Nécessite PHP %1$s ou une version supérieure. Vous utilisez actuellement la version %2$s."
+
+#: wp-admin/js/discovery.js:3
+msgid "Preview image"
+msgstr "Image d'aperçu"
+
+#. Translators: %s is the repository name
+#: wp-admin/js/discovery.js:4
+msgid "Preview image of the %s repository"
+msgstr "Image d’aperçu du dépôt %s"
+
+#: wp-admin/js/discovery.js:4 wp-admin/js/discovery.js:9
+msgid "Installed"
+msgstr "Installé"
+
+#: wp-admin/js/discovery.js:4
+msgid "Full name"
+msgstr "Nom complet"
+
+#: wp-admin/js/discovery.js:4
+msgid "Name"
+msgstr "Nom"
+
+#: wp-admin/js/discovery.js:4
+msgid "Description"
+msgstr "Description"
+
+#: wp-admin/js/discovery.js:4
+msgid "Author"
+msgstr "Auteur·rice"
+
+#. Translators: %s is the author name
+#: wp-admin/js/discovery.js:5
+msgid "Profile image of %s"
+msgstr "Photo de profil de %s"
+
+#: wp-admin/js/discovery.js:5
+msgid "Install latest"
+msgstr "Installer la dernière version"
+
+#: wp-admin/js/discovery.js:5
+msgid "Unknown error."
+msgstr "Erreur inconnue."
+
+#. Translators: %s is the repository name.
+#: wp-admin/js/discovery.js:6 wp-admin/js/discovery.js:11
+msgid "No releases found for %s."
+msgstr "Aucune version n’a pas été trouvée pour « %s »."
+
+#: wp-admin/js/discovery.js:6
+msgid "This repository is not compatible with your installation:"
+msgstr "Ce dépôt n’est pas compatible avec votre installation :"
+
+#: wp-admin/js/discovery.js:6 wp-admin/js/discovery.js:8
+msgid "Cancel"
+msgstr "Annuler"
+
+#. Translators: %s is the repository name.
+#: wp-admin/js/discovery.js:7
+msgid "%s was successfully installed."
+msgstr "%s a été installé avec succès."
+
+#: wp-admin/js/discovery.js:7
+msgid "Activate Block"
+msgstr "Activer le bloc"
+
+#: wp-admin/js/discovery.js:7
+msgid "Activate Plugin"
+msgstr "Activer l’extension"
+
+#: wp-admin/js/discovery.js:7
+msgid "Go to Blocks"
+msgstr "Aller sur la page d’administration des blocs"
+
+#: wp-admin/js/discovery.js:7
+msgid "Go to Plugins"
+msgstr "Aller sur la page d’administration des extensions"
+
+#. Translators: %s is the repository name.
+#: wp-admin/js/discovery.js:8
+msgid "Are you sure you want to install %1$s %2$s?"
+msgstr "Êtes vous certain·e de vouloir installer « %1$s %2$s » ?"
+
+#: wp-admin/js/discovery.js:8
+msgid "Install"
+msgstr "Installer"
+
+#: wp-admin/js/discovery.js:8
+msgid "Install repository’s latest release"
+msgstr "Installer la dernière version du dépôt"
+
+#: wp-admin/js/discovery.js:8
+msgid "View details"
+msgstr "Afficher les détails"
+
+#. Translators: %s is the repository name.
+#: wp-admin/js/discovery.js:9
+msgid "Preview image of %s"
+msgstr "Image d’aperçu de %s"
+
+#. Translators: %s is the version number.
+#: wp-admin/js/discovery.js:10
+msgid "Install %s"
+msgstr "Installer %s"
+
+#. Translators: %s is the version number.
+#: wp-admin/js/discovery.js:11
+msgid "Download %s"
+msgstr "Télécharger %s"
+
+#: wp-admin/js/discovery.js:11
+msgid "Details"
+msgstr "Détails"
+
+#: wp-admin/js/discovery.js:11
+msgid "Releases"
+msgstr "Versions"
+
+#: wp-admin/js/discovery.js:11
+msgid "Changelog"
+msgstr "Journal des évolutions"
+
+#: wp-admin/js/discovery.js:11
+msgid "This repository may not be compatible with your installation:"
+msgstr "Ce dépôt n’est pas compatible avec votre installation :"
+
+#: wp-admin/js/discovery.js:11
+msgid "No release available yet."
+msgstr "Aucune version disponible à ce jour."
+
+#: wp-admin/js/discovery.js:11
+msgid "No installable asset found for this release."
+msgstr "Aucune ressource installable n’a été trouvée pour cette version."
+
+#: wp-admin/js/discovery.js:11
+msgid "Discover more"
+msgstr "En découvrir plus"
+
+#: wp-admin/js/discovery.js:11
+msgid "Requires Retraceur"
+msgstr "Requiert Retraceur"
+
+#: wp-admin/js/discovery.js:11
+msgid "Requires PHP"
+msgstr "Requiert PHP"
+
+#: wp-admin/js/discovery.js:11
+msgid "Last updated"
+msgstr "Dernière mise à jour"
+
+#: wp-admin/js/discovery.js:11
+msgid "Stars"
+msgstr "Nombre d’étoiles"
+
+#: wp-admin/js/discovery.js:11
+msgid "Open issues"
+msgstr "Nombre d’anomalies ouvertes"
+
+#: wp-admin/js/discovery.js:11
+msgid "Release note"
+msgstr "Note de version"
+
+#: wp-admin/js/discovery.js:11
+msgid "Download"
+msgstr "Télécharger"
+
+#: wp-admin/js/discovery.js:11
+msgid "No changelog available."
+msgstr "Aucun journal des évolutions n’est disponible."
+
+#: wp-admin/js/discovery.js:11
+msgid "Repository details"
+msgstr "Détails du dépôt"

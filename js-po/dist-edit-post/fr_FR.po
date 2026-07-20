@@ -2,76 +2,76 @@
 # This file is distributed under the GPL-2.0+ license.
 msgid ""
 msgstr ""
-"Project-Id-Version: Retraceur - 3.0.0\n"
+"Project-Id-Version: Retraceur 4.0.0\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
-"POT-Creation-Date: 2026-03-01T12:54:44+00:00\n"
-"PO-Revision-Date: 2026-03-01 14:18+0100\n"
+"POT-Creation-Date: 2026-07-16T08:40:41+00:00\n"
+"PO-Revision-Date: 2026-07-18 22:03+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 
-#: wp-includes/js/dist/edit-post.js:392
+#: wp-includes/js/dist/edit-post.js:690
 msgid "Site Icon"
 msgstr "Icône de site"
 
-#: wp-includes/js/dist/edit-post.js:413
+#: wp-includes/js/dist/edit-post.js:711
 msgid "Back"
 msgstr "Retour"
 
-#: wp-includes/js/dist/edit-post.js:879 wp-includes/js/dist/edit-post.js:1648
+#: wp-includes/js/dist/edit-post.js:1181 wp-includes/js/dist/edit-post.js:1943
 msgid "Fullscreen mode deactivated."
 msgstr "Mode plein écran désactivé."
 
-#: wp-includes/js/dist/edit-post.js:879 wp-includes/js/dist/edit-post.js:1647
+#: wp-includes/js/dist/edit-post.js:1181 wp-includes/js/dist/edit-post.js:1942
 msgid "Fullscreen mode activated."
 msgstr "Mode plein écran activé."
 
-#: wp-includes/js/dist/edit-post.js:885 wp-includes/js/dist/edit-post.js:1860
+#: wp-includes/js/dist/edit-post.js:1187 wp-includes/js/dist/edit-post.js:2156
 msgid "Undo"
 msgstr "Défaire"
 
-#: wp-includes/js/dist/edit-post.js:1199
+#: wp-includes/js/dist/edit-post.js:1501
 msgid "Enable or disable fullscreen mode."
 msgstr "Activer ou désactiver le mode plein écran."
 
-#: wp-includes/js/dist/edit-post.js:1240
+#: wp-includes/js/dist/edit-post.js:1537
 msgid "Create pattern"
 msgstr "Créer une composition"
 
-#: wp-includes/js/dist/edit-post.js:1262
+#: wp-includes/js/dist/edit-post.js:1559
 msgid "Name"
 msgstr "Nom"
 
-#: wp-includes/js/dist/edit-post.js:1265
+#: wp-includes/js/dist/edit-post.js:1562
 msgid "My pattern"
 msgstr "Ma composition"
 
-#: wp-includes/js/dist/edit-post.js:1275
+#: wp-includes/js/dist/edit-post.js:1570
 msgctxt "pattern (singular)"
 msgid "Synced"
 msgstr "Synchronisée"
 
-#: wp-includes/js/dist/edit-post.js:1276
+#: wp-includes/js/dist/edit-post.js:1571
 msgid "Sync this pattern across multiple locations."
 msgstr "Synchroniser cette composition sur de multiples emplacements."
 
-#: wp-includes/js/dist/edit-post.js:1295
+#: wp-includes/js/dist/edit-post.js:1590
 msgid "Create"
 msgstr "Créer"
 
-#: wp-includes/js/dist/edit-post.js:1456
+#: wp-includes/js/dist/edit-post.js:1750
 msgid "Manage patterns"
 msgstr "Gérer les compositions"
 
-#: wp-includes/js/dist/edit-post.js:1476
+#: wp-includes/js/dist/edit-post.js:1770
 msgid "Welcome Guide"
 msgstr "Prise en main"
 
-#: wp-includes/js/dist/edit-post.js:1514
+#: wp-includes/js/dist/edit-post.js:1806
 msgid ""
 "A page reload is required for this change. Make sure your content is saved "
 "before reloading."
@@ -79,48 +79,48 @@ msgstr ""
 "Un rafraîchissement de la page est requis pour appliquer ce changement. "
 "Assurez-vous d’avoir sauvegardé votre contenu avant de rafraîchir."
 
-#: wp-includes/js/dist/edit-post.js:1529
+#: wp-includes/js/dist/edit-post.js:1821
 msgid "Show & Reload Page"
 msgstr "Afficher et rafraîchir la page"
 
-#: wp-includes/js/dist/edit-post.js:1529
+#: wp-includes/js/dist/edit-post.js:1821
 msgid "Hide & Reload Page"
 msgstr "Masquer et rafraîchir la page"
 
-#: wp-includes/js/dist/edit-post.js:1595
+#: wp-includes/js/dist/edit-post.js:1888
 msgid "Custom fields"
 msgstr "Champs personnalisés"
 
-#: wp-includes/js/dist/edit-post.js:1621
+#: wp-includes/js/dist/edit-post.js:1915
 msgid "Advanced"
 msgstr "Avancé"
 
-#: wp-includes/js/dist/edit-post.js:1627
+#: wp-includes/js/dist/edit-post.js:1921
 msgid "Make the editor look like your theme."
 msgstr "Fusionner l’apparence de l’éditeur avec celle de votre thème."
 
-#: wp-includes/js/dist/edit-post.js:1628
+#: wp-includes/js/dist/edit-post.js:1922
 msgid "Use theme styles"
 msgstr "Utiliser les styles du thème"
 
-#: wp-includes/js/dist/edit-post.js:1645
+#: wp-includes/js/dist/edit-post.js:1940
 msgid "Fullscreen mode"
 msgstr "Mode plein écran"
 
-#: wp-includes/js/dist/edit-post.js:1646
+#: wp-includes/js/dist/edit-post.js:1941
 msgid "Show and hide the admin user interface"
 msgstr "Afficher et masquer l’interface d’administration des utilisateur·ice·s"
 
-#: wp-includes/js/dist/edit-post.js:1696 wp-includes/js/dist/edit-post.js:1709
-#: wp-includes/js/dist/edit-post.js:1765
+#: wp-includes/js/dist/edit-post.js:1990 wp-includes/js/dist/edit-post.js:2003
+#: wp-includes/js/dist/edit-post.js:2059
 msgid "Welcome to the Block Editor"
 msgstr "Bienvenue dans l’éditeur de blocs"
 
-#: wp-includes/js/dist/edit-post.js:1697 wp-includes/js/dist/edit-post.js:1788
+#: wp-includes/js/dist/edit-post.js:1991 wp-includes/js/dist/edit-post.js:2082
 msgid "Get started"
 msgstr "Premiers pas"
 
-#: wp-includes/js/dist/edit-post.js:1710
+#: wp-includes/js/dist/edit-post.js:2004
 msgid ""
 "In this Editor, each paragraph, image, or video is presented as a distinct "
 "“block” of content."
@@ -128,11 +128,11 @@ msgstr ""
 "Dans l’éditeur de Retraceur, les paragraphes, images ou vidéos sont "
 "présentés comme des blocs de contenu distincts."
 
-#: wp-includes/js/dist/edit-post.js:1724
+#: wp-includes/js/dist/edit-post.js:2018
 msgid "Customize each block"
 msgstr "Personnaliser chaque bloc"
 
-#: wp-includes/js/dist/edit-post.js:1725
+#: wp-includes/js/dist/edit-post.js:2019
 msgid ""
 "Each block comes with its own set of controls for changing things like "
 "color, width, and alignment. These will show and hide automatically when you "
@@ -142,11 +142,11 @@ msgstr ""
 "les tailles et alignements. Ces derniers seront automatiquement affichés ou "
 "masqués suite à la sélection d’un bloc."
 
-#: wp-includes/js/dist/edit-post.js:1739
+#: wp-includes/js/dist/edit-post.js:2033
 msgid "Explore all blocks"
 msgstr "Explorer tous les blocs"
 
-#: wp-includes/js/dist/edit-post.js:1741
+#: wp-includes/js/dist/edit-post.js:2035
 msgid ""
 "All of the blocks available to you live in the block library. You’ll find it "
 "wherever you see the <InserterIconImage /> icon."
@@ -155,19 +155,19 @@ msgstr ""
 "librairie des blocs. Vous la retrouverez partout ou vous verrez l’icône "
 "d’insertion <InserterIconImage />."
 
-#: wp-includes/js/dist/edit-post.js:1748
+#: wp-includes/js/dist/edit-post.js:2042
 msgid "inserter"
 msgstr "inséreur"
 
-#: wp-includes/js/dist/edit-post.js:1766
+#: wp-includes/js/dist/edit-post.js:2060
 msgid "A documentation will soon be available."
 msgstr "Une documentation sera bientôt disponible."
 
-#: wp-includes/js/dist/edit-post.js:1787 wp-includes/js/dist/edit-post.js:1800
+#: wp-includes/js/dist/edit-post.js:2081 wp-includes/js/dist/edit-post.js:2094
 msgid "Welcome to the template editor"
 msgstr "Bienvenue dans l’éditeur de gabarits"
 
-#: wp-includes/js/dist/edit-post.js:1801
+#: wp-includes/js/dist/edit-post.js:2095
 msgid ""
 "Templates help define the layout of the site. You can customize all aspects "
 "of your posts and pages using blocks and patterns in this editor."
@@ -176,52 +176,52 @@ msgstr ""
 "pouvez personnaliser tous les aspects de vos publications en utilisant des "
 "blocs ou des compositions dans cet éditeur."
 
-#: wp-includes/js/dist/edit-post.js:1848
+#: wp-includes/js/dist/edit-post.js:2143
 msgid "Exit fullscreen"
 msgstr "Sortir du mode plein écran"
 
-#: wp-includes/js/dist/edit-post.js:1848
+#: wp-includes/js/dist/edit-post.js:2143
 msgid "Enter fullscreen"
 msgstr "Entre dans le mode plein écran"
 
-#: wp-includes/js/dist/edit-post.js:1854
+#: wp-includes/js/dist/edit-post.js:2150
 msgid "Fullscreen off."
 msgstr "Mode plein écran inactif."
 
-#: wp-includes/js/dist/edit-post.js:1854
+#: wp-includes/js/dist/edit-post.js:2150
 msgid "Fullscreen on."
 msgstr "Mode plein écran allumé."
 
-#: wp-includes/js/dist/edit-post.js:2175
+#: wp-includes/js/dist/edit-post.js:2519
 msgid "Meta Boxes"
 msgstr "Métadonnées"
 
-#: wp-includes/js/dist/edit-post.js:2200 wp-includes/js/dist/edit-post.js:2206
+#: wp-includes/js/dist/edit-post.js:2537 wp-includes/js/dist/edit-post.js:2543
 msgid "Drag to resize"
 msgstr "Étirer pour définir la taille"
 
-#: wp-includes/js/dist/edit-post.js:2211
-msgid "Use up and down arrow keys to resize the meta box panel."
+#: wp-includes/js/dist/edit-post.js:2548
+msgid "Use up and down arrow keys to resize the meta box pane."
 msgstr ""
 "Utiliser les touche flèche vers le haut ou le bas de votre clavier pour "
-"définir la taille des panneaux liés aux métadonnées."
+"redimensionner les panneaux liés aux métadonnées."
 
 #. translators: %s: plugin name
-#: wp-includes/js/dist/edit-post.js:2388
+#: wp-includes/js/dist/edit-post.js:2678
 msgid "The \"%s\" plugin has encountered an error and cannot be rendered."
 msgstr ""
 "L’extension « %s » a rencontré une erreur et le contenu de ce bloc ne peut "
 "être généré."
 
 #. translators: %s: Title of the created post or template, e.g: "Hello world".
-#: wp-includes/js/dist/edit-post.js:2415
+#: wp-includes/js/dist/edit-post.js:2705
 msgid "\"%s\" successfully created."
 msgstr "« %s » créé avec succès."
 
-#: wp-includes/js/dist/edit-post.js:2416
+#: wp-includes/js/dist/edit-post.js:2706
 msgid "(no title)"
-msgstr "(sans titre) "
+msgstr "(sans titre)"
 
-#: wp-includes/js/dist/edit-post.js:2423
+#: wp-includes/js/dist/edit-post.js:2713
 msgid "Edit"
 msgstr "Modifier"

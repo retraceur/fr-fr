@@ -16,6 +16,7 @@ wp i18n make-json js-po/admin-auth-app ./ --no-purge
 wp i18n make-json js-po/admin-color-picker ./ --no-purge
 wp i18n make-json js-po/admin-common ./ --no-purge
 wp i18n make-json js-po/admin-dashboard ./ --no-purge
+wp i18n make-json js-po/admin-discovery ./ --no-purge
 wp i18n make-json js-po/admin-global-media ./ --no-purge
 wp i18n make-json js-po/admin-image-edit ./ --no-purge
 wp i18n make-json js-po/admin-inline-edit-post ./ --no-purge
@@ -23,7 +24,6 @@ wp i18n make-json js-po/admin-inline-edit-tax ./ --no-purge
 wp i18n make-json js-po/admin-media ./ --no-purge
 wp i18n make-json js-po/admin-password-strength-meter ./ --no-purge
 wp i18n make-json js-po/admin-password-toggle ./ --no-purge
-wp i18n make-json js-po/admin-plugin-install ./ --no-purge
 wp i18n make-json js-po/admin-post ./ --no-purge
 wp i18n make-json js-po/admin-postbox ./ --no-purge
 wp i18n make-json js-po/admin-privacy-tools ./ --no-purge
@@ -68,9 +68,13 @@ wp i18n make-json js-po/dist-preferences ./ --no-purge
 wp i18n make-json js-po/dist-reusable-blocks ./ --no-purge
 wp i18n make-json js-po/dist-rich-text ./ --no-purge
 wp i18n make-json js-po/dist-server-side-render ./ --no-purge
-wp i18n make-json js-po/dist-widgets ./ --no-purge
+wp i18n make-json js-po/dist-upload-media ./ --no-purge
 
-# inc/js/dist
+# inc/js/dist/script-modules
+wp i18n make-json js-po/dist-script-module-lazy-editor ./ --no-purge
+wp i18n make-json js-po/dist-script-module-workflow ./ --no-purge
+
+# inc/js/tinymce/plugins
 wp i18n make-json js-po/tinymce-wplink ./ --no-purge
 
 status "Done."
