@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Retraceur - 4.0.0 - Administration\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
-"POT-Creation-Date: 2026-07-16T08:36:08+00:00\n"
-"PO-Revision-Date: 2026-07-16 11:56+0200\n"
+"POT-Creation-Date: 2026-07-25T09:05:09+00:00\n"
+"PO-Revision-Date: 2026-07-27 11:48+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -2887,7 +2887,7 @@ msgstr ""
 
 #: wp-admin/includes/class-core-upgrader.php:132
 #: wp-admin/includes/class-wp-upgrader.php:205
-#: wp-admin/includes/update-core.php:306
+#: wp-admin/includes/update-core.php:324
 msgid ""
 "The update cannot be installed because some files could not be copied. This "
 "is usually due to inconsistent file permissions."
@@ -8717,12 +8717,12 @@ msgid "A directory could not be read."
 msgstr "Un répertoire n’a pu être lu."
 
 #: wp-admin/includes/class-wp-upgrader.php:208
-#: wp-admin/includes/update-core.php:417
+#: wp-admin/includes/update-core.php:435
 msgid "Enabling Maintenance mode&#8230;"
 msgstr "Activation du mode maintenance&#8230;"
 
 #: wp-admin/includes/class-wp-upgrader.php:209
-#: wp-admin/includes/update-core.php:501
+#: wp-admin/includes/update-core.php:519
 msgid "Disabling Maintenance mode&#8230;"
 msgstr "Désactivation du mode maintenance&#8230;"
 
@@ -9304,7 +9304,9 @@ msgid "Retraceur does not support WP Comments."
 msgstr "Retraceur ne supporte pas la fonctionnalité des commentaires."
 
 #: wp-admin/includes/deprecated.php:3884 wp-admin/includes/deprecated.php:3916
-msgid "Sorry, searching plugins to install via AJAX since Retraceur 4.0.0."
+msgid ""
+"Sorry, searching plugins to install via AJAX is no more supported since "
+"Retraceur 4.0.0."
 msgstr ""
 "Désolé, la recherche d’extensions à installer via AJAX n’est plus supportée "
 "depuis la version 4.0.0 de Retraceur."
@@ -9667,7 +9669,7 @@ msgid "Could not extract file from archive."
 msgstr "Impossible d’extraire les fichiers depuis l’archive."
 
 #: wp-admin/includes/file.php:1104 wp-admin/includes/file.php:1263
-#: wp-admin/includes/file.php:1321 wp-admin/includes/update-core.php:542
+#: wp-admin/includes/file.php:1321 wp-admin/includes/update-core.php:560
 msgid "Could not copy file."
 msgstr "Impossible de copier le fichier."
 
@@ -12148,16 +12150,16 @@ msgstr ""
 "(Retraceur n’a pas été en mesure d’établir une connexion sécurisée avec "
 "l’API de traduction. Merci de contacter l’administrateur de votre serveur.)"
 
-#: wp-admin/includes/update-core.php:277
+#: wp-admin/includes/update-core.php:295
 msgid "Verifying the unpacked files&#8230;"
 msgstr "Vérification des fichiers décompressés&#8230;"
 
-#: wp-admin/includes/update-core.php:290
+#: wp-admin/includes/update-core.php:308
 msgid "The update could not be unpacked"
 msgstr "La mise à jour ne peut pas être décompressée"
 
 #. translators: 1: Retraceur version number, 2: Minimum required PHP version number, 3: Minimum required MySQL version number, 4: Current PHP version number, 5: Current MySQL version number.
-#: wp-admin/includes/update-core.php:350
+#: wp-admin/includes/update-core.php:368
 #, php-format
 msgid ""
 "The update cannot be installed because Retraceur %1$s requires PHP version "
@@ -12170,7 +12172,7 @@ msgstr ""
 "version %5$s."
 
 #. translators: 1: Retraceur version number, 2: Minimum required PHP version number, 3: Current PHP version number.
-#: wp-admin/includes/update-core.php:363
+#: wp-admin/includes/update-core.php:381
 #, php-format
 msgid ""
 "The update cannot be installed because Retraceur %1$s requires PHP version "
@@ -12181,7 +12183,7 @@ msgstr ""
 "version %3$s."
 
 #. translators: 1: Retraceur version number, 2: Minimum required MySQL version number, 3: Current MySQL version number.
-#: wp-admin/includes/update-core.php:374
+#: wp-admin/includes/update-core.php:392
 #, php-format
 msgid ""
 "The update cannot be installed because Retraceur %1$s requires MySQL version "
@@ -12192,7 +12194,7 @@ msgstr ""
 "MySQL version %3$s."
 
 #. translators: 1: Retraceur version number, 2: The PHP extension name needed.
-#: wp-admin/includes/update-core.php:394
+#: wp-admin/includes/update-core.php:412
 #, php-format
 msgid ""
 "The update cannot be installed because Retraceur %1$s requires the %2$s PHP "
@@ -12201,15 +12203,15 @@ msgstr ""
 "La mise à jour ne peut pas être installée car Retraceur %1$s nécessite "
 "l’extension PHP %2$s."
 
-#: wp-admin/includes/update-core.php:408
+#: wp-admin/includes/update-core.php:426
 msgid "Preparing to install the latest version&#8230;"
 msgstr "Préparation de l’installation de la dernière version&#8230;"
 
-#: wp-admin/includes/update-core.php:426
+#: wp-admin/includes/update-core.php:444
 msgid "Copying the required files&#8230;"
 msgstr "Copie des fichiers nécessaires&#8230;"
 
-#: wp-admin/includes/update-core.php:445
+#: wp-admin/includes/update-core.php:463
 msgid ""
 "The update cannot be installed because your site is unable to copy some "
 "files. This is usually due to inconsistent file permissions."
@@ -12218,7 +12220,7 @@ msgstr ""
 "copier certains fichiers. Ce problème est généralement dû à des incohérences "
 "dans les permissions de fichiers."
 
-#: wp-admin/includes/update-core.php:595
+#: wp-admin/includes/update-core.php:656
 msgid "Upgrading database&#8230;"
 msgstr "Mise à jour de la base de données&#8230;"
 
@@ -18349,627 +18351,3 @@ msgstr "Les widgets ne sont pas supportés dans Retraceur."
 #: wp-admin/widgets.php:14
 msgid "Retraceur does not provide Widgets."
 msgstr "Retraceur ne fournit pas de Widgets."
-
-#~ msgid "Invalid data. No selected item."
-#~ msgstr "Données non valides. Aucun élément sélectionné."
-
-#~ msgid "Invalid data. Unknown state."
-#~ msgstr "Données non valides. État inconnu."
-
-#~ msgid "Invalid data. Unknown type."
-#~ msgstr "Données non valides. Type inconnu."
-
-#~ msgid "Sorry, you are not allowed to modify plugins."
-#~ msgstr "Désolé, vous n’avez pas l’autorisation de modifier les extensions."
-
-#~ msgid "Sorry, you are not allowed to modify themes."
-#~ msgstr "Désolé, vous n’avez pas l’autorisation de modifier les thèmes."
-
-#~ msgid "Invalid data. The item does not exist."
-#~ msgstr "Données non valides. L’élément n’existe pas."
-
-#~ msgid "Go to Plugin Installer"
-#~ msgstr "Aller à l’installeur d’extensions"
-
-#~ msgid "Go to Block Installer"
-#~ msgstr "Aller à l’installeur de bloc"
-
-#, php-format
-#~ msgid "The \"%s\" argument must be a non-empty string."
-#~ msgstr "L’argument « %s » doit être une chaine non vide."
-
-#~ msgid "Auto-updates disabled"
-#~ msgstr "Mises à jour auto désactivées"
-
-#~ msgid "Auto-updates"
-#~ msgstr "Mises à jour auto"
-
-#~ msgid "Auto-update"
-#~ msgstr "Mise à jour auto"
-
-#, php-format
-#~ msgid "&#8220;%s&#8221; (Edit)"
-#~ msgstr "« %s » (Modifier)"
-
-#~ msgctxt "Plugin Installer"
-#~ msgid "Beta Testing"
-#~ msgstr "Test de phase beta"
-
-#~ msgctxt "Plugin Installer"
-#~ msgid "All"
-#~ msgstr "Tout"
-
-#~ msgctxt "Plugin Installer"
-#~ msgid "Featured"
-#~ msgstr "Mises en avant"
-
-#~ msgid "No plugins found. Try a different search."
-#~ msgstr "Aucune extension trouvée. Essayez une recherche différente."
-
-#~ msgid ""
-#~ "Blocks are pieces of content of a post, page or template of your site. "
-#~ "You may upload a block in .zip format by clicking the button at the top "
-#~ "of this page."
-#~ msgstr ""
-#~ "Les blocs sont des fragments de contenus d’un article, d’une page ou d’un "
-#~ "gabarit de votre site. Vous pouvez charger un bloc au format .zip en "
-#~ "cliquant sur le bouton du haut de cette page."
-
-#~ msgid ""
-#~ "Plugins extend and expand the functionality of Retraceur. You may upload "
-#~ "a plugin in .zip format by clicking the button at the top of this page."
-#~ msgstr ""
-#~ "Les extensions étendent les fonctionnalités de Retraceur, et en ajoutent "
-#~ "de nouvelles. Vous pouvez installer des extensions en les chargeant une "
-#~ "par une au format .zip grâce au bouton situé en haut de cette page."
-
-#~ msgctxt "Plugin installer group title"
-#~ msgid "Performance"
-#~ msgstr "Performances"
-
-#~ msgctxt "Plugin installer group title"
-#~ msgid "Social"
-#~ msgstr "Social"
-
-#~ msgctxt "Plugin installer group title"
-#~ msgid "Tools"
-#~ msgstr "Outils"
-
-#~ msgid "More Details"
-#~ msgstr "Plus de détails"
-
-#~ msgid "Last Updated:"
-#~ msgstr "Dernière mise à jour :"
-
-#, php-format
-#~ msgctxt "Active plugin installations"
-#~ msgid "%s+ Million"
-#~ msgid_plural "%s+ Million"
-#~ msgstr[0] "%s million et +"
-#~ msgstr[1] "%s millions et +"
-
-#~ msgctxt "Active plugin installations"
-#~ msgid "Less Than 10"
-#~ msgstr "Inférieur à 10"
-
-#, php-format
-#~ msgid "%s Active Installations"
-#~ msgstr "%s installations actives"
-
-#~ msgid "Untested with your version of Retraceur"
-#~ msgstr "Non testé avec votre version de Retraceur"
-
-#~ msgid "<strong>Incompatible</strong> with your version of Retraceur"
-#~ msgstr "<strong>Incompatible</strong> avec votre version de Retraceur"
-
-#~ msgid "<strong>Compatible</strong> with your version of Retraceur"
-#~ msgstr "<strong>Compatible</strong> avec votre version de Retraceur"
-
-#~ msgid "Additional plugins are required"
-#~ msgstr "Des extensions supplémentaires sont nécessaires."
-
-#~ msgid "Automatic Updates"
-#~ msgstr "Mises à jour automatiques"
-
-#, php-format
-#~ msgid "Auto-updates Enabled <span class=\"count\">(%s)</span>"
-#~ msgid_plural "Auto-updates Enabled <span class=\"count\">(%s)</span>"
-#~ msgstr[0] "Mises à jour auto activées <span class=\"count\">(%s)</span>"
-#~ msgstr[1] "Mises à jour auto activées <span class=\"count\">(%s)</span>"
-
-#, php-format
-#~ msgid "Auto-updates Disabled <span class=\"count\">(%s)</span>"
-#~ msgid_plural "Auto-updates Disabled <span class=\"count\">(%s)</span>"
-#~ msgstr[0] "Mises à jour auto désactivées <span class=\"count\">(%s)</span>"
-#~ msgstr[1] "Mises à jour auto désactivées <span class=\"count\">(%s)</span>"
-
-#~ msgid "Enable Auto-updates"
-#~ msgstr "Activer les mises à jour auto"
-
-#~ msgid "Disable Auto-updates"
-#~ msgstr "Désactiver les mises à jour auto"
-
-#~ msgid "View details"
-#~ msgstr "Afficher les détails"
-
-#~ msgid "Disable auto-updates"
-#~ msgstr "Désactiver les mises à jour auto"
-
-#~ msgid "Enable auto-updates"
-#~ msgstr "Activer les mises à jour auto"
-
-#, php-format
-#~ msgid "A plugin has prevented updates by disabling %s."
-#~ msgstr "Une extension a empêché les mises à jour en désactivant %s."
-
-#, php-format
-#~ msgid "The %s filter is disabled."
-#~ msgstr "Le filtre %s est désactivé."
-
-#, php-format
-#~ msgid ""
-#~ "The folder %1$s was detected as being under version control (%2$s), but "
-#~ "the %3$s filter is allowing updates."
-#~ msgstr ""
-#~ "Le dossier %1$s a été détecté comme disposant d’un système de contrôle de "
-#~ "version (%2$s), mais le filtre %3$s autorise les mises à jour."
-
-#, php-format
-#~ msgid "The folder %1$s was detected as being under version control (%2$s)."
-#~ msgstr ""
-#~ "Le dossier %1$s a été détecté comme disposant d’un système de contrôle de "
-#~ "version (%2$s)."
-
-#~ msgid "No version control systems were detected."
-#~ msgstr "Aucun système de contrôle de version n’a été détecté."
-
-#~ msgid ""
-#~ "Your installation of Retraceur prompts for FTP credentials to perform "
-#~ "updates."
-#~ msgstr ""
-#~ "Votre installation de Retraceur demande des informations d’identification "
-#~ "FTP pour effectuer les mises à jour."
-
-#~ msgid ""
-#~ "(Your site is performing updates over FTP due to file ownership. Talk to "
-#~ "your hosting company.)"
-#~ msgstr ""
-#~ "(Votre site effectue les mises à jour par FTP en raison de la propriété "
-#~ "du fichier. Parlez-en à votre hébergeur.)"
-
-#~ msgid ""
-#~ "Your installation of Retraceur does not require FTP credentials to "
-#~ "perform updates."
-#~ msgstr ""
-#~ "Votre installation de Retraceur ne nécessite pas d’identifiants FTP pour "
-#~ "effectuer les mises à jour."
-
-#~ msgid "Some files are not writable by Retraceur:"
-#~ msgstr "Certains fichiers ne sont pas accessibles par Retraceur :"
-
-#~ msgid "All of your Retraceur files are writable."
-#~ msgstr "Tous vos fichiers Retraceur sont accessibles en écriture."
-
-#~ msgid "Coeur updates are working"
-#~ msgstr "Les mises à jour du cœur sont opérationnelles"
-
-#~ msgid ""
-#~ "Retraceur Coeur update checks help you be aware when a security update is "
-#~ "released for the version you are currently using."
-#~ msgstr ""
-#~ "Les vérifications de mise à jour du cœur de Retraceur vous aident à être "
-#~ "averti·e lorsqu’une mise à jour de sécurité est publiée pour la version "
-#~ "que vous utilisez actuellement."
-
-#~ msgid "Passed"
-#~ msgstr "Passé"
-
-#~ msgid "Retraceur Coeur updates are not working as expected"
-#~ msgstr ""
-#~ "Les mises à jour du cœur de Retraceur ne fonctionnent pas comme attendues"
-
-#~ msgid "Retraceur Coeur updates may not be working properly"
-#~ msgstr ""
-#~ "Les mises à jour du Cœur de Retraceur peuvent ne pas être complètement "
-#~ "opérationnelles"
-
-#~ msgid "Retraceur Coeur updates"
-#~ msgstr "Mises à niveau du cœur de Retraceur"
-
-#, php-format
-#~ msgid "%s Post"
-#~ msgid_plural "%s Posts"
-#~ msgstr[0] "%s article"
-#~ msgstr[1] "%s articles"
-
-#, php-format
-#~ msgid "%s Page"
-#~ msgid_plural "%s Pages"
-#~ msgstr[0] "%s page"
-#~ msgstr[1] "%s pages"
-
-#, php-format
-#~ msgid ""
-#~ "Retraceur does not provide a %s, yet! It will soon do so, the independant "
-#~ "way."
-#~ msgstr ""
-#~ "Retraceur ne fournit pas %s, pour le moment ! Il en fournira une très "
-#~ "bientôt, de manière totalement indépendante."
-
-#~ msgid "Block Install API"
-#~ msgstr "d’API d’installation de blocs"
-
-#~ msgid "Plugin Install API"
-#~ msgstr "d’API d’installation d’extensions"
-
-#~ msgid ""
-#~ "(Retraceur could not establish a secure connection to Plugin Installation "
-#~ "API. Please contact your server administrator.)"
-#~ msgstr ""
-#~ "(Retraceur n’a pas été en mesure d’établir une connexion sécurisée à une "
-#~ "API d’installation d’extensions. Merci de contacter l’administrateur de "
-#~ "votre serveur.)"
-
-#~ msgid "Popular tags"
-#~ msgstr "Étiquettes populaires"
-
-#~ msgid ""
-#~ "You may also browse based on the most popular tags in the Plugin "
-#~ "Directory:"
-#~ msgstr ""
-#~ "Vous pouvez également naviguer en fonction des étiquettes les plus "
-#~ "populaires sur le répertoire des extensions :"
-
-#, php-format
-#~ msgid "%s plugin"
-#~ msgstr "%s extension"
-
-#, php-format
-#~ msgid "%s plugins"
-#~ msgstr "%s extensions"
-
-#~ msgid "Search Plugins"
-#~ msgstr "Rechercher des extensions"
-
-#~ msgid "Search plugins by:"
-#~ msgstr "Rechercher des extensions par :"
-
-#~ msgid "Search Blocks"
-#~ msgstr "Rechercher des blocs"
-
-#~ msgid "Search blocks by:"
-#~ msgstr "Rechercher des blocs par :"
-
-#~ msgctxt "Plugin Installer"
-#~ msgid "Tag"
-#~ msgstr "Étiquette"
-
-#~ msgid ""
-#~ "You are using a development version of Retraceur. These feature plugins "
-#~ "are also under development."
-#~ msgstr ""
-#~ "Vous utilisez une version en développement de Retraceur, tout comme ces "
-#~ "extensions. "
-
-#~ msgctxt "Plugin installer section title"
-#~ msgid "Description"
-#~ msgstr "Description"
-
-#~ msgctxt "Plugin installer section title"
-#~ msgid "Installation"
-#~ msgstr "Installation"
-
-#~ msgctxt "Plugin installer section title"
-#~ msgid "FAQ"
-#~ msgstr "FAQ"
-
-#~ msgctxt "Plugin installer section title"
-#~ msgid "Screenshots"
-#~ msgstr "Captures d’écrans"
-
-#~ msgctxt "Plugin installer section title"
-#~ msgid "Changelog"
-#~ msgstr "Journal des modifications"
-
-#~ msgctxt "Plugin installer section title"
-#~ msgid "Reviews"
-#~ msgstr "Avis"
-
-#~ msgctxt "Plugin installer section title"
-#~ msgid "Other Notes"
-#~ msgstr "Autres notes"
-
-#~ msgid "Plugin Installation"
-#~ msgstr "Installation de l’extension"
-
-#~ msgid "Author:"
-#~ msgstr "Auteur·es :"
-
-#~ msgid "Requires Retraceur Version:"
-#~ msgstr "Version de Retraceur requise :"
-
-#, php-format
-#~ msgid "%s or higher"
-#~ msgstr "%s ou plus"
-
-#~ msgid "Compatible up to:"
-#~ msgstr "Compatible jusqu’à la version : "
-
-#~ msgid "Requires PHP Version:"
-#~ msgstr "Nécessite PHP en version :"
-
-#~ msgid "Active Installations:"
-#~ msgstr "Installations actives :"
-
-#~ msgid "Plugin Homepage &#187;"
-#~ msgstr "Site de l’extension &#187;"
-
-#~ msgid "Donate to this plugin &#187;"
-#~ msgstr "Faire un don à cette extension &#187;"
-
-#~ msgid "Average Rating"
-#~ msgstr "Moyenne des notes"
-
-#, php-format
-#~ msgid "(based on %s rating)"
-#~ msgid_plural "(based on %s ratings)"
-#~ msgstr[0] "(basée sur %s vote)"
-#~ msgstr[1] "(basée sur %s votes)"
-
-#~ msgctxt "plugin credits"
-#~ msgid "Contributors"
-#~ msgstr "Crédits"
-
-#~ msgid ""
-#~ "<strong>Error:</strong> This plugin <strong>requires a newer version of "
-#~ "PHP</strong>."
-#~ msgstr ""
-#~ "<strong>Erreur :</strong> Cette extension <strong>nécessite une version "
-#~ "plus récente de PHP</strong>."
-
-#~ msgid ""
-#~ "<strong>Warning:</strong> This plugin <strong>has not been tested</"
-#~ "strong> with your current version of Retraceur."
-#~ msgstr ""
-#~ "<strong>Avertissement :</strong> cette extension <strong>n’a pas été "
-#~ "testée</strong> avec votre version actuelle de Retraceur."
-
-#~ msgid ""
-#~ "<strong>Error:</strong> This plugin <strong>requires a newer version of "
-#~ "Retraceur</strong>."
-#~ msgstr ""
-#~ "<strong>Erreur :</strong> cette extension <strong>nécessite une version "
-#~ "plus récente de Retraceur</strong>."
-
-#, php-format
-#~ msgid ""
-#~ "<a href=\"%s\" target=\"_parent\">Click here to update Retraceur</a>."
-#~ msgstr ""
-#~ "<a href=\"%s\" target=\"_parent\">Cliquer ici pour mettre Retraceur à "
-#~ "jour</a>."
-
-#, php-format
-#~ msgctxt "plugin"
-#~ msgid "Install %s now"
-#~ msgstr "Installer %s maintenant"
-
-#, php-format
-#~ msgctxt "plugin"
-#~ msgid "Update %s now"
-#~ msgstr "Mettre à jour %s maintenant"
-
-#~ msgctxt "plugin"
-#~ msgid "Update Now"
-#~ msgstr "Mettre à jour maintenant"
-
-#~ msgctxt "plugin"
-#~ msgid "Active"
-#~ msgstr "Actif"
-
-#~ msgctxt "plugin"
-#~ msgid "Installed"
-#~ msgstr "Installée"
-
-#~ msgid "There is not enough free disk space to complete the update."
-#~ msgstr ""
-#~ "Il n’y a pas assez d’espace sur le disque pour terminer la mise à jour."
-
-#, php-format
-#~ msgctxt "plugin"
-#~ msgid ""
-#~ "There is a new version of %1$s available. <a href=\"%2$s\" %3$s>View "
-#~ "version %4$s details</a>."
-#~ msgstr ""
-#~ "Une nouvelle version pour %1$s est disponible. <a href=\"%2$s\" "
-#~ "%3$s>Afficher les détails de la version %4$s</a>."
-
-#, php-format
-#~ msgctxt "plugin"
-#~ msgid "View %1$s version %2$s details"
-#~ msgstr "Voir les détails de la version %2$s de %1$s"
-
-#, php-format
-#~ msgctxt "plugin"
-#~ msgid ""
-#~ "There is a new version of %1$s available. <a href=\"%2$s\" %3$s>View "
-#~ "version %4$s details</a>. <em>Automatic update is unavailable for this "
-#~ "plugin.</em>"
-#~ msgstr ""
-#~ "Une nouvelle version pour %1$s est disponible. <a href=\"%2$s\" "
-#~ "%3$s>Afficher les détails de la version %4$s</a>. <em>La mise à jour "
-#~ "automatique n’est pas disponible pour cette extension.</em>"
-
-#, php-format
-#~ msgctxt "plugin"
-#~ msgid ""
-#~ "There is a new version of %1$s available. <a href=\"%2$s\" %3$s>View "
-#~ "version %4$s details</a> or <a href=\"%5$s\" %6$s>update now</a>."
-#~ msgstr ""
-#~ "Une nouvelle version pour %1$s est disponible. <a href=\"%2$s\" "
-#~ "%3$s>Afficher les détails de la version %4$s</a> ou <a href=\"%5$s\" "
-#~ "%6$s>mettre à jour maintenant</a>."
-
-#, php-format
-#~ msgid ""
-#~ "There is a new version of %1$s available, but it does not work with your "
-#~ "version of PHP. <a href=\"%2$s\" %3$s>View version %4$s details</a>."
-#~ msgstr ""
-#~ "Il existe une nouvelle version disponible de %1$s, mais elle ne "
-#~ "fonctionne pas avec votre version de PHP. <a href=\"%2$s\" %3$s>Voir les "
-#~ "détails de la version %4$s</a>."
-
-#~ msgid "Automatic update not scheduled. There may be a problem with WP-Cron."
-#~ msgstr ""
-#~ "Mise à jour automatique non planifiée. Il peut y avoir un problème avec "
-#~ "WP-Cron."
-
-#, php-format
-#~ msgid "Automatic update overdue by %s. There may be a problem with WP-Cron."
-#~ msgstr ""
-#~ "La mise à jour automatique est en retard de %s. Il peut y avoir un "
-#~ "problème avec WP-Cron."
-
-#, php-format
-#~ msgid "Automatic update scheduled in %s."
-#~ msgstr "Mise à jour automatique planifiée dans %s."
-
-#, php-format
-#~ msgid "Plugins %s"
-#~ msgstr "Extensions %s"
-
-#~ msgid "Add Plugin"
-#~ msgstr "Ajouter une extension"
-
-#~ msgid "Add Block"
-#~ msgstr "Ajouter un bloc"
-
-#~ msgid "Add Plugins"
-#~ msgstr "Ajouter des extensions"
-
-#~ msgctxt "block install page title"
-#~ msgid "Add Blocks"
-#~ msgstr "Ajouter des blocs"
-
-#~ msgid "Sorry, you are not allowed to manage blocks automatic updates."
-#~ msgstr ""
-#~ "Désolé, vous n’êtes pas autorisé·e à gérer les mises à jour automatiques "
-#~ "de bloc."
-
-#~ msgid "Sorry, you are not allowed to manage plugins automatic updates."
-#~ msgstr ""
-#~ "Désolé, vous n’êtes pas autorisé·e à gérer les mises à jour automatiques "
-#~ "d’extension."
-
-#~ msgid ""
-#~ "Plugin or Block Dependencies aims to make the process of installing and "
-#~ "activating add-ons (dependents) and the plugins or blocks they rely on "
-#~ "(dependencies) consistent and easy."
-#~ msgstr ""
-#~ "Les dépendances d’extensions ou de blocs visent à rendre cohérent et à "
-#~ "simplifier le processus d’installation et d’activation des modules "
-#~ "(extensions ou blocs dépendants) et des extensions ou blocs requis pour "
-#~ "faire fonctionner le module (dépendances)."
-
-#~ msgid ""
-#~ "If a required block is deleted, a notice will be displayed on the Block "
-#~ "administration screen informing the contributor that there is some "
-#~ "missing dependencies to install and/or activate. Additionally, each block "
-#~ "whose dependencies are not met will have an error notice on their block "
-#~ "row."
-#~ msgstr ""
-#~ "En cas de suppression d’un bloc nécessaire, une notification sera "
-#~ "affichée sur l’écran d’administration pour indiquer au contributeur·rice "
-#~ "que des dépendances manquantes sont à installer ou à activer. De plus, "
-#~ "chaque bloc dont les dépendances ne sont pas satisfaites fera l’objet "
-#~ "d’un signalement grâce à une notification d’erreur dans la ligne "
-#~ "correspondant au bloc du tableau."
-
-#~ msgid ""
-#~ "If a dependent block is missing some dependencies, its activation button "
-#~ "will be disabled until the required dependencies are activated."
-#~ msgstr ""
-#~ "Si un bloc a des dépendances insatisfaites, son bouton d‘activation sera "
-#~ "désactivé jusqu‘à ce que les dépendances nécessaires soient activées."
-
-#~ msgid ""
-#~ "If a required plugin is deleted, a notice will be displayed on the Plugin "
-#~ "administration screen informing the contributor that there is some "
-#~ "missing dependencies to install and/or activate. Additionally, each "
-#~ "plugin whose dependencies are not met will have an error notice on their "
-#~ "plugin row."
-#~ msgstr ""
-#~ "En cas de suppression d’une extension nécessaire, une notification sera "
-#~ "affichée sur l’écran d’administration pour indiquer au contributeur·rice "
-#~ "que des dépendances manquantes sont à installer ou à activer. De plus, "
-#~ "chaque extension dont les dépendances ne sont pas satisfaites fera "
-#~ "l’objet d’un signalement grâce à une notification d’erreur dans la ligne "
-#~ "correspondant à l’extension du tableau."
-
-#~ msgid ""
-#~ "If a dependent plugin is missing some dependencies, its activation button "
-#~ "will be disabled until the required dependencies are activated."
-#~ msgstr ""
-#~ "Si une extension a des dépendances insatisfaites, son bouton d‘activation "
-#~ "sera désactivé jusqu‘à ce que les dépendances nécessaires soient activées."
-
-#~ msgid "Dependencies"
-#~ msgstr "Dépendances"
-
-#~ msgid "Block will be auto-updated."
-#~ msgstr "Le bloc sera mis à jour automatiquement."
-
-#~ msgid "Plugin will be auto-updated."
-#~ msgstr "L’extension sera mise à jour automatiquement."
-
-#~ msgid "Block will no longer be auto-updated."
-#~ msgstr "Le bloc ne sera plus mis à jour automatiquement."
-
-#~ msgid "Plugin will no longer be auto-updated."
-#~ msgstr "L’extension ne sera plus mise à jour automatiquement."
-
-#~ msgid "Selected blocks will be auto-updated."
-#~ msgstr "Les blocs sélectionnés seront mis à jour automatiquement."
-
-#~ msgid "Selected plugins will be auto-updated."
-#~ msgstr "Les extensions sélectionnées seront mises à jour automatiquement."
-
-#~ msgid "Selected blocks will no longer be auto-updated."
-#~ msgstr "Les blocs sélectionnés ne seront plus mis à jour automatiquement."
-
-#~ msgid "Sorry, you are not allowed to enable themes automatic updates."
-#~ msgstr ""
-#~ "Désolé, vous n’avez pas l’autorisation d’activer les mises à jour "
-#~ "automatiques de thèmes."
-
-#~ msgid "Sorry, you are not allowed to disable themes automatic updates."
-#~ msgstr ""
-#~ "Désolé, vous n’avez pas l’autorisation de désactiver les mises à jour "
-#~ "automatiques des thèmes."
-
-#~ msgid "Theme will be auto-updated."
-#~ msgstr "Le thème sera mis à jour automatiquement."
-
-#~ msgid "Theme will no longer be auto-updated."
-#~ msgstr "Le thème ne sera plus mis à jour automatiquement."
-
-#~ msgid "Retraceur does not provide an API to update plugins yet."
-#~ msgstr ""
-#~ "Retraceur ne fournit pas encore d’API de mises à jour des extensions."
-
-#~ msgid ""
-#~ "You can always go to the Plugin’s \"Add new\" screen to upload and "
-#~ "replace outdated packages."
-#~ msgstr ""
-#~ "Vous pouvez toujours vous rendre sur l’écran d’ajout d’une extension pour "
-#~ "charger et remplacer les versions dépassées."
-
-#, php-format
-#~ msgid "Installing Plugin: %s"
-#~ msgstr "Extension en cours d’installation : %s"
-
-#~ msgid ""
-#~ "The current contributor&#8217;s role must have contributor editing "
-#~ "capabilities."
-#~ msgstr ""
-#~ "Le•la contributeur·rice·s actuel·le doit avoir un rôle lui permettant de "
-#~ "modifier les permissions des utilisateur·rice·s."
