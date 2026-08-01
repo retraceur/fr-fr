@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Retraceur 4.0.0\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
-"POT-Creation-Date: 2026-07-17T15:24:23+00:00\n"
-"PO-Revision-Date: 2026-07-17 18:03+0200\n"
+"POT-Creation-Date: 2026-08-01T11:46:51+00:00\n"
+"PO-Revision-Date: 2026-08-01 14:15+0200\n"
 "Last-Translator: \n"
 "Language-Team: Retraceur <retraceur@proton.me>\n"
 "Language: fr_FR\n"
@@ -17,12 +17,16 @@ msgstr ""
 #. Translators: 1: required version, 2: installed version.
 #: wp-admin/js/discovery.js:2
 msgid "Requires Retraceur %1$s or higher. You are running %2$s."
-msgstr "Nécessite Retraceur %1$s ou une version supérieure. Vous utilisez actuellement la version %2$s."
+msgstr ""
+"Nécessite Retraceur %1$s ou une version supérieure. Vous utilisez "
+"actuellement la version %2$s."
 
 #. Translators: 1: required version, 2: installed version.
 #: wp-admin/js/discovery.js:3
 msgid "Requires PHP %1$s or higher. You are running %2$s."
-msgstr "Nécessite PHP %1$s ou une version supérieure. Vous utilisez actuellement la version %2$s."
+msgstr ""
+"Nécessite PHP %1$s ou une version supérieure. Vous utilisez actuellement la "
+"version %2$s."
 
 #: wp-admin/js/discovery.js:3
 msgid "Preview image"
@@ -195,3 +199,28 @@ msgstr "Aucun journal des évolutions n’est disponible."
 #: wp-admin/js/discovery.js:11
 msgid "Repository details"
 msgstr "Détails du dépôt"
+
+#: wp-admin/js/discovery.js:11
+msgid "No available Blocks yet"
+msgstr "Aucun bloc disponible à ce jour."
+
+#: wp-admin/js/discovery.js:11
+msgid "No available Plugins yet"
+msgstr "Aucune extension disponible à ce jour."
+
+#: wp-admin/js/discovery.js:11
+msgid "Get started by building & publishing a Block."
+msgstr "Commencez par créer et publier un bloc."
+
+#: wp-admin/js/discovery.js:11
+msgid "Get started by building & publishing a Plugin."
+msgstr "Commencez par créer et publier une extension."
+
+#. translators: use the documentation URL of your language.
+#: wp-admin/js/discovery.js:12
+msgid "https://retraceur.github.io/plugins/publish/"
+msgstr "https://retraceur.github.io/fr/plugins/publish/"
+
+#: wp-admin/js/discovery.js:12
+msgid "Read more about it"
+msgstr "En savoir plus"
