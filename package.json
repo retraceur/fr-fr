@@ -1,6 +1,6 @@
 {
 	"name": "fr-fr",
-	"version": "4.0.0-beta3",
+	"version": "4.0.0-RC1",
 	"description": "French translation files for Retraceur",
 	"scripts": {
 		"makejson": "./tools/makejson.sh",
