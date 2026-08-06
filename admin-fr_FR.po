@@ -2,10 +2,10 @@
 # This file is distributed under the GPL-2.0+ license.
 msgid ""
 msgstr ""
-"Project-Id-Version: Retraceur - 4.0.0 - Administration\n"
+"Project-Id-Version: Retraceur - 4.1.0 - Administration\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
-"POT-Creation-Date: 2026-08-01T12:04:36+00:00\n"
-"PO-Revision-Date: 2026-08-01 14:10+0200\n"
+"POT-Creation-Date: 2026-08-06T20:52:54+00:00\n"
+"PO-Revision-Date: 2026-08-06 22:56+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -12591,31 +12591,36 @@ msgstr ""
 msgid "New Retraceur Site"
 msgstr "Nouveau site Retraceur"
 
-#: wp-admin/includes/user.php:64 wp-admin/users.php:143
+#: wp-admin/includes/user.php:66 wp-admin/users.php:143
 msgid "Sorry, you are not allowed to give contributors that role."
 msgstr ""
 "Désolé, vous n’avez pas l’autorisation d’assigner ce rôle à ces "
 "contributeur·rice·s."
 
-#: wp-admin/includes/user.php:152
+#: wp-admin/includes/user.php:89 wp-admin/includes/user.php:214
+msgid "<strong>Error:</strong> The email address is not correct."
+msgstr ""
+"<strong>Erreur :</strong> veuillez saisir une adresse de courriel correcte."
+
+#: wp-admin/includes/user.php:157
 msgid "<strong>Error:</strong> Please enter a username."
 msgstr "<strong>Erreur :</strong> veuillez saisir un nom d’utilisateur·rice."
 
-#: wp-admin/includes/user.php:157
+#: wp-admin/includes/user.php:162
 msgid "<strong>Error:</strong> Please enter a nickname."
 msgstr "<strong>Erreur :</strong> veuillez saisir un pseudonyme."
 
-#: wp-admin/includes/user.php:173
+#: wp-admin/includes/user.php:178
 msgid "<strong>Error:</strong> Please enter a password."
 msgstr "<strong>Erreur :</strong> veuillez saisir un mot de passe."
 
-#: wp-admin/includes/user.php:178
+#: wp-admin/includes/user.php:183
 msgid "<strong>Error:</strong> Passwords may not contain the character \"\\\"."
 msgstr ""
 "<strong>Erreur :</strong> le mot de passe ne doit pas contenir le caractère "
 "« \\ »."
 
-#: wp-admin/includes/user.php:183
+#: wp-admin/includes/user.php:188
 msgid ""
 "<strong>Error:</strong> Passwords do not match. Please enter the same "
 "password in both password fields."
@@ -12623,7 +12628,7 @@ msgstr ""
 "<strong>Erreur :</strong> les mots de passe ne correspondent pas. Veuillez "
 "saisir le même mot de passe dans les deux champs."
 
-#: wp-admin/includes/user.php:191
+#: wp-admin/includes/user.php:196
 msgid ""
 "<strong>Error:</strong> This username is invalid because it uses illegal "
 "characters. Please enter a valid username."
@@ -12632,7 +12637,7 @@ msgstr ""
 "contient des caractères illégaux. Merci de saisir un nom d’utilisateur·rice "
 "valide."
 
-#: wp-admin/includes/user.php:195
+#: wp-admin/includes/user.php:200
 msgid ""
 "<strong>Error:</strong> This username is already registered. Please choose "
 "another one."
@@ -12640,21 +12645,16 @@ msgstr ""
 "<strong>Erreur :</strong> ce nom d’utilisateur·rice est déjà enregistré. "
 "Veuillez en choisir un autre."
 
-#: wp-admin/includes/user.php:202
+#: wp-admin/includes/user.php:207
 msgid "<strong>Error:</strong> Sorry, that username is not allowed."
 msgstr ""
 "<strong>Erreur :</strong> désolé, ce nom d’utilisateur·rice est proscrit."
 
-#: wp-admin/includes/user.php:207
+#: wp-admin/includes/user.php:212
 msgid "<strong>Error:</strong> Please enter an email address."
 msgstr "<strong>Erreur :</strong> veuillez saisir une adresse courriel."
 
-#: wp-admin/includes/user.php:209
-msgid "<strong>Error:</strong> The email address is not correct."
-msgstr ""
-"<strong>Erreur :</strong> veuillez saisir une adresse de courriel correcte."
-
-#: wp-admin/includes/user.php:213
+#: wp-admin/includes/user.php:218
 msgid ""
 "<strong>Error:</strong> This email is already registered. Please choose "
 "another one."
@@ -12662,11 +12662,11 @@ msgstr ""
 "<strong>Erreur :</strong> ce courriel est déjà enregistré. Veuillez en "
 "choisir un autre."
 
-#: wp-admin/includes/user.php:525
+#: wp-admin/includes/user.php:530
 msgid "Notice:"
 msgstr "Avertissement :"
 
-#: wp-admin/includes/user.php:526
+#: wp-admin/includes/user.php:531
 msgid ""
 "You are using the auto-generated password for your account. Would you like "
 "to change it?"
@@ -12674,24 +12674,24 @@ msgstr ""
 "Vous utilisez le mot de passe auto-généré pour votre compte. Voulez-vous le "
 "changer ?"
 
-#: wp-admin/includes/user.php:531
+#: wp-admin/includes/user.php:536
 msgid "Yes, take me to my profile page"
 msgstr "Oui, je veux aller sur mon profil maintenant"
 
-#: wp-admin/includes/user.php:536
+#: wp-admin/includes/user.php:541
 msgid "No thanks, do not remind me again"
 msgstr "Non, ne pas me relancer à ce sujet"
 
-#: wp-admin/includes/user.php:580
+#: wp-admin/includes/user.php:585
 msgid "Use https"
 msgstr "Utiliser https"
 
-#: wp-admin/includes/user.php:581
+#: wp-admin/includes/user.php:586
 msgid "Always use https when visiting the admin"
 msgstr "Toujours utiliser HTTPS lors de l’utilisation de l’administration"
 
 #. translators: 1: Site title, 2: Site URL, 3: User role.
-#: wp-admin/includes/user.php:604
+#: wp-admin/includes/user.php:609
 #, php-format
 msgid ""
 "Hi,\n"
@@ -12712,15 +12712,15 @@ msgstr ""
 "Veuillez cliquer sur le lien suivant pour activer votre compte :\n"
 "%%s"
 
-#: wp-admin/includes/user.php:664
+#: wp-admin/includes/user.php:669
 msgid "The application ID must be a UUID."
 msgstr "L’ID de l’application doit être un UUID."
 
-#: wp-admin/includes/user.php:708 wp-admin/includes/user.php:731
+#: wp-admin/includes/user.php:713 wp-admin/includes/user.php:736
 msgid "Invalid URL format."
 msgstr "Format d’URL invalide."
 
-#: wp-admin/includes/user.php:745
+#: wp-admin/includes/user.php:750
 msgid "The URL must be served over a secure connection."
 msgstr "L’URL doit être accédée via une connexion sécurisée."
 
