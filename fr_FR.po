@@ -2,10 +2,10 @@
 # This file is distributed under the GPL-2.0+ license.
 msgid ""
 msgstr ""
-"Project-Id-Version: Retraceur - 4.5.0\n"
+"Project-Id-Version: Retraceur - 4.6.0\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
-"POT-Creation-Date: 2026-10-06T19:25:18+00:00\n"
-"PO-Revision-Date: 2026-10-06 21:37+0200\n"
+"POT-Creation-Date: 2026-10-29T22:13:16+00:00\n"
+"PO-Revision-Date: 2026-10-29 23:17+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -2975,16 +2975,16 @@ msgstr "Élargir %1$s de %2$s"
 msgid "Enlarged image"
 msgstr "Agrandir l‘image"
 
-#: wp-includes/blocks/image.php:209 wp-includes/blocks/image.php:327 wp-includes/blocks/navigation-overlay-close.php:20 wp-includes/blocks/navigation-overlay-close.php:38 wp-includes/blocks/navigation.php:744 wp-includes/script-loader.php:847 wp-includes/script-loader.php:1687
+#: wp-includes/blocks/image.php:209 wp-includes/blocks/image.php:342 wp-includes/blocks/navigation-overlay-close.php:20 wp-includes/blocks/navigation-overlay-close.php:38 wp-includes/blocks/navigation.php:744 wp-includes/script-loader.php:847 wp-includes/script-loader.php:1687
 msgid "Close"
 msgstr "Fermer"
 
-#: wp-includes/blocks/image.php:210 wp-includes/blocks/image.php:328
+#: wp-includes/blocks/image.php:210 wp-includes/blocks/image.php:343
 msgctxt "previous image in lightbox"
 msgid "Previous"
 msgstr "Précédent"
 
-#: wp-includes/blocks/image.php:211 wp-includes/blocks/image.php:329
+#: wp-includes/blocks/image.php:211 wp-includes/blocks/image.php:344
 msgctxt "next image in lightbox"
 msgid "Next"
 msgstr "Suivant"
@@ -2999,7 +2999,7 @@ msgstr "Agrandir l‘image : %s"
 msgid "Enlarge"
 msgstr "Agrandir"
 
-#: wp-includes/blocks/image.php:326
+#: wp-includes/blocks/image.php:341
 msgid "Enlarged images"
 msgstr "Images agrandies"
 
@@ -7105,8 +7105,14 @@ msgstr "L’espace nom ou le chemin de référence ne peut être vide. Valeur de
 msgid "Uncaught error executing a derived state callback with path \"%1$s\" and namespace \"%2$s\"."
 msgstr "Erreur non résolue lors de l’exécution d’un rappel d’état dérivé avec le chemin « %1$s » et l’espace nom « %2$s »."
 
+#. translators: %s: The attribute name.
+#: wp-includes/interactivity-api/class-wp-interactivity-api.php:1046
+#, php-format
+msgid "The \"%s\" attribute cannot be bound on an \"object\" element, so the binding was ignored."
+msgstr "L'attribut « %s » ne peut pas être associé à un élément « object » ; la liaison a donc été ignorée."
+
 #. translators: %s: The directive, e.g. data-wp-on--click.
-#: wp-includes/interactivity-api/class-wp-interactivity-api.php:1041
+#: wp-includes/interactivity-api/class-wp-interactivity-api.php:1060
 #, php-format
 msgid "Binding event handler attributes is not supported. Please use \"%s\" instead."
 msgstr "La liaison des attributs des gestionnaires d'événements n'est pas prise en charge. Veuillez utiliser « %s » à la place."

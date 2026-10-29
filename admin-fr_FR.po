@@ -2,10 +2,10 @@
 # This file is distributed under the GPL-2.0+ license.
 msgid ""
 msgstr ""
-"Project-Id-Version: Retraceur - 4.5.0 - Administration\n"
+"Project-Id-Version: Retraceur - 4.6.0 - Administration\n"
 "Report-Msgid-Bugs-To: https://github.com/retraceur/coeur/issues\n"
-"POT-Creation-Date: 2026-10-06T19:24:52+00:00\n"
-"PO-Revision-Date: 2026-10-06 21:38+0200\n"
+"POT-Creation-Date: 2026-10-29T22:12:38+00:00\n"
+"PO-Revision-Date: 2026-10-29 23:15+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -6882,10 +6882,10 @@ msgid_plural "%d requests deleted successfully."
 msgstr[0] "%d demande bien supprimée."
 msgstr[1] "%d demandes bien supprimées."
 
-#. translators: %s: Email address.
+#. translators: %s: User login.
 #: wp-admin/includes/class-wp-privacy-requests-table.php:430
+#: wp-admin/includes/class-wp-users-list-table.php:534
 #, php-format
-msgctxt "user email"
 msgid "Select %s"
 msgstr "Sélectionner %s"
 
@@ -8766,7 +8766,7 @@ msgid "Invalid data provided."
 msgstr "Les données fournies ne sont pas valides."
 
 #: wp-admin/includes/class-wp-upgrader.php:188
-#: wp-admin/includes/class-wp-upgrader.php:1050 wp-admin/includes/file.php:886
+#: wp-admin/includes/class-wp-upgrader.php:1081 wp-admin/includes/file.php:886
 #: wp-admin/includes/plugin.php:1027 wp-admin/includes/theme.php:64
 msgid "Could not access filesystem."
 msgstr "Impossible d’accéder au système de fichiers."
@@ -8832,12 +8832,12 @@ msgid "A directory could not be read."
 msgstr "Un répertoire n’a pu être lu."
 
 #: wp-admin/includes/class-wp-upgrader.php:208
-#: wp-admin/includes/update-core.php:436
+#: wp-admin/includes/update-core.php:437
 msgid "Enabling Maintenance mode&#8230;"
 msgstr "Activation du mode maintenance&#8230;"
 
 #: wp-admin/includes/class-wp-upgrader.php:209
-#: wp-admin/includes/update-core.php:520
+#: wp-admin/includes/update-core.php:521
 msgid "Disabling Maintenance mode&#8230;"
 msgstr "Désactivation du mode maintenance&#8230;"
 
@@ -8958,13 +8958,6 @@ msgstr "Super-admin"
 #, php-format
 msgid "View posts by %s"
 msgstr "Voir les publications par %s"
-
-#. translators: %s: User login.
-#: wp-admin/includes/class-wp-users-list-table.php:534
-#, php-format
-msgctxt "user login"
-msgid "Select %s"
-msgstr "Sélectionner %s"
 
 #. translators: 1: User's first name, 2: Last name.
 #: wp-admin/includes/class-wp-users-list-table.php:579
@@ -9784,7 +9777,7 @@ msgid "Could not extract file from archive."
 msgstr "Impossible d’extraire les fichiers depuis l’archive."
 
 #: wp-admin/includes/file.php:1104 wp-admin/includes/file.php:1263
-#: wp-admin/includes/file.php:1321 wp-admin/includes/update-core.php:561
+#: wp-admin/includes/file.php:1321 wp-admin/includes/update-core.php:562
 msgid "Could not copy file."
 msgstr "Impossible de copier le fichier."
 
@@ -10992,20 +10985,20 @@ msgstr ""
 "l’API GitHub de mise à jour du cœur. Merci de contacter l’administrateur de "
 "votre serveur.)"
 
-#: wp-admin/includes/plugin-install.php:95
+#: wp-admin/includes/plugin-install.php:100
 msgid "An error occurred. Please try again later."
 msgstr "Une erreur est survenue. Veuillez essayer à nouveau plus tard."
 
-#: wp-admin/includes/plugin-install.php:193
-#: wp-admin/includes/plugin-install.php:237
+#: wp-admin/includes/plugin-install.php:200
+#: wp-admin/includes/plugin-install.php:244
 msgid "Please provide the repository full name."
 msgstr "Merci de fournir le nom complet du dépôt."
 
-#: wp-admin/includes/plugin-install.php:262
+#: wp-admin/includes/plugin-install.php:269
 msgid "The repository changelog is not available or empty."
 msgstr "Le journal des évolutions du dépôt n’est pas disponible ou est vide."
 
-#: wp-admin/includes/plugin-install.php:353
+#: wp-admin/includes/plugin-install.php:360
 msgid ""
 "If you have a plugin in a .zip format, you may install or update it by "
 "uploading it here."
@@ -11014,17 +11007,17 @@ msgstr ""
 "mettre à jour en la chargeant ici."
 
 #. translators: Hidden accessibility text.
-#: wp-admin/includes/plugin-install.php:359
+#: wp-admin/includes/plugin-install.php:366
 msgid "Plugin zip file"
 msgstr "Archive Zip de l’extension"
 
-#: wp-admin/includes/plugin-install.php:363
-#: wp-admin/includes/plugin-install.php:387 wp-admin/press-this.php:65
+#: wp-admin/includes/plugin-install.php:370
+#: wp-admin/includes/plugin-install.php:394 wp-admin/press-this.php:65
 msgctxt "plugin"
 msgid "Install Now"
 msgstr "Installer maintenant"
 
-#: wp-admin/includes/plugin-install.php:377
+#: wp-admin/includes/plugin-install.php:384
 msgid ""
 "If you have a block in a .zip format, you may install or update it by "
 "uploading it here."
@@ -11033,7 +11026,7 @@ msgstr ""
 "jour en le chargeant ici."
 
 #. translators: Hidden accessibility text.
-#: wp-admin/includes/plugin-install.php:383
+#: wp-admin/includes/plugin-install.php:390
 msgid "Block zip file"
 msgstr "Archive Zip du bloc"
 
@@ -12324,11 +12317,11 @@ msgstr ""
 msgid "Preparing to install the latest version&#8230;"
 msgstr "Préparation de l’installation de la dernière version&#8230;"
 
-#: wp-admin/includes/update-core.php:445
+#: wp-admin/includes/update-core.php:446
 msgid "Copying the required files&#8230;"
 msgstr "Copie des fichiers nécessaires&#8230;"
 
-#: wp-admin/includes/update-core.php:464
+#: wp-admin/includes/update-core.php:465
 msgid ""
 "The update cannot be installed because your site is unable to copy some "
 "files. This is usually due to inconsistent file permissions."
@@ -12337,7 +12330,7 @@ msgstr ""
 "copier certains fichiers. Ce problème est généralement dû à des incohérences "
 "dans les permissions de fichiers."
 
-#: wp-admin/includes/update-core.php:657
+#: wp-admin/includes/update-core.php:658
 msgid "Upgrading database&#8230;"
 msgstr "Mise à jour de la base de données&#8230;"
 
